@@ -39,11 +39,10 @@ Games and saves are saved to the internal memory not the SD card. This means all
 ##### Section II - Removal from SD Card
 
 {% capture notice-3 %}
- **You can safely remove these files and folders from the root of the SD card in the following list if you don't intend to reinstall Mocha/Haxchi:**
- 
-     + wiiu/apps/Haxchi
-     + wiiu/apps/Mocha
-     + Haxchi
+**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+
+    + DCIM
+    + private
 
 {% endcapture %}
 
