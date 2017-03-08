@@ -16,7 +16,7 @@ Your SD card must be at least 64gb in size if you have a black Wii U (32gb) mode
 Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.
 {: .notice--info}
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32kb.
 {: .notice--warning}
 
 Your SD card **cannot** be named `wiiu`, or it will cause problems.
