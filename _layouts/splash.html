@@ -1,0 +1,68 @@
+---
+layout: default
+---
+
+{% include base_path %}
+
+{% if page.header.overlay_color or page.header.overlay_image or page.header.image %}
+  {% include page__hero.html %}
+{% endif %}
+
+<div id="main" role="main">
+
+  <article class="splash" itemscope itemtype="http://schema.org/CreativeWork">
+
+    {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.excerpt %}<meta itemprop="description" content="{{ page.excerpt | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
+    {% if page.date %}<meta itemprop="datePublished" content="{{ page.date | date: "%B %d, %Y" }}">{% endif %}
+    {% if page.modified %}<meta itemprop="dateModified" content="{{ page.modified | date: "%B %d, %Y" }}">{% endif %}
+
+    <section class="page__content" itemprop="text">
+      {{ content }}
+    </section>
+  </article>
+
+  <center>
+
+  {% assign split_path = page.path | split: "/" %}
+  {% assign locale = split_path[1] %}
+  {% for link in site.data.navigation[locale].bottom %}
+    {% if link.url contains 'http' %}
+      {% assign domain = '' %}
+    {% else %}
+      {% assign domain = site.url | append: site.baseurl %}
+    {% endif %}
+    <div class ="notice--info"><b>{{ link.title }}</b></div>
+  {% endfor %}
+
+  <script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+  <!-- Guide -->
+  <ins class="adsbygoogle"
+       style="display:block"
+       data-ad-client="ca-pub-6670011780914577"
+       data-ad-slot="2889110246"
+       data-ad-format="auto"></ins>
+  <script>
+  (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+
+  <div class="alignleft">
+    <script type="text/javascript">
+    amzn_assoc_ad_type = "banner";
+    amzn_assoc_marketplace = "amazon";
+    amzn_assoc_region = "US";
+    amzn_assoc_placement = "assoc_banner_placement_default";
+    amzn_assoc_campaigns = "electronics";
+    amzn_assoc_banner_type = "rotating";
+    amzn_assoc_p = "48";
+    amzn_assoc_width = "728";
+    amzn_assoc_height = "90";
+    amzn_assoc_tracking_id = "plailect-20";
+    amzn_assoc_linkid = "cafdc4bb54991381b302c686f3ddcaeb";
+    </script>
+    <script src="//z-na.amazon-adsystem.com/widgets/q?ServiceVersion=20070822&Operation=GetScript&ID=OneJS&WS=1"></script>
+  </div>
+
+  </center>
+
+</div>

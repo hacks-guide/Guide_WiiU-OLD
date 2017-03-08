@@ -1,0 +1,51 @@
+---
+title: "Uninstall Mocha CFW" #
+lang: en
+permalink: /uninstall-mocha-cfw.html
+---
+
+This will re
+{: .notice--info}
+
+#### Instructions
+
+##### Section I - Removal from Wii U
+
+###### CBHC
+
+1. Power off your Wii U
+2. Hold (B) on boot to enter the CBHC boot menu
+3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+4. Launch the CBHC installer
+5 Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
+6. Read the warning that appears, then press (B) to uninstall
+7. When it is complete, you will be returned to the RedNAND home menu
+8. Reboot your Wii U
+9. Go to the System Settings under "Data Management" and delete your DS virtual console game
+10. Reinstall your DS virtual console game from the eShop
+
+###### Haxchi
+
+1. Go to the System Settings under "Data Management" and delete your DS virtual console game
+2. Reinstall your DS virtual console game from the eShop
+
+###### Homebrew Launcher
+
+1. Remove the bookmark from the Wii U's internet browser if you made one
+
+##### Section II - Removal from SD Card
+
+{% capture notice-3 %}
+**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+
+    + DCIM
+    + private
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-3 | markdownify }}</div>
+
+___
+
+This will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+{: .notice--info}
