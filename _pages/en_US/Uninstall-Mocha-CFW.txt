@@ -7,6 +7,9 @@ permalink: /uninstall-mocha-cfw.html
 This will remove Mocha CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--info}
 
+Games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+{: .notice--danger}
+
 #### Instructions
 
 ##### Section I - Removal from Wii U
@@ -36,11 +39,10 @@ This will remove Mocha CFW from your Wii U, regardless of install method, for th
 ##### Section II - Removal from SD Card
 
 {% capture notice-3 %}
-**You can safely remove these files and folders from the root of the SD card in the following list if you don't intend to reinstall Mocha/Haxchi:**
+**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
 
-    + wiiu/apps/Haxchi
-    + wiiu/apps/Mocha
-    + Haxchi
+    + DCIM
+    + private
 
 {% endcapture %}
 
