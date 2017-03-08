@@ -45,7 +45,7 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 
 ## What can I do with Custom Firmware?
 
-+ Play all game cards and eShop games, regardless of region
++ Play all game discs and eShop games, regardless of region
 + Backup, edit, and restore saves for many games
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
 + Install homebrew titles to your system, and have them appear on your HOME Menu
