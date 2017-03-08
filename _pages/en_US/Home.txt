@@ -8,7 +8,8 @@ header:
   cta_label: "Get Started" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to coldboothax.<br />" #
+
+excerpt: "A complete guide to Wii U custom firmware, <br /> rom stock to Coldboot Haxchi + RedNAND.<br />" #
 lang: en
 permalink: /index.html
 ---
