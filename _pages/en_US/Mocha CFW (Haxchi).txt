@@ -13,7 +13,7 @@ RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's i
 Haxchi is an exploit that allows us to launch Mocha CFW directly from the home menu without using the Homebrew Launcher.
 {: .notice--info}
 
-You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploiotable games. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
+You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploitable games. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
