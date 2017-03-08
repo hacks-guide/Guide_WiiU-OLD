@@ -31,7 +31,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 * [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/releases/latest)
+* The latest release of [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
