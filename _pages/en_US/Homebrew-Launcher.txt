@@ -4,7 +4,7 @@ lang: en
 permalink: /homebrew-launcher.html
 ---
 
-The Homebrew Launcher is a a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
 {: .notice}
 
 We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.

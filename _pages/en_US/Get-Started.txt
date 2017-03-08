@@ -10,7 +10,7 @@ These steps will prepare your SD card in preparation for installing coldboothax 
 Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
 {: .notice--info}
 
-Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be atleast 16gb in size.
+Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
 {: .notice--info}
 
 Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.

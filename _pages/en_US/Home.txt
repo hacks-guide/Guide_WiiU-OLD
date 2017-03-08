@@ -34,7 +34,7 @@ Running homebrew on your console is 100% free using nothing but the system's bro
 
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything hombebrew can do.
+**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
 
 CFW can be easily set up on any console in any region on the latest version.
 
@@ -47,8 +47,8 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 
 + Play all game discs and eShop games, regardless of region
 + Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
++ Install homebrew titles to your system, and have them appear on your Wii U Menu
 + Dump your discs to a format you can install, and play them without needing the disc
 + Safely update to the latest system version without fear of losing access to homebrew
 
