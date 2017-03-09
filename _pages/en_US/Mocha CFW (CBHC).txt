@@ -4,7 +4,7 @@ lang: en
 permalink: /mocha-cfw-(cbhc).html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console by default instead of the home menu, which will then load RedNAND.
+CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the home menu, which will then load RedNAND.
 {: .notice}
 
 This page is optional. Regular Haxchi works just fine as is; this just offers extra convenience and removes the risk of you accidentally breaking your SysNAND.
