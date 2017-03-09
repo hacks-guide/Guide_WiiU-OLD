@@ -47,7 +47,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 2. Put your SD card from your Wii U into your computer
 3. Create a folder named `wiiu` on the root of your SD card
 4. Create a folder named `install` on the root of your SD card
-5. Copy the `apps` folder from the Hombebrew App Store `.zip` to the `/wiiu/` folder on your SD card
+5. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
 6. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
 7. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
 8. Copy `config.txt` to the `/haxchi/` folder on your SD card

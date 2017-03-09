@@ -22,7 +22,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 + A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
   + Do **not** install the DS virtual console game to a USB stick
   + Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD)
-  + If you've had Brain Age/ Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
+  + If you've had Brain Age / Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
   + The game will not be playable after this process
   + **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy!**
 
@@ -30,11 +30,11 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
-| Brain Age/ Brain Training|
+| Brain Age / Brain Training|
 | DK: Jungle Climber |
 | Kirby: Canvas Curse |
 | Kirby: Mass Attack|
-| Kirby: Squeak Squad /Kirby: Mouse Attack |
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
 | Legend of Zelda: Phantom Hourglass, The |
 | Legend of Zelda: Spirit Tracks, The |
 | Mario & Luigi: Partners in Time |
@@ -76,7 +76,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
   + Use syshax.xml (coldboothax): **off**
 11. Press (A) to confirm and exit
 12. Your Wii U should display a black screen; this is the RedNAND setup
-13. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+13. Press the power button **on the console** (not the gamepad) to start copying your internal system memory to your SD card
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
 14. Once this process is completed, your Wii U will end up on a black screen
   + This is normal; the SD card has been formatted

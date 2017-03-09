@@ -35,7 +35,7 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
   + Use syshax.xml (coldboothax): **off**
 8. Press (A) to confirm and exit
 9. Your Wii U should display a black screen; this is the RedNAND setup
-10. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+10. Press the power button **on the console** (not the gamepad) to start copying your internal system memory to your SD card
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
 11. Once this process is completed, your Wii U will end up on a black screen
   + This is normal; the SD card has been formatted

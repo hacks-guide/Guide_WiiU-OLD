@@ -105,7 +105,7 @@ ___
 You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 {: .notice--info}
 
 Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.

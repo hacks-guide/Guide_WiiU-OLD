@@ -26,8 +26,8 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 
 ___
 
-If would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
+If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
 {: .notice--primary}
 
-If would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
+If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
 {: .notice--primary}

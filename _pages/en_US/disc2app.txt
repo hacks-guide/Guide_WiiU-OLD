@@ -16,7 +16,7 @@ You cannot use disc2app on RedNAND to dump the game, but you can install the dum
     + You cannot use the same hard drive for vWii and Wii U games.
     + The Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
     + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
