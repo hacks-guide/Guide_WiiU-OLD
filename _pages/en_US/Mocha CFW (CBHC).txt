@@ -47,7 +47,7 @@ As long as you do not see the SysNAND folder in the home menu, you can be sure y
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can hold (B) on boot to access the CBHC boot options menu. This is what each of the boot options do:**
+**You can hold (Home) on boot to access the CBHC boot options menu. This is what each of the boot options do:**
 
     + Boot System Menu -> Boots into SysNAND
     + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND

@@ -16,7 +16,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 ###### CBHC
 
 1. Power off your Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
+2. Hold (Home) on boot to enter the CBHC boot menu
 3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
 
 ###### Haxchi
