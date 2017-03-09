@@ -58,5 +58,5 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + This guide will work on all Wii U devices in all regions on the latest version.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
++ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
