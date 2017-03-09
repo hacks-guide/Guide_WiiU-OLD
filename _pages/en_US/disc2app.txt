@@ -73,7 +73,7 @@ Note that this will completely erase the contents of the external hard drive!
 1. Press (A) to dump to the SD card
 2. Insert the disc you want to dump when prompted
 3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
+3. When it is complete, you will be returned to the SysNAND Wii U Menu
   + CBHC users may be returned to RedNAND instead
 
 ##### Section III - Installing dumped game
@@ -86,7 +86,7 @@ Note that this will completely erase the contents of the external hard drive!
   + Press (X) to install to the external hard drive
 5. Allow the installation process to proceed automatically; this will take some time
 6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+7. Press (Home) to return to the RedNAND Wii U Menu
 
 ___
 

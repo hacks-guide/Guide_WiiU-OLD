@@ -32,15 +32,15 @@ This will allow you to install the Homebrew Channel and other modifications to t
 1. Launch wuphax
 2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
 3. You will be returned to the Homebrew Launcher on SysNAND
-4. Use the (Home) button to exit to the home menu
+4. Use the (Home) button to exit to the Wii U Menu
 5. Launch vWii
 6. Launch the vWii Mii Channel
 7. If the exploit was successful, you will have entered the Hackmii Installer
 8. Read the scam warning, then press (1) to continue when prompted
 9. Go through the prompts on screen to install the Homebrew Channel to vWii
 10. Go through the prompts to get back to vWii
-11. If the exploit was successful, you will see the Homebrew Channel on the vWii home menu
-12. Return to the Wii U home menu, then power off your Wii U
+11. If the exploit was successful, you will see the Homebrew Channel on the vWii Wii Menu
+12. Return to the Wii U Menu, then power off your Wii U
 13. Enter the Homebrew Launcher on SysNAND using the method from Section I
 14. Launch wuphax
 15. Press (B) when prompted to restore the Mii Channel
@@ -66,7 +66,7 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 {: .notice--warning}
 
 1. Get into the Homebrew Channel on vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
+  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND Wii U Menu, then launching the Homebrew Channel
   + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
 2. Launch d2x cIOS Installer
 3. Set the options on the top of the screen to match the following:
@@ -98,7 +98,7 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 3. Press (A) to install
   + This should be very quick
 4. When it has completed, press any button to return to the Homebrew Channel
-5. Exit to the vWii home menu
+5. Exit to the vWii Wii Menu
 
 ___
 

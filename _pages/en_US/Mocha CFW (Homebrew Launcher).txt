@@ -47,7 +47,7 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 
 ##### Section II - Launching Mocha CFW
 
-1. Create a folder on the first page of your home menu named "SysNAND"
+1. Create a folder on the first page of your Wii U Menu named "SysNAND"
 2. Go to the System Settings, then internet, then press (X) to display your current network connections
 3. For each of your connections (and all future connections), do the following
   + Select "Change Settings"
@@ -57,18 +57,18 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
     + `081.004.127.020`
   + Select "Confirm", then press (B) to save
   + These servers will block your SysNAND from being updated
-4. Return to the home menu
+4. Return to the Wii U Menu
 5. Launch the Homebrew Launcher using the browser
 6. Launch Mocha CFW
 7. If the exploit was successful, you will launch Mocha CFW with RedNAND
-  + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
+  + If you no longer see the SysNAND folder once the Wii U Menu loads, you have successfully booted RedNAND
 
 ___
 
 You will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to enter RedNAND
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+As long as you do not see the SysNAND folder in the Wii U Menu, you can be sure you are in RedNAND.
 {: .notice--info}
 
 If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.

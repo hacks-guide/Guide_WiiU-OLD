@@ -88,20 +88,20 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 
 ##### Section II - Launching Mocha CFW
 
-1. Create a folder on the first page of your home menu named "SysNAND"
+1. Create a folder on the first page of your Wii U Menu named "SysNAND"
 2. Go to the System Settings and delete every network connection
   + This will prevent your SysNAND from ever getting updated
   + **This is REQUIRED as the Wii U's suspend mode will use the internet settings from SysNAND**
 3. Launch your Haxchi DS virtual console game
 4. If the exploit was successful, you will launch Mocha CFW with RedNAND
-  + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
+  + If you no longer see the SysNAND folder once the Wii U Menu loads, you have successfully booted RedNAND
 
 ___
 
 Currently, you must launch the DS virtual console game every time you reboot in order to enter RedNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+As long as you do not see the SysNAND folder in the Wii U Menu, you can be sure you are in RedNAND.
 {: .notice--info}
 
 {% capture notice-1 %}

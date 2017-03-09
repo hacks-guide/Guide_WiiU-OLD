@@ -22,7 +22,7 @@ Games and saves are saved to the internal memory not the SD card. This means all
 4. Launch the CBHC installer
 5. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 6. Read the warning that appears, then press (B) to uninstall
-7. When it is complete, you will be returned to the RedNAND home menu
+7. When it is complete, you will be returned to the RedNAND Wii U Menu
 8. Reboot your Wii U
 9. Go to the System Settings under "Data Management" and delete your DS virtual console game
 10. Reinstall your DS virtual console game from the eShop
