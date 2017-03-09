@@ -10,7 +10,7 @@ This page will walk you through the process of checking your SD card for errors 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 {: .notice--info}
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
 {: .notice--info}
 
 #### What you need
