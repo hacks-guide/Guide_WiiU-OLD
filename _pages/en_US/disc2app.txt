@@ -79,7 +79,7 @@ Note that this will completely erase the contents of the external hard drive!
 
 1. Boot RedNAND using the method of your choice
 2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer Mod
+3. Launch WUP Installer - Mod Y
 4. Install the game to your desired destination
   + Press (A) to install to the system memory
   + Press (X) to install to the external hard drive
