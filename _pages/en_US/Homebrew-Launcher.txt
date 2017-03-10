@@ -15,11 +15,11 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 1. Launch the browser on your device
 2. Go to the browser settings and select "Reset Save Data"
   + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
+  + This will also delete all save data including settings, history and bookmarks
 3. Return to the browser
 4. Go to `http://loadiine.ovh`
   + You may want to bookmark this address to save time on typing in the future
-5. Ensure that the drop down down box shows "Homebrew Launcher...", then press "Submit"
+5. Ensure that the drop down box shows "Homebrew Launcher...", then press "Submit"
   + This may take many tries
   + If it freezes, just force the console to power off by holding the power button, then try again
 6. Your console should load the Homebrew Launcher
