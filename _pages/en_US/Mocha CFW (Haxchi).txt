@@ -60,7 +60,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
 4. Reinsert your SD card into your Wii U
 5. Launch the Haxchi Installer
-6. Select the DS virtual console game you are installing haxchi onto, then press (A) to select it
+6. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
 7. Read the warning that appears, then press (A) to install
 8. Once this is complete, launch your Haxchi DS virtual console game
 9. The Mocha CFW configuration menu should load
