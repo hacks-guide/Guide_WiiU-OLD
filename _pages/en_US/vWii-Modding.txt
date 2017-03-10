@@ -39,7 +39,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 8. Read the scam warning, then press (1) to continue when prompted
 9. Go through the prompts on screen to install the Homebrew Channel to vWii
 10. Go through the prompts to get back to vWii
-11. If the exploit was successful, you will see the Homebrew Channel on the vWii Wii Menu
+11. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
 12. Return to the Wii U Menu, then power off your Wii U
 13. Enter the Homebrew Launcher on SysNAND using the method from Section I
 14. Launch wuphax
@@ -98,7 +98,7 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 3. Press (A) to install
   + This should be very quick
 4. When it has completed, press any button to return to the Homebrew Channel
-5. Exit to the vWii Wii Menu
+5. Exit to the vWii Menu
 
 ___
 
