@@ -67,7 +67,7 @@ Note that this will completely erase the contents of the external hard drive!
 1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
 2. Launch disc2app
 
-##### Section II - Using disc2app
+##### Section III - Using disc2app
 
 1. Press (A) to dump to the SD card
 2. Insert the disc you want to dump when prompted
@@ -75,7 +75,7 @@ Note that this will completely erase the contents of the external hard drive!
 3. When it is complete, you will be returned to the SysNAND home menu
   + CBHC users may be returned to RedNAND instead
 
-##### Section III - Installing dumped game
+##### Section IV - Installing dumped game
 
 1. Boot RedNAND using the method of your choice
 2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
