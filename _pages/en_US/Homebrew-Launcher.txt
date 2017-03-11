@@ -15,7 +15,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 1. Launch the browser on your device
 2. Go to the browser settings and select "Reset Save Data"
   + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history and bookmarks
+  + This will also delete all save data including settings, history, and bookmarks
 3. Return to the browser
 4. Go to `http://loadiine.ovh`
   + You may want to bookmark this address to save time on typing in the future
@@ -26,8 +26,8 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 
 ___
 
-If would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
+If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
 {: .notice--primary}
 
-If would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
+If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
 {: .notice--primary}
