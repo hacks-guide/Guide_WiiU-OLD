@@ -28,7 +28,7 @@ permalink: /index.html
 
 ## What is Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editors or backup software, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
 
 Running homebrew on your console is 100% free using nothing but the system's browser.
 
@@ -48,7 +48,7 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + Play all game discs and eShop games, regardless of region
 + Backup, edit, and restore saves for many games
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your Wii U Menu
++ Install homebrew titles to your system, and have them appear on your home menu
 + Dump your discs to a format you can install, and play them without needing the disc
 + Safely update to the latest system version without fear of losing access to homebrew
 
