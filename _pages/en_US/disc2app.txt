@@ -15,7 +15,7 @@ You cannot use disc2app on RedNAND to dump the game, but you can install the dum
 
     + You cannot use the same hard drive for vWii and Wii U games.
     + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
@@ -72,20 +72,20 @@ Note that this will completely erase the contents of the external hard drive!
 1. Press (A) to dump to the SD card
 2. Insert the disc you want to dump when prompted
 3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
+3. When it is complete, you will be returned to the SysNAND Wii U Menu
   + CBHC users may be returned to RedNAND instead
 
 ##### Section III - Installing dumped game
 
 1. Boot RedNAND using the method of your choice
 2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer Mod
+3. Launch WUP Installer - Mod Y
 4. Install the game to your desired destination
   + Press (A) to install to the system memory
   + Press (X) to install to the external hard drive
 5. Allow the installation process to proceed automatically; this will take some time
 6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+7. Press (Home) to return to the RedNAND Wii U Menu
 
 ___
 
