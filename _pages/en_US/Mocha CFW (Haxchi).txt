@@ -69,7 +69,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
-  + Launch home menu: **on**
+  + Launch System Menu: **on**
   + redNAND: **on**  
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
