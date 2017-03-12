@@ -70,6 +70,9 @@ If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. 
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
 
+**Never delete the user account on SysNAND or NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+{: .notice--danger}
+
 **Do not connect your SysNAND to the internet. Any future system update could BRICK your device if it is allowed to be installed to SysNAND!**
 {: .notice--danger}
 
