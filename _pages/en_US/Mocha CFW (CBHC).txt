@@ -31,7 +31,7 @@ This page is optional. Regular Haxchi works just fine as is; this just offers ex
 6. Once this is complete, you should be back at the home menu
 7. Reboot your Wii U
 8. If the exploit was successful, you will see a menu appear with various boot options
-9. Hover over **"Autoboot: System Menu"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
+9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
 10. Press (A) on "Boot Mocha CFW"
 11. If the exploit was successful, you should see the Mocha CFW splash screen and load to a home menu *without* the SysNAND folder
 12. Reboot your Wii U to ensure the exploit works automatically as intended
