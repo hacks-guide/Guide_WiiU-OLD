@@ -1,0 +1,100 @@
+---
+title: "disc2app" #
+lang: zh-Hant
+permalink: /zh_TW/disc2app.html
+---
+
+本工具可將你的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
+{: .notice--info}
+
+你無法在 RedNAND 上使用 disc2app 來拷貝遊戲，但你能在 RedNAND 上安裝拷貝後的遊戲。 本章節將解釋這點。
+{: .notice--info}
+
+{% capture notice-2 %}
+**如果你想將遊戲安裝至外接硬碟上，請注意下列幾點：**
+
+    + 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲（無法共存）。
+    + The Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+    + Formatting an external hard drive for use with a Wii U will delete erase its contents.
+    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
+
+If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity
+{: .notice--info}
+
+#### 必備項目
+
+* 一個裝有 RedNAND 的 SD 卡以及所有[從頭開始](get-started)的檔案
+* 至少 25GB 剩餘空間的 SD 卡
+
+#### 操作說明
+
+##### 第一節 — 格式化外接硬碟
+
+如果你想將遊戲安裝至外接硬碟上，請遵循本節。
+{: .notice--info}
+
+如果你不打算將遊戲安裝至外接硬碟上或者你已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
+{: .notice--info}
+
+請注意，這將會完全清除外接硬碟上的內容 ！
+{: .notice--danger}
+
+1. 於 Wii U 關機狀態下，將你的 USB 外接硬碟插入至主機內
+2. 啟動你的 Wii U
+3. 當提示時，格式化你的外接硬碟
+
+##### 第二節 — 於 SysNAND 中啟動 disc2app
+
+1. 退出 Wii U 光碟機內的光碟
+2. 依據你的 Mocha CFW 安裝方式於 SysNAND 上啟動 disc2app：
+
+###### CBHC
+
+1. 關閉你的 Wii U
+2. Hold (B) on boot to enter the CBHC boot menu
+3. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
+4. 啟動 disc2app
+
+###### Haxchi
+
+1. 於啟動 DS Virtual Console 遊戲時，按住「X」鍵啟動 disc2app
+
+###### Homebrew Launcher
+
+1. 透過 `http://loadiine.ovh`於 SysNAND 上啟動 Homebrew Launcher
+2. 啟動 disc2app
+
+##### Section II - Using disc2app
+
+1. 按「A」鍵來拷貝遊戲至 SD 卡中
+2. 當提示時，插入你想要拷貝的遊戲光碟
+3. 光碟拷貝過程將耗費一段時間，請耐心等候
+3. 當完成後，你將會被踢回 SysNAND 的 HOME 主選單中
+  + CBHC 使用者可能會被踢回 RedNAND 而非 SysNAND
+
+##### Section III - Installing dumped game
+
+1. 透過你所選的方式開機至 RedNAND 中
+2. 於 RedNAND 中，透過 Homebrew Channel 進入 Homebrew Launcher
+3. 啟動 WUP Installer - Mod Y
+4. 安裝遊戲至任一儲存空間中
+  + 按「A」鍵以安裝至系統空間中
+  + 按「X」鍵以安裝至外接硬碟中
+5. 遊戲安裝過程將耗費一段時間，請耐心等候
+6. 當完成後，你將會回到 Homebrew Launcher 中
+7. 按下「Home」鍵回到 RedNAND HOME 主選單中
+
+___
+
+在遊戲拷貝完後，你可以將 SD 卡中的 `/install/` 資料夾刪除以釋放些空間
+{: .notice--info}
+
+如果一切順利，你將在你的 HOME 主選單看到新安裝的遊戲！
+{: .notice--success}
+
+你可以透過系統設定中的「資料管理（Data Management）」功能來檢查遊戲是否安裝在正確的資料夾中
+{: .notice--success}

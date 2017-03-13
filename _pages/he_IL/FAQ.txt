@@ -1,0 +1,47 @@
+---
+title: "FAQ" #
+lang: en
+permalink: /faq.html
+---
+
+<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
+**A:** Yes
+
+<a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can I/ should do with it?*    
+**A:** Update your Wii U to the latest version (5.5.1)
+
+<a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
+**A:** It is unlikely that Nintendo would release updates for a console that they no longer support, but the counter-argument to that is that they did update the Nintendo DSi 2 years after it ended production. The real answer is that we don't know, so be safe with internet connectivity on SysNAND (use protective DNS servers or keep internet off).
+
+<a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
+**A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
+
+<a name="faq_rednand" />**Q:** *What is redNAND?*    
+**A:** RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
+
+<a name="faq_vwiirednand" />**Q:** *Can I access vWii with redNAND?*    
+**A:** No. If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. All vWii functions will be unusable on RedNAND.
+
+<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
+**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+
+<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
+**A:** Yes! Mocha CFW + RedNAND not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+
+<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
+**A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+
+<a name="faq_updates" />**Q:** *Is it safe to update RedNAND?*    
+**A:** Yes.
+
+<a name="faq_support" />**Q:** *Where should I go for support?*    
+**A:** For support, ask for help at [#wiiuhacks on Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) or [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).  
+
+<a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
+**A:** Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+
+<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
+**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+
+<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+**A:** All you need is the ability to put files on an SD card!

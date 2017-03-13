@@ -1,0 +1,77 @@
+---
+title: "Mocha CFW (CBHC)" #
+lang: it
+permalink: /it_IT/mocha-cfw-(cbhc).html
+---
+
+CBHC (Coldboot Haxchi) cambia il programma di avvio della console in modo tale che la SysNAND avvii il gioco DS della Virtual Console invece del menu home, il quale caricherà la RedNAND.
+{: .notice}
+
+Questa pagina è facoltativa. Haxchi da solo funziona senza problemi; CBHC offre semplicemente maggiore comodità e rimuove il rischio di brick accidentali della SysNAND.
+{: .notice--info}
+
+**DEVI avere Haxchi funzionante per far funzionare CBHC. In caso contrario, BRICKERAI la tua Wii U!**
+{: .notice--danger}
+
+**Il tuo gioco DS della Virtual Console con all'interno Haxchi DEVE essere installato nella memoria interna della Wii U. Se è installato su un dispositivo USB, BRICKERAI!**
+{: .notice--danger}
+
+**Il tuo gioco DS della Virtual Console DEVE essere LEGITTIMO! In caso contrario BRICKERAI!**
+{: .notice--danger}
+
+#### Istruzioni
+
+1. Riavvia la console per assicurarti di essere nella SysNAND.
+  + Dovrebbe apparire la cartella SysNAND nella prima pagina del menu home
+2. Avvia l'Homebrew Launcher nella SysNAND navigando sul sito `http://loadiine.ovh`
+3. Avvia il programma di installazione di CBHC
+4. Seleziona il gioco DS della Virtual Console nel quale stai installando CBHC, quindi premi (A) per selezionarlo
+  + **Il gioco DEVE avere all'interno Haxchi installato e funzionante**
+5. Leggi l'avviso visualizzato, quindi premi (A) per installare Haxchi
+6. Una volta terminato il processo, ritornerai al menu home
+7. Riavvia la console
+8. Se l'exploit è andato a buon fine, apparirà un menu con varie opzioni di avvio della console
+9. Seleziona **"Autoboot: System Menu"**, quindi premi (A) su di esso finchè non compare **"Autoboot: Mocha CFW"**
+10. Premi (A) su "Boot Mocha CFW"
+11. Se l'exploit è andato a buon fine, apparirà l'immagine di avvio di Mocha CFW e quindi il menu home *senza* la cartella SysNAND
+12. Riavvia la Wii U per assicurarti che l'exploit funzioni come dovrebbe
+  + La console dovrebbe avviare Mocha CFW e la RedNAND automaticamente (quindi senza la cartella SysNAND nel menu home)
+13. Se sei al 100% sicuro di aver avviato la RedNAND, puoi cancellare il gioco DS **dalla RedNAND**
+
+___
+
+La Wii U dovrebbe ora entrare automaticamente dentro Mocha CFW e quindi la RedNAND ad ogni avvio.
+{: .notice}
+
+Fintantochè non vedi la cartella SysNAND nel menu home, puoi essere sicuro di aver avviato la RedNAND.
+{: .notice--info}
+
+{% capture notice-1 %}
+**Puoi tenere premuto il pulsante (Home) all'avvio per accedere al menu di avvio di CBHC. Ecco le varie opzioni a te disponibili:**
+
+    + Boot System Menu -> Avvia la SysNAND
+    + Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND
+    + Boot Mocha CFW -> Avvia Mocha CFW e la RedNAND
+    + Boot fw.img on SD Card -> Avvia un qualunque CFW dalla scheda SD basato su fw.img
+    + Boot vWii System Menu -> Avvia la vWii nella SysNAND
+    + Boot vWii Homebrew Channel -> Avvia l'Homebrew Channel della vWii nella SysNAND
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Se desideri usare la vWii, dovrai aprirla della SysNAND o dal menu di avvio di CBHC. Nessuna funzione della vWii funziona nella RedNAND.
+{: .notice--warning}
+
+{% capture notice-2 %}
+**Non modificare o cancellare il gioco DS della Virtual Console sul quale hai installato CBHC dalla SysNAND o BRICKERAI.**    
+**La precedente affermazione include anche reinstallarlo dall'eShop della SysNAND o avviare il programma di installazione di Haxchi nella SysNAND!**
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-2 | markdownify }}</div>
+
+**Non connettere la SysNAND ad internet. Un aggiornamento futuro potrebbe BRICKARE la console se viene installato nella SysNAND!**
+{: .notice--danger}
+
+Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher- (channel)).
+{: .notice--primary}

@@ -1,0 +1,47 @@
+---
+title: "常見問題 FAQ" #
+lang: zh-Hant
+permalink: /zh_TW/faq.html
+---
+
+<a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
+**A:** 可以的！
+
+<a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 What can I/ should do with it?*    
+**A:** 將你的 Wii U 升級至最新版本（5.5.1）
+
+<a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
+**A:** 任天堂應該是不會再為停產的主機出更新了－但是也不是完全不可能。任天堂還是在 NDSi 停產後兩年釋出了新的更新。 也就是說，我們完全不知道。所以以策安全，我們還是建議你在 SysNAND 底下使用任何網路功能時特別小心（使用 DNS 保護或者直接斷網）。
+
+<a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
+**A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）
+
+<a name="faq_rednand" />**Q:** *What is redNAND?*    
+**A:** RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD 卡磁區底下 Wii U 內存的複製品，這內存取代了 Wii U 所內置的儲存空間。 RedNAND 跟你 Wii U 上所安裝的內存晶片是完全分離的，也就是說就算你亂裝東西把 RedNAND 弄到磚機，你的裝置仍會完好無缺。
+
+<a name="faq_vwiirednand" />**Q:** *Can I access vWii with redNAND?*    
+**A:** 不行。 如果你想要使用 vWii，你必須從 SysNAND 或 CBHC 開機選單中啟動 vWii。 所有 vWii 的功能將無法在 RedNAND 底下使用。
+
+<a name="faq_risky" />**Q:** *改機風險多高？*    
+**A:** 磚機非常非常的少見，而通常都是因為跳了些步驟或不按教學進行才造成的。
+
+<a name="faq_homebrew" />**Q:** *我可以透過本教學跑超讚的自製程式跟模擬器嗎？*    
+**A:** 可以的！ Mocha 自製韌體 + RedNAND 不但可以讓你使用 Homebrew Launcher（一款自製軟體啟動器），甚至還可以免於未來更新系統時自製韌體被蓋掉的困擾。
+
+<a name="faq_regionfree" />**Q:** *我能玩其他區的遊戲嗎？*    
+**A:** 可以的，Mocha CFW 支援破解區碼限制。表示說你可以不用修改任何東西就能任意地安裝所有區域的遊戲。
+
+<a name="faq_updates" />**Q:** *我可以安全地更新 RedNAND 嗎？*    
+**A:** 可以的！
+
+<a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*    
+**A:** 你可以在 [Rizon IRC 上的 #wiiuhacks 聊天室](https://qchat.rizon.net/?channels=wiiuhacks) 或 [Discord 上的 Nintendo Homebrew 伺服器](https://discord.gg/MWxPgEp)上求助。  
+
+<a name="faq_sdsize" />**Q:** *我需要多大的 SD 卡？*    
+**A:** 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
+
+<a name="faq_NNID" />**Q:** *我的 NNID 不會被清除吧？*    
+**A:** 如果裝置本身就有 NNID 且你遵守每個步驟，你的 NNID 將不變。
+
+<a name="faq_nopc" />**Q:** *沒電腦也可以嗎（例： Android 手機）？*    
+**A:** 你只要能在 SD 卡上放檔案就可以了！

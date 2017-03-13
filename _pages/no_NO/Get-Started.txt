@@ -1,0 +1,70 @@
+---
+title: "Get Started" #
+lang: en
+permalink: /get-started.html
+---
+
+These steps will prepare your SD card in preparation for installing coldboothax custom firmware.
+{: .notice--primary}
+
+Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
+{: .notice--info}
+
+Your SD card must be at least 64gb in size if you have a black Wii U (32gb) model. If you have a white (8gb) Wii U model, your SD card needs to be atleast 16gb in size.
+{: .notice--info}
+
+Your SD card must be formatted as FAT32 (64kb clusters if possible, otherwise 32kb clusters will do). Most SD cards will be formatted this way by default.
+{: .notice--info}
+
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+{: .notice--warning}
+
+Your SD card **cannot** be named `wiiu`, or it will cause problems.
+{: .notice--warning}
+
+Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+{: .notice--warning}
+
+#### What you need
+
+* [`config.txt`](images/config.txt) *(right click -> save as)*
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/releases/latest)
+* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [saviine](https://github.com/Maschell/saviine/releases)
+* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
+* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
+* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+
+#### Instructions
+
+1. Ensure your Wii U is powered off
+2. Put your SD card from your Wii U into your computer
+3. Create a folder named `wiiu` on the root of your SD card
+4. Create a folder named `install` on the root of your SD card
+5. Copy the `apps` folder from the Hombebrew App Store `.zip` to the `/wiiu/` folder on your SD card
+6. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
+7. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
+8. Copy `config.txt` to the `/haxchi/` folder on your SD card
+9. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/` folder on your SD card
+10. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
+11. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
+12. Copy and merge the _the contents of_ the Modified WUP Installer `.zip` to the root of your SD card
+13. Copy and merge the _the contents of_ the disc2app `.zip` to the root of your SD card
+14. Copy and merge the _the contents of_ the WUPhax `.zip` to the root of your SD card
+15. Copy and merge the _the contents of_ the saviine `.zip` to the root of your SD card
+16. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
+17. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
+18. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+19. Reinsert your SD card into your Wii U
+20. Power on your Wii U
+
+___
+
+Continue to [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
