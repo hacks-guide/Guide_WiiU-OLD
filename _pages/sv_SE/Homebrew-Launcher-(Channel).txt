@@ -1,0 +1,29 @@
+---
+title: "Homebrew Launcher (Channel)" #
+lang: en
+permalink: /homebrew-launcher-(channel).html
+---
+
+This will install the Homebrew Channel on RedNAND so you no longer need the web browser to launch the Homebrew Launcher.
+{: .notice--info}
+
+#### Instructions
+
+1. Enter the Homebrew Launcher on RedNAND using `http://loadiine.ovh`
+2. Launch WUP Installer MOD
+3. Press (A) to install the Homebrew Channel
+4. Press (Home) to exit the installer once it has completed installing
+
+___
+
+You can now launch the Homebrew Launcher on RedNAND just by launching the Homebrew Channel.
+{: .notice}
+
+For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+{: .notice--success}
+
+For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+{: .notice--success}
+
+For information on uninstalling Mocha CFW safely and returning to stock, check out the [Uninstall Mocha CFW](uninstall-mocha-cfw) page.
+{: .notice--warning}

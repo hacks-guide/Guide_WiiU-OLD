@@ -1,0 +1,47 @@
+---
+title: "FAQ" #
+lang: es
+permalink: /es_ES/faq.html
+---
+
+<a name="faq_latestfw" />**P:** *Estoy en la última versión del sistema, ¿mi consola es hackeable?*    
+**R:** Si
+
+<a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo/debería hacer con ella?*    
+** R:** Actualiza tu Wii U a la última versión (5.5.1)
+
+<a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
+**R:** Es muy improbable que Nintendo lance actualizaciones para una consola a la cual ya no dan soporte, pero existe una contradicción a esto y es que lanzaron una actualización para la Nintendo DSi 2 años después de haber cesado su producción. The real answer is that we don't know, so be safe with internet connectivity on SysNAND (use protective DNS servers or keep internet off).
+
+<a name="faq_updatemocha" />**P:** *¿Cómo actualizo a la última versión de Mocha CFW?*    
+**R:** Descarga la última versión de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), luego copia `mocha.elf`del archivo `.zip` de Mocha CFW a la carpeta `/wiiu/apps/mocha/` en tu tarjeta SD (sobreescribe el archivo existente)
+
+<a name="faq_rednand" />**P:** *¿Qué es redNAND?*    
+**R:** RedNAND es la abreviación de "**Red**irected **NAND**" (NAND Redireccionada). Esta es una copia de la memoria interna de tu Wii U almacenada en una partición de la tarjeta SD, la cual se usa en lugar de la memoria principal del sistema. La RedNAND es completamente independiente del chip físico de memoria presente en tu Wii U, lo cual significa que tu consola seguirá funcionando incluso si llegas a brickear la RedNAND al instalar algo que no debieras.
+
+<a name="faq_vwiirednand" />**P:** *¿Puedo acceder a la vWii desde la redNAND?*    
+**R:** No. Si deseas usar la vWii, debes acceder a ella desde la SysNAND o a través del menú de arranque de CBHC. Todas las funciones de la vWii estarán deshabilitadas en la RedNAND.
+
+<a name="faq_risky" />**P:** *¿Qué tan peligroso es modificar mi consola?*    
+**R:** Los bricks son extremadamente raros y usualmente sólo son causados por saltarse instrucciones o no seguirlas apropiadamente.
+
+<a name="faq_homebrew" />**P:** *¿Puedo usar esto para correr homebrew y emuladores?*    
+**R:** ¡Sí! Mocha CFW + RedNAND no sólo habilita el Homebrew Launcher, sino también otorga hacks en todas las versiones, lo cual significa que lo conservas por siempre, incluso luego de actualizar.
+
+<a name="faq_regionfree" />**P:** *¿Puedo usar esto para jugar juegos de otras regiones?*    
+**R:** Mocha CFW soporta parches para Libertad de Región, lo cual permite a los usuarios instalar juegos de cualquier región sin necesidad de modificaciones o pasos extras.
+
+<a name="faq_updates" />**P:** *¿Es seguro actualizar RedNAND?*    
+**R:** Si.
+
+<a name="faq_support" />**P:** *¿A dónde debería ir para pedir ayuda?*    
+**R:** Puedes pedir ayuda (en inglés) en [#wiiuhacks en Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) o en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).  
+
+<a name="faq_sdsize" />**P:** *¿De qué capacidad debe ser la tarjeta SD a utilizar?*    
+**R:** Debe tener al menos 64 GB de tamaño si posees un modelo de Wii U negro (el que posee 32 GB de memoria interna). Si posees un modelo de Wii U blanco (de 8 GB de memoria interna), la tarjeta SD debe tener al menos 16 GB de tamaño.
+
+<a name="faq_NNID" />**P:** *¿Puedo conservar mi Identificador de Nintendo Network (NNID)?*    
+**R:** Si inicias el proceso con un NNID y sigues todos los pasos, seguirás conservando el mismo NNID al finalizar.
+
+<a name="faq_nopc" />**P:** *¿Puedo realizar este proceso sin una computadora (Ej: con un celular Android)?*    
+**R:** ¡Todo lo que necesitas es la posibilidad de cargar archivos a una tarjeta SD!

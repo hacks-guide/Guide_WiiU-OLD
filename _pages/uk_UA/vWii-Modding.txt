@@ -1,0 +1,121 @@
+---
+title: "vWii Modding" #
+lang: en
+permalink: /vwii-modding.html
+---
+
+This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+{: .notice--info}
+
+#### Instructions
+
+##### Section I - Entering Homebrew Launcher on SysNAND
+
+1. Enter the Homebrew Launcher on SysNAND using the method for your Mocha CFW installation:
+
+###### CBHC
+
+1. Power off your Wii U
+2. Hold (B) on boot to enter the CBHC boot menu
+3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+
+###### Haxchi
+
+1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
+
+###### Homebrew Launcher
+
+1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+
+##### Section II - wuphax
+
+1. Launch wuphax
+2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
+3. You will be returned to the Homebrew Launcher on SysNAND
+4. Use the (Home) button to exit to the home menu
+5. Launch vWii
+6. Launch the vWii Mii Channel
+7. If the exploit was successful, you will have entered the Hackmii Installer
+8. Read the scam warning, then press (1) to continue when prompted
+9. Go through the prompts on screen to install the Homebrew Channel to vWii
+10. Go through the prompts to get back to vWii
+11. If the exploit was successful, you will see the Homebrew Channel on the vWii home menu
+12. Return to the Wii U home menu, then power off your Wii U
+13. Enter the Homebrew Launcher on SysNAND using the method from Section I
+14. Launch wuphax
+15. Press (B) when prompted to restore the Mii Channel
+16. Go through the prompts to get back to vWii
+
+##### Section III - Dumping vWii NAND
+
+This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+{: .notice--info}
+
+1. Launch the Homebrew Channel on vWii
+2. Launch Dump Mii NAND
+  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
+3. When it has completed, your Wii U will reboot automatically
+4. Power off your Wii U
+5. Put your SD card from your Wii U into your computer
+6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
+7. Delete `nand.bin` and `keys.bin` from the root of your SD card
+
+##### Section IV - cIOS Installation
+
+Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+{: .notice--warning}
+
+1. Get into the Homebrew Channel on vWii
+  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
+  + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
+2. Launch d2x cIOS Installer
+3. Set the options on the top of the screen to match the following:
+  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS base : **56**
+  + Select cIOS slot : **249**
+4. Press (A) to install
+5. Wait for the install to complete, then press (A) to continue
+6. Set the options on the top of the screen to match the following:
+  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS base : **57**
+  + Select cIOS slot : **250**
+7. Press (A) to install
+8. Wait for the install to complete, then press (A) to continue
+9. Set the options on the top of the screen to match the following:
+  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS base : **58**
+  + Select cIOS slot : **251**
+10. Press (A) to install
+11. Wait for the install to complete, then press (B) to exit
+
+##### Section V - Patching IOS80
+
+**This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
+{: .notice--danger}
+
+1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
+2. Read the warning, then wait 30 seconds for it to allow you to continue
+3. Press (A) to install
+  + This should be very quick
+4. When it has completed, press any button to return to the Homebrew Channel
+5. Exit to the vWii home menu
+
+___
+
+You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
+{: .notice--success}
+
+External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+{: .notice--info}
+
+Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+{: .notice--danger}
+
+Installing custom themes on vWii will brick your vWii.
+{: .notice--danger}
+
+Removing `.wad` files manually without knowing what you are doing will brick your vWii.
+{: .notice--danger}
+
+Installing Priiloader will brick your vWii.
+{: .notice--danger}

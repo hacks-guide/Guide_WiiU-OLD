@@ -1,0 +1,23 @@
+---
+title: "Donations" #
+lang: en
+permalink: /donations.html
+layout: single-no-ads
+---
+
+## If you appreciate this guide, we (Plailect and FlimFlam69) accept donations.
+{: .text-center}
+{: .notice--success}
+
+### Plailect
+
+[![Bitcoin]({{ base_path }}/images/donate_64.png)](https://www.coinbase.com/plailect){: .align-center}
+{: .text-center}
+
+[![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.me/plailect/15){: .align-center}
+{: .text-center}
+
+### FlimFlam69
+
+[![Paypal]({{ base_path }}/images/paypal.jpg)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
+{: .text-center}

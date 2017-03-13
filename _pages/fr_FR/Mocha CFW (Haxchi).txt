@@ -1,0 +1,122 @@
+---
+title: "Mocha CFW (Haxchi)" #
+lang: en
+permalink: /mocha-cfw-(haxchi).html
+---
+
+Mocha CFW is a custom firmware that patches signature checks and boots RedNAND.
+{: .notice}
+
+RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
+{: .notice--info}
+
+Haxchi is an exploit that allows us to launch Mocha CFW directly from the home menu without using the Homebrew Launcher.
+{: .notice--info}
+
+You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploiotable games. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
+{: .notice--primary}
+
+
+#### What you need
+
++ A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
+  + Do **not** install the DS virtual console game to a USB stick
+  + Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD)
+  + If you've had Brain Age/ Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
+  + The game will not be playable after this process
+  + **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy!**
+
+| Compatible Haxchi Games |
+| ------------- |
+| Animal Crossing: Wild World |
+| Big Brain Training |
+| Brain Age/ Brain Training|
+| DK: Jungle Climber |
+| Kirby: Canvas Curse |
+| Kirby: Mass Attack|
+| Kirby: Squeak Squad /Kirby: Mouse Attack |
+| Legend of Zelda: Phantom Hourglass, The |
+| Legend of Zelda: Spirit Tracks, The |
+| Mario & Luigi: Partners in Time |
+| Mario Kart DS |
+| New Super Mario Bros. |
+| Pokemon Mystery Dungeon: Explorers of the Sky |
+| Pokemon Ranger |
+| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Shadows of Almia |
+| Starfox Command |
+| Super Mario 64 DS |
+| Wario: Master of Disguise |
+| WarioWare: Touched |
+| Yoshi's Island DS |
+| Yoshi's Touch & Go |
+
+#### Instructions
+
+##### Section I - Configuring Mocha CFW
+
+1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
+2. Put your SD card from your Wii U into your computer
+3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
+4. Reinsert your SD card into your Wii U
+5. Launch the Haxchi Installer
+6. Select the DS virtual console game you are installing haxchi onto, then press (A) to select it
+7. Read the warning that appears, then press (A) to install
+8. Once this is complete, launch your Haxchi DS virtual console game
+9. The Mocha CFW configuration menu should load
+10. Use the (A) button and the D-Pad to set the following:
+  + Config view mode: **expert**
+  + Skip this menu on launch: **on**
+  + Show launch image: **on**
+  + Don't relaunch OS: **off**
+  + Launch home menu: **on**
+  + redNAND: **on**  
+  + SEEPROM redirection: **on**
+  + OTP redirection: **on**
+  + Use syshax.xml (coldboothax): **off**
+11. Press (A) to confirm and exit
+12 Your Wii U should display a black screen; this is the RedNAND setup
+13. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
+14. Once this process is completed, your Wii U will end up on a black screen
+  + This is normal; the SD card has been formatted
+15. Put your SD card from your Wii U into your computer
+  + Your SD card will have significantly less space on it now because the RedNAND is occupying a hidden partition on it
+16. Copy all of the files you backed up back to your SD card
+17. Reinsert your SD card into your Wii U
+18. Power on your Wii U
+
+##### Section II - Launching Mocha CFW
+
+1. Create a folder on the first page of your home menu named "SysNAND"
+2. Go to the System Settings and delete every network connection
+  + This will prevent your SysNAND from ever getting updated
+  + **This is REQUIRED as the Wii U's suspend mode will use the internet settings from SysNAND**
+3. Launch your Haxchi DS virtual console game
+4. If the exploit was successful, you will launch Mocha CFW with RedNAND
+  + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
+
+___
+
+Currently, you must launch the DS virtual console game every time you reboot in order to enter RedNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
+{: .notice}
+
+As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+{: .notice--info}
+
+{% capture notice-1 %}
+**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+
+    + None -> Boots into Mocha CFW with RedNAND
+    + (A) -> Boots into the Homebrew Launcher on SysNAND
+    + (X) -> Boots into the disc2app on SysNAND
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
+{: .notice--warning}
+
+Continue to [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
+{: .notice--primary}

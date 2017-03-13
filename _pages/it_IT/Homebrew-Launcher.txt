@@ -1,0 +1,33 @@
+---
+title: "Homebrew Launcher" #
+lang: it
+permalink: /it_IT/homebrew-launcher.html
+---
+
+L'Homebrew Launcher è un'applicazione homebrew che ti permette di visualizzare ed avviare altre applicazioni homebrew dalla scheda SD.
+{: .notice}
+
+Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovrà avere accesso ad internet.
+{: .notice--info}
+
+#### Istruzioni
+
+1. Avvia il browser internet sulla tua console
+2. Apri le impostazioni del browser e seleziona "Cancella Dati di Salvataggio"
+  + In modo tale eviteremo problemi durante l'uso dell'exploit
+  + Questa impostazione cancellerà tutti i dati salvati, quali impostazioni, cronologia e preferiti
+3. Ritorna al browser
+4. Naviga sul sito `http://loadiine.ovh`
+  + Sarebbe meglio mettere questo sito nei preferiti in modo tale da non perdere tempo successivamente
+5. Assicurati che il menu a comparsa dica "Homebrew Launcher..." quindi premi "Invia"
+  + Potrebbero essere necessari più tentativi
+  + Se la console dovesse bloccarsi, forzane lo spegnimento tenendo premuto il pulsante di accensione, quindi riprova
+6. La console dovrebbe ora avviare l'Homebrew Launcher
+
+___
+
+Se preferisci comprare un gioco exploitabile per avviare il Custom Firmware all'avvio della console *(o possiedi già uno dei giochi della Virtual Console DS dopo elencati)* continua alla pagina [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
+{: .notice--primary}
+
+Se preferisci avviare il Custom Firmware utilizzando il browser ogni volta per risparmiare soldi, continua alla pagina [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
+{: .notice--primary}

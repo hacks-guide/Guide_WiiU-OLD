@@ -1,0 +1,100 @@
+---
+title: "disc2app" #
+lang: en
+permalink: /disc2app.html
+---
+
+This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+{: .notice--info}
+
+You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+{: .notice--info}
+
+{% capture notice-2 %}
+**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+
+    + You cannot use the same hard drive for vWii and Wii U games.
+    + The Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+    + Formatting an external hard drive for use with a Wii U will delete erase its contents.
+    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
+
+If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity
+{: .notice--info}
+
+#### What you need
+
+* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
+* 25gb of free space on your SD card
+
+#### Instructions
+
+##### Section I - Formatting external drive
+
+If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+{: .notice--info}
+
+If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+{: .notice--info}
+
+Note that this will completely erase the contents of the external hard drive!
+{: .notice--danger}
+
+1. Plug your USB HDD into your Wii U while it is powered off
+2. Power on your Wii U
+3. Format the external hard drive when prompted
+
+##### Section II - Launching disc2app on SysNAND
+
+1. Remove any disc that currently may be in the Wii U disc drive
+2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+
+###### CBHC
+
+1. Power off your Wii U
+2. Hold (B) on boot to enter the CBHC boot menu
+3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+4. Launch disc2app
+
+###### Haxchi
+
+1. Hold (X) while launching your DS virtual console game to launch disc2app
+
+###### Homebrew Launcher
+
+1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+2. Launch disc2app
+
+##### Section II - Using disc2app
+
+1. Press (A) to dump to the SD card
+2. Insert the disc you want to dump when prompted
+3. Allow the disc dump process to proceed automatically; this will take some time
+3. When it is complete, you will be returned to the SysNAND home menu
+  + CBHC users may be returned to RedNAND instead
+
+##### Section III - Installing dumped game
+
+1. Boot RedNAND using the method of your choice
+2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
+3. Launch WUP Installer - Mod Y
+4. Install the game to your desired destination
+  + Press (A) to install to the system memory
+  + Press (X) to install to the external hard drive
+5. Allow the installation process to proceed automatically; this will take some time
+6. When it is complete, you will be returned to the Homebrew Launcher
+7. Press (Home) to return to the RedNAND home menu
+
+___
+
+To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+{: .notice--info}
+
+If everything went well, you'll see your new game installed on the menu ready to be played!
+{: .notice--success}
+
+You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+{: .notice--success}
