@@ -9,7 +9,7 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 
 #### Instrucciones
 
-##### Section I - Entering Homebrew Launcher on SysNAND
+##### Sección I - Entrar al Homebrew Launcher desde la SysNAND
 
 1. Ingresa al Homebrew Launcher en la SysNAND usando el método correspondiente a tu instalación de Mocha CFW:
 
