@@ -16,106 +16,106 @@ Isso permitirá que você instale o Homebrew Channel e outras modificações par
 ###### CBHC
 
 1. Desligue o seu Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
+2. Segure (Home) na inicialização para entrar no menu de inicialização do CBHC
 3. Selecione "Boot Homebrew Launcher" para entrar no Homebrew Launcher pela SysNAND
 
 ###### Haxchi
 
-1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
+1. Segure (A) durante a inicialização do seu jogo de DS do Virtual Console para abrir o Homebrew Launcher na SysNAND
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+1. Entre no Homebrew Launcher na SysNAND usando `http://loadiine.ovh`
 
-##### Section II - wuphax
+##### Seção II - wuphax
 
-1. Launch wuphax
-2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
-3. You will be returned to the Homebrew Launcher on SysNAND
-4. Use the (Home) button to exit to the home menu
-5. Launch vWii
-6. Launch the vWii Mii Channel
-7. If the exploit was successful, you will have entered the Hackmii Installer
-8. Read the scam warning, then press (1) to continue when prompted
-9. Go through the prompts on screen to install the Homebrew Channel to vWii
-10. Go through the prompts to get back to vWii
-11. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
-12. Return to the home menu, then power off your Wii U
-13. Enter the Homebrew Launcher on SysNAND using the method from Section I
-14. Launch wuphax
-15. Press (B) when prompted to restore the Mii Channel
-16. Go through the prompts to get back to vWii
+1. Inicie o wuphax
+2. Aperte (A) para fazer o backup do seu Mii Channel e injetar o Hackmii Installer
+3. Você será retornado para o Homebrew Launcher na SysNAND
+4. Use o botão (Home) para sair para o menu HOME
+5. Inicie o vWii
+6. Abra o Mii Channel no vWii
+7. Se o exploit for bem-sucedido, você terá entrado no Hackmii Installer
+8. Leia o aviso de fraude, em seguida, pressione (1) para continuar quando solicitado
+9. Passe pelos avisos na tela para instalar o Homebrew Channel no vWii
+10. Passe pelos avisos para voltar ao vWii
+11. Se o exploit for bem-sucedido, você verá o Homebrew Channel no Menu do vWii
+12. Retorne para o menu HOME e, em seguida, desligue seu Wii U
+13. Entre no Homebrew Launcher na SysNAND utilizando o método da Seção I
+14. Inicie o wuphax
+15. Aperte (B) quando solicitado para restaurar o Mii Channel
+16. Passe pelos avisos para voltar ao vWii
 
-##### Section III - Dumping vWii NAND
+##### Section III - Dump da NAND do vWii
 
-This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+Esse backup da NAND permitirá que você restaure seu vWii para um ponto em que ele funcionava, se algo der errado.
 {: .notice--info}
 
-1. Launch the Homebrew Channel on vWii
-2. Launch Dump Mii NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
-3. When it has completed, your Wii U will reboot automatically
-4. Power off your Wii U
-5. Put your SD card from your Wii U into your computer
-6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
-7. Delete `nand.bin` and `keys.bin` from the root of your SD card
+1. Inicie o Homebrew Channel no vWii
+2. Inicie o Dump Mii NAND
+  + Esteja preparado para esperar; isto pode demorar um tempo (até várias horas, dependendo da velocidade do seu cartão SD)
+3. Quando completado, seu Wii U irá reiniciar automaticamente
+4. Desligue seu Wii U
+5. Insira o cartão SD do seu Wii U no seu computador
+6. **Copie o `nand.bin` e `keys.bin` da raiz do seu cartão SD para um local seguro no seu computador e faça backups de ambos em vários lugares (como serviços de armazenamento online); este backup irá salvar seu vWii de um brick se algo der errado**
+7. Apague `nand.bin` e `keys.bin` da raiz do seu cartão SD
 
-##### Section IV - cIOS Installation
+##### Seção IV - Instalação do cIOS
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+Certifique-se de que não há nenhuma pasta chamada `wad` ou `wads` na raiz do seu cartão SD, e de que não existem outros arquivos `.wad` em qualquer outro lugar, exceto na pasta `/apps/` do cartão SD.
 {: .notice--warning}
 
-1. Get into the Homebrew Channel on vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
-  + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
-2. Launch d2x cIOS Installer
-3. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **56**
-  + Select cIOS slot : **249**
-4. Press (A) to install
-5. Wait for the install to complete, then press (A) to continue
-6. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **57**
-  + Select cIOS slot : **250**
-7. Press (A) to install
-8. Wait for the install to complete, then press (A) to continue
-9. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **58**
-  + Select cIOS slot : **251**
-10. Press (A) to install
-11. Wait for the install to complete, then press (B) to exit
+1. Entre no Homebrew Channel no vWii
+  + Usuários do Haxchi e Mocha CFW com Homebrew Launcher podem fazer isto selecionando o vWii do menu HOME da SysNAND e, em seguida, inciar o Homebrew Channel
+  + Usuários do Mocha CFW com CBHC podem fazer isto segurando (B) durante a inicialização e, em seguida, selecionando "Boot vWii Homebrew Channel"
+2. Inicie o instalador d2x cIOS
+3. Defina as opções na parte superior da tela para coincidir com o seguinte:
+  + Selecionar cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecionar cIOS base : **56**
+  + Selecionar cIOS slot : **249**
+4. Aperte (A) para instalar
+5. Aguarde a conclusão da instalação e, em seguida, aperte (A) para continuar
+6. Defina as opções na parte superior da tela para coincidir com o seguinte:
+  + Selecionar cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecionar cIOS base : **57**
+  + Selecionar cIOS slot : **250**
+7. Aperte (A) para instalar
+8. Aguarde a conclusão da instalação e, em seguida, aperte (A) para continuar
+9. Defina as opções na parte superior da tela para coincidir com o seguinte:
+  + Selecionar cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecionar cIOS base : **58**
+  + Selecionar cIOS slot : **251**
+10. Aperte (A) para instalar
+11. Aguarde a conclusão da instalação e, em seguida, aperte (B) para sair
 
-##### Section V - Patching IOS80
+##### Seção V - Patch do IOS80
 
-**This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
+**Esta etapa irá brickar sua instalação do vWii caso ela falhe por quaisquer razões (falta de energia, etc) a qual irá necessitar de um backup da NAND do vWii para restaurá-la. Certifique-se que você tem o seu antes de prosseguir com esta seção.**
 {: .notice--danger}
 
-1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
-2. Read the warning, then wait 30 seconds for it to allow you to continue
-3. Press (A) to install
-  + This should be very quick
-4. When it has completed, press any button to return to the Homebrew Channel
-5. Exit to the vWii Menu
+1. Do Homebrew Channel no vWii, inicie o Patched IOS80 Installer for vWii
+2. Leia o aviso, depois aguarde 30 segundos para que você possa continuar
+3. Aperte (A) para instalar
+  + Isto deve ser bem rápido
+4. Quando completado, aperte qualquer botão para retornar ao Homebrew Channel
+5. Saia para o Menu do vWii
 
 ___
 
-You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
+Agora você pode instalar e utilizar qualquer homebrew para Wii tais como o USB Loader, Wiiflow, CFG USB Loader, emuladores, etc.
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+Unidades de disco rígido devem ser conectadas a porta USB traseira superior do Wii U, para serem detectadas pelo vWii. Ele não pode ser o mesmo disco rígido externo que você utiliza para jogos do Wii U. Se você estiver usando um HD externo que não tem fonte de energia própria, então você precisará de um [Y-cable](http://amzn.to/2mjQjin).
 {: .notice--info}
 
-Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+Certifique-se de que todos os arquivos `.wad` (channels, forwarders, jogos, etc) que você instalar são formatados para [funcionar corretamente com vWii](https://gbatemp.net/threads/340226/) primeiro. Se você instalar um `.wad` formatado para um console Wii normal, você irá brickar o vWii, o que irá necessitar de um backup da NAND do vWii para restaurá-lo.
 {: .notice--danger}
 
-Installing custom themes on vWii will brick your vWii.
+Instalar temas personalizados no vWii irão brickar seu vWii.
 {: .notice--danger}
 
-Removing `.wad` files manually without knowing what you are doing will brick your vWii.
+Remover arquivos `.wad` manualmente, sem saber o que você está fazendo, irá brickar seu vWii.
 {: .notice--danger}
 
-Installing Priiloader will brick your vWii.
+Instalar o Priiloader irá brickar seu vWii.
 {: .notice--danger}
