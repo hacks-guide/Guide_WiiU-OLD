@@ -36,18 +36,18 @@ Esta página es opcional. Una instalación normal de Haxchi funciona bien como e
 11. Si el exploit funcionó, deberías ver la pantalla de inicio de Mocha CFW y que ha cargado el menú HOME *sin* la carpeta SysNAND
 12. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
   + Deberías arrancar Mocha CFW y la RedNAND automáticamente al iniciar (sin la carpeta SysNAND en el menú HOME)
-13. If you have made 100% sure that you have booted into RedNAND, you can delete the DS VC game **on RedNAND**
+13. Si estás al 100% seguro de que has arrancado en la RedNAND, puedes borrar el juego de la consola virtual de DS **en la RedNAND**
 
 ___
 
-Your Wii U should now automatically launch into Mocha CFW and RedNAND on boot.
+Tu Wii U debería arrancar automáticamente Mocha CFW y la RedNAND al iniciarse.
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+Mientras no veas la carpeta SysNAND en el menú HOME, puedes estar seguro de que estás en la RedNAND.
 {: .notice--info}
 
 {% capture notice-1 %}
-**Puedes mantener pulsado (Home) al encender la consola para acceder al menú de opciones de arranque de CBHC. This is what each of the boot options do:**
+**Puedes mantener pulsado (Home) al encender la consola para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones de arraque:**
 
     + Boot System Menu -> Boots into SysNAND
     + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
@@ -60,20 +60,20 @@ As long as you do not see the SysNAND folder in the home menu, you can be sure y
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. All vWii functions will be unusable on RedNAND.
+Si quieres usar el modo vWii, debes acceder desde la SysNAND o desde el menú de arranque del CBHC. Todas las funciones de la vWii estarán deshabilitadas en la RedNAND.
 {: .notice--warning}
 
 {% capture notice-2 %}
-**Never modify or delete the CBHC DS virtual console game on SysNAND or you will BRICK.**    
-**This includes reinstalling it from the eShop on SysNAND or running the standard Haxchi installer on SysNAND!**
+** Nunca modifiques o borres el juego de la consola virtual de DS con CBHC en la SysNAND o BRICKEARÁS.**    
+**¡Esto incluye reinstalar el juego desde la eShop en la SysNAND o ejecutando el instalador de Haxchi normal en la SysNAND!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
 
-**Never delete the user account on SysNAND or NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**¡Nunca elimines la cuenta de usuario en la SysNAND o el NNID que haya comprado el juego de la consola virtual de DS para CBHC o BRICKEARÁS!**
 {: .notice--danger}
 
-**Do not connect your SysNAND to the internet. Any future system update could BRICK your device if it is allowed to be installed to SysNAND!**
+**No conectes tu SysNAND a internet. Any future system update could BRICK your device if it is allowed to be installed to SysNAND!**
 {: .notice--danger}
 
 Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
