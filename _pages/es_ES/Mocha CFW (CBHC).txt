@@ -7,21 +7,21 @@ permalink: /mocha-cfw-(cbhc).html
 CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del Menú HOME, que cargará entonces la RedNAND.
 {: .notice}
 
-Esta página es opcional. Regular Haxchi works just fine as is; this just offers extra convenience and removes the risk of you accidentally breaking your SysNAND.
+Esta página es opcional. Una instalación normal de Haxchi funciona bien como es; esto simplemente ofrece conveniencia extra y elimina el riesgo de actualizar tu SysNAND de forma accidental.
 {: .notice--info}
 
-**DEBES tener una instalación funcional de Haxchi para que funcione. If you do not, you will BRICK!**
+**DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tienes, ¡BRICKEARÁS!**
 {: .notice--danger}
 
 **Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna de la Wii U. Si está en un dispositivo USB, ¡BRICKEARÁS!**
 {: .notice--danger}
 
-**Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!**
+**¡Tu juego de la consola virtual de DS con Haxchi DEBE ser una copia LEGÍTIMA o BRICKEARÁS!**
 {: .notice--danger}
 
 #### Instrucciones
 
-1. Reboot your console to be sure that you are on SysNAND.
+1. Reinicia tu consola para estar seguro de que estás en la SysNAND.
   + You should see the SysNAND folder on the first page of your home menu
 2. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
 3. Inicia el CBHC Installer
