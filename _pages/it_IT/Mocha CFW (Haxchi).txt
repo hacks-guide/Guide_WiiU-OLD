@@ -13,7 +13,7 @@ RedNAND è un diminutivo di "**Red**irected **NAND**". È una copia della memori
 Haxchi è un exploit che ci permette di avviare Mocha CFW direttamente dal menu home senza usare l'Homebrew Launcher.
 {: .notice--info}
 
-You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploitable games. Una volta completato l'acquisto, rientra nell'[Homebrew Launcher](homebrew-launcher).
+Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare uno dei giochi exploitabili. Una volta completato l'acquisto, rientra nell'[Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
