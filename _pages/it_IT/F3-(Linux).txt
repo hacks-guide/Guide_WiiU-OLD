@@ -10,7 +10,7 @@ Questa pagina ti guiderà nel processo di controllo della presenza di errori sul
 A seconda della dimensione della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
 {: .notice--info}
 
-Questa pagina è solo per utenti Linux. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3X (Mac)](f3x-(mac)) pages.
+Questa pagina è solo per utenti Linux. Se non sei su Linux, usa [H2testw (Windows)](h2testw-(windows)) o [F3X (Mac)](f3x-(mac)).
 {: .notice--info}
 
 #### Quello che ti serve
@@ -19,8 +19,8 @@ Questa pagina è solo per utenti Linux. If you are not on Linux, check out the [
 
 #### Istruzioni
 
-1. Unzip the F3 `.zip` file
-2. `cd` into the F3 directory
+1. Estrai l'archivio `.zip` di F3
+2. Entra nella cartella di F3 tramite il comando `cd`
 3. Avvia il comando `make` per compilare F3
 4. Inserisci la scheda SD nel tuo computer
 5. Monta la scheda SD
