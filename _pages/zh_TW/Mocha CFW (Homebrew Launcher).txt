@@ -10,7 +10,7 @@ Mocha CFW 是個用來套用簽證補丁及開機至 RedNAND 的自製韌體。
 RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD 卡磁區底下 Wii U 內存的複製品，這內存取代了 Wii U 所內置的儲存空間。 RedNAND 跟你 Wii U 上所安裝的內存晶片是完全分離的，也就是說就算你亂裝東西把 RedNAND 弄到磚機，你的裝置仍會完好無缺。
 {: .notice--info}
 
-In order to boot the patch signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+In order to boot the patched signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
 {: .notice--info}
 
 #### 操作說明
@@ -25,7 +25,7 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 6. Mocha CFW 的設置選單應該會在此時出現
 7. 透過方向鍵及「A」設定下列選項：
   + Config view mode: **expert**
-  + Skip the menu on launch: **on**
+  + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
   + Launch System Menu: **on**
