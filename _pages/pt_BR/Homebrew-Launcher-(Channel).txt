@@ -10,7 +10,7 @@ Isso irá instalar o Homebrew Channel na RedNAND para que você não necessite m
 #### Instruções
 
 1. Entre no Homebrew Launcher na RedNAND usando `http://loadiine.ovh`
-2. Launch WUP Installer - Mod Y
+2. Inicie o WUP Installer - Mod Y
 3. Aperte (A) para instalar o Homebrew Channel
 4. Aperte (Home) para sair do instalador assim que a instalação acabar
 
