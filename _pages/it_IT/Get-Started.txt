@@ -10,13 +10,13 @@ Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installar
 Prima di iniziare, dovresti aggiornare la tua Wii U all'ultima versione di sistema disponibile per garantire la compatibilità dei programmi. L'ultima versione di sistema è la 5.5.1.
 {: .notice--info}
 
-La tua scheda SD deve avere una grandezza di almeno 64gb se hai una Wii U nera da 32gb. Se hai una Wii U bianca da 8gb, avrai bisogno di una scheda SD da almeno 16gb.
+La tua scheda SD deve avere una grandezza di almeno 64gb se hai una Wii U nera da 32gb. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
 {: .notice--info}
 
 La tua scheda SD deve essere formattata in formato FAT32 (con clusters 64kb se possibile, altrimenti con clusters 32kb). Molte schede SD appena comprate saranno già formattate in questo modo.
 {: .notice--info}
 
-Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Usa invece [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e imposta Allocation Unit Size a 32kb.
+Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32kb.
 {: .notice--warning}
 
 **Non puoi** rinominare la tua scheda SD `wiiu` perchè potrebbe causare problemi.
@@ -31,7 +31,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 * [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* L'ultima versione di [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* The latest release of [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * L'ultima versione di [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * L'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -48,21 +48,22 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 3. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
 4. Crea una cartella chiamata `install` nella root della tua scheda SD
 5. Copia la cartella `apps` dall'archivio `.zip`dell'Homebrew App Store nella cartella `/wiiu/` nella tua scheda SD
-6. Copia e unisci _il contenuto_ dell'archivio `.zip`di Haxchi nella root della tua scheda SD
-7. Copia e unisci _il contenuto_ dell'archivio `.zip`di CBHC nella root della tua scheda SD
-8. Copia il file `config.txt`nella cartella `/haxchi/` della scheda SD
-9. Copia _il contenuto_ dell'archivio`.zip` dell'Homebrew Launcher Channel nella cartella `/install/` della tua scheda SD
-10. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
-11. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
-12. Copia e unisci _il contenuto_ dell'archivio `.zip`di Modified WUP Installer nella root della tua scheda SD
-13. Copia e unisci _il contenuto_ dell'archivio `.zip`di disc2app nella root della tua scheda SD
-14. Copia e unisci _il contenuto_ dell'archivio `.zip`di WUPhax nella root della tua scheda SD
-15. Copia e unisci _il contenuto_ dell'archivio `.zip`di saviine nella root della tua scheda SD
-16. Copia il file `boot.elf` dalla cartella `hackmii_installer_v1.2` all'interno dell'archivio `.zip` dell'Hackmii Installer nella root della tua scheda SD
-17. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
-18. Copia e unisci la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
-19. Reinserisci la scheda SD nella Wii U
-20. Accendi la tua Wii U
+6. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
+7. Copia e unisci _il contenuto_ dell'archivio `.zip`di Haxchi nella root della tua scheda SD
+8. Copia e unisci _il contenuto_ dell'archivio `.zip`di CBHC nella root della tua scheda SD
+9. Copia il file `config.txt`nella cartella `/haxchi/` della scheda SD
+10. Copia _il contenuto_ dell'archivio`.zip` dell'Homebrew Launcher Channel nella cartella `/install/` della tua scheda SD
+11. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
+12. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
+13. Copy and merge _the contents of_ the Modified WUP Installer `.zip` to the root of your SD card
+14. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
+15. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
+16. Copy and merge _the contents of_ the saviine `.zip` to the root of your SD card
+17. Copia il file `boot.elf` dalla cartella `hackmii_installer_v1.2` all'interno dell'archivio `.zip` dell'Hackmii Installer nella root della tua scheda SD
+18. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
+19. Copia e unisci la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
+20. Reinserisci la scheda SD nella Wii U
+21. Accendi la tua Wii U
 
 ___
 
