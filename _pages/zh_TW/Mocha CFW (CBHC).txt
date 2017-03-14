@@ -4,7 +4,7 @@ lang: zh-Hant
 permalink: /zh_TW/mocha-cfw-(cbhc).html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the home menu, which will then load RedNAND.
+CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修改後的 DS Virtual Console 遊戲，讓你自動開機至 RedNAND 中，而非普通的 HOME 選單。
 {: .notice}
 
 本節為選用章節。 正常的 Haxchi 本身就很好了；只是透過此方法將讓開機方便些，且能降低不小心弄壞 SysNAND 的風險。
@@ -31,7 +31,7 @@ CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND la
 6. 完成後，你將會回到 HOME 主選當中
 7. 重新啟動你的 Wii U
 8. 如果漏洞順利執行，你將會看到各種選項的開機選單
-9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
+9. 將游標移至**「Autoboot: Disabled」**上，並按「A」鍵直到選項變為**「Autoboot: Mocha CFW」**為止
 10. 在「Boot Mocha CFW」上按下「A」鍵
 11. 如果漏洞順利執行，你應該會看到 Mocha CFW 的開機畫面並開機至*沒有* SysNAND 資料夾的 HOME 主選單中
 12. 重啟你的 Wii U 以確保漏洞仍能自動執行
@@ -47,7 +47,7 @@ ___
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can hold (Home) on boot to access the CBHC boot options menu. 每個選項的功能如下：**
+**你可以在開機時按住「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：**
 
     + Boot System Menu -> 開機至 SysNAND
     + Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
@@ -70,7 +70,7 @@ ___
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
 
-**Never delete the user account on SysNAND or NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**千萬不要刪除購買 CBHC DS Virtual Console 遊戲 SysNAND 底下的使用者帳戶或 NNID，否則—保。證。磚。機。**
 {: .notice--danger}
 
 **千萬不要在 SysNAND 中連網。 在 SysNAND 中進行任何系統更新都有可能造成磚機！**
