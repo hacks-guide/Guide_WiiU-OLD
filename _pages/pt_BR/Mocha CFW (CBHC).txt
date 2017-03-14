@@ -4,7 +4,7 @@ lang: pt-BR
 permalink: /pt_BR/mocha-cfw-(cbhc).html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the home menu, which will then load RedNAND.
+CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie o jogo de DS do Virtual Console por padrão, em vez do menu HOME, o qual irá carregar a RedNAND.
 {: .notice}
 
 Esta página é opcional. Haxchi regular funciona normalmente como é; isto só oferece maior comodidade e remove o risco de acidentalmente brickar sua SysNAND.
@@ -31,7 +31,7 @@ Esta página é opcional. Haxchi regular funciona normalmente como é; isto só 
 6. Quando isso for concluído, você deverá estar de volta ao menu HOME
 7. Reinicie o seu Wii U
 8. Se o exploit foi bem-sucedido, você verá um menu aparecer com várias opções de inicialização
-9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
+9. Posicione o cursor em **"Autoboot: Disabled"** e, em seguida, aperte (A) nele até aparecer **"Autoboot: Mocha CFW"**
 10. Aperte (A) em "Boot Mocha CFW"
 11. Se o exploit foi bem-sucedido, você irá ver a tela inicial do Mocha CFW e então, será carregado um menu HOME *sem* a pasta SysNAND
 12. Reinicie seu Wii U para garantir que o exploit funciona automaticamente, como pretendido
@@ -47,7 +47,7 @@ Contanto que você não veja a pasta SysNAND no seu menu HOME, você pode ter ce
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can hold (Home) on boot to access the CBHC boot options menu. Isto é o que cada uma das opções de inicialização faz:**
+**Você pode segurar (Home) durante a inicialização para acessar o menu de opções de inicialização do CBHC. Isto é o que cada uma das opções de inicialização faz:**
 
     + Boot System Menu -> Inicializa na SysNAND
     + Boot Homebrew Launcher -> Inicializa no Homebrew Launcher na SysNAND
@@ -70,7 +70,7 @@ Se você deseja utilizar o vWii, você deve acessá-lo a partir da SysNAND ou do
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
 
-**Never delete the user account on SysNAND or NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**Nunca exclua a conta de usuário na SysNAND ou a NNID que você comprou o jogo de DS do Virtual Console utilizado no CBHC, ou você irá BRICKAR!**
 {: .notice--danger}
 
 **Não conecte sua SysNAND na internet. Qualquer atualização no futuro poderá BRICKAR seu dispositivo, caso seja permitida a instalação dela na SysNAND!**
