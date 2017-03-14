@@ -12,18 +12,18 @@ Esto instalará el Homebrew Channel en la RedNAND, tras lo cual no requerirás d
 1. Inicia el Homebrew Launcher en la RedNAND usando `http://loadiine.ovh`
 2. Inicia WUP Installer - Mod Y
 3. Press (A) to install the Homebrew Channel
-4. Press (Home) to exit the installer once it has completed installing
+4. Presiona (Home) para salir del instalador una vez que haya completado la instalación
 
 ___
 
-You can now launch the Homebrew Launcher on RedNAND just by launching the Homebrew Channel.
+Ahora puedes iniciar el Homebrew Launcher en la RedNAND simplemente iniciando el Homebrew Channel.
 {: .notice}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Para informarte acerca de cómo volcar los datos de tus discos de juego a un formato instalable para jugar sin necesidad del disco, echa un vistazo al apartado de [disc2app](disc2app).
 {: .notice--success}
 
 For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
-For information on uninstalling Mocha CFW safely and returning to stock, check out the [Uninstall Mocha CFW](uninstall-mocha-cfw) page.
+Para informarte acerca de cómo desinstalar Mocha CFW de manera segura y regresar la consola a su estado original, echa un vistazo al apartado de [Desinstalar Mocha CFW](uninstall-mocha-cfw).
 {: .notice--warning}
