@@ -9,7 +9,7 @@ header:
   cta_url: "/it_IT/get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
+excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi + RedNAND.<br />" #
 lang: it
 permalink: /it_IT/index.html
 ---
