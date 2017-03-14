@@ -10,7 +10,7 @@ Con estos pasos prepararás tu tarjeta SD para instalar custom firmware basado e
 Antes de comenzar, debes actualizar tu Wii U a la versión más reciente para asegurar su compatibilidad. Actualmente es la 5.5.1.
 {: .notice--info}
 
-Tu tarjeta SD debe ser de al menos 64gb si tienes el modelo negro de Wii U (32gb). If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+Tu tarjeta SD debe ser de al menos 64gb si tienes el modelo negro de Wii U (32gb). Si tienes el modelo blanco de Wii U (8gb), tu tarjeta SD debe ser de al menos 16gb.
 {: .notice--info}
 
 Tu tarjeta SD debe ser formateada como FAT32 (clusters de 64kb si es posible, si no, pueden ser clusters de 32kb). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
