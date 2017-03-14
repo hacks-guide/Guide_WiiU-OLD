@@ -15,14 +15,14 @@ Non puoi utilizzare disc2app nella RedNAND per creare il backup del gioco, ma pu
 
     + Non puoi usare lo stesso hard disk sia per i giochi Wii U che per quelli vWii.
     + La Wii U può solo utilizzare 2tb del tuo hard disk, anche se la sua capacità è maggiore.
-    + La formattazione delll'hard disk esterno cancellerà tutti i dati al suo interno.
-    + Se stai usando un hard disk esterno che non ha la sua fonte di energia propria, avrai bisogno di un [cavo Y USB](https://www.amazon.it/QUMOX-USB3-0-maschio-Micro-mobile/dp/B003RTZBTQ).
+    + Formatting an external hard drive for use with a Wii U will erase its contents.
+    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, devi prestare attenzione al fatto che la Wii U può solo utilizzare 2tb di un qualsiasi hard disk esterno, anche se la sua capacità è maggiore
+If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
 {: .notice--info}
 
 #### Quello che ti serve
@@ -55,7 +55,7 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 ###### CBHC
 
 1. Spegni la tua Wii U
-2. Tieni premuto (B) all'avvio per aprire il menu di avvio di CBHC
+2. Hold (Home) on boot to enter the CBHC boot menu
 3. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
 4. Avvia disc2app
 
@@ -68,7 +68,7 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 1. Avvia l'Homebrew Launcher nella SysNAND navigando sul sito `http://loadiine.ovh`
 2. Avvia disc2app
 
-##### Sezione II - Usare disc2app
+##### Section III - Using disc2app
 
 1. Premi (A) per estrarre i file sulla scheda SD
 2. Inserisci quando richiesto il disco del quale vuoi creare un backup
@@ -76,7 +76,7 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 3. Una volta finito il processo, ritornerai al menu della SysNAND
   + Gli utenti che hanno utilizzato CBHC potrebbero ritornare nella RedNAND
 
-##### Sezione III - Installare il gioco estratto
+##### Section IV - Installing dumped game
 
 1. Avvia la RedNAND utilizzando il metodo di tua preferenza
 2. Avvia l'Homebrew Channel nella RedNAND per avviare l'Homebrew Launcher
