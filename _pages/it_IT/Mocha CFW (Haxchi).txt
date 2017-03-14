@@ -13,7 +13,7 @@ RedNAND è un diminutivo di "**Red**irected **NAND**". È una copia della memori
 Haxchi è un exploit che ci permette di avviare Mocha CFW direttamente dal menu home senza usare l'Homebrew Launcher.
 {: .notice--info}
 
-Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare uno dei giochi exploitabili. Una volta completato l'acquisto, rientra nell'[Homebrew Launcher](homebrew-launcher).
+You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploitable games. Una volta completato l'acquisto, rientra nell'[Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
@@ -22,7 +22,7 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 + Una copia legittima di uno dei seguenti giochi DS della Virtual Console installati nella memoria interna della Wii U
   + **Non** installare il gioco DS su una chiavetta USB
   + Al momento, Brain Training è il gioco più economico sull'eShop (6.99€)
-  + Se hai già installato Brain Training sulla tua Wii U, sarebbe meglio cancellarlo e riscaricarlo dall'eShop. Le vecchie versioni del gioco non funzionano con Haxchi
+  + If you've had Brain Age / Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Le vecchie versioni del gioco non funzionano con Haxchi
   + Il gioco non sarà giocabile dopo il processo
   + **Il tuo gioco DS della Virtual Console DEVE essere LEGITTIMO!**
 
@@ -30,11 +30,11 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
-| Brain Training|
+| Brain Age / Brain Training|
 | DK: Jungle Climber |
 | Kirby: L'oscuro disegno |
 | Kirby: Mass Attack|
-| Kirby: Topi all'attacco |
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
 | Legend of Zelda: Phantom Hourglass, The |
 | Legend of Zelda: Spirit Tracks, The |
 | Mario & Luigi: Fratelli nel tempo|
@@ -60,23 +60,23 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 3. **Fai un backup di ogni file sulla tua scheda SD e conservalo in una cartella sul tuo computer in quanto la scheda SD verrà formattata successivamente**
 4. Reinserisci la scheda SD nella Wii U
 5. Avvia l'Haxchi Installer
-6. Seleziona il gioco DS della Virtual Console nel quale stai installando Haxchi, quindi premi (A) per selezionarlo
+6. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
 7. Leggi l'avviso visualizzato a schermo, quindi premi (A) per installare Haxchi
-8. Una volta completato il processo, avvia il tuo gioco DS con Haxchi
+8. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
 9. Dovrebbe apparire il menu di configurazione di Mocha CFW
 10. Usa il pulsante (A) e il D-Pad per impostare le seguenti opzioni:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
-  + Launch home menu: **on**
+  + Launch System Menu: **on**
   + redNAND: **on**  
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
 11. Premi (A) per confermare ed uscire
-La Wii U dovrebbe ora mostrare uno schermo nero; questo è il setup della RedNAND
-13. Premi il pulsante di accensione **sulla console** (non il gamepad) per avviare la copia della memoria interna della console all'interno della scheda SD
+12. Your Wii U should display a black screen; this is the RedNAND setup
+13. When prompted, press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
   + Aspetta che finisca il processo; potrebbe volerci del tempo (anche ore a seconda della dimensione della memoria interna della console)
 14. Una volta finito il processo, la Wii U dovrebbe mostrare uno schermo nero
   + È normale; la tua scheda SD è stata formattata
