@@ -10,7 +10,7 @@ Esta página te guiará pelo processo de checar se o seu cartão SD contém erro
 Dependendo do tamanho do seu cartão SD e da velocidade do seu computador, esse processo pode durar várias horas!
 {: .notice--info}
 
-Esta página é somente para usuários de Windows. If you are not on windows, check out the [F3 (linux)](f3-(linux)) or [F3X (mac)](f3x-(mac)) pages.
+Esta página é somente para usuários de Windows. If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
 {: .notice--info}
 
 #### O que você precisa
@@ -22,7 +22,7 @@ Esta página é somente para usuários de Windows. If you are not on windows, ch
 
 1. Copie o `h2testw.exe` do `.zip` do h2testw para a sua área de trabalho
 2. Insira o seu cartão SD no seu computador
-3. Run `h2tsetw.exe`
+3. Run `h2testw.exe`
 4. Selecione "English"
 5. Clique em "Select target"
 6. Selecione a letra de unidade do seu cartão SD
