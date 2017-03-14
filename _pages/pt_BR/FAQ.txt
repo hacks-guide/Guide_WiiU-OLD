@@ -7,7 +7,7 @@ permalink: /pt_BR/faq.html
 <a name="faq_latestfw" />**P:** *Eu estou na última versão, posso hackear meu Wii U?*    
 **R:** Sim
 
-<a name="faq_oldfw" />**P** *Eu tenho um Wii U na versão X.X.X. What can / should  I do with it?*    
+<a name="faq_oldfw" />**P** *Eu tenho um Wii U na versão X.X.X. O que posso / devo fazer com ele?*    
 **R:** Atualizar seu Wii U para a última versão (5.5.1)
 
 <a name="faq_updates" />**P:** *Agora que a Nintendo está descontinuando o Wii U, isso quer dizer que ele não será mais atualizado?*    
@@ -16,10 +16,10 @@ permalink: /pt_BR/faq.html
 <a name="faq_updatemocha" />**P:** *Como eu atualizo para a versão mais recente do Mocha CFW?*    
 **R:** Baixe a última versão do [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), depois copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD (sobrescreva o arquivo existente)
 
-<a name="faq_rednand" />**Q:** *What is RedNAND?*    
+<a name="faq_rednand" />**P:** *O que é RedNAND?*    
 **R:** RedNAND é a abreviação de "**Red**irected **NAND**". Isto é uma cópia da memória interna do seu Wii U armazenada em uma partição do cartão SD que é usada em vez da memória principal do sistema. A RedNAND é completamente independente da memória física no seu Wii U, significando que seu dispositivo continuará funcionando mesmo se você brickar a RedNAND por instalar algo que não deveria.
 
-<a name="faq_vwiirednand" />**Q:** *Can I access vWii with RedNAND?*    
+<a name="faq_vwiirednand" />**P:** *Eu posso acessar o vWii com a RedNAND?*    
 **R:** Não. Se você deseja utilizar o vWii, você deve acessá-lo a partir da SysNAND ou do menu de inicialização do CBHC. Todas as funções do vWii serão inutilizáveis na RedNAND.
 
 <a name="faq_risky" />**P:** *Qual o risco de hackear o meu console?*    
