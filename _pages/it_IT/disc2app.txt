@@ -14,8 +14,8 @@ Non puoi utilizzare disc2app nella RedNAND per creare il backup del gioco, ma pu
 **Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, presta attenzioni alle seguenti nozioni:**
 
     + Non puoi usare lo stesso hard disk sia per i giochi Wii U che per quelli vWii.
-    + The Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-    + Formatting an external hard drive for use with a Wii U will erase its contents.
+    + La Wii U può utilizzare solo 2tb del tuo hard disk, anche se la sua capacità è maggiore.
+    + La formattazione delll'hard disk esterno cancellerà tutti i dati al suo interno.
     + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
