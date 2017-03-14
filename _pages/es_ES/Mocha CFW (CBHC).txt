@@ -10,7 +10,7 @@ CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu Sys
 Esta página es opcional. Regular Haxchi works just fine as is; this just offers extra convenience and removes the risk of you accidentally breaking your SysNAND.
 {: .notice--info}
 
-**You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!**
+**DEBES tener una instalación funcional de Haxchi para que funcione. If you do not, you will BRICK!**
 {: .notice--danger}
 
 **Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!**
