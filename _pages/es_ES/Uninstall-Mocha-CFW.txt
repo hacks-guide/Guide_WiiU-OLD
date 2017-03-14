@@ -7,7 +7,7 @@ permalink: /es_ES/uninstall-mocha-cfw.html
 Esto eliminará Mocha CFW de tu Wii U, independiente de cual haya sido el método de instalación, con el propósito de dejarla como de fábrica.
 {: .notice--info}
 
-Los juegos y las partidas son guardadas en la memoria interna, no en la tarjeta SD. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+Los juegos y las partidas son guardadas en la memoria interna, no en la tarjeta SD. ¡Esto significa que todos los juegos y partidas guardadas después de la instalación de RedNAND serían eliminadas si desinstalas, ya que tu sistema sólo tendría la SysNAND con la que comenzaste!
 {: .notice--danger}
 
 #### Instrucciones
