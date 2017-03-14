@@ -16,7 +16,7 @@ permalink: /zh_TW/vwii-modding.html
 ###### CBHC
 
 1. 關閉你的 Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
+2. Hold (Home) on boot to enter the CBHC boot menu
 3. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
 
 ###### Haxchi
@@ -39,8 +39,8 @@ permalink: /zh_TW/vwii-modding.html
 8. 讀完警示，並於提示時按下「1」繼續
 9. 依照顯示的步驟來安裝 Homebrew Channel 至 vWii 上
 10. 照步驟跑完回至 vWii 中
-11. If the exploit was successful, you will see the Homebrew Channel on the vWii home menu
-12. Return to the Wii U home menu, then power off your Wii U
+11. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
+12. Return to the home menu, then power off your Wii U
 13. 根據第一節的方式於 SysNAND 上進入 Homebrew Launcher
 14. 啟動 wuphax
 15. 當提示時，按下「B」鍵還原 Mii 頻道
@@ -98,14 +98,14 @@ permalink: /zh_TW/vwii-modding.html
 3. 按「A」鍵安裝
   + 這應該很快
 4. 完成後，按下任一按鈕回至 Homebrew Channel 中
-5. Exit to the vWii home menu
+5. Exit to the vWii Menu
 
 ___
 
 現在你可以安裝並使用任何 Wii 的自製程式像是 USB Loader GX、Wiiflow、CFG USB Loader、模擬器...等等。
 {: .notice--success}
 
-外接硬碟一定得接到 Wii U 後端的 USB 才能在 vWii 中使用。 這不能跟你裝 Wii U 遊戲的硬碟互相共用。 If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+外接硬碟一定得接到 Wii U 後端的 USB 才能在 vWii 中使用。 這不能跟你裝 Wii U 遊戲的硬碟互相共用。 If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 {: .notice--info}
 
 請先確保你所裝的 `.wad` 檔案（頻道、遊戲...等）是[可與 vWii 相容的格式](https://gbatemp.net/threads/340226/)。 如果你所裝的 `.wad` 檔案是給一般 Wii 所使用的格式的話，你將會使你的 vWii 磚機，且將需要還原先前的備份才能恢復運作。
