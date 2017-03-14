@@ -14,7 +14,7 @@ No puedes utilizar disc2app en RedNAND para volcar el juego, pero si puedes inst
 **Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:**
 
     + No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
-    + La Wii U solo reconoce hasta 2tb del disco duro externo, incluso si es de mayor capacidad.
+    + The Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
     + Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
     + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
 
