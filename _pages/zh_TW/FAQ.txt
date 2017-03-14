@@ -7,7 +7,7 @@ permalink: /zh_TW/faq.html
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
 **A:** 可以的！
 
-<a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 What can / should  I do with it?*    
+<a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
 **A:** 將你的 Wii U 升級至最新版本（5.5.1）
 
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
@@ -16,10 +16,10 @@ permalink: /zh_TW/faq.html
 <a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
 **A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）
 
-<a name="faq_rednand" />**Q:** *What is RedNAND?*    
+<a name="faq_rednand" />**Q:** *什麼是 RedNAND？*    
 **A:** RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD 卡磁區底下 Wii U 內存的複製品，這內存取代了 Wii U 所內置的儲存空間。 RedNAND 跟你 Wii U 上所安裝的內存晶片是完全分離的，也就是說就算你亂裝東西把 RedNAND 弄到磚機，你的裝置仍會完好無缺。
 
-<a name="faq_vwiirednand" />**Q:** *Can I access vWii with RedNAND?*    
+<a name="faq_vwiirednand" />**Q:** *我能不能在 RedNAND 底下使用 vWii？*    
 **A:** 不行。 如果你想要使用 vWii，你必須從 SysNAND 或 CBHC 開機選單中啟動 vWii。 所有 vWii 的功能將無法在 RedNAND 底下使用。
 
 <a name="faq_risky" />**Q:** *改機風險多高？*    
