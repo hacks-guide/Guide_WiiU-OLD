@@ -13,7 +13,7 @@ RedNAND es la abreviación de "**Red**irected **NAND**" (NAND Redireccionada). E
 Haxchi es un exploit que nos permite ejecutar el CFW Mocha directamente desde el menú HOME sin usar el Homebrew Launcher.
 {: .notice--info}
 
-You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploitable games. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
+Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas comprar uno de los juegos vulnerables. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
