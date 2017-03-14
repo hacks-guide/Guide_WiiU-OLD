@@ -13,7 +13,7 @@ Esta página es opcional. Regular Haxchi works just fine as is; this just offers
 **DEBES tener una instalación funcional de Haxchi para que funcione. If you do not, you will BRICK!**
 {: .notice--danger}
 
-**Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!**
+**Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna de la Wii U. Si está en un dispositivo USB, ¡BRICKEARÁS!**
 {: .notice--danger}
 
 **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!**
