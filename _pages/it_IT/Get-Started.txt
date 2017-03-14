@@ -10,7 +10,7 @@ Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installar
 Prima di iniziare, dovresti aggiornare la tua Wii U all'ultima versione di sistema disponibile per garantire la compatibilità dei programmi. L'ultima versione di sistema è la 5.5.1.
 {: .notice--info}
 
-La tua scheda SD deve avere una grandezza di almeno 64gb se hai una Wii U nera da 32gb. If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
+La tua scheda SD deve avere una grandezza di almeno 64gb se hai una Wii U nera da 32gb. Se hai una Wii U bianca da 8gb, avrai bisogno di una scheda SD da almeno 16gb.
 {: .notice--info}
 
 La tua scheda SD deve essere formattata in formato FAT32 (con clusters 64kb se possibile, altrimenti con clusters 32kb). Molte schede SD appena comprate saranno già formattate in questo modo.
