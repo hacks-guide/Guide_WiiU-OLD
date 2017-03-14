@@ -10,7 +10,7 @@ permalink: /zh_TW/homebrew-launcher-(channel).html
 #### 操作說明
 
 1. 透過 `http://loadiine.ovh`於 RedNAND 上啟動 Homebrew Launcher
-2. Launch WUP Installer - Mod Y
+2. 啟動 WUP Installer - Mod Y
 3. 按下「A」鍵以安裝 Homebrew Channel
 4. 在安裝完後，按下「HOME」鍵以退出安裝
 
