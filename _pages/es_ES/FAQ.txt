@@ -7,7 +7,7 @@ permalink: /es_ES/faq.html
 <a name="faq_latestfw" />**P:** *Estoy en la última versión del sistema, ¿mi consola es hackeable?*    
 **R:** Si
 
-<a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. What can / should  I do with it?*    
+<a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo / debería hacer con ella?*    
 ** R:** Actualiza tu Wii U a la última versión (5.5.1)
 
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
