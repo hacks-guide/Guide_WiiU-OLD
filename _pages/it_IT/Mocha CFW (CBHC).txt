@@ -31,7 +31,7 @@ Questa pagina è facoltativa. Haxchi da solo funziona senza problemi; CBHC offre
 6. Una volta terminato il processo, ritornerai al menu home
 7. Riavvia la console
 8. Se l'exploit è andato a buon fine, apparirà un menu con varie opzioni di avvio della console
-9. Seleziona **"Autoboot: System Menu"**, quindi premi (A) su di esso finchè non compare **"Autoboot: Mocha CFW"**
+9. Seleziona **"Autoboot: Disabled"**, quindi premi (A) su di esso finchè non compare **"Autoboot: Mocha CFW"**
 10. Premi (A) su "Boot Mocha CFW"
 11. Se l'exploit è andato a buon fine, apparirà l'immagine di avvio di Mocha CFW e quindi il menu home *senza* la cartella SysNAND
 12. Riavvia la Wii U per assicurarti che l'exploit funzioni come dovrebbe
@@ -69,6 +69,9 @@ Se desideri usare la vWii, dovrai aprirla della SysNAND o dal menu di avvio di C
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-2 | markdownify }}</div>
+
+**Non cancellare dalla SysNAND l'account o l'NNID con il quale è stato acquistato il gioco DS della Virtual Console con CBHC o BRICKERAI!**
+{: .notice--danger}
 
 **Non connettere la SysNAND ad internet. Un aggiornamento futuro potrebbe BRICKARE la console se viene installato nella SysNAND!**
 {: .notice--danger}
