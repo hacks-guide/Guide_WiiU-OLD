@@ -10,7 +10,7 @@ permalink: /zh_TW/h2testw-(windows).html
 根據您的 SD 卡的大小和電腦的速度，此過程可能需要幾個小時 ！
 {: .notice--info}
 
-本教學是僅給 Windows 使用者使用的。 If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
+本教學是僅給 Windows 使用者使用的。 如果你不在 Windows 平台上，請參閱 [F3 (linux)](f3-(linux)) 或 [F3X (mac)](f3x-(mac))。
 {: .notice--info}
 
 #### 必備項目
@@ -21,7 +21,7 @@ permalink: /zh_TW/h2testw-(windows).html
 
 1. 從 h2testw `.zip` 中解壓 `h2testw.exe`
 2. 將 SD 卡插入電腦
-3. Run `h2testw.exe`
+3. 開啟 `h2testw.exe`
 4. 選擇「英語（English）」
 5. 按下「Select target」
 6. 選擇您的 SD 卡磁碟代號
