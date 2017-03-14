@@ -16,7 +16,7 @@ Questa pagina è facoltativa. Haxchi da solo funziona senza problemi; CBHC offre
 **Il tuo gioco DS della Virtual Console con all'interno Haxchi DEVE essere installato nella memoria interna della Wii U. Se è installato su un dispositivo USB, BRICKERAI!**
 {: .notice--danger}
 
-**Il tuo gioco DS della Virtual Console DEVE essere LEGITTIMO! In caso contrario BRICKERAI!**
+**Il tuo gioco DS della Virtual Console DEVE essere COMPRATO DALL'eShop! In caso contrario BRICKERAI!**
 {: .notice--danger}
 
 #### Istruzioni
@@ -60,7 +60,7 @@ Fintantochè non vedi la cartella SysNAND nel menu home, puoi essere sicuro di a
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Se desideri usare la vWii, dovrai aprirla della SysNAND o dal menu di avvio di CBHC. Nessuna funzione della vWii funziona nella RedNAND.
+Se desideri usare la vWii, dovrai aprirla della SysNAND o dal menu di avvio di CBHC. La vWii non funzionerà nella RedNAND.
 {: .notice--warning}
 
 {% capture notice-2 %}
