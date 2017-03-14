@@ -39,7 +39,7 @@ Games and saves are saved to the internal memory not the SD card. This means all
 ##### Sección II - Eliminar de la tarjeta SD
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Elimina cualquier archivo o carpeta extra de la raíz de la tarjeta SD que *no* esté en la siguiente lista (puede que no tengas alguno o incluso ninguno de ellos):**
 
     + DCIM
     + private
