@@ -13,7 +13,7 @@ RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD �
 Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞，省去使用 Homebrew Launcher 的麻煩。
 {: .notice--info}
 
-You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploitable games. 一旦購買完畢後，請重新進入[Homebrew Launcher](homebrew-launcher)。
+如果你需要購買可鑽漏洞的遊戲的話，你可以透過「Home」按鈕以退出 Homebrew Launcher。 一旦購買完畢後，請重新進入[Homebrew Launcher](homebrew-launcher)。
 {: .notice--primary}
 
 
@@ -22,7 +22,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 + 下列任一 DS Virtual Console 遊戲（須為正版且安裝於 Wii U 內存中）
   + **千萬不要**安裝那個遊戲在 USB 儲存裝置中
   + 目前為止，《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》是 eShop 上最便宜的遊戲 ($6.99 美元)
-  + If you've had Brain Age / Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. 舊版的遊戲無法與 Haxchi 相容
+  + 如果你先前已經安裝過了上述遊戲，請將它刪除並再重新透過 eShop 下載。 舊版的遊戲無法與 Haxchi 相容
   + 注意未來你將無法再遊玩你所選的遊戲
   + **你的 Haxchi DS Virtual Console 遊戲 _必須_ 是正版的！**
 
@@ -30,11 +30,11 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 | ------------- |
 | 《歡迎光臨：動物之森》 |
 | 《頭腦柔軟體操學園》 |
-| Brain Age / Brain Training|
+| 《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》 |
 | 《大金剛：叢林攀爬高手》 |
 | 《觸摸！卡比》 |
 | 《卡比大集合》|
-| Kirby: Squeak Squad / Kirby: Mouse Attack |
+| 《卡比之星：多洛奇團登場》 |
 | 《薩爾達傳說：夢幻沙漏》 |
 | 《薩爾達傳說：大地汽笛》 |
 | 《瑪利歐與路易吉 RPG 2》 |
@@ -60,9 +60,9 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 3. **請將 SD 卡中的所有檔案在電腦上備份起來，因為接下來的步驟將會刪除所有卡上的檔案**
 4. 將 SD 卡插回 Wii U 中
 5. 啟動 Haxchi installer
-6. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
+6. 選擇你要安裝 Haxchi 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
 7. 讀完警示，並按下「A」鍵安裝
-8. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
+8. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
 9. Mocha CFW 的設置選單應該會在此時出現
 10. 透過方向鍵及「A」設定下列選項：
   + Config view mode: **expert**
@@ -75,8 +75,8 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
 11. 按「A」鍵確認並退出
-12. Your Wii U should display a black screen; this is the RedNAND setup
-13. When prompted, press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+12. 你的 Wii U 這時應該會黑屏；這就是安裝 RedNAND 的畫面
+13. 當提示時，在**主機上**按下電源紐（非控制器上的）開始將系統內存複製到 SD 卡中
   + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的內存使用空間而定，有可能會到數小時）
 14. 複製完成後，你的 Wii U 將黑屏
   + 這是正常的；也就是說 SD 卡已被格式化了
