@@ -22,20 +22,20 @@ Esta página es opcional. Una instalación normal de Haxchi funciona bien como e
 #### Instrucciones
 
 1. Reinicia tu consola para estar seguro de que estás en la SysNAND.
-  + You should see the SysNAND folder on the first page of your home menu
-2. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+  + Deberías ver la carpeta SysNAND en la primera página de tu menú HOME
+2. Entra en el Homebrew Launcher en la Sysnand usando `http://loadiine.ovh`
 3. Inicia el CBHC Installer
-4. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-5. Read the warning that appears, then press (A) to install
-6. Once this is complete, you should be back at the home menu
-7. Reboot your Wii U
-8. If the exploit was successful, you will see a menu appear with various boot options
+4. Selecciona el título de la consola virtual de DS en el que instalarás CBHC, después pulsa (A) para seleccionarlo
+  + **Este juego DEBE tener una instalación funcional de Haxchi**
+5. Lee la advertencia que aparezca, después pulsa (A) para instalar
+6. Cuando se haya completado, deberías estar de vuelta en el menú HOME
+7. Reinicia tu Wii U
+8. Si el exploit funcionó, deberías ver un menú con varias opciones de arranque
 9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
-10. Press (A) on "Boot Mocha CFW"
-11. If the exploit was successful, you should see the Mocha CFW splash screen and load to a home menu *without* the SysNAND folder
-12. Reboot your Wii U to ensure the exploit works automatically as intended
-  + You should launch into Mocha CFW and RedNAND automatically on boot (no SysNAND folder on the home menu)
+10. Pulsa (A) en "Boot Mocha CFW"
+11. Si el exploit funcionó, deberías ver la pantalla de inicio de Mocha CFW y que ha cargado el menú HOME *sin* la carpeta SysNAND
+12. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
+  + Deberías arrancar Mocha CFW y la RedNAND automáticamente al iniciar (sin la carpeta SysNAND en el menú HOME)
 13. If you have made 100% sure that you have booted into RedNAND, you can delete the DS VC game **on RedNAND**
 
 ___
