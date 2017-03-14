@@ -73,8 +73,8 @@ Si quieres usar el modo vWii, debes acceder desde la SysNAND o desde el menú de
 **¡Nunca elimines la cuenta de usuario en la SysNAND o el NNID que haya comprado el juego de la consola virtual de DS para CBHC o BRICKEARÁS!**
 {: .notice--danger}
 
-**No conectes tu SysNAND a internet. Any future system update could BRICK your device if it is allowed to be installed to SysNAND!**
+**No conectes tu SysNAND a internet. ¡Cualquier actualización del sistema podría BRICKEAR tu consola si se permite que se instale en la SysNAND!**
 {: .notice--danger}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
