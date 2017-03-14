@@ -4,8 +4,11 @@ lang: es
 permalink: /es_ES/uninstall-mocha-cfw.html
 ---
 
-This will remove Mocha CFW, regardless of your method for launching it.
+This will remove Mocha CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--info}
+
+Games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+{: .notice--danger}
 
 #### Instrucciones
 
@@ -13,11 +16,11 @@ This will remove Mocha CFW, regardless of your method for launching it.
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
+1. Apaga tu Wii U
+2. Hold (Home) on boot to enter the CBHC boot menu
 3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
 4. Inicia el CBHC Installer
-5 Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
+5. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 6. Read the warning that appears, then press (B) to uninstall
 7. When it is complete, you will be returned to the RedNAND home menu
 8. Reboot your Wii U
