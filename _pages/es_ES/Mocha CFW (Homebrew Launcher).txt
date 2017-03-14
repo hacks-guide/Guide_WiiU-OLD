@@ -4,13 +4,13 @@ lang: es
 permalink: /es_ES/mocha-cfw-(homebrew-launcher).html
 ---
 
-Mocha CFW is a custom firmware that patches signature checks and boots RedNAND.
+Mocha CFW es un custom firmware que parchea los verificadores de firmas de seguridad e inicia la RedNAND.
 {: .notice}
 
-RedNAND es la abreviación de "**Red**irected **NAND**" (NAND Redireccionada). This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
+RedNAND es la abreviación de "**Red**irected **NAND**" (NAND Redireccionada). Esta es una copia de la memoria interna de la Wii U almacenada en una partición de la tarjeta SD que será usada en lugar de la memoria principal de la consola. La RedNAND es completamente independiente del chip de memoria física en tu Wii U, lo que significa que tu consola seguirá funcionando incluso si brickeas la RedNAND si instalas algo que no debes.
 {: .notice--info}
 
-In order to boot the patched signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la RedNAND, debes entrar al Homebrew Launcher e iniciar Mocha CFW cada vez que reinicias la consola.
 {: .notice--info}
 
 #### Instrucciones
