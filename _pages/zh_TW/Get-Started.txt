@@ -10,13 +10,13 @@ permalink: /zh_TW/get-started.html
 在開始前，請先將你的 Wii U 更新至最新版本以確保相容性。 目前最新版本為 5.5.1。
 {: .notice--info}
 
-如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 If you have a white (8gb) Wii U model, your SD card needs to be atleast 16gb in size.
+如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 If you have a white (8gb) Wii U model, your SD card needs to be at least 16gb in size.
 {: .notice--info}
 
 你的 SD 卡格式須為 FAT32（建議使用 64kb 的配置單位大小，不過 32kb 也是可以的）。 大部分的 SD 卡預設都是以這個格式出廠的。
 {: .notice--info}
 
-如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32kb.
 {: .notice--warning}
 
 **千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
@@ -31,7 +31,7 @@ permalink: /zh_TW/get-started.html
 * [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/releases/latest)
+* The latest release of [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -48,21 +48,22 @@ permalink: /zh_TW/get-started.html
 3. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 4. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
 5. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-6. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-7. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-8. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
-9. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/` 資料夾底下
-10. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
-11. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
-12. Copy and merge the _the contents of_ the Modified WUP Installer `.zip` to the root of your SD card
-13. Copy and merge the _the contents of_ the disc2app `.zip` to the root of your SD card
-14. Copy and merge the _the contents of_ the WUPhax `.zip` to the root of your SD card
-15. Copy and merge the _the contents of_ the saviine `.zip` to the root of your SD card
-16. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
-17. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
-18. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
-19. 將 SD 卡插回 Wii U 中
-20. 啟動你的 Wii U
+6. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
+7. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+8. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+9. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
+10. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/` 資料夾底下
+11. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
+12. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
+13. Copy and merge _the contents of_ the Modified WUP Installer `.zip` to the root of your SD card
+14. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
+15. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
+16. Copy and merge _the contents of_ the saviine `.zip` to the root of your SD card
+17. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
+18. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
+19. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
+20. 將 SD 卡插回 Wii U 中
+21. 啟動你的 Wii U
 
 ___
 
