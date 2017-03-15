@@ -48,9 +48,11 @@ Per poter avviare le patch per i controlli delle firme digitali e la RedNAND, do
 ##### Sezione II - Avviare Mocha CFW
 
 1. Crea una cartella nella prima pagina del menu home e rinominala "SysNAND"
-2. Vai nelle Impostazioni della Console, quindi Internet, quindi premi (X) per far apparire le tue connessioni internet
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. Per ogni connessione presente (e anche per le eventuali connessioni future), segui i seguenti passaggi
+  + Select the connection
   + Seleziona "Cambia Impostazioni"
+  + Move to the second list and choose "DNS"
   + Seleziona in DNS "Non ottenere automaticamente"
   + Inserisci i seguenti indirizzi IP del DNS
     + `168.235.092.108`
