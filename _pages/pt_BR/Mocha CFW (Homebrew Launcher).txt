@@ -48,9 +48,11 @@ Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, v
 ##### Seção II - Executando o Mocha CFW
 
 1. Crie uma pasta na primeira página do seu menu HOME chamado "SysNAND"
-2. Vá para a Configuração do console, depois internet e, em seguida, aperte (X) para exibir suas conexões de rede atuais
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. Para cada uma das suas conexões (e todas as conexões futuras), faça o seguinte
+  + Select the connection
   + Selecione "Alterar configurações"
+  + Move to the second list and choose "DNS"
   + Defina o DNS para "Modo manual"
   + Configure o IP dos servidores DNS para os seguintes servidores
     + `168.235.092.108`
