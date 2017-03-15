@@ -48,9 +48,11 @@ RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD �
 ##### 第二節 — 啟動 Mocha CFW
 
 1. 在 HOME 主選單的首頁建立一個新資料夾叫「SysNAND」
-2. 進入系統設定、網路，並按下「X」鍵以顯示你目前的網路設置
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
+  + Select the connection
   + 選擇「更改設置（Change Settings）」
+  + Move to the second list and choose "DNS"
   + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
   + 將 DNS 伺服器 IP 設為下列位址
     + `168.235.092.108`
