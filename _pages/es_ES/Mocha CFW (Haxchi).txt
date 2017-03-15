@@ -13,20 +13,20 @@ RedNAND es la abreviación de "**Red**irected **NAND**" (NAND Redireccionada). E
 Haxchi es un exploit que nos permite ejecutar el CFW Mocha directamente desde el menú HOME sin usar el Homebrew Launcher.
 {: .notice--info}
 
-Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas comprar uno de los juegos vulnerables. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
+Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas comprar uno de los juegos vulnerables. Una vez que lo hayas comprado, vuelve a entrar al [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
 #### Qué necesitas
 
-+ A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
-  + Do **not** install the DS virtual console game to a USB stick
-  + Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD)
-  + If you've had Brain Age / Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
-  + The game will not be playable after this process
-  + **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy!**
++ Una copia original de cualquiera de los siguientes juegos de la consola virtual de DS instalado en la memoria interna de tu Wii U
+  + **No** instales los juegos de la consola virtual de DS en un dispositivo USB
+  + Actualmente, Brain Age es el más barato de todos en la eShop ($6.99 USD)
+  + Si ya tenías Brain Age / Brain Training instalado en tu Wii U hace algún tiempo, prueba a borrarlo y a descargarlo nuevamente desde la eShop. Las versiones antiguas del juego no funcionan con Haxchi
+  + El juego no se podrá jugar después de este proceso
+  + **¡Tu juego de la consola virtual de DS para Haxchi DEBE ser una COPIA ORIGINAL!**
 
-| Compatible Haxchi Games |
+| Juegos compatibles con Haxchi |
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
@@ -93,19 +93,19 @@ Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas compr
   + Esto evitará que tu SysNAND se actualice
   + **Esto es REQUERIDO ya que la Wii U usará los ajustes de la SysNAND en modo de suspensión**
 3. Inicia tu juego de consola virtual de DS con Haxchi
-4. If the exploit was successful, you will launch Mocha CFW with RedNAND
-  + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
+4. Si el exploit fue exitoso, entonces iniciará Mocha CFW con RedNAND
+  + Si ya no ves la carpeta SysNAND una vez que ha cargado el menú HOME, habrás iniciado la RedNAND correctamente
 
 ___
 
-Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinicies para ingresar a RedNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
+Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinicies para ingresar a RedNAND. En la siguiente página se instalará CBHC (Coldboot Haxchi), que hará esto automáticamente.
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+Mientras no veas la carpeta SysNAND en el menú HOME, podrás tener la seguridad de que estás en la RedNAND.
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. This is what each of the boot options do:**
 
     + None -> Boots into Mocha CFW with RedNAND
     + (A) -> Boots into the Homebrew Launcher on SysNAND
