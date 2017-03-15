@@ -57,17 +57,17 @@ Esta copia de seguridad de la NAND te permitirá restaurar tu vWii a un estado f
 3. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 4. Apaga tu Wii U
 5. Introduce la tarjeta SD de tu Wii U en tu computadora
-6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
-7. Delete `nand.bin` and `keys.bin` from the root of your SD card
+6. **Copia los archivos `nand.bin` y `keys.bin` desde la raíz de tu tarjeta SD a un lugar seguro en tu computadora y haz varias copias de seguridad en distintos sitios (tales como almacenamiento de archivos en la nube); esto permitirá salvar tu vWii de un brick en caso de que algo salga mal**
+7. Borra los archivos `nand.bin` y `keys.bin` del directorio raíz de tu tarjeta SD
 
 ##### Sección IV - Instalación de cIOS
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+Asegúrate que no hay ninguna carpeta llamada `wad` o `wads` en el directorio raíz de tu tarjeta SD y que no hay otros archivos `.wad` en ningún lado excepto en la carpeta `/apps/` dentro de la tarjeta SD.
 {: .notice--warning}
 
 1. Inicia el Homebrew Channel en la vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
-  + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
+  + Los usuarios de Haxchi y de Mocha CFW cargado por Homebrew Launcher pueden hacer esto seleccionando la vWii desde el Menú HOME en la SysNAND, luego iniciando el Homebrew Channel
+  + Los usuarios de Mocha CFW cargado por CBHC pueden hacer esto manteniendo presionado (B) al encender la consola y luego seleccionando "Boot vWii Homebrew Channel"
 2. Inicia d2x cIOS Installer
 3. Elige las opciones en la parte superior de la pantalla acorde a lo siguiente:
   + Selecciona cIOS : **d2x-v10-beta53-alt-vWii**
