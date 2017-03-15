@@ -30,18 +30,18 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 ##### Sección II - wuphax
 
 1. Inicia wuphax
-2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
-3. You will be returned to the Homebrew Launcher on SysNAND
+2. Presiona (A) para hacer una copia de seguridad de tu Canal Mii e inyectar Hackmii Installer
+3. Se regresará al Homebrew Launcher en SysNAND
 4. Utiliza el botón (Home) para salir al Menú HOME
 5. Inicia la vWii
-6. Launch the vWii Mii Channel
+6. Inicia el Canal Mii en la vWii
 7. Si el exploit fue exitoso, habrás ingresado al Hackmii Installer
 8. Lee la advertencia de estafa y luego presiona (1) para continuar cuando se te pida
 9. Sigue las instrucciones en pantalla para instalar el Homebrew Channel en la vWii
 10. Sigue las instrucciones para regresar a la vWii
 11. Si el exploit fue exitoso, verás el Homebrew Channel en el Menú de vWii
 12. Regresa al Menú HOME y luego apaga tu consola
-13. Enter the Homebrew Launcher on SysNAND using the method from Section I
+13. Ingresa al Homebrew Launcher en SysNAND usando el método de la Sección I
 14. Inicia wuphax
 15. Presiona (B) cuando se te pida para restaurar el Canal Mii
 16. Sigue las instrucciones para regresar a la vWii
@@ -53,7 +53,7 @@ Esta copia de seguridad de la NAND te permitirá restaurar tu vWii a un estado f
 
 1. Inicia el Homebrew Channel en la vWii
 2. Inicia Dump Mii NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
+  + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo del espacio que ocupa tu memoria interna)
 3. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 4. Apaga tu Wii U
 5. Introduce la tarjeta SD de tu Wii U en tu computadora
