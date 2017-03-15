@@ -48,9 +48,11 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
 ##### Sección II - Iniciando Mocha CFW
 
 1. Crea una carpeta llamada "SysNAND", en la primera página del menú HOME
-2. Go to the System Settings, then internet, then press (X) to display your current network connections
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. Para cada conexión (y todas las futuras conexiones), haz lo siguiente
+  + Select the connection
   + Select "Change Settings"
+  + Move to the second list and choose "DNS"
   + Set the DNS to "Don't Auto-Obtain"
   + Set the DNS server IPs to the following servers
     + `168.235.092.108`
