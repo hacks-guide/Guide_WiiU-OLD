@@ -4,8 +4,11 @@ lang: es
 permalink: /es_ES/uninstall-mocha-cfw.html
 ---
 
-This will remove Mocha CFW, regardless of your method for launching it.
+Esto eliminará Mocha CFW de tu Wii U, independiente de cual haya sido el método de instalación, con el propósito de dejarla como de fábrica.
 {: .notice--info}
+
+Los juegos y las partidas son guardadas en la memoria interna, no en la tarjeta SD. ¡Esto significa que todos los juegos y partidas guardadas después de la instalación de RedNAND serían eliminadas si desinstalas, ya que tu sistema sólo tendría la SysNAND con la que comenzaste!
+{: .notice--danger}
 
 #### Instrucciones
 
@@ -13,30 +16,30 @@ This will remove Mocha CFW, regardless of your method for launching it.
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. Apaga tu Wii U
+2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
+3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en la SysNAND
 4. Inicia el CBHC Installer
-5 Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-6. Read the warning that appears, then press (B) to uninstall
-7. When it is complete, you will be returned to the RedNAND home menu
-8. Reboot your Wii U
+5. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
+6. Lee la advertencia que aparecerá en pantalla, luego presiona (B) para desinstalar
+7. Cuando haya finalizado, serás enviado al menú HOME de la RedNAND
+8. Reinicia tu Wii U
 9. Go to the System Settings under "Data Management" and delete your DS virtual console game
 10. Reinstall your DS virtual console game from the eShop
 
 ###### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
+1. Ve a Configuración del Sistema, luego a "Gestión de Datos" y elimina el juego de la Consola Virtual de DS
 2. Reinstall your DS virtual console game from the eShop
 
 ###### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Elimina el marcador del navegador de internet de la Wii U si agregaste uno
 
 ##### Sección II - Eliminar de la tarjeta SD
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Elimina cualquier archivo o carpeta extra de la raíz de la tarjeta SD que *no* esté en la siguiente lista (puede que no tengas alguno o incluso ninguno de ellos):**
 
     + DCIM
     + private
@@ -47,5 +50,5 @@ This will remove Mocha CFW, regardless of your method for launching it.
 
 ___
 
-This will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+This will not remove the RedNAND partition on your SD card. Para ello, necesitas usar un gestor de particiones para tu sistema operativo.
 {: .notice--info}

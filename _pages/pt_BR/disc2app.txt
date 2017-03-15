@@ -14,15 +14,15 @@ Você não pode usar o disc2app na RedNAND para descarregar o jogo, mas pode ins
 **Se você planeja usar um disco rígido externo para instalar os seus discos descarregados, observe o seguinte:**
 
     + Você não pode usar o mesmo disco rígido para os jogos de vWii e Wii U.
-    + The Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-    + Formatting an external hard drive for use with a Wii U will delete erase its contents.
-    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + O Wii U só pode utilizar até 2tb de um disco rígido externo, mesmo se ele tiver mais espaço.
+    + Formatar um disco rígido para ser compatível com o Wii U irá apagar todo o seu conteúdo.
+    + Se você estiver usando um HD externo que não tem fonte de energia própria, você precisará de um [Y-cable](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity
+Se você planeja usar um disco rígido externo para instalar seus discos descarregados, observe que o Wii U pode utilizar apenas 2tb de um disco rígido externo, mesmo se a unidade tiver uma capacidade maior.
 {: .notice--info}
 
 #### O que você precisa
@@ -55,7 +55,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 ###### CBHC
 
 1. Desligue seu Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
+2. Segure (Home) na inicialização para entrar no menu de inicialização do CBHC
 3. Selecione "Boot Homebrew Launcher" para inicializar o Homebrew Launcher na SysNAND
 4. Execute o disc2app
 
@@ -68,7 +68,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 1. Entre no Homebrew Launcher na SysNAND usando `http://loadiine.ovh`
 2. Execute o disc2app
 
-##### Section II - Using disc2app
+##### Seção III - Usando o disc2app
 
 1. Aperte (A) para descarregar para o cartão SD
 2. Insira o disco que você deseja descarregar quando solicitado
@@ -76,7 +76,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 3. Quando estiver concluído, você poderá retornar para o menu HOME da SysNAND
   + Usuários do CBHC podem retornar à RedNAND em vez disso
 
-##### Section III - Installing dumped game
+##### Seção IV - Instalando um jogo descarregado
 
 1. Inicie a RedNAND usando o método de sua escolha
 2. Acesse o Homebrew Channel na RedNAND para entrar no Homebrew Laucher

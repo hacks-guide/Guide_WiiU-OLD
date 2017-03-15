@@ -10,7 +10,7 @@ Mocha CFW 是個用來套用簽證補丁及開機至 RedNAND 的自製韌體。
 RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD 卡磁區底下 Wii U 內存的複製品，這內存取代了 Wii U 所內置的儲存空間。 RedNAND 跟你 Wii U 上所安裝的內存晶片是完全分離的，也就是說就算你亂裝東西把 RedNAND 弄到磚機，你的裝置仍會完好無缺。
 {: .notice--info}
 
-In order to boot the patch signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+為了能在開機時套用簽證補丁及啟動至 RedNAND 中，你每次重啟時都得透過 Homebrew Launcher 啟動 Mocha CFW。
 {: .notice--info}
 
 #### 操作說明
@@ -25,7 +25,7 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 6. Mocha CFW 的設置選單應該會在此時出現
 7. 透過方向鍵及「A」設定下列選項：
   + Config view mode: **expert**
-  + Skip the menu on launch: **on**
+  + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
   + Launch System Menu: **on**
@@ -48,9 +48,11 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 ##### 第二節 — 啟動 Mocha CFW
 
 1. 在 HOME 主選單的首頁建立一個新資料夾叫「SysNAND」
-2. 進入系統設定、網路，並按下「X」鍵以顯示你目前的網路設置
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
+  + Select the connection
   + 選擇「更改設置（Change Settings）」
+  + Move to the second list and choose "DNS"
   + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
   + 將 DNS 伺服器 IP 設為下列位址
     + `168.235.092.108`

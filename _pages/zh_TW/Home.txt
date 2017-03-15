@@ -8,7 +8,8 @@ header:
   cta_label: "從頭開始" #
   cta_url: "/zh_TW/get-started" #
   caption:
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to coldboothax.<br />" #
+
+excerpt: "最完整的 Wii U 改機教戰手冊，<br />教你如何從原廠韌體改成 Coldboot Haxchi + RedNAND。<br />" #
 lang: zh-Hant
 permalink: /zh_TW/index.html
 ---
@@ -18,6 +19,9 @@ permalink: /zh_TW/index.html
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+**本指南正缺乏翻譯人員，請*你*幫助我們[翻譯](https://translate.wiiu.guide/)本網站成你的母語！**
+{: .notice--success}
 
 **請先讀完本教學所有的序章再進行改機。**
 {: .notice--warning}
@@ -30,7 +34,7 @@ permalink: /zh_TW/index.html
 
 ## 什麼是自製韌體？
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything hombebrew can do.
+**自製韌體** （CFW） 可以做些使用者空間底下自製程式無法輕易達到更高階的修改及破解。
 
 CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 
@@ -41,10 +45,10 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 
 ## 自製韌體可以做些什麼？
 
-+ Play all game cards and eShop games, regardless of region
++ 玩任一遊戲光碟或 eShop 上的遊戲，就算是不同區的也可以
 + 備份、修改、還原許多遊戲的存檔
-+ 用像是 RetroArch 或其他模擬器來玩些其他系統的遊戲 (Works best with a New Nintendo 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
++ 用像是 RetroArch 或其他模擬器來玩些其他系統的遊戲
++ 安裝自製軟體，並讓它們出現在你的 HOME 主選單中
 + 把你的光碟轉成可以安裝的格式，這樣就再也不需要帶著光碟到處跑了
 + 未來可以安全地升級到最新版的系統，也不會失去使用自製軟體的功能
 
@@ -53,6 +57,6 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 + **在開始前，你一定得注意 Wii U 改機的風險：每次在更改系統時都有可能造成無法挽回的磚機或死機。 這種情況是滿罕見的，但是還是有可能的。所以請確保遵守所有的步驟。**
 + 本教學將適用於所有運行最新版本且任一區的 Wii U。
 + 如果一切都很順利的話，你將不會失去任何資料（像是遊戲、NNID、存檔...等都會被留下）。
-+ The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
++ 如果在用了許多內存的主機上創建 RedNAND，這過程可能會花上**數**小時
++ 你的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
 + 如果你需要格式化一張新的 SD 卡，可以使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 且將配置單位設為 32K。

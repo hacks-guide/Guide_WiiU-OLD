@@ -22,7 +22,7 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 + Una copia legittima di uno dei seguenti giochi DS della Virtual Console installati nella memoria interna della Wii U
   + **Non** installare il gioco DS su una chiavetta USB
   + Al momento, Brain Training è il gioco più economico sull'eShop (6.99€)
-  + Se hai già installato Brain Training sulla tua Wii U, sarebbe meglio cancellarlo e riscaricarlo dall'eShop. Le vecchie versioni del gioco non funzionano con Haxchi
+  + Se hai già installato Brain Training sulla tua Wii U, sarebbe meglio disinstallarlo e riscaricarlo dall'eShop. Le vecchie versioni del gioco non funzionano con Haxchi
   + Il gioco non sarà giocabile dopo il processo
   + **Il tuo gioco DS della Virtual Console DEVE essere LEGITTIMO!**
 
@@ -60,23 +60,23 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 3. **Fai un backup di ogni file sulla tua scheda SD e conservalo in una cartella sul tuo computer in quanto la scheda SD verrà formattata successivamente**
 4. Reinserisci la scheda SD nella Wii U
 5. Avvia l'Haxchi Installer
-6. Seleziona il gioco DS della Virtual Console nel quale stai installando Haxchi, quindi premi (A) per selezionarlo
+6. Seleziona il gioco DS della Virtual Console nel quale installerai Haxchi, quindi premi (A) per selezionarlo
 7. Leggi l'avviso visualizzato a schermo, quindi premi (A) per installare Haxchi
-8. Una volta completato il processo, avvia il tuo gioco DS con Haxchi
+8. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
 9. Dovrebbe apparire il menu di configurazione di Mocha CFW
-10. Usa il pulsante (A) e il D-Pad per impostare le seguenti opzioni:
+10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
-  + Launch home menu: **on**
+  + Launch System Menu: **on**
   + redNAND: **on**  
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
 11. Premi (A) per confermare ed uscire
-La Wii U dovrebbe ora mostrare uno schermo nero; questo è il setup della RedNAND
-13. Premi il pulsante di accensione **sulla console** (non il gamepad) per avviare la copia della memoria interna della console all'interno della scheda SD
+12. La Wii U dovrebbe ora mostrare uno schermo nero; questo è il setup della RedNAND
+13. Quando richiesto, premi il pulsante di accensione **sulla console** (non il gamepad) per avviare la copia della memoria interna della console all'interno della scheda SD
   + Aspetta che finisca il processo; potrebbe volerci del tempo (anche ore a seconda della dimensione della memoria interna della console)
 14. Una volta finito il processo, la Wii U dovrebbe mostrare uno schermo nero
   + È normale; la tua scheda SD è stata formattata

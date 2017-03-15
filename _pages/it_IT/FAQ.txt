@@ -16,10 +16,10 @@ permalink: /it_IT/faq.html
 <a name="faq_updatemocha" />**D:** *Come aggiorno Mocha CFW all'ultima versione?*    
 **R:** Scarica l'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), quindi copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` della tua scheda SD (sovrascrivi il file esistente)
 
-<a name="faq_rednand" />**D:** *Cos'è la redNAND?*    
+<a name="faq_rednand" />**D:** *Cos'è la RedNAND?*    
 **R:** RedNAND è un diminutivo di "**Red**irected **NAND**". È una copia della memoria interna della Wii U all'interno di una partizione della scheda SD e viene usata come memoria di sistema principale. La RedNAND è completamente indipendente dal chip della NAND fisico della tua Wii U, quindi la tua console funzionerà ancora anche se installi sulla RedNAND qualcosa che non avresti dovuto installare.
 
-<a name="faq_vwiirednand" />**D:** *Posso accedere alla vWii dalla redNAND?*    
+<a name="faq_vwiirednand" />**D:** *Posso accedere alla vWii dalla RedNAND?*    
 **R:** No. Se desideri usare la vWii, dovrai aprirla dalla SysNAND o dal menu di avvio di CBHC. Nessuna funzione della vWii funziona nella RedNAND.
 
 <a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*    

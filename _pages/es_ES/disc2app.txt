@@ -14,15 +14,15 @@ No puedes utilizar disc2app en RedNAND para volcar el juego, pero si puedes inst
 **Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:**
 
     + No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
-    + La Wii U solo reconoce hasta 2tb del disco duro externo, incluso si es de mayor capacidad.
-    + Formatting an external hard drive for use with a Wii U will delete erase its contents.
-    + If you are using an external HDD that does not have it's own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + La Wii U sólo reconoce hasta 2tb del disco duro externo, incluso si es de mayor capacidad.
+    + Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
+    + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-Si planeas utilizar un disco duro externo para instalar tus discos volcados, ten en cuenta que la Wii U sólo puede utilizar hasta 2tb de un disco duro externo, incluso si es de mayor capacidad
+Si planeas utilizar un disco duro externo para instalar tus discos volcados, ten en cuenta que la Wii U sólo puede utilizar hasta 2tb de un disco duro externo, incluso si es de mayor capacidad.
 {: .notice--info}
 
 #### Qué necesitas
@@ -55,7 +55,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 ###### CBHC
 
 1. Apaga tu Wii U
-2. Hold (B) on boot to enter the CBHC boot menu
+2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
 3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en SysNAND
 4. Inicia disc2app
 
@@ -68,7 +68,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 1. Entra en el Homebrew Launcher en la SysNAND usando `http://loadiine.ovh`
 2. Inicia disc2app
 
-##### Sección II - Usando disc2app
+##### Sección III - Usar disc2app
 
 1. Presiona (A) para volcar a la tarjeta SD
 2. Inserta el disco que quieres volcar cuando se te pida
@@ -76,7 +76,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 3. Cuando haya finalizado, se regresará al Menú HOME de la SysNAND
   + Los usuarios de CBHC, por otro lado, podrían haber sido retornados a RedNAND
 
-##### Sección III - Instalar el juego volcado
+##### Sección IV - Instalar el juego volcado
 
 1. Inicia RedNAND utilizando tu método preferido
 2. Inicia el Homebrew Channel en RedNAND para entrar al Homebrew Launcher
