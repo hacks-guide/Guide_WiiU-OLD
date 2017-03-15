@@ -17,24 +17,24 @@ Los juegos y las partidas son guardadas en la memoria interna, no en la tarjeta 
 ###### CBHC
 
 1. Apaga tu Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
+3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en la SysNAND
 4. Inicia el CBHC Installer
 5. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 6. Read the warning that appears, then press (B) to uninstall
-7. When it is complete, you will be returned to the RedNAND home menu
-8. Reboot your Wii U
+7. Cuando haya finalizado, serás enviado al menú HOME de la RedNAND
+8. Reinicia tu Wii U
 9. Go to the System Settings under "Data Management" and delete your DS virtual console game
 10. Reinstall your DS virtual console game from the eShop
 
 ###### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
+1. Ve a Configuración del Sistema, luego a "Gestión de Datos" y elimina el juego de la Consola Virtual de DS
 2. Reinstall your DS virtual console game from the eShop
 
 ###### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Elimina el marcador del navegador de internet de la Wii U si agregaste uno
 
 ##### Sección II - Eliminar de la tarjeta SD
 
