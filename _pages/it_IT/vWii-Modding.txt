@@ -16,7 +16,7 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 ###### CBHC
 
 1. Spegni la tua Wii U
-2. Tieni premuto (B) all'avvio per aprire il menu di avvio di CBHC
+2. Tieni premuto (Home) all'avvio per aprire il menu di avvio di CBHC
 3. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
 
 ###### Haxchi
@@ -40,7 +40,7 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 9. Segui le istruzioni a schermo per installare l'Homebrew Channel sulla vWii
 10. Segui le istruzioni per tornare alla vWii
 11. Se l'exploit è andato a buon fine, vedrai l'Homebrew Channel nel menu home della vWii
-12. Ritorna al menu home della Wii U, quindi spegni la Wii U
+12. Ritorna al menu home, quindi spegni la Wii U
 13. Entra nell'Homebrew Launcher nella SysNAND utilizzando il metodo usato nella Sezione I
 14. Avvia wuphax
 15. Premi (B) quando richiesto per ripristinare il Canale Mii

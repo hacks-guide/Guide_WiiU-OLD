@@ -8,7 +8,8 @@ header:
   cta_label: "Cominciamo!" #
   cta_url: "/it_IT/get-started" #
   caption:
-excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi.<br />" #
+
+excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi + RedNAND.<br />" #
 lang: it
 permalink: /it_IT/index.html
 ---
@@ -18,6 +19,9 @@ permalink: /it_IT/index.html
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+**La guida ha bisogno di *te* per [essere tradotta](https://translate.wiiu.guide/) in altre lingue!**
+{: .notice--success}
 
 **Assicurati di leggere tutte le sezioni introduttive prima di proseguire.**
 {: .notice--warning}
@@ -41,10 +45,10 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 
 ## Cosa posso fare con un Custom Firmware?
 
-+ Giocare tutte le schede di gioco e tutti titoli dell'eShop, indipendentemente dalla regionalità
++ Giocare tutti i dischi e tutti titoli dell'eShop, indipendentemente dalla regionalità
 + Fare un backup, modificare e ripristinare i salvataggi di molti giochi
-+ Avviare giochi per vecchie piattaforme usando emulatori, RetroArch o altri sistemi a sé stanti. (Works best with a 『S T A N D』)
-+ Installare titoli amatoriali sul tuo sistema e farli apparire sul tuo menu HOME
++ Avviare giochi per vecchie piattaforme usando emulatori, RetroArch o altri sistemi a sé stanti.
++ Installare titoli amatoriali sul tuo sistema e farli apparire sul tuo menu home
 + Installare i tuoi dischi direttamente nella console per poterci giocare senza dover inserire il disco
 + Aggiornare all'ultima versione di sistema in sicurezza senza doversi preoccupare di perdere l'accesso agli homebrew
 
@@ -54,5 +58,5 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 + Questa guida funziona su qualsiasi console di qualsiasi regione aggiornata all'ultima versione di sistema.
 + Seguendo correttamente la guida non perderai alcun dato e manterrai tutto ciò che era installato nella console (per cui giochi, NNID, salvataggi, ecc verranno tutti conservati).
 + Il processo di installazione di una RedNAND può durare **molte** ore su console con molti dati al suo interno.
-+ La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/) (la scheda SD preconfezionata con la console è MBR di default).
++ La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/).
 + Se devi formattare una nuova scheda SD, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.

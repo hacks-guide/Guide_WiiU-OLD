@@ -8,7 +8,8 @@ header:
   cta_label: "Get Started" #
   cta_url: "get-started" #
   caption:
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to coldboothax.<br />" #
+
+excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
 lang: en
 permalink: /index.html
 ---
@@ -18,6 +19,9 @@ permalink: /index.html
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
+{: .notice--success}
 
 **Read all of the introductory pages before proceeding.**
 {: .notice--warning}
@@ -30,7 +34,7 @@ Running homebrew on your console is 100% free using nothing but the system's bro
 
 ## What is Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything hombebrew can do.
+**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
 
 CFW can be easily set up on any console in any region on the latest version.
 
@@ -41,10 +45,10 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 
 ## What can I do with Custom Firmware?
 
-+ Play all game cards and eShop games, regardless of region
++ Play all game discs and eShop games, regardless of region
 + Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators. (Works best with a New Nintendo 3DS)
-+ Install homebrew titles to your system, and have them appear on your HOME Menu
++ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
++ Install homebrew titles to your system, and have them appear on your home menu
 + Dump your discs to a format you can install, and play them without needing the disc
 + Safely update to the latest system version without fear of losing access to homebrew
 
@@ -54,5 +58,5 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + This guide will work on all Wii U devices in all regions on the latest version.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/) (the SD card that comes with the device will be MBR by default).
++ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.

@@ -15,7 +15,7 @@ sitemap: false
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [Get Started](get-started)
++ [Comencemos](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Inicio](/es_ES/)
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
@@ -25,6 +25,6 @@ sitemap: false
 + [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher))
 + [Desinstalar Mocha CFW](uninstall-mocha-cfw)
 + [Modear la vWii](vwii-modding)
-+ [Why Ads?](why-ads)
++ [¿Por qué anuncios?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

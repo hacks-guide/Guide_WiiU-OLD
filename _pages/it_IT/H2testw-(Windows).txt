@@ -10,7 +10,7 @@ Questa pagina ti guiderà nel processo di controllo della presenza di errori sul
 A seconda della dimensione della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
 {: .notice--info}
 
-Questa pagina è solo per utenti Windows. Se non sei su Windows, usa [F3 (linux)](f3-(linux)) o [F3X (mac)](f3x-(mac)).
+Questa pagina è solo per utenti Windows. Se non sei su Windows, usa [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac)).
 {: .notice--info}
 
 #### Quello che ti serve

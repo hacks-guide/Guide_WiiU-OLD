@@ -4,7 +4,7 @@ lang: pt-BR
 permalink: /pt_BR/homebrew-launcher.html
 ---
 
-The Homebrew Launcher is a a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+O Homebrew Launcher é um aplicativo homebrew que lista e permite a execução de outros aplicativos homebrew do cartão SD.
 {: .notice}
 
 Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U precisará ser capaz de acessar a internet.
@@ -19,15 +19,16 @@ Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U 
 3. Retorne ao navegador
 4. Vá para `http://loadiine.ovh`
   + Você pode querer adicionar este endereço à lista de favoritos, para poupar tempo na digitação no futuro
-5. Ensure that the drop down down box shows "Homebrew Launcher...", then press "Submit"
+5. Garanta que a caixa de seleção esteja exibindo "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)" e, em seguida, aperte "Submit"
   + Isso pode levar várias tentativas
+  + Em algumas situações, a opção "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" pode ser mais estável para iniciar o Homebrew Launcher
   + Se o console congelar, force-o a desligar segurando o botão Power, e então tente novamente
 6. Seu console deve carregar o Homebrew Launcher
 
 ___
 
-If would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
+Se você preferir comprar um jogo exploitável barato para abrir o seu CFW automaticamente ao inicializar *(ou já possui um dos jogos de DS do Virtual Console listados)*, continue para [Mocha CFW (Haxchi)](mocha-cfw-(haxchi)).
 {: .notice--primary}
 
-If would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
+Caso prefira iniciar seu Custom Firmware usando o navegador em cada inicialização, para economizar dinheiro, continue para [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher)).
 {: .notice--primary}

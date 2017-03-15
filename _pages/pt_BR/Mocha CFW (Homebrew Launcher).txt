@@ -10,7 +10,7 @@ Mocha CFW é um custom firmware que modifica as verificações de assinatura e i
 RedNAND é a abreviação de "**Red**irected **NAND**". Esta é uma cópia da memória interna do seu Wii U armazenada em uma partição do cartão SD que é usada em vez da memória principal do sistema. A RedNAND é completamente independente da memória física no seu Wii U, significando que seu dispositivo continuará funcionando mesmo se você danificar a RedNAND por instalar algo que não deveria.
 {: .notice--info}
 
-In order to boot the patch signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, você precisará entrar no Homebrew Launcher e executar o Mocha CFW todas as vezes que seu dispositivo reiniciar.
 {: .notice--info}
 
 #### Instruções
@@ -25,7 +25,7 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 6. O menu de configuração do Mocha CFW deverá carregar
 7. Use o botão (A) e os botões direcionais para definir o seguinte:
   + Config view mode: **expert**
-  + Skip the menu on launch: **on**
+  + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
   + Launch System Menu: **on**
@@ -48,9 +48,11 @@ In order to boot the patch signature checks and boot RedNAND, you will need to e
 ##### Seção II - Executando o Mocha CFW
 
 1. Crie uma pasta na primeira página do seu menu HOME chamado "SysNAND"
-2. Vá para a Configuração do console, depois internet e, em seguida, aperte (X) para exibir suas conexões de rede atuais
+2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
 3. Para cada uma das suas conexões (e todas as conexões futuras), faça o seguinte
+  + Select the connection
   + Selecione "Alterar configurações"
+  + Move to the second list and choose "DNS"
   + Defina o DNS para "Modo manual"
   + Configure o IP dos servidores DNS para os seguintes servidores
     + `168.235.092.108`

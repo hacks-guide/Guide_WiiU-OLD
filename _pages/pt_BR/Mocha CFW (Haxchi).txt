@@ -13,7 +13,7 @@ RedNAND é a abreviação de "**Red**irected **NAND**". Esta é uma cópia da me
 Haxchi é um exploit que nos permite iniciar o Mocha CFW diretamente do menu HOME sem usar o Homebrew Launcher.
 {: .notice--info}
 
-You can use the (Home) button to exit the Homebrew Launcher if you need to purchase one of the exploiotable games. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
+Você pode usar o botão (Home) para sair do Homebrew Launcher se você precisar adquirir um dos jogos exploráveis. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
@@ -22,7 +22,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 + Uma cópia legítima de um dos seguintes jogos do Virtual Console de DS instalado na memória interna do seu Wii U
   + **Não** instale o jogo de Virtual Console de DS em um pendrive USB
   + Atualmente, Brain Age é o mais barato destes títulos na eShop ($6,99 USD)
-  + If you've had Brain Age/ Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Versões antigas do jogo não funcionarão com o Haxchi
+  + Se você tem Brain Age / Brain Training instalado no seu Wii U a um tempo, tente excluí-lo e depois baixe-o novamente na eShop. Versões antigas do jogo não funcionarão com o Haxchi
   + O jogo não será jogável após este processo
   + ** Seu jogo de Virtual Console de DS com o Haxchi DEVE ser uma cópia LEGÍTIMA!**
 
@@ -30,11 +30,11 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
-| Brain Age/ Brain Training|
+| Brain Age / Brain Training|
 | DK: Jungle Climber |
 | Kirby: Canvas Curse |
 | Kirby: Mass Attack|
-| Kirby: Squeak Squad /Kirby: Mouse Attack |
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
 | Legend of Zelda: Phantom Hourglass, The |
 | Legend of Zelda: Spirit Tracks, The |
 | Mario & Luigi: Partners in Time |
@@ -60,23 +60,23 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 3. **Faça um cópia de todos os arquivos do seu cartão SD para uma pasta no seu computador; todos os arquivos nele serão excluídos mais tarde**
 4. Reinsira o cartão SD no seu Wii U
 5. Execute o Haxchi Installer
-6. Select the DS virtual console game you are installing haxchi onto, then press (A) to select it
+6. Selecione o jodo do Virtual Console de DS que você está instalando o Haxchi, então aperte (A) para selecioná-lo
 7. Leia o aviso que aparecer, então aperte (A) para instalar
-8. Once this is complete, launch your Haxchi DS virtual console game
+8. Uma vez terminado, execute seu jogo do Virtual Console de DS (com nome de "Haxchi")
 9. O menu de configuração do Mocha CFW deverá carregar
-10. Use o botão (A) e os botões direcionais para definir o seguinte:
+10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
-  + Launch home menu: **on**
+  + Launch System Menu: **on**
   + redNAND: **on**  
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
 11. Aperte (A) para confirmar e sair
-12 Your Wii U should display a black screen; this is the RedNAND setup
-13. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+12. Seu Wii U deverá exibir uma tela preta; esta é a instalação da RedNAND
+13. Quando solicitado, aperte o botão liga/desliga **no console** (não no gamepad) para iniciar a cópia da memória do seu sistema interno para o seu cartão SD
   + Esteja preparado para esperar, isto pode levar algum tempo (até várias horas dependendo da quantidade de espaço usado na memória interna)
 14. Quando o processo estiver completo, seu Wii U estará em uma tela preta
   Isso é normal; o cartão SD foi formatado
