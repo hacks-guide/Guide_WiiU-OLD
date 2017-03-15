@@ -23,7 +23,7 @@ Per poter avviare le patch per i controlli delle firme digitali e la RedNAND, do
 4. Reinserisci la scheda SD nella Wii U
 5. Avvia Mocha CFW
 6. Dovrebbe apparire il menu di configurazione di Mocha CFW
-7. Usa il pulsante (A) e il D-Pad per impostare le seguenti opzioni:
+7. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
