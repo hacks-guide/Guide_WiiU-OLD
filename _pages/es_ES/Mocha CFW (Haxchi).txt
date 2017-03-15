@@ -88,11 +88,11 @@ Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas compr
 
 ##### Sección II - Iniciando Mocha CFW
 
-1. Create a folder on the first page of your home menu named "SysNAND"
+1. Crea una carpeta llamada "SysNAND", en la primera página del menú HOME
 2. Go to the System Settings and delete every network connection
-  + This will prevent your SysNAND from ever getting updated
-  + **This is REQUIRED as the Wii U's suspend mode will use the internet settings from SysNAND**
-3. Launch your Haxchi DS virtual console game
+  + Esto evitará que tu SysNAND se actualice
+  + **Esto es REQUERIDO ya que la Wii U usará los ajustes de la SysNAND en modo de suspensión**
+3. Inicia tu juego de consola virtual de DS con Haxchi
 4. If the exploit was successful, you will launch Mocha CFW with RedNAND
   + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
 
@@ -118,5 +118,5 @@ As long as you do not see the SysNAND folder in the home menu, you can be sure y
 If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
 {: .notice--warning}
 
-Continue to [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
+Continúa a [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
 {: .notice--primary}
