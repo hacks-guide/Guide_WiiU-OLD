@@ -16,7 +16,7 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 ###### CBHC
 
 1. Apaga tu Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
+2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
 3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
 
 ###### Haxchi
@@ -70,25 +70,25 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
   + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
 2. Inicia d2x cIOS Installer
 3. Elige las opciones en la parte superior de la pantalla acorde a lo siguiente:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **56**
-  + Select cIOS slot : **249**
+  + Selecciona cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecciona cIOS base : **56**
+  + Selecciona cIOS slot : **249**
 4. Presiona (A) para instalar
 5. Espera a que la instalación se complete y luego presiona (A) para continuar
 6. Elige de nuevo las opciones en la parte superior de la pantalla acorde a lo siguiente:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **57**
-  + Select cIOS slot : **250**
+  + Selecciona cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecciona cIOS base : **57**
+  + Selecciona cIOS slot : **250**
 7. Presiona (A) para instalar
 8. Espera a que la instalación se complete y luego presiona (A) para continuar
 9. Elige de nuevo las opciones en la parte superior de la pantalla acorde a lo siguiente:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
-  + Select cIOS base : **58**
-  + Select cIOS slot : **251**
+  + Selecciona cIOS : **d2x-v10-beta53-alt-vWii**
+  + Selecciona cIOS base : **58**
+  + Selecciona cIOS slot : **251**
 10. Presiona (A) para instalar
 11. Espera a que la instalación se complete y luego presiona (B) para salir
 
-##### Section V - Patching IOS80
+##### Sección V - Parchear el IOS80
 
 **This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
 {: .notice--danger}
