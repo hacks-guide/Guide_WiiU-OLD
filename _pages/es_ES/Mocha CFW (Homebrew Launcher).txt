@@ -23,7 +23,7 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
 4. Vuelve a insertar tu tarjeta SD en tu Wii U
 5. Inicia Mocha CFW
 6. El menú de configuración de Mocha custom firmware debería arrancar
-7. Usa el botón (A) y el D-Pad para seleccionar lo siguiente:
+7. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -48,21 +48,21 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
 ##### Sección II - Iniciando Mocha CFW
 
 1. Crea una carpeta llamada "SysNAND", en la primera página del menú HOME
-2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+2. Ve a las "Configuraciones de la consola", luego a "Internet", luego "Conexión a internet" y presiona (X) para mostrar tus configuraciones de red actuales
 3. Para cada conexión (y todas las futuras conexiones), haz lo siguiente
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+  + Selecciona la conexión
+  + Selecciona "Cambiar configuración"
+  + Ve a la segunda lista y selecciona "DNS"
+  + Configura el DNS a "Modo manual"
+  + Configura las IP's de servidores DNS a las siguientes
     + `168.235.092.108`
     + `081.004.127.020`
-  + Select "Confirm", then press (B) to save
+  + Selecciona "Confirmar" y presiona (B) para guardar
   + Estos servidores evitarán que tu SysNAND sea actualizada
 4. Vuelve al menu HOME
 5. Inicia el Homebrew Launcher desde el navegador
 6. Inicia Mocha CFW
-7. If the exploit was successful, you will launch Mocha CFW with RedNAND
+7. Si el exploit fue exitoso, entonces se iniciará Mocha CFW con RedNAND
   + Si ya no ves la carpeta SysNAND una vez que ha cargado el menú HOME, habrás iniciado la RedNAND correctamente
 
 ___
