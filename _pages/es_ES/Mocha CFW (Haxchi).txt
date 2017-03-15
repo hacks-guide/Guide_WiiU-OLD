@@ -55,16 +55,16 @@ Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas compr
 
 ##### Sección I - Configurando Mocha CFW
 
-1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
-2. Put your SD card from your Wii U into your computer
-3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
-4. Reinsert your SD card into your Wii U
-5. Launch the Haxchi Installer
-6. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-7. Read the warning that appears, then press (A) to install
-8. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
+1. Saca tu tarjeta SD de tu Wii U mientras esté en Homebrew Launcher
+2. Introduce la tarjeta SD de tu Wii U en tu computadora
+3. ** Haz una copia de seguridad de tu tarjeta SD a una carpeta en tu ordenador; todos los archivos serán borrados después**
+4. Vuelve a insertar tu tarjeta SD en tu Wii U
+5. Inicia Haxchi Installer
+6. Elige el juego de la consola virtual de DS en el que vas a instalar Haxchi, después pulsa (A) para seleccionarlo
+7. Lee la advertencia que aparezca, después pulsa (A) para instalar
+8. Una vez se haya completado, ejecuta tu juego de la consola virtual de DS (llamado "Haxchi")
 9. The Mocha CFW configuration menu should load
-10. Use the (A) button and the D-Pad to set the following:
+10. Usa el botón (A) y el D-Pad para seleccionar lo siguiente:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -74,17 +74,17 @@ Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas compr
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-11. Press (A) to confirm and exit
-12. Your Wii U should display a black screen; this is the RedNAND setup
-13. When prompted, press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-14. Once this process is completed, your Wii U will end up on a black screen
-  + This is normal; the SD card has been formatted
-15. Put your SD card from your Wii U into your computer
-  + Your SD card will have significantly less space on it now because the RedNAND is occupying a hidden partition on it
-16. Copy all of the files you backed up back to your SD card
+11. Presiona (A) para confirmar y salir
+12. Tu Wii U debe mostrar una pantalla negra; esta es la configuración de RedNAND
+13. Cuando se te pida, presiona el botón de encendido **de la consola** (no del gamepad) para iniciar la copia de la memoria interna del sistema a la tarjeta SD
+  + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo del espacio que ocupa tu memoria interna)
+14. Una vez que el proceso sea completado, tu Wii U terminará con una pantalla negra
+  + Esto es normal; la tarjeta SD ha sido formateada
+15. Introduce la tarjeta SD de tu Wii U en tu computadora
+  + Tu tarjeta SD tendrá mucho menos espacio debido a que la RedNAND está ocupando una partición oculta en ella
+16. Copia todos los archivos que tenias respaldados a la tarjeta SD
 17. Vuelve a insertar tu tarjeta SD en tu Wii U
-18. Power on your Wii U
+18. Enciende tu Wii U
 
 ##### Sección II - Iniciando Mocha CFW
 
@@ -105,17 +105,17 @@ Mientras no veas la carpeta SysNAND en el menú HOME, podrás tener la seguridad
 {: .notice--info}
 
 {% capture notice-1 %}
-**Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. This is what each of the boot options do:**
+**Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. Esto es lo que hace cada una de las opciones:**
 
-    + None -> Boots into Mocha CFW with RedNAND
-    + (A) -> Boots into the Homebrew Launcher on SysNAND
-    + (X) -> Boots into the disc2app on SysNAND
+    + Ninguno -> Inicia Mocha CFW con RedNAND
+    + (A) -> Inicia el Homebrew Launcher en SysNAND
+    + (X) -> Inicia disc2app en la SysNAND
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
+Si quieres usar el modo vWii, debes acceder desde la SysNAND. All vWii functions will be unusable on RedNAND.
 {: .notice--warning}
 
 Continúa a [Mocha CFW (CBHC)](mocha-cfw-(cbhc)).
