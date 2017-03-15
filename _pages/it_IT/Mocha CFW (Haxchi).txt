@@ -64,7 +64,7 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 7. Leggi l'avviso visualizzato a schermo, quindi premi (A) per installare Haxchi
 8. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
 9. Dovrebbe apparire il menu di configurazione di Mocha CFW
-10. Usa il pulsante (A) e il D-Pad per impostare le seguenti opzioni:
+10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
