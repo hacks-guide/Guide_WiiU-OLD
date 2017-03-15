@@ -90,7 +90,7 @@ Asegúrate que no hay ninguna carpeta llamada `wad` o `wads` en el directorio ra
 
 ##### Sección V - Parchear el IOS80
 
-**This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
+**Este pasó brickeará tu vWii si llega a fallar por alguna razón (apagón, etcétera), tras lo cual se deberá restaurar una copia de seguridad de la memoria NAND de la vWii. Asegúrate de tener tu copia de seguridad hecha antes de proseguir con esta sección.**
 {: .notice--danger}
 
 1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
