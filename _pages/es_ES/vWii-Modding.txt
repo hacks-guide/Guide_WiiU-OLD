@@ -105,10 +105,10 @@ ___
 Ahora puedes instalar y usar cualquier homebrew de Wii, tales como USB Loader GX, CFG USB Loader, emuladores, etc.
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. Este no puede ser el mismo disco duro externo que uses para juegos de Wii U. Si estás usando un disco duro externo que no tiene fuente de alimentación propia, entonces necesitarás un [cable Y](http://amzn.to/2mjQjin).
+Los discos duros externos deben ser conectados en el puerto USB superior trasero de la Wii U para ser detectados por la vWii. Este no puede ser el mismo disco duro externo que uses para juegos de Wii U. Si estás usando un disco duro externo que no tiene fuente de alimentación propia, entonces necesitarás un [cable Y](http://amzn.to/2mjQjin).
 {: .notice--info}
 
-Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+Asegúrate que cualquier archivo `.wad` (canales, forwarders, juegos, etcétera) que instales estén formateados para [funcionar apropiadamente en vWii](https://gbatemp.net/threads/340226/). Si instalas un archivo `.wad` formateado para una consola Wii común, brickearás la vWii tras lo cual se deberás restaurar una copia de seguridad de la NAND de la vWii.
 {: .notice--danger}
 
 Instalar temas personalizados en tu vWii la brickeará.
