@@ -64,7 +64,7 @@ Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞�
 7. 讀完警示，並按下「A」鍵安裝
 8. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
 9. Mocha CFW 的設置選單應該會在此時出現
-10. 透過方向鍵及「A」設定下列選項：
+10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
