@@ -21,7 +21,7 @@ Esta página es sólo para usuarios de Windows. Si no estás en Windows, revisa 
 
 1. Copia `h2testw.exe` contenido en el `.zip` de h2testw al escritorio
 2. Inserta tu tarjeta SD en tu computadora
-3. Run `h2testw.exe`
+3. Ejecuta `h2testw.exe`
 4. Selecciona "English"
 5. Selecciona "Select target"
 6. Selecciona la letra de la unidad de tu tarjeta SD
