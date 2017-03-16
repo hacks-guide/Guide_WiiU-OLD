@@ -5,38 +5,38 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
+  cta_label: "Kom igång" #
   cta_url: "get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
-lang: en
+excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U<br />, från orörd till Coldboot Haxchi + RedNAND.<br />" #
+lang: sv
 permalink: /index.html
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!**
+**Den här guiden är _endast_ för butiksköpta konsoler (ej utvecklingsenheter från Nintendo Developer Program)!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
+***Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!**
 {: .notice--success}
 
-**Read all of the introductory pages before proceeding.**
+**Läs alla introduktionssidor innan du fortsätter.**
 {: .notice--warning}
 
-## What is Homebrew?
+## Vad är Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) är en term som oftast används för att beskriva mjukvara som inte är auktoriserad av Nintendo. Det tillåter dig att spela hemgjorda spel, använda emulatorer för diverse äldre system och även att köra verktyg, t ex för att ändra och säkerhetskopiera sparfiler.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Att köra homebrew på din spelkonsoll är 100% kostnadsfritt och det behövs inget mer än webbläsaren på ditt system för att genomföra.
 
-## What is Custom Firmware?
+## Vad är Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") tillåter att du utöver vad homebrew som körs i userland klarar av kan göra mer avancerade anpassningar.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW kan lätt installeras på alla spelkonsoler oavsett region upp till och med den senaste systemuppdateringen (version 5.5.1 i skrivande stund).
 
 ## What does this guide install?
 
