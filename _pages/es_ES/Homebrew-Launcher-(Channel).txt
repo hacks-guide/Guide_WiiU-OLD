@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (Channel)" #
+title: "Homebrew Launcher (Canal)" #
 lang: es
 permalink: /es_ES/homebrew-launcher-(channel).html
 ---
