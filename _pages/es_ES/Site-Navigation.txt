@@ -24,7 +24,7 @@ sitemap: false
 + [Mocha CFW (Haxchi)](mocha-cfw-(haxchi))
 + [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher))
 + [Desinstalar Mocha CFW](uninstall-mocha-cfw)
-+ [Modear la vWii](vwii-modding)
++ [Modeo de vWii](vwii-modding)
 + [¿Por qué anuncios?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
