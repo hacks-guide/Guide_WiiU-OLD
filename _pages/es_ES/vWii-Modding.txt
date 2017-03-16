@@ -1,5 +1,5 @@
 ---
-title: "vWii Modding" #
+title: "Modeo de vWii" #
 lang: es
 permalink: /es_ES/vwii-modding.html
 ---
@@ -17,11 +17,11 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 
 1. Apaga tu Wii U
 2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en la SysNAND
 
 ###### Haxchi
 
-1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
+1. Mantén presionado (A) mientras inicias tu juego de consola virtual de DS para iniciar el Homebrew Launcher en SysNAND
 
 ###### Homebrew Launcher
 
@@ -93,7 +93,7 @@ Asegúrate que no hay ninguna carpeta llamada `wad` o `wads` en el directorio ra
 **Este pasó brickeará tu vWii si llega a fallar por alguna razón (apagón, etcétera), tras lo cual se deberá restaurar una copia de seguridad de la memoria NAND de la vWii. Asegúrate de tener tu copia de seguridad hecha antes de proseguir con esta sección.**
 {: .notice--danger}
 
-1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
+1. Desde el Homebrew Channel en la vWii, inicia Patched IOS80 Installer for vWii
 2. Lee la advertencia, luego espera 30 segundos para que te permita continuar
 3. Presiona (A) para instalar
   + Esto debería ser muy rápido
