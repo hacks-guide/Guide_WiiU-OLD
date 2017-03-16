@@ -23,7 +23,7 @@ RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD �
 4. 將 SD 卡插回 Wii U 中
 5. 啟動 Mocha CFW
 6. Mocha CFW 的設置選單應該會在此時出現
-7. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
+7. 使用方向鍵的「上」、「下」鍵上下選擇，使用「左」、「右」鍵設定下列選項：
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -48,11 +48,11 @@ RedNAND 是「**Red**irected **NAND**」的簡寫。 這是一個存在你 SD �
 ##### 第二節 — 啟動 Mocha CFW
 
 1. 在 HOME 主選單的首頁建立一個新資料夾叫「SysNAND」
-2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+2. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示你目前的網路設置
 3. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
-  + Select the connection
+  + 選擇網路設定
   + 選擇「更改設置（Change Settings）」
-  + Move to the second list and choose "DNS"
+  + 到第二個選單中，選擇「DNS」
   + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
   + 將 DNS 伺服器 IP 設為下列位址
     + `168.235.092.108`
