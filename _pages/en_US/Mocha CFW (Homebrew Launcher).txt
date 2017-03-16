@@ -23,7 +23,7 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
 4. Reinsert your SD card into your Wii U
 5. Launch Mocha CFW
 6. The Mocha CFW configuration menu should load
-7. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
+7. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
