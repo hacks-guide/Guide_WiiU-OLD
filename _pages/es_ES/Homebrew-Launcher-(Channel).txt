@@ -22,7 +22,7 @@ Ahora puedes iniciar el Homebrew Launcher en la RedNAND simplemente iniciando el
 Para informarte acerca de cómo volcar los datos de tus discos de juego a un formato instalable para jugar sin necesidad del disco, echa un vistazo al apartado de [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+Para informarte acerca de cómo modificar la vWii en SysNAND, echa un vistazo al apartado de [Modear la vWii](vwii-modding).
 {: .notice--success}
 
 Para informarte acerca de cómo desinstalar Mocha CFW de manera segura y regresar la consola a su estado original, echa un vistazo al apartado de [Desinstalar Mocha CFW](uninstall-mocha-cfw).
