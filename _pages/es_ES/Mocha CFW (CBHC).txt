@@ -52,7 +52,7 @@ Mientras no veas la carpeta SysNAND en el menú HOME, puedes estar seguro de que
     + Boot System Menu -> Arranca la SysNAND
     + Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
     + Boot Mocha CFW -> Arranca Mocha CFW en la RedNAND
-    + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
+    + Boot fw.img on SD Card -> Arranca cualquier CFW antiguo basado en fw.img desde la tarjeta SD
     + Boot vWii System Menu -> Arranca la vWii en la SysNAND
     + Boot vWii Homebrew Channel -> Arranca el Homebrew Channel en el modo vWii en la SysNAND
 
