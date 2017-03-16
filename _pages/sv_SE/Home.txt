@@ -38,25 +38,25 @@ Att köra homebrew på din spelkonsoll är 100% kostnadsfritt och det behövs in
 
 CFW kan lätt installeras på alla spelkonsoler oavsett region upp till och med den senaste systemuppdateringen (version 5.5.1 i skrivande stund).
 
-## What does this guide install?
+## Vad installerar den här guiden?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Den här guiden har som slutmål att ta en Wii U från att vara helt omodifierad
+till att köra Coldboot Haxchi för att starta Mocha Custom Firmware. Den utnyttjar homebrew som en möjligt punkt att stiga av, men Custom Firmware är fortfarande slutmålet.
 
-## What can I do with Custom Firmware?
+## Vad kan jag göra med Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your home menu
-+ Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Spela alla spel-skivor och eShop-spel oavsett region
+Säkerhetskopiera, redigera och återställa sparningar för många spel
++ Spela spel för äldre system genom olika emulatorer genom att använda RetroArch eller ensamstående emulatorer.
++ Installera homebrew-program på din enhet och få dem tillgängliga på hemskärmen
++ Överföra dina skivor till ett format du kan installera och spela dem utan att behöva skivan
++ Göra en säker uppdatering till den senaste systemversionen utan att behöva vara rädd för att tappa åtkomst till homebrew-program
 
-## What do I need to know before starting?
+## Vad behöver jag veta innan jag börjar?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the latest version.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage.
++ **Innan du börjar med guiden måste du veta om riskerna med att hacka din Wii U: VARJE gång du modifierar din enhet finns det en risk att den blir OBRUKBAR FÖR ALLTID. Det är väldigt sällsynt men fortfarande en möjlighet, så var noga och se till att du följer ALLA instruktioner till PUNKT OCH PRICKA.**
++ Denna guide kommer fungera för alla Wii U-enheter med senaste systemuppdateringen oavsett region.
++ Om allt går enligt planen kommer du inte att förlora någon data och ha kvar allting du började med (spel, NNID, sparfiler osv kommer finnas kvar).
++ Processen att skapa RedNAND kan ta upp till **flera** timmar för enheter som har mycket lagrat i det interna lagringsutrymmet.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
