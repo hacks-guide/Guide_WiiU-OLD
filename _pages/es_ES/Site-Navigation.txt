@@ -18,7 +18,7 @@ sitemap: false
 + [Comencemos](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Inicio](/es_ES/)
-+ [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
++ [Homebrew Launcher (Canal)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW (CBHC)](mocha-cfw-(cbhc))
 + [Mocha CFW (Haxchi)](mocha-cfw-(haxchi))
