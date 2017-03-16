@@ -1,10 +1,10 @@
 ---
-title: "Credits" #
-lang: en
+title: "Tack till" #
+lang: sv
 permalink: /credits.html
 ---
 
-If we forgot you here, contact us and we'll add your name.
+Om vi glömt dig i listan, kontakta oss så lägger vi till ditt namn.
 {: .notice}
 
 + damysteryman
