@@ -73,7 +73,7 @@ Necesitarás iniciar Mocha CFW desde el Homebrew Launcher cada vez que reinicias
 Mientras no veas la carpeta SysNAND en el menú HOME, podrás tener la seguridad de que estás en la RedNAND.
 {: .notice--info}
 
-Si quieres usar el modo vWii, debes acceder desde la SysNAND. All vWii functions will be unusable on RedNAND.
+Si quieres usar el modo vWii, debes acceder desde la SysNAND. Todas las funciones de la vWii estarán deshabilitadas en la RedNAND.
 {: .notice--warning}
 
 Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
