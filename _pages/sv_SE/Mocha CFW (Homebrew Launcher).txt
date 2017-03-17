@@ -1,29 +1,29 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
-lang: en
+lang: sv
 permalink: /mocha-cfw-(homebrew-launcher).html
 ---
 
-Mocha CFW is a custom firmware that patches signature checks and boots RedNAND.
+Mocha CFW är en anpassad firmware som patchar signaturkontroller och startar RedNAND.
 {: .notice}
 
-RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
+RedNAND är förkortning för "**Red**irected **NAND**". Det är en kopia av Wii U:s inbyggda lagringsutrymme, lagrad på en partition på SD-kortet, som används istället för systemets inbyggda lagring. RedNAND är helt isolerat från det fysiska utrymmet i din Wii U, vilket innebär att din enhet kommer fortsätta att fungera även om RedNAND görs korrupt genom att du installerar något du inte borde gjort.
 {: .notice--info}
 
-In order to boot the patched signature checks and boot RedNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+För att starta konsolen med patchade signaturkontroller och starta RedNAND kommer du behöva gå in i Homebrew Launcher och starta Mocha CFW varje gång din enhet startar om.
 {: .notice--info}
 
-#### Instructions
+#### Instruktioner
 
-##### Section I - Configuring Mocha CFW
+##### Avsnitt I - Uppsättning av Mocha CFW
 
-1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
-2. Put your SD card from your Wii U into your computer
-3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
-4. Reinsert your SD card into your Wii U
-5. Launch Mocha CFW
-6. The Mocha CFW configuration menu should load
-7. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
+1. Ta ur SD-kortet från din Wii U medan den är inne i Homebrew Launcher
+2. Sätt i ditt SD-kort från din Wii U i din dator
+3. **Säkerhetskopiera varje fil på ditt SD-kort till en katalog på din dator; Alla filer kommer raderas senare**
+4. Sätt tillbaka ditt SD-kort i din Wii U
+5. Starta Mocha CFW
+6. Mocha CFW-menyn ska nu laddas
+7. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -33,8 +33,8 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-8. Press (A) to confirm and exit
-9. Your Wii U should display a black screen; this is the RedNAND setup
+8. Tryck (A) för att bekräfta och avsluta
+9. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
 10. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
 11. Once this process is completed, your Wii U will end up on a black screen
