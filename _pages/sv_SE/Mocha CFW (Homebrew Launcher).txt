@@ -35,8 +35,8 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
   + Use syshax.xml (coldboothax): **off**
 8. Tryck (A) för att bekräfta och avsluta
 9. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
-10. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
+10. Tryck på strömknappen **på konsolen* (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
+  + Var beredd att vänta; det här kan ta lång tid (upp till flera timmar beroende på hur mycket av det interna lagringsutrymmet du har använt)
 11. Once this process is completed, your Wii U will end up on a black screen
   + This is normal; the SD card has been formatted
 12. Put your SD card from your Wii U into your computer
