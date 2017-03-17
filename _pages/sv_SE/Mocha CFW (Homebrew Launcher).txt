@@ -37,44 +37,44 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
 9. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
 10. Tryck på strömknappen **på konsolen* (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
   + Var beredd att vänta; det här kan ta lång tid (upp till flera timmar beroende på hur mycket av det interna lagringsutrymmet du har använt)
-11. Once this process is completed, your Wii U will end up on a black screen
-  + This is normal; the SD card has been formatted
-12. Put your SD card from your Wii U into your computer
-  + Your SD card will have significantly less space on it now because the RedNAND is occupying a hidden partition on it
-13. Copy all of the files you backed up back to your SD card
-14. Reinsert your SD card into your Wii U
-17. Power on your Wii U
+11. När processen är klar kommer din Wii U sluta på en svart skärm
+  + Det här är normalt; SD-kortet har formaterats
+12. Sätt i ditt SD-kort från din Wii U i din dator
+  + Ditt SD-kort kommer nu ha väldigt mycket mindre ledigt utrymme eftersom RedNAND finns på en gömd partition på det
+13. Kopiera alla filer som du säkerhetskopierade tidigare tillbaka till ditt SD-kort
+14. Sätt tillbaka ditt SD-kort i din Wii U
+17. Starta din Wii U
 
-##### Section II - Launching Mocha CFW
+##### Avsnitt II - Starta Mocha CFW
 
-1. Create a folder on the first page of your home menu named "SysNAND"
-2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-3. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Skapa en folder på första sidan av din hemskärm med namnet "SysNAND"
+2. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
+3. För varje anslutning (och för alla framtida anslutningar), gör följande
+  + Välj anslutningen
+  + Välj "Change Settings"
+  + Flytta till andra listan och välj "DNS"
+  + Sätt DNS till "Don't Auto-Obtain"
+  + Ställ in följande IP-adresser som DNS-servrar
     + `168.235.092.108`
     + `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your SysNAND from being updated
-4. Return to the home menu
-5. Launch the Homebrew Launcher using the browser
-6. Launch Mocha CFW
-7. If the exploit was successful, you will launch Mocha CFW with RedNAND
-  + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
+  + Välj "Confirm" och tryck sen (B) för att spara
+  + Dessa servrarna kommer hindra att ditt SysNAND uppdateras
+4. Återgå till hemskärmen
+5. Starta Homebrew Launcher med hjälp av webbläsaren
+6. Starta Mocha CFW
+7. Om säkerhetsluckan fungerade kommer MochaCFW startas med RedNAND
+  + Om du inte längre kan se SysNAND-katalogen på hemskärmen har du lyckats starta RedNAND
 
 ___
 
-You will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to enter RedNAND
+Du kommer behöva starta Mocha CFW från Homebrew Launcher varje gång du startar om din Wii U för att komma tillbaka till RedNAND
 {: .notice}
 
-As long as you do not see the SysNAND folder in the home menu, you can be sure you are in RedNAND.
+Så länge du inte kan se SysNAND-katalogen på hemskärmen kan du vara säker på att du är i RedNAND.
 {: .notice--info}
 
-If you wish to use vWii, you must access it from SysNAND. All vWii functions will be unusable on RedNAND.
+Om du önskar använda vWii måste du starta det från SysNAND. Alla vWii-funktioner är oanvändbara från RedNAND.
 {: .notice--warning}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
