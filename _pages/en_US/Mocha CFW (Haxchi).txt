@@ -64,7 +64,7 @@ You can use the (Home) button to exit the Homebrew Launcher if you need to purch
 7. Read the warning that appears, then press (A) to install
 8. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
 9. The Mocha CFW configuration menu should load
-10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
+10. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
