@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (CBHC)" #
 lang: es
-permalink: /mocha-cfw-(cbhc).html
+permalink: /es_ES/mocha-cfw-(cbhc).html
 ---
 
 CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del Menú HOME, que cargará entonces la RedNAND.
