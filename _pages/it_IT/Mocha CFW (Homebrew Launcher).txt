@@ -76,5 +76,5 @@ Fintantochè non vedi la cartella SysNAND nel menu home, puoi essere sicuro di a
 Se desideri usare la vWii, dovrai aprirla dalla SysNAND. Nessuna funzione della vWii funziona nella RedNAND.
 {: .notice--warning}
 
-Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher- (channel)).
+Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
 {: .notice--primary}
