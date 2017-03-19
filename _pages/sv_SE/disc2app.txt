@@ -1,13 +1,13 @@
 ---
 title: "disc2app" #
-lang: en
+lang: sv
 permalink: /disc2app.html
 ---
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Detta gör att du kan lagra dina skivor i ett format som går att installera med syftet att kunna spela dem utan att behöva skivan.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+Du kan inte använda disc2app på RedNAND för att dumpa ett spel, men du kan installera det dumpade spelet på RedNAND. Instruktionerna tar upp detta.
 {: .notice--info}
 
 {% capture notice-2 %}
