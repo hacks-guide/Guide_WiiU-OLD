@@ -13,7 +13,7 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
 #### Instrucciones
 
 1. Inicia el navegador de tu consola
-2. Go to the browser settings and select "Reset Save Data"
+2. Ve a la configuración del navegador y selecciona "Borrar Datos"
   + Esto evitará problemas con el exploit
   + Esto también eliminará todos los datos que involucran configuración, historial de navegación y favoritos
 3. Regresa al navegador

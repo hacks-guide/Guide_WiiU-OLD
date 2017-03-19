@@ -1,11 +1,11 @@
 ---
-title: "Page Not Found" #
-lang: en
+title: "Sidan hittades inte" #
+lang: sv
 permalink: /404.html
 layout: single-no-ads
-excerpt: "Page not found. Your pixels are in another canvas." #
+excerpt: "Sidan hittades inte. Dina pixlar finns på en annan monitor." #
 sitemap: false
 ---
 
-### Sorry, but the page you were trying to view does not exist.
+### Tyvärr, men sidan du försökte visa finns inte.
 {: .text-center}

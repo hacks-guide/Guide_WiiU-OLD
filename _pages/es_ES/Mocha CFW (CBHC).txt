@@ -31,7 +31,7 @@ Esta página es opcional. Una instalación normal de Haxchi funciona bien como e
 6. Cuando se haya completado, deberías estar de vuelta en el menú HOME
 7. Reinicia tu Wii U
 8. Si el exploit funcionó, deberías ver un menú con varias opciones de arranque
-9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
+9. Navega hasta **"Autoboot: Disabled"**, después presiona (A) hasta que diga **"Autoboot: Mocha CFW"**
 10. Pulsa (A) en "Boot Mocha CFW"
 11. Si el exploit funcionó, deberías ver la pantalla de inicio de Mocha CFW y que ha cargado el menú HOME *sin* la carpeta SysNAND
 12. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
@@ -49,12 +49,12 @@ Mientras no veas la carpeta SysNAND en el menú HOME, puedes estar seguro de que
 {% capture notice-1 %}
 **Puedes mantener pulsado (Home) al encender la consola para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones de arraque:**
 
-    + Boot System Menu -> Boots into SysNAND
-    + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-    + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
-    + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-    + Boot vWii System Menu -> Boots into vWii on SysNAND
-    + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
+    + Boot System Menu -> Arranca la SysNAND
+    + Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
+    + Boot Mocha CFW -> Arranca Mocha CFW en la RedNAND
+    + Boot fw.img on SD Card -> Arranca cualquier CFW antiguo basado en fw.img desde la tarjeta SD
+    + Boot vWii System Menu -> Arranca la vWii en la SysNAND
+    + Boot vWii Homebrew Channel -> Arranca el Homebrew Channel en el modo vWii en la SysNAND
 
 {% endcapture %}
 

@@ -1,17 +1,17 @@
 ---
-title: "Why Ads?" #
-lang: en
+titel: "Varför reklam?" #
+lang: sv
 permalink: /why-ads.html
 layout: single-no-ads
 ---
 
-This project is an extension of hundreds upon hundreds of hours of constant work.
+Detta projekt är en vidarebyggnad på hundratals och åter hundratals timmar av hårt arbete.
 
-We maintain this guide, for free, and ensure it is always up to date. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Vi underhåller denna guide, gratis, och ser till att den alltid är uppdaterad. På grund av detta slit känner vi att det är rättvist för oss att försöka få en liten inkomst från vårt arbete.
 
-This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Denna webbplats kostar ingenting att använda, och alla annonser vi visar är icke-påträngande. Om du fortfarande har problem med detta, tveka inte att blockera dessa annonser.
 
-If you do block ads, we would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Om du blockerar annonser, vill vi bara påminna om sidan för [Bidrag](donations), men återigen är det valfritt att bidra.
 
-Thanks,<br>
+Tack,<br>
 Plailect & FlimFlam69

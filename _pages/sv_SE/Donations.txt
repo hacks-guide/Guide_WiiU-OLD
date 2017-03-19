@@ -1,11 +1,11 @@
 ---
-title: "Donations" #
-lang: en
+title: "Bidrag" #
+lang: sv
 permalink: /donations.html
 layout: single-no-ads
 ---
 
-## If you appreciate this guide, we (Plailect and FlimFlam69) accept donations.
+## Om du uppskattar denna guide, accepterar vi (Plailect och FlimFlam69) bidrag.
 {: .text-center}
 {: .notice--success}
 

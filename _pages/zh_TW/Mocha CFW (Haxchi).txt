@@ -20,7 +20,7 @@ Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞�
 #### 必備項目
 
 + 下列任一 DS Virtual Console 遊戲（須為正版且安裝於 Wii U 內存中）
-  + **千萬不要**安裝那個遊戲在 USB 儲存裝置中
+  + **千萬不要**安裝遊戲在 USB 儲存裝置中
   + 目前為止，《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》是 eShop 上最便宜的遊戲 ($6.99 美元)
   + 如果你先前已經安裝過了上述遊戲，請將它刪除並再重新透過 eShop 下載。 舊版的遊戲無法與 Haxchi 相容
   + 注意未來你將無法再遊玩你所選的遊戲
@@ -64,7 +64,7 @@ Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞�
 7. 讀完警示，並按下「A」鍵安裝
 8. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
 9. Mocha CFW 的設置選單應該會在此時出現
-10. Use (UP) and (DOWN) on the D-Pad to navigate througt the lines and (LEFT) and (RIGHT) to set the following:
+10. 使用方向鍵的「上」、「下」鍵上下選擇，使用「左」、「右」鍵設定下列選項：
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**

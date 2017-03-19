@@ -23,7 +23,7 @@ Per poter avviare le patch per i controlli delle firme digitali e la RedNAND, do
 4. Reinserisci la scheda SD nella Wii U
 5. Avvia Mocha CFW
 6. Dovrebbe apparire il menu di configurazione di Mocha CFW
-7. Usa il pulsante (A) e il D-Pad per impostare le seguenti opzioni:
+7. Usa le freccette (SU) e (GIÙ) per navigare tra le varie righe e le freccette (SINISTRA) e (DESTRA) per impostare le seguenti opzioni:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -48,11 +48,11 @@ Per poter avviare le patch per i controlli delle firme digitali e la RedNAND, do
 ##### Sezione II - Avviare Mocha CFW
 
 1. Crea una cartella nella prima pagina del menu home e rinominala "SysNAND"
-2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+2. Vai nelle Impostazioni della Console, quindi Internet, quindi "Connettiti ad Internet" e premi (X) per far apparire le tue connessioni internet
 3. Per ogni connessione presente (e anche per le eventuali connessioni future), segui i seguenti passaggi
-  + Select the connection
+  + Seleziona la connessione
   + Seleziona "Cambia Impostazioni"
-  + Move to the second list and choose "DNS"
+  + Seleziona la seconda lista e scegli "DNS"
   + Seleziona in DNS "Non ottenere automaticamente"
   + Inserisci i seguenti indirizzi IP del DNS
     + `168.235.092.108`
