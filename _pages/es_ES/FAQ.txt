@@ -11,7 +11,7 @@ permalink: /es_ES/faq.html
 ** R:** Actualiza tu Wii U a la última versión (5.5.1)
 
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
-**R:** Es muy improbable que Nintendo lance actualizaciones para una consola a la cual ya no dan soporte, pero existe una contradicción a esto y es que lanzaron una actualización para la Nintendo DSi 2 años después de haber cesado su producción. The real answer is that we don't know, so be safe with internet connectivity on SysNAND (use protective DNS servers or keep internet off).
+**R:** Es muy improbable que Nintendo lance actualizaciones para una consola a la cual ya no dan soporte, pero existe una contradicción a esto y es que lanzaron una actualización para la Nintendo DSi 2 años después de haber cesado su producción. La verdad es que no lo sabemos, así que lo mejor es tener cuidado con la conexión a internet en SysNAND (usa un de DNS protector o apaga la conexión a internet).
 
 <a name="faq_updatemocha" />**P:** *¿Cómo actualizo a la última versión de Mocha CFW?*    
 **R:** Descarga la última versión de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), luego copia `mocha.elf`del archivo `.zip` de Mocha CFW a la carpeta `/wiiu/apps/mocha/` en tu tarjeta SD (sobreescribe el archivo existente)

@@ -5,58 +5,58 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
+  cta_label: "Kom igång" #
   cta_url: "get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
-lang: en
+excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U<br />, från orörd till Coldboot Haxchi + RedNAND.<br />" #
+lang: sv
 permalink: /index.html
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!**
+**Den här guiden är _endast_ för butiksköpta konsoler (ej utvecklingsenheter från Nintendo Developer Program)!**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
+***Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!**
 {: .notice--success}
 
-**Read all of the introductory pages before proceeding.**
+**Läs alla introduktionssidor innan du fortsätter.**
 {: .notice--warning}
 
-## What is Homebrew?
+## Vad är Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) är en term som oftast används för att beskriva mjukvara som inte är auktoriserad av Nintendo. Det tillåter dig att spela hemgjorda spel, använda emulatorer för diverse äldre system och även att köra verktyg, t ex för att ändra och säkerhetskopiera sparfiler.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Att köra homebrew på din spelkonsoll är 100% kostnadsfritt och det behövs inget mer än webbläsaren på ditt system för att genomföra.
 
-## What is Custom Firmware?
+## Vad är Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") tillåter att du utöver vad homebrew som körs i userland klarar av kan göra mer avancerade anpassningar.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW kan lätt installeras på alla spelkonsoler oavsett region upp till och med den senaste systemuppdateringen (version 5.5.1 i skrivande stund).
 
-## What does this guide install?
+## Vad installerar den här guiden?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Den här guiden har som slutmål att ta en Wii U från att vara helt omodifierad
+till att köra Coldboot Haxchi för att starta Mocha Custom Firmware. Den utnyttjar homebrew som en möjligt punkt att stiga av, men Custom Firmware är fortfarande slutmålet.
 
-## What can I do with Custom Firmware?
+## Vad kan jag göra med Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your home menu
-+ Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Spela alla spel-skivor och eShop-spel oavsett region
+Säkerhetskopiera, redigera och återställa sparningar för många spel
++ Spela spel för äldre system genom olika emulatorer genom att använda RetroArch eller ensamstående emulatorer.
++ Installera homebrew-program på din enhet och få dem tillgängliga på hemskärmen
++ Överföra dina skivor till ett format du kan installera och spela dem utan att behöva skivan
++ Göra en säker uppdatering till den senaste systemversionen utan att behöva vara rädd för att tappa åtkomst till homebrew-program
 
-## What do I need to know before starting?
+## Vad behöver jag veta innan jag börjar?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the latest version.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ **Innan du börjar med guiden måste du veta om riskerna med att hacka din Wii U: VARJE gång du modifierar din enhet finns det en risk att den blir OBRUKBAR FÖR ALLTID. Det är väldigt sällsynt men fortfarande en möjlighet, så var noga och se till att du följer ALLA instruktioner till PUNKT OCH PRICKA.**
++ Denna guide kommer fungera för alla Wii U-enheter med senaste systemuppdateringen oavsett region.
++ Om allt går enligt planen kommer du inte att förlora någon data och ha kvar allting du började med (spel, NNID, sparfiler osv kommer finnas kvar).
++ Processen att skapa RedNAND kan ta upp till **flera** timmar för enheter som har mycket lagrat i det interna lagringsutrymmet.
++ Ditt SD-kort bör vara [MBR, inte GPT] (http://www.howtogeek.com/245610/).
++ Om du måste formatera ett helt nytt SD-kort kan du använda [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) och sätta Allocation Unit Size till 32K.
