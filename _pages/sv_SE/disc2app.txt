@@ -55,46 +55,46 @@ Notera att följande kommer radera allt innehåll på den externa hårddisken!
 ###### CBHC
 
 1. Stäng av din Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch disc2app
+2. Håll inne (Hem) under uppstarten för att komma in i CBHC boot menyn
+3. Välj "Boot Homebrew Launcher" för att starta Homebrew Launcher på SysNAND
+4. Starta disc2app
 
 ###### Haxchi
 
-1. Hold (X) while launching your DS virtual console game to launch disc2app
+1. Håll inne (X) under uppstart av ditt DS Virtual Console-spel för att starta disc2app
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-2. Launch disc2app
+1. Starta Homebrew Launcher på SysNAND med hjälp av `http://loadiine.ovh`
+2. Starta disc2app
 
-##### Section III - Using disc2app
+##### Avsnitt III - Using disc2app
 
-1. Press (A) to dump to the SD card
-2. Insert the disc you want to dump when prompted
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+1. Tryck (A) för att dumpa skivan till SD-kortet
+2. Sätt i skivan du vill dumpa när du uppmanas
+3. Överföringsprocessen fortsätter nu automatiskt, detta kommer att ta ett tag
+3. När allt är klart kommer du tillbaka till hemskärmen i SysNAND
+  + CBHC-användare kan komma tillbaka till RedNAND istället
 
-##### Section IV - Installing dumped game
+##### Section IV - Installera dumpade spel
 
-1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer - Mod Y
-4. Install the game to your desired destination
-  + Press (A) to install to the system memory
-  + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+1. Starta RedNAND med valfri metod
+2. Starta Homebrew Channel från RedNAND för att komma in i Homebrew Launcher
+3. Starta WUP Installer - Mod Y
+4. Installera spelet på din önskade plats
+  + Tryck (A) för att installera till system-minnet
+  + Tryck (X) för att installera till den externa hårddisken
+5. Installationen fortsätter nu automatiskt, detta kommer att ta ett tag
+6. När allt är klart kommer du tillbaka till Homebrew Launcher
+7. Tryck (Hem) för att återvända till hemskärmen i RedNAND
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+För att frigöra utrymme på SD-kortet som upptas av den dumpade skivan, radera den nyligen skapade katalogen `/install/`från kortet
 {: .notice--info}
 
-If everything went well, you'll see your new game installed on the menu ready to be played!
+Om allt gick bra kommer du se det nya spelet installerat på hemskärmen redo att spelas!
 {: .notice--success}
 
-You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+Du kan säkerställa att spelet är installerat till rätt utrymme genom att titta på dess installationsplats i systeminställningarna under "Data Management"
 {: .notice--success}
