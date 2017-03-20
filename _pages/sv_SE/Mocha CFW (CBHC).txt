@@ -1,6 +1,6 @@
 ---
 title: "Mocha CFW (CBHC)" #
-lang: en
+lang: sv
 permalink: /mocha-cfw-(cbhc).html
 ---
 
