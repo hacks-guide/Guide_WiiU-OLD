@@ -1,6 +1,6 @@
 ---
 title: "F3 (Linux)" #
-lang: en
+lang: sv
 permalink: /f3-(linux).html
 ---
 
