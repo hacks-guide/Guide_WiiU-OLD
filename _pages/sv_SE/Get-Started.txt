@@ -62,10 +62,10 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 17. Kopiera `boot.elf` från `hackmii_installer_v1.2`-katalogen i Hackmii Installer `.zip`-filen till roten av ditt SD-kort
 18. Kopiera `apps`-katalogen från `vWii_cIOS_apps_20131218.zip` till roten av ditt SD-kort
 19. Kopiera och slå ihop `apps`-katalogen från `Patched_IOS80_Installer_for_vWii.zip` till roten av ditt SD-kort
-20. Reinsert your SD card into your Wii U
-21. Power on your Wii U
+20. Sätt tillbaka ditt SD-kort i din Wii U
+21. Starta din Wii U
 
 ___
 
-Continue to [Homebrew Launcher](homebrew-launcher)
+Fortsätt till [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
