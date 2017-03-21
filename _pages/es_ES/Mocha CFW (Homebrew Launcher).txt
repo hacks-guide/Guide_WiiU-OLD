@@ -18,12 +18,12 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
 ##### Sección I - Configurando Mocha CFW
 
 1. Saca tu tarjeta SD de tu Wii U mientras esté en Homebrew Launcher
-2. Introduce la tarjeta SD de tu Wii U en tu computadora
-3. ** Haz una copia de seguridad de tu tarjeta SD a una carpeta en tu ordenador; todos los archivos serán borrados después**
-4. Vuelve a insertar tu tarjeta SD en tu Wii U
-5. Inicia Mocha CFW
-6. El menú de configuración de Mocha custom firmware debería arrancar
-7. Utiliza (Arriba) y (Abajo) en el D-Pad para navegar por las opciones e (Izquierda) y (Derecha) para configurar lo siguiente:
+1. Introduce la tarjeta SD de tu Wii U en tu computadora
+1. ** Haz una copia de seguridad de tu tarjeta SD a una carpeta en tu ordenador; todos los archivos serán borrados después**
+1. Vuelve a insertar tu tarjeta SD en tu Wii U
+1. Inicia Mocha CFW
+1. El menú de configuración de Mocha custom firmware debería arrancar
+1. Utiliza (Arriba) y (Abajo) en el D-Pad para navegar por las opciones e (Izquierda) y (Derecha) para configurar lo siguiente:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -33,23 +33,23 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-8. Presiona (A) para confirmar y salir
-9. Tu Wii U debe mostrar una pantalla negra; esta es la configuración de RedNAND
-10. Presiona el botón de encendido **de la consola** (no del gamepad) para iniciar la copia de la memoria del sistema interno a la tarjeta SD
+1. Presiona (A) para confirmar y salir
+1. Tu Wii U debe mostrar una pantalla negra; esta es la configuración de RedNAND
+1. Presiona el botón de encendido **de la consola** (no del gamepad) para iniciar la copia de la memoria del sistema interno a la tarjeta SD
   + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo del espacio que ocupa tu memoria interna)
-11. Una vez que el proceso sea completado, tu Wii U terminará con una pantalla negra
+1. Una vez que el proceso sea completado, tu Wii U terminará con una pantalla negra
   + Esto es normal; la tarjeta SD ha sido formateada
-12. Introduce la tarjeta SD de tu Wii U en tu computadora
+1. Introduce la tarjeta SD de tu Wii U en tu computadora
   + Tu tarjeta SD tendrá mucho menos espacio debido a que la RedNAND está ocupando una partición oculta en ella
-13. Copia todos los archivos que tenias respaldados a la tarjeta SD
-14. Vuelve a insertar tu tarjeta SD en tu Wii U
-17. Enciende tu Wii U
+1. Copia todos los archivos que tenias respaldados a la tarjeta SD
+1. Vuelve a insertar tu tarjeta SD en tu Wii U
+1. Enciende tu Wii U
 
 ##### Sección II - Iniciando Mocha CFW
 
 1. Crea una carpeta llamada "SysNAND", en la primera página del menú HOME
-2. Ve a las "Configuraciones de la consola", luego a "Internet", luego "Conexión a internet" y presiona (X) para mostrar tus configuraciones de red actuales
-3. Para cada conexión (y todas las futuras conexiones), haz lo siguiente
+1. Ve a las "Configuraciones de la consola", luego a "Internet", luego "Conexión a internet" y presiona (X) para mostrar tus configuraciones de red actuales
+1. Para cada conexión (y todas las futuras conexiones), haz lo siguiente
   + Selecciona la conexión
   + Selecciona "Cambiar configuración"
   + Ve a la segunda lista y selecciona "DNS"
@@ -59,10 +59,10 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
   + `081.004.127.020`
   + Selecciona "Confirmar" y presiona (B) para guardar
   + Estos servidores evitarán que tu SysNAND sea actualizada
-4. Vuelve al menu HOME
-5. Inicia el Homebrew Launcher desde el navegador
-6. Inicia Mocha CFW
-7. Si el exploit fue exitoso, entonces se iniciará Mocha CFW con RedNAND
+1. Vuelve al menu HOME
+1. Inicia el Homebrew Launcher desde el navegador
+1. Inicia Mocha CFW
+1. Si el exploit fue exitoso, entonces se iniciará Mocha CFW con RedNAND
   + Si ya no ves la carpeta SysNAND una vez que ha cargado el menú HOME, habrás iniciado la RedNAND correctamente
 
 ___
