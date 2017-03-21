@@ -17,20 +17,20 @@ Spel och sparningar är lagrade i den inbyggda lagringen och inte på SD-kortet.
 ###### CBHC
 
 1. Stäng av din Wii U
-2. Håll inne (Hem) under uppstarten för att komma in i CBHC boot menyn
-3. Välj "Boot Homebrew Launcher" för att starta Homebrew Launcher på SysNAND
-4. Starta CBHC installer
-5. Välj DS virtual console-spelet du avinstallerar CBHC från, tryck sen (A) för att välja det
-6. Läs varningen som dyker upp, tryck sen (B) för att avinstallera
-7. När allt är klart kommer du tillbaka till hemskärmen i RedNAND
-8. Starta om din Wii U
-9. Gå till systeminställningar och till "Data Management" och radera ditt DS virtual console-spel
-10. Återinstallera ditt DS virtual console-spel från eShop
+1. Håll inne (Hem) under uppstarten för att komma in i CBHC boot menyn
+1. Välj "Boot Homebrew Launcher" för att starta Homebrew Launcher på SysNAND
+1. Starta CBHC installer
+1. Välj DS virtual console-spelet du avinstallerar CBHC från, tryck sen (A) för att välja det
+1. Läs varningen som dyker upp, tryck sen (B) för att avinstallera
+1. När allt är klart kommer du tillbaka till hemskärmen i RedNAND
+1. Starta om din Wii U
+1. Gå till systeminställningar och till "Data Management" och radera ditt DS virtual console-spel
+1. Återinstallera ditt DS virtual console-spel från eShop
 
 ###### Haxchi
 
 1. Gå till systeminställningar och till "Data Management" och radera ditt DS virtual console-spel
-2. Återinstallera ditt DS virtual console-spel från eShop
+1. Återinstallera ditt DS virtual console-spel från eShop
 
 ###### Homebrew Launcher
 
