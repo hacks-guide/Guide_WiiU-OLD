@@ -44,26 +44,26 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 #### Instruktioner
 
 1. Se till att din Wii U är avstängd
-2. Sätt i ditt SD-kort i din dator
-3. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
-4. Skapa en katalog döpt `install` i roten av ditt SD-kort
-5. Kopiera `apps`-katalogen från Homebrew App Store `zip`-filen till `/wiiu/`-katalogen på ditt SD-kort
-6. Kopiera och slå ihop _innehållet_ från Homebrew Launcher `zip`-filen till roten av ditt SD-kort
-7. Kopiera och slå ihop _innehållet_ från Haxchi `zip`-filen till roten av ditt SD-kort
-8. Kopiera och slå ihop _innehållet_ från CBHC `zip`-filen till roten av ditt SD-kort
-9. Kopiera `config.txt`till `/haxchi/`-katalogen på ditt SD-kort
-10. Kopiera _innehållet_ från Homebrew Launcher Channel `zip`-filen till `/install/`-katalogen på ditt SD-kort
-11. Skapa en katalog döpt `mocha`i katalogen `/wiiu/apps/` på ditt SD-kort
-12. Kopiera `mocha.elf` från Mocha CFW `.zip`-filen till `/wiiu/apps/mocha/`på ditt SD-kort
-13. Kopiera och slå ihop _innehållet_ från Modified WUP Installer `zip`-filen till roten av ditt SD-kort
-14. Kopiera och slå ihop _innehållet_ från disc2app `zip`-filen till roten av ditt SD-kort
-15. Kopiera och slå ihop _innehållet_ från WUPhax `zip`-filen till roten av ditt SD-kort
-16. Kopiera och slå ihop _innehållet_ från saviine `zip`-filen till roten av ditt SD-kort
-17. Kopiera `boot.elf` från `hackmii_installer_v1.2`-katalogen i Hackmii Installer `.zip`-filen till roten av ditt SD-kort
-18. Kopiera `apps`-katalogen från `vWii_cIOS_apps_20131218.zip` till roten av ditt SD-kort
-19. Kopiera och slå ihop `apps`-katalogen från `Patched_IOS80_Installer_for_vWii.zip` till roten av ditt SD-kort
-20. Sätt tillbaka ditt SD-kort i din Wii U
-21. Starta din Wii U
+1. Sätt i ditt SD-kort i din dator
+1. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
+1. Skapa en katalog döpt `install` i roten av ditt SD-kort
+1. Kopiera `apps`-katalogen från Homebrew App Store `zip`-filen till `/wiiu/`-katalogen på ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Homebrew Launcher `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Haxchi `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från CBHC `zip`-filen till roten av ditt SD-kort
+1. Kopiera `config.txt`till `/haxchi/`-katalogen på ditt SD-kort
+1. Kopiera _innehållet_ från Homebrew Launcher Channel `zip`-filen till `/install/`-katalogen på ditt SD-kort
+1. Skapa en katalog döpt `mocha`i katalogen `/wiiu/apps/` på ditt SD-kort
+1. Kopiera `mocha.elf` från Mocha CFW `.zip`-filen till `/wiiu/apps/mocha/`på ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Modified WUP Installer `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från disc2app `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från WUPhax `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från saviine `zip`-filen till roten av ditt SD-kort
+1. Kopiera `boot.elf` från `hackmii_installer_v1.2`-katalogen i Hackmii Installer `.zip`-filen till roten av ditt SD-kort
+1. Kopiera `apps`-katalogen från `vWii_cIOS_apps_20131218.zip` till roten av ditt SD-kort
+1. Kopiera och slå ihop `apps`-katalogen från `Patched_IOS80_Installer_for_vWii.zip` till roten av ditt SD-kort
+1. Sätt tillbaka ditt SD-kort i din Wii U
+1. Starta din Wii U
 
 ___
 
