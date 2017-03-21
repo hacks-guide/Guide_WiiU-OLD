@@ -1,7 +1,7 @@
 ---
 title: "Homebrew Launcher" #
 lang: sv
-permalink: /homebrew-launcher.html
+permalink: /sv_SE/homebrew-launcher.html
 ---
 
 Homebrew Launcher är en homebrew-applikation som listar och möjliggör att starta andra homebrew-applikationer lagrade på SD-kortet.
