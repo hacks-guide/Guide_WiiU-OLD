@@ -1,7 +1,7 @@
 ---
 title: "Avinstallera Mocha CFW" #
 lang: sv
-permalink: /uninstall-mocha-cfw.html
+permalink: /sv_SE/uninstall-mocha-cfw.html
 ---
 
 Det här kommer ta bort Mocha CFW från ditt Wii U, oavsett installationsmetod, för att återställa din enhet.
