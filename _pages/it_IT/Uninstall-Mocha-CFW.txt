@@ -17,20 +17,20 @@ I giochi e i salvataggi sono salvati nella memoria interna della console, non su
 ###### CBHC
 
 1. Spegni la tua Wii U
-2. Tieni premuto (Home) all'avvio per aprire il menu di avvio di CBHC
-3. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
-4. Avvia il programma di installazione di CBHC
-5. Seleziona il gioco DS della Virtual Console dal quale stai disinstallando CBHC, quindi premi (A) per selezionarlo
-6. Leggi l'avviso visualizzato a schermo, quindi premi (B) per disinstallare CBHC
-7. Una volta completato il processo, ritornerai al menu della RedNAND
-8. Riavvia la console
-9. Apri le Impostazioni della Console e disinstalla attraverso "Gestione Dati" il tuo gioco DS della Virtual Console
-10. Reinstalla il tuo gioco DS della Virtual Console dall'eShop
+1. Tieni premuto (Home) all'avvio per aprire il menu di avvio di CBHC
+1. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
+1. Avvia il programma di installazione di CBHC
+1. Seleziona il gioco DS della Virtual Console dal quale stai disinstallando CBHC, quindi premi (A) per selezionarlo
+1. Leggi l'avviso visualizzato a schermo, quindi premi (B) per disinstallare CBHC
+1. Una volta completato il processo, ritornerai al menu della RedNAND
+1. Riavvia la console
+1. Apri le Impostazioni della Console e disinstalla attraverso "Gestione Dati" il tuo gioco DS della Virtual Console
+1. Reinstalla il tuo gioco DS della Virtual Console dall'eShop
 
 ###### Haxchi
 
 1. Apri le Impostazioni della Console e cancella attraverso "Gestione Dati" il tuo gioco DS della Virtual Console
-2. Reinstalla il tuo gioco DS della Virtual Console dall'eShop
+1. Reinstalla il tuo gioco DS della Virtual Console dall'eShop
 
 ###### Homebrew Launcher
 
