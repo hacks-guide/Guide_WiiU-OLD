@@ -16,8 +16,8 @@ permalink: /zh_TW/vwii-modding.html
 ###### CBHC
 
 1. 關閉你的 Wii U
-2. 於開機時按住「Home」鍵進入 CBHC 開機選單
-3. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
+1. 於開機時按住「Home」鍵進入 CBHC 開機選單
+1. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
 
 ###### Haxchi
 
@@ -30,21 +30,21 @@ permalink: /zh_TW/vwii-modding.html
 ##### 第二節 — wuphax
 
 1. 啟動 wuphax
-2. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
-3. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
-4. 按下「Home」鍵以退出至 HOME 主選單
-5. 啟動 vWii
-6. 啟動 vWii Mii 頻道
-7. 如果漏洞順利執行，你將會進入 Hackmii Installer 中
-8. 讀完警示，並於提示時按下「1」繼續
-9. 依照顯示的步驟來安裝 Homebrew Channel 至 vWii 上
-10. 照步驟跑完回至 vWii 中
-11. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
-12. 回到主選單中，並將你的 Wii U 關機
-13. 根據第一節的方式於 SysNAND 上進入 Homebrew Launcher
-14. 啟動 wuphax
-15. 當提示時，按下「B」鍵還原 Mii 頻道
-16. 照步驟跑完回至 vWii 中
+1. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
+1. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
+1. 按下「Home」鍵以退出至 HOME 主選單
+1. 啟動 vWii
+1. 啟動 vWii Mii 頻道
+1. 如果漏洞順利執行，你將會進入 Hackmii Installer 中
+1. 讀完警示，並於提示時按下「1」繼續
+1. 依照顯示的步驟來安裝 Homebrew Channel 至 vWii 上
+1. 照步驟跑完回至 vWii 中
+1. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
+1. 回到主選單中，並將你的 Wii U 關機
+1. 根據第一節的方式於 SysNAND 上進入 Homebrew Launcher
+1. 啟動 wuphax
+1. 當提示時，按下「B」鍵還原 Mii 頻道
+1. 照步驟跑完回至 vWii 中
 
 ##### 第三節 － 拷貝 vWii NAND
 
@@ -52,13 +52,13 @@ permalink: /zh_TW/vwii-modding.html
 {: .notice--info}
 
 1. 於 vWii 上啟動 Homebrew Channel
-2. 啟動 Dump Mii NAND
+1. 啟動 Dump Mii NAND
   + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的 SD 卡速度而定，有可能會到數小時）
-3. 當備份完成後，你的 Wii U 將自動重啟
-4. 關閉你的 Wii U
-5. 將 Wii U 中的 SD 卡插入至電腦中
-6. **從你 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方（像是雲端硬碟）；此備份將會在你未來玩壞 vWii 時救你一命**
-7. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
+1. 當備份完成後，你的 Wii U 將自動重啟
+1. 關閉你的 Wii U
+1. 將 Wii U 中的 SD 卡插入至電腦中
+1. **從你 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方（像是雲端硬碟）；此備份將會在你未來玩壞 vWii 時救你一命**
+1. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
 
 ##### 第四節 － cIOS 安裝
 
@@ -68,25 +68,25 @@ permalink: /zh_TW/vwii-modding.html
 1. 於 vWii 上啟動 Homebrew Channel
   + Haxchi 及 Homebrew Launcher Mocha CFW 的使用這可以在 SysNAND 下，透過選擇 HOME 主選單選擇 vWii，並啟動 Homebrew Channel
   + CBHC Mocha CFW 使用者可以在開機時按住「B」鍵，並選擇「Boot vWii Homebrew Channel」
-2. 啟動 d2x cIOS Installer
-3. 將螢幕上方選項設為下列選項：
+1. 啟動 d2x cIOS Installer
+1. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
-4. 按「A」鍵安裝
-5. 等待安裝完畢，並按下「A」鍵繼續
-6. 將螢幕上方選項設為下列選項：
+1. 按「A」鍵安裝
+1. 等待安裝完畢，並按下「A」鍵繼續
+1. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
-7. 按「A」鍵安裝
-8. 等待安裝完畢，並按下「A」鍵繼續
-9. 將螢幕上方選項設為下列選項：
+1. 按「A」鍵安裝
+1. 等待安裝完畢，並按下「A」鍵繼續
+1. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
-10. 按「A」鍵安裝
-11. 等待安裝完畢，並按下「B」鍵離開
+1. 按「A」鍵安裝
+1. 等待安裝完畢，並按下「B」鍵離開
 
 ##### 第五節 － 修改 IOS80
 
@@ -94,11 +94,11 @@ permalink: /zh_TW/vwii-modding.html
 {: .notice--danger}
 
 1. 從 vWii 的 Homebrew Channel 中啟動 vWii 的 Patched IOS80 Installer
-2. 讀完警示，並稍待 30 秒直到安裝程式讓你繼續為止
-3. 按「A」鍵安裝
+1. 讀完警示，並稍待 30 秒直到安裝程式讓你繼續為止
+1. 按「A」鍵安裝
   + 這應該很快
-4. 完成後，按下任一按鈕回至 Homebrew Channel 中
-5. 退出至 vWii 選單中
+1. 完成後，按下任一按鈕回至 Homebrew Channel 中
+1. 退出至 vWii 選單中
 
 ___
 
