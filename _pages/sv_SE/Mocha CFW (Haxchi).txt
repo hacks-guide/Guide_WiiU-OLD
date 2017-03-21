@@ -56,15 +56,15 @@ Du kan använda (Hem)-knappen för att avsluta Homebrew Launcher om du behöver 
 ##### Avsnitt I - Uppsättning av Mocha CFW
 
 1. Ta ur SD-kortet från din Wii U medan den är inne i Homebrew Launcher
-2. Sätt i ditt SD-kort i din dator
-3. **Säkerhetskopiera varje fil på ditt SD-kort till en katalog på din dator; Alla filer kommer raderas senare**
-4. Sätt tillbaka ditt SD-kort i din Wii U
-5. Starta Haxchi Installer
-6. Välj DS virtual console-spelet du vill installera Haxchi till, tryck sen (A) för att välja det
-7. Läs varningen som dyker upp, tryck sen (A) för att installera
-8. När det är klart, starta ditt Haxchi DS virtual console-spel (som nu har döpts om till "Haxchi")
-9. Mocha CFW-menyn ska nu laddas
-10. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
+1. Sätt i ditt SD-kort i din dator
+1. **Säkerhetskopiera varje fil på ditt SD-kort till en katalog på din dator; Alla filer kommer raderas senare**
+1. Sätt tillbaka ditt SD-kort i din Wii U
+1. Starta Haxchi Installer
+1. Välj DS virtual console-spelet du vill installera Haxchi till, tryck sen (A) för att välja det
+1. Läs varningen som dyker upp, tryck sen (A) för att installera
+1. När det är klart, starta ditt Haxchi DS virtual console-spel (som nu har döpts om till "Haxchi")
+1. Mocha CFW-menyn ska nu laddas
+1. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -74,26 +74,26 @@ Du kan använda (Hem)-knappen för att avsluta Homebrew Launcher om du behöver 
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-11. Tryck (A) för att bekräfta och avsluta
-12. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
-13. När du ombeds, tryck på strömknappen **på konsolen** (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
+1. Tryck (A) för att bekräfta och avsluta
+1. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
+1. När du ombeds, tryck på strömknappen **på konsolen** (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
   + Var beredd att vänta; det här kan ta lång tid (upp till flera timmar beroende på hur mycket av det interna lagringsutrymmet du har använt)
-14. När processen är klar kommer din Wii U sluta på en svart skärm
+1. När processen är klar kommer din Wii U sluta på en svart skärm
   + Det här är normalt; SD-kortet har formaterats
-15. Sätt i ditt SD-kort från din Wii U i din dator
+1. Sätt i ditt SD-kort från din Wii U i din dator
   + Ditt SD-kort kommer nu ha väldigt mycket mindre ledigt utrymme eftersom RedNAND finns på en gömd partition på det
-16. Kopiera alla filer som du säkerhetskopierade tidigare tillbaka till ditt SD-kort
-17. Sätt tillbaka ditt SD-kort i din Wii U
-18. Starta din Wii U
+1. Kopiera alla filer som du säkerhetskopierade tidigare tillbaka till ditt SD-kort
+1. Sätt tillbaka ditt SD-kort i din Wii U
+1. Starta din Wii U
 
 ##### Avsnitt II - Starta Mocha CFW
 
 1. Skapa en folder på första sidan av din hemskärm och döp den till "SysNAND"
-2. Gå till systeminställningarna och radera alla nätverksanslutningar
+1. Gå till systeminställningarna och radera alla nätverksanslutningar
   + Det här kommer förhindra att din SysNAND uppdateras
   + **Det här KRÄVS eftersom Wii U:s standby-läge kommer använda internet-inställningar från SysNAND**
-3. Starta ditt Haxchi DS virtual console-spel
-4. Om nyttjandet av säkerhetshålet fungerade kommer MochaCFW startas med RedNAND
+1. Starta ditt Haxchi DS virtual console-spel
+1. Om nyttjandet av säkerhetshålet fungerade kommer MochaCFW startas med RedNAND
   + Om du inte längre kan se SysNAND-katalogen på hemskärmen har du lyckats starta RedNAND
 
 ___
