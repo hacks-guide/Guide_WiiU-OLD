@@ -23,20 +23,20 @@ CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修�
 
 1. 重啟你的主機，確保你的系統是在 SysNAND 底下運行的。
   + 你應該會在你的 HOME 主選單的首頁看到 SysNAND 資料夾
-2. 透過 `http://loadiine.ovh`於 SysNAND 上啟動 Homebrew Launcher
-3. 啟動 CBHC installer
-4. 選擇你要安裝 CBHC 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 透過 `http://loadiine.ovh`於 SysNAND 上啟動 Homebrew Launcher
+1. 啟動 CBHC installer
+1. 選擇你要安裝 CBHC 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
   + **所選的遊戲 _必須_ 要先裝好 Haxchi 才能繼續**
-5. 讀完警示，並按下「A」鍵安裝
-6. 完成後，你將會回到 HOME 主選當中
-7. 重新啟動你的 Wii U
-8. 如果漏洞順利執行，你將會看到各種選項的開機選單
-9. 將游標移至**「Autoboot: Disabled」**上，並按「A」鍵直到選項變為**「Autoboot: Mocha CFW」**為止
-10. 在「Boot Mocha CFW」上按下「A」鍵
-11. 如果漏洞順利執行，你應該會看到 Mocha CFW 的開機畫面並開機至*沒有* SysNAND 資料夾的 HOME 主選單中
-12. 重啟你的 Wii U 以確保漏洞仍能自動執行
+1. 讀完警示，並按下「A」鍵安裝
+1. 完成後，你將會回到 HOME 主選當中
+1. 重新啟動你的 Wii U
+1. 如果漏洞順利執行，你將會看到各種選項的開機選單
+1. 將游標移至**「Autoboot: Disabled」**上，並按「A」鍵直到選項變為**「Autoboot: Mocha CFW」**為止
+1. 在「Boot Mocha CFW」上按下「A」鍵
+1. 如果漏洞順利執行，你應該會看到 Mocha CFW 的開機畫面並開機至*沒有* SysNAND 資料夾的 HOME 主選單中
+1. 重啟你的 Wii U 以確保漏洞仍能自動執行
   + 你的裝置應該會自動開機至 Mocha CFW 及 RedNAND 中（HOME 主選單上不應該有 SysNAND 資料夾出現）
-13. 如果你 100% 確定你現在是在 RedNAND 底下，你可以在 **RedNAND 中**把修改後的 DS Virtual Console 遊戲刪除了
+1. 如果你 100% 確定你現在是在 RedNAND 底下，你可以在 **RedNAND 中**把修改後的 DS Virtual Console 遊戲刪除了
 
 ___
 
