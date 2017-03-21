@@ -44,20 +44,20 @@ Note that this will completely erase the contents of the external hard drive!
 {: .notice--danger}
 
 1. Plug your USB HDD into your Wii U while it is powered off
-2. Power on your Wii U
-3. Format the external hard drive when prompted
+1. Power on your Wii U
+1. Format the external hard drive when prompted
 
 ##### Section II - Launching disc2app on SysNAND
 
 1. Remove any disc that currently may be in the Wii U disc drive
-2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+1. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
 
 ###### CBHC
 
 1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch disc2app
+1. Hold (Home) on boot to enter the CBHC boot menu
+1. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. Launch disc2app
 
 ###### Haxchi
 
@@ -66,27 +66,27 @@ Note that this will completely erase the contents of the external hard drive!
 ###### Homebrew Launcher
 
 1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-2. Launch disc2app
+1. Launch disc2app
 
 ##### Section III - Using disc2app
 
 1. Press (A) to dump to the SD card
-2. Insert the disc you want to dump when prompted
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
+1. Insert the disc you want to dump when prompted
+1. Allow the disc dump process to proceed automatically; this will take some time
+1. When it is complete, you will be returned to the SysNAND home menu
   + CBHC users may be returned to RedNAND instead
 
 ##### Section IV - Installing dumped game
 
 1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer - Mod Y
-4. Install the game to your desired destination
+1. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
+1. Launch WUP Installer - Mod Y
+1. Install the game to your desired destination
   + Press (A) to install to the system memory
   + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+1. Allow the installation process to proceed automatically; this will take some time
+1. When it is complete, you will be returned to the Homebrew Launcher
+1. Press (Home) to return to the RedNAND home menu
 
 ___
 
