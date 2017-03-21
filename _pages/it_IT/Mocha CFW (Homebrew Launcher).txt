@@ -55,8 +55,8 @@ Per poter avviare le patch per i controlli delle firme digitali e la RedNAND, do
   + Seleziona la seconda lista e scegli "DNS"
   + Seleziona in DNS "Non ottenere automaticamente"
   + Inserisci i seguenti indirizzi IP del DNS
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Seleziona "Conferma", quindi premi (B) per salvare le impostazioni
   + Questi server impediranno l'aggiornamento della SysNAND
 4. Ritorna al menu home
