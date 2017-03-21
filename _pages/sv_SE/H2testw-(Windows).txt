@@ -20,14 +20,14 @@ Den här sidan är enbart för Windows-användare. Om du inte använder Windows 
 #### Instruktioner
 
 1. Kopiera `h2testw.exe` från h2testw `.zip` till ditt skrivbord
-2. Sätt in ditt SD-kort i datorn
-3. Kör `h2testw.exe`
-4. Välj "English"
-5. Klicka på "Select target"
-6. Välj ditt SD-korts enhetsbokstav
-7. Se till att "all available space" är vald
-8. Klicka på "Write + Verify"
-9. Vänta tills processen är klar
+1. Sätt in ditt SD-kort i datorn
+1. Kör `h2testw.exe`
+1. Välj "English"
+1. Klicka på "Select target"
+1. Välj ditt SD-korts enhetsbokstav
+1. Se till att "all available space" är vald
+1. Klicka på "Write + Verify"
+1. Vänta tills processen är klar
 
 ___
 
