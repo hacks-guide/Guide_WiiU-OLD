@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
 lang: sv
-permalink: /mocha-cfw-(homebrew-launcher).html
+permalink: /sv_SE/mocha-cfw-(homebrew-launcher).html
 ---
 
 Mocha CFW är en anpassad firmware som patchar signaturkontroller och startar RedNAND.
