@@ -1,7 +1,7 @@
 ---
 title: "Homebrew Launcher (Channel)" #
 lang: sv
-permalink: /homebrew-launcher-(channel).html
+permalink: /sv_SE/homebrew-launcher-(channel).html
 ---
 
 Det här kommer installera Homebrew Channel på RedNAND så du inte behöver använda webbläsaren för att starta det varje gång.
