@@ -1,90 +1,90 @@
 ---
 title: "disc2app" #
-lang: en
-permalink: /disc2app.html
+lang: de
+permalink: /de_DE/disc2app.html
 ---
 
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. Die Anweisungen reflektieren dies.
 {: .notice--info}
 
 {% capture notice-2 %}
-**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+**Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte folgendes:**
 
-    + You cannot use the same hard drive for vWii and Wii U games.
-    + The Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-    + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + Du kannst nicht die selbe Festplatte für vWii und Wii U Spiele nutzen.
+    + Die Wii U nutzt nur 2tb Speicherplatz einer externen Festplatte, auch wenn die Festplatte an sich größer ist.
+    + Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
+    + Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte, dass die Wii U nur Festplattenspeicher bis 2tb benutzt, auch wenn die Festplatte an sich größer ist.
 {: .notice--info}
 
-#### What you need
+#### Was du benötigst
 
-* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
-* 25gb of free space on your SD card
+* Eine SD Karte mit RedNAND und allen Dateien von [Los geht's](/de_DE/get-started)
+* 25gb freien Speicherplatz auf deiner SD Karte
 
-#### Instructions
+#### Anleitung
 
-##### Section I - Formatting external drive
+##### Schritt I - Die externe Festplatte formatieren
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+Solltest du eine externe Festplatte beutzen wollen, auf der du deine Spiele installierst, folge diesem Abschnitt.
 {: .notice--info}
 
-If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+Solltest du nicht vorhaben, eine externe Festplatte zu verwenden, oder schon eine im Wii U Format haben, überspringe diesen Abschnitt.
 {: .notice--info}
 
-Note that this will completely erase the contents of the external hard drive!
+Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 {: .notice--danger}
 
-1. Plug your USB HDD into your Wii U while it is powered off
-2. Power on your Wii U
-3. Format the external hard drive when prompted
+1. Schließe die Festplatte an die Wii U an, während diese ausgeschaltet ist
+2. Schalte die Wii U an
+3. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
 
-##### Section II - Launching disc2app on SysNAND
+##### Abschnitt II - disc2app im SysNAND starten
 
 1. Remove any disc that currently may be in the Wii U disc drive
-2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+2. Starte disc2app in SysNAND mithilfe der Methode für deine Mocha CFW Installation:
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch disc2app
+1. Schalte die Wii U aus
+2. Halte (Home) während des Hochfahrens um ins CBHC Bootmenü zu gelangen
+3. Wähle "Boot Homebrew Launcher" aus, um den Homebrew Launcher in SysNAND zu starten
+4. Starte disc2app
 
 ###### Haxchi
 
-1. Hold (X) while launching your DS virtual console game to launch disc2app
+1. Halte (X) während du dein DS Virtual Console Spiel startest, um disc2app zu starten
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-2. Launch disc2app
+1. Starte den Homebrew Launcher in SysNAND durch `http://loadiine.ovh`
+2. Starte disc2app
 
-##### Section III - Using disc2app
+##### Abschnitt III - disc2app nutzen
 
-1. Press (A) to dump to the SD card
+1. Drücke (A) um auf die SD Karte zu dumpen
 2. Insert the disc you want to dump when prompted
 3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+3. Wenn alles fertig ist, kehrst du ins SysNAND Home Menü zurück
+  + CBHC Nutzer könnten stattdessen ins RedNAND zurückkehren
 
-##### Section IV - Installing dumped game
+##### Abschnitt IV - Gedumptes Spiel installieren
 
-1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer - Mod Y
-4. Install the game to your desired destination
-  + Press (A) to install to the system memory
-  + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
+1. Boote RedNAND mit der Methode deiner Wahl
+2. Starte den Homebrew Channel in RedNAND um in den Homebrew Launcher zu gelangen
+3. Starte "WUP Installer -Mod Y"
+4. Installiere das Spiel zum gewünschten Ort
+  + Drücke (A) um in den Systemspeicher zu installieren
+  + Drücke (X) um auf die externe Festplatte zu installieren
+5. Erlaube dem Installationsfortschritt automatisch fortzufahren; das dauert eine Weile
 6. When it is complete, you will be returned to the Homebrew Launcher
 7. Press (Home) to return to the RedNAND home menu
 

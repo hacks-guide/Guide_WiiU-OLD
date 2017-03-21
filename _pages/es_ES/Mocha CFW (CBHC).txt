@@ -23,20 +23,20 @@ Esta página es opcional. Una instalación normal de Haxchi funciona bien como e
 
 1. Reinicia tu consola para estar seguro de que estás en la SysNAND.
   + Deberías ver la carpeta SysNAND en la primera página de tu menú HOME
-2. Entra en el Homebrew Launcher en la Sysnand usando `http://loadiine.ovh`
-3. Inicia el CBHC Installer
-4. Selecciona el título de la consola virtual de DS en el que instalarás CBHC, después pulsa (A) para seleccionarlo
+1. Entra en el Homebrew Launcher en la Sysnand usando `http://loadiine.ovh`
+1. Inicia el CBHC Installer
+1. Selecciona el título de la consola virtual de DS en el que instalarás CBHC, después pulsa (A) para seleccionarlo
   + **Este juego DEBE tener una instalación funcional de Haxchi**
-5. Lee la advertencia que aparezca, después pulsa (A) para instalar
-6. Cuando se haya completado, deberías estar de vuelta en el menú HOME
-7. Reinicia tu Wii U
-8. Si el exploit funcionó, deberías ver un menú con varias opciones de arranque
-9. Navega hasta **"Autoboot: Disabled"**, después presiona (A) hasta que diga **"Autoboot: Mocha CFW"**
-10. Pulsa (A) en "Boot Mocha CFW"
-11. Si el exploit funcionó, deberías ver la pantalla de inicio de Mocha CFW y que ha cargado el menú HOME *sin* la carpeta SysNAND
-12. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
+1. Lee la advertencia que aparezca, después pulsa (A) para instalar
+1. Cuando se haya completado, deberías estar de vuelta en el menú HOME
+1. Reinicia tu Wii U
+1. Si el exploit funcionó, deberías ver un menú con varias opciones de arranque
+1. Navega hasta **"Autoboot: Disabled"**, después presiona (A) hasta que diga **"Autoboot: Mocha CFW"**
+1. Pulsa (A) en "Boot Mocha CFW"
+1. Si el exploit funcionó, deberías ver la pantalla de inicio de Mocha CFW y que ha cargado el menú HOME *sin* la carpeta SysNAND
+1. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
   + Deberías arrancar Mocha CFW y la RedNAND automáticamente al iniciar (sin la carpeta SysNAND en el menú HOME)
-13. Si estás al 100% seguro de que has arrancado en la RedNAND, puedes borrar el juego de la consola virtual de DS **en la RedNAND**
+1. Si estás al 100% seguro de que has arrancado en la RedNAND, puedes borrar el juego de la consola virtual de DS **en la RedNAND**
 
 ___
 

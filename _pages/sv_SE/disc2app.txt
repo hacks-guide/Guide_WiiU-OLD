@@ -1,100 +1,100 @@
 ---
 title: "disc2app" #
-lang: en
+lang: sv
 permalink: /disc2app.html
 ---
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Detta gör att du kan lagra dina skivor i ett format som går att installera med syftet att kunna spela dem utan att behöva skivan.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
+Du kan inte använda disc2app på RedNAND för att dumpa ett spel, men du kan installera det dumpade spelet på RedNAND. Instruktionerna tar upp detta.
 {: .notice--info}
 
 {% capture notice-2 %}
-**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+**Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, notera följande:**
 
-    + You cannot use the same hard drive for vWii and Wii U games.
-    + The Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-    + Formatting an external hard drive for use with a Wii U will erase its contents.
-    + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+    + Du kan inte använda samma hårddisk för vWii- och Wii U-spel.
+    + Wii U kan bara utnyttja upp till 2tb på en extern hårddisk, även om den har större kapacitet än så.
+    + Att formatera en extern hårddisk för att användas med en Wii U kommer radera allt dess innehåll.
+    + Om du använder en extern hårddisk som inte har sin egna strömförsörjning kommer du behöva en [Y-kabel](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-2 | markdownify }}</div>
 
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
+Om du planerar att använda en extern hårddisk för att installera dina dumpade skivor på, observera att Wii U'n enbart kan använda upp till 2 tb utav en extern hårddisk, även om själva hårddisken har mer kapacitet.
 {: .notice--info}
 
-#### What you need
+#### Vad du behöver
 
-* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
-* 25gb of free space on your SD card
+* Ett SD-kort som har RedNAND och alla tillhörande filer från [Kom igång](get-started) sparade på sig
+* 25gb fritt utrymme på ditt SD-kort
 
-#### Instructions
+#### Instruktioner
 
-##### Section I - Formatting external drive
+##### Avsnitt I - Formatera den externa hårddisken
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, följ stegen i det här avsnittet.
 {: .notice--info}
 
-If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+Om du inte planerar att använda en extern hårddisk eller om du redan har en extern hårddisk formaterad för Wii U, hoppa över det här avsnittet.
 {: .notice--info}
 
-Note that this will completely erase the contents of the external hard drive!
+Notera att följande kommer radera allt innehåll på den externa hårddisken!
 {: .notice--danger}
 
-1. Plug your USB HDD into your Wii U while it is powered off
-2. Power on your Wii U
-3. Format the external hard drive when prompted
+1. Plugga in din USB-hårddisk i ditt Wii U medan den är avstängd
+2. Starta din Wii U
+3. Formatera den externa hårddisken när du frågas om det
 
-##### Section II - Launching disc2app on SysNAND
+##### Avsnitt II - Starta disc2app på SysNAND
 
-1. Remove any disc that currently may be in the Wii U disc drive
-2. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
+1. Ta ut eventuell disk som sitter i Wii U:s läsare
+2. Starta disc2app på SysNAND genom metoden för din Mocha CFW-installation:
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch disc2app
+1. Stäng av din Wii U
+2. Håll inne (Hem) under uppstarten för att komma in i CBHC boot menyn
+3. Välj "Boot Homebrew Launcher" för att starta Homebrew Launcher på SysNAND
+4. Starta disc2app
 
 ###### Haxchi
 
-1. Hold (X) while launching your DS virtual console game to launch disc2app
+1. Håll inne (X) under uppstart av ditt DS Virtual Console-spel för att starta disc2app
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-2. Launch disc2app
+1. Starta Homebrew Launcher på SysNAND med hjälp av `http://loadiine.ovh`
+2. Starta disc2app
 
-##### Section III - Using disc2app
+##### Avsnitt III - Using disc2app
 
-1. Press (A) to dump to the SD card
-2. Insert the disc you want to dump when prompted
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+1. Tryck (A) för att dumpa skivan till SD-kortet
+2. Sätt i skivan du vill dumpa när du uppmanas
+3. Överföringsprocessen fortsätter nu automatiskt, detta kommer att ta ett tag
+3. När allt är klart kommer du tillbaka till hemskärmen i SysNAND
+  + CBHC-användare kan komma tillbaka till RedNAND istället
 
-##### Section IV - Installing dumped game
+##### Section IV - Installera dumpade spel
 
-1. Boot RedNAND using the method of your choice
-2. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
-3. Launch WUP Installer - Mod Y
-4. Install the game to your desired destination
-  + Press (A) to install to the system memory
-  + Press (X) to install to the external hard drive
-5. Allow the installation process to proceed automatically; this will take some time
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+1. Starta RedNAND med valfri metod
+2. Starta Homebrew Channel från RedNAND för att komma in i Homebrew Launcher
+3. Starta WUP Installer - Mod Y
+4. Installera spelet på din önskade plats
+  + Tryck (A) för att installera till system-minnet
+  + Tryck (X) för att installera till den externa hårddisken
+5. Installationen fortsätter nu automatiskt, detta kommer att ta ett tag
+6. När allt är klart kommer du tillbaka till Homebrew Launcher
+7. Tryck (Hem) för att återvända till hemskärmen i RedNAND
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+För att frigöra utrymme på SD-kortet som upptas av den dumpade skivan, radera den nyligen skapade katalogen `/install/`från kortet
 {: .notice--info}
 
-If everything went well, you'll see your new game installed on the menu ready to be played!
+Om allt gick bra kommer du se det nya spelet installerat på hemskärmen redo att spelas!
 {: .notice--success}
 
-You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+Du kan säkerställa att spelet är installerat till rätt utrymme genom att titta på dess installationsplats i systeminställningarna under "Data Management"
 {: .notice--success}

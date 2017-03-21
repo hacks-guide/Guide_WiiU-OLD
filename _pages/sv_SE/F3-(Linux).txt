@@ -1,31 +1,31 @@
 ---
 title: "F3 (Linux)" #
-lang: en
+lang: sv
 permalink: /f3-(linux).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using F3.
+Den här sidan kommer att ta dig igenom processen att använda F3 för att söka igenom ditt SD-kort efter fel.
 {: .notice}
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 {: .notice--info}
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (Windows)](h2testw-(windows)) or [F3X (Mac)](f3x-(mac)) pages.
+Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3X (Mac)](f3x-(mac)).
 {: .notice--info}
 
-#### What you need
+#### Vad du behöver
 
-* The latest version of [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* Den senaste versionen av [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Instructions
+#### Instruktioner
 
-1. Unzip the F3 `.zip` file
-2. `cd` into the F3 directory
-3. Run `make` to compile F3
-4. Insert your SD card into your computer
-5. Mount your SD card
-6. Run `./f3write <your SD card mount point>`
-7. Wait until the process is complete. See below for an example output.
+1. Packa upp F3 `zip`-filen
+2. Använd `cd` för att ta dig in i F3-katalogen
+3. Kör `make` för att kompilera F3
+4. Sätt in ditt SD-kort i datorn
+5. Mounta ditt SD-kort
+6. Kör `./f3write <SD-kortets mount point>`
+7. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -35,8 +35,8 @@ This page is for Linux users only. If you are not on Linux, check out the [H2tes
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-8. Run `./f3read <your SD card mount point>`
-9. Wait until the process is complete. See below for an example output.
+8. Kör `./f3read <SD-kortets mount point>`
+9. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
@@ -53,11 +53,11 @@ This page is for Linux users only. If you are not on Linux, check out the [H2tes
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on the SD card
+Om testet ger resultatet `Data LOST: 0.00 Byte (0 sectors)` så är dit SD-kort OK och du kan ta bort alla `.h2w`-filer på kortet
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-Return to [Get Started](get-started)
+Tillbaka till [Komma Igång](get-started)
 {: .notice--primary}
