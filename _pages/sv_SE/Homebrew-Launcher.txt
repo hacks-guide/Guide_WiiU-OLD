@@ -13,17 +13,17 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 #### Instruktioner
 
 1. Starta webbläsaren på din enhet
-2. Gå till webbläsarens inställningar och välj "Reset Save Data"
+1. Gå till webbläsarens inställningar och välj "Reset Save Data"
   Det här kommer förhindra problem med att nyttja säkerhetshålen i webbläsaren
   + Det här kommer även radera all webbläsarens data inklusive inställningar, historik och bokmärken
-3. Återvänd till webbläsaren
-4. Gå till `http://loadiine.ovh`
+1. Återvänd till webbläsaren
+1. Gå till `http://loadiine.ovh`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
-5. Säkerställ att dropdown-menyn visar "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", tryck sedan "Submit"
+1. Säkerställ att dropdown-menyn visar "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", tryck sedan "Submit"
   + Det här kan behöva många försök
   + I vissa situationer kan alternativet "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" vara mer pålitligt för att starta Homebrew Launcher
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen
-6. Din konsol ska nu ha laddat Homebrew Launcher
+1. Din konsol ska nu ha laddat Homebrew Launcher
 
 ___
 
