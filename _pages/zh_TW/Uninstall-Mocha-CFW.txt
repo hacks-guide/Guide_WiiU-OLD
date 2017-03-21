@@ -17,20 +17,20 @@ permalink: /zh_TW/uninstall-mocha-cfw.html
 ###### CBHC
 
 1. 關閉你的 Wii U
-2. 於開機時按住「Home」鍵進入 CBHC 開機選單
-3. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
-4. 啟動 CBHC installer
-5. 選擇你要將 CBHC 移除的 DS Virtual Console 遊戲，並按下「A」鍵以選取
-6. 讀完警示，並按下「B」移除
-7. 當完成後，你將會被踢回 RedNAND 的 HOME 主選單中
-8. 重新啟動你的 Wii U
-9. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS Virtual Console 遊戲
-10. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
+1. 於開機時按住「Home」鍵進入 CBHC 開機選單
+1. 選擇「Boot Homebrew Launcher」於 SysNAND 中啟動 Homebrew Launcher
+1. 啟動 CBHC installer
+1. 選擇你要將 CBHC 移除的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 讀完警示，並按下「B」移除
+1. 當完成後，你將會被踢回 RedNAND 的 HOME 主選單中
+1. 重新啟動你的 Wii U
+1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS Virtual Console 遊戲
+1. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
 
 ###### Haxchi
 
 1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS Virtual Console 遊戲
-2. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
+1. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
 
 ###### Homebrew Launcher
 
