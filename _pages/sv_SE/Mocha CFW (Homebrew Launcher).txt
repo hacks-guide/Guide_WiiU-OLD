@@ -55,8 +55,8 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
   + Flytta till andra listan och välj "DNS"
   + Sätt DNS till "Don't Auto-Obtain"
   + Ställ in följande IP-adresser som DNS-servrar
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Välj "Confirm" och tryck sen (B) för att spara
   + Dessa servrarna kommer hindra att ditt SysNAND uppdateras
 4. Återgå till hemskärmen

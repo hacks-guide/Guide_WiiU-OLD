@@ -18,12 +18,12 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
 ##### Section I - Configuring Mocha CFW
 
 1. Remove your SD card from your Wii U while it is on the Homebrew Launcher
-2. Put your SD card from your Wii U into your computer
-3. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
-4. Reinsert your SD card into your Wii U
-5. Launch Mocha CFW
-6. The Mocha CFW configuration menu should load
-7. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
+1. Put your SD card from your Wii U into your computer
+1. **Backup every file on your SD card to a folder on your computer; all files on it will be deleted later**
+1. Reinsert your SD card into your Wii U
+1. Launch Mocha CFW
+1. The Mocha CFW configuration menu should load
+1. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -33,36 +33,36 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-8. Press (A) to confirm and exit
-9. Your Wii U should display a black screen; this is the RedNAND setup
-10. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
+1. Press (A) to confirm and exit
+1. Your Wii U should display a black screen; this is the RedNAND setup
+1. Press the power button **on the console** (not the gamepad) to start the copy of your internal system memory to your SD card
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-11. Once this process is completed, your Wii U will end up on a black screen
+1. Once this process is completed, your Wii U will end up on a black screen
   + This is normal; the SD card has been formatted
-12. Put your SD card from your Wii U into your computer
+1. Put your SD card from your Wii U into your computer
   + Your SD card will have significantly less space on it now because the RedNAND is occupying a hidden partition on it
-13. Copy all of the files you backed up back to your SD card
-14. Reinsert your SD card into your Wii U
-17. Power on your Wii U
+1. Copy all of the files you backed up back to your SD card
+1. Reinsert your SD card into your Wii U
+1. Power on your Wii U
 
 ##### Section II - Launching Mocha CFW
 
 1. Create a folder on the first page of your home menu named "SysNAND"
-2. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-3. For each of your connections (and all future connections), do the following
+1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+1. For each of your connections (and all future connections), do the following
   + Select the connection
   + Select "Change Settings"
   + Move to the second list and choose "DNS"
   + Set the DNS to "Don't Auto-Obtain"
   + Set the DNS server IPs to the following servers
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Select "Confirm", then press (B) to save
   + These servers will block your SysNAND from being updated
-4. Return to the home menu
-5. Launch the Homebrew Launcher using the browser
-6. Launch Mocha CFW
-7. If the exploit was successful, you will launch Mocha CFW with RedNAND
+1. Return to the home menu
+1. Launch the Homebrew Launcher using the browser
+1. Launch Mocha CFW
+1. If the exploit was successful, you will launch Mocha CFW with RedNAND
   + If you no longer see the SysNAND folder once the home menu loads, you have successfully booted RedNAND
 
 ___

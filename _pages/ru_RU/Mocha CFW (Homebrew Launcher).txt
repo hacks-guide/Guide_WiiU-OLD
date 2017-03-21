@@ -55,8 +55,8 @@ In order to boot the patched signature checks and boot RedNAND, you will need to
   + Move to the second list and choose "DNS"
   + Set the DNS to "Don't Auto-Obtain"
   + Set the DNS server IPs to the following servers
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Select "Confirm", then press (B) to save
   + These servers will block your SysNAND from being updated
 4. Return to the home menu

@@ -44,20 +44,20 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 {: .notice--danger}
 
 1. Conecta tu HDD USB en tu Wii U mientras está apagada
-2. Enciende tu Wii U
-3. Formatea el disco duro externo cuando se te pida
+1. Enciende tu Wii U
+1. Formatea el disco duro externo cuando se te pida
 
 ##### Sección II - Iniciar disc2app en SysNAND
 
 1. Extrae cualquier disco que pueda estar en la unidad de disco de la Wii U
-2. Inicia disc2app en la SysNAND usando el método correspondiente a tu instalación de Mocha CFW
+1. Inicia disc2app en la SysNAND usando el método correspondiente a tu instalación de Mocha CFW
 
 ###### CBHC
 
 1. Apaga tu Wii U
-2. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
-3. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en SysNAND
-4. Inicia disc2app
+1. Mantén pulsado (Home) al encender la consola para ingresar al menú de arranque de CBHC
+1. Selecciona "Boot Homebrew Launcher" para iniciar el Homebrew Launcher en SysNAND
+1. Inicia disc2app
 
 ###### Haxchi
 
@@ -66,27 +66,27 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 ###### Homebrew Launcher
 
 1. Entra en el Homebrew Launcher en la SysNAND usando `http://loadiine.ovh`
-2. Inicia disc2app
+1. Inicia disc2app
 
 ##### Sección III - Usar disc2app
 
 1. Presiona (A) para volcar a la tarjeta SD
-2. Inserta el disco que quieres volcar cuando se te pida
-3. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
-3. Cuando haya finalizado, se regresará al Menú HOME de la SysNAND
+1. Inserta el disco que quieres volcar cuando se te pida
+1. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
+1. Cuando haya finalizado, se regresará al Menú HOME de la SysNAND
   + Los usuarios de CBHC, por otro lado, podrían haber sido retornados a RedNAND
 
 ##### Sección IV - Instalar el juego volcado
 
 1. Inicia RedNAND utilizando tu método preferido
-2. Inicia el Homebrew Channel en RedNAND para entrar al Homebrew Launcher
-3. Inicia WUP Installer - Mod Y
-4. Instala el juego en una ubicación de tu preferencia
+1. Inicia el Homebrew Channel en RedNAND para entrar al Homebrew Launcher
+1. Inicia WUP Installer - Mod Y
+1. Instala el juego en una ubicación de tu preferencia
   + Presiona (A) para instalar en la memoria del sistema
   + Presiona (X) para instalar en el disco duro externo
-5. Deja que el proceso acabe automáticamente puesto que podría llevar algo de tiempo
-6. Cuando haya finalizado, se regresará al Homebrew Launcher
-7. Presiona (Home) para volver al Menú HOME de RedNAND
+1. Deja que el proceso acabe automáticamente puesto que podría llevar algo de tiempo
+1. Cuando haya finalizado, se regresará al Homebrew Launcher
+1. Presiona (Home) para volver al Menú HOME de RedNAND
 
 ___
 

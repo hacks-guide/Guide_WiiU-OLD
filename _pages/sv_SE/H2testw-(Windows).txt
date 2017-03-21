@@ -1,41 +1,41 @@
 ---
 title: "H2testw (Windows)" #
-lang: en
+lang: sv
 permalink: /h2testw-(windows).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using h2testw.
+Den här sidan kommer ta dig igenom processen att använda h2testw för att söka igenom ditt SD-kort efter fel.
 {: .notice}
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 {: .notice--info}
 
-This page is for Windows users only. If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
+Den här sidan är enbart för Windows-användare. Om du inte använder Windows kan du gå till sidorna för [F3 (Linux)](f3-(linux)) eller [F3X (Mac)](f3x-(mac)).
 {: .notice--info}
 
-#### What you need
+#### Vad du behöver
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* Senaste versionen av [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Instructions
+#### Instruktioner
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-2. Insert your SD card into your computer
-3. Run `h2testw.exe`
-4. Select "English"
-5. Click "Select target"
-6. Select your SD card's drive letter
-7. Ensure "all available space" is selected
-8. Click "Write + Verify"
-9. Wait until the process is completed
+1. Kopiera `h2testw.exe` från h2testw `.zip` till ditt skrivbord
+2. Sätt in ditt SD-kort i datorn
+3. Kör `h2testw.exe`
+4. Välj "English"
+5. Klicka på "Select target"
+6. Välj ditt SD-korts enhetsbokstav
+7. Se till att "all available space" är vald
+8. Klicka på "Write + Verify"
+9. Vänta tills processen är klar
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on the SD card
+Om testet ger resultatet `Test finished without errors` är ditt SD-kort OK och du kan ta bort alla `.h2w` -filer från kortet
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-Return to [Get Started](get-started)
+Tillbaka till [Komma Igång](get-started)
 {: .notice--primary}

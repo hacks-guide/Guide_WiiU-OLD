@@ -1,38 +1,38 @@
 ---
 title: "F3X (Mac)" #
-lang: en
+lang: sv
 permalink: /f3x-(mac).html
 ---
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+Den här sidan kommer att ta dig igenom processen att använda F3X för att söka igenom ditt SD-kort efter fel.
 {: .notice}
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 {: .notice--info}
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Den här sidan är enbart för Mac-användare. Om du inte använder Mac kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3 (Linux)](f3-(linux)).
 {: .notice--info}
 
-#### What you need
+#### Vad du behöver
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* Den senaste versionen av [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-#### Instructions
+#### Instruktioner
 
-1. Unzip the F3X `.zip` file
-2. Insert your SD card into your computer
-3. Run the F3X app
-4. Select your SD card
-5. Press "Start Test"
-6. Wait until the process is complete.
+1. Packa upp F3X `.zip` -filen
+2. Sätt in ditt SD-kort i datorn
+3. Kör F3X-appen
+4. Välj ditt SD-kort
+5. Tryck på "Start Test"
+6. Vänta tills processen är klar.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+Om testet visar resultatet `Success! Your card is ok!` så är ditt SD-kort OK och du kan ta bort alla `.h2w`-filer från kortet
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-Return to [Get Started](get-started)
+Tillbaka till [Komma Igång](get-started)
 {: .notice--primary}

@@ -55,8 +55,8 @@ Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, v
   + Mova para a segunda lista e selecione "DNS"
   + Defina o DNS para "Modo manual"
   + Configure o IP dos servidores DNS para os seguintes servidores
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Selecione "Confirmar" e, em seguida, aperte (B) para salvar
   + Estes servidores irão bloquear as atualizações na sua SysNAND
 4. Retorne ao menu HOME

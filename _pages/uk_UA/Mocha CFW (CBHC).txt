@@ -23,20 +23,20 @@ This page is optional. Regular Haxchi works just fine as is; this just offers ex
 
 1. Reboot your console to be sure that you are on SysNAND.
   + You should see the SysNAND folder on the first page of your home menu
-2. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-3. Launch the CBHC installer
-4. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
+1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+1. Launch the CBHC installer
+1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
   + **This game MUST already have a functional Haxchi installed**
-5. Read the warning that appears, then press (A) to install
-6. Once this is complete, you should be back at the home menu
-7. Reboot your Wii U
-8. If the exploit was successful, you will see a menu appear with various boot options
-9. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
-10. Press (A) on "Boot Mocha CFW"
-11. If the exploit was successful, you should see the Mocha CFW splash screen and load to a home menu *without* the SysNAND folder
-12. Reboot your Wii U to ensure the exploit works automatically as intended
+1. Read the warning that appears, then press (A) to install
+1. Once this is complete, you should be back at the home menu
+1. Reboot your Wii U
+1. If the exploit was successful, you will see a menu appear with various boot options
+1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: Mocha CFW"**
+1. Press (A) on "Boot Mocha CFW"
+1. If the exploit was successful, you should see the Mocha CFW splash screen and load to a home menu *without* the SysNAND folder
+1. Reboot your Wii U to ensure the exploit works automatically as intended
   + You should launch into Mocha CFW and RedNAND automatically on boot (no SysNAND folder on the home menu)
-13. If you have made 100% sure that you have booted into RedNAND, you can delete the DS VC game **on RedNAND**
+1. If you have made 100% sure that you have booted into RedNAND, you can delete the DS VC game **on RedNAND**
 
 ___
 

@@ -1,33 +1,33 @@
 ---
 title: "vWii Modding" #
-lang: en
-permalink: /vwii-modding.html
+lang: de
+permalink: /de_DE/vwii-modding.html
 ---
 
-This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (virtuelle Wii) deiner Wii U zu installieren.
 {: .notice--info}
 
-#### Instructions
+#### Anleitung
 
-##### Section I - Entering Homebrew Launcher on SysNAND
+##### Abschnitt I - Homebrew Launcher auf dem SysNAND betreten
 
-1. Enter the Homebrew Launcher on SysNAND using the method for your Mocha CFW installation:
+1. Betrete den Homebrew Launcher auf deinem SysNAND, in dem du die Methode deiner Mocha CFW-Installation benutzt:
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. Schalte deine Wii U aus
+2. Halte (Home) während des Hochfahrens um ins CBHC Bootmenü zu gelangen
+3. Wähle "Boot Homebrew Launcher" aus, um den Homebrew Launcher im SysNAND zu starten
 
 ###### Haxchi
 
-1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
+1. Halte (A) während du dein DS Virtual Console Spiel startest um in den Homebrew Launcher im SysNAND zu gelangen
 
 ###### Homebrew Launcher
 
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
+1. Betrete den Homebrew Launcher in deinem SysNAND, indem du `http://loadiine.ovh` benutzt
 
-##### Section II - wuphax
+##### Abschnitt II - wuphax
 
 1. Launch wuphax
 2. Press (A) to backup your Mii Channel and inject the Hackmii Installer
@@ -46,9 +46,9 @@ This will allow you to install the Homebrew Channel and other modifications to t
 15. Press (B) when prompted to restore the Mii Channel
 16. Go through the prompts to get back to vWii
 
-##### Section III - Dumping vWii NAND
+##### Abschnitt III - Dumping vWii NAND
 
-This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+Die NAND Sicherungskopie erlaubt dir, deine vWii in einen funktionierenden Zustand zurück zu setzen, falls etwas schief gehen sollte.
 {: .notice--info}
 
 1. Launch the Homebrew Channel on vWii
@@ -60,9 +60,9 @@ This NAND backup will allow you to restore your vWii to a working state if anyth
 6. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
 7. Delete `nand.bin` and `keys.bin` from the root of your SD card
 
-##### Section IV - cIOS Installation
+##### Abschnitt IV - cIOS Installation
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+Stelle sicher, dass keine Ordner mit dem Namen `wad` oder `wads` im Stammverzeichnis deiner SD-Karte existieren, und dass nirgends `.wad`-Dateien existieren, außer im `/apps/`-Ordner deiner SD-Karte.
 {: .notice--warning}
 
 1. Get into the Homebrew Channel on vWii
@@ -88,9 +88,9 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 10. Press (A) to install
 11. Wait for the install to complete, then press (B) to exit
 
-##### Section V - Patching IOS80
+##### Abschnitt V - Patching IOS80
 
-**This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
+**Dieser Schritt wird deine vWii-Installation bricken, wenn irgendetwas schief geht (Stromausfall, etc), was eine vWii NAND Sicherungskopie benötigt, um behoben zu werden. Stelle sicher, dass du deine gemacht hast, bevor du fortfährst.**
 {: .notice--danger}
 
 1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
@@ -102,20 +102,20 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 
 ___
 
-You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
+Du kannst nun alle Wii Homebrew Programme installieren und benutzen, wie den USB Loader GX, Wiiflow, CFG USB Loader, emulatoren, etc.
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+Externe Festplatten müssen am hinteren USB port oben angeschlossen werden, um mit vWii zu funktionieren. Dies kann nicht die selbe externe Festplatte sein, die du für Wii U Spiele benutzt. Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](https://www.amazon.de/dp/B00P0C4M5M).
 {: .notice--info}
 
-Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+Stelle zuvor sicher, dass jegliche `.wad` Datein die du installierst (Kanäle, Forwarder, Spiele, etc) formatiert sind um [vernünftig mit vWii zu funktionieren](https://gbatemp.net/threads/340226/). Wenn du eine `.wad`Datei für eine normale Wii installierst, brickst du vWii und brauchst ein NAND Backup um es wiederherzustellen.
 {: .notice--danger}
 
-Installing custom themes on vWii will brick your vWii.
+Die Installation von selbst gemachten Themes wird deine vWii bricken.
 {: .notice--danger}
 
-Removing `.wad` files manually without knowing what you are doing will brick your vWii.
+`.wad` Dateien manuell zu löschen, ohne zu wissen was du tust, brickt vWii.
 {: .notice--danger}
 
-Installing Priiloader will brick your vWii.
+Priiloader installieren wird vWii bricken.
 {: .notice--danger}

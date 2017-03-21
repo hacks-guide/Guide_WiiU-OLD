@@ -1,10 +1,10 @@
 ---
-title: "Credits" #
-lang: en
-permalink: /credits.html
+title: "Danksagungen" #
+lang: de
+permalink: /de_DE/credits.html
 ---
 
-If we forgot you here, contact us and we'll add your name.
+Falls du hier nicht aufgeführt bist, kontaktiere uns und wir werden deinen Namen hinzufügen.
 {: .notice}
 
 + damysteryman
