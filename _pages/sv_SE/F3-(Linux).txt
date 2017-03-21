@@ -1,7 +1,7 @@
 ---
 title: "F3 (Linux)" #
 lang: sv
-permalink: /f3-(linux).html
+permalink: /sv_SE/f3-(linux).html
 ---
 
 Den här sidan kommer att ta dig igenom processen att använda F3 för att söka igenom ditt SD-kort efter fel.
