@@ -23,20 +23,20 @@ Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra, det här 
 
 1. Starta om din konsol för att vara säker på att du är i SysNAND.
   + Du ska se SysNAND-katalogen på första sidan av din hemskärm
-2. Gå in i Homebrew Launcher på SysNAND med hjälp av `http://loadiine.ovh`
-3. Starta CBHC installer
-4. Välj DS virtual console-spelet du installerar CBHC till, tryck sen (A) för att välja det
+1. Gå in i Homebrew Launcher på SysNAND med hjälp av `http://loadiine.ovh`
+1. Starta CBHC installer
+1. Välj DS virtual console-spelet du installerar CBHC till, tryck sen (A) för att välja det
   + **Spelet MÅSTE redan ha en fungerande Haxchi installerad**
-5. Läs varningen som dyker upp, tryck sen (A) för att installera
-6. När allt är klart ska du vara tillbaka på hemskärmen
-7. Starta om din Wii U
-8. Om nyttjandet av säkerhetshålet lyckades kommer du se en meny med olika uppstarts-inställningar
-9. Peka på **"Autoboot: System Menu"** och tryck (A) tills det står **"Autoboot: Mocha CFW"**
-10. Tryck (A) på "Boot Mocha CFW"
-11. Om nyttjandet av säkerhetshålet lyckades ska du nu se Mocha CFWs laddningsskärm och när den laddat färdigt komma fram till en hemskärm *utan* SysNAND-katalogen
-12. Starta om din Wii U för att säkerställa att nyttjandet av säkerhetshålet fungerar automatiskt som det är tänkt
+1. Läs varningen som dyker upp, tryck sen (A) för att installera
+1. När allt är klart ska du vara tillbaka på hemskärmen
+1. Starta om din Wii U
+1. Om nyttjandet av säkerhetshålet lyckades kommer du se en meny med olika uppstarts-inställningar
+1. Peka på **"Autoboot: System Menu"** och tryck (A) tills det står **"Autoboot: Mocha CFW"**
+1. Tryck (A) på "Boot Mocha CFW"
+1. Om nyttjandet av säkerhetshålet lyckades ska du nu se Mocha CFWs laddningsskärm och när den laddat färdigt komma fram till en hemskärm *utan* SysNAND-katalogen
+1. Starta om din Wii U för att säkerställa att nyttjandet av säkerhetshålet fungerar automatiskt som det är tänkt
   + Du bör automatiskt komma in i Mocha CFW på RedNAND vid uppstart (ingen SysNAND-katalog på hemskärmen)
-13. Om du är 100% säker att du startade RedNAND kan du radera DS virtual console-spelet **på RedNAND**
+1. Om du är 100% säker att du startade RedNAND kan du radera DS virtual console-spelet **på RedNAND**
 
 ___
 
