@@ -55,8 +55,8 @@ Para iniciar los verificadores de firmas de seguridad parcheados e iniciar la Re
   + Ve a la segunda lista y selecciona "DNS"
   + Configura el DNS a "Modo manual"
   + Configura las IP's de servidores DNS a las siguientes
-    + `168.235.092.108`
-    + `081.004.127.020`
+  + `168.235.092.108`
+  + `081.004.127.020`
   + Selecciona "Confirmar" y presiona (B) para guardar
   + Estos servidores evitarán que tu SysNAND sea actualizada
 4. Vuelve al menu HOME
