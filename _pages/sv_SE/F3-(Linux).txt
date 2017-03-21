@@ -20,12 +20,12 @@ Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan 
 #### Instruktioner
 
 1. Packa upp F3 `zip`-filen
-2. Använd `cd` för att ta dig in i F3-katalogen
-3. Kör `make` för att kompilera F3
-4. Sätt in ditt SD-kort i datorn
-5. Mounta ditt SD-kort
-6. Kör `./f3write <SD-kortets mount point>`
-7. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
+1. Använd `cd` för att ta dig in i F3-katalogen
+1. Kör `make` för att kompilera F3
+1. Sätt in ditt SD-kort i datorn
+1. Mounta ditt SD-kort
+1. Kör `./f3write <SD-kortets mount point>`
+1. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -35,8 +35,8 @@ Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan 
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-8. Kör `./f3read <SD-kortets mount point>`
-9. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
+1. Kör `./f3read <SD-kortets mount point>`
+1. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten
