@@ -47,7 +47,7 @@ Så länge du inte kan se SysNAND-katalogen på hemskärmen kan du vara säker p
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can press (Home) while CBHC is booting to access the CBHC boot options menu. Det här är vad var och en av inställningarna gör:**
+** Du kan trycka (Hem) under uppstart för att komma åt CBHCs boot meny. Det här är vad var och en av inställningarna gör:**
 
     + Boot System Menu -> Startar i SysNAND
     + Boot Homebrew Launcher -> Startar Homebrew Launcher på SysNAND
