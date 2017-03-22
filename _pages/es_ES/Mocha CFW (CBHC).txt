@@ -47,7 +47,7 @@ Mientras no veas la carpeta SysNAND en el menú HOME, puedes estar seguro de que
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can press (Home) while CBHC is booting to access the CBHC boot options menu. Esto es lo que hace cada una de las opciones de arraque:**
+**Puedes presionar (Home) durante el inicio de CBHC para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones de arraque:**
 
     + Boot System Menu -> Arranca la SysNAND
     + Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
