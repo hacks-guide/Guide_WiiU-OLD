@@ -1,11 +1,11 @@
 ---
-title: "Donations" #
-lang: en
-permalink: /donations.html
+title: "Spenden" #
+lang: de
+permalink: /de_DE/donations.html
 layout: single-no-ads
 ---
 
-## If you appreciate this guide, we (Plailect and FlimFlam69) accept donations.
+## Wenn dir diese Anleitung gefällt, wir (Plailect und FlimFlam69) akzeptieren Spenden.
 {: .text-center}
 {: .notice--success}
 
