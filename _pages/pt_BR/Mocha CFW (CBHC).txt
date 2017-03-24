@@ -47,7 +47,7 @@ Contanto que você não veja a pasta SysNAND no seu menu HOME, você pode ter ce
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can press (Home) while CBHC is booting to access the CBHC boot options menu. Isto é o que cada uma das opções de inicialização faz:**
+**Você pode apertar (Home) enquanto o CBHC estiver iniciando para acessar o menu de opções de inicialização do CBHC. Isto é o que cada uma das opções de inicialização faz:**
 
     + Boot System Menu -> Inicializa na SysNAND
     + Boot Homebrew Launcher -> Inicializa no Homebrew Launcher na SysNAND
