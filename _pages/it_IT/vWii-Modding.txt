@@ -16,8 +16,8 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 ###### CBHC
 
 1. Spegni la tua Wii U
-2. Tieni premuto (Home) all'avvio per aprire il menu di avvio di CBHC
-3. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
+1. Tieni premuto (Home) all'avvio per aprire il menu di avvio di CBHC
+1. Seleziona "Boot Homebrew Launcher" per avviare l'Homebrew Launcher nella SysNAND
 
 ###### Haxchi
 
@@ -30,21 +30,21 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 ##### Sezione II - wuphax
 
 1. Avvia wuphax
-2. Premi (A) per creare un backup del tuo Canale Mii e per injectare l'Hackmii Installer
-3. Ritornerai all'Homebrew Launcher nella SysNAND
-4. Premi il pulsante (Home) per ritornare al menu home
-5. Avvia la vWii
-6. Avvia il Canale Mii della vWii
-7. Se l'exploit è andato a buon fine, sarai dentro l'Hackmii Installer
-8. Leggi l'avviso riguardante le truffe, quindi premi (1) quando richiesto per continuare
-9. Segui le istruzioni a schermo per installare l'Homebrew Channel sulla vWii
-10. Segui le istruzioni per tornare alla vWii
-11. Se l'exploit è andato a buon fine, vedrai l'Homebrew Channel nel menu home della vWii
-12. Ritorna al menu home, quindi spegni la Wii U
-13. Entra nell'Homebrew Launcher nella SysNAND utilizzando il metodo usato nella Sezione I
-14. Avvia wuphax
-15. Premi (B) quando richiesto per ripristinare il Canale Mii
-16. Segui le istruzioni per tornare alla vWii
+1. Premi (A) per creare un backup del tuo Canale Mii e per injectare l'Hackmii Installer
+1. Ritornerai all'Homebrew Launcher nella SysNAND
+1. Premi il pulsante (Home) per ritornare al menu home
+1. Avvia la vWii
+1. Avvia il Canale Mii della vWii
+1. Se l'exploit è andato a buon fine, sarai dentro l'Hackmii Installer
+1. Leggi l'avviso riguardante le truffe, quindi premi (1) quando richiesto per continuare
+1. Segui le istruzioni a schermo per installare l'Homebrew Channel sulla vWii
+1. Segui le istruzioni per tornare alla vWii
+1. Se l'exploit è andato a buon fine, vedrai l'Homebrew Channel nel menu home della vWii
+1. Ritorna al menu home, quindi spegni la Wii U
+1. Entra nell'Homebrew Launcher nella SysNAND utilizzando il metodo usato nella Sezione I
+1. Avvia wuphax
+1. Premi (B) quando richiesto per ripristinare il Canale Mii
+1. Segui le istruzioni per tornare alla vWii
 
 ##### Sezione III - Backup della NAND della vWii
 
@@ -52,13 +52,13 @@ Questo backup della NAND ti permetterà di recuperare la tua vWii nel caso qualc
 {: .notice--info}
 
 1. Avvia l'Homebrew Channel sulla tua vWii
-2. Avvia Dump Mii NAND
+1. Avvia Dump Mii NAND
   + Aspetta che finisca il processo; potrebbe volerci del tempo (anche ore a seconda della velocità della tua scheda SD)
-3. Appena avrà finito, la tua Wii U si riavvierà automaticamente
-4. Spegni la tua Wii U
-5. Rimuovi la scheda SD dalla Wii U e inseriscila nel computer
-6. **Copia i file `nand.bin` e `keys.bin`dalla tua scheda SD in una posizione sicura sul tuo computer e in ulteriori locazioni (come un archivio online); questi file potrebbero salvarti da un brick della vWii**
-7. Cancella i file `nand.bin` e `keys.bin` dalla root della tua scheda SD
+1. Appena avrà finito, la tua Wii U si riavvierà automaticamente
+1. Spegni la tua Wii U
+1. Rimuovi la scheda SD dalla Wii U e inseriscila nel computer
+1. **Copia i file `nand.bin` e `keys.bin`dalla tua scheda SD in una posizione sicura sul tuo computer e in ulteriori locazioni (come un archivio online); questi file potrebbero salvarti da un brick della vWii**
+1. Cancella i file `nand.bin` e `keys.bin` dalla root della tua scheda SD
 
 ##### Sezione IV - Installazione dei cIOS
 
@@ -68,25 +68,25 @@ Assicurati che non ci siano cartelle di nome `wad` o `wads` nella root della tua
 1. Avvia l'Homebrew Channel nella tua vWii
   + Gli utenti di Haxchi e Browser Internet possono fare ciò avviando la vWii dal menu home della SysNAND, e quindi avviare l'Homebrew Channel
   + Gli utenti di CBHC possono fare ciò tenendo premuto (B) all'avvio della console e selezionando "Boot vWii Homebrew Channel"
-2. Avvia d2x cIOS Installer
-3. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
+1. Avvia d2x cIOS Installer
+1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
-4. Premi (A) per installare i cIOS
-5. Aspetta che finisca l'installazione, quindi premi (A) per continuare
-6. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
+1. Premi (A) per installare i cIOS
+1. Aspetta che finisca l'installazione, quindi premi (A) per continuare
+1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
-7. Premi (A) per installare i cIOS
-8. Aspetta che finisca l'installazione, quindi premi (A) per continuare
-9. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
+1. Premi (A) per installare i cIOS
+1. Aspetta che finisca l'installazione, quindi premi (A) per continuare
+1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
   + Select cIOS : **d2x-v10-beta53-alt-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
-10. Premi (A) per installare i cIOS
-11. Aspetta che finisca l'installazione, quindi premi (B) per uscire
+1. Premi (A) per installare i cIOS
+1. Aspetta che finisca l'installazione, quindi premi (B) per uscire
 
 ##### Sezione V - Patchare IOS80
 
@@ -94,11 +94,11 @@ Assicurati che non ci siano cartelle di nome `wad` o `wads` nella root della tua
 {: .notice--danger}
 
 1. Dall'Homebrew Channel della vWii, avvia Patched IOS80 Installer for vWii
-2. Leggi l'avviso, quindi attendi 30 secondi per poter continuare
-3. Premi (A) per installare l'IOS
+1. Leggi l'avviso, quindi attendi 30 secondi per poter continuare
+1. Premi (A) per installare l'IOS
   + Il processo dovrebbe essere quasi istantaneo
-4. Una volta completato il processo, premi un qualsiasi pulsante per tornare all'Homebrew Channel
-5. Ritorna al menu home della vWii
+1. Una volta completato il processo, premi un qualsiasi pulsante per tornare all'Homebrew Channel
+1. Ritorna al menu home della vWii
 
 ___
 

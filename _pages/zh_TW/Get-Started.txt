@@ -44,26 +44,26 @@ permalink: /zh_TW/get-started.html
 #### 操作說明
 
 1. 確保你的 Wii U 已經關機
-2. 將 Wii U 中的 SD 卡插入至電腦中
-3. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
-4. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
-5. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-6. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-7. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-8. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-9. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
-10. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/` 資料夾底下
-11. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
-12. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
-13. 複製並覆蓋 Modified WUP Installer `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-14. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-15. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-16. 複製並覆蓋 saviine `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-17. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
-18. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
-19. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
-20. 將 SD 卡插回 Wii U 中
-21. 啟動你的 Wii U
+1. 將 Wii U 中的 SD 卡插入至電腦中
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
+1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
+1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
+1. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/` 資料夾底下
+1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
+1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
+1. 複製並覆蓋 Modified WUP Installer `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 saviine `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
+1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. 將 SD 卡插回 Wii U 中
+1. 啟動你的 Wii U
 
 ___
 

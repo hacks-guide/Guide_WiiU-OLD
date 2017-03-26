@@ -6,12 +6,12 @@ header:
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   cta_label: "Kom igång" #
-  cta_url: "get-started" #
+  cta_url: "/sv_SE/get-started" #
   caption:
 
 excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U<br />, från orörd till Coldboot Haxchi + RedNAND.<br />" #
 lang: sv
-permalink: /index.html
+permalink: /sv_SE/index.html
 ---
 
 {% capture notice-home %}

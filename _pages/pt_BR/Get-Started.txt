@@ -44,26 +44,26 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 #### Instruções
 
 1. Certifique-se de que seu Wii U está desligado
-2. Insira o cartão SD do seu Wii U no seu computador
-3. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
-4. Crie uma pasta chamada `install` na raiz do seu cartão SD
-5. Copie a pasta `apps` do `.zip` do Hombebrew App Store para a pasta `/wiiu/` no seu cartão SD
-6. Copie e mescle _o conteúdo do_ `.zip` do Homebrew Launcher para a raiz do seu cartão SD
-7. Copie e mescle _o conteúdo do_ `.zip` do Haxchi para a raiz do seu cartão SD
-8. Copie e mescle _o conteúdo do_ `.zip` do CBHC para a raiz do seu cartão SD
-9. Copie o arquivo `config.txt` para a pasta `/haxchi/` no seu cartão SD
-10. Copie _o conteúdo do_ `.zip` do Homebrew Launcher Channel para a pasta `/install/` no seu cartão SD
-11. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
-12. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
-13. Copie e mescle _o conteúdo do_ `.zip` do Modified WUP Installer para a raiz do seu cartão SD
-14. Copie e mescle _o conteúdo do_ `.zip` do disc2app para a raiz do seu cartão SD
-15. Copie e mescle _o conteúdo do_ `.zip` do WUPhax para a raiz do seu cartão SD
-16. Copie e mescle _o conteúdo do_ `.zip` do saviine para a raiz do seu cartão SD
-17. Copie o arquivo `boot.elf` da pasta `hackmii_installer_v1.2` do `.zip` do Hackmii Installer para a raiz do seu cartão SD
-18. Copie a pasta `apps` do arquivo `vWii_cIOS_apps_20131218.zip` para a raiz do seu cartão SD
-19. Copie e mescle a pasta `apps` do arquivo `Patched_IOS80_Installer_for_vWii.zip` para a raiz do seu cartão SD
-20. Reinsira o cartão SD no seu Wii U
-21. Ligue o seu Wii U
+1. Insira o cartão SD do seu Wii U no seu computador
+1. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
+1. Crie uma pasta chamada `install` na raiz do seu cartão SD
+1. Copie a pasta `apps` do `.zip` do Hombebrew App Store para a pasta `/wiiu/` no seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do Homebrew Launcher para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do Haxchi para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do CBHC para a raiz do seu cartão SD
+1. Copie o arquivo `config.txt` para a pasta `/haxchi/` no seu cartão SD
+1. Copie _o conteúdo do_ `.zip` do Homebrew Launcher Channel para a pasta `/install/` no seu cartão SD
+1. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
+1. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do Modified WUP Installer para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do disc2app para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do WUPhax para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do saviine para a raiz do seu cartão SD
+1. Copie o arquivo `boot.elf` da pasta `hackmii_installer_v1.2` do `.zip` do Hackmii Installer para a raiz do seu cartão SD
+1. Copie a pasta `apps` do arquivo `vWii_cIOS_apps_20131218.zip` para a raiz do seu cartão SD
+1. Copie e mescle a pasta `apps` do arquivo `Patched_IOS80_Installer_for_vWii.zip` para a raiz do seu cartão SD
+1. Reinsira o cartão SD no seu Wii U
+1. Ligue o seu Wii U
 
 ___
 

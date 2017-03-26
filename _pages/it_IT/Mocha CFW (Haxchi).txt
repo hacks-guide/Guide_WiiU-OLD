@@ -56,15 +56,15 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
 ##### Sezione I - Configurare Mocha CFW
 
 1. Rimuovi la tua scheda SD dalla Wii U mentre è aperto l'Homebrew Launcher
-2. Inserisci la scheda SD nel computer
-3. **Fai un backup di ogni file sulla tua scheda SD e conservalo in una cartella sul tuo computer in quanto la scheda SD verrà formattata successivamente**
-4. Reinserisci la scheda SD nella Wii U
-5. Avvia l'Haxchi Installer
-6. Seleziona il gioco DS della Virtual Console nel quale installerai Haxchi, quindi premi (A) per selezionarlo
-7. Leggi l'avviso visualizzato a schermo, quindi premi (A) per installare Haxchi
-8. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
-9. Dovrebbe apparire il menu di configurazione di Mocha CFW
-10. Usa le freccette (SU) e (GIÙ) per navigare tra le varie righe e le freccette (SINISTRA) e (DESTRA) per impostare le seguenti opzioni:
+1. Inserisci la scheda SD nel computer
+1. **Fai un backup di ogni file sulla tua scheda SD e conservalo in una cartella sul tuo computer in quanto la scheda SD verrà formattata successivamente**
+1. Reinserisci la scheda SD nella Wii U
+1. Avvia l'Haxchi Installer
+1. Seleziona il gioco DS della Virtual Console nel quale installerai Haxchi, quindi premi (A) per selezionarlo
+1. Leggi l'avviso visualizzato a schermo, quindi premi (A) per installare Haxchi
+1. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
+1. Dovrebbe apparire il menu di configurazione di Mocha CFW
+1. Usa le freccette (SU) e (GIÙ) per navigare tra le varie righe e le freccette (SINISTRA) e (DESTRA) per impostare le seguenti opzioni:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -74,26 +74,26 @@ Puoi usare il pulsante (Home) per uscire dall'Homebrew Launcher se devi comprare
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-11. Premi (A) per confermare ed uscire
-12. La Wii U dovrebbe ora mostrare uno schermo nero; questo è il setup della RedNAND
-13. Quando richiesto, premi il pulsante di accensione **sulla console** (non il gamepad) per avviare la copia della memoria interna della console all'interno della scheda SD
+1. Premi (A) per confermare ed uscire
+1. La Wii U dovrebbe ora mostrare uno schermo nero; questo è il setup della RedNAND
+1. Quando richiesto, premi il pulsante di accensione **sulla console** (non il gamepad) per avviare la copia della memoria interna della console all'interno della scheda SD
   + Aspetta che finisca il processo; potrebbe volerci del tempo (anche ore a seconda della dimensione della memoria interna della console)
-14. Una volta finito il processo, la Wii U dovrebbe mostrare uno schermo nero
+1. Una volta finito il processo, la Wii U dovrebbe mostrare uno schermo nero
   + È normale; la tua scheda SD è stata formattata
-15. Inserisci la scheda SD nel computer
+1. Inserisci la scheda SD nel computer
   + La tua scheda SD avrà molto meno spazio libero visto che la RedNAND ora occupa una partizione nascosta all'interno della stessa scheda SD
-16. Copia tutti i file salvati in precedenza all'interno della scheda SD
-17. Reinserisci la scheda SD nella Wii U
-18. Accendi la tua Wii U
+1. Copia tutti i file salvati in precedenza all'interno della scheda SD
+1. Reinserisci la scheda SD nella Wii U
+1. Accendi la tua Wii U
 
 ##### Sezione II - Avviare Mocha CFW
 
 1. Crea una cartella nella prima pagina del menu home e chiamala "SysNAND"
-2. Apri le Impostazioni della Console e cancella tutte le connessioni ad internet
+1. Apri le Impostazioni della Console e cancella tutte le connessioni ad internet
   + Ciò impedirà alla SysNAND di aggiornarsi da sola
   + **Questo passaggio è OBBLIGATORIO visto che in modalità riposo la Wii U userà le impostazioni internet della SysNAND**
-3. Avvia il tuo gioco DS della Virtual Console con Haxchi
-4. Se l'exploit è andato a buon fine, avvierai Mocha CFW e la RedNAND
+1. Avvia il tuo gioco DS della Virtual Console con Haxchi
+1. Se l'exploit è andato a buon fine, avvierai Mocha CFW e la RedNAND
   + Se non vedi più la cartella SysNAND sul menu home, allora hai avviato con successo la RedNAND
 
 ___

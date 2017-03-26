@@ -1,7 +1,7 @@
 ---
 title: "Sidan hittades inte" #
 lang: sv
-permalink: /404.html
+permalink: /sv_SE/404.html
 layout: single-no-ads
 excerpt: "Sidan hittades inte. Dina pixlar finns på en annan monitor." #
 sitemap: false

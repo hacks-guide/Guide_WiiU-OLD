@@ -18,12 +18,12 @@ Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, v
 ##### Seção I - Configurando o Mocha CFW
 
 1. Remova o cartão SD do seu Wii U enquanto estiver no Homebrew Launcher
-2. Coloque o cartão SD do seu Wii U no seu computador
-3. **Faça um cópia de todos os arquivos do seu cartão SD para uma pasta no seu computador; todos os arquivos nele serão excluídos mais tarde**
-4. Reinsira o cartão SD no seu Wii U
-5. Inicie o Mocha CFW
-6. O menu de configuração do Mocha CFW deverá carregar
-7. Use (CIMA) e (BAIXO) nos botões direcionais para navegar entre as linhas e (ESQUERDA) e (DIREITA) para definir o seguinte:
+1. Coloque o cartão SD do seu Wii U no seu computador
+1. **Faça um cópia de todos os arquivos do seu cartão SD para uma pasta no seu computador; todos os arquivos nele serão excluídos mais tarde**
+1. Reinsira o cartão SD no seu Wii U
+1. Inicie o Mocha CFW
+1. O menu de configuração do Mocha CFW deverá carregar
+1. Use (CIMA) e (BAIXO) nos botões direcionais para navegar entre as linhas e (ESQUERDA) e (DIREITA) para definir o seguinte:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -33,23 +33,23 @@ Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, v
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-8. Aperte (A) para confirmar e sair
-9. Seu Wii U deverá exibir uma tela preta; esta é a instalação da RedNAND
-10. Aperte o botão liga/desliga **no console** (não no gamepad) para iniciar a cópia da memória do seu sistema interno para o seu cartão SD
+1. Aperte (A) para confirmar e sair
+1. Seu Wii U deverá exibir uma tela preta; esta é a instalação da RedNAND
+1. Aperte o botão liga/desliga **no console** (não no gamepad) para iniciar a cópia da memória do seu sistema interno para o seu cartão SD
   + Esteja preparado para esperar, isto pode levar algum tempo (até várias horas dependendo da quantidade de espaço usado na memória interna)
-11. Quando o processo estiver completo, seu Wii U estará em uma tela preta
+1. Quando o processo estiver completo, seu Wii U estará em uma tela preta
   Isso é normal; o cartão SD foi formatado
-12. Coloque o cartão SD do seu Wii U no seu computador
+1. Coloque o cartão SD do seu Wii U no seu computador
   + Seu cartão SD terá significativamente menos espaço nele agora, pois a RedNAND estará ocupando uma partição oculta nele
-13. Copie todos os arquivos de volta para o seu cartão SD
-14. Reinsira o cartão SD no seu Wii U
-17. Ligue seu Wii U
+1. Copie todos os arquivos de volta para o seu cartão SD
+1. Reinsira o cartão SD no seu Wii U
+1. Ligue seu Wii U
 
 ##### Seção II - Executando o Mocha CFW
 
 1. Crie uma pasta na primeira página do seu menu HOME chamado "SysNAND"
-2. Vá para "Configuração do console", depois "Internet", depois "Conexão de internet" e aperte (X) para exibir suas conexões de rede atuais
-3. Para cada uma das suas conexões (e todas as conexões futuras), faça o seguinte
+1. Vá para "Configuração do console", depois "Internet", depois "Conexão de internet" e aperte (X) para exibir suas conexões de rede atuais
+1. Para cada uma das suas conexões (e todas as conexões futuras), faça o seguinte
   + Selecione a conexão
   + Selecione "Alterar configurações"
   + Mova para a segunda lista e selecione "DNS"
@@ -59,10 +59,10 @@ Para iniciar com verificações de segurança modificadas e iniciar a RedNAND, v
   + `081.004.127.020`
   + Selecione "Confirmar" e, em seguida, aperte (B) para salvar
   + Estes servidores irão bloquear as atualizações na sua SysNAND
-4. Retorne ao menu HOME
-5. Inicie o Homebrew Launcher utilizando navegador de internet
-6. Inicie o Mocha CFW
-7. Se o exploit for bem-sucedido, você terá executado o Mocha CFW com a RedNAND
+1. Retorne ao menu HOME
+1. Inicie o Homebrew Launcher utilizando navegador de internet
+1. Inicie o Mocha CFW
+1. Se o exploit for bem-sucedido, você terá executado o Mocha CFW com a RedNAND
   + Se você não ver mais a pasta SysNAND quando o menu HOME carregar, você terá iniciado com sucesso a RedNAND
 
 ___
