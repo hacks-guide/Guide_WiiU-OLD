@@ -1,7 +1,7 @@
 ---
 title: "Mocha CFW (Homebrew Launcher)" #
 lang: sv
-permalink: /mocha-cfw-(homebrew-launcher).html
+permalink: /sv_SE/mocha-cfw-(homebrew-launcher).html
 ---
 
 Mocha CFW är en anpassad firmware som patchar signaturkontroller och startar RedNAND.
@@ -18,12 +18,12 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
 ##### Avsnitt I - Uppsättning av Mocha CFW
 
 1. Ta ur SD-kortet från din Wii U medan den är inne i Homebrew Launcher
-2. Sätt i ditt SD-kort från din Wii U i din dator
-3. **Säkerhetskopiera varje fil på ditt SD-kort till en katalog på din dator; Alla filer kommer raderas senare**
-4. Sätt tillbaka ditt SD-kort i din Wii U
-5. Starta Mocha CFW
-6. Mocha CFW-menyn ska nu laddas
-7. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
+1. Sätt i ditt SD-kort från din Wii U i din dator
+1. **Säkerhetskopiera varje fil på ditt SD-kort till en katalog på din dator; Alla filer kommer raderas senare**
+1. Sätt tillbaka ditt SD-kort i din Wii U
+1. Starta Mocha CFW
+1. Mocha CFW-menyn ska nu laddas
+1. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -33,23 +33,23 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-8. Tryck (A) för att bekräfta och avsluta
-9. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
-10. Tryck på strömknappen **på konsolen* (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
+1. Tryck (A) för att bekräfta och avsluta
+1. Din Wii U ska nu visa en svart skärm; Det här är RedNAND-installationen
+1. Tryck på strömknappen **på konsolen* (inte på gamepaden) för att påbörja kopieringen av ditt interna system-minne till ditt SD-kort
   + Var beredd att vänta; det här kan ta lång tid (upp till flera timmar beroende på hur mycket av det interna lagringsutrymmet du har använt)
-11. När processen är klar kommer din Wii U sluta på en svart skärm
+1. När processen är klar kommer din Wii U sluta på en svart skärm
   + Det här är normalt; SD-kortet har formaterats
-12. Sätt i ditt SD-kort från din Wii U i din dator
+1. Sätt i ditt SD-kort från din Wii U i din dator
   + Ditt SD-kort kommer nu ha väldigt mycket mindre ledigt utrymme eftersom RedNAND finns på en gömd partition på det
-13. Kopiera alla filer som du säkerhetskopierade tidigare tillbaka till ditt SD-kort
-14. Sätt tillbaka ditt SD-kort i din Wii U
-17. Starta din Wii U
+1. Kopiera alla filer som du säkerhetskopierade tidigare tillbaka till ditt SD-kort
+1. Sätt tillbaka ditt SD-kort i din Wii U
+1. Starta din Wii U
 
 ##### Avsnitt II - Starta Mocha CFW
 
 1. Skapa en folder på första sidan av din hemskärm med namnet "SysNAND"
-2. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
-3. För varje anslutning (och för alla framtida anslutningar), gör följande
+1. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
+1. För varje anslutning (och för alla framtida anslutningar), gör följande
   + Välj anslutningen
   + Välj "Change Settings"
   + Flytta till andra listan och välj "DNS"
@@ -59,10 +59,10 @@ För att starta konsolen med patchade signaturkontroller och starta RedNAND komm
   + `081.004.127.020`
   + Välj "Confirm" och tryck sen (B) för att spara
   + Dessa servrarna kommer hindra att ditt SysNAND uppdateras
-4. Återgå till hemskärmen
-5. Starta Homebrew Launcher med hjälp av webbläsaren
-6. Starta Mocha CFW
-7. Om säkerhetsluckan fungerade kommer MochaCFW startas med RedNAND
+1. Återgå till hemskärmen
+1. Starta Homebrew Launcher med hjälp av webbläsaren
+1. Starta Mocha CFW
+1. Om säkerhetsluckan fungerade kommer MochaCFW startas med RedNAND
   + Om du inte längre kan se SysNAND-katalogen på hemskärmen har du lyckats starta RedNAND
 
 ___

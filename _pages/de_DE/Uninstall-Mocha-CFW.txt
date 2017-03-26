@@ -1,45 +1,45 @@
 ---
-title: "Uninstall Mocha CFW" #
-lang: en
-permalink: /uninstall-mocha-cfw.html
+title: "Mocha CFW entfernen" #
+lang: de
+permalink: /de_DE/uninstall-mocha-cfw.html
 ---
 
-This will remove Mocha CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Dies wird die Mocha CFW von deiner Wii U entfernen, egal welche Methode genutzt wurde, um die Wii U auf den Originalzustand zurückzusetzen.
 {: .notice--info}
 
-Games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+Spiele und Speicherdaten sind auf dem internen Speicher, nicht auf der SD Karte. Das heißt alle Spiele und Speicherdaten, die nach der Installation von RedNAND installiert wurden, würden gelöscht werden, da dein System nur noch das SysNAND hat, mit dem du angefangen hast!
 {: .notice--danger}
 
-#### Instructions
+#### Anleitung
 
-##### Section I - Removal from Wii U
+##### Abschnitt I - Von der Wii U entfernen
 
 ###### CBHC
 
-1. Power off your Wii U
-2. Hold (Home) on boot to enter the CBHC boot menu
-3. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-4. Launch the CBHC installer
-5. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-6. Read the warning that appears, then press (B) to uninstall
-7. When it is complete, you will be returned to the RedNAND home menu
-8. Reboot your Wii U
-9. Go to the System Settings under "Data Management" and delete your DS virtual console game
-10. Reinstall your DS virtual console game from the eShop
+1. Schalte deine Wii U aus
+1. Halte (Home) während des Hochfahrens um ins CBHC Bootmenü zu gelangen
+1. Wähle "Boot Homebrew Launcher" aus, um den Homebrew Launcher im SysNAND zu starten
+1. Starte den CBHC Installationsassistenten
+1. Wähle das DS Virtual Console Spiel aus, das du für die CBHC Installation genutzt hast, dann drücke (A) um es auszuwählen
+1. Lese die Warnung, die auftaucht und fahre mit dem Deinstallieren durch Drücken von (A) fort
+1. Wenn alles fertig ist, kehrst du ins RedNAND Home Menü zurück
+1. Starte deine Wii U neu
+1. Gehe in die Systemeinstellungen unter "Datenverwaltung" und lösche dein DS Virtual Console Spiel
+1. Installiere dein DS Virtual Console Spiel erneut aus dem eShop
 
 ###### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-2. Reinstall your DS virtual console game from the eShop
+1. Gehe in die Systemeinstellungen unter "Datenverwaltung" und lösche dein DS Virtual Console Spiel
+1. Installiere dein DS Virtual Console Spiel erneut aus dem eShop
 
 ###### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Entferne das Lesezeichen aus dem Browser, wenn du eins angelegt hast
 
-##### Section II - Removal from SD Card
+##### Abschnitt II - Von der SD Karte entfernen
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Lösche die folgenden Ordner, von dem Standardverzeichnis deiner SD Karte:**
 
     + DCIM
     + private
@@ -50,5 +50,5 @@ Games and saves are saved to the internal memory not the SD card. This means all
 
 ___
 
-This will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+Das wird nicht die RedNAND Partition auf deiner SD Karte löschen. Dazu brauchst du einen Partitionsmanager für dein Betriebssystem.
 {: .notice--info}

@@ -23,20 +23,20 @@ Questa pagina è facoltativa. Haxchi da solo funziona senza problemi; CBHC offre
 
 1. Riavvia la console per assicurarti di essere nella SysNAND.
   + Dovrebbe apparire la cartella SysNAND nella prima pagina del menu home
-2. Avvia l'Homebrew Launcher nella SysNAND navigando sul sito `http://loadiine.ovh`
-3. Avvia il programma di installazione di CBHC
-4. Seleziona il gioco DS della Virtual Console nel quale stai installando CBHC, quindi premi (A) per selezionarlo
+1. Avvia l'Homebrew Launcher nella SysNAND navigando sul sito `http://loadiine.ovh`
+1. Avvia il programma di installazione di CBHC
+1. Seleziona il gioco DS della Virtual Console nel quale stai installando CBHC, quindi premi (A) per selezionarlo
   + **Il gioco DEVE avere all'interno Haxchi installato e funzionante**
-5. Leggi l'avviso visualizzato, quindi premi (A) per installare Haxchi
-6. Una volta terminato il processo, ritornerai al menu home
-7. Riavvia la console
-8. Se l'exploit è andato a buon fine, apparirà un menu con varie opzioni di avvio della console
-9. Seleziona **"Autoboot: Disabled"**, quindi premi (A) su di esso finchè non compare **"Autoboot: Mocha CFW"**
-10. Premi (A) su "Boot Mocha CFW"
-11. Se l'exploit è andato a buon fine, apparirà l'immagine di avvio di Mocha CFW e quindi il menu home *senza* la cartella SysNAND
-12. Riavvia la Wii U per assicurarti che l'exploit funzioni come dovrebbe
+1. Leggi l'avviso visualizzato, quindi premi (A) per installare Haxchi
+1. Una volta terminato il processo, ritornerai al menu home
+1. Riavvia la console
+1. Se l'exploit è andato a buon fine, apparirà un menu con varie opzioni di avvio della console
+1. Seleziona **"Autoboot: Disabled"**, quindi premi (A) su di esso finchè non compare **"Autoboot: Mocha CFW"**
+1. Premi (A) su "Boot Mocha CFW"
+1. Se l'exploit è andato a buon fine, apparirà l'immagine di avvio di Mocha CFW e quindi il menu home *senza* la cartella SysNAND
+1. Riavvia la Wii U per assicurarti che l'exploit funzioni come dovrebbe
   + La console dovrebbe avviare Mocha CFW e la RedNAND automaticamente (quindi senza la cartella SysNAND nel menu home)
-13. Se sei al 100% sicuro di aver avviato la RedNAND, puoi cancellare il gioco DS **dalla RedNAND**
+1. Se sei al 100% sicuro di aver avviato la RedNAND, puoi cancellare il gioco DS **dalla RedNAND**
 
 ___
 
@@ -47,7 +47,7 @@ Fintantochè non vedi la cartella SysNAND nel menu home, puoi essere sicuro di a
 {: .notice--info}
 
 {% capture notice-1 %}
-**Puoi tenere premuto il pulsante (Home) all'avvio per accedere al menu di avvio di CBHC. Ecco le varie opzioni a te disponibili:**
+**You can press (Home) while CBHC is booting to access the CBHC boot options menu. Ecco le varie opzioni a te disponibili:**
 
     + Boot System Menu -> Avvia la SysNAND
     + Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND

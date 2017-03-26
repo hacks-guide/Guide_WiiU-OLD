@@ -20,11 +20,11 @@ Esta página é somente para usuários de Mac. Se você não estiver no Mac, con
 #### Instruções
 
 1. Extraia o arquivo `.zip` do F3X
-2. Insira o seu cartão SD no seu computador
-3. Abra o F3X
-4. Selecione o seu cartão SD
-5. Aperte "Start Test"
-6. Aguarde até que o processo seja concluído.
+1. Insira o seu cartão SD no seu computador
+1. Abra o F3X
+1. Selecione o seu cartão SD
+1. Aperte "Start Test"
+1. Aguarde até que o processo seja concluído.
 
 ___
 

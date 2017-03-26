@@ -1,7 +1,7 @@
 ---
 title: "Navigering på webbplatsen" #
 lang: sv
-permalink: /site-navigation.html
+permalink: /sv_SE/site-navigation.html
 layout: single-no-ads
 sitemap: false
 ---

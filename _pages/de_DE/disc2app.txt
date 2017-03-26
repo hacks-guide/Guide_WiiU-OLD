@@ -4,10 +4,10 @@ lang: de
 permalink: /de_DE/disc2app.html
 ---
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit du später spielen kannst ohne die Disc zu benötigen.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. Die Anweisungen reflektieren dies.
+Du kannst disc2app nicht im RedNAND benutzen um das Spiel zu dumpen, aber du kannst es im RedNAND installieren. Die Anweisungen reflektieren dies.
 {: .notice--info}
 
 {% capture notice-2 %}
@@ -44,20 +44,20 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 {: .notice--danger}
 
 1. Schließe die Festplatte an die Wii U an, während diese ausgeschaltet ist
-2. Schalte die Wii U an
-3. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
+1. Schalte die Wii U an
+1. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
 
 ##### Abschnitt II - disc2app im SysNAND starten
 
-1. Remove any disc that currently may be in the Wii U disc drive
-2. Starte disc2app in SysNAND mithilfe der Methode für deine Mocha CFW Installation:
+1. Entferne jegliche Disc, die sich zur Zeit möglicherweiße in der Wii U befindet
+1. Starte disc2app in SysNAND mithilfe der Methode für deine Mocha CFW Installation:
 
 ###### CBHC
 
 1. Schalte die Wii U aus
-2. Halte (Home) während des Hochfahrens um ins CBHC Bootmenü zu gelangen
-3. Wähle "Boot Homebrew Launcher" aus, um den Homebrew Launcher in SysNAND zu starten
-4. Starte disc2app
+1. Halte (Home) während des Hochfahrens um ins CBHC Bootmenü zu gelangen
+1. Wähle "Boot Homebrew Launcher" aus, um den Homebrew Launcher in SysNAND zu starten
+1. Starte disc2app
 
 ###### Haxchi
 
@@ -66,35 +66,35 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 ###### Homebrew Launcher
 
 1. Starte den Homebrew Launcher in SysNAND durch `http://loadiine.ovh`
-2. Starte disc2app
+1. Starte disc2app
 
 ##### Abschnitt III - disc2app nutzen
 
 1. Drücke (A) um auf die SD Karte zu dumpen
-2. Insert the disc you want to dump when prompted
-3. Allow the disc dump process to proceed automatically; this will take some time
-3. Wenn alles fertig ist, kehrst du ins SysNAND Home Menü zurück
+1. Lege die zu dumpende Disc ein, sobald du dazu aufgefordert wirst
+1. Erlaube dem Disc dump Fortschritt automatisch fortzufahren; das dauert eine Weile
+1. Wenn alles fertig ist, kehrst du ins SysNAND Home Menü zurück
   + CBHC Nutzer könnten stattdessen ins RedNAND zurückkehren
 
 ##### Abschnitt IV - Gedumptes Spiel installieren
 
 1. Boote RedNAND mit der Methode deiner Wahl
-2. Starte den Homebrew Channel in RedNAND um in den Homebrew Launcher zu gelangen
-3. Starte "WUP Installer -Mod Y"
-4. Installiere das Spiel zum gewünschten Ort
+1. Starte den Homebrew Channel in RedNAND um in den Homebrew Launcher zu gelangen
+1. Starte "WUP Installer -Mod Y"
+1. Installiere das Spiel zum gewünschten Ort
   + Drücke (A) um in den Systemspeicher zu installieren
   + Drücke (X) um auf die externe Festplatte zu installieren
-5. Erlaube dem Installationsfortschritt automatisch fortzufahren; das dauert eine Weile
-6. When it is complete, you will be returned to the Homebrew Launcher
-7. Press (Home) to return to the RedNAND home menu
+1. Erlaube dem Installationsfortschritt automatisch fortzufahren; das dauert eine Weile
+1. Wenn alles fertig ist, kehrst du in den Homebrew Launcher zurück
+1. Drücke (Home) um zum RedNAND Menü zurückzukehren
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+Um den vom Disc dump genutzten Speicher wieder freizugeben, lösche den neu erstellten Ordner in `/install/` auf deiner SD Karte
 {: .notice--info}
 
-If everything went well, you'll see your new game installed on the menu ready to be played!
+Sollte alles gut verlaufen sein, siehst du dein neues Spiel im Menü, bereit gespielt zu werden!
 {: .notice--success}
 
-You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+Du kannst dich vergewissern, dass das Spiel am richtigen Ort installiert ist, indem du den Installationspfad in den Systemeinstellungen unter "Datenverwaltung" prüfst
 {: .notice--success}

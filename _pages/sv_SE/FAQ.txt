@@ -1,7 +1,7 @@
 ---
 title: "Vanliga Frågor" #
 lang: sv
-permalink: /faq.html
+permalink: /sv_SE/faq.html
 ---
 
 <a name="faq_latestfw" />**F:** *Jag är på den senaste systemversionen, kan jag hacka min enhet?*    

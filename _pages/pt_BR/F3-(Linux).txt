@@ -20,12 +20,12 @@ Esta página é somente para usuários de Linux. Se você não estiver no Linux,
 #### Instruções
 
 1. Extraia o arquivo `.zip` do F3
-2. `cd` para a pasta do F3
-3. Utilize o comando `make` para compilar o F3
-4. Insira o seu cartão SD no seu computador
-5. Monte o seu cartão SD
-6. Execute`./f3write <ponto de montagem do cartão SD>`
-7. Aguarde até que o processo seja concluído. Veja abaixo um exemplo de resultado.
+1. `cd` para a pasta do F3
+1. Utilize o comando `make` para compilar o F3
+1. Insira o seu cartão SD no seu computador
+1. Monte o seu cartão SD
+1. Execute`./f3write <ponto de montagem do cartão SD>`
+1. Aguarde até que o processo seja concluído. Veja abaixo um exemplo de resultado.
 
 		$ ./f3write /media/michel/6135-3363/
 		Free space: 29.71 GB
@@ -35,8 +35,8 @@ Esta página é somente para usuários de Linux. Se você não estiver no Linux,
 		Free space: 0.00 Byte
 		Average Writing speed: 4.90 MB/s
 
-8. Execute`./f3read <ponto de montagem do cartão SD>`
-9. Aguarde até que o processo seja concluído. Veja abaixo um exemplo de resultado.
+1. Execute`./f3read <ponto de montagem do cartão SD>`
+1. Aguarde até que o processo seja concluído. Veja abaixo um exemplo de resultado.
 
 		$ ./f3read /media/michel/6135-3363/
 		                  SECTORS      ok/corrupted/changed/overwritten

@@ -56,15 +56,15 @@ Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞�
 ##### 第一節 — 設定 Mocha CFW
 
 1. 在 Homebrew Launcher 中將 SD 卡從 Wii U 拔出
-2. 將 Wii U 中的 SD 卡插入至電腦中
-3. **請將 SD 卡中的所有檔案在電腦上備份起來，因為接下來的步驟將會刪除所有卡上的檔案**
-4. 將 SD 卡插回 Wii U 中
-5. 啟動 Haxchi installer
-6. 選擇你要安裝 Haxchi 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
-7. 讀完警示，並按下「A」鍵安裝
-8. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
-9. Mocha CFW 的設置選單應該會在此時出現
-10. 使用方向鍵的「上」、「下」鍵上下選擇，使用「左」、「右」鍵設定下列選項：
+1. 將 Wii U 中的 SD 卡插入至電腦中
+1. **請將 SD 卡中的所有檔案在電腦上備份起來，因為接下來的步驟將會刪除所有卡上的檔案**
+1. 將 SD 卡插回 Wii U 中
+1. 啟動 Haxchi installer
+1. 選擇你要安裝 Haxchi 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 讀完警示，並按下「A」鍵安裝
+1. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
+1. Mocha CFW 的設置選單應該會在此時出現
+1. 使用方向鍵的「上」、「下」鍵上下選擇，使用「左」、「右」鍵設定下列選項：
   + Config view mode: **expert**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
@@ -74,26 +74,26 @@ Haxchi 是個能讓我們能從 HOME 主選單直接啟動 Mocha CFW 的漏洞�
   + SEEPROM redirection: **on**
   + OTP redirection: **on**
   + Use syshax.xml (coldboothax): **off**
-11. 按「A」鍵確認並退出
-12. 你的 Wii U 這時應該會黑屏；這就是安裝 RedNAND 的畫面
-13. 當提示時，在**主機上**按下電源紐（非控制器上的）開始將系統內存複製到 SD 卡中
+1. 按「A」鍵確認並退出
+1. 你的 Wii U 這時應該會黑屏；這就是安裝 RedNAND 的畫面
+1. 當提示時，在**主機上**按下電源紐（非控制器上的）開始將系統內存複製到 SD 卡中
   + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的內存使用空間而定，有可能會到數小時）
-14. 複製完成後，你的 Wii U 將黑屏
+1. 複製完成後，你的 Wii U 將黑屏
   + 這是正常的；也就是說 SD 卡已被格式化了
-15. 將 Wii U 中的 SD 卡插入至電腦中
+1. 將 Wii U 中的 SD 卡插入至電腦中
   + 你會發現你的 SD 卡空間減少了許多，這是因為 RedNAND 佔據了一個隱藏磁區
-16. 將所有備份的檔案再複製回 SD 卡中
-17. 將 SD 卡插回 Wii U 中
-18. 啟動你的 Wii U
+1. 將所有備份的檔案再複製回 SD 卡中
+1. 將 SD 卡插回 Wii U 中
+1. 啟動你的 Wii U
 
 ##### 第二節 — 啟動 Mocha CFW
 
 1. 在 HOME 主選單的首頁建立一個新資料夾叫「SysNAND」
-2. 到系統設定中刪除所有的網路設定
+1. 到系統設定中刪除所有的網路設定
   + 以防任何未來的更新，這將保護你的 SysNAND 系統
   + **本步驟 _絕對不可以_ 跳過，因為 Wii U 的待機模式將會使用 SysNAND 的網路設定**
-3. 啟動你 Haxchi 改後的 DS Virtual Console 遊戲
-4. 如果漏洞順利執行，你將會進入到 Mocha CFW 及 RedNAND 下
+1. 啟動你 Haxchi 改後的 DS Virtual Console 遊戲
+1. 如果漏洞順利執行，你將會進入到 Mocha CFW 及 RedNAND 下
   + 只要你在開機完後沒看到 SysNAND 資料夾就代表你成功進入了 RedNAND
 
 ___
