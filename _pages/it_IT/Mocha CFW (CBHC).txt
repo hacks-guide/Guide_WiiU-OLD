@@ -47,7 +47,7 @@ Fintantochè non vedi la cartella SysNAND nel menu home, puoi essere sicuro di a
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can press (Home) while CBHC is booting to access the CBHC boot options menu. Ecco le varie opzioni a te disponibili:**
+**Puoi premere il pulsante (Home) all'avvio di CBHC per accedere al suo menu di avvio. Ecco le varie opzioni a te disponibili:**
 
     + Boot System Menu -> Avvia la SysNAND
     + Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND
