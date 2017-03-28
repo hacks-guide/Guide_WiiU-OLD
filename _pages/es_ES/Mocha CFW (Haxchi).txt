@@ -57,7 +57,7 @@ Puedes usar el botón (Home) para salir del Homebrew Launcher si necesitas compr
 
 1. Saca tu tarjeta SD de tu Wii U mientras esté en Homebrew Launcher
 1. Introduce la tarjeta SD de tu Wii U en tu computadora
-1. ** Haz una copia de seguridad de tu tarjeta SD a una carpeta en tu ordenador; todos los archivos serán borrados después**
+1. **Haz una copia de seguridad de tu tarjeta SD a una carpeta en tu ordenador; todos los archivos serán borrados después**
 1. Vuelve a insertar tu tarjeta SD en tu Wii U
 1. Inicia Haxchi Installer
 1. Elige el juego de la consola virtual de DS en el que vas a instalar Haxchi, después pulsa (A) para seleccionarlo
