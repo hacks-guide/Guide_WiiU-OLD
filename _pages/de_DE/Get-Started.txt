@@ -67,5 +67,5 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 ___
 
-Mache weiter mit [Homebrew Launcher](de_DE/homebrew-launcher)
+Mache weiter mit [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
