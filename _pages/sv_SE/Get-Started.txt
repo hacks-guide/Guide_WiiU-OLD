@@ -36,9 +36,9 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Senaste versionen av [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * Senaste versionen av [saviine](https://github.com/Maschell/saviine/releases)
-* Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
+* Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip`-filen som har `channel` i fil-namnet)*
+* En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
+* Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
 
 #### Instruktioner
