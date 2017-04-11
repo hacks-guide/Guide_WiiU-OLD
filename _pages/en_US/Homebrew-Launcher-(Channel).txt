@@ -19,6 +19,9 @@ ___
 You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
 {: .notice}
 
+Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+{: .notice--info}
+
 For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
 {: .notice--success}
 
