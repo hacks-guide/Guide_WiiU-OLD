@@ -9,7 +9,7 @@ header:
   cta_url: "get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi + RedNAND.<br />" #
+excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />" #
 lang: en
 permalink: /index.html
 ---
@@ -48,7 +48,7 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + Play all game discs and eShop games, regardless of region
 + Backup, edit, and restore saves for many games
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your home menu
++ Install homebrew titles to your system, and have them appear on your system menu
 + Dump your discs to a format you can install, and play them without needing the disc
 + Safely update to the latest system version without fear of losing access to homebrew
 
@@ -57,6 +57,6 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
 + This guide will work on all Wii U devices in all regions on the latest version.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ The process of creating a RedNAND can take up to **multiple** hours for devices with a lot of used internal storage.
++ Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.

@@ -1,3 +1,2 @@
 a=wiiu/apps/homebrew_launcher/homebrew_launcher.elf
-x=wiiu/apps/disc2app/disc2app.elf
-default=wiiu/apps/mocha/mocha.elf
+default=sysmenu

@@ -1,13 +1,13 @@
 ---
-title: "Uninstall Mocha CFW" #
+title: "Uninstall CFW" #
 lang: en
-permalink: /uninstall-mocha-cfw.html
+permalink: /uninstall-cfw.html
 ---
 
 This will remove Mocha CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--info}
 
-Games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
 {: .notice--danger}
 
 #### Instructions
@@ -16,13 +16,11 @@ Games and saves are saved to the internal memory not the SD card. This means all
 
 ###### CBHC
 
-1. Power off your Wii U
-1. Hold (Home) on boot to enter the CBHC boot menu
-1. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
+1. Launch the Homebrew Launcher Channel
 1. Launch the CBHC installer
 1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 1. Read the warning that appears, then press (B) to uninstall
-1. When it is complete, you will be returned to the RedNAND home menu
+1. When it is complete, you will be returned to the system menu
 1. Reboot your Wii U
 1. Go to the System Settings under "Data Management" and delete your DS virtual console game
 1. Reinstall your DS virtual console game from the eShop
@@ -50,5 +48,5 @@ Games and saves are saved to the internal memory not the SD card. This means all
 
 ___
 
-This will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+If you followd this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
 {: .notice--info}

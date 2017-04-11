@@ -16,23 +16,17 @@ permalink: /faq.html
 <a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
 **A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
 
-<a name="faq_rednand" />**Q:** *What is RedNAND?*    
-**A:** RedNAND is short for "**Red**irected **NAND**". This is a copy of your Wii U's internal memory stored in a partition of the SD card which is used instead of the main system memory. RedNAND is completely independent of the physical memory chip in your Wii U, meaning that your device will still work even if you brick the RedNAND by installing something you should not have.
-
-<a name="faq_vwiirednand" />**Q:** *Can I access vWii with RedNAND?*    
-**A:** No. If you wish to use vWii, you must access it from SysNAND or the CBHC boot menu. All vWii functions will be unusable on RedNAND.
-
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
 **A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
 
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! Mocha CFW + RedNAND not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+**A:** Yes! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
 
 <a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
 **A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
 
-<a name="faq_updates" />**Q:** *Is it safe to update RedNAND?*    
-**A:** Yes.
+<a name="faq_updates" />**Q:** *Is it safe to update patched SysNAND?*    
+**A:** No! You must always ensure that your internet settings include DNS servers that block updates just in case a new update is released!
 
 <a name="faq_support" />**Q:** *Where should I go for support?*    
 **A:** For support, ask for help at [#wiiuhacks on Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) or [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).  
