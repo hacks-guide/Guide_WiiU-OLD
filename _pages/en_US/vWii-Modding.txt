@@ -9,30 +9,13 @@ This will allow you to install the Homebrew Channel and other modifications to t
 
 #### Instructions
 
-##### Section I - Entering Homebrew Launcher on SysNAND
+##### Section I - wuphax
 
-1. Enter the Homebrew Launcher on SysNAND using the method for your Mocha CFW installation:
-
-###### CBHC
-
-1. Power off your Wii U
-1. Hold (Home) on boot to enter the CBHC boot menu
-1. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-
-###### Haxchi
-
-1. Hold (A) while launching your DS virtual console game to launch the Homebrew Launcher on SysNAND
-
-###### Homebrew Launcher
-
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-
-##### Section II - wuphax
-
+1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch wuphax
 1. Press (A) to backup your Mii Channel and inject the Hackmii Installer
 1. You will be returned to the Homebrew Launcher on SysNAND
-1. Use the (Home) button to exit to the home menu
+1. Use the (Home) button to exit to the system menu
 1. Launch vWii
 1. Launch the vWii Mii Channel
 1. If the exploit was successful, you will have entered the Hackmii Installer
@@ -40,13 +23,14 @@ This will allow you to install the Homebrew Channel and other modifications to t
 1. Go through the prompts on screen to install the Homebrew Channel to vWii
 1. Go through the prompts to get back to vWii
 1. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
-1. Return to the home menu, then power off your Wii U
+1. Return to the system menu, then power off your Wii U
 1. Enter the Homebrew Launcher on SysNAND using the method from Section I
 1. Launch wuphax
 1. Press (B) when prompted to restore the Mii Channel
+
 1. Go through the prompts to get back to vWii
 
-##### Section III - Dumping vWii NAND
+##### Section II - Dumping vWii NAND
 
 This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
 {: .notice--info}
@@ -60,13 +44,13 @@ This NAND backup will allow you to restore your vWii to a working state if anyth
 1. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
 1. Delete `nand.bin` and `keys.bin` from the root of your SD card
 
-##### Section IV - cIOS Installation
+##### Section III - cIOS Installation
 
 Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
 {: .notice--warning}
 
 1. Get into the Homebrew Channel on vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND home menu, then launching the Homebrew Channel
+  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND system menu, then launching the Homebrew Channel
   + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
 1. Launch d2x cIOS Installer
 1. Set the options on the top of the screen to match the following:
@@ -88,7 +72,7 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
 1. Press (A) to install
 1. Wait for the install to complete, then press (B) to exit
 
-##### Section V - Patching IOS80
+##### Section IV - Patching IOS80
 
 **This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.**
 {: .notice--danger}

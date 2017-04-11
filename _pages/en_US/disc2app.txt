@@ -7,9 +7,6 @@ permalink: /disc2app.html
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
 {: .notice--info}
 
-You cannot use disc2app on RedNAND to dump the game, but you can install the dumped game on RedNAND. The instructions reflect this.
-{: .notice--info}
-
 {% capture notice-2 %}
 **If you are planning to use an external hard drive to install your dumped discs on, note the following:**
 
@@ -27,7 +24,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 
 #### What you need
 
-* An SD card that has a RedNAND and all of the files from [Get Started](get-started) on it
+* A Wii U that that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25gb of free space on your SD card
 
 #### Instructions
@@ -47,46 +44,25 @@ Note that this will completely erase the contents of the external hard drive!
 1. Power on your Wii U
 1. Format the external hard drive when prompted
 
-##### Section II - Launching disc2app on SysNAND
-
-1. Remove any disc that currently may be in the Wii U disc drive
-1. Launch disc2app on SysNAND using the method for your Mocha CFW installation:
-
-###### CBHC
-
-1. Power off your Wii U
-1. Hold (Home) on boot to enter the CBHC boot menu
-1. Select "Boot Homebrew Launcher" to boot into the Homebrew Launcher on SysNAND
-1. Launch disc2app
-
-###### Haxchi
-
-1. Hold (X) while launching your DS virtual console game to launch disc2app
-
-###### Homebrew Launcher
-
-1. Enter the Homebrew Launcher on SysNAND using `http://loadiine.ovh`
-1. Launch disc2app
-
 ##### Section III - Using disc2app
 
+1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Launch disc2app
 1. Press (A) to dump to the SD card
 1. Insert the disc you want to dump when prompted
 1. Allow the disc dump process to proceed automatically; this will take some time
-1. When it is complete, you will be returned to the SysNAND home menu
-  + CBHC users may be returned to RedNAND instead
+1. When it is complete, you will be returned to the system menu
 
 ##### Section IV - Installing dumped game
 
-1. Boot RedNAND using the method of your choice
-1. Launch the Homebrew Channel on RedNAND to enter the Homebrew Launcher
+1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch WUP Installer - Mod Y
 1. Install the game to your desired destination
   + Press (A) to install to the system memory
   + Press (X) to install to the external hard drive
 1. Allow the installation process to proceed automatically; this will take some time
 1. When it is complete, you will be returned to the Homebrew Launcher
-1. Press (Home) to return to the RedNAND home menu
+1. Press (Home) to return to the system menu
 
 ___
 

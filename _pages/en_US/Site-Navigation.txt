@@ -9,6 +9,7 @@ sitemap: false
 {% capture notice-2 %}
 **All**
 
++ [Coldboot Haxchi](coldboot-haxchi)
 + [Credits](credits)
 + [disc2app](disc2app)
 + [Donations](donations)
@@ -18,12 +19,11 @@ sitemap: false
 + [Get Started](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Home](/)
++ [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
-+ [Mocha CFW (CBHC)](mocha-cfw-(cbhc))
-+ [Mocha CFW (Haxchi)](mocha-cfw-(haxchi))
-+ [Mocha CFW (Homebrew Launcher)](mocha-cfw-(homebrew-launcher))
-+ [Uninstall Mocha CFW](uninstall-mocha-cfw)
++ [Mocha CFW](mocha-cfw)
++ [Uninstall Mocha CFW](uninstall-cfw)
 + [vWii Modding](vwii-modding)
 + [Why Ads?](why-ads)
 {% endcapture %}
