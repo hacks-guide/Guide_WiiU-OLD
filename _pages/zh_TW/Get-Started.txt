@@ -1,0 +1,98 @@
+---
+title: "從頭開始" #
+lang: zh-Hant
+permalink: /zh_TW/get-started.html
+---
+
+下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
+{: .notice--primary}
+
+在開始前，請先將你的 Wii U 更新至最新版本以確保相容性。 目前最新版本為 5.5.1。
+{: .notice--info}
+
+Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
+{: .notice--info}
+
+你的 SD 卡格式須為 FAT32（建議使用 64kb 的配置單位大小，不過 32kb 也是可以的）。 大部分的 SD 卡預設都是以這個格式出廠的。
+{: .notice--info}
+
+如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64kb.
+{: .notice--warning}
+
+**千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
+{: .notice--warning}
+
+在開始前，建議使用 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac)) 來檢查問題你裝置的 SD 卡有沒有問題！
+{: .notice--warning}
+
+#### 必備項目
+
+* [`config.txt`](images/config.txt)
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* 最新版的 [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
+* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
+* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
+* 最新版的 [Hackmii Installer](https://bootmii.org/download/)
+* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+
+#### 操作說明
+
+##### Section I - Prep Work
+
+1. Power off your device
+1. 將 SD 卡插入電腦
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
+1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
+1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
+1. Create a folder named `hbc` in the `/install/` folder on your SD card
+1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
+1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
+1. Copy the `savemii` folder from the savemii `.zip` to the `/wiiu/apps/` folder on your SD card
+1. 複製並覆蓋 Modified WUP Installer `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
+1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
+1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. Reinsert your SD card into your device
+1. Power on your device
+
+##### Section II - Block System Updates
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+Note that to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+{: .notice--info}
+
+1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示你目前的網路設置
+1. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
+  + 選擇網路設定
+  + 選擇「更改設置（Change Settings）」
+  + 到第二個選單中，選擇「DNS」
+  + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
+  + 將 DNS 伺服器 IP 設為下列位址
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + 按下確認及「B」鍵儲存設置
+  + 這些伺服器是用來阻擋 SysNAND 更新用的
+
+___
+
+繼續至 [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
