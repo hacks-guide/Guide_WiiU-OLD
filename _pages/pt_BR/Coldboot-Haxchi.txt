@@ -37,7 +37,7 @@ Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apen
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto à SysNAND alterada na inicialização.
 {: .notice}
 
 {% capture notice-1 %}
@@ -54,13 +54,13 @@ Your device should now automatically launch into Coldboot Haxchi patched SysNAND
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+**Nunca desinstale o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game from the eShop or you will BRICK.**
+**Nunca reinstale o jogo de DS do Virtual Console do CBHC no eShop ou você irá BRICKAR.**
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+**Nunca mova o jogo de DS do Virtual Console do CBHC para um drive USB ou você irá BRICKAR.**
 {: .notice--danger}
 
 **Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
