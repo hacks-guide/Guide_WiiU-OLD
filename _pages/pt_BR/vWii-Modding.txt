@@ -9,13 +9,13 @@ Isso permitirá que você instale o Homebrew Channel e outras modificações par
 
 #### Instruções
 
-##### Section I - wuphax
+##### Seção I - wuphax
 
 1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Inicie o wuphax
 1. Aperte (A) para fazer o backup do seu Mii Channel e injetar o Hackmii Installer
 1. Você será retornado para o Homebrew Launcher na SysNAND
-1. Use the (Home) button to exit to the system menu
+1. Use o botão (Home) para sair para o menu do sistema
 1. Inicie o vWii
 1. Abra o Mii Channel no vWii
 1. Se o exploit for bem-sucedido, você terá entrado no Hackmii Installer
