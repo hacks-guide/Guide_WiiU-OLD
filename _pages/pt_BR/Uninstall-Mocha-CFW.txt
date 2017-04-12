@@ -1,13 +1,13 @@
 ---
-title: "Uninstall CFW" #
+title: "Desinstalar o CFW" #
 lang: pt-BR
-permalink: /uninstall-cfw.html
+permalink: /pt_BR/uninstall-cfw.html
 ---
 
 Isso irá remover o Mocha CFW do seu Wii U, independentemente do método de instalação, para o propósito de retornar o dispositivo ao modo de fábrica.
 {: .notice--info}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. Isso significa que todos os jogos e saves instalados depois de configurar a RedNAND serão removidos caso você faça a desinstalação, pois o sistema terá somente a SysNAND com a qual você começou!
+Se você seguiu este guia quando ele utilizava RedNAND, note que os jogos e saves estão salvos na memória interna e não no cartão SD. Isso significa que todos os jogos e saves instalados depois de configurar a RedNAND serão removidos caso você faça a desinstalação, pois o sistema terá somente a SysNAND com a qual você começou!
 {: .notice--danger}
 
 #### Instruções
@@ -16,7 +16,7 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ###### CBHC
 
-1. Launch the Homebrew Launcher Channel
+1. Inicie o Homebrew Launcher Channel
 1. Execute o CBHC installer
 1. Selecione o jogo de DS do Virtual Console que você está desinstalando o CBHC e aperte (A) para selecioná-lo
 1. Leia o aviso que irá aparecer e aperte (B) para desinstalar
