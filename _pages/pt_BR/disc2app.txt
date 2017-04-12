@@ -46,7 +46,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 
 ##### Seção III - Usando o disc2app
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Execute o disc2app
 1. Aperte (A) para descarregar para o cartão SD
 1. Insira o disco que você deseja descarregar quando solicitado
