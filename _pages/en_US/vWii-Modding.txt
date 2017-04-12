@@ -27,7 +27,6 @@ This will allow you to install the Homebrew Channel and other modifications to t
 1. Enter the Homebrew Launcher on SysNAND using the method from Section I
 1. Launch wuphax
 1. Press (B) when prompted to restore the Mii Channel
-
 1. Go through the prompts to get back to vWii
 
 ##### Section II - Dumping vWii NAND
