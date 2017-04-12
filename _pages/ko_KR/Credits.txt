@@ -1,0 +1,20 @@
+---
+title: "Credits" #
+lang: en
+permalink: /credits.html
+---
+
+If we forgot you here, contact us and we'll add your name.
+{: .notice}
+
++ damysteryman
++ derrek
++ dimok789
++ FIX94
++ koolkdev
++ plutooo
++ smea
++ [Truth]
++ vgmoose
++ Yardape8000
++ yellows8
