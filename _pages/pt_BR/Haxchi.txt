@@ -1,0 +1,76 @@
+---
+title: "Haxchi" #
+lang: pt-BR
+permalink: /haxchi.html
+---
+
+Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+{: .notice}
+
+Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
+{: .notice--info}
+
+If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
+{: .notice--primary}
+
+
+#### O que você precisa
+
++ Uma cópia legítima de um dos seguintes jogos do Virtual Console de DS instalado na memória interna do seu Wii U
+  + **Não** instale o jogo de Virtual Console de DS em um pendrive USB
+  + Atualmente, Brain Age é o mais barato destes títulos na eShop ($6,99 USD)
+  + Se você tem Brain Age / Brain Training instalado no seu Wii U a um tempo, tente excluí-lo e depois baixe-o novamente na eShop. Versões antigas do jogo não funcionarão com o Haxchi
+  + O jogo não será jogável após este processo
+  + ** Seu jogo de Virtual Console de DS com o Haxchi DEVE ser uma cópia LEGÍTIMA!**
+
+| Jogos compatíveis com o Haxchi |
+| ------------- |
+| Animal Crossing: Wild World |
+| Big Brain Training |
+| Brain Age / Brain Training|
+| DK: Jungle Climber |
+| Kirby: Canvas Curse |
+| Kirby: Mass Attack|
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
+| Legend of Zelda: Phantom Hourglass, The |
+| Legend of Zelda: Spirit Tracks, The |
+| Mario & Luigi: Partners in Time |
+| Mario Kart DS |
+| New Super Mario Bros. |
+| Pokemon Mystery Dungeon: Explorers of the Sky |
+| Pokemon Ranger |
+| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Shadows of Almia |
+| Starfox Command |
+| Super Mario 64 DS |
+| Wario: Master of Disguise |
+| WarioWare: Touched |
+| Yoshi's Island DS |
+| Yoshi's Touch & Go |
+
+#### Instruções
+
+1. Execute o Haxchi Installer
+1. Selecione o jodo do Virtual Console de DS que você está instalando o Haxchi, então aperte (A) para selecioná-lo
+1. Leia o aviso que irá aparecer e aperte (A) para instalar
+1. Uma vez terminado, execute seu jogo do Virtual Console de DS (com nome de "Haxchi")
+1. The console will reboot into patched SysNAND
+  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+
+___
+
+Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. A próxima página irá instalar o CBHC (Coldboot Haxchi) que fará isso automaticamente.
+{: .notice}
+
+{% capture notice-1 %}
+**Você pode agora segurar vários botões enquanto inicia seu jogo de Virtual Console de DS para opções de inicialização diferentes. Isto é o que cada uma das opções de inicialização faz:**
+
+    + None -> Boots into patched SysNAND
+    + (A) -> Boots into the Homebrew Launcher
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Continue to [Coldboot Haxchi](coldboot-haxchi).
+{: .notice--primary}
