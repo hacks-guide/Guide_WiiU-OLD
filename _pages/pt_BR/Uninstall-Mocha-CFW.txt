@@ -20,7 +20,7 @@ Se você seguiu este guia quando ele utilizava RedNAND, note que os jogos e save
 1. Execute o CBHC installer
 1. Selecione o jogo de DS do Virtual Console que você está desinstalando o CBHC e aperte (A) para selecioná-lo
 1. Leia o aviso que irá aparecer e aperte (B) para desinstalar
-1. When it is complete, you will be returned to the system menu
+1. Quando finalizado, você poderá retornar para o menu do sistema
 1. Reinicie o seu Wii U
 1. Vá para Configuração do console em "Gerenciador de dados" e apague seu jogo de DS do Virtual Console
 1. Reinstale o seu jogo de DS do Virtual Console no eShop
