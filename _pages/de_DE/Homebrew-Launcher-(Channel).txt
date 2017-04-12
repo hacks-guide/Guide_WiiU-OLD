@@ -1,0 +1,32 @@
+---
+title: "Homebrew Launcher (Channel)" #
+lang: de
+permalink: /de_DE/homebrew-launcher-(channel).html
+---
+
+Hiermit wird Homebrew Channel installiert, so dass sobald du ein gepatchtes SysNAND am laufen hast, der Homebrew Launcher als Icon im Sytem-Menü angezeigt wird.
+{: .notice--info}
+
+#### Anleitung
+
+1. Starte den Homebrew Launcher durch `http://loadiine.ovh`
+1. Starte "WUP Installer - Mod Y"
+1. Drücke (A) um den Homebrew Channel zu installieren
+1. Drücke (Home) um aus dem Installer zu gelangen, sobald dieser fertig ist
+
+___
+
+Nun kannst du den Homebrew Launcher in SysNAND starten, indem du den Homebrew Channel startest.
+{: .notice}
+
+Beachte, dass wenn diese DNS Adressen eingetragen sind, der Zugriff auf den eShop nur möglich ist, wenn zuerst NNU-Patcher mit Hilfe des Homebrew Launchers ausgeführt wurde (NNU-Patcher ist ein temporärer Patch und muss daher nach jedem Neustart neu ausgeführt werden).
+{: .notice--info}
+
+Für Informationen wie du deine Discs in ein installierbares Format dumpen kannst, siehe [disc2app](disc2app).
+{: .notice--success}
+
+Für Informationen wie du vWii Mods in SysNAND installierst, siehe [vWii Modding](vwii-modding).
+{: .notice--success}
+
+Für Informationen wie du CFW sicher deinstallierst und auf Werkszustand zurückkehrst, siehe [CFW entfernen](uninstall-cfw).
+{: .notice--warning}

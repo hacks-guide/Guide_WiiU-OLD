@@ -1,0 +1,42 @@
+---
+title: "H2testw (Windows)" #
+lang: pt-BR
+permalink: /pt_BR/h2testw-(windows).html
+---
+
+Esta página te guiará pelo processo de checar se o seu cartão SD contém erros utilizando o h2testw.
+{: .notice}
+
+Dependendo do tamanho do seu cartão SD e da velocidade do seu computador, esse processo pode durar várias horas!
+{: .notice--info}
+
+Esta página é somente para usuários de Windows. Se você não estiver no Windows, confira as páginas [F3 (Linux)](f3-(linux)) ou [F3X (Mac)](f3x-(mac)).
+{: .notice--info}
+
+#### O que você precisa
+
+* A última versão do [h2testw]
+ (http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+
+#### Instruções
+
+1. Copie o `h2testw.exe` do `.zip` do h2testw para a sua área de trabalho
+1. Insira o seu cartão SD no seu computador
+1. Abra o `h2testw.exe`
+1. Selecione "English"
+1. Clique em "Select target"
+1. Selecione a letra de unidade do seu cartão SD
+1. Certifique-se de que "all available space" está selecionado
+1. Clique em `Write + Verify`
+1. Aguarde até que o processo seja concluído
+
+___
+
+Se o teste mostrar o resultado `Test finished without errors`, o seu cartão SD está normal e você poderá deletar todos os arquivos `.h2w` do cartão SD
+{: .notice--success}
+
+Se o teste mostrar quaisquer outros resultados, o seu cartão SD pode estar corrompido ou danificado e você pode ter que substituí-lo!
+{: .notice--danger}
+
+Volte para [Começar](get-started)
+{: .notice--primary}

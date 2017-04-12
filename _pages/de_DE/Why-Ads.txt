@@ -1,0 +1,17 @@
+---
+title: "Warum Werbung?" #
+lang: de
+permalink: /de_DE/why-ads.html
+layout: single-no-ads
+---
+
+Dieses Projekt hat Hunderte von Stunden durchgehender Arbeit in Anspruch genommen.
+
+Wir halten diese Anleitung immer auf dem neuesten Stand und das kostenlos. Durch diesen Aufwand denken wir, dass es fair ist einige Einnahmen durch unsere Arbeit zu bekommen.
+
+Diese Seite kostet dich nichts und die Werbung, die wir geschaltet haben, ist unaufdringlich. Solltest du dennoch ein Problem damit haben, steht es dir frei, die Werbung zu blockieren.
+
+Wenn du die Werbung blockierst, möchten wir dich hiermit noch einmal an die [Spendenseite](donations) erinnern, aber auch Spenden sind optional.
+
+Vielen Dank,<br>
+Plailect & FlimFlam69

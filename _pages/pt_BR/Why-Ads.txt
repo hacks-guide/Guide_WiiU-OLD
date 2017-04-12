@@ -1,0 +1,17 @@
+---
+title: "Por que anúncios?" #
+lang: pt-BR
+permalink: /pt_BR/why-ads.html
+layout: single-no-ads
+---
+
+Este projeto é o resultado de centenas e centenas de horas de constante trabalho.
+
+Nós mantemos este guia, gratuitamente, e nos certificamos de que ele esteja sempre atualizado. Por isso, achamos justo tentarmos ganhar algum dinheiro pelo nosso trabalho.
+
+Este site não custa nada para ser usado, e tudo o que nós exibimos são anúncios não-intrusivos. Se você ainda tem problemas com isso, sinta-se livre para bloquear esses anúncios.
+
+Se você realmente bloqueá-los, gostaríamos de lembrar-lhe sobre a página de [Doações](donations), mas isso também é opcional.
+
+Obrigado,<br>
+Plailect & FlimFlam69

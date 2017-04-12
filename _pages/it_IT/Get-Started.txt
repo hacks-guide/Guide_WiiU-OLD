@@ -1,0 +1,98 @@
+---
+title: "Cominciamo!" #
+lang: it
+permalink: /it_IT/get-started.html
+---
+
+Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installare un cooldboothax custom firmware.
+{: .notice--primary}
+
+Prima di iniziare, dovresti aggiornare la tua Wii U all'ultima versione di sistema disponibile per garantire la compatibilità dei programmi. L'ultima versione di sistema è la 5.5.1.
+{: .notice--info}
+
+Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
+{: .notice--info}
+
+La tua scheda SD deve essere formattata in formato FAT32 (con clusters 64kb se possibile, altrimenti con clusters 32kb). Molte schede SD appena comprate saranno già formattate in questo modo.
+{: .notice--info}
+
+Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64kb.
+{: .notice--warning}
+
+**Non puoi** rinominare la tua scheda SD `wiiu` perchè potrebbe causare problemi.
+{: .notice--warning}
+
+Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
+{: .notice--warning}
+
+#### Quello che ti serve
+
+* [`config.txt`](images/config.txt)
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* L'ultima versione di [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* L'ultima versione di [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* L'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
+* L'ultima versione dell'[Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(l'archivio `.zip` del canale)*
+* Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip`del Launcher)*
+* L'ultima versione di [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi gli archivi`.zip`)*
+* L'ultima versione del [Hackmii Installer](https://bootmii.org/download/)
+* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+
+#### Istruzioni
+
+##### Section I - Prep Work
+
+1. Power off your device
+1. Inserisci la scheda SD nel tuo computer
+1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
+1. Crea una cartella chiamata `install` nella root della tua scheda SD
+1. Copia la cartella `apps` dall'archivio `.zip`dell'Homebrew App Store nella cartella `/wiiu/` nella tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`dell'Homebrew Launcher nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Haxchi nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di CBHC nella root della tua scheda SD
+1. Copia il file `config.txt`nella cartella `/haxchi/` della scheda SD
+1. Create a folder named `hbc` in the `/install/` folder on your SD card
+1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
+1. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
+1. Copy the `savemii` folder from the savemii `.zip` to the `/wiiu/apps/` folder on your SD card
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Modified WUP Installer nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di disc2app nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di WUPhax nella root della tua scheda SD
+1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
+1. Copia il file `boot.elf` dalla cartella `hackmii_installer_v1.2` all'interno dell'archivio `.zip` dell'Hackmii Installer nella root della tua scheda SD
+1. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
+1. Copia e unisci la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
+1. Reinsert your SD card into your device
+1. Power on your device
+
+##### Section II - Block System Updates
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+Note that to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+{: .notice--info}
+
+1. Vai nelle Impostazioni della Console, quindi Internet, quindi "Connettiti ad Internet" e premi (X) per far apparire le tue connessioni internet
+1. Per ogni connessione presente (e anche per le eventuali connessioni future), segui i seguenti passaggi
+  + Seleziona la connessione
+  + Seleziona "Cambia Impostazioni"
+  + Seleziona la seconda lista e scegli "DNS"
+  + Seleziona in DNS "Non ottenere automaticamente"
+  + Inserisci i seguenti indirizzi IP del DNS
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + Seleziona "Conferma", quindi premi (B) per salvare le impostazioni
+  + Questi server impediranno l'aggiornamento della SysNAND
+
+___
+
+Prosegui all'[Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
