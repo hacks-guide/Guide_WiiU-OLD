@@ -48,7 +48,7 @@ e instalar o Custom Firmware Mocha com Coldboot Haxchi. Ele utiliza o homebrew c
 + Jogar todos os discos e jogos do eShop, independente da sua região de origem
 + Fazer backup, editar, e restaurar saves de vários jogos
 + Jogar jogos de sistemas antigos com vários emuladores, utilizando RetroArch ou outros emuladores separados.
-+ Install homebrew titles to your system, and have them appear on your system menu
++ Instalar títulos de homebrew no seu sistema, e fazê-los aparecer no menu do sistema
 + Copiar seus discos para um formato em que você pode instalá-los e jogá-los sem a necessidade do disco
 + Atualizar com segurança para a última versão do sistema sem medo de perder acesso ao homebrew
 
