@@ -28,5 +28,5 @@ Para informações sobre como descarregar seus discos para um formato instaláve
 Para informações sobre como installar mods de vWii na SysNAND, confira a página [Modding do vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Para informações sobre como desinstalar o CFW com segurança e retornar ao modo de fábrica, confira a página [Desinstalar o Mocha CFW](uninstall-mocha-cfw).
 {: .notice--warning}
