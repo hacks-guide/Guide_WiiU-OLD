@@ -37,7 +37,7 @@ Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apen
 
 ___
 
-Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto à SysNAND alterada na inicialização.
+Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto a SysNAND alterada na inicialização.
 {: .notice}
 
 {% capture notice-1 %}
@@ -63,10 +63,10 @@ Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto à S
 **Nunca mova o jogo de DS do Virtual Console do CBHC para um drive USB ou você irá BRICKAR.**
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**Nunca exclua a NNID da conta de usuário que usou para adiquirir o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR!**
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**Nunca formate seu dispositivo enquanto o CBHC estiver instalado ou você irá BRICKAR!**
 {: .notice--danger}
 
 Continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
