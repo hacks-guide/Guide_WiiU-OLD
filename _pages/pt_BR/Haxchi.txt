@@ -10,7 +10,7 @@ Haxchi é um custom firmware que altera as verificações de assinatura, verific
 Haxchi é um exploit que nos permite iniciar o Mocha CFW diretamente do menu do sistema sem usar o Homebrew Launcher.
 {: .notice--info}
 
-Se você precisar adiquirir um dos jogos exploráveis, rode o NNU-Patcher do Homebrew Launcher e então inicie o eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
+Se você precisar adiquirir um dos jogos exploitáveis, rode o NNU-Patcher do Homebrew Launcher e então inicie o eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
@@ -65,12 +65,12 @@ Atualmente, você deve iniciar o jogo de DS do Virtual Console cada vez que voc�
 {% capture notice-1 %}
 **Você pode agora segurar vários botões enquanto inicia seu jogo de Virtual Console de DS para opções de inicialização diferentes. Isto é o que cada uma das opções de inicialização faz:**
 
-    + None -> Boots into patched SysNAND
-    + (A) -> Boots into the Homebrew Launcher
+    + None -> Inicia na SysNAND alterada
+    + (A) -> Inicia no Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+Continue para [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
