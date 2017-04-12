@@ -51,11 +51,11 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 1. Aperte (A) para descarregar para o cartão SD
 1. Insira o disco que você deseja descarregar quando solicitado
 1. Permita que o processo de descarregamento do disco proceda automaticamente; isso pode levar algum tempo
-1. When it is complete, you will be returned to the system menu
+1. Quando finalizado, você irá retornar para o menu do sistema
 
 ##### Seção IV - Instalando um jogo descarregado
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Inicie o WUP Installer - Mod Y
 1. Instale o jogo em seu destino desejado
   + Aperte (A) para instalar na memória do sistema
