@@ -1,0 +1,62 @@
+---
+layout: splash
+title: "Guía de Wii U" #
+header:
+  overlay_color: "#5e616c" #
+  overlay_image: images/home-page-feature.jpg
+  overlay_filter: 0.5
+  cta_label: "Comencemos" #
+  cta_url: "/es_ES/get-started"
+  caption:
+
+excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />" #
+lang: es
+permalink: /es_ES/index.html
+---
+
+{% capture notice-home %}
+**¡Esta guía es para sólo consolas retail (compradas en tiendas), no para consolas del Nintendo Developer Program!**
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-home | markdownify }}</div>
+
+**¡Esta guía necesita de *tu* ayuda para [traducirla](https://translate.wiiu.guide/) a otros idiomas!**
+{: .notice--success}
+
+**Lee todas las páginas de introducción antes de proceder.**
+{: .notice--warning}
+
+## ¿Qué es Homebrew?
+
+[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. Esto te permite ejecutar varios juegos caseros, herramientas para editar y respaldar partidas y emuladores de varios sistemas antiguos.
+
+Ejecutar homebrew en tu consola es 100% gratuito usando nada más que el navegador de internet de la consola.
+
+## ¿Qué es Custom Firmware?
+
+Un **Custom Firmware** ("CFW") te permite utilizar hacks más avanzados que el homebrew en el espacio del usuario no pueden utilizar fácilmente.
+
+Un CFW puede configurarse fácilmente en cualquier consola en la última versión.
+
+## ¿Qué se instalará con esta guía?
+
+El propósito final de esta guía es tomar una Wii U sin modificar, desde el firmware original
+a Coldboot Haxchi ejecutando el Custom Firmware Mocha. Se utiliza homebrew como un punto de apoyo, pero el Custom Firmware continúa siendo la meta a alcanzar.
+
+## ¿Qué puedo hacer con Custom Firmware?
+
++ Jugar a todos los juegos disponibles, en formato físico o de la eShop, independiente de su región
+Respaldar, editar y restaurar partidas guardadas de muchos juegos
++ Emular juegos de sistemas antiguos con varios emuladores, mediante RetroArch u otros emuladores independientes.
++ Install homebrew titles to your system, and have them appear on your system menu
++ Respaldar tus juegos en formato físico a un formato que puedas instalar y jugar sin necesidad del mismo
++ Actualizar de forma segura a la última versión del sistema sin miedo a perder acceso a homebrew
+
+## ¿Qué necesito saber antes de empezar?
+
++ **Antes de comenzar la guía, debes conocer los riesgos de hackear la Wii U: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
++ Esta guia funcionará en todas las Wii U de todas las regiones en la última versión.
++ Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (juegos, NNID, datos de guardado, etc se conservarán).
++ Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
++ Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/).
++ Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 32K.
