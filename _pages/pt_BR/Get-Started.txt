@@ -1,0 +1,98 @@
+---
+title: "Começar" #
+lang: pt-BR
+permalink: /pt_BR/get-started.html
+---
+
+Estas etapas irão preparar seu cartão SD em preparação para a instalação do custom firmware de coldboothax.
+{: .notice--primary}
+
+Antes de começar, você deve atualizar seu Wii U para a versão mais recente para garantir a compatibilidade. Atualmente 5.5.1.
+{: .notice--info}
+
+Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
+{: .notice--info}
+
+Seu cartão SD deve ser formatado como FAT32 (clusters de 64kb, se possível, caso contrário clusters de 32kb também irão funcionar). A maioria dos cartões de SD serão formatados assim por padrão.
+{: .notice--info}
+
+Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64kb.
+{: .notice--warning}
+
+Seu cartão SD **não pode** ter o nome `wiiu`, ou ele irá causar problemas.
+{: .notice--warning}
+
+Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros utilizando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
+{: .notice--warning}
+
+#### O que você precisa
+
+* [`config.txt`](images/config.txt)
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* A versão mais recente do [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* A versão mais recente do [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* A versão mais recente do [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* A versão mais recente do [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* A versão mais recente do [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
+* A versão mais recente do [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(o arquivo channel `.zip`)*
+* A versão anterior do [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(o arquivo launcher `.zip`)*
+* A versão mais recente do [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(os dois arquivos `.zip`)*
+* A versão mais recente do [Hackmii Installer](https://bootmii.org/download/)
+* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+
+#### Instruções
+
+##### Section I - Prep Work
+
+1. Power off your device
+1. Insira o seu cartão SD no seu computador
+1. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
+1. Crie uma pasta chamada `install` na raiz do seu cartão SD
+1. Copie a pasta `apps` do `.zip` do Hombebrew App Store para a pasta `/wiiu/` no seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do Homebrew Launcher para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do Haxchi para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do CBHC para a raiz do seu cartão SD
+1. Copie o arquivo `config.txt` para a pasta `/haxchi/` no seu cartão SD
+1. Create a folder named `hbc` in the `/install/` folder on your SD card
+1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
+1. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
+1. Copy the `savemii` folder from the savemii `.zip` to the `/wiiu/apps/` folder on your SD card
+1. Copie e mescle _o conteúdo do_ `.zip` do Modified WUP Installer para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do disc2app para a raiz do seu cartão SD
+1. Copie e mescle _o conteúdo do_ `.zip` do WUPhax para a raiz do seu cartão SD
+1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
+1. Copie o arquivo `boot.elf` da pasta `hackmii_installer_v1.2` do `.zip` do Hackmii Installer para a raiz do seu cartão SD
+1. Copie a pasta `apps` do arquivo `vWii_cIOS_apps_20131218.zip` para a raiz do seu cartão SD
+1. Copie e mescle a pasta `apps` do arquivo `Patched_IOS80_Installer_for_vWii.zip` para a raiz do seu cartão SD
+1. Reinsert your SD card into your device
+1. Power on your device
+
+##### Section II - Block System Updates
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+Note that to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+{: .notice--info}
+
+1. Vá para "Configuração do console", depois "Internet", depois "Conexão de internet" e aperte (X) para exibir suas conexões de rede atuais
+1. Para cada uma das suas conexões (e todas as conexões futuras), faça o seguinte
+  + Selecione a conexão
+  + Selecione "Alterar configurações"
+  + Mova para a segunda lista e selecione "DNS"
+  + Defina o DNS para "Modo manual"
+  + Configure o IP dos servidores DNS para os seguintes servidores
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + Selecione "Confirmar" e, em seguida, aperte (B) para salvar
+  + Estes servidores irão bloquear as atualizações na sua SysNAND
+
+___
+
+Continue para [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
