@@ -1,0 +1,76 @@
+---
+title: "Haxchi" #
+lang: zh-Hant
+permalink: /haxchi.html
+---
+
+Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+{: .notice}
+
+Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
+{: .notice--info}
+
+If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. 一旦購買完畢後，請重新進入[Homebrew Launcher](homebrew-launcher)。
+{: .notice--primary}
+
+
+#### 必備項目
+
++ 下列任一 DS Virtual Console 遊戲（須為正版且安裝於 Wii U 內存中）
+  + **千萬不要**安裝遊戲在 USB 儲存裝置中
+  + 目前為止，《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》是 eShop 上最便宜的遊戲 ($6.99 美元)
+  + 如果你先前已經安裝過了上述遊戲，請將它刪除並再重新透過 eShop 下載。 舊版的遊戲無法與 Haxchi 相容
+  + 注意未來你將無法再遊玩你所選的遊戲
+  + **你的 Haxchi DS Virtual Console 遊戲 _必須_ 是正版的！**
+
+|相容的 Haxchi 遊戲 |
+| ------------- |
+| 《歡迎光臨：動物之森》 |
+| 《頭腦柔軟體操學園》 |
+| 《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》 |
+| 《大金剛：叢林攀爬高手》 |
+| 《觸摸！卡比》 |
+| 《卡比大集合》|
+| 《卡比之星：多洛奇團登場》 |
+| 《薩爾達傳說：夢幻沙漏》 |
+| 《薩爾達傳說：大地汽笛》 |
+| 《瑪利歐與路易吉 RPG 2》 |
+| 《瑪利歐賽車 DS》 |
+| 《新 超級瑪利歐兄弟》 |
+| 《神奇寶貝不可思議的迷宮：空之探險隊》 |
+| 《神奇寶貝保育家》 |
+| 《神奇寶貝保育家：光之軌跡》 | 
+| 《神奇寶貝保育家：風湧篇》 |
+| 《星戰火狐：秘密指令》 |
+| 《超級瑪利歐64 DS》 |
+| 《怪盜壞利歐七面人》 |
+| 《觸控壞利歐工坊》 |
+| 《耀西之島DS》 |
+| 《捕捉！觸摸！耀西！》 |
+
+#### 操作說明
+
+1. 啟動 Haxchi installer
+1. 選擇你要安裝 Haxchi 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 讀完警示，並按下「A」鍵安裝
+1. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
+1. The console will reboot into patched SysNAND
+  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+
+___
+
+Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. 下一章節將會安裝 CBHC (Coldboot Haxchi)，它將會幫你每次在開機時自動啟動 DS Virtual Console。
+{: .notice}
+
+{% capture notice-1 %}
+**你現在可以在啟動修改過後的 DS Virtual Console 時按住不同按鈕以進入不同的開機選項。 每個選項的功能如下：**
+
+    + None -> Boots into patched SysNAND
+    + (A) -> Boots into the Homebrew Launcher
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Continue to [Coldboot Haxchi](coldboot-haxchi).
+{: .notice--primary}
