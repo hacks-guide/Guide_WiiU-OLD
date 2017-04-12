@@ -25,8 +25,8 @@ permalink: /pt_BR/faq.html
 <a name="faq_regionfree" />**P:** *Posso usar isto para jogar jogos de outras regiões?*    
 **R:** Mocha CFW suporta patches de Region Free, o que permite que os usuários instalem jogos de qualquer região sem qualquer modificação ou etapa extra.
 
-<a name="faq_updates" />**Q:** *Is it safe to update patched SysNAND?*    
-**A:** No! You must always ensure that your internet settings include DNS servers that block updates just in case a new update is released!
+<a name="faq_updates" />**P.** *É seguro atualizar a SysNAND alterada?*    
+**R:** Não! Você deve sempre se assegurar de que suas definições de internet incluem os servidores de DNS que bloqueiam as atualizações, no caso de uma nova atualização ser lançada!
 
 <a name="faq_support" />**P:** *Onde posso buscar por suporte?*    
 **R:** Para suporte, peça ajuda em [#wiiuhacks no Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) ou [Nintendo Homebrew no Discord](https://discord.gg/MWxPgEp).  
