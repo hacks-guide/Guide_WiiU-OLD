@@ -1,13 +1,13 @@
 ---
 title: "Coldboot Haxchi" #
 lang: pt-BR
-permalink: /coldboot-haxchi.html
+permalink: /pt_BR/coldboot-haxchi.html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the system menu, which will then load patched SysNAND.
+CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie os jogos de DS do Virtual Console por padrão em vez do menu de sistema, o qual irá carregar a SysNAND alterada.
 {: .notice}
 
-Esta página é opcional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apenas oferece uma conveniência extra. Se você gostaria de ignorar o Haxchi, continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--info}
 
 **Você DEVE ter uma instalação funcional do Haxchi para isto funcionar. Caso não tenha, você irá BRICKAR!**
@@ -21,23 +21,23 @@ Esta página é opcional. Regular Haxchi works just fine as is; this just offers
 
 #### Instruções
 
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
+1. Entre no Homebrew Launcher segurando (A) enquanto inicia seu jogo Haxchi de DS do Virtual Console
 1. Execute o CBHC installer
 1. Selecione o jogo de DS do Virtual Console que você está instalando o CBHC e aperte (A) para selecioná-lo
   + **Este jogo já DEVE ter uma instalação funcional do Haxchi**
 1. Leia o aviso que irá aparecer e aperte (A) para instalar
-1. Once this is complete, you should be back at the system menu
+1. Uma vez completado, você deve voltar ao menu do sistema
 1. Reinicie o seu Wii U
 1. Se o exploit foi bem-sucedido, você verá um menu aparecer com várias opções de inicialização
-1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
-1. Press (A) on "Boot System Menu"
+1. Posicione o cursor em **"Autoboot: Disabled"** e, em seguida, aperte (A) nele até aparecer **"Autoboot: System Menu"**
+1. Aperte (A) em "Boot System Menu"
 1. Reinicie seu Wii U para garantir que o exploit funciona automaticamente, como pretendido
-1. Move the CBHC DS virtual console game to the last page of the system menu
-  + Read the warnings at the bottom of this page carefully to avoid bricking your device!
+1. Mova o jogo de DS do Virtual Console do CBHC para a última página do menu do sistema
+  + Leia os avisos na parte inferior da página cuidadosamente para evitar danificar seu dispositivo!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto a SysNAND alterada na inicialização.
 {: .notice}
 
 {% capture notice-1 %}
@@ -54,19 +54,19 @@ Your device should now automatically launch into Coldboot Haxchi patched SysNAND
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+**Nunca desinstale o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game from the eShop or you will BRICK.**
+**Nunca reinstale o jogo de DS do Virtual Console do CBHC no eShop ou você irá BRICKAR.**
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+**Nunca mova o jogo de DS do Virtual Console do CBHC para um drive USB ou você irá BRICKAR.**
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**Nunca exclua a NNID da conta de usuário que usou para adiquirir o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR!**
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**Nunca formate seu dispositivo enquanto o CBHC estiver instalado ou você irá BRICKAR!**
 {: .notice--danger}
 
 Continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).

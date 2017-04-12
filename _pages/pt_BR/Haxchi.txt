@@ -1,16 +1,16 @@
 ---
 title: "Haxchi" #
 lang: pt-BR
-permalink: /haxchi.html
+permalink: /pt_BR/haxchi.html
 ---
 
-Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi é um custom firmware que altera as verificações de assinatura, verificações de região e executa outro código personalizado em segundo plano.
 {: .notice}
 
-Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi é um exploit que nos permite iniciar o Mocha CFW diretamente do menu do sistema sem usar o Homebrew Launcher.
 {: .notice--info}
 
-If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
+Se você precisar adiquirir um dos jogos exploitáveis, rode o NNU-Patcher do Homebrew Launcher e então inicie o eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
@@ -54,23 +54,23 @@ If you need to purchase one of the exploitable games, run NNU-Patcher from the H
 1. Selecione o jodo do Virtual Console de DS que você está instalando o Haxchi, então aperte (A) para selecioná-lo
 1. Leia o aviso que irá aparecer e aperte (A) para instalar
 1. Uma vez terminado, execute seu jogo do Virtual Console de DS (com nome de "Haxchi")
-1. The console will reboot into patched SysNAND
-  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+1. O console irá reiniciar na SysNAND alterada
+  + Isto permitirá títulos não assinados (como os do Homebrew Channel e backups de jogos) iniciarem diretamente do menu de sistema
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. A próxima página irá instalar o CBHC (Coldboot Haxchi) que fará isso automaticamente.
+Atualmente, você deve iniciar o jogo de DS do Virtual Console cada vez que você reiniciar para entrar na SysNAND alterada. A próxima página irá instalar o CBHC (Coldboot Haxchi) que fará isso automaticamente.
 {: .notice}
 
 {% capture notice-1 %}
 **Você pode agora segurar vários botões enquanto inicia seu jogo de Virtual Console de DS para opções de inicialização diferentes. Isto é o que cada uma das opções de inicialização faz:**
 
-    + None -> Boots into patched SysNAND
-    + (A) -> Boots into the Homebrew Launcher
+    + None -> Inicia na SysNAND alterada
+    + (A) -> Inicia no Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+Continue para [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

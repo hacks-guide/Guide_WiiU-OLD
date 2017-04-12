@@ -9,13 +9,13 @@ Isso permitirá que você instale o Homebrew Channel e outras modificações par
 
 #### Instruções
 
-##### Section I - wuphax
+##### Seção I - wuphax
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Inicie o wuphax
 1. Aperte (A) para fazer o backup do seu Mii Channel e injetar o Hackmii Installer
 1. Você será retornado para o Homebrew Launcher na SysNAND
-1. Use the (Home) button to exit to the system menu
+1. Use o botão (Home) para sair para o menu do sistema
 1. Inicie o vWii
 1. Abra o Mii Channel no vWii
 1. Se o exploit for bem-sucedido, você terá entrado no Hackmii Installer
@@ -23,13 +23,13 @@ Isso permitirá que você instale o Homebrew Channel e outras modificações par
 1. Passe pelos avisos na tela para instalar o Homebrew Channel no vWii
 1. Passe pelos avisos para voltar ao vWii
 1. Se o exploit for bem-sucedido, você verá o Homebrew Channel no Menu do vWii
-1. Return to the system menu, then power off your Wii U
+1. Retorne para o menu do sistema e, em seguida, desligue seu Wii U
 1. Entre no Homebrew Launcher na SysNAND utilizando o método da Seção I
 1. Inicie o wuphax
 1. Aperte (B) quando solicitado para restaurar o Mii Channel
 1. Passe pelos avisos para voltar ao vWii
 
-##### Section II - Dumping vWii NAND
+##### Seção II - Dump da NAND do vWii
 
 Esse backup da NAND permitirá que você restaure seu vWii para um ponto em que ele funcionava, se algo der errado.
 {: .notice--info}
@@ -43,13 +43,13 @@ Esse backup da NAND permitirá que você restaure seu vWii para um ponto em que 
 1. **Copie o `nand.bin` e `keys.bin` da raiz do seu cartão SD para um local seguro no seu computador e faça backups de ambos em vários lugares (como serviços de armazenamento online); este backup irá salvar seu vWii de um brick se algo der errado**
 1. Apague `nand.bin` e `keys.bin` da raiz do seu cartão SD
 
-##### Section III - cIOS Installation
+##### Seção III - Instalação do cIOS
 
 Certifique-se de que não há nenhuma pasta chamada `wad` ou `wads` na raiz do seu cartão SD, e de que não existem outros arquivos `.wad` em qualquer outro lugar, exceto na pasta `/apps/` do cartão SD.
 {: .notice--warning}
 
 1. Entre no Homebrew Channel no vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND system menu, then launching the Homebrew Channel
+  + Usuários do Haxchi e Mocha CFW com Homebrew Launcher podem fazer isto selecionando o vWii do menu do sistema da SysNAND e, em seguida, inciar o Homebrew Channel
   + Usuários do Mocha CFW com CBHC podem fazer isto segurando (B) durante a inicialização e, em seguida, selecionando "Boot vWii Homebrew Channel"
 1. Inicie o instalador d2x cIOS
 1. Defina as opções na parte superior da tela para coincidir com o seguinte:
@@ -71,7 +71,7 @@ Certifique-se de que não há nenhuma pasta chamada `wad` ou `wads` na raiz do s
 1. Aperte (A) para instalar
 1. Aguarde a conclusão da instalação e, em seguida, aperte (B) para sair
 
-##### Section IV - Patching IOS80
+##### Seção IV - Patch do IOS80
 
 **Esta etapa irá brickar sua instalação do vWii caso ela falhe por quaisquer razões (falta de energia, etc) a qual irá necessitar de um backup da NAND do vWii para restaurá-la. Certifique-se que você tem o seu antes de prosseguir com esta seção.**
 {: .notice--danger}

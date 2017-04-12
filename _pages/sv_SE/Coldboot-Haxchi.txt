@@ -37,7 +37,7 @@ Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot
 
 ___
 
-Din Wii U ska nu atomatiskt starta till Cooldboot Haxci modifierad SysNAND vid uppstart.
+Din Wii U ska nu automatiskt starta till Cooldboot Haxchi modifierad SysNAND vid uppstart.
 {: .notice}
 
 {% capture notice-1 %}
