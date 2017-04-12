@@ -62,7 +62,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
   + Aperte (X) para instalar no disco rígido externo
 1. Permita que o processo de instalação proceda automaticamente; isso pode levar algum tempo
 1. Quando estiver concluído, você será retornado para o Homebrew Launcher
-1. Press (Home) to return to the system menu
+1. Aperte (Home) para retornar ao menu do sistema
 
 ___
 
