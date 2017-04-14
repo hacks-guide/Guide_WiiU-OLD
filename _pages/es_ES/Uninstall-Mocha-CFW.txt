@@ -48,5 +48,5 @@ Si seguiste esta guía cuando se hacía uso de RedNAND, ten en cuenta que los ju
 
 ___
 
-Si seguiste esta guía cuando se hacía uso de RedNAND, ten en cuenta que esto no eliminará la partición de RedNAND de tu tarjeta SD. Para ello, necesitas usar un gestor de particiones para tu sistema operativo.
+If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Para ello, necesitas usar un gestor de particiones para tu sistema operativo.
 {: .notice--info}
