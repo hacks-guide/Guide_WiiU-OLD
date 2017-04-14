@@ -4,22 +4,22 @@ lang: it
 permalink: /it_IT/homebrew-launcher-(channel).html
 ---
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da avere l'Homebrew Launcher come icona sul menu di sistema della tua SysNAND patchata.
 {: .notice--info}
 
 #### Istruzioni
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`
+1. Avvia l'Homebrew Launcher navigando sul sito `http://loadiine.ovh`
 1. Avvia WUP Installer - Mod Y
 1. Premi (A) per installare l'Homebrew Channel
 1. Premi (Home) per uscire dal programma di installazione appena finisce l'installazione
 
 ___
 
-You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
+Adesso puoi avviare l'Homebrew Launcher nella SysNAND patchata semplicemente avviando l'Homebrew Channel.
 {: .notice}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
 {: .notice--info}
 
 Per informazioni su come creare un backup dei tuoi dischi in un formato che permette di giocarli senza necessitare il disco, visita la pagina [disc2app](disc2app).
@@ -28,5 +28,5 @@ Per informazioni su come creare un backup dei tuoi dischi in un formato che perm
 Per informazioni su come modificare la vWii della SysNAND, visita la pagina [Modifica vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Per informazioni su come disinstallare CFW in tutta sicurezza, visita la pagina [Disinstallare CFW](uninstall-cfw).
 {: .notice--warning}
