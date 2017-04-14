@@ -24,7 +24,7 @@ Om du planerar att använda en extern hårddisk för att installera dina dumpade
 
 #### Vad du behöver
 
-* En Wii U som har åtkomst till modifierad SysNAND (med hjälp av Mocha CFW, Haxchi, CBHC, etc.)
+* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25gb fritt utrymme på ditt SD-kort
 
 #### Instruktioner
