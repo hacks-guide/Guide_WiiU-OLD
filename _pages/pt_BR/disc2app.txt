@@ -24,7 +24,7 @@ Se você planeja usar um disco rígido externo para instalar seus discos descarr
 
 #### O que você precisa
 
-* Um Wii U que tenha acesso a SysNAND alterada (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25gb de espaço livre no seu cartão SD
 
 #### Instruções
