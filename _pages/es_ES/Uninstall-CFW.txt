@@ -1,0 +1,52 @@
+---
+title: "Desinstalar CFW" #
+lang: es
+permalink: /es_ES/uninstall-cfw.html
+---
+
+Esto eliminará Mocha CFW de tu Wii U, independiente de cual haya sido el método de instalación, con el propósito de dejarla como de fábrica.
+{: .notice--info}
+
+Si seguiste esta guía cuando se hacía uso de RedNAND, ten en cuenta que los juegos y partidas serán guardadas en la memoria interna, no en la tarjeta SD. ¡Esto significa que todos los juegos y partidas guardadas después de la instalación de RedNAND serían eliminadas si desinstalas, ya que tu sistema sólo tendría la SysNAND con la que comenzaste!
+{: .notice--danger}
+
+#### Instrucciones
+
+##### Sección I - Eliminar de la Wii U
+
+###### CBHC
+
+1. Inicia el Homebrew Launcher Channel
+1. Inicia el CBHC Installer
+1. Selecciona el juego de la consola virtual de DS del cual quieres desinstalar CBHC, y luego presiona (A) para seleccionarlo
+1. Lee la advertencia que aparecerá en pantalla, luego presiona (B) para desinstalar
+1. Cuando haya finalizado, se regresará al menú del sistema
+1. Reinicia tu Wii U
+1. Ve a las Configuraciones de la consola, luego a "Gestión de Datos" y elimina el juego de la consola virtual de DS
+1. Reinstala tu juego de la consola virtual de DS desde la eShop
+
+###### Haxchi
+
+1. Ve a las Configuraciones de la consola, luego a "Gestión de Datos" y elimina el juego de la consola virtual de DS
+1. Reinstala tu juego de la consola virtual de DS desde la eShop
+
+###### Homebrew Launcher
+
+1. Elimina el marcador del navegador de internet de la Wii U si agregaste uno
+
+##### Sección II - Eliminar de la tarjeta SD
+
+{% capture notice-3 %}
+**Elimina cualquier archivo o carpeta extra de la raíz de la tarjeta SD que *no* esté en la siguiente lista (puede que no tengas alguno o incluso ninguno de ellos):**
+
+    + DCIM
+    + private
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-3 | markdownify }}</div>
+
+___
+
+Si seguiste esta guía cuando se hacía uso de RedNAND, ten en cuenta que esto no eliminará la partición de RedNAND de tu tarjeta SD. Para ello, necesitas usar un gestor de particiones para tu sistema operativo.
+{: .notice--info}
