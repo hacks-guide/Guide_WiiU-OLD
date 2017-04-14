@@ -51,7 +51,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 1. Presiona (A) para volcar a la tarjeta SD
 1. Inserta el disco que quieres volcar cuando se te pida
 1. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
-1. When it is complete, you will be returned to the system menu
+1. Cuando haya finalizado, se regresará al menú del sistema
 
 ##### Sección IV - Instalar el juego volcado
 
