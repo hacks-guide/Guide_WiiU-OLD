@@ -24,7 +24,7 @@ Se hai intenzione di utilizzare un hard disk esterno per installare i giochi est
 
 #### Quello che ti serve
 
-* A Wii U that that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25gb di spazio liberi sulla scheda SD
 
 #### Istruzioni
