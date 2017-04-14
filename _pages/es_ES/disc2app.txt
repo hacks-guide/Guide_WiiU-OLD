@@ -24,7 +24,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, ten
 
 #### Qué necesitas
 
-* Una Wii U que puede acceder a una SysNAND modificada (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * Se requieren 25gb disponibles en tu tarjeta SD
 
 #### Instrucciones
