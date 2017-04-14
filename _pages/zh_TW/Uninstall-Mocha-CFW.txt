@@ -48,5 +48,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followd this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. 如果要清除磁區的話，你將需要使用你作業系統的磁區工具。
+If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. 如果要清除磁區的話，你將需要使用你作業系統的磁區工具。
 {: .notice--info}
