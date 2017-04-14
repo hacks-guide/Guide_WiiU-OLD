@@ -48,5 +48,5 @@ Se você seguiu este guia quando ele utilizava RedNAND, note que os jogos e save
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Para isso, você irá precisar de um gerenciador de partições para o seu sistema operacional.
+Se você seguiu este guia quando ele utilizava RedNAND, note que isto não irá remover a partição da RedNAND no seu cartão SD. Para isso, você irá precisar de um gerenciador de partições para o seu sistema operacional.
 {: .notice--info}
