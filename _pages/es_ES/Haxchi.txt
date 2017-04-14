@@ -1,10 +1,10 @@
 ---
 title: "Haxchi" #
 lang: es
-permalink: /haxchi.html
+permalink: /es_ES/haxchi.html
 ---
 
-Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi es un custom firmware el cual modifica la verificación de firmas y de región, así como también ejecuta código personalizado en segundo plano.
 {: .notice}
 
 Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
