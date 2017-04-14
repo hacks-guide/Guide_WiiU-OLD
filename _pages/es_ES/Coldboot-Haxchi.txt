@@ -4,10 +4,10 @@ lang: es
 permalink: /es_ES/coldboot-haxchi.html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the system menu, which will then load patched SysNAND.
+CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del menú del sistema, el cual cargará entonces la SysNAND modificada.
 {: .notice}
 
-Esta página es opcional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. Si deseas omitir Haxchi, continuar en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--info}
 
 **DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tienes, ¡BRICKEARÁS!**
