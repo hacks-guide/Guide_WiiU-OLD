@@ -48,5 +48,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followd this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Per fare ciò dovrai usare un programma per partizioni sul tuo PC.
+If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Per fare ciò dovrai usare un programma per partizioni sul tuo PC.
 {: .notice--info}
