@@ -10,13 +10,13 @@ Con estos pasos prepararás tu tarjeta SD para instalar custom firmware basado e
 Antes de comenzar, debes actualizar tu Wii U a la versión más reciente para asegurar su compatibilidad. Actualmente es la 5.5.1.
 {: .notice--info}
 
-Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
+Se recomienda que tu tarjeta SD sea de al menos 16gb o 32gb para tener espacio suficiente para instalar y descargar juegos.
 {: .notice--info}
 
 Tu tarjeta SD debe ser formateada como FAT32 (clusters de 64kb si es posible, si no, pueden ser clusters de 32kb). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
 {: .notice--info}
 
-Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64kb.
+Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Mejor usa [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y define un Tamaño de Unidad de Asignación de 64kb.
 {: .notice--warning}
 
 Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
@@ -34,7 +34,7 @@ Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
 * La última versión de [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * La última versión de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* La última versión de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
 * La última versión de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(el archivo `.zip` que dice "channel")*
