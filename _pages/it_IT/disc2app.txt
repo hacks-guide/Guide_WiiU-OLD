@@ -24,7 +24,7 @@ Se hai intenzione di utilizzare un hard disk esterno per installare i giochi est
 
 #### Quello che ti serve
 
-* A Wii U that that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* Una Wii U con una SysNAND patchata (Mocha CFW, Haxchi, CBHC, ecc)
 * 25gb di spazio liberi sulla scheda SD
 
 #### Istruzioni
@@ -46,23 +46,23 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 
 ##### Sezione III - Usare disc2app
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia disc2app
 1. Premi (A) per estrarre i file sulla scheda SD
 1. Inserisci quando richiesto il disco del quale vuoi creare un backup
 1. Attendi che il processo di estrazione del disco finisca automaticamente; richiederà del tempo
-1. When it is complete, you will be returned to the system menu
+1. Una volta finito il processo, ritornerai al menu di sistema
 
 ##### Sezione IV - Installare il gioco estratto
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia WUP Installer - Mod Y
 1. Installa il gioco nella destinazione desiderata
   + Premi (A) per installarlo nella memoria della console
   + Premi (X) per installarlo nell'hard disk esterno
 1. Attendi che il processo di installazione finisca automaticamente; richiederà del tempo
 1. Una volta finito il processo, ritornerai all'Homebrew Launcher
-1. Press (Home) to return to the system menu
+1. Premi (Home) per ritornare al menu di sistema
 
 ___
 
