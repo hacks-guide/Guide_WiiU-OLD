@@ -48,5 +48,5 @@ Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, 
 
 ___
 
-Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, dass dies nicht die RedNAND partition auf deiner SD-Karte entfernt. Dazu brauchst du einen Partitionsmanager für dein Betriebssystem.
+If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Dazu brauchst du einen Partitionsmanager für dein Betriebssystem.
 {: .notice--info}
