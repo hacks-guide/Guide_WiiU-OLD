@@ -27,8 +27,8 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 ___
 
-If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
+如果你比較想透過購買有漏洞的遊戲來在開機時自動啟動自製韌體*（或者你已經擁有列表中所列的 DS Virtual Console 遊戲）*的話，請繼續至 [Haxchi](haxchi)。
 {: .notice--primary}
 
-If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
+如果你比較想省錢一點，每次開機時手動進入自製韌體，請繼續至 [Mocha CFW](mocha-cfw)。
 {: .notice--primary}
