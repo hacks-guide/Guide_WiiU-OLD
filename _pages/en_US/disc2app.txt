@@ -44,7 +44,7 @@ Note that this will completely erase the contents of the external hard drive!
 1. Power on your Wii U
 1. Format the external hard drive when prompted
 
-##### Section III - Using disc2app
+##### Section II - Using disc2app
 
 1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch disc2app
@@ -53,7 +53,7 @@ Note that this will completely erase the contents of the external hard drive!
 1. Allow the disc dump process to proceed automatically; this will take some time
 1. When it is complete, you will be returned to the system menu
 
-##### Section IV - Installing dumped game
+##### Section III - Installing dumped game
 
 1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch WUP Installer - Mod Y
