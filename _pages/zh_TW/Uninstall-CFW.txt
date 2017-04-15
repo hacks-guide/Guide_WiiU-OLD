@@ -18,17 +18,17 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 1. Launch the Homebrew Launcher Channel
 1. 啟動 CBHC installer
-1. 選擇你要將 CBHC 移除的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 選擇你要將 CBHC 移除的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「B」移除
 1. When it is complete, you will be returned to the system menu
 1. 重新啟動你的 Wii U
-1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS Virtual Console 遊戲
-1. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
+1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS 虛擬主機 遊戲
+1. 自 eShop 中重新安裝你的 DS 虛擬主機 遊戲
 
 ###### Haxchi
 
-1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS Virtual Console 遊戲
-1. 自 eShop 中重新安裝你的 DS Virtual Console 遊戲
+1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS 虛擬主機 遊戲
+1. 自 eShop 中重新安裝你的 DS 虛擬主機 遊戲
 
 ###### Homebrew Launcher
 
