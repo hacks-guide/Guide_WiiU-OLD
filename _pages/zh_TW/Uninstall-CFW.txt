@@ -1,13 +1,13 @@
 ---
-title: "Uninstall CFW" #
+title: "卸載自製韌體" #
 lang: zh-Hant
-permalink: /uninstall-cfw.html
+permalink: /zh_TW/uninstall-cfw.html
 ---
 
 本章節將從你的 Wii U 上移除 Mocha CFW。不論你是如何安裝它的，都將把你的裝置設回原廠狀態。
 {: .notice--info}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. 也就是說在你設定完 RedNAND 後所安裝的遊戲及存檔都將消失，就像回到當初的 SysNAND 系統一樣！
+如果你是在本指南還在使用 RedNAND 時所安裝的，請注意，遊戲及存檔是存在內存而非 SD 卡中的。 也就是說在你設定完 RedNAND 後所安裝的遊戲及存檔都將消失，就像回到當初的 SysNAND 系統一樣！
 {: .notice--danger}
 
 #### 操作說明
@@ -16,11 +16,11 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ###### CBHC
 
-1. Launch the Homebrew Launcher Channel
+1. 啟動 Homebrew Launcher 頻道
 1. 啟動 CBHC installer
 1. 選擇你要將 CBHC 移除的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「B」移除
-1. When it is complete, you will be returned to the system menu
+1. 當完成後，你將會被踢回 SysNAND 的系統主選單中
 1. 重新啟動你的 Wii U
 1. 到系統設定中的「資料管理（Data Management）」中刪除你的 DS 虛擬主機 遊戲
 1. 自 eShop 中重新安裝你的 DS 虛擬主機 遊戲
@@ -48,5 +48,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. 如果要清除磁區的話，你將需要使用你作業系統的磁區工具。
+如果你是在本指南還在使用 RedNAND 時所安裝的，請注意，這將不會移除你 SD 卡上的 RedNAND 磁區。 如果要清除磁區的話，你將需要使用你作業系統的磁區工具。
 {: .notice--info}
