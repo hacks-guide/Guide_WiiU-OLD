@@ -19,19 +19,19 @@ Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot
 **Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia, annars kommer du få en BRICKNING!**
 {: .notice--danger}
 
-**You must remove all USB devices before installing or you may BRICK!**
+**Du måste ta bort alla USB-enheter innan du installerar annars kan du få en BRICKNING!**
 {: .notice--danger}
 
 #### Instruktioner
 
-1. Remove all USB devices from your Wii U
+1. Ta bort alla USB-enheter från din Wii U
 1. Gå in i Homebrew Launcher genom att hålla inne (A) när du startar ditt Haxchi DS virtual console-spel
 1. Starta CBHC installer
 1. Välj DS virtual console-spelet du installerar CBHC till, tryck sen (A) för att välja det
   + **Spelet MÅSTE redan ha en fungerande Haxchi installerad**
 1. Läs varningen som dyker upp, tryck sen (A) för att installera
 1. När allt är klart ska du vara tillbaka på hemskärmen
-1. You may reconnect any USB devices that were disconnected earlier.
+1. Du kan återansluta alla USB-enheter du kopplade ur tidigare.
 1. Starta om din Wii U
 1. Om nyttjandet av säkerhetshålet lyckades kommer du se en meny med olika uppstarts-inställningar
 1. Peka på **"Autoboot: Disabled"** och tryck (A) tills det står **"Autoboot: System Menu"**
@@ -59,7 +59,7 @@ Din Wii U ska nu automatiskt starta till Cooldboot Haxchi modifierad SysNAND vid
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-You may reconnect any USB devices after the installation has completed.
+Du kan återansluta alla USB-enheter igen efter installationen är klar.
 {: .notice--info}
 
 **Avinstallera aldrig DS virtual console-spelet som använts för CBHC, annars kommer du BRICKA enheten.**    
