@@ -19,14 +19,19 @@ CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修�
 **你的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的，否則－保。證。磚。機！**
 {: .notice--danger}
 
+**You must remove all USB devices before installing or you may BRICK!**
+{: .notice--danger}
+
 #### 操作說明
 
+1. Remove all USB devices from your Wii U
 1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
 1. 啟動 CBHC installer
 1. 選擇你要安裝 CBHC 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
   + **所選的遊戲 _必須_ 要先裝好 Haxchi 才能繼續**
 1. 讀完警示，並按下「A」鍵安裝
 1. 完成後，你將會回到系統主選單中
+1. You may reconnect any USB devices that were disconnected earlier.
 1. 重新啟動你的 Wii U
 1. 如果漏洞順利執行，你將會看到各種選項的開機選單
 1. 將游標移至**「Autoboot: Disabled」**上，並按「A」鍵直到選項變為**「Autoboot: System Menu」**為止
@@ -53,6 +58,9 @@ ___
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+You may reconnect any USB devices after the installation has completed.
+{: .notice--info}
 
 **千萬不要刪除 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**    
 {: .notice--danger}
