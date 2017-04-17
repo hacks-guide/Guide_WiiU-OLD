@@ -34,9 +34,9 @@ Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
 * La última versión de [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * La última versión de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* La última versión de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/tag/HIDtoVPAD-v0.9h-nightly-92f7f08)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * La última versión de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* La última versión de [savemii](https://github.com/Ryuzaki-MrL/savemii/releases)
+* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(el archivo `.zip` que dice "channel")*
 * Una versión anterior del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(el archivo `.zip` del launcher)*
 * Las últimas versiones de [Haxchi y CBHC](https://github.com/FIX94/haxchi/releases/latest) *(los dos archivos `.zip`)*
