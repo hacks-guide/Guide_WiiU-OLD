@@ -44,7 +44,7 @@ permalink: /zh_TW/disc2app.html
 1. 啟動你的 Wii U
 1. 當提示時，格式化你的外接硬碟
 
-##### 第三節 — 使用 disc2app
+##### Section II - Using disc2app
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 disc2app
@@ -53,7 +53,7 @@ permalink: /zh_TW/disc2app.html
 1. 光碟拷貝過程將耗費一段時間，請耐心等候
 1. 當完成後，你將會被踢回 SysNAND 的系統主選單中
 
-##### 第四節 — 安裝拷貝遊戲
+##### Section III - Installing dumped game
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 WUP Installer - Mod Y
