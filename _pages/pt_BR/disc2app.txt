@@ -44,7 +44,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 1. Ligue seu Wii U
 1. Formate o disco rígido externo quando solicitado
 
-##### Seção III - Usando o disc2app
+##### Section II - Using disc2app
 
 1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Execute o disc2app
@@ -53,7 +53,7 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 1. Permita que o processo de descarregamento do disco proceda automaticamente; isso pode levar algum tempo
 1. Quando finalizado, você irá retornar para o menu do sistema
 
-##### Seção IV - Instalando um jogo descarregado
+##### Section III - Installing dumped game
 
 1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Inicie o WUP Installer - Mod Y
