@@ -44,7 +44,7 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 1. Accendi la tua Wii U
 1. Formatta l'hard disk esterno quando richiesto
 
-##### Section II - Using disc2app
+##### Sezione II - Usare disc2app
 
 1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia disc2app
@@ -53,7 +53,7 @@ Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard
 1. Attendi che il processo di estrazione del disco finisca automaticamente; richiederà del tempo
 1. Una volta finito il processo, ritornerai al menu di sistema
 
-##### Section III - Installing dumped game
+##### Sezione III - Installare il gioco estratto
 
 1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia WUP Installer - Mod Y
