@@ -44,7 +44,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Schalte die Wii U an
 1. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
 
-##### Abschnitt III - disc2app nutzen
+##### Section II - Using disc2app
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte disc2app
@@ -53,7 +53,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Erlaube dem Disc dump Fortschritt automatisch fortzufahren; das dauert eine Weile
 1. Wenn alles fertig ist, kehrst du ins System-Menü zurück
 
-##### Abschnitt IV - Gedumptes Spiel installieren
+##### Section III - Installing dumped game
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte "WUP Installer -Mod Y"
