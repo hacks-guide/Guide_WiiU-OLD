@@ -44,7 +44,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 1. Enciende tu Wii U
 1. Formatea el disco duro externo cuando se te pida
 
-##### Section II - Using disc2app
+##### Sección II - Usando disc2app
 
 1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
 1. Inicia disc2app
@@ -53,7 +53,7 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 1. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
 1. Cuando haya finalizado, se regresará al menú del sistema
 
-##### Section III - Installing dumped game
+##### Sección III - Instalar el juego volcado
 
 1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
 1. Inicia WUP Installer - Mod Y
