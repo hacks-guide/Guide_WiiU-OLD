@@ -34,9 +34,9 @@ permalink: /zh_TW/get-started.html
 * 最新版的 [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* 最新版的 [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
 * 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
