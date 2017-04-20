@@ -27,7 +27,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 #### Vad du behöver
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Senaste versionen av [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
