@@ -7,9 +7,27 @@ permalink: /zh_TW/vwii-modding.html
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
 {: .notice--info}
 
+#### 必備項目
+
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+
 #### 操作說明
 
-##### 第一節 — wuphax
+##### 第一節 — 準備工作
+
+1. 關閉你的裝置
+1. 將 SD 卡插入電腦
+1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
+1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
+1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
+1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. 將 SD 卡插回裝置中
+1. 啟動你的裝置
+
+##### Section II - wuphax
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 wuphax
@@ -29,7 +47,7 @@ permalink: /zh_TW/vwii-modding.html
 1. 當提示時，按下「B」鍵還原 Mii 頻道
 1. 照步驟跑完回至 vWii 中
 
-##### 第二節 － 拷貝 vWii NAND
+##### Section III - Dumping vWii NAND
 
 未來如果你的 vWii 出了任何問題的話，到時這個 NAND 備份能將 vWii 還原至正常狀態。
 {: .notice--info}
@@ -43,7 +61,7 @@ permalink: /zh_TW/vwii-modding.html
 1. **從你 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方（像是雲端硬碟）；此備份將會在你未來玩壞 vWii 時救你一命**
 1. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
 
-##### 第三節 － cIOS 安裝
+##### Section IV - cIOS Installation
 
 請確保 SD 卡根目錄底下沒有名為 `wad` 或 `wads` 的資料夾，並確保除了 `/apps/` 之外沒有任何其他的 `.wad` 檔案在 SD 卡中。
 {: .notice--warning}
@@ -71,7 +89,7 @@ permalink: /zh_TW/vwii-modding.html
 1. 按「A」鍵安裝
 1. 等待安裝完畢，並按下「B」鍵離開
 
-##### 第四節 － 修改 IOS80
+##### Section V - Patching IOS80
 
 **如果本節出了任何差錯（跳電...等），你的 vWii 將會磚機而得要你還原先前備份的 vWii 才能恢復運作。 請在確保你已經先備份完畢再行繼續。**
 {: .notice--danger}
