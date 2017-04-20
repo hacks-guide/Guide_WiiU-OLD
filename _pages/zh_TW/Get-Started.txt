@@ -27,7 +27,7 @@ permalink: /zh_TW/get-started.html
 
 #### 必備項目
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * 最新版的 [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
