@@ -27,12 +27,9 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 #### Quello che ti serve
 
-* [`config.txt`](images/config.txt)
-* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * L'ultima versione di [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
-* L'ultima versione di [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * L'ultima versione di [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * L'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -40,7 +37,6 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 * L'ultima versione dell'[Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(l'archivio `.zip` del canale)*
 * Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip`del Launcher)*
 * L'ultima versione di [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi gli archivi`.zip`)*
-* L'ultima versione del [Hackmii Installer](https://bootmii.org/download/)
 * L'ultima versione di [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### Istruzioni
@@ -63,12 +59,8 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Copia la cartella `savemii` dall'archivio `.zip`di savemii nella cartella `/wiiu/apps` nella tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Modified WUP Installer nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di disc2app nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip`di WUPhax nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di hid\_to\_vpad nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di NNU-Patcher nella root della tua scheda SD
-1. Copia il file `boot.elf` dalla cartella `hackmii_installer_v1.2` all'interno dell'archivio `.zip` dell'Hackmii Installer nella root della tua scheda SD
-1. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
-1. Copia e unisci la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
