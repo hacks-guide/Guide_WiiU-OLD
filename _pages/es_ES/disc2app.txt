@@ -10,10 +10,10 @@ Esto te permitirá volcar tus discos a un formato que puedas instalar con el fin
 {% capture notice-2 %}
 **Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:**
 
-    + No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
-    + La Wii U sólo reconoce hasta 2tb del disco duro externo, incluso si es de mayor capacidad.
-    + Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
-    + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
++ No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
++ La Wii U sólo reconoce hasta 2tb del disco duro externo, incluso si es de mayor capacidad.
++ Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
++ Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
