@@ -27,7 +27,7 @@ Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
 
 #### Qué necesitas
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * La última versión de [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
