@@ -27,7 +27,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 #### What you need
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * The latest release of [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
