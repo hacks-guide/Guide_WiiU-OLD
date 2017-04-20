@@ -28,11 +28,8 @@ permalink: /zh_TW/get-started.html
 #### 必備項目
 
 * [`config.txt`](images/config.txt)
-* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * 最新版的 [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
-* 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -40,7 +37,6 @@ permalink: /zh_TW/get-started.html
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
 * 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
-* 最新版的 [Hackmii Installer](https://bootmii.org/download/)
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### 操作說明
@@ -63,12 +59,8 @@ permalink: /zh_TW/get-started.html
 1. 複製 savmii `.zip` 中的 `savemii` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製並覆蓋 Modified WUP Installer `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-1. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 hid\_to\_vpad `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 NNU-Patcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
-1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
-1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
 1. 將 SD 卡插回裝置中
 1. 啟動你的裝置
 
