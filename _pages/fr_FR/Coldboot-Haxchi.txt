@@ -19,14 +19,19 @@ This page is optional. Regular Haxchi works just fine as is; this just offers ex
 **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!**
 {: .notice--danger}
 
+**You must remove all USB devices before installing or you may BRICK!**
+{: .notice--danger}
+
 #### Instructions
 
+1. Remove all USB devices from your Wii U
 1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
 1. Launch the CBHC installer
 1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
   + **This game MUST already have a functional Haxchi installed**
 1. Read the warning that appears, then press (A) to install
 1. Once this is complete, you should be back at the system menu
+1. You may reconnect any USB devices that were disconnected earlier.
 1. Reboot your Wii U
 1. If the exploit was successful, you will see a menu appear with various boot options
 1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
@@ -53,6 +58,9 @@ Your device should now automatically launch into Coldboot Haxchi patched SysNAND
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+You may reconnect any USB devices after the installation has completed.
+{: .notice--info}
 
 **Never uninstall the CBHC DS virtual console game or you will BRICK.**    
 {: .notice--danger}

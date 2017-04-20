@@ -27,8 +27,8 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
 
 ___
 
-If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
+Se preferisci comprare un gioco exploitabile per avviare il Custom Firmware all'avvio della console *(o possiedi già uno dei giochi DS della Virtual Console successivamente elencati)* continua alla pagina [Haxchi](haxchi).
 {: .notice--primary}
 
-If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
+Se preferisci avviare il Custom Firmware utilizzando il browser ogni volta per risparmiare soldi, continua alla pagina [Mocha CFW](mocha-cfw).
 {: .notice--primary}

@@ -1,27 +1,27 @@
 ---
 title: "Haxchi" #
 lang: zh-Hant
-permalink: /haxchi.html
+permalink: /zh_TW/haxchi.html
 ---
 
-Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi 是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。
 {: .notice}
 
-Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi 是個能讓我們能從系統主選單直接啟動 Mocha CFW 的漏洞，省去使用 Homebrew Launcher 的麻煩。
 {: .notice--info}
 
-If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. 一旦購買完畢後，請重新進入[Homebrew Launcher](homebrew-launcher)。
+如果你想購買可用漏洞的遊戲，請先透過 Homebrew Launcher 啟動 NNU-Patcher 再啟動 eShop。 一旦購買完畢後，請繼續閱讀 [Homebrew Launcher](homebrew-launcher)。
 {: .notice--primary}
 
 
 #### 必備項目
 
-+ 下列任一 DS Virtual Console 遊戲（須為正版且安裝於 Wii U 內存中）
++ 下列任一 DS 虛擬主機 遊戲（須為正版且安裝於 Wii U 內存中）
   + **千萬不要**安裝遊戲在 USB 儲存裝置中
   + 目前為止，《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》是 eShop 上最便宜的遊戲 ($6.99 美元)
   + 如果你先前已經安裝過了上述遊戲，請將它刪除並再重新透過 eShop 下載。 舊版的遊戲無法與 Haxchi 相容
   + 注意未來你將無法再遊玩你所選的遊戲
-  + **你的 Haxchi DS Virtual Console 遊戲 _必須_ 是正版的！**
+  + **你的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的！**
 
 |相容的 Haxchi 遊戲 |
 | ------------- |
@@ -51,26 +51,26 @@ If you need to purchase one of the exploitable games, run NNU-Patcher from the H
 #### 操作說明
 
 1. 啟動 Haxchi installer
-1. 選擇你要安裝 Haxchi 的 DS Virtual Console 遊戲，並按下「A」鍵以選取
+1. 選擇你要安裝 Haxchi 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「A」鍵安裝
-1. 安裝完畢後，啟動你 Haxchi 改後的 DS Virtual Console 遊戲（叫「Haxchi」）
-1. The console will reboot into patched SysNAND
-  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+1. 安裝完畢後，啟動你 Haxchi 改後的 DS 虛擬主機 遊戲（叫「Haxchi」）
+1. 主機將重啟至修改後的 SysNAND 中
+  + 這將允許你從系統主選單中直接啟動未簽證的程式（如 Homebrew Channel 及備份遊戲等）
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. 下一章節將會安裝 CBHC (Coldboot Haxchi)，它將會幫你每次在開機時自動啟動 DS Virtual Console。
+目前為止，你必須在每次開機後啟動修改過後的 DS 虛擬主機 遊戲才能進入修改後的 SysNAND。 下一章節將會安裝 CBHC (Coldboot Haxchi)，它將會幫你每次在開機時自動啟動 DS 虛擬主機。
 {: .notice}
 
 {% capture notice-1 %}
-**你現在可以在啟動修改過後的 DS Virtual Console 時按住不同按鈕以進入不同的開機選項。 每個選項的功能如下：**
+**你現在可以在啟動修改過後的 DS 虛擬主機 時按住不同按鈕以進入不同的開機選項。 每個選項的功能如下：**
 
-    + None -> Boots into patched SysNAND
-    + (A) -> Boots into the Homebrew Launcher
+    + None -> 啟動至修改後的 SysNAND
+    + (A) -> 啟動至 Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+繼續至 [冷啟動 Haxchi](coldboot-haxchi)。
 {: .notice--primary}

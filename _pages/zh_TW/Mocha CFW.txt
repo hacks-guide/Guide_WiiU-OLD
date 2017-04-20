@@ -1,13 +1,13 @@
 ---
 title: "Mocha CFW" #
 lang: zh-Hant
-permalink: /mocha-cfw.html
+permalink: /zh_TW/mocha-cfw.html
 ---
 
-Mocha CFW is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Mocha CFW是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。
 {: .notice}
 
-In order to boot the patched signature checks and boot patched SysNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+為了能在開機時套用簽證補丁及啟動至修改後的 SysNAND 中，你每次重啟時都得透過 Homebrew Launcher 啟動 Mocha CFW。
 {: .notice--info}
 
 #### 操作說明
@@ -22,11 +22,11 @@ In order to boot the patched signature checks and boot patched SysNAND, you will
   + Launch System Menu: **on**
   + RedNAND: **off**
 1. 按「A」鍵確認並退出
-1. Your Wii U should reboot into the system menu
+1. 你的 Wii U 將重啟至系統主選單中
 
 ___
 
-You will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to enter patched SysNAND.
+你每次重啟時都得從 Homebrew Launcher 開啟 Mocha CFW 才能進入修改後的 SysNAND 中。
 {: .notice}
 
 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。

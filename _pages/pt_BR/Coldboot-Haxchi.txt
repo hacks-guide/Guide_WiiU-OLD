@@ -19,14 +19,19 @@ Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apen
 **Seu jogo de DS do Virtual Console com o Haxchi DEVE ser uma cópia LEGÍTIMA, ou você irá BRICKAR!**
 {: .notice--danger}
 
+**Você deve remover todos os dispositivos USB antes de realizar a instalação ou você poderá BRICKAR!**
+{: .notice--danger}
+
 #### Instruções
 
+1. Remova todos os dispositivos USB do seu Wii U
 1. Entre no Homebrew Launcher segurando (A) enquanto inicia seu jogo Haxchi de DS do Virtual Console
 1. Execute o CBHC installer
 1. Selecione o jogo de DS do Virtual Console que você está instalando o CBHC e aperte (A) para selecioná-lo
   + **Este jogo já DEVE ter uma instalação funcional do Haxchi**
 1. Leia o aviso que irá aparecer e aperte (A) para instalar
 1. Uma vez completado, você deve voltar ao menu do sistema
+1. Você pode reconectar todos os dispositivos USB que foram desconectados anteriormente.
 1. Reinicie o seu Wii U
 1. Se o exploit foi bem-sucedido, você verá um menu aparecer com várias opções de inicialização
 1. Posicione o cursor em **"Autoboot: Disabled"** e, em seguida, aperte (A) nele até aparecer **"Autoboot: System Menu"**
@@ -53,6 +58,9 @@ Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto a Sy
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Você pode reconectar todos os dispositivos USB após a conclusão da instalação.
+{: .notice--info}
 
 **Nunca desinstale o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR.**    
 {: .notice--danger}
