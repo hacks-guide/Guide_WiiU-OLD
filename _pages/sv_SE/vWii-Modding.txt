@@ -11,8 +11,8 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+* Senaste versionen av [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
 
 #### Instruktioner
 
@@ -20,14 +20,14 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
-1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
-1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
-1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Kopiera och slå ihop _innehållet_ från WUPhax `zip`-filen till roten av ditt SD-kort
+1. Kopiera `boot.elf` från `hackmii_installer_v1.2`-katalogen i Hackmii Installer `.zip`-filen till roten av ditt SD-kort
+1. Kopiera `apps`-katalogen från `vWii_cIOS_apps_20131218.zip` till roten av ditt SD-kort
+1. Kopiera och slå ihop `apps`-katalogen från `Patched_IOS80_Installer_for_vWii.zip` till roten av ditt SD-kort
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-##### Section II - wuphax
+##### Avsnitt II - wuphax
 
 1. Stata Homebrew Launcher Channel från modifierad SysNAND
 1. Starta wuphax
@@ -47,7 +47,7 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 1. Tryck (B) när du frågas om att återställa Mii Channel
 1. Gå igenom instruktionerna för att återgå till vWii
 
-##### Section III - Dumping vWii NAND
+##### Avsnitt III - Dumpa vWii NAND
 
 Den här säkerhetskopian av NAND kommer låta dig återställa din vWii till ett fungerande tillstånd om något skulle gå fel.
 {: .notice--info}
@@ -61,7 +61,7 @@ Den här säkerhetskopian av NAND kommer låta dig återställa din vWii till et
 1. **Kopiera `nand.bin` och `keys.bin` från roten av ditt SD-kort till en säker plats på din dator och säkerhetskopiera båda filerna till ett flertal platser (som t.ex. online-lagring); den här säkerhetskopian kommer rädda din vWii från en brickning om något skulle gå fel**
 1. Radera `nand.bin`och `keys.bin`från roten av ditt SD-kort
 
-##### Section IV - cIOS Installation
+##### Avsnitt IV - cIOS Installation
 
 Se till att det inte finns några kataloger som heter `wad` eller `wads` på roten av ditt SD-kort och att det inte finns några `.wad`-filer någonstans annat än i `/apps/` på SD-kortet.
 {: .notice--warning}
@@ -89,7 +89,7 @@ Se till att det inte finns några kataloger som heter `wad` eller `wads` på rot
 1. Tryck (A) för att installera
 1. Vänta på att installationen slutförs, tryck sen (B) för att avsluta
 
-##### Section V - Patching IOS80
+##### Avsnitt V - Patchning av IOS80
 
 **Det här steget kommer bricka din vWii-installation om det misslyckas av någon anledning (strömavbrott, etc.) vilket kommer kräva en återställning av vWii NAND. Säkerställ att du har din säkerhetskopia innan du fortsätter med det här avsnittet. **
 {: .notice--danger}
