@@ -7,9 +7,27 @@ permalink: /pt_BR/vwii-modding.html
 Isso permitirá que você instale o Homebrew Channel e outras modificações para vWii do Wii U (Wii virtual).
 {: .notice--info}
 
+#### O que você precisa
+
+* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
+* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+
 #### Instruções
 
-##### Seção I - wuphax
+##### Seção I - Preparação
+
+1. Desligue seu dispositivo
+1. Insira o seu cartão SD no seu computador
+1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
+1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
+1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
+1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Reinsira seu cartão SD no seu dispositivo
+1. Ligue seu dispositivo
+
+##### Section II - wuphax
 
 1. Inicie o Homebrew Launcher Channel na SysNAND alterada
 1. Inicie o wuphax
@@ -29,7 +47,7 @@ Isso permitirá que você instale o Homebrew Channel e outras modificações par
 1. Aperte (B) quando solicitado para restaurar o Mii Channel
 1. Passe pelos avisos para voltar ao vWii
 
-##### Seção II - Dump da NAND do vWii
+##### Section III - Dumping vWii NAND
 
 Esse backup da NAND permitirá que você restaure seu vWii para um ponto em que ele funcionava, se algo der errado.
 {: .notice--info}
@@ -43,7 +61,7 @@ Esse backup da NAND permitirá que você restaure seu vWii para um ponto em que 
 1. **Copie o `nand.bin` e `keys.bin` da raiz do seu cartão SD para um local seguro no seu computador e faça backups de ambos em vários lugares (como serviços de armazenamento online); este backup irá salvar seu vWii de um brick se algo der errado**
 1. Apague `nand.bin` e `keys.bin` da raiz do seu cartão SD
 
-##### Seção III - Instalação do cIOS
+##### Section IV - cIOS Installation
 
 Certifique-se de que não há nenhuma pasta chamada `wad` ou `wads` na raiz do seu cartão SD, e de que não existem outros arquivos `.wad` em qualquer outro lugar, exceto na pasta `/apps/` do cartão SD.
 {: .notice--warning}
@@ -71,7 +89,7 @@ Certifique-se de que não há nenhuma pasta chamada `wad` ou `wads` na raiz do s
 1. Aperte (A) para instalar
 1. Aguarde a conclusão da instalação e, em seguida, aperte (B) para sair
 
-##### Seção IV - Patch do IOS80
+##### Section V - Patching IOS80
 
 **Esta etapa irá brickar sua instalação do vWii caso ela falhe por quaisquer razões (falta de energia, etc) a qual irá necessitar de um backup da NAND do vWii para restaurá-la. Certifique-se que você tem o seu antes de prosseguir com esta seção.**
 {: .notice--danger}
