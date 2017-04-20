@@ -65,8 +65,8 @@ ___
 {% capture notice-1 %}
 **你現在可以在啟動修改過後的 DS 虛擬主機 時按住不同按鈕以進入不同的開機選項。 每個選項的功能如下：**
 
-    + None -> 啟動至修改後的 SysNAND
-    + (A) -> 啟動至 Homebrew Launcher
++ None -> 啟動至修改後的 SysNAND
++ (A) -> 啟動至 Homebrew Launcher
 
 {% endcapture %}
 
