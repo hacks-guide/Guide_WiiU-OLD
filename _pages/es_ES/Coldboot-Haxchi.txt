@@ -1,13 +1,13 @@
 ---
 title: "Coldboot Haxchi" #
 lang: es
-permalink: /coldboot-haxchi.html
+permalink: /es_ES/coldboot-haxchi.html
 ---
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the system menu, which will then load patched SysNAND.
+CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del menú del sistema, el cual cargará entonces la SysNAND modificada.
 {: .notice}
 
-Esta página es opcional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. Si deseas omitir Haxchi, continuar en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--info}
 
 **DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tienes, ¡BRICKEARÁS!**
@@ -19,25 +19,30 @@ Esta página es opcional. Regular Haxchi works just fine as is; this just offers
 **¡Tu juego de la consola virtual de DS con Haxchi DEBE ser una copia LEGÍTIMA o BRICKEARÁS!**
 {: .notice--danger}
 
+**Debes extraer todos los dispositivos USB antes de instalar, ¡o podrías tener un BRICK!**
+{: .notice--danger}
+
 #### Instrucciones
 
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
+1. Extrae todos los dispositivos USB de tu Wii U
+1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
 1. Inicia el CBHC Installer
 1. Selecciona el título de la consola virtual de DS en el que instalarás CBHC, después pulsa (A) para seleccionarlo
   + **Este juego DEBE tener una instalación funcional de Haxchi**
 1. Lee la advertencia que aparezca, después pulsa (A) para instalar
-1. Once this is complete, you should be back at the system menu
+1. Cuando se haya completado, deberías estar de regreso en el menú del sistema
+1. Puedes volver a conectar cualquier dispositivo USB que hayas desconectado antes.
 1. Reinicia tu Wii U
 1. Si el exploit funcionó, deberías ver un menú con varias opciones de arranque
-1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
-1. Press (A) on "Boot System Menu"
+1. Navega hasta **"Autoboot: Disabled"**, después presiona (A) hasta que diga **"Autoboot: System Menu"**
+1. Presiona (A) sobre "Boot System Menu"
 1. Reinicia tu Wii U para asegurarte que el exploit funciona automáticamente como se pretende
-1. Move the CBHC DS virtual console game to the last page of the system menu
-  + Read the warnings at the bottom of this page carefully to avoid bricking your device!
+1. Mueve el juego de consola virtual de DS con CBHC a la última página
+  + ¡Lee las advertencias al final de esta página detenidamente para evitar brickear tu consola!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Tu consola ahora debería iniciar automáticamente en la SysNAND modificada con Coldboot Haxchi al encenderla.
 {: .notice}
 
 {% capture notice-1 %}
@@ -54,19 +59,22 @@ Your device should now automatically launch into Coldboot Haxchi patched SysNAND
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+Puedes volver a conectar cualquier dispositivo USB luego de haber completado la instalación.
+{: .notice--info}
+
+**Nunca desinstales el juego de consola virtual de DS on CBHC DS o tendrás un BRICK.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game from the eShop or you will BRICK.**
+**Nunca reinstales el juego de consola virtual de DS con CBHC DS desde la eShop o tendrás un BRICK.**
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+**Nunca muevas el juego de consola virtual de DS con CBHC DS a un disco USB o tendrás un BRICK.**
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**¡Nunca elimines el NNID de la cuenta de usuario que compró el juego de consola virtual de DS con CBHC o tendrás un BRICK!**
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**¡Nunca formatees tu consola mientras tenga CBHC instalado o tendrás un BRICK!**
 {: .notice--danger}
 
 Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).

@@ -20,13 +20,13 @@ permalink: /it_IT/faq.html
 **R:** I brick sono estremamente rari e sono di solito causati dagli utenti che saltano le istruzioni o che non le seguono.
 
 <a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*    
-**R:** Sì! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+**R:** Sì! Questa guida non solo ti permette di avviare l'Homebrew Launcher, ma le funzionalità aggiuntive permangono anche dopo un aggiornamento di sistema.
 
 <a name="faq_regionfree" />**D:** *Potrò giocare a giochi comprati all'estero?*    
 **R:** Mocha CFW supporta le patch Region Free, che permettono agli utenti di installare e giocare senza problemi a giochi provenienti da altre parti del mondo.
 
-<a name="faq_updates" />**Q:** *Is it safe to update patched SysNAND?*    
-**A:** No! You must always ensure that your internet settings include DNS servers that block updates just in case a new update is released!
+<a name="faq_updates" />**D:** *È sicuro aggiornare una SysNAND patchata?*    
+**R:** No! Devi sempre assicurati di bloccare gli aggiornamenti dalle impostazioni internet in caso di un nuovo aggiornamento!
 
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
 **R:** Puoi chiedere supporto nel canale [#wiiuhacks su Rizon IRC](https://qchat.rizon.net/?channels=wiiuhacks) o nel canale [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp).  

@@ -23,7 +23,7 @@ sitemap: false
 + [Homebrew Launcher (Canale)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
++ [Disinstallare Mocha CFW](uninstall-cfw)
 + [Modifca vWii](vwii-modding)
 + [Perché c'è la pubblicità?](why-ads)
 {% endcapture %}

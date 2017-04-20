@@ -4,22 +4,22 @@ lang: es
 permalink: /es_ES/homebrew-launcher-(channel).html
 ---
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Esto instalará el Homebrew Channel para que, una vez que tengas una SysNAND modificada funcionando, el Homebrew Launcher aparezca como un icono en el menú del sistema.
 {: .notice--info}
 
 #### Instrucciones
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`
+1. Inicia el Homebrew Launcher usando `http://loadiine.ovh`
 1. Inicia WUP Installer - Mod Y
 1. Presiona (A) para instalar el Homebrew Channel
 1. Presiona (Home) para salir del instalador una vez que haya completado la instalación
 
 ___
 
-You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
+Ahora puedes iniciar el Homebrew Launcher en la SysNAND modificada simplemente iniciando el Homebrew Channel.
 {: .notice}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Ten en cuenta que para acceder a la eShop con los las direcciones DNS que bloquean las actualizaciones, antes debes iniciar NNU-Patcher desde el Homebrew Launcher (NNU-Patcher es un parche temporal y tendrás que iniciarlo después de cada reinicio para entrar a la eShop).
 {: .notice--info}
 
 Para informarte acerca de cómo volcar los datos de tus discos de juego a un formato instalable para jugar sin necesidad del disco, echa un vistazo al apartado de [disc2app](disc2app).
@@ -28,5 +28,5 @@ Para informarte acerca de cómo volcar los datos de tus discos de juego a un for
 Para informarte acerca de cómo modificar la vWii en SysNAND, echa un vistazo al apartado de [Modear la vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Para informarte acerca de cómo desinstalar el CFW de forma segura y regresar la consola a su estado original, echa un vistazo al apartado de [Desinstalar CFW](uninstall-cfw).
 {: .notice--warning}

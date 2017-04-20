@@ -9,7 +9,7 @@ sitemap: false
 {% capture notice-2 %}
 **所有**
 
-+ [Coldboot Haxchi](coldboot-haxchi)
++ [冷啟動 Haxchi](coldboot-haxchi)
 + [製作群](credits)
 + [disc2app](disc2app)
 + [贊助](donations)
@@ -23,7 +23,7 @@ sitemap: false
 + [Homebrew Launcher (頻道)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
++ [卸載 Mocha CFW](uninstall-cfw)
 + [vWii 改機](vwii-modding)
 + [為什麼有廣告?](why-ads)
 {% endcapture %}

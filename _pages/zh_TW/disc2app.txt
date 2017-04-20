@@ -24,7 +24,7 @@ permalink: /zh_TW/disc2app.html
 
 #### 必備項目
 
-* A Wii U that that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* 一台可使用修改後 SysNAND 的 Wii U（Mocha CFW, Haxchi, CBHC...等）
 * 至少 25GB 剩餘空間的 SD 卡
 
 #### 操作說明
@@ -44,25 +44,25 @@ permalink: /zh_TW/disc2app.html
 1. 啟動你的 Wii U
 1. 當提示時，格式化你的外接硬碟
 
-##### 第三節 — 使用 disc2app
+##### 第二節 — 使用 disc2app
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 disc2app
 1. 按「A」鍵來拷貝遊戲至 SD 卡中
 1. 當提示時，插入你想要拷貝的遊戲光碟
 1. 光碟拷貝過程將耗費一段時間，請耐心等候
-1. When it is complete, you will be returned to the system menu
+1. 當完成後，你將會被踢回 SysNAND 的系統主選單中
 
-##### 第四節 — 安裝拷貝遊戲
+##### 第三節 — 安裝拷貝遊戲
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 WUP Installer - Mod Y
 1. 安裝遊戲至任一儲存空間中
   + 按「A」鍵以安裝至系統空間中
   + 按「X」鍵以安裝至外接硬碟中
 1. 遊戲安裝過程將耗費一段時間，請耐心等候
 1. 當完成後，你將會回到 Homebrew Launcher 中
-1. Press (Home) to return to the system menu
+1. 按下「Home」鍵回到系統主選單中
 
 ___
 

@@ -9,7 +9,7 @@ header:
   cta_url: "/it_IT/get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />" #
+excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi.<br />" #
 lang: it
 permalink: /it_IT/index.html
 ---
@@ -48,7 +48,7 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 + Giocare tutti i dischi e tutti titoli dell'eShop, indipendentemente dalla regionalità
 + Fare un backup, modificare e ripristinare i salvataggi di molti giochi
 + Avviare giochi per vecchie piattaforme usando emulatori, RetroArch o altri sistemi a sé stanti.
-+ Install homebrew titles to your system, and have them appear on your system menu
++ Installare titoli amatoriali sul tuo sistema e farli apparire sul tuo menu di sistema
 + Installare i tuoi dischi direttamente nella console per poterci giocare senza dover inserire il disco
 + Aggiornare all'ultima versione di sistema in sicurezza senza doversi preoccupare di perdere l'accesso agli homebrew
 
@@ -57,6 +57,6 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 + **Prima di seguire la guida, è necessario che tu conosca il rischio dell'hacking di una Wii U: OGNI volta che si modifica il sistema c'è sempre il rischio di un brick IRREVERSIBILE. È raro ma può sempre capitare, quindi assicurati di seguire ESATTAMENTE OGNI SINGOLO PASSAGGIO.**
 + Questa guida funziona su qualsiasi console di qualsiasi regione aggiornata all'ultima versione di sistema.
 + Seguendo correttamente la guida non perderai alcun dato e manterrai tutto ciò che era installato nella console (per cui giochi, NNID, salvataggi, ecc verranno tutti conservati).
-+ Your SD card is recommended to be at least 16gb or 32gb to have enough space for dumping and installing games.
++ La tua scheda SD dovrebbe avere almeno 16gb o 32gb liberi per poter installare e creare dei backup dei tuoi giochi.
 + La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/).
 + Se devi formattare una nuova scheda SD, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 32K.
