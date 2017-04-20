@@ -65,8 +65,8 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 {% capture notice-1 %}
 **You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
 
-    + None -> Boots into patched SysNAND
-    + (A) -> Boots into the Homebrew Launcher
++ None -> Boots into patched SysNAND
++ (A) -> Boots into the Homebrew Launcher
 
 {% endcapture %}
 
