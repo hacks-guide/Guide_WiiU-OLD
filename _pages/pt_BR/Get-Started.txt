@@ -27,7 +27,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 #### O que você precisa
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * A versão mais recente do [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * A versão mais recente do [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * A versão mais recente do [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
