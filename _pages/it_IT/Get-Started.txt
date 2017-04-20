@@ -27,7 +27,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 #### Quello che ti serve
 
-* [`config.txt`](images/config.txt)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * L'ultima versione di [WUP Installer Y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
