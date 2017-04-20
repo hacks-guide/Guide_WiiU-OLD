@@ -48,12 +48,12 @@ Your device should now automatically launch into Coldboot Haxchi patched SysNAND
 {% capture notice-1 %}
 **You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:**
 
-    + Boot System Menu -> Boots into SysNAND
-    + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-    + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
-    + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-    + Boot vWii System Menu -> Boots into vWii on SysNAND
-    + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
++ Boot System Menu -> Boots into SysNAND
++ Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
++ Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
++ Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
++ Boot vWii System Menu -> Boots into vWii on SysNAND
++ Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
 
 {% endcapture %}
 
