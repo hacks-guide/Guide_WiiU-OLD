@@ -65,8 +65,8 @@ Zurzeit musst du das DS Virtual Console Spiel bei jedem Neustart erneut laden um
 {% capture notice-1 %}
 **Du kannst jetzt mehrere Knöpfe, für unterschiedliche Optionen drücken, während du dein DS Virtual Console Spiel startest. Hier ist eine Liste der einzelnen Optionen:**
 
-    + None -> Bootet ins gepatchte SysNAND
-    + (A) -> Bootet den Homebrew Launcher
++ None -> Bootet ins gepatchte SysNAND
++ (A) -> Bootet den Homebrew Launcher
 
 {% endcapture %}
 
