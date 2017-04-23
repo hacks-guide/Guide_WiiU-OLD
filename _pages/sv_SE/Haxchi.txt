@@ -65,8 +65,8 @@ För närvarande måste du starta ditt DS virtual console-spelet varje gång du 
 {% capture notice-1 %}
 **Du kan nu hålla inne olika knappar medan du startar ditt DS virtual console-spel för olika startalternativ. Det här är vad var och en av inställningarna gör:**
 
-    + None -> Startar modifierad SysNAND
-    + (A) -> Startar Homebrew Launcher
++ None -> Startar modifierad SysNAND
++ (A) -> Startar Homebrew Launcher
 
 {% endcapture %}
 

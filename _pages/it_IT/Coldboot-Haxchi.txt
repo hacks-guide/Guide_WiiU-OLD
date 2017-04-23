@@ -48,12 +48,12 @@ La tua console dovrebbe ora entrare automaticamente dentro Coldboot Hachi e quin
 {% capture notice-1 %}
 **Puoi premere il pulsante (Home) all'avvio di CBHC per accedere al suo menu di avvio. Ecco le varie opzioni a te disponibili:**
 
-    + Boot System Menu -> Avvia la SysNAND
-    + Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND
-    + Boot Mocha CFW -> Avvia Mocha CFW e la RedNAND
-    + Boot fw.img on SD Card -> Avvia un qualunque CFW dalla scheda SD basato su fw.img
-    + Boot vWii System Menu -> Avvia la vWii nella SysNAND
-    + Boot vWii Homebrew Channel -> Avvia l'Homebrew Channel della vWii nella SysNAND
++ Boot System Menu -> Avvia la SysNAND
++ Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND
++ Boot Mocha CFW -> Avvia Mocha CFW e la RedNAND
++ Boot fw.img on SD Card -> Avvia un qualunque CFW dalla scheda SD basato su fw.img
++ Boot vWii System Menu -> Avvia la vWii nella SysNAND
++ Boot vWii Homebrew Channel -> Avvia l'Homebrew Channel della vWii nella SysNAND
 
 {% endcapture %}
 

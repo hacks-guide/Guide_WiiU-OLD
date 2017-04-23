@@ -10,10 +10,10 @@ Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit d
 {% capture notice-2 %}
 **Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte folgendes:**
 
-    + Du kannst nicht die selbe Festplatte für vWii und Wii U Spiele nutzen.
-    + Die Wii U nutzt nur 2tb Speicherplatz einer externen Festplatte, auch wenn die Festplatte an sich größer ist.
-    + Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
-    + Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
++ Du kannst nicht die selbe Festplatte für vWii und Wii U Spiele nutzen.
++ Die Wii U nutzt nur 2tb Speicherplatz einer externen Festplatte, auch wenn die Festplatte an sich größer ist.
++ Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
++ Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 

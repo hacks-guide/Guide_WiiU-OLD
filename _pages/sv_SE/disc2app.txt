@@ -10,10 +10,10 @@ Detta gör att du kan lagra dina skivor i ett format som går att installera med
 {% capture notice-2 %}
 **Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, notera följande:**
 
-    + Du kan inte använda samma hårddisk för vWii- och Wii U-spel.
-    + Wii U kan bara utnyttja upp till 2tb på en extern hårddisk, även om den har större kapacitet än så.
-    + Att formatera en extern hårddisk för att användas med en Wii U kommer radera allt dess innehåll.
-    + Om du använder en extern hårddisk som inte har sin egna strömförsörjning kommer du behöva en [Y-kabel](http://amzn.to/2mjQjin).
++ Du kan inte använda samma hårddisk för vWii- och Wii U-spel.
++ Wii U kan bara utnyttja upp till 2tb på en extern hårddisk, även om den har större kapacitet än så.
++ Att formatera en extern hårddisk för att användas med en Wii U kommer radera allt dess innehåll.
++ Om du använder en extern hårddisk som inte har sin egna strömförsörjning kommer du behöva en [Y-kabel](http://amzn.to/2mjQjin).
 
 {% endcapture %}
 
