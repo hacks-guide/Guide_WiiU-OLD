@@ -65,8 +65,8 @@ Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinic
 {% capture notice-1 %}
 **Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. Esto es lo que hace cada una de las opciones de arraque:**
 
-    + None -> Inicia la SysNAND modificada
-    + (A) -> Inicia el Homebrew Launcher
++ None -> Inicia la SysNAND modificada
++ (A) -> Inicia el Homebrew Launcher
 
 {% endcapture %}
 

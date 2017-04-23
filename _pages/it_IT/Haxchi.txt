@@ -65,8 +65,8 @@ Attualmente dovrai avviare il gioco DS della Virtual Console ogni volta che riav
 {% capture notice-1 %}
 **Puoi tenere premuto alcuni pulsanti all'avvio del tuo gioco DS della Virtual Console per avere diversi tipi di avvio di Haxchi. Ecco le varie opzioni a te disponibili:**
 
-    + Nulla -> Avvia la SysNAND patchata
-    + (A) -> Avvia l'Homebrew Launcher
++ Nulla -> Avvia la SysNAND patchata
++ (A) -> Avvia l'Homebrew Launcher
 
 {% endcapture %}
 

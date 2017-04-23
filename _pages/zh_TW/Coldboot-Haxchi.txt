@@ -48,12 +48,12 @@ ___
 {% capture notice-1 %}
 **你可以在 CBHC 啟動時按下「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：**
 
-    + Boot System Menu -> 開機至 SysNAND
-    + Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
-    + Boot Mocha CFW -> 開機至 RedNAND 的 Mocha CFW 中
-    + Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
-    + Boot vWii System Menu -> 開機至 SysNAND 的 vWii 中
-    + Boot vWii Homebrew Channel -> 開機至 SysNAND vWii 的 Homebrew Channel 中
++ Boot System Menu -> 開機至 SysNAND
++ Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
++ Boot Mocha CFW -> 開機至 RedNAND 的 Mocha CFW 中
++ Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
++ Boot vWii System Menu -> 開機至 SysNAND 的 vWii 中
++ Boot vWii Homebrew Channel -> 開機至 SysNAND vWii 的 Homebrew Channel 中
 
 {% endcapture %}
 

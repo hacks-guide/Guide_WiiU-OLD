@@ -27,12 +27,9 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 #### Was du benötigst
 
-* [`config.txt`](images/config.txt)
-* [`vWii_cIOS_apps_20131218.zip`](images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`](images/Patched_IOS80_Installer_for_vWii.zip)
+* [`config.txt`]({{ base_path }}/images/config.txt)
 * Die neueste Version des [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Die neueste Version des [Modified WUP Installer](https://github.com/Yardape8000/wupinstaller/releases/latest)
-* Die neueste Version von [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Die neueste Version von [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Die neueste Version der [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
@@ -40,7 +37,6 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 * Die neueste Version des [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(die channel- `.zip` -Datei)*
 * Eine vorherige Version [des Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(die launcher- `.zip` -Datei)*
 * Die neueste Version von [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(beide `.zip` Dateien)*
-* Die neueste Version des [Hackmii Installer](https://bootmii.org/download/)
 * Die neueste Version von [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### Anleitung
@@ -63,12 +59,8 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Kopiere den `savemii` Ordner von der savemii `.zip` in den `/wiiu/apps/` Ordner auf deiner SD -Karte
 1. Kopiere und füge _den Inhalt_ der Modified WUP Installer `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Kopiere und füge _den Inhalt_ der disc2app `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der WUPHax `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Kopiere und füge _den Inhalt_ der hid\_to\_vpad `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Kopiere und füge _den Inhalt_ der NNU-Patcher `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere die `boot.elf` aus dem `hackmii_installer_v1.2` Ordner der Hackmii Installer `.zip` ins Stammverzeichnis deiner SD-Karte
-1. Kopiere den `apps` Ordner der `vWii_cIOS_apps_20131218.zip` ins Stammverzeichnis deiner SD-Karte
-1. Kopiere und füge den `apps` Ordner der `Patched_IOS80_Installer_for_vWii.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
 
