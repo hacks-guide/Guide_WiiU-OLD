@@ -4,7 +4,7 @@ lang: zh-Hant
 permalink: /zh_TW/uninstall-cfw.html
 ---
 
-本章節將從你的 Wii U 上移除 Mocha CFW。不論你是如何安裝它的，都將把你的裝置設回原廠狀態。
+This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--info}
 
 如果你是在本指南還在使用 RedNAND 時所安裝的，請注意，遊戲及存檔是存在內存而非 SD 卡中的。 也就是說在你設定完 RedNAND 後所安裝的遊戲及存檔都將消失，就像回到當初的 SysNAND 系統一樣！
