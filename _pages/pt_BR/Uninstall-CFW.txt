@@ -4,7 +4,7 @@ lang: pt-BR
 permalink: /pt_BR/uninstall-cfw.html
 ---
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Isso irá remover o CFW do seu Wii U, independente do método de instalação, para o propósito de retornar o dispositivo ao modo de fábrica.
 {: .notice--info}
 
 Se você seguiu este guia quando ele utilizava RedNAND, note que os jogos e saves estão salvos na memória interna e não no cartão SD. Isso significa que todos os jogos e saves instalados depois de configurar a RedNAND serão removidos caso você faça a desinstalação, pois o sistema terá somente a SysNAND com a qual você começou!
