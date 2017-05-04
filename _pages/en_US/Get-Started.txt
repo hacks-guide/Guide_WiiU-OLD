@@ -29,7 +29,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer y Mod](https://github.com/Yardape8000/wupinstaller/releases/latest)
+* The latest release of [WUP Installer Gx 2](https://sourceforge.net/projects/wup-installer-gx2/)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
