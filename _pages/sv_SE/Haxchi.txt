@@ -7,7 +7,7 @@ permalink: /sv_SE/haxchi.html
 Haxchi är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.
 {: .notice}
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn utan att använda Homebrew Launcher.
 {: .notice--info}
 
 Om du behöver köpa ett av spelen med säkerhetsluckor i, kör NNU-Patcher från Homebrew Launcher och starta sen eShop. När du har köpt ett av spelen, återgå med hjälp av [Homebrew Launcher](homebrew-launcher).
