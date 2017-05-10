@@ -1,0 +1,77 @@
+---
+title: "disc2app" #
+lang: de
+permalink: /de_DE/disc2app.html
+---
+
+Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit du später spielen kannst ohne die Disc zu benötigen.
+{: .notice--info}
+
+{% capture notice-2 %}
+**Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte folgendes:**
+
++ Du kannst nicht die selbe Festplatte für vWii und Wii U Spiele nutzen.
++ Die Wii U nutzt nur 2tb Speicherplatz einer externen Festplatte, auch wenn die Festplatte an sich größer ist.
++ Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
++ Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-2 | markdownify }}</div>
+
+Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte, dass die Wii U nur Festplattenspeicher bis 2tb benutzt, auch wenn die Festplatte an sich größer ist.
+{: .notice--info}
+
+#### Was du benötigst
+
+* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* 25GB of free space on your SD card
+
+#### Anleitung
+
+##### Schritt I - Die externe Festplatte formatieren
+
+Solltest du eine externe Festplatte beutzen wollen, auf der du deine Spiele installierst, folge diesem Abschnitt.
+{: .notice--info}
+
+Solltest du nicht vorhaben, eine externe Festplatte zu verwenden, oder schon eine im Wii U Format haben, überspringe diesen Abschnitt.
+{: .notice--info}
+
+Beachte, dass dies alle Daten auf der externen Festplatte löscht!
+{: .notice--danger}
+
+1. Schließe die Festplatte an die Wii U an, während diese ausgeschaltet ist
+1. Schalte die Wii U an
+1. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
+
+##### Section II - Using disc2app
+
+1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
+1. Starte disc2app
+1. Drücke (A) um auf die SD Karte zu dumpen
+1. Lege die zu dumpende Disc ein, sobald du dazu aufgefordert wirst
+1. Erlaube dem Disc dump Fortschritt automatisch fortzufahren; das dauert eine Weile
+1. Wenn alles fertig ist, kehrst du ins System-Menü zurück
+
+##### Section III - Installing dumped game
+
+1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
+1. Launch WUP Installer GX2
+1. Select the game you want to install
+1. Press "Install", then press "Yes" to confirm
+1. Select the destination you wish to install to
+  + Pick from either internal storage (NAND) or an external drive (USB)
+1. Erlaube dem Installationsfortschritt automatisch fortzufahren; das dauert eine Weile
+1. Wenn alles fertig ist, kehrst du in den Homebrew Launcher zurück
+1. Press (Home), then close the software to return to the system menu
+
+___
+
+Um den vom Disc dump genutzten Speicher wieder freizugeben, lösche den neu erstellten Ordner in `/install/` auf deiner SD Karte
+{: .notice--info}
+
+Sollte alles gut verlaufen sein, siehst du dein neues Spiel im Menü, bereit gespielt zu werden!
+{: .notice--success}
+
+Du kannst dich vergewissern, dass das Spiel am richtigen Ort installiert ist, indem du den Installationspfad in den Systemeinstellungen unter "Datenverwaltung" prüfst
+{: .notice--success}
