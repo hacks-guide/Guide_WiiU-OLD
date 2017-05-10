@@ -1,0 +1,26 @@
+---
+title: "Créditos" #
+lang: es
+permalink: /es_ES/credits.html
+---
+
+Si te olvidamos, puedes contactarnos para añadir tu nombre.
+{: .notice}
+
+{% capture notice-1 %}
+
+    + damysteryman
+    + derrek
+    + dimok789
+    + FIX94
+    + koolkdev
+    + plutooo
+    + smea
+    + [Truth]
+    + vgmoose
+    + Yardape8000
+    + yellows8
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
