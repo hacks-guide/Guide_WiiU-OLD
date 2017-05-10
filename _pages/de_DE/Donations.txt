@@ -1,0 +1,24 @@
+---
+title: "Spenden" #
+lang: de
+permalink: /de_DE/donations.html
+layout: single-no-ads
+---
+
+### Plailect
+
+[![Patreon]({{ base_path }}/images/patreon_white.png){:height="58px" width="256px"}{: style="padding-bottom: .35em"}](https://www.patreon.com/Plailect){: .align-center}
+[https://www.patreon.com/Plailect](https://www.patreon.com/Plailect)
+{: .text-center}
+{: .notice--info}
+
+[![Bitcoin]({{ base_path }}/images/bitcoin_white.png){:height="53px" width="256px"}{: style="padding-bottom: .35em"}](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety){: .align-center}
+[1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety](bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety)
+{: .text-center}
+{: .notice--info}
+
+### FlimFlam69
+
+[![Paypal]({{ base_path }}/images/paypal_transparent.png){:height="73px" width="256px"}](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
+{: .text-center}
+{: .notice--info}
