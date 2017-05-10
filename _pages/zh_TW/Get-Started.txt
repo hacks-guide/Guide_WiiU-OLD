@@ -1,0 +1,92 @@
+---
+title: "從頭開始" #
+lang: zh-Hant
+permalink: /zh_TW/get-started.html
+---
+
+下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
+{: .notice--primary}
+
+在開始前，請先將你的 Wii U 更新至最新版本以確保相容性。 目前最新版本為 5.5.1。
+{: .notice--info}
+
+Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
+{: .notice--info}
+
+Your SD card must be formatted as FAT32 (64KB clusters if possible). 大部分的 SD 卡預設都是以這個格式出廠的。
+{: .notice--info}
+
+如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+{: .notice--warning}
+
+**千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
+{: .notice--warning}
+
+在開始前，建議使用 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac)) 來檢查問題你裝置的 SD 卡有沒有問題！
+{: .notice--warning}
+
+#### 必備項目
+
+* [`config.txt`]({{ base_path }}/images/config.txt)
+* 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* 最新版的 [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
+* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
+* 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+
+#### 操作說明
+
+##### 第一節 — 準備工作
+
+1. 關閉你的裝置
+1. 將 SD 卡插入電腦
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
+1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
+1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
+1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
+1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
+1. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/hbc/` 資料夾底下
+1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
+1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
+1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
+1. 複製 savmii `.zip` 中的 `savemii` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
+1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 hid\_to\_vpad `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 複製並覆蓋 NNU-Patcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. 將 SD 卡插回裝置中
+1. 啟動你的裝置
+
+##### 第一節 — 阻擋系統更新
+
+請注意，除非你在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
+{: .notice--danger}
+
+請注意，如果你想要在設置這些 DNS 後使用 eShop，你必須首先透過 Homebrew Launcher 進行 NNU-Patcher（NNU-Patcher 是一個臨時補丁，如果你想要在重啟後啟動 eShop，你必須再重新跑一次這補丁）。
+{: .notice--info}
+
+1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示你目前的網路設置
+1. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
+  + 選擇網路設定
+  + 選擇「更改設置（Change Settings）」
+  + 到第二個選單中，選擇「DNS」
+  + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
+  + 將 DNS 伺服器 IP 設為下列位址
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + 按下確認及「B」鍵儲存設置
+  + 這些伺服器是用來阻擋 SysNAND 更新用的
+
+___
+
+繼續至 [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
