@@ -293,7 +293,7 @@ body:hover .visually-hidden button {
   position: relative;
   width: $navicon-width;
   height: $navicon-height;
-  background: #fff;
+  background: $primary-color;
   margin: auto;
 
   &:before,
@@ -303,7 +303,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: $primary-color;
   }
 
   &:before {
@@ -347,6 +347,7 @@ body:hover .visually-hidden button {
   width: $navicon-width;
   background: transparent;
   margin: auto;
+  color: $primary-color;
 
   &:before,
   &:after {
@@ -355,7 +356,7 @@ body:hover .visually-hidden button {
     left: 0;
     width: $navicon-width;
     height: $navicon-height;
-    background: #fff;
+    background: $primary-color;
     display: none;
   }
 
@@ -525,4 +526,18 @@ a.reversefootnote {
 .required {
   color: $danger-color;
   font-weight: bold;
+}
+
+
+/*
+   Ads
+   ========================================================================== */
+
+.adsbygoogle {
+  border-bottom: none;
+  margin-bottom: 1rem;
+}
+
+.adsbygoogle:last-child {
+  margin-bottom: 0;
 }
