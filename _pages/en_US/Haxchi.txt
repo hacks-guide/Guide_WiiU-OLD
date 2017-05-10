@@ -7,7 +7,7 @@ permalink: /haxchi.html
 Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
 {: .notice}
 
-Haxchi is an exploit that allows us to launch Mocha CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
 {: .notice--info}
 
 If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
