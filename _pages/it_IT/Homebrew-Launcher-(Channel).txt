@@ -1,0 +1,40 @@
+---
+title: "Homebrew Launcher (Canale)" #
+lang: it
+permalink: /it_IT/homebrew-launcher-(channel).html
+---
+
+Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da avere l'Homebrew Launcher come icona sul menu di sistema della tua SysNAND patchata.
+{: .notice--info}
+
+#### Istruzioni
+
+1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
+1. Launch WUP Installer GX2
+1. Select the Homebrew Channel and WUP Installer GX2
+1. Press "Install", then press "Yes" to confirm
+1. Select "NAND" as the destination
+1. Press (Home), then close the software to exit the installer once it has completed installing
+
+___
+
+Adesso puoi avviare l'Homebrew Launcher nella SysNAND patchata semplicemente avviando l'Homebrew Channel.
+{: .notice}
+
+You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+{: .notice}
+
+For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+{: .notice--primary}
+
+Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
+{: .notice--info}
+
+Per informazioni su come creare un backup dei tuoi dischi in un formato che permette di giocarli senza necessitare il disco, visita la pagina [disc2app](disc2app).
+{: .notice--success}
+
+Per informazioni su come modificare la vWii della SysNAND, visita la pagina [Modifica vWii](vwii-modding).
+{: .notice--success}
+
+Per informazioni su come disinstallare CFW in tutta sicurezza, visita la pagina [Disinstallare CFW](uninstall-cfw).
+{: .notice--warning}
