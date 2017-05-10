@@ -1,0 +1,26 @@
+---
+title: "製作群" #
+lang: zh-Hant
+permalink: /zh_TW/credits.html
+---
+
+如果我們忘記把你加進來的話，請與我們聯繫。
+{: .notice}
+
+{% capture notice-1 %}
+
+    + damysteryman
+    + derrek
+    + dimok789
+    + FIX94
+    + koolkdev
+    + plutooo
+    + smea
+    + [Truth]
+    + vgmoose
+    + Yardape8000
+    + yellows8
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
