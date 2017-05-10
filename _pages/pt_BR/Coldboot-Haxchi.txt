@@ -1,0 +1,81 @@
+---
+title: "Coldboot Haxchi" #
+lang: pt-BR
+permalink: /pt_BR/coldboot-haxchi.html
+---
+
+CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie os jogos de DS do Virtual Console por padrão em vez do menu de sistema, o qual irá carregar a SysNAND alterada.
+{: .notice}
+
+Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apenas oferece uma conveniência extra. Se você gostaria de ignorar o Haxchi, continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--info}
+
+**Você DEVE ter uma instalação funcional do Haxchi para isto funcionar. Caso não tenha, você irá BRICKAR!**
+{: .notice--danger}
+
+**Seu jogo de DS do Virtual Console com o Haxchi DEVE estar na memória interna do seu Wii U. Caso ele esteja em um drive USB, você irá BRICKAR!**
+{: .notice--danger}
+
+**Seu jogo de DS do Virtual Console com o Haxchi DEVE ser uma cópia LEGÍTIMA, ou você irá BRICKAR!**
+{: .notice--danger}
+
+**Você deve remover todos os dispositivos USB antes de realizar a instalação ou você poderá BRICKAR!**
+{: .notice--danger}
+
+#### Instruções
+
+1. Remova todos os dispositivos USB do seu Wii U
+1. Entre no Homebrew Launcher segurando (A) enquanto inicia seu jogo Haxchi de DS do Virtual Console
+1. Execute o CBHC installer
+1. Selecione o jogo de DS do Virtual Console que você está instalando o CBHC e aperte (A) para selecioná-lo
+  + **Este jogo já DEVE ter uma instalação funcional do Haxchi**
+1. Leia o aviso que irá aparecer e aperte (A) para instalar
+1. Uma vez completado, você deve voltar ao menu do sistema
+1. Você pode reconectar todos os dispositivos USB que foram desconectados anteriormente.
+1. Reinicie o seu Wii U
+1. Se o exploit foi bem-sucedido, você verá um menu aparecer com várias opções de inicialização
+1. Posicione o cursor em **"Autoboot: Disabled"** e, em seguida, aperte (A) nele até aparecer **"Autoboot: System Menu"**
+1. Aperte (A) em "Boot System Menu"
+1. Reinicie seu Wii U para garantir que o exploit funciona automaticamente, como pretendido
+1. Mova o jogo de DS do Virtual Console do CBHC para a última página do menu do sistema
+  + Leia os avisos na parte inferior da página cuidadosamente para evitar danificar seu dispositivo!
+
+___
+
+Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto a SysNAND alterada na inicialização.
+{: .notice}
+
+{% capture notice-1 %}
+**Você pode apertar (Home) enquanto o CBHC estiver iniciando para acessar o menu de opções de inicialização do CBHC. Isto é o que cada uma das opções de inicialização faz:**
+
++ Boot System Menu -> Inicializa na SysNAND
++ Boot Homebrew Launcher -> Inicializa no Homebrew Launcher na SysNAND
++ Boot Mocha CFW -> Inicializa no Mocha CFW com a RedNAND
++ Boot fw.img on SD Card -> Inicializa qualquer CFW antigo baseado na fw.img do cartão SD
++ Boot vWii System Menu -> Inicializa no vWii na SysNAND
++ Boot vWii Homebrew Channel -> Inicializa no vWii Homebrew Channel na SysNAND
+
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+Você pode reconectar todos os dispositivos USB após a conclusão da instalação.
+{: .notice--info}
+
+**Nunca desinstale o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR.**    
+{: .notice--danger}
+
+**Nunca reinstale o jogo de DS do Virtual Console do CBHC no eShop ou você irá BRICKAR.**
+{: .notice--danger}
+
+**Nunca mova o jogo de DS do Virtual Console do CBHC para um drive USB ou você irá BRICKAR.**
+{: .notice--danger}
+
+**Nunca exclua a NNID da conta de usuário que usou para adiquirir o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR!**
+{: .notice--danger}
+
+**Nunca formate seu dispositivo enquanto o CBHC estiver instalado ou você irá BRICKAR!**
+{: .notice--danger}
+
+Continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}

@@ -1,0 +1,32 @@
+---
+main:
+  - 
+    title: Guía
+  - 
+    title: FAQ
+  - 
+    title: Donaciones
+  - 
+    title: Créditos
+  - 
+    title: disc2app
+  - 
+    title: Modeo de vWii
+  - 
+    title: NAND Backup
+  - 
+    title: Uninstall CFW
+  - 
+    title: Navegación del sitio
+bottom:
+  - 
+    title: 'For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.'
+  - 
+    title: 'If you appreciate this guide, we accept <a href="donations">Donations</a> through <a href="https://www.patreon.com/Plailect">Patreon</a>, <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin</a>, or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Paypal</a>.'
+footer:
+  - 
+    title: Código fuente
+  - 
+    title: Navegación del sitio
+  - 
+    title: '¿Por qué anuncios?'

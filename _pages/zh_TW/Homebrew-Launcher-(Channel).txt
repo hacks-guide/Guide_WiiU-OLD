@@ -1,0 +1,40 @@
+---
+title: "Homebrew Launcher (頻道)" #
+lang: zh-Hant
+permalink: /zh_TW/homebrew-launcher-(channel).html
+---
+
+本節將安裝 Homebrew Channel，這讓你可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。
+{: .notice--info}
+
+#### 操作說明
+
+1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
+1. Launch WUP Installer GX2
+1. Select the Homebrew Channel and WUP Installer GX2
+1. Press "Install", then press "Yes" to confirm
+1. Select "NAND" as the destination
+1. Press (Home), then close the software to exit the installer once it has completed installing
+
+___
+
+你現在可以在修改後的 SysNAND 底下透過 Homebrew Channel 來啟動 Homebrew Launcher。
+{: .notice}
+
+You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+{: .notice}
+
+For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+{: .notice--primary}
+
+請注意，如果你想要在設置阻擋更新用的 DNS 後使用 eShop，你必須首先透過 Homebrew Launcher 進行 NNU-Patcher（NNU-Patcher 是一個臨時補丁，如果你想要在重啟後啟動 eShop，你必須再重新跑一次這補丁）。
+{: .notice--info}
+
+若你想知道如何將遊戲光碟轉為可安裝的格式，請見[disc2app](disc2app)。
+{: .notice--success}
+
+若你想知道如何在 SysNAND 下修改 vWii，請見[vWii Modding](vwii-modding)。
+{: .notice--success}
+
+若你想知道如何安全卸載自製韌體並還原至原廠狀態，請見[卸載自製韌體](uninstall-mocha-cfw)。
+{: .notice--warning}
