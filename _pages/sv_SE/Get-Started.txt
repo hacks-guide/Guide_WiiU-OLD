@@ -1,0 +1,92 @@
+---
+title: "Kom Igång" #
+lang: sv
+permalink: /sv_SE/get-started.html
+---
+
+Följande steg hjälper dig förbereda ditt SD-kort för att installera coldboothax custom firmware.
+{: .notice--primary}
+
+Innan du börjar ska du se till att uppdatera din Wii U till senaste systemuppdateringen för att vara säker på att allt fungerar. Det är för närvarande version 5.5.1.
+{: .notice--info}
+
+Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
+{: .notice--info}
+
+Your SD card must be formatted as FAT32 (64KB clusters if possible). De flesta SD-kort kommer vara formaterade såhär från början.
+{: .notice--info}
+
+Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+{: .notice--warning}
+
+Ditt SD-kort **får** ej döpas till `wiiu`, för då kommer du stöta på problem.
+{: .notice--warning}
+
+Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
+{: .notice--warning}
+
+#### Vad du behöver
+
+* [`config.txt`]({{ base_path }}/images/config.txt)
+* Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* Senaste versionen av [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* Senaste versionen av [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* Senaste versionen av [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip`-filen som har `channel` i fil-namnet)*
+* En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
+* Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
+* Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+
+#### Instruktioner
+
+##### Avsnitt I - Förberedelser
+
+1. Stäng av din enhet
+1. Sätt in ditt SD-kort i datorn
+1. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
+1. Skapa en katalog döpt `install` i roten av ditt SD-kort
+1. Kopiera `apps`-katalogen från Homebrew App Store `zip`-filen till `/wiiu/`-katalogen på ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Homebrew Launcher `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Haxchi `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från CBHC `zip`-filen till roten av ditt SD-kort
+1. Kopiera `config.txt`till `/haxchi/`-katalogen på ditt SD-kort
+1. Skapa en katalog döpt `hbc`i katalogen `/install/` på ditt SD-kort
+1. Kopiera _innehållet_ från Homebrew Launcher Channel `zip`-filen till `/install/hbc/`-katalogen på ditt SD-kort
+1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
+1. Skapa en katalog döpt `mocha`i katalogen `/wiiu/apps/` på ditt SD-kort
+1. Kopiera `mocha.elf` från Mocha CFW `.zip`-filen till `/wiiu/apps/mocha/`på ditt SD-kort
+1. Kopiera `savemii`-katalogen från savemii `zip`-filen till `/wiiu/apps/`-katalogen på ditt SD-kort
+1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Kopiera och slå ihop _innehållet_ från disc2app `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från hid\_to\_vpad `zip`-filen till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från NNU-Patcher `zip`-filen till roten av ditt SD-kort
+1. Sätt tillbaka ditt SD-kort i din enhet
+1. Starta din enhet
+
+##### Avsnitt II - Blockera Systemuppdateringar
+
+Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande och framtida nätverksanslutningar så sköts uppdateringar av Wii U *automatiskt* och *kan inte* stängas av. 
+{: .notice--danger}
+
+Notera att för att komma åt eShopen med dessa DNS-adresser så måste du först köra NNU-Patcher genom Homebrew Launcher (NNU-Patcher modifierar bara systemrutinerna i minnet, och kommer behöva köras igen om du behöver komma åt eShopen efter en omstart).
+{: .notice--info}
+
+1. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
+1. För varje anslutning (och för alla framtida anslutningar), gör följande
+  + Välj anslutningen
+  + Välj "Change Settings"
+  + Flytta till andra listan och välj "DNS"
+  + Sätt DNS till "Don't Auto-Obtain"
+  + Ställ in följande IP-adresser som DNS-servrar
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + Välj "Confirm" och tryck sen (B) för att spara
+  + Dessa servrarna kommer hindra att ditt SysNAND uppdateras
+
+___
+
+Fortsätt till [Homebrew Launcher](homebrew-launcher)
+{: .notice--primary}
