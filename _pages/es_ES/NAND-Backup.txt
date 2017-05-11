@@ -1,5 +1,5 @@
 ---
-title: "NAND Backup" #
+title: "Respaldo de la NAND" #
 lang: es
 permalink: /es_ES/nand-backup.html
 ---
@@ -37,9 +37,9 @@ Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB.
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Copia `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, y cada archivo `mlc.bin.part` en la raiz de tu tarjeta SD a un lugar seguro en tu computadora
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Si llegas a inutilizar tu consola, podrás utilizar esta copia seguridad para restaurarla mediante un hardmod.
 {: .notice--info}
