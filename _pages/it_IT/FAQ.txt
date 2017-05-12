@@ -31,10 +31,10 @@ permalink: /it_IT/faq.html
 **R:** No! Devi sempre assicurati di bloccare gli aggiornamenti dalle impostazioni internet in caso di un nuovo aggiornamento!
 <br><br>
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+**R:** Se hai bisogno di aiuto, chiedi pure su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese).
 <br><br>
 <a name="faq_sdsize" />**D:** *Quanto grande deve essere la mia scheda SD?*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+**R:** La tua scheda SD deve avere una grandezza di almeno 64GB se hai una Wii U nera da 32GB. Se hai una Wii U bianca da 8GB, avrai bisogno di una scheda SD da almeno 16GB.
 <br><br>
 <a name="faq_NNID" />**D:** *Posso mantenere il mio NNID?*    
 **R:** Se parti con un NNID assegnato e segui correttamente ogni passaggio, al termine della guida avrai mantenuto il tuo NNID originale.
