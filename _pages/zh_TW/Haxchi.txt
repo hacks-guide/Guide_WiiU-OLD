@@ -27,8 +27,8 @@ Haxchi is an exploit that allows us to launch CFW directly from the system menu 
 | ------------- |
 | 《歡迎光臨：動物之森》 |
 | 《頭腦柔軟體操學園》 |
-| 《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》 |
 | 《大金剛：叢林攀爬高手》 |
+| Dr. Kawashima's Brain Training |
 | 《觸摸！卡比》 |
 | 《卡比大集合》|
 | 《卡比之星：多洛奇團登場》 |

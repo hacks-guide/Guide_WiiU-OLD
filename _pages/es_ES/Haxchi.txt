@@ -7,7 +7,7 @@ permalink: /es_ES/haxchi.html
 Haxchi es un custom firmware el cual modifica la verificación de firmas y de región, así como también ejecuta código personalizado en segundo plano.
 {: .notice}
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi es un exploit que nos permite iniciar un CFW directamente desde el menú del sistema sin tener que utilizar el Homebrew Launcher.
 {: .notice--info}
 
 Si necesitas comprar uno de los juegos vulnerables, inicia NNU-Patcher desde el Homebrew Launcher y luego inicia la eShop. Una vez que lo hayas comprado, vuelve a entrar al [Homebrew Launcher](homebrew-launcher).
@@ -27,8 +27,8 @@ Si necesitas comprar uno de los juegos vulnerables, inicia NNU-Patcher desde el 
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Training |
-| Brain Age / Brain Training|
 | DK: Jungle Climber |
+| Dr. Kawashima's Brain Training |
 | Kirby: Canvas Curse |
 | Kirby: Mass Attack|
 | Kirby: Squeak Squad / Kirby: Mouse Attack |

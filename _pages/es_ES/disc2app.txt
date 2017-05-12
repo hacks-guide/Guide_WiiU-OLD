@@ -25,7 +25,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, ten
 #### Qué necesitas
 
 * Una Wii U que puede acceder a una SysNAND modificada (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB of free space on your SD card
+* Se requieren 25GB disponibles en tu tarjeta SD
 
 #### Instrucciones
 
@@ -56,14 +56,14 @@ Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii
 ##### Sección III - Instalar el juego volcado
 
 1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
+1. Inicia WUP Installer GX2
+1. Selecciona el juego que quieras instalar
+1. Presiona "Install", luego presiona "Yes" para confirmar
+1. Selecciona dónde quieres hacer la instalación
+  + Elige el almacenamiento interno (NAND) o una unidad externa (USB)
 1. Deja que el proceso acabe automáticamente puesto que podría llevar algo de tiempo
 1. Cuando haya finalizado, se regresará al Homebrew Launcher
-1. Press (Home), then close the software to return to the system menu
+1. Presiona (Home), luego cierra el programa para regresar al menú del sistema
 
 ___
 

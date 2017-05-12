@@ -1,13 +1,13 @@
 ---
-title: "NAND Backup" #
+title: "Backup della NAND" #
 lang: it
-permalink: /nand-backup.html
+permalink: /it_IT/nand-backup.html
 ---
 
-These steps will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Con questo procedimento creerai una copia della tua NAND nella tua scheda SD, che ti permetterà di recuperare la tua console in caso di brick con una hardmod.
 {: .notice}
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Se hai una Wii U nera da 32GB, avrai bisogno di una scheda SD da almeno 64GB. Se hai una Wii U bianca da 8GB, avrai bisogno di una scheda SD da almeno 16GB.
 {: .notice--info}
 
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
@@ -15,31 +15,31 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 #### Quello che ti serve
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* L'ultima versione di [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
 #### Istruzioni
 
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
-1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
+1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Wii U NAND Dumper nella root della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Avvia nanddumper
+1. Usa le freccette per impostare le seguenti opzioni:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
+1. Premi (A) per estrarre la tua NAND
+  + Aspetta che finisca il processo; potrebbe volerci del tempo (anche ore a seconda della dimensione della memoria interna della console)
 1. Appena avrà finito, la tua Wii U si riavvierà automaticamente
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Copia i file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, e tutti i file `mlc.bin.part` dalla root della tua scheda SD in una posizione sicura sul tuo computer
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Se mai brickerai la tua console, potrai usare questa copia della NAND per recuperarla con una hardmod.
 {: .notice--info}
