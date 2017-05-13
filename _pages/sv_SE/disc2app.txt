@@ -25,7 +25,7 @@ Om du planerar att använda en extern hårddisk för att installera dina dumpade
 #### Vad du behöver
 
 * En Wii U som har åtkomst till modifierad SysNAND (med hjälp av Mocha CFW, Haxchi, CBHC, etc.)
-* 25GB of free space on your SD card
+* 25GB ledigt utrymme på ditt SD-kort
 
 #### Instruktioner
 
@@ -56,14 +56,14 @@ Notera att följande kommer radera allt innehåll på den externa hårddisken!
 ##### Avsnitt III - Installera dumpade spel
 
 1. Stata Homebrew Launcher Channel från modifierad SysNAND
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
+1. Starta WUP Installer GX2
+1. Välj spelet du vill installera
+1. Tryck "install" följt av "yes" för att bekräfta
+1. Välj vilket lagringsutrymme du vill installera spelet till
+  + Du kan välja mellan intern lagring (NAND) eller en extern hårddisk (USB)
 1. Installationen fortsätter nu automatiskt, detta kommer att ta ett tag
 1. När allt är klart kommer du tillbaka till Homebrew Launcher
-1. Press (Home), then close the software to return to the system menu
+1. Tryck (Hem), stäng sedan programmet för att återgå till systemmenyn
 
 ___
 
