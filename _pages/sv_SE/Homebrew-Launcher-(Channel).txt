@@ -24,7 +24,7 @@ Du kan nu starta Homebrew Launcher på modifierad SysNAND genom att bara starta 
 Du kan nu starta WUP Installer GX2 på patchad SysNAND genom att bara starta det från hemskärmen.
 {: .notice}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+För ökad säkerhet *bör* du skapa en säkerhetskopia av din enhets NAND genom att följa [Säkerhetskopiera NAND](nand-backup).
 {: .notice--primary}
 
 Notera att för att komma åt eShopen med DNS-adresserna som blockerar uppdateringar så måste du först köra NNU-Patcher genom Homebrew Launcher (NNU-Patcher modifierar bara systemrutinerna i minnet, och kommer behöva köras igen om du behöver komma åt eShopen efter en omstart).
