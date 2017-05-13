@@ -10,13 +10,13 @@ Följande steg hjälper dig förbereda ditt SD-kort för att installera coldboot
 Innan du börjar ska du se till att uppdatera din Wii U till senaste systemuppdateringen för att vara säker på att allt fungerar. Det är för närvarande version 5.5.1.
 {: .notice--info}
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
+Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.
 {: .notice--info}
 
-Your SD card must be formatted as FAT32 (64KB clusters if possible). De flesta SD-kort kommer vara formaterade såhär från början.
+Ditt SD-kort måste vara formaterat som FAT32 (64KB klusterstorlek om möjligt).  De flesta SD-kort kommer vara formaterade såhär från början.
 {: .notice--info}
 
-Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Använd [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) istället och sätt "Allocation Unit Size" till 64KB.
 {: .notice--warning}
 
 Ditt SD-kort **får** ej döpas till `wiiu`, för då kommer du stöta på problem.
@@ -29,8 +29,8 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* Senaste versionen av [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* Senaste versionen av [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Senaste versionen av [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Senaste versionen av [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
