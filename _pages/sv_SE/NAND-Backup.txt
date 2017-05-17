@@ -1,13 +1,13 @@
 ---
-title: "NAND Backup" #
+title: "Säkerhetskopiera NAND" #
 lang: sv
-permalink: /nand-backup.html
+permalink: /sv_SE/nand-backup.html
 ---
 
-These steps will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+De här stegen hjälper dig skapa en säkerhetskopia av ditt NAND-minne på ditt SD-kort, vilket gör det möjligt för dig att återställa din enhet med hjälp av en hardmod om du lyckas bricka.
 {: .notice}
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort.
 {: .notice--info}
 
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
@@ -15,31 +15,31 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 #### Vad du behöver
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* Senaste versionen av [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
 #### Instruktioner
 
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
-1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
+1. Kopiera och slå ihop _innehållet_ från Wii U NAND Dumper `zip`-filen till roten av ditt SD-kort
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 1. Stata Homebrew Launcher Channel från modifierad SysNAND
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Starta nanddumper
+1. Använd D-Pad:en för att ställa in följande inställningar:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
+1. Tryck (A) för att dumpa ditt NAND
+  + Var beredd att vänta; det här kan ta lång tid (upp till flera timmar beroende på hur mycket av det interna lagringsutrymmet du har använt)
 1. När allt är klart kommer din Wii U starta om automatiskt
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Kopiera `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, och varje `mlc.bin.part`-fil från roten av ditt SD-kort till ett säkert stället på din dator
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Om du någonsin brickar din enhet kan du med hjälp av denna säkerhetskopia återställa den genom en hardmod.
 {: .notice--info}
