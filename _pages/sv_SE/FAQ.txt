@@ -31,10 +31,10 @@ permalink: /sv_SE/faq.html
 **S:** Nej! Du måste alltid se till att dina internetinställningar använder DNS-servrar som blockerar uppdateringer, ifall en ny uppdatering skulle släppas!
 <br><br>
 <a name="faq_support" />**F:** *Vart ska jag vända mig för hjälp?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+**S:** För support, fråga om hjälp på [Nintendo Homebrew på Discord](https://discord.gg/MWxPgEp) (huvudsakligen engelskspråkigt).
 <br><br>
 <a name="faq_sdsize" />**F:** *Hur stort SD-kort behöver jag?*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+**S:** Ditt SD-kort behöver vara minst 64GB stort om du har den svarta Wii U (32GB) modellen. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort.
 <br><br>
 <a name="faq_NNID" />**F:** *Kan jag behålla mitt NNID?*    
 **S:** Om du börjar med ett NNID och följer varje steg så kommer du behålla ditt NNID vid slutet.
