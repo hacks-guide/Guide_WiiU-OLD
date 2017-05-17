@@ -24,8 +24,8 @@ Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu install
 
 #### Was du benötigst
 
-* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB of free space on your SD card
+* Eine Wii U mit Zugriff auf ein gepatchtes SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* 25GB freien Speicherplatz auf deiner SD Karte
 
 #### Anleitung
 
@@ -44,7 +44,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Schalte die Wii U an
 1. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
 
-##### Section II - Using disc2app
+##### Schritt II - disc2app benutzen
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte disc2app
@@ -53,17 +53,17 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Erlaube dem Disc dump Fortschritt automatisch fortzufahren; das dauert eine Weile
 1. Wenn alles fertig ist, kehrst du ins System-Menü zurück
 
-##### Section III - Installing dumped game
+##### Schritt III - Gedumptes Spiel installieren
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
+1. Starte "WUP Installer GX2"
+1. Wähle das Spiel aus, das du installieren willst
+1. Drücke "Install" und dann "Yes" zum bestätigen
+1. Wähle das Ziel, wohin du installieren möchtest
+  Wähle entweder den internen Speicher (NAND) oder ein externes Laufwerk (USB)
 1. Erlaube dem Installationsfortschritt automatisch fortzufahren; das dauert eine Weile
 1. Wenn alles fertig ist, kehrst du in den Homebrew Launcher zurück
-1. Press (Home), then close the software to return to the system menu
+1. Drücke (Home). Schließe dann die Software und kehre zurück zum System Menü
 
 ___
 

@@ -4,7 +4,7 @@ lang: de
 permalink: /uninstall-cfw.html
 ---
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Dies wird die Mocha CFW von deiner Wii U entfernen, egal welche Methode genutzt wurde, um die Wii U auf den Originalzustand zurückzusetzen.
 {: .notice--info}
 
 Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, dass Spiele und Speicherstände im internen Speicher und nicht auf der SD-Karte gesichert werden. Das heißt alle Spiele und Speicherdaten, die nach der Installation von RedNAND installiert wurden, würden gelöscht werden, da dein System nur noch das SysNAND hat, mit dem du angefangen hast!
@@ -48,5 +48,5 @@ Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, 
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. Dazu brauchst du einen Partitionsmanager für dein Betriebssystem.
+Wenn du diese Anleitung genutzt hast als sie noch RedNAND nutze, dann beachte, dass dies nicht die RedNAND partition auf deiner SD-Karte entfernt. Dazu brauchst du einen Partitionsmanager für dein Betriebssystem.
 {: .notice--info}

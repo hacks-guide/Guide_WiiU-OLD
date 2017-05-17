@@ -11,8 +11,8 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+* Die neueste Version von [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* Die neueste Version von [Hackmii Installer](https://bootmii.org/download/)
 
 #### Anleitung
 
@@ -20,14 +20,14 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 
 1. Schalte dein Gerät aus
 1. Stecke deine SD Karte in den Computer
-1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
-1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
-1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Kopiere und füge _den Inhalt_ der WUPHax `.zip` im Stammverzeichnis deiner SD-Karte zusammen
+1. Kopiere die `boot.elf` aus dem `hackmii_installer_v1.2` Ordner der Hackmii Installer `.zip` ins Stammverzeichnis deiner SD-Karte
+1. Kopiere den `apps` Ordner der `vWii_cIOS_apps_20131218.zip` ins Stammverzeichnis deiner SD-Karte
+1. Kopiere und füge den `apps` Ordner der `Patched_IOS80_Installer_for_vWii.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
 
-##### Section II - wuphax
+##### Abschnitt II - wuphax
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte wuphax
@@ -47,7 +47,7 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 1. Drücke (B), wenn du dazu aufgefordert wirst, um den Mii Channel wieder herzustellen
 1. Befolge die Anweisungen, um zurück zu deiner vWii zu gelangen
 
-##### Section III - Dumping vWii NAND
+##### Abschnitt III - vWii NAND dumpen
 
 Die NAND Sicherungskopie erlaubt dir, deine vWii in einen funktionierenden Zustand zurück zu setzen, falls etwas schief gehen sollte.
 {: .notice--info}
@@ -61,7 +61,7 @@ Die NAND Sicherungskopie erlaubt dir, deine vWii in einen funktionierenden Zusta
 1. **Kopiere die `nand.bin` und `keys.bin` Dateien vom Stammverzeichnis deiner SD-Karte zu einem sicheren Ort auf deinem Computer, und erstelle Sicherungskopien in mehreren Orten (wie Cloudbasierter Onlinespeicher); diese Sicherungen werden deine vWii vor einem Brick bewahren, wenn etwas schief geht**
 1. Lösche `nand.bin` und `keys.bin` aus dem Stammverzeichnis deiner SD-Karte
 
-##### Section IV - cIOS Installation
+##### Abschnitt IV - cIOS Installation
 
 Stelle sicher, dass keine Ordner mit dem Namen `wad` oder `wads` im Stammverzeichnis deiner SD-Karte existieren, und dass nirgends `.wad`-Dateien existieren, außer im `/apps/`-Ordner deiner SD-Karte.
 {: .notice--warning}
@@ -89,7 +89,7 @@ Stelle sicher, dass keine Ordner mit dem Namen `wad` oder `wads` im Stammverzeic
 1. Drücke (A) zum Installieren
 1. Warte bis die Installation beendet ist, und drücke dann (B), um den Installer zu verlassen
 
-##### Section V - Patching IOS80
+##### Abschnitt V - IOS80 patchen
 
 **Dieser Schritt wird deine vWii-Installation bricken, wenn irgendetwas schief geht (Stromausfall, etc), was eine vWii NAND Sicherungskopie benötigt, um behoben zu werden. Stelle sicher, dass du deine gemacht hast, bevor du fortfährst.**
 {: .notice--danger}

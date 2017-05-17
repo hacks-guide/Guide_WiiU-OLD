@@ -19,19 +19,19 @@ Diese Seite ist optional. Standard Haxchi ist ausreichend; Dies liefert nur extr
 **Dein Haxchi DS Virtual Console Spiel MUSS LEGAL ERWORBEN worden sein oder du wirst BRICKEN!**
 {: .notice--danger}
 
-**You must remove all USB devices before installing or you may BRICK!**
+**Du musst alle USB Geräte entfernen vor der Installation oder du riskierst ein BRICK!**
 {: .notice--danger}
 
 #### Anleitung
 
-1. Remove all USB devices from your Wii U
+1. Entferne alle USB Geräte von der Wii U
 1. Öffne den Homebrew Launcher in dem du beim Starten deines Haxchi DS virtual console Spiels (A) gedrückt hälst
 1. Starte den CBHC Installationsassistenten
 1. Wähle das DS Virtual Console Spiel aus, das du für die CBHC Installation nutzt, dann drücke (A) um es auszuwählen
   + **Dieses Spiel MUSS schon ein funktionierendes Haxchi installiert haben**
 1. Lese die Warnung, die auftaucht und fahre mit der Installation durch Drücken von (A) fort
 1. Sobald dies abgeschlossen ist, solltest du dich wieder im System-Menü befinden
-1. You may reconnect any USB devices that were disconnected earlier.
+1. Du kannst die zuvor entfernten USB Geräte wieder anschließen.
 1. Starte deine Wii U neu
 1. Falls der Exploit erfolgreich war, siehst du jetzt ein Menü mit zahlreichen Optionen
 1. Wähle **"Autoboot: Disabled"**, dann presse solange (A) bis dort **"Autoboot: System Menu"** steht
@@ -59,7 +59,7 @@ Dein Gerät sollte nun automatisch in ein Coldboot Haxchi gepatchtes SysNAND boo
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-You may reconnect any USB devices after the installation has completed.
+Nach dem Abschluss der Installation kannst du die zuvor entfernten USB Geräte wieder anschließen.
 {: .notice--info}
 
 **Deinstalliere niemals das CBHC DS virtual console Spiel oder du erzeugst ein BRICK.**    
