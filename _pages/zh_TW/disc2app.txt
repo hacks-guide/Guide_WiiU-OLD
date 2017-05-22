@@ -25,7 +25,7 @@ permalink: /zh_TW/disc2app.html
 #### 必備項目
 
 * 一台可使用修改後 SysNAND 的 Wii U（Mocha CFW, Haxchi, CBHC...等）
-* 25GB of free space on your SD card
+* 剩餘空間至少為 25GB 的 SD 卡
 
 #### 操作說明
 
@@ -56,14 +56,14 @@ permalink: /zh_TW/disc2app.html
 ##### 第三節 — 安裝拷貝遊戲
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
+1. 啟動 WUP Installer GX2
+1. 選擇你要安裝的遊戲
+1. 按下「Install」，並選擇「Yes」確認
+1. 選擇你想要安裝到的地點
+  + 選擇使用內存 (NAND) 或是外存 (USB)
 1. 遊戲安裝過程將耗費一段時間，請耐心等候
 1. 當完成後，你將會回到 Homebrew Launcher 中
-1. Press (Home), then close the software to return to the system menu
+1. 按下「Home」鍵並將本軟體關閉以退出至系統選單
 
 ___
 

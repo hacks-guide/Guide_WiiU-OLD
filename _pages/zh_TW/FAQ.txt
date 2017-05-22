@@ -31,10 +31,10 @@ permalink: /zh_TW/faq.html
 **A:** 不行。 請確保你的網路設定中已經設置好 DNS 伺服器的設定以阻擋未來的所有更新，
 <br><br>
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+**A:** 若需支援，請見 [Discord 上的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器。
 <br><br>
 <a name="faq_sdsize" />**Q:** *我需要多大的 SD 卡？*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+**A:** 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
 <br><br>
 <a name="faq_NNID" />**Q:** *我的 NNID 不會被清除吧？*    
 **A:** 如果裝置本身就有 NNID 且你遵守每個步驟，你的 NNID 將不變。
