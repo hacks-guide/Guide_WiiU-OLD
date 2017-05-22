@@ -9,7 +9,8 @@ This will install the Homebrew Channel so that, once you have a patched SysNAND 
 
 #### Instructions
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
+1. Launch Haxchi or Coldboot Haxchi - To enable signature patches
+1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi (By holding down the A button)
 1. Launch WUP Installer GX2
 1. Select the Homebrew Channel and WUP Installer GX2
 1. Press "Install", then press "Yes" to confirm
