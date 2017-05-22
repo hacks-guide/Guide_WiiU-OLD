@@ -10,6 +10,7 @@ Det här kommer installera Homebrew Channel så att när modifierad SysNAND kör
 #### Instruktioner
 
 1. Starta Homebrew Launcher med hjälp av `http://loadiine.ovh`, Haxchi, eller Coldboot Haxchi
+1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
 1. Starta WUP Installer GX2
 1. Välj Homebrew Channel och WUP Installer GX2
 1. Tryck "install" följt av "yes" för att bekräfta
