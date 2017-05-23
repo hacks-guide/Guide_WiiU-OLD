@@ -1,7 +1,5 @@
 ---
-title: "Riconoscimenti" #
-lang: it
-permalink: /it_IT/credits.html
+title: "Riconoscimenti"
 ---
 
 Se abbiamo dimenticato di inserirti in questa lista, contattaci e ti aggiungerò.

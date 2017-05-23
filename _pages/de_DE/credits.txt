@@ -1,7 +1,5 @@
 ---
-title: "Danksagungen" #
-lang: de
-permalink: /de_DE/credits.html
+title: "Danksagungen"
 ---
 
 Falls du hier nicht aufgeführt bist, kontaktiere uns und wir werden deinen Namen hinzufügen.

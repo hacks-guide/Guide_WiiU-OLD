@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: sv
-permalink: /sv_SE/disc2app.html
+title: "disc2app"
 ---
 
 Detta gör att du kan lagra dina skivor i ett format som går att installera med syftet att kunna spela dem utan att behöva skivan.

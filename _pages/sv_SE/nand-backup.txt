@@ -1,7 +1,5 @@
 ---
-title: "Säkerhetskopiera NAND" #
-lang: sv
-permalink: /sv_SE/nand-backup.html
+title: "Säkerhetskopiera NAND"
 ---
 
 De här stegen hjälper dig skapa en säkerhetskopia av ditt NAND-minne på ditt SD-kort, vilket gör det möjligt för dig att återställa din enhet med hjälp av en hardmod om du lyckas bricka.

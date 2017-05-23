@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: en
-permalink: /disc2app.html
+title: "disc2app"
 ---
 
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.

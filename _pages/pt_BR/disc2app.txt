@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: pt-BR
-permalink: /pt_BR/disc2app.html
+title: "disc2app"
 ---
 
 Isso permitirá que você descarregue seus discos para um formato que você possa instalá-los, com a finalidade de jogá-los, sem a necessidade do disco.

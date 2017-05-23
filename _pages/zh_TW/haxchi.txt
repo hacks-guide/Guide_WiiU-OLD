@@ -1,7 +1,5 @@
 ---
-title: "Haxchi" #
-lang: zh-Hant
-permalink: /zh_TW/haxchi.html
+title: "Haxchi"
 ---
 
 Haxchi 是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。

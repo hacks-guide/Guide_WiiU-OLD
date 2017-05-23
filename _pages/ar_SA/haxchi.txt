@@ -1,7 +1,5 @@
 ---
-title: "Haxchi" #
-lang: en
-permalink: /haxchi.html
+title: "Haxchi"
 ---
 
 Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.

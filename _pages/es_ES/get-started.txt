@@ -1,7 +1,5 @@
 ---
-title: "Comencemos" #
-lang: es
-permalink: /es_ES/get-started.html
+title: "Comencemos"
 ---
 
 Con estos pasos prepararás tu tarjeta SD para instalar custom firmware basado en coldboothax.

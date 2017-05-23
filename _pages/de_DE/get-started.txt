@@ -1,7 +1,5 @@
 ---
-title: "Los geht's" #
-lang: de
-permalink: /de_DE/get-started.html
+title: "Los geht's"
 ---
 
 Diese Schritte werden deine SD-Karte vorbereiten um coldboothax Custom Firmware zu installieren.

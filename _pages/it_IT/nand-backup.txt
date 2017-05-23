@@ -1,7 +1,5 @@
 ---
-title: "Backup della NAND" #
-lang: it
-permalink: /it_IT/nand-backup.html
+title: "Backup della NAND"
 ---
 
 Con questo procedimento creerai una copia della tua NAND nella tua scheda SD, che ti permetterà di recuperare la tua console in caso di brick con una hardmod.

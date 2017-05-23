@@ -1,7 +1,5 @@
 ---
-title: "Homebrew Launcher" #
-lang: zh_TW
-permalink: /zh_TW/homebrew-launcher.html
+title: "Homebrew Launcher"
 ---
 
 Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。

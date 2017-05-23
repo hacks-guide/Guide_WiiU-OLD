@@ -1,7 +1,5 @@
 ---
-title: "Coldboot Haxchi" #
-lang: pt-BR
-permalink: /pt_BR/coldboot-haxchi.html
+title: "Coldboot Haxchi"
 ---
 
 CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie os jogos de DS do Virtual Console por padrão em vez do menu de sistema, o qual irá carregar a SysNAND alterada.

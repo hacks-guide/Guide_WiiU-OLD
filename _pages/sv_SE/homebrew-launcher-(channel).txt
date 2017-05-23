@@ -1,7 +1,5 @@
 ---
-title: "Homebrew Launcher (Channel)" #
-lang: sv
-permalink: /sv_SE/homebrew-launcher-(channel).html
+title: "Homebrew Launcher (Channel)"
 ---
 
 Det här kommer installera Homebrew Channel så att när modifierad SysNAND körs kommer Homebrew Launcher dyka upp som en ikon på hemskärmen.

@@ -1,7 +1,5 @@
 ---
-title: "NAND Backup" #
-lang: de
-permalink: /nand-backup.html
+title: "NAND Backup"
 ---
 
 Mit diesen Schritten kannst du ein Backup deines NANDs auf deiner SD-Karte erstellen, die es dir über einen Hardmod erlauben, das System wieder herzustellen, falls es gebrickt wurde.

@@ -1,7 +1,5 @@
 ---
-title: "F3X (Mac)" #
-lang: sv
-permalink: /sv_SE/f3x-(mac).html
+title: "F3X (Mac)"
 ---
 
 Den här sidan kommer att ta dig igenom processen att använda F3X för att söka igenom ditt SD-kort efter fel.

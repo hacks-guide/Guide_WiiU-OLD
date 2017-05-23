@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: es
-permalink: /es_ES/disc2app.html
+title: "disc2app"
 ---
 
 Esto te permitirá volcar tus discos a un formato que puedas instalar con el fin de jugar sin necesidad de tener el disco.

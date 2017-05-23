@@ -1,7 +1,5 @@
 ---
-title: "H2testw (Windows)" #
-lang: sv
-permalink: /sv_SE/h2testw-(windows).html
+title: "H2testw (Windows)"
 ---
 
 Den här sidan kommer ta dig igenom processen att använda h2testw för att söka igenom ditt SD-kort efter fel.

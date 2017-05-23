@@ -1,7 +1,5 @@
 ---
-title: "F3 (Linux)" #
-lang: pt-BR
-permalink: /pt_BR/f3-(linux).html
+title: "F3 (Linux)"
 ---
 
 Esta página te guiará pelo processo de checar se o seu cartão SD contém erros utilizando o F3.

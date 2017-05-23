@@ -1,7 +1,5 @@
 ---
-title: "Homebrew Launcher" #
-lang: de
-permalink: /de_DE/homebrew-launcher.html
+title: "Homebrew Launcher"
 ---
 
 Der Homebrew Launcher ist eine Anwendung, welche andere Homebrew Anwendungen auf der SD Karte auflistet und deren Ausführung erlaubt.
