@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: de
-permalink: /de_DE/disc2app.html
+title: "disc2app"
 ---
 
 Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit du später spielen kannst ohne die Disc zu benötigen.
