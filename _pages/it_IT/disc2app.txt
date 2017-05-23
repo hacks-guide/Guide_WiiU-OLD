@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: it
-permalink: /it_IT/disc2app.html
+title: "disc2app"
 ---
 
 Questa guida ti permetterà di fare un backup dei tuoi dischi in un formato che permetterà di giocarli senza il disco stesso.
