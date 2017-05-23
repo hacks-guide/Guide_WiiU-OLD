@@ -1,5 +1,5 @@
 ---
-title: "Navigering på webbplatsen"
+title: "Navigering på webplatsen"
 layout: single-no-ads
 sitemap: false
 ---

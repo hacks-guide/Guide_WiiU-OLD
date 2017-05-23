@@ -1,5 +1,5 @@
 ---
-title: "Modding do vWii"
+title: "vWii Modding"
 ---
 
 Isso permitirá que você instale o Homebrew Channel e outras modificações para vWii do Wii U (Wii virtual).
