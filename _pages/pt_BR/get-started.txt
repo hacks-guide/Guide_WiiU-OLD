@@ -1,5 +1,5 @@
 ---
-title: "Começar"
+title: "Get Started"
 ---
 
 Estas etapas irão preparar seu cartão SD em preparação para a instalação do custom firmware de coldboothax.
