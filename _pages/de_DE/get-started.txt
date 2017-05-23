@@ -1,5 +1,5 @@
 ---
-title: "Los geht's"
+title: "Get Started"
 ---
 
 Diese Schritte werden deine SD-Karte vorbereiten um coldboothax Custom Firmware zu installieren.

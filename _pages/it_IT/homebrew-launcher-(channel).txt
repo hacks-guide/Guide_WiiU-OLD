@@ -8,6 +8,8 @@ Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da 
 #### Istruzioni
 
 1. Avvia l'Homebrew Launcher utilizzando `http://loadiine.ovh`, Haxchi, o Coldboot Haxchi
+  + Gli utenti Haxchi devono avviare Haxchi una volta per patchare la SysNAND e una seconda volta tenendo premuto (A) per avviare l'Homebrew Launcher
+1. **Solo utenti dell'Homebrew Launcher:** Avvia Mocha CFW, quindi riavvia l'Homebrew Launcher
 1. Avvia WUP Installer GX2
 1. Seleziona l'Homebrew Channel e WUP Installer GX2
 1. Premi "Install", quindi premi "Yes" per confermare
@@ -27,6 +29,9 @@ Per precauzione, *faresti meglio* a creare un backup della NAND della tua consol
 
 Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
 {: .notice--info}
+
+Per via di un bug, se sposti WUP Installer GX2 su un dispositivo USB tramite il menu Gestione Dati delle Impostazioni della console, WUP Installer GX2 potrà installare file solo su dispositivi USB (come ad esempio degli hard disk).
+{: .notice--warning}
 
 Per informazioni su come creare un backup dei tuoi dischi in un formato che permette di giocarli senza necessitare il disco, visita la pagina [disc2app](disc2app).
 {: .notice--success}

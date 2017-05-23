@@ -1,5 +1,5 @@
 ---
-title: "從頭開始"
+title: "Get Started"
 ---
 
 下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。

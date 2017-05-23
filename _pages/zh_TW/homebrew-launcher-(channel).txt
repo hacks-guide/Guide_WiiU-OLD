@@ -1,5 +1,5 @@
 ---
-title: "Homebrew Launcher (頻道)"
+title: "Homebrew Launcher (Channel)"
 ---
 
 本節將安裝 Homebrew Channel，這讓你可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。
@@ -8,6 +8,8 @@ title: "Homebrew Launcher (頻道)"
 #### 操作說明
 
 1. 透過 `http://loadiine.ovh`、Haxchi、或 Coldboot Haxchi 啟動 Homebrew Launcher
+  + Note that Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
+1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
 1. 啟動 WUP Installer GX2
 1. 選擇 Homebrew Channel 及 WUP Installer GX2
 1. 按下「Install」，並選擇「Yes」確認
@@ -27,6 +29,9 @@ ___
 
 請注意，如果你想要在設置阻擋更新用的 DNS 後使用 eShop，你必須首先透過 Homebrew Launcher 進行 NNU-Patcher（NNU-Patcher 是一個臨時補丁，如果你想要在重啟後啟動 eShop，你必須再重新跑一次這補丁）。
 {: .notice--info}
+
+Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+{: .notice--warning}
 
 若你想知道如何將遊戲光碟轉為可安裝的格式，請見[disc2app](disc2app)。
 {: .notice--success}
