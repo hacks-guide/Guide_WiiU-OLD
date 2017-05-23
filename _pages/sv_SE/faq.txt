@@ -1,5 +1,5 @@
 ---
-title: "Vanliga Frågor"
+title: "FAQ"
 ---
 
 {% capture notice-1 %}
