@@ -1,5 +1,5 @@
 ---
-title: "vWii 改機"
+title: "vWii Modding"
 ---
 
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
