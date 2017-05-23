@@ -1,7 +1,5 @@
 ---
-title: "Vanliga Frågor" #
-lang: sv
-permalink: /sv_SE/faq.html
+title: "Vanliga Frågor"
 ---
 
 {% capture notice-1 %}

@@ -1,7 +1,5 @@
 ---
-title: "Mocha CFW" #
-lang: en
-permalink: /mocha-cfw.html
+title: "Mocha CFW"
 ---
 
 Mocha CFW is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.

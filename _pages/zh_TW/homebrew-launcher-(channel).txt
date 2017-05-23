@@ -1,7 +1,5 @@
 ---
-title: "Homebrew Launcher (頻道)" #
-lang: zh-Hant
-permalink: /zh_TW/homebrew-launcher-(channel).html
+title: "Homebrew Launcher (頻道)"
 ---
 
 本節將安裝 Homebrew Channel，這讓你可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。

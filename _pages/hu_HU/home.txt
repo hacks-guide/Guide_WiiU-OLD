@@ -9,9 +9,7 @@ header:
   cta_url: "get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />" #
-lang: en
-permalink: /index.html
+excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
 ---
 
 {% capture notice-home %}

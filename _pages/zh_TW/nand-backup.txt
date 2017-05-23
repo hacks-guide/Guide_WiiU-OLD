@@ -1,7 +1,5 @@
 ---
-title: "NAND 備份" #
-lang: zh-Hant
-permalink: /zh_TW/nand-backup.html
+title: "NAND 備份"
 ---
 
 這些步驟將在你的 SD 卡上建立 NAND 備份，這將讓你可以在磚機時透過硬改來進行還原。

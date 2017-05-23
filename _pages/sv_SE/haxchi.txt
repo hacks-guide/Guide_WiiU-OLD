@@ -1,7 +1,5 @@
 ---
-title: "Haxchi" #
-lang: sv
-permalink: /sv_SE/haxchi.html
+title: "Haxchi"
 ---
 
 Haxchi är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.

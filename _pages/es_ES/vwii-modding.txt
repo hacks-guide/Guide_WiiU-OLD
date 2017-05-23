@@ -1,7 +1,5 @@
 ---
-title: "Modeo de vWii" #
-lang: es
-permalink: /es_ES/vwii-modding.html
+title: "Modeo de vWii"
 ---
 
 Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones en la vWii (Wii virtual) de tu Wii U.

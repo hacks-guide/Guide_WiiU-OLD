@@ -1,7 +1,5 @@
 ---
-title: "CFW entfernen" #
-lang: de
-permalink: /uninstall-cfw.html
+title: "CFW entfernen"
 ---
 
 Dies wird die Mocha CFW von deiner Wii U entfernen, egal welche Methode genutzt wurde, um die Wii U auf den Originalzustand zurückzusetzen.

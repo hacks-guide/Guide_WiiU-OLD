@@ -1,7 +1,5 @@
 ---
-title: "H2testw (Windows)" #
-lang: it
-permalink: /it_IT/h2testw-(windows).html
+title: "H2testw (Windows)"
 ---
 
 Questa pagina ti guiderà nel processo di controllo della presenza di errori sulla tua scheda SD utilizzando h2testw.

@@ -1,7 +1,5 @@
 ---
-title: "vWii 改機" #
-lang: zh-Hant
-permalink: /zh_TW/vwii-modding.html
+title: "vWii 改機"
 ---
 
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。

@@ -1,7 +1,5 @@
 ---
-title: "Homebrew Launcher (Canale)" #
-lang: it
-permalink: /it_IT/homebrew-launcher-(channel).html
+title: "Homebrew Launcher (Canale)"
 ---
 
 Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da avere l'Homebrew Launcher come icona sul menu di sistema della tua SysNAND patchata.

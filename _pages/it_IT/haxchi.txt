@@ -1,7 +1,5 @@
 ---
-title: "Haxchi" #
-lang: it
-permalink: /it_IT/haxchi.html
+title: "Haxchi"
 ---
 
 Haxchi è un custom firmware che patcha i controlli sulle firme, i controlli sulla regionalità e avvia linne di codice modificato.

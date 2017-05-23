@@ -1,7 +1,5 @@
 ---
-title: "Mocha CFW" #
-lang: it
-permalink: /it_IT/mocha-cfw.html
+title: "Mocha CFW"
 ---
 
 Mocha CFW è un custom firmware che patcha i controlli sulle firme, i controlli sulla regionalità e avvia linne di codice modificato.

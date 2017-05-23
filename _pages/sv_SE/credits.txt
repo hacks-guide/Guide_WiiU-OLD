@@ -1,7 +1,5 @@
 ---
-title: "Tack till" #
-lang: sv
-permalink: /sv_SE/credits.html
+title: "Tack till"
 ---
 
 Om vi glömt dig i listan, kontakta oss så lägger vi till ditt namn.

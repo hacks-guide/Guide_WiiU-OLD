@@ -1,7 +1,5 @@
 ---
-titel: "Varför reklam?" #
-lang: sv
-permalink: /sv_SE/why-ads.html
+titel: "Varför reklam?"
 layout: single-no-ads
 ---
 

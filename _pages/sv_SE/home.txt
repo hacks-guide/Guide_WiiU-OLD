@@ -9,9 +9,7 @@ header:
   cta_url: "/sv_SE/get-started" #
   caption:
 
-excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U,<br /> från standard till Coldboot Haxchi.<br />" #
-lang: sv
-permalink: /sv_SE/index.html
+excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U,<br /> från standard till Coldboot Haxchi.<br />"
 ---
 
 {% capture notice-home %}

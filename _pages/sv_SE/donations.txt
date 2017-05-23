@@ -1,7 +1,5 @@
 ---
-title: "Bidrag" #
-lang: sv
-permalink: /sv_SE/donations.html
+title: "Bidrag"
 layout: single-no-ads
 ---
 

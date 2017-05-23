@@ -1,7 +1,5 @@
 ---
-title: "Cominciamo!" #
-lang: it
-permalink: /it_IT/get-started.html
+title: "Cominciamo!"
 ---
 
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installare un cooldboothax custom firmware.

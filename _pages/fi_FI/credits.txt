@@ -1,7 +1,5 @@
 ---
-title: "Credits" #
-lang: en
-permalink: /credits.html
+title: "Credits"
 ---
 
 If we forgot you here, contact us and we'll add your name.

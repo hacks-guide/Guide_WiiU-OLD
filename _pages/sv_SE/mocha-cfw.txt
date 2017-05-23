@@ -1,7 +1,5 @@
 ---
-title: "Mocha CFW" #
-lang: sv
-permalink: /sv_SE/mocha-cfw.html
+title: "Mocha CFW"
 ---
 
 Mocha CFW är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.

@@ -1,7 +1,5 @@
 ---
-title: "Get Started" #
-lang: en
-permalink: /get-started.html
+title: "Get Started"
 ---
 
 These steps will prepare your SD card in preparation for installing coldboothax custom firmware.

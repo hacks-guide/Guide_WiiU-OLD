@@ -9,9 +9,7 @@ header:
   cta_url: "/es_ES/get-started"
   caption:
 
-excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desde stock hasta Coldboot Haxchi.<br />" #
-lang: es
-permalink: /es_ES/index.html
+excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desde stock hasta Coldboot Haxchi.<br />"
 ---
 
 {% capture notice-home %}

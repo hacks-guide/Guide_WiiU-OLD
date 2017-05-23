@@ -1,7 +1,5 @@
 ---
-title: "Respaldo de la NAND" #
-lang: es
-permalink: /es_ES/nand-backup.html
+title: "Respaldo de la NAND"
 ---
 
 Con estos pasos crearás un respaldo de tu NAND en tu SD, el que te permitirá restaurar tu consola usando hardmod en caso de inutilizarla.

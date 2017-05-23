@@ -1,7 +1,5 @@
 ---
-title: "disc2app" #
-lang: zh-Hant
-permalink: /zh_TW/disc2app.html
+title: "disc2app"
 ---
 
 本工具可將你的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。

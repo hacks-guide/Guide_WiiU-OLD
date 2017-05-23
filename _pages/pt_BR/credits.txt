@@ -1,7 +1,5 @@
 ---
-title: "Créditos" #
-lang: pt-BR
-permalink: /pt_BR/credits.html
+title: "Créditos"
 ---
 
 Se nos esquecemos de você, entre em contato conosco e adicionaremos seu nome.

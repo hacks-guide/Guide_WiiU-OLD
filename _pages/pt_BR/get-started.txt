@@ -1,7 +1,5 @@
 ---
-title: "Começar" #
-lang: pt-BR
-permalink: /pt_BR/get-started.html
+title: "Começar"
 ---
 
 Estas etapas irão preparar seu cartão SD em preparação para a instalação do custom firmware de coldboothax.
