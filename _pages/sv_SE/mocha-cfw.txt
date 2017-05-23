@@ -1,0 +1,31 @@
+---
+title: "Mocha CFW"
+---
+
+Mocha CFW är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.
+{: .notice}
+
+För att starta konsolen med modifierade signaturkontroller och starta modifierad SysNAND kommer du behöva gå in i Homebrew Launcher och starta Mocha CFW varje gång din enhet startar om.
+{: .notice--info}
+
+#### Instruktioner
+
+1. Starta Mocha CFW
+1. Mocha CFW-menyn ska nu laddas
+1. Använd (UPP) och (NER) på D-Pad:en för att navigera genom raderna och (VÄNSTER) och (HÖGER) för att ställa in följande:
+  + Config view mode: **default**
+  + Skip this menu on launch: **on**
+  + Show launch image: **on**
+  + Don't relaunch OS: **off**
+  + Launch System Menu: **on**
+  + RedNAND: **off**
+1. Tryck (A) för att bekräfta och avsluta
+1. Din Wii U startar nu om till hemskärmen
+
+___
+
+Du kommer behöva starta Mocha CFW från Homebrew Launcher varje gång du startar om din Wii U för att komma tillbaka till modifierad SysNAND.
+{: .notice}
+
+Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
