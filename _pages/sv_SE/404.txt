@@ -1,5 +1,5 @@
 ---
-title: "Page Not Found" #
+title: "Sidan hittades inte" #
 layout: single-no-ads
 excerpt: "Sidan hittades inte. Dina pixlar finns på en annan monitor." #
 sitemap: false
