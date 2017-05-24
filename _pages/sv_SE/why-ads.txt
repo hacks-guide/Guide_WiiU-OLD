@@ -1,5 +1,5 @@
 ---
-title: "Why Ads?" #
+titel: "Varför reklam?" #
 layout: single-no-ads
 ---
 
