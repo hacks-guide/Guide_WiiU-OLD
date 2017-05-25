@@ -2,10 +2,10 @@
 title: "Backup da NAND"
 ---
 
-These steps will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Estas etapas irão criar um backup da sua NAND no seu cartão SD, o que permitirá que você restaure seu dispositivo usando um hardmod caso ele sofra um brick.
 {: .notice}
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Se você possuir o modelo preto do Wii U (32GB), seu cartão SD deverá ter pelo menos 64GB. Se você possuir o modelo branco do Wii U (8GB), seu cartão SD deverá ter pelo menos 16GB.
 {: .notice--info}
 
 Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros utilizando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
@@ -39,5 +39,5 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Se você causar um brick no seu dispositivo, você poderá usar este backup para restaurá-lo usando um hardmod.
 {: .notice--info}
