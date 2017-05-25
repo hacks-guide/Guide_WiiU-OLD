@@ -7,24 +7,24 @@ Isto irá instalar o Homebrew Channel para que, uma vez você possua uma SysNAND
 
 #### Instruções
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
-  + Note that Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
-1. Launch WUP Installer GX2
-1. Select the Homebrew Channel and WUP Installer GX2
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. Entre no Homebrew Launcher usando `http://loadiine.ovh`, Haxchi ou Coldboot Haxchi
+  + Note que usuários do Haxchi devem iniciá-lo uma vez para modificar a SysNAND, e depois executá-lo uma segunda vez manteando (A) pressionado para iniciar o Homebrew Launcher
+1. **Apenas usuários do Homebrew Launcher:** Inicie o Mocha CFW e, em seguida, reabra o Homebrew Launcher
+1. Acesse o WUP Installer GX2
+1. Selecione "Homebrew Channel and WUP Installer GX2"
+1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar
+1. Selecione "NAND" como o destino
+1. Aperte (Home) e em seguida, feche o software para sair do instalador, uma vez que a instalação for concluída
 
 ___
 
 Você pode iniciar o Homebrew Launcher na SysNAND alterada apenas iniciando o Homebrew Channel.
 {: .notice}
 
-You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+Agora, você pode abrir o WUP Installer GX2 na SysNAND modificada simplesmente iniciando-o a partir do menu do sistema.
 {: .notice}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+Para maior segurança, você *deve* criar um backup da NAND de seu dispositivo seguindo [Backup da NAND](nand-backup).
 {: .notice--primary}
 
 Note que para acessar o eShop com os endereços DNS de bloqueio de atualizações definidos, você deve primeiro iniciar o NNU-Patcher através do Homebrew Launcher (NNU-Patcher é uma alteração temporária e será necessário rodá-lo novamente se você desejar acessar o eShop após uma reinicialização).
