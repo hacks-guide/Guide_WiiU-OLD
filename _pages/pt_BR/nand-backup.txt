@@ -1,5 +1,5 @@
 ---
-title: "NAND Backup"
+title: "Backup da NAND"
 ---
 
 These steps will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
@@ -13,29 +13,29 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 #### O que você precisa
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* A versão mais recente do [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
 #### Instruções
 
 1. Desligue seu dispositivo
 1. Insira o seu cartão SD no seu computador
-1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
+1. Copie e mescle _o conteúdo do_ `.zip` do Wii U NAND Dumper para a raiz do seu cartão SD
 1. Reinsira seu cartão SD no seu dispositivo
 1. Ligue seu dispositivo
 1. Inicie o Homebrew Launcher Channel na SysNAND alterada
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Inicie o nanddumper
+1. Use os botões direcionais para definir as seguintes opções:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
+1. Aperte (A) para copiar sua NAND
+  + Esteja preparado para esperar, isto pode levar algum tempo (até várias horas dependendo da quantidade de espaço usado na memória interna)
 1. Quando completado, seu Wii U irá reiniciar automaticamente
 1. Desligue seu dispositivo
 1. Insira o seu cartão SD no seu computador
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Copie `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, e cada arquivo `mlc.bin.part` da raiz do seu cartão SD para um lugar seguro no seu computador
 
 ___
 
