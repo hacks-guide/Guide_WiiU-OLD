@@ -1,9 +1,9 @@
 ---
-title: "Page Not Found" #
+title: "Página não encontrada" #
 layout: single-no-ads
 excerpt: "Página não encontrada. Seu pixels estão em outra tela." #
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+Desculpe, mas a página que você estava tentando acessar não existe.
 {: .notice--info}
