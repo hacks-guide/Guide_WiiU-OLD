@@ -23,7 +23,7 @@ Se você planeja usar um disco rígido externo para instalar seus discos descarr
 #### O que você precisa
 
 * Um Wii U que tenha acesso a SysNAND alterada (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB of free space on your SD card
+* 25GB de espaço livre no seu cartão SD
 
 #### Instruções
 
@@ -54,14 +54,14 @@ Observe que isto irá apagar por completo o conteúdo do disco rígido externo!
 ##### Seção III - Instalando um jogo descarregado
 
 1. Inicie o Homebrew Launcher Channel na SysNAND alterada
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
+1. Acesse o WUP Installer GX2
+1. Selecione o jogo que você deseja instalar
+1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar
+1. Selecione o destino em que você deseja instalar
+  + Escolha entre a memória interna (NAND) ou uma unidade externa (USB)
 1. Permita que o processo de instalação proceda automaticamente; isso pode levar algum tempo
 1. Quando estiver concluído, você será retornado para o Homebrew Launcher
-1. Press (Home), then close the software to return to the system menu
+1. Aperte (Home) e, em seguida, feche o software para retornar ao menu do sistema
 
 ___
 

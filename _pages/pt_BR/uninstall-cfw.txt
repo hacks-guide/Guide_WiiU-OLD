@@ -1,5 +1,5 @@
 ---
-title: "Uninstall CFW"
+title: "Desinstalar o CFW"
 ---
 
 Isso irá remover o CFW do seu Wii U, independente do método de instalação, para o propósito de retornar o dispositivo ao modo de fábrica.
