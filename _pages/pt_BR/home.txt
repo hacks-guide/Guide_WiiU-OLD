@@ -9,7 +9,7 @@ header:
   cta_url: "/pt_BR/get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Um guia completo para custom firmware no Wii U, <br />do zero até Coldboot Haxchi.<br />"
 ---
 
 {% capture notice-home %}
@@ -55,6 +55,6 @@ e instalar o Custom Firmware Mocha com Coldboot Haxchi. Ele utiliza o homebrew c
 + **Antes de começar a seguir o guia, você precisa saber os riscos de hackear o Wii U: TODA vez que você modifica seu sistema, existe sempre o potencial de ocorrer um brick IRRECUPERÁVEL. Eles são raros, mas ainda existe a possibilidade, então garanta que você siga TODOS os passos EXATAMENTE como escritos.**
 + Este guia irá funcionar em todos os dispositivos Wii U em todas as regiões na versão mais recente.
 + Se tudo ocorrer conforme o esperado, você não perderá dados pessoais e continuará com tudo o que tinha antes de começar (jogos, NNID, saves, etc serão preservados).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
++ É recomendado que seu cartão SD tenha pelo menos 16GB ou 32GB para ter espaço suficiente para extrair e instalar os jogos.
 + Seu cartão SD deve ser [MBR, não GPT](http://www.howtogeek.com/245610/).
 + Se você precisa formatar um cartão SD novo, você pode utilizar o [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e colocar Allocation Unit Size para 32K.
