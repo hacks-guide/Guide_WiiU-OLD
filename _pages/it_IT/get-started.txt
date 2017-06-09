@@ -50,17 +50,17 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`dell'Homebrew Launcher nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Haxchi nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di CBHC nella root della tua scheda SD
-1. Copia il file `config.txt`nella cartella `/haxchi/` della scheda SD
+1. Copia il file `config.txt` nella cartella `/haxchi/` della scheda SD
 1. Crea una cartella chiamata `hbc` nella cartella `/install/` della tua scheda SD
 1. Copia _il contenuto_ dell'archivio`.zip` dell'Homebrew Launcher Channel nella cartella `/install/hbc` della tua scheda SD
 1. Copia la cartella `WUP_Installer_GX2` dall'archivio `.zip`di WUP Installer GX2 (Canale) nella cartella `/install/` nella tua scheda SD
 1. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
 1. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
-1. Copia la cartella `savemii` dall'archivio `.zip`di savemii nella cartella `/wiiu/apps` nella tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip`di WUP Installer GX2 (Homebrew Launcher) nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip`di disc2app nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip`di hid\_to\_vpad nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip`di NNU-Patcher nella root della tua scheda SD
+1. Copia la cartella `savemii` dall'archivio `.zip` di savemii nella cartella `/wiiu/apps` nella tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip` di WUP Installer GX2 (Homebrew Launcher) nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip` di disc2app nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip` di hid\_to\_vpad nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip` di NNU-Patcher nella root della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
