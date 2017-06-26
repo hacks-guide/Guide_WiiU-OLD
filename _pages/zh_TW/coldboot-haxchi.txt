@@ -1,5 +1,5 @@
 ---
-title: "Coldboot Haxchi"
+title: "冷啟動 Haxchi"
 ---
 
 CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修改後的 DS 虛擬主機 遊戲，讓你自動開機至修改後的 SysNAND 中，而非普通的系統選單。
