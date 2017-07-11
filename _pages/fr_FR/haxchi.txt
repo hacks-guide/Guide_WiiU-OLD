@@ -16,8 +16,8 @@ Si vous avez besoin d’acheter un des jeux exploitables, exécutez NNU-Patcher 
 
 + Une copie légitime de l’un des jeux Console Virtuelle DS suivants installé dans la mémoire interne de votre Wii U
   + **Ne pas** installer le jeu Console Virtuelle DS sur une clé USB
-  + Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : « Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? », « Cérébrale Académie », « Pokémon Ranger : Nuit sur Almia », « Pokémon Ranger : Sillages de lumière » et « Yoshi Touch & Go ».
-  + Si vous aviez « Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? » installé sur votre Wii U depuis un certain temps, essayez de le supprimer et de réinstaller le jeu depuis l’eShop. Les anciennes versions du jeu ne fonctionnent pas avec Haxchi
+  + Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? ", " Cérébrale Académie ", " Pokémon Ranger : Nuit sur Almia ", " Pokémon Ranger : Sillages de lumière " et " Yoshi Touch & Go ".
+  + Si vous aviez " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? " installé sur votre Wii U depuis un certain temps, essayez de le supprimer et de réinstaller le jeu depuis l’eShop. Les anciennes versions du jeu ne fonctionnent pas avec Haxchi
   + Le jeu ne sera plus jouable après ce processus
   **Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie légitime !**
 
@@ -51,7 +51,7 @@ Si vous avez besoin d’acheter un des jeux exploitables, exécutez NNU-Patcher 
 1. Lancez Haxchi Installer
 1. Sélectionnez le jeu Console Virtuelle DS sur lequel vous avez installé Haxchi, puis appuyez sur (A)
 1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (A) pour lancer l'installation
-1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé « Haxchi »)
+1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé " Haxchi ")
 1. La console redémarrera dans la SysNAND patché
   + Ceci permettra aux titres non signés (par exemple la Chaîne Homebrew et backups de jeux) à être lancés directement depuis le menu Home
 
@@ -70,5 +70,5 @@ Actuellement, vous devez lancer le jeu DS Console Virtuelle à chaque fois que v
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+Continuer vers [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
