@@ -15,11 +15,11 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 ###### CBHC
 
 1. Launch the Homebrew Launcher Channel
-1. Launch the CBHC installer
+1. Lancez CBHC Installer
 1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 1. Read the warning that appears, then press (B) to uninstall
 1. When it is complete, you will be returned to the system menu
-1. Reboot your Wii U
+1. Redémarrez la Wii U
 1. Go to the System Settings under "Data Management" and delete your DS virtual console game
 1. Reinstall your DS virtual console game from the eShop
 
