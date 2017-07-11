@@ -50,7 +50,7 @@ If you need to purchase one of the exploitable games, run NNU-Patcher from the H
 
 1. Launch the Haxchi Installer
 1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
+1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (A) pour lancer l'installation
 1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
 1. The console will reboot into patched SysNAND
   + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
@@ -61,7 +61,7 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 {: .notice}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**You can now hold various buttons while launching your DS virtual console game for different boot options. Voici la liste des options de démarrage et leur effet :**
 
 + None -> Boots into patched SysNAND
 + (A) -> Boots into the Homebrew Launcher
