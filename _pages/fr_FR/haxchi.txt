@@ -12,7 +12,7 @@ If you need to purchase one of the exploitable games, run NNU-Patcher from the H
 {: .notice--primary}
 
 
-#### What you need
+#### Prérequis
 
 + A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
   + Do **not** install the DS virtual console game to a USB stick
