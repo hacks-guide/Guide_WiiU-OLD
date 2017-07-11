@@ -1,42 +1,42 @@
 ---
-title: "Get Started"
+title:"Pour Commencer"
 ---
 
-These steps will prepare your SD card in preparation for installing coldboothax custom firmware.
+Ces étapes prépareront votre carte SD pour l'installation d'un ColdBootHax.
 {: .notice--primary}
 
-Before beginning, you should update your Wii U to the latest version to ensure compatibility. This is currently 5.5.1.
+Avant de commencer, il est préférable de mettre à jour votre Wii U vers la dernière version du système actuellement disponible et compatible avec les outils que nous utiliserons dans ce guide. A ce jour, il s'agit de la 5.5.1.
 {: .notice--info}
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
+On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux.
 {: .notice--info}
 
-Your SD card must be formatted as FAT32 (64KB clusters if possible). Most SD cards will be formatted this way by default.
+Votre carte SD doit être formaté en FAT32 (64KB d'unité d'allocation si possible). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
 {: .notice--info}
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Utilisez [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et une taille d'Allocation de 64Kb.
 {: .notice--warning}
 
-Your SD card **cannot** be named `wiiu`, or it will cause problems.
+IMPORTANT : Votre carte SD ne peut pas être nommée"wiiu", ou il en résultera une impossibilité d'en faire usage dans la console.
 {: .notice--warning}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### What you need
+#### Ce dont vous avez besoin
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
-* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* La dernière version de [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* La dernière version de [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* La dernière version de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* La dernière version de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* La dernière version de [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(Le fichier Channel `.zip`)*
+* Une version précédente de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(le fichier launcher`.zip`)*
+Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/releases/latest) *(les 2 fichiers`.zip`)*
+* La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### Instructions
 
@@ -44,47 +44,47 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
-1. Create a folder named `wiiu` on the root of your SD card
-1. Create a folder named `install` on the root of your SD card
-1. Copy the `apps` folder from the Hombebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-1. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card
-1. Create a folder named `hbc` in the `/install/` folder on your SD card
-1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
-1. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
-1. Copy the `savemii` folder from the savemii `.zip` to the `/wiiu/apps/` folder on your SD card
-1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
+1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
+1. Créez un répertoire nommé `install` à la racine de votre carte SD
+1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
+1. Copiez et fusionnez le contenu du fichier .zip HomeBrew Launcher vers la racine de votre carte SD
+1. Copiez et fusionnez le contenu du fichier .zip Haxchi vers la racine de votre carte SD
+1. Copiez et fusionnez le contenu du fichier .zip CBHC vers la racine de votre carte SD
+1. Copiez le fichier `config.txt` vers le répertoire `haxchi` de votre carte SD
+1. Créez un dossier nommé `hbc` dans le dossier `/install/` de votre carte SD
+1. Copiez _le contenu de_ the Homebrew Launcher Channel `.zip` vers le répertoire `/install/hbc/` de votre carte SD
+1. Copiez le dossier `WUP_Installer_GX2` provenant du WUP Installer GX2 (Channel) `.zip`dans le dossier `/install/` sur votre carte SD
+1. Créez un dossier nommé `mocha` dans le répertoire `/wiiu/apps/` de votre carte SD
+1. Copiez le fichier `mocha.elf' depuis le contenu du .zip Mocha CFW vers le répertoire `/wiiu/apps/mocha` de votre carte SD
+1. Copiez le dossier `savemii` du fichier savemii `.zip` vers le répertoire `/wiiu/apps` de votre carte SD
+1. Copiez et fusionnez _le contenue_ du `.zip` de WUP Installer GX2 (Homebrew Launcher) à la racine de votre carte SD
+1. Copiez et fusionnez le contenu du fichier .zip disc2app vers la racine de votre carte SD
+1. Copiez et fusionnez _le contenu de_ hid\_to\_vpad `.zip` vers la racine de votre carte SD
+1. Copiez et fusionnez _le contenu de_ NNU-Patcher `.zip` vers la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
-##### Section II - Block System Updates
+##### Section II - Blockage des mise à jours
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Notez que, à moins que vous bloquez les mises à jour avec cette méthode sur toutes les connexions actuelles et futures, les mises à jour sur la Wii U, sont effectuées *automatiquement* et *ne peuvent* êtres désactivés. 
 {: .notice--danger}
 
-Note that to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise à jours, vous devez d’abord exécuter NNU-Patcher via l'Homebrew Launcher (NNU-Patcher est un patch temporaire et devra être lancé à nouveau si vous avez besoin d’accéder à l’eShop après un redémarrage).
 {: .notice--info}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Allez dans"Paramètres de la console", puis"Internet", puis"Connexion Internet", puis appuyez sur (X) pour afficher la liste de vos connexions réseau actuelles
+1. Pour chacune de vos connexions (et toutes les connexions futures), procédez comme suit
+  + Sélectionnez la connexion
+  + Sélectionnez"Modifier"
+  + Passez à la page suivante et choisissez"DNS"
+  + Dites"Non" à la question"Obtenir les informations du serveur DNS automatiquement ?"
+  + Saisissez les DNS primaire et secondaire en entrant les adresses IP des serveurs suivants
   + `168.235.092.108`
   + `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your SysNAND from being updated
+  + Sélectionnez" Confirmer", puis appuyez sur (B) pour enregistrer
+  + Ces serveurs bloqueront la mise à jour de votre SysNAND
 
 ___
 
-Continue to [Homebrew Launcher](homebrew-launcher)
+Continuer vers [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
