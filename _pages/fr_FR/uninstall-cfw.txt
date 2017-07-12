@@ -3,7 +3,7 @@ title: "Désinstaller CFW"
 ---
 
 Cela supprimera Mocha CFW de votre Wii U, quelle que soit la méthode d'installation utilisée, dans le but d'un retour aux paramètres d'usine.
-{: .notice--info}
+{: .notice--danger}
 
 Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez que les jeux et les sauvegardes sont enregistrées dans la mémoire interne et non la carte SD. Cela signifie que tous les jeux et sauvegardes installés après que l’installation de RedNAND seront supprimés car votre système ne disposera que du SysNAND avec lequel vous avez démarré !
 {: .notice--danger}
