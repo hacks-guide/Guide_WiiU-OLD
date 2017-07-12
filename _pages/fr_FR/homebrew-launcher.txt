@@ -2,31 +2,31 @@
 title: "Homebrew Launcher"
 ---
 
-The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+Le Homebrew Launcher est une application homebrew qui répertorie et permet le lancement d’autres applications homebrew de la carte SD.
 {: .notice}
 
-We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
+La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à internet, puisque nous ferons usage du navigateur intégré.
 {: .notice--info}
 
-#### Instructions
+##### Instructions
 
-1. Launch the browser on your device
-1. Go to the browser settings and select "Reset Save Data"
-  + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
-1. Return to the browser
-1. Go to `http://loadiine.ovh`
-  + You may want to bookmark this address to save time on typing in the future
+1. Lancer le navigateur sur votre Wii U
+1. Allez dans les paramètres de navigation et cliquez sur "Mettre les paramètres à zéro"
+  + Cette démarche permet une meilleur compatibilité avec les exploits utilisés dans le navigateur
+  + En contre-partie, cela supprimera aussi tout vos favoris ainsi que votre historique et vos paramètres de navigation
+1. Retournez dans le navigateur
+1. Ouvrez le site `http://loadiine.ovh`
+  + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Ensure that the drop down box shows "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", then press "Submit"
-  + This may take many tries
-  + In some situations, the "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" option may be more reliable for launching the Homebrew Launcher
-  + If it freezes, just force the console to power off by holding the power button, then try again
-1. Your console should load the Homebrew Launcher
+  + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
+  + Dans certaines situations, l'option "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" peut mieux marcher pour lancer le Homebrew Launcher
+  + Si votre console freeze (ne répond plus), vous pouvez forcer l'extinction de celle-ci en maintenant le bouton Power et réessayer
+1. Votre console devrait maintenant charger le Homebrew Launcher
 
 ___
 
-If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
+Si vous préférez acheter un jeu exploitable peu coûteux pour lancer votre Custom Firmware automatiquement au démarrage *(ou que vous possédez déjà un des jeux Console Virtuelle DS répertoriés)*, continuez vers [Haxchi](haxchi).
 {: .notice--primary}
 
-If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
+Si vous préférez lancer votre Custom Firmware en utilisant la méthode du navigateur internet à chaque démarrage pour économiser de l'argent, continuez vers [Mocha CFW](mocha-cfw).
 {: .notice--primary}

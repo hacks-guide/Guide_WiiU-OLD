@@ -2,42 +2,42 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Ceci va installera la Chaîne Homebrew pour que, quand votre SysNAND patché est exécuté, l'Homebrew Launcher apparaîtra sous forme d’icône dans le menu Home.
 {: .notice--info}
 
 #### Instructions
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
-  + Note that Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
-1. Launch WUP Installer GX2
-1. Select the Homebrew Channel and WUP Installer GX2
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. Lancez le Homebrew Launcher via `http://loadiine.ovh`, Haxchi, ou Coldboot Haxchi
+  + Notez que les utilisateurs d'Haxchi doivent lancer Haxchi une fois pour patcher la SysNAND, ensuite lancez dans un second temps tout en maintenant (A) pour lancer l'Homebrew Launcher
+1. **Utilisateurs de l'Homebrew Laucher Uniquement:** Lancez Mocha CFW, ensuite relancer l'Homebrew Launcher
+1. Lancez WUP Installer GX2
+1. Sélectionnez Homebrew Channel (ou "hbc") et WUP Installer GX2
+1. Touchez "Install", puis "Yes" pour confirmer
+1. Choisissez "NAND" comme destination
+1. Appuyez sur le bouton (Home) puis quittez le logiciel Éditeur Mii quand l'installation est terminée
 
 ___
 
-You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
+Vous pouvez à présent lancer le Homebrew Launcher à partir de la SysNAND patché en lançant la Chaîne Homebrew.
 {: .notice}
 
-You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+Vous pouvez à présent lancer le WUP Installer GX2 sur la SysNAND patchée en lançant le logiciel depuis le menu Home.
 {: .notice}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre Wii U en suivant le guide [Sauvegarde NAND](nand-backup).
 {: .notice--primary}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise à jours, vous devez d’abord exécuter NNU-Patcher via le l'Homebrew Launcher (NNU-Patcher est un patch temporaire et devra être lancé à nouveau si vous avez besoin d’accéder à l’eShop après un redémarrage).
 {: .notice--info}
 
-Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+Notez que, dû à un bug, WUP Installer GX2 peut seulement installer sur un disque USB (comme un HDD USB) si vous déplacez WUP Installer GX2 sur un stockage USB en utilisant le Gestionnaire de Données dans les Paramètres Systèmes.
 {: .notice--warning}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Pour toute information concernant la copie de vos disques afin de pouvoir les installer sur votre console et jouer sans le disque, consultez la page de [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+Pour toute information concernant l'installation de « mods » vWii sur la SysNAND, consultez la page [Mod de la vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Pour toute information concernant la désinstallation du CFW en toute sécurité et un retour aux paramètres d'usine, consultez la page [Désinstallation du CFW](uninstall-cfw).
 {: .notice--warning}

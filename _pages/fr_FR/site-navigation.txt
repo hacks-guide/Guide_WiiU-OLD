@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "Index" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Toutes**
 
 + [Coldboot Haxchi](coldboot-haxchi)
-+ [Credits](credits)
++ [Crédits](credits)
 + [disc2app](disc2app)
-+ [Donations](donations)
++ [Dons](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [FAQ](faq)
-+ [Get Started](get-started)
++ [Bien démarrer](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Home](/fr_FR/)
 + [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
++ [Désinstallation du CFW](uninstall-mocha-cfw)
 + [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [Pourquoi des pubs ?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
