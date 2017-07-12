@@ -1,43 +1,43 @@
 ---
-title: "NAND Backup"
+title: "Sauvegarde NAND"
 ---
 
-These steps will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Ces étapes vont créer une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil avec un hardmode dans le cas d'un brick.
 {: .notice}
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
 {: .notice--info}
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### What you need
+#### Prérequis
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
 #### Instructions
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
-1. Launch the Homebrew Launcher Channel on patched SysNAND
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Éteignez votre Wii U
+1. Insérez votre carte SD dans votre ordinateur
+1. Copiez et fusionnez _le contenue du_ fichier `.zip` de Wii U NAND Dumper à la racine de votre carte SD
+1. Réinsérez votre carte SD dans votre Wii U
+1. Allumez votre Wii U
+1. Lancer l'Homebrew Launcher Channel depuis la SysNAND patché
+1. Démarrez nanddumper
+1. Utilisez le D-Pad pour mettre ces différentes options:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-1. When it has completed, your Wii U will reboot automatically
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Appuyez sur (A) pour copier votre NAND
+  + Préparez à être patient: cela peut prendre un moment (jusqu'à plusieurs heures selon la quantité d'espace que vous avez dans la mémoire interne)
+1. Quand l'opération a terminé, votre Wii U va redémarrer automatiquement
+1. Éteignez votre Wii U
+1. Insérez votre carte SD dans votre ordinateur
+1. Copier `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, et chaque fichier `mlc.bin.part` de la racine de votre carte SD dans un emplacement sécurisé sur votre ordinateur
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Si jamais votre console brick, vous serez capable d'utiliser votre sauvegarde pour la restaurer en utilisant un hardmode.
 {: .notice--info}

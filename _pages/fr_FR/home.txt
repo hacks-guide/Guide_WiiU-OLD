@@ -5,56 +5,56 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
+  cta_label: "Bien démarrer" #
   cta_url: "get-started" #
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Un guide complet sur l’obtention d’un Custom Firmware pour Wii U, <br />du firmware d'origine jusqu'à Coldboot Haxchi.<br />"
 ---
 
 {% capture notice-home %}
-**This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!**
+**Ce guide est destiné aux consoles "retail" (destiné au grand public; pas celle du Nintendo Developer Program) seulement !**
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!**
+**Ce guide a besoin de *votre* aide afin de le [translate](https://translate.wiiu.guide/) dans d'autres langues!**
 {: .notice--success}
 
-**Read all of the introductory pages before proceeding.**
+**Lisez toutes les pages d'introductions avant de commencer**
 {: .notice--warning}
 
-## What is Homebrew?
+## Qu'est-ce que les Homebrews?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) signifie habituellement "les logiciels non autorisé par Nintendo". Cela vous permet de lancer des jeux homebrew (fait maison), des outils comme des éditeurs de sauvegarde et de backup (récupération), et des émulateurs pour d'anciennes consoles.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Lancer des homebrews sur votre console est 100% gratuit en n'utilisant rien d'autre que le navigateur de la console.
 
-## What is Custom Firmware?
+## Qu'est-ce qu'un "Custom Firmware" ?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") permet d'utiliser des hacks plus avancés que ce que les homebrew "userland" peuvent faire, en plus de ce que n'importe quel homebrew peut faire.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW peut être installée facilement sur n'importe quel console de n'importe quelle région et sur la dernière version.
 
-## What does this guide install?
+## Qu'est-ce que ce guide installe ?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Ce guide a pour but de transformer une WiiU vierge de toute modification
+et d'installer Coldboot Haxchi avec le Custom Firmware Mocha. Ce guide utilise des homebrews comme point de départ, mais l’installation d'un Custom Firmware est le véritable but.
 
-## What can I do with Custom Firmware?
+## Qu'est-ce que je peut faire avec un Custom Firmware ?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your system menu
-+ Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
++ Jouer à tous les jeux sur disques ainsi qu'aux jeux eShop, peu importe le région
++ Sauvegarder, modifier, et restaurer les sauvegarde de plusieurs jeux
++ Jouer aux jeux d'ancienne consoles grace a plusieurs émulateurs, en utilisant RetroArch ou d'autre émulateurs.
++ Installer des homebrew sur votre console et les faire apparaître sur votre menu home
++ Copier vos disques vers un format que vous pouvez installer, et y jouer sans avoir besoin du disque
++ Mettre à jour la console vers la dernière version sans avoir la crainte de perdre le lancement de homebrew
 
-## What do I need to know before starting?
+## Que dois-je savoir avant de commencer ?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the latest version.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ **Avant de commencer à suivre ce guide, vous devez connaître les risques liés au hack de votre WiiU: à chaque fois que vous modifiez votre système, il y a toujours un risque de brick IRRÉCUPÉRABLE. Cela arrive rarement, mais c'est toujours une possibilité donc assurez-vous de suivre EXACTEMENT TOUTES les consignes.**
++ Ce guide fonctionnera sur toutes les Wii U de toutes les régions et avec la dernière version.
++ Si tout se passe comme prévu, vous ne perdrez aucune donnée et finirez avec tout ce que vous aviez au départ (les jeux, votre NNID, les sauvegardes, etc., seront préservées).
++ On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux.
++ Votre carte SD doit être [MBR, pas de GPT](http://www.howtogeek.com/245610/).
++ Si vous devez formater une carte SD neuve, vous pouvez utiliser [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) en définissant "Allocation Unit Size" sur 32K.
