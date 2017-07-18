@@ -2,6 +2,9 @@
 title: "Haxchi"
 ---
 
+Please note: Do all these steps before updating to 5.5.2. Otherwise you will be stuck because the browser exploit is broken currently! If the update is queued and you can't download the VC game, follow the instructions [here](https://www.reddit.com/r/WiiUHacks/comments/6nzvn3/tutorial_having_trouble_downloading_from_eshop/) for now.
+{: .notice--primary}
+
 Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
 {: .notice}
 
