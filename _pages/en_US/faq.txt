@@ -5,7 +5,7 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** No. The latest hackable firmware is currently 5.5.1. If you alread have CFW installed (Haxchi, CBHC), you are fine updating though.
+**A:** No. The latest hackable firmware is currently 5.5.1. If you already have CFW installed (Haxchi, CBHC), you are fine updating though.
 <br><br>
 <a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
 **A:** Update your Wii U to 5.5.1, either by using a game update or Wupinstaller and Nintendo update files. 
