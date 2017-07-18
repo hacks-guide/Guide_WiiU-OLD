@@ -5,13 +5,13 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+**A:** No. The latest hackable firmware is currently 5.5.1. If you already have CFW installed (Haxchi, CBHC), you are fine updating though.
 <br><br>
 <a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
-**A:** Update your Wii U to the latest version (5.5.1)
+**A:** Update your Wii U to 5.5.1, either by using a game update or Wupinstaller and Nintendo update files. 
 <br><br>
 <a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
-**A:** It is unlikely that Nintendo would release updates for a console that they no longer support, but the counter-argument to that is that they did update the Nintendo DSi 2 years after it ended production. The real answer is that we don't know, so be safe with internet connectivity on SysNAND (use protective DNS servers or keep internet off).
+**A:** They just released one (July 18th), so you could say that there might be more updates coming. On the other hand, it's unlikely Nintendo will support a console that they themselves consider abandoned with another update. The real answer is that we don't know, so it's better to leave dualhax on or disable your internet connection on the console altogether.
 <br><br>
 <a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
 **A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)

@@ -2,6 +2,9 @@
 title: "Homebrew Launcher"
 ---
 
+Please note: Firmware version 5.5.2 fixed the browser exploit. So do all these steps on a lower firmware (preferrably 5.5.1) before updating!
+{: .notice--primary}
+
 The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
 {: .notice}
 

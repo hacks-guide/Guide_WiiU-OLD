@@ -2,6 +2,9 @@
 title: "Uninstall CFW"
 ---
 
+Please note: When on most recent firmware (5.5.2), there is no possible way of reinstalling CFW right now because the browser exploit is broken. Think twice before proceeding!
+{: .notice--primary}
+
 This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--danger}
 
