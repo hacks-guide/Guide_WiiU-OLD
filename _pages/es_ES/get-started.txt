@@ -5,7 +5,7 @@ title: "Comencemos"
 Con estos pasos prepararás tu tarjeta SD para instalar custom firmware basado en coldboothax.
 {: .notice--primary}
 
-Antes de comenzar, debes actualizar tu Wii U a la versión más reciente para asegurar su compatibilidad. Actualmente es la 5.5.1.
+Before beginning, you should make sure your Wii U is currently on firmware 5.5.0 or 5.5.1. The latest firmware update (5.5.2) patches the browser exploit that we'll be using.
 {: .notice--info}
 
 Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos.
