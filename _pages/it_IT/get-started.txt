@@ -5,7 +5,7 @@ title: "Cominciamo!"
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installare un cooldboothax custom firmware.
 {: .notice--primary}
 
-Prima di iniziare, dovresti aggiornare la tua Wii U all'ultima versione di sistema disponibile per garantire la compatibilità dei programmi. L'ultima versione di sistema è la 5.5.1.
+Prima di iniziare, assicurati che la tua Wii U abbia un firmware 5.5.0 o 5.5.1. L'ultimo aggiornamento firmware (5.5.2) patcha l'exploit del browser che useremo in questa guida.
 {: .notice--info}
 
 La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi.
