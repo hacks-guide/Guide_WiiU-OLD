@@ -8,7 +8,7 @@ title: "NAND 備份"
 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
 {: .notice--info}
 
-在開始前，建議使用 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac)) 來檢查問題你裝置的 SD 卡有沒有問題！
+在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
 #### 必備項目
