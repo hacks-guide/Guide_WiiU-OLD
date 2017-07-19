@@ -20,7 +20,7 @@ title: "從頭開始"
 **千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
 {: .notice--warning}
 
-在開始前，建議使用 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac)) 來檢查問題你裝置的 SD 卡有沒有問題！
+在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
 #### 必備項目
