@@ -5,7 +5,7 @@ title: "從頭開始"
 下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
 {: .notice--primary}
 
-在開始前，請先將你的 Wii U 更新至最新版本以確保相容性。 目前最新版本為 5.5.1。
+在進行前，請先確保您的 Wii U 系統版本為 5.5.0 或 5.5.1。 最新版的系統版本（5.5.2）修補了我們將要使用的瀏覽器漏洞。
 {: .notice--info}
 
 建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
@@ -20,7 +20,7 @@ title: "從頭開始"
 **千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
 {: .notice--warning}
 
-在開始前，建議使用 [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac)) 來檢查問題你裝置的 SD 卡有沒有問題！
+在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
 #### 必備項目
