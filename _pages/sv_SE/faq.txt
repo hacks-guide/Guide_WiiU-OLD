@@ -5,7 +5,7 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**F:** *Jag är på den senaste systemversionen, kan jag hacka min enhet?*    
-**A:** No
+**S:** Nej
 <br><br>
 <a name="faq_oldfw" />**F:** *Jag har en Wii U på systemversion X.X.X. Vad kan jag / borde jag göra med den?*    
 **S:** Denna guide fungerar bara med version 5.5.0 och 5.5.1. Äldre versioner är inkompatibla just nu.
