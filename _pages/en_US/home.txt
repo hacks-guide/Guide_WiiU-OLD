@@ -48,7 +48,6 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
 + Install homebrew titles to your system, and have them appear on your system menu
 + Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
 
 ## What do I need to know before starting?
 
