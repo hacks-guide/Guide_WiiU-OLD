@@ -5,13 +5,16 @@ title: "常見問題 FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
-**A:** 可以的！
+**A:** No
 <br><br>
 <a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
-**A:** 將你的 Wii U 升級至最新版本（5.5.1）
+**A:** This guide is only compatible with versions 5.5.0 and 5.5.1. Older versions are incompatible for now.
 <br><br>
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
-**A:** 任天堂應該是不會再為停產的主機出更新了－但是也不是完全不可能。任天堂還是在 NDSi 停產後兩年釋出了新的更新。 也就是說，我們完全不知道。所以以策安全，我們還是建議你在 SysNAND 底下使用任何網路功能時特別小心（使用 DNS 保護或者直接斷網）。
+**A:** 不行。 The version 5.5.2 (which patches the browser part of the exploit) has been released well after the end of production.
+<br><br>
+<a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
+**A:** 不行。 You must always ensure that you have set DNS servers that will block updates.
 <br><br>
 <a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
 **A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）
