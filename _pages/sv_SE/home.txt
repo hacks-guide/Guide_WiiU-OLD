@@ -48,12 +48,11 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 + Spela spel för äldre system genom olika emulatorer genom att använda RetroArch eller ensamstående emulatorer.
 + Installera homebrew-program på din enhet och få dem tillgängliga på hemskärmen
 + Överföra dina skivor till ett format du kan installera och spela dem utan att behöva skivan
-+ Göra en säker uppdatering till den senaste systemversionen utan att behöva vara rädd för att tappa åtkomst till homebrew-program
 
 ## Vad behöver jag veta innan jag börjar?
 
 + **Innan du börjar med guiden måste du veta om riskerna med att hacka din Wii U: VARJE gång du modifierar din enhet finns det en risk att den blir OBRUKBAR FÖR ALLTID. Det är väldigt sällsynt men fortfarande en möjlighet, så var noga och se till att du följer ALLA instruktioner till PUNKT OCH PRICKA.**
-+ Denna guide kommer fungera för alla Wii U-enheter med senaste systemuppdateringen oavsett region.
++ Denna guide kommer fungera för alla Wii U-enheter med systemversion 5.5.0 eller 5.5.1 oavsett region.
 + Om allt går enligt planen kommer du inte att förlora någon data och ha kvar allting du började med (spel, NNID, sparfiler osv kommer finnas kvar).
 + Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.
 + Ditt SD-kort bör vara [MBR, inte GPT] (http://www.howtogeek.com/245610/).

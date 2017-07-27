@@ -5,13 +5,16 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**P:** *Eu estou na última versão, posso hackear meu Wii U?*    
-**R:** Sim
+**A:** No
 <br><br>
 <a name="faq_oldfw" />**P** *Eu tenho um Wii U na versão X.X.X. O que posso / devo fazer com ele?*    
-**R:** Atualizar seu Wii U para a última versão (5.5.1)
+**A:** This guide is only compatible with versions 5.5.0 and 5.5.1. Older versions are incompatible for now.
 <br><br>
 <a name="faq_updates" />**P:** *Agora que a Nintendo está descontinuando o Wii U, isso quer dizer que ele não será mais atualizado?*    
-**R:** É improvável que a Nintendo irá atualizar um console que eles descontinuaram, mas o contra-argumento é que eles atualizaram o Nintendo DSi 2 anos após ele ser descontinuado. A resposta real é que nós não sabemos, então fique seguro com a conexão à internet na SysNAND (use servidores DNS protetores ou mantenha a internet desligada).
+**R:** Não! The version 5.5.2 (which patches the browser part of the exploit) has been released well after the end of production.
+<br><br>
+<a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
+**R:** Não! You must always ensure that you have set DNS servers that will block updates.
 <br><br>
 <a name="faq_updatemocha" />**P:** *Como eu atualizo para a versão mais recente do Mocha CFW?*    
 **R:** Baixe a última versão do [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), depois copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD (sobrescreva o arquivo existente)

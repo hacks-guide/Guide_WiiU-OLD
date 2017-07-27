@@ -48,12 +48,11 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + Play games for older systems with various emulators, using RetroArch or other standalone emulators.
 + Install homebrew titles to your system, and have them appear on your system menu
 + Dump your discs to a format you can install, and play them without needing the disc
-+ Safely update to the latest system version without fear of losing access to homebrew
 
 ## What do I need to know before starting?
 
 + **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the latest version.
++ This guide will work on all Wii U devices in all regions on the version 5.5.0 or 5.5.1.
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).

@@ -32,7 +32,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 * A versão mais recente do [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * A versão mais recente do [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * A versão mais recente do [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* A versão mais recente do [savemii](https://github.com/Ryuzaki-MrL/savemii/releases/latest)
+* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * A versão mais recente do [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(o arquivo channel `.zip`)*
 * A versão anterior do [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(o arquivo launcher `.zip`)*
 * A versão mais recente do [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(os dois arquivos `.zip`)*
@@ -56,7 +56,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 1. Copie a pasta `WUP_Installer_GX2` do `.zip` do WUP Installer GX2 (Channel) para a pasta `/install/` no seu cartão SD
 1. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
 1. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
-1. Copie a pasta `savemii` do `.zip` do savemii para a pasta `/wiiu/apps/` no seu cartão SD
+1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
 1. Copie e mescle _o conteúdo do_ `.zip` do WUP Installer GX2 (Homebrew Launcher) para a raiz do seu cartão SD
 1. Copie e mescle _o conteúdo do_ `.zip` do disc2app para a raiz do seu cartão SD
 1. Copie e mescle _o conteúdo do_ `.zip` do hid\_to\_vpad para a raiz do seu cartão SD
