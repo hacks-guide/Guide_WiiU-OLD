@@ -8,8 +8,8 @@ Hiermit wird Homebrew Channel installiert, so dass sobald du ein gepatchtes SysN
 #### Anleitung
 
 1. Starte den Homebrew Launcher mit `http://loadiine.ovh`, Haxchi oder Cooldbot Haxchi
-  + Note that Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
+  Beachte, das Haxchi Nutzer einmal Haxchi starten müssen, um SysNAND zu patchen, und es dann nochmal mit gedrückter (A) Taste starten müssen, um den Homebrew Launcher zu starten
+1. **Nur Homebrew Launcher Nutzer** Starte Mocha CFW, und dann starte den Homebrew Launcher erneut
 1. Starte WUP Installer GX2
 1. Wähle den Homebrew Channel und WUP Installer GX2 aus
 1. Drücke "Install", dann drücke "Yes" zum bestätigen
@@ -30,7 +30,7 @@ Aus Sicherheitsgründen solltest du eine [Backup des NANDs](nand-backup) auf dei
 Beachte, dass wenn diese DNS Adressen eingetragen sind, der Zugriff auf den eShop nur möglich ist, wenn zuerst NNU-Patcher mit Hilfe des Homebrew Launchers ausgeführt wurde (NNU-Patcher ist ein temporärer Patch und muss daher nach jedem Neustart neu ausgeführt werden).
 {: .notice--info}
 
-Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+Beachte, dass wegen eines Bugs, der WUP Installer GX2 nur auf eine externe Festplatte installieren kann (z. B. auf eine HDD) wenn du WUP Installer GX2 auf deine USB-Festplatte mittels des Datenmanagement-Menüs der System-Optionen verschiebst.
 {: .notice--warning}
 
 Für Informationen wie du deine Discs in ein installierbares Format dumpen kannst, siehe [disc2app](disc2app).
