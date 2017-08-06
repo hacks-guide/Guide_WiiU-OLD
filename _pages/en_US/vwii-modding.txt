@@ -5,6 +5,9 @@ title: "vWii Modding"
 This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
 {: .notice--info}
 
+If you have not already done the main Wii U guide, please follow [Get Started - Section II - Block System Updates](get-started#section-ii---block-system-updates) to prevent your Wii U from being automatically updated to the latest version, then return to this page.
+[: .notice--danger]
+
 #### What you need
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
@@ -27,7 +30,8 @@ This will allow you to install the Homebrew Channel and other modifications to t
 
 ##### Section II - wuphax
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Launch the Homebrew Launcher
+  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
 1. Launch wuphax
 1. Press (A) to backup your Mii Channel and inject the Hackmii Installer
 1. You will be returned to the Homebrew Launcher on SysNAND
@@ -40,7 +44,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 1. Go through the prompts to get back to vWii
 1. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
 1. Return to the system menu, then power off your Wii U
-1. Enter the Homebrew Launcher on SysNAND using the method from Section I
+1. Launch the Homebrew Launcher with the method used earlier in this section
 1. Launch wuphax
 1. Press (B) when prompted to restore the Mii Channel
 1. Go through the prompts to get back to vWii
