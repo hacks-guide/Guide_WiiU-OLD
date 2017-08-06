@@ -69,19 +69,19 @@ Ensure that there are no folders named `wad` or `wads` on the root of your SD ca
   + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
 1. Launch d2x cIOS Installer
 1. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
 1. Press (A) to install
 1. Wait for the install to complete, then press (A) to continue
 1. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
 1. Press (A) to install
 1. Wait for the install to complete, then press (A) to continue
 1. Set the options on the top of the screen to match the following:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
 1. Press (A) to install
