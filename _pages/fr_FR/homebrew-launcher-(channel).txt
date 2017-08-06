@@ -11,9 +11,12 @@ Ceci va installera la Chaîne Homebrew pour que, quand votre SysNAND patché est
   + Notez que les utilisateurs d'Haxchi doivent lancer Haxchi une fois pour patcher la SysNAND, ensuite lancez dans un second temps tout en maintenant (A) pour lancer l'Homebrew Launcher
 1. **Utilisateurs de l'Homebrew Laucher Uniquement:** Lancez Mocha CFW, ensuite relancer l'Homebrew Launcher
 1. Lancez WUP Installer GX2
-1. Sélectionnez Homebrew Channel (ou "hbc") et WUP Installer GX2
+1. Select the Homebrew Channel
 1. Touchez "Install", puis "Yes" pour confirmer
 1. Choisissez "NAND" comme destination
+1. Select WUP Installer GX2
+1. Touchez "Install", puis "Yes" pour confirmer
+1. If you plan to install games to a USB HDD, select "USB" as the destination; if you do not plan to use a USB HDD, select "NAND" as the destination
 1. Appuyez sur le bouton (Home) puis quittez le logiciel Éditeur Mii quand l'installation est terminée
 
 ___
