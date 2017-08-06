@@ -46,7 +46,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Stecke deine SD Karte in den Computer
 1. Erstelle einen Ordner mit dem Namen `wiiu` im Stammverzeichnis deiner SD-Karte
 1. Erstelle einen Ordner mit dem Namen `install` im Stammverzeichnis deiner SD-Karte
-1. Kopiere den `apps` Ordner von der Homebrew App Store `.zip` in den `/wiiu/` Ordner auf deiner SD -Karte
+1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
 1. Kopiere und füge _den Inhalt_ der Haxchi `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Kopiere und füge _den Inhalt_ der Haxchi `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Kopiere und füge _den Inhalt_ der CBHC `.zip` im Stammverzeichnis deiner SD-Karte zusammen
