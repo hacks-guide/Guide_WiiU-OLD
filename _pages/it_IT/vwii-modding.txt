@@ -5,7 +5,7 @@ title: "Modifica vWii"
 Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche sulla vWii (Wii virtuale) della tua Wii U.
 {: .notice--info}
 
-If you have not already done the main Wii U guide, please follow [Get Started - Section II - Block System Updates](get-started#section-ii---block-system-updates) to prevent your Wii U from being automatically updated to the latest version, then return to this page.
+Se non hai ancora completato la guida principale Wii U, vai alla pagina [Cominciamo! - Sezione II - Bloccare gli aggiornamenti](get-started#section-ii---block-system-updates) per evitare che la tua Wii U si aggiorni automaticamente all'ultima versione, quindi ritorna a questa pagina.
 [: .notice--danger]
 
 #### Quello che ti serve
@@ -30,8 +30,8 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 
 ##### Sezione II - wuphax
 
-1. Launch the Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
+1. Avvia l'Homebrew Launcher
+  + Se non hai già completato la guida principale Wii U e quindi non sai come fare ciò, vai alla pagina [Homebrew Launcher](homebrew-launcher), quindi ritorna su questa pagina.
 1. Avvia wuphax
 1. Premi (A) per creare un backup del tuo Canale Mii e per injectare l'Hackmii Installer
 1. Ritornerai all'Homebrew Launcher nella SysNAND
@@ -44,7 +44,7 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 1. Segui le istruzioni per tornare alla vWii
 1. Se l'exploit è andato a buon fine, vedrai l'Homebrew Channel nel menu home della vWii
 1. Ritorna al menu di sistema, quindi spegni la Wii U
-1. Launch the Homebrew Launcher with the method used earlier in this section
+1. Avvia l'Homebrew Launcher con il metodo usato in precedenza
 1. Avvia wuphax
 1. Premi (B) quando richiesto per ripristinare il Canale Mii
 1. Segui le istruzioni per tornare alla vWii
