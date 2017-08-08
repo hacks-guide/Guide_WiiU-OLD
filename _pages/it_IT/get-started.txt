@@ -46,7 +46,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Inserisci la scheda SD nel tuo computer
 1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
 1. Crea una cartella chiamata `install` nella root della tua scheda SD
-1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
+1. Copia la cartella `apps` dall'archivio `.zip` dell'Homebrew App Store nella cartella `/wiiu/` nella tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip` dell'Homebrew Launcher nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip` di Haxchi nella root della tua scheda SD
 1. Copia e unisci _il contenuto_ dell'archivio `.zip` di CBHC nella root della tua scheda SD
