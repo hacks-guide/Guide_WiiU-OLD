@@ -5,7 +5,7 @@ title: "vWii Modding"
 Det här gör att du kan installera Homebrew Channel och andra modifikationer till Wii U:s vWii (virtual Wii).
 {: .notice--info}
 
-If you have not already done the main Wii U guide, please follow [Get Started - Section II - Block System Updates](get-started#section-ii---block-system-updates) to prevent your Wii U from being automatically updated to the latest version, then return to this page.
+Om du ännu inte har gått igenom Wii U guiden, se till att följa [Kom igång - Avsnitt II - Blockera Systemuppdateringar](get-started#avsnitt-ii---blockera-systemuppdateringar) för att undvika att din Wii U uppdateras till senaste versionen av firmware automatiskt, och återkom sen hit.
 [: .notice--danger]
 
 #### Vad du behöver
@@ -30,8 +30,8 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 
 ##### Avsnitt II - wuphax
 
-1. Launch the Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
+1. Starta Homebrew Launcher
+  + Om du inte redan har gått igenom Wii U guiden och är osäker på hur du gör detta, följ [Homebrew Launcher](homebrew-launcher), och återkom sen hit.
 1. Starta wuphax
 1. Tryck (A) för att säkerhetskopiera din Mii Channel och ersätta den med Hackmii Installer
 1. Du kommer återvända till Homebrew Launcher på SysNAND
@@ -44,7 +44,7 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 1. Gå igenom instruktionerna för att återgå till vWii
 1. Om nyttjandet av säkerhetsluckan lyckades kommer du nu se Homebrew Channel på hemskärmen i vWii
 1. Återvänd till hemskärmen, stäng sen av din Wii U
-1. Launch the Homebrew Launcher with the method used earlier in this section
+1. Starta Homebrew Launcher med metoden du använde tidigare i det här avsnittet
 1. Starta wuphax
 1. Tryck (B) när du frågas om att återställa Mii Channel
 1. Gå igenom instruktionerna för att återgå till vWii
@@ -73,19 +73,19 @@ Se till att det inte finns några kataloger som heter `wad` eller `wads` på rot
   + CBHC Mocha CFW-användare kan göra det genom att hålla inne (B) när Wii U startar upp, och sen välja "Boot vWii Homebrew Channel"
 1. Starta d2x cIOS Installer
 1. Ställ in inställningarna på toppen av skärmen så de matchar följande:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Välj cIOS : **d2x-v10-beta52-vWii**
   + Välj cIOS base : **56**
   + Välj cIOS slot : **249**
 1. Tryck (A) för att installera
 1. Vänta på att installationen slutförs, tryck sen (A) för att fortsätta
 1. Ställ in inställningarna på toppen av skärmen så de matchar följande:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Välj cIOS : **d2x-v10-beta52-vWii**
   + Välj cIOS base : **57**
   + Välj cIOS slot : **250**
 1. Tryck (A) för att installera
 1. Vänta på att installationen slutförs, tryck sen (A) för att fortsätta
 1. Ställ in inställningarna på toppen av skärmen så de matchar följande:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Välj cIOS : **d2x-v10-beta52-vWii**
   + Välj cIOS base : **58**
   + Välj cIOS slot : **251**
 1. Tryck (A) för att installera
