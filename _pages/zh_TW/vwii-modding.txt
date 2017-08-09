@@ -5,6 +5,9 @@ title: "vWii 改機"
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
 {: .notice--info}
 
+If you have not already done the main Wii U guide, please follow [Get Started - Section II - Block System Updates](get-started#section-ii---block-system-updates) to prevent your Wii U from being automatically updated to the latest version, then return to this page.
+[: .notice--danger]
+
 #### 必備項目
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
@@ -27,7 +30,8 @@ title: "vWii 改機"
 
 ##### 第二節 — wuphax
 
-1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
+1. Launch the Homebrew Launcher
+  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
 1. 啟動 wuphax
 1. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
 1. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
@@ -40,7 +44,7 @@ title: "vWii 改機"
 1. 照步驟跑完回至 vWii 中
 1. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
 1. 回到系統主選單中，並將你的 Wii U 關機
-1. 根據第一節的方式於 SysNAND 上進入 Homebrew Launcher
+1. Launch the Homebrew Launcher with the method used earlier in this section
 1. 啟動 wuphax
 1. 當提示時，按下「B」鍵還原 Mii 頻道
 1. 照步驟跑完回至 vWii 中
@@ -69,19 +73,19 @@ title: "vWii 改機"
   + CBHC Mocha CFW 使用者可以在開機時按住「B」鍵，並選擇「Boot vWii Homebrew Channel」
 1. 啟動 d2x cIOS Installer
 1. 將螢幕上方選項設為下列選項：
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
 1. 按「A」鍵安裝
 1. 等待安裝完畢，並按下「A」鍵繼續
 1. 將螢幕上方選項設為下列選項：
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
 1. 按「A」鍵安裝
 1. 等待安裝完畢，並按下「A」鍵繼續
 1. 將螢幕上方選項設為下列選項：
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
 1. 按「A」鍵安裝

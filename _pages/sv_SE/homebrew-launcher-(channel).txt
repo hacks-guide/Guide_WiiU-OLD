@@ -11,9 +11,12 @@ Det här kommer installera Homebrew Channel så att när modifierad SysNAND kör
   + Notera att Haxchi-användare måste starta Haxchi för att patcha SysNAND, och sen starta Homebrew Launcher en andra gång och hålla nere (A) för att ladda Homebrew Launcher
 1. **Endast Homebrew Launcher-användare:** Starta Mocha CFW, och kör sen igång Homebrew Launcher på nytt
 1. Starta WUP Installer GX2
-1. Välj Homebrew Channel och WUP Installer GX2
+1. Välj Homebrew Channel
 1. Tryck "install" följt av "yes" för att bekräfta
 1. Välj "NAND" som destination
+1. Välj WUP Installer GX2
+1. Tryck "install" följt av "yes" för att bekräfta
+1. Om du planerar att installera spelen till en USB-hårddisk, välj "USB" som installationsplats; Om du inte planerar att använda USB-hårddisk, välj "NAND" som installationsplats
 1. Tryck (Hem), och avsluta sen programmet för att avsluta installationen när den är färdig
 
 ___

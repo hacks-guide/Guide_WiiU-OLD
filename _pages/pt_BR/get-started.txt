@@ -46,7 +46,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 1. Insira o seu cartão SD no seu computador
 1. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
 1. Crie uma pasta chamada `install` na raiz do seu cartão SD
-1. Copie a pasta `apps` do `.zip` do Hombebrew App Store para a pasta `/wiiu/` no seu cartão SD
+1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
 1. Copie e mescle _o conteúdo do_ `.zip` do Homebrew Launcher para a raiz do seu cartão SD
 1. Copie e mescle _o conteúdo do_ `.zip` do Haxchi para a raiz do seu cartão SD
 1. Copie e mescle _o conteúdo do_ `.zip` do CBHC para a raiz do seu cartão SD

@@ -8,6 +8,9 @@ Con questo procedimento creerai una copia della tua NAND nella tua scheda SD, ch
 Se hai una Wii U nera da 32GB, avrai bisogno di una scheda SD da almeno 64GB. Se hai una Wii U bianca da 8GB, avrai bisogno di una scheda SD da almeno 16GB.
 {: .notice--info}
 
+Gli utenti di Mocha CFW devono seguire queste istruzioni dopo un riavvio *senza* avviare Mocha CFW (attraverso l'Homebrew Launcher da browser) per evitare che Wii U NAND Dumper si blocchi.
+{: .notice--info}
+
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
@@ -22,7 +25,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Copia e unisci _il contenuto_ dell'archivio `.zip`di Wii U NAND Dumper nella root della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
-1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
+1. Avvia l'Homebrew Launcher
 1. Avvia nanddumper
 1. Usa le freccette per impostare le seguenti opzioni:
   + Dump SLC (528MB): **yes**

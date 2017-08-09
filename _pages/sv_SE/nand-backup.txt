@@ -8,6 +8,9 @@ De här stegen hjälper dig skapa en säkerhetskopia av ditt NAND-minne på ditt
 Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort.
 {: .notice--info}
 
+Observera att Mocha CFW-användare ska följa de här instruktionerna efter en omstart *utan* att köra Mocha CFW (med hjälp av Homebrew Launcher startad från webbläsaren) för att undvika att Wii U NAND Dumper hänger sig.
+{: .notice--info}
+
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
@@ -22,7 +25,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Kopiera och slå ihop _innehållet_ från Wii U NAND Dumper `zip`-filen till roten av ditt SD-kort
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
-1. Stata Homebrew Launcher Channel från modifierad SysNAND
+1. Starta Homebrew Launcher
 1. Starta nanddumper
 1. Använd D-Pad:en för att ställa in följande inställningar:
   + Dump SLC (528MB): **yes**
@@ -35,7 +38,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. När allt är klart kommer din Wii U starta om automatiskt
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
-1. Kopiera `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, och varje `mlc.bin.part`-fil från roten av ditt SD-kort till ett säkert stället på din dator
+1. Kopiera `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, och varje `mlc.bin.part`-fil från roten av ditt SD-kort till ett säkert ställe på din dator
 
 ___
 
