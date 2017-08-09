@@ -5,6 +5,9 @@ title: "Modifica vWii"
 Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche sulla vWii (Wii virtuale) della tua Wii U.
 {: .notice--info}
 
+Se non hai ancora completato la guida principale Wii U, vai alla pagina [Cominciamo! - Sezione II - Bloccare gli aggiornamenti](get-started#section-ii---block-system-updates) per evitare che la tua Wii U si aggiorni automaticamente all'ultima versione, quindi ritorna a questa pagina.
+[: .notice--danger]
+
 #### Quello che ti serve
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
@@ -27,7 +30,8 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 
 ##### Sezione II - wuphax
 
-1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
+1. Avvia l'Homebrew Launcher
+  + Se non hai già completato la guida principale Wii U e quindi non sai come fare ciò, vai alla pagina [Homebrew Launcher](homebrew-launcher), quindi ritorna su questa pagina.
 1. Avvia wuphax
 1. Premi (A) per creare un backup del tuo Canale Mii e per injectare l'Hackmii Installer
 1. Ritornerai all'Homebrew Launcher nella SysNAND
@@ -40,7 +44,7 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 1. Segui le istruzioni per tornare alla vWii
 1. Se l'exploit è andato a buon fine, vedrai l'Homebrew Channel nel menu home della vWii
 1. Ritorna al menu di sistema, quindi spegni la Wii U
-1. Entra nell'Homebrew Launcher nella SysNAND utilizzando il metodo usato nella Sezione I
+1. Avvia l'Homebrew Launcher con il metodo usato in precedenza
 1. Avvia wuphax
 1. Premi (B) quando richiesto per ripristinare il Canale Mii
 1. Segui le istruzioni per tornare alla vWii
@@ -69,19 +73,19 @@ Assicurati che non ci siano cartelle di nome `wad` o `wads` nella root della tua
   + Gli utenti di CBHC possono fare ciò tenendo premuto (B) all'avvio della console e selezionando "Boot vWii Homebrew Channel"
 1. Avvia d2x cIOS Installer
 1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
 1. Premi (A) per installare i cIOS
 1. Aspetta che finisca l'installazione, quindi premi (A) per continuare
 1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
 1. Premi (A) per installare i cIOS
 1. Aspetta che finisca l'installazione, quindi premi (A) per continuare
 1. Assicurati che le opzioni nella parte superiore dello schermo siano le seguenti:
-  + Select cIOS : **d2x-v10-beta53-alt-vWii**
+  + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
 1. Premi (A) per installare i cIOS

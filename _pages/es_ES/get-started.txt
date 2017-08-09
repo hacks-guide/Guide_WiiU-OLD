@@ -46,7 +46,7 @@ Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
 1. Inserta tu tarjeta SD en tu computadora
 1. Crea una carpeta llamada`wiiu` en la raíz de tu tarjeta SD
 1. Crea una carpeta llamada`install` en la raíz de tu tarjeta SD
-1. Copia la carpeta `apps` contenida en el `.zip` de Hombebrew App Store a la carpeta `/wiiu/` en tu tarjeta SD
+1. Copia la carpeta `apps` desde el `.zip` de Homebrew App Store a la carpeta `/wiiu/` en tu tarjeta SD
 1. Copia y combina _el contenido del_ `.zip` de Homebrew Launcher a la raíz de tu tarjeta SD
 1. Copia y combina _el contenido del_ `.zip` de Haxchi a la raíz de tu tarjeta SD
 1. Copia y combina _el contenido del_ `.zip` de CBHC a la raíz de tu tarjeta SD
@@ -64,7 +64,7 @@ Tu tarjeta SD **no puede** llamarse `wiiu`, o causará problemas.
 1. Reinserta la tarjeta SD en tu consola
 1. Enciende tu consola
 
-##### Section II - Bloquear actualizaciones del sistema
+##### Sección II - Bloquear actualizaciones del sistema
 
 Tenga en cuenta que, a menos que bloquees las actualizaciones con este método en todas las conexiones actuales y futuras, las actualizaciones en la Wii U se realizan *automáticamente* y *no* pueden ser desactivadas. 
 {: .notice--danger}
