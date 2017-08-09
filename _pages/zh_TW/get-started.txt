@@ -30,7 +30,7 @@ title: "從頭開始"
 * 最新版的 [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [WUP Installer GX2 (頻道版)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
