@@ -30,7 +30,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 * Die neueste Version von [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Die neueste Version von [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * Die neueste Version von [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* Die neueste Version von [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
 * Die neueste Version der [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * Die neueste Version von [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Die neueste Version des [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(die channel- `.zip` -Datei)*
