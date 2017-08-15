@@ -28,7 +28,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 
 ### For 5.5.2
 
-1. Go to `https://u.drg.li/`
+1. Go to `http://u.drg.li/`
   + You may want to bookmark this address to save time on typing in the future
 2. Click "2"
   + This may take many tries
