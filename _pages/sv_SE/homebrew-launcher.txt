@@ -16,7 +16,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Det här kommer även radera all webbläsarens data inklusive inställningar, historik och bokmärken
 1. Återvänd till webbläsaren
 
-### For 5.5.0 & 5.5.1
+### För 5.5.0 & 5.5.1
 
 1. Gå till `http://loadiine.ovh`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
@@ -26,13 +26,13 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen
 1. Din konsol ska nu ha laddat Homebrew Launcher
 
-### For 5.5.2
+### För 5.5.2
 
-1. Go to `http://u.drg.li/`
+1. Gå till `http://u.drg.li/`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
-2. Click "2"
+2. Klicka på "2"
   + Det här kan behöva många försök
-  + In some situations, the other options/numbers are more reliable.
+  + I några situationer är de andra alternativen/numren mer pålitliga.
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen
 1. Din konsol ska nu ha laddat Homebrew Launcher
 
