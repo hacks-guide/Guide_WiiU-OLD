@@ -16,7 +16,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
   + This will also delete all save data including settings, history, and bookmarks
 1. Return to the browser
 
-### For 5.3.2 - 5.5.1
+### For 5.5.0 & 5.5.1
 
 1. Go to `http://loadiine.ovh`
   + You may want to bookmark this address to save time on typing in the future
