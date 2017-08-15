@@ -8,7 +8,7 @@ title: "NAND 備份"
 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
 {: .notice--info}
 
-Note that Mocha CFW users should follow these instructions after a reboot *without* running Mocha CFW (using the browser based Homebrew Launcher) to prevent Wii U NAND Dumper from freezing.
+請注意，Mocha 自製韌體的使用者應在重啟後且*尚未運行* Mocha 自製韌體（透過瀏覽器版本的 Homebrew Launcher）的情況下進行下列步驟以避免 Wii U NAND Dumper 死當。
 {: .notice--info}
 
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
@@ -25,7 +25,7 @@ Note that Mocha CFW users should follow these instructions after a reboot *witho
 1. 複製並覆蓋 Wii U NAND Dumper `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
 1. 啟動你的裝置
-1. Launch the Homebrew Launcher
+1. 啟動 Homebrew Launcher
 1. 啟動 nanddumper
 1. 使用方向鍵來設定下列選項：
   + Dump SLC (528MB): **yes**

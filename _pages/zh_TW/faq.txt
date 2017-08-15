@@ -11,10 +11,10 @@ title: "常見問題 FAQ"
 **A:** This guide is only compatible with versions 5.5.0 and 5.5.1. Older versions are incompatible for now.
 <br><br>
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
-**A:** 不行。 The version 5.5.2 (which patches the browser part of the exploit) has been released well after the end of production.
+**A:** 不對！ The version 5.5.2 (which patches the browser part of the exploit) has been released well after the end of production.
 <br><br>
 <a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
-**A:** 不行。 You must always ensure that you have set DNS servers that will block updates.
+**A:** No! You must always ensure that you have set DNS servers that will block updates.
 <br><br>
 <a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
 **A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）
@@ -29,7 +29,7 @@ title: "常見問題 FAQ"
 **A:** 可以的，Mocha CFW 支援破解區碼限制。表示說你可以不用修改任何東西就能任意地安裝所有區域的遊戲。
 <br><br>
 <a name="faq_updates" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
-**A:** 不行。 請確保你的網路設定中已經設置好 DNS 伺服器的設定以阻擋未來的所有更新，
+**A:** 不對！ 請確保你的網路設定中已經設置好 DNS 伺服器的設定以阻擋未來的所有更新，
 <br><br>
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*    
 **A:** 若需支援，請見 [Discord 上的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器。
