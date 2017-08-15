@@ -5,7 +5,7 @@ title: "從頭開始"
 下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
 {: .notice--primary}
 
-在進行前，請先確保您的 Wii U 系統版本為 5.5.0 或 5.5.1。 最新版的系統版本（5.5.2）修補了我們將要使用的瀏覽器漏洞。
+Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
 {: .notice--info}
 
 建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
