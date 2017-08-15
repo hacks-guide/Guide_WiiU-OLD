@@ -16,7 +16,7 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
   + Esto también eliminará todos los datos que involucran configuración, historial de navegación y favoritos
 1. Regresa al navegador
 
-### For 5.5.0 & 5.5.1
+### Para 5.5.0 y 5.5.1
 
 1. Ve a `http://loadiine.ovh`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
@@ -26,13 +26,13 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta el proceso de nuevo
 1. Tu consola debería cargar el Homebrew Launcher
 
-### For 5.5.2
+### Para 5.5.2
 
-1. Go to `http://u.drg.li/`
+1. Ve a `http://u.drg.li/`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
-2. Click "2"
+2. Haz clic en "2"
   + Esto puede tomar varios intentos
-  + In some situations, the other options/numbers are more reliable.
+  + En algunos casos, las otras opciones/números son más confiables.
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta el proceso de nuevo
 1. Tu consola debería cargar el Homebrew Launcher
 
