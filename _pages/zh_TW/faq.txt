@@ -8,10 +8,10 @@ title: "常見問題 FAQ"
 **A:** 目前不行。
 <br><br>
 <a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
-**A:** 本手冊目前只適用於版本 5.5.0 及 5.5.1。 目前不相容於較舊版本。
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.2. 目前不相容於較舊版本。
 <br><br>
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
-**A:** 不對！ 版本 5.5.2（也就是修正了瀏覽器漏洞的系統版本）是在停產後釋出的新版本。
+**A:** 不對！ The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
 <br><br>
 <a name="faq_updatesysnand" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
 **A:** 不！ 您必須確保您已設置了可以阻擋系統更新的 DNS 伺服器。
