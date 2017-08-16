@@ -31,7 +31,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 The method of entering the Homebrew Launcher is extremely unstable and unreliable, at the time being. Please get a Haxchi-compatible game before following this, so you can enter the Homebrew Launcher with an almost 100% guaranteed success rate. Using Mocha CFW is highly not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable.
 {: .notice--danger}
 
-1. Follow the [Haxchi](haxchi) guide.
+1. Follow the [Haxchi](haxchi) guide to purchase a compatible DS VC game.
 2. Go to `http://u.drg.li/`
   + You may want to bookmark this address to save time on typing in the future
 3. Click "2"
