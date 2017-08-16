@@ -26,9 +26,16 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
   + If it freezes, just force the console to power off by holding the power button, then try again
 1. Your console should load the Homebrew Launcher
 
+If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
+{: .notice--primary}
+
+If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
+{: .notice--primary}
+
+
 ### For 5.5.2
 
-The method of entering the Homebrew Launcher is extremely unstable and unreliable, at the time being. Please get a Haxchi-compatible game before following this, so you can enter the Homebrew Launcher with an almost 100% guaranteed success rate. Using Mocha CFW is highly not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable.
+The method of entering the Homebrew Launcher through a broswer exploit is extremely unstable and unreliable, at the time of this writing. That being said, please get a Haxchi-compatible game before following attempting to run a browser exploit (instructions below). Using Mocha CFW is not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable. Getting Haxchi would allow you to enter the Homebrew Launcher from the home menu with an almost 100% guaranteed success rate.
 {: .notice--danger}
 
 #### What you need
@@ -65,7 +72,7 @@ The method of entering the Homebrew Launcher is extremely unstable and unreliabl
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-1. Make sure you purchased your Haxchi-compatible game and downloaded it to your Wii U's internal memory.
+1. Make sure you purchased your Haxchi-compatible game and downloaded it to your Wii U's internal memory. If it's not in your Wii U's internal memory, please move it there through System Settings -> Data Management.
 2. Go to `http://u.drg.li/`
 3. Click "2"
   + This may take many tries
@@ -73,10 +80,3 @@ The method of entering the Homebrew Launcher is extremely unstable and unreliabl
   + If it freezes, just force the console to power off by holding the power button, then try again
 4. Your console should load the Homebrew Launcher
 5. Proceed with the Haxchi(haxchi) guide.
-___
-
-If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
-{: .notice--primary}
-
-If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
-{: .notice--primary}
