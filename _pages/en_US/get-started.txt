@@ -66,7 +66,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 ##### Section II - Block System Updates (For 5.5.0-5.5.1 ONLY)
 
-Please follow this ONLY if you are on Wii U version 5.5.0 or 5.5.1. This is is not needed for users who have a Wii U that's on 5.5.2. Later in the guide, you'll follow this, if on 5.5.2.
+Please follow this ONLY if you are on Wii U version 5.5.0 or 5.5.1. For now, this is is not needed for users who have a Wii U that's on 5.5.2. Later in the guide, you'll follow this, if on 5.5.2.
 {: .notice--danger}
 
 Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
