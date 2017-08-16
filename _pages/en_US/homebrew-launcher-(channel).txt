@@ -7,7 +7,7 @@ This will install the Homebrew Channel so that, once you have a patched SysNAND 
 
 #### Instructions
 
-1. Enter the Homebrew Launcher using `http://loadiine.ovh`, Haxchi, or Coldboot Haxchi
+1. Enter the Homebrew Launcher using `http://loadiine.ovh`(5.5.0-5.5.1 Users ONLY), Haxchi, or Coldboot Haxchi
   + Note that Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
 1. **Homebrew Launcher Users Only:** Launch Mocha CFW, then relaunch the Homebrew Launcher
 1. Launch WUP Installer GX2
@@ -20,6 +20,9 @@ This will install the Homebrew Channel so that, once you have a patched SysNAND 
 1. Press (Home), then close the software to exit the installer once it has completed installing
 
 ## For 5.5.2 Users ONLY
+
+Make sure you followed everything above before following this
+{: .notice--info}
 
 ##### Block System Updates
 
