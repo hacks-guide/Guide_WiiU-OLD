@@ -8,7 +8,7 @@ Haxchi is a custom firmware that patches signature checks, region checks, and ru
 Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
 {: .notice--info}
 
-#### For 5.5.0-5.5.1 ONLY
+##### For 5.5.0-5.5.1 ONLY
 
 If on Wii U version 5.5.0 or 5.5.1 and you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
@@ -48,7 +48,7 @@ If on Wii U version 5.5.0 or 5.5.1 and you need to purchase one of the exploitab
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-#### For 5.5.0-5.5.2
+##### For 5.5.0, 5.5.1, and 5.5.2
 
 
 #### Instructions
