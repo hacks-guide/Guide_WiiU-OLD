@@ -5,7 +5,7 @@ title:"Pour Commencer"
 Ces étapes prépareront votre carte SD pour l'installation d'un ColdBootHax.
 {: .notice--primary}
 
-Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
+Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmware 5.5.0, 5.5.1 ou 5.5.2. Les anciennes versions ne sont actuellement pas prises en charge.
 {: .notice--info}
 
 On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux.
