@@ -70,7 +70,7 @@ The method of entering the Homebrew Launcher through a broswer exploit is extrem
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-## Instructions
+#### Instructions
 1. Make sure you purchased your Haxchi-compatible game and downloaded it to your Wii U's internal memory. If it's not in your Wii U's internal memory, please move it there through System Settings -> Data Management.
 1. Launch the browser on your device
 1. Go to the browser settings and select "Reset Save Data"
