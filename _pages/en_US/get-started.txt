@@ -2,7 +2,7 @@
 title: "Get Started"
 ---
 
-These steps will prepare your SD card in preparation for installing coldboothax custom firmware.
+These steps will prepare your SD card in preparation for installing custom firmware.
 {: .notice--primary}
 
 Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
