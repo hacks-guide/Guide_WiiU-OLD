@@ -19,6 +19,31 @@ This will install the Homebrew Channel so that, once you have a patched SysNAND 
 1. If you plan to install games to a USB HDD, select "USB" as the destination; if you do not plan to use a USB HDD, select "NAND" as the destination
 1. Press (Home), then close the software to exit the installer once it has completed installing
 
+## For 5.5.2 Users ONLY
+
+##### Block System Updates
+
+Please follow this ONLY if you are on Wii U version 5.5.0 or 5.5.1. For now, this is is not needed for users who have a Wii U that's on 5.5.2. Later in the guide, you'll follow this, if on 5.5.2.
+{: .notice--danger}
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+Note that to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+{: .notice--info}
+
+1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+1. For each of your connections (and all future connections), do the following
+  + Select the connection
+  + Select "Change Settings"
+  + Move to the second list and choose "DNS"
+  + Set the DNS to "Don't Auto-Obtain"
+  + Set the DNS server IPs to the following servers
+  + `168.235.092.108`
+  + `081.004.127.020`
+  + Select "Confirm", then press (B) to save
+  + These servers will block your SysNAND from being updated
+
 ___
 
 You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
