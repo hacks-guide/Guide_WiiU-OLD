@@ -79,4 +79,4 @@ The method of entering the Homebrew Launcher through a broswer exploit is extrem
   + In some situations, the other options/numbers are more reliable.
   + If it freezes, just force the console to power off by holding the power button, then try again
 4. Your console should load the Homebrew Launcher
-5. Proceed with the Haxchi(haxchi) guide.
+5. Proceed with the [Haxchi](haxchi) guide.
