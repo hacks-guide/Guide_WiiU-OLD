@@ -36,6 +36,9 @@ If you would prefer to launch your Custom Firmware using the browser on every bo
 The method of entering the Homebrew Launcher through a broswer exploit is extremely unstable and unreliable, at the time of this writing. That being said, please get a Haxchi-compatible game before following attempting to run a browser exploit (instructions below). Using Mocha CFW is not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable. Getting Haxchi would allow you to enter the Homebrew Launcher from the home menu with an almost 100% guaranteed success rate.
 {: .notice--danger}
 
+Make sure you have deactivated any sort of custom DNS (DNS blocking) on your Wii U before attempting to purchase a Haxchi-compatible game, or else you won't be able to access the eshop.
+{: .notice--danger}
+
 #### What you need
 
 + A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
