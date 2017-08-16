@@ -5,7 +5,7 @@ title: "Cominciamo!"
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter poi installare un cooldboothax custom firmware.
 {: .notice--primary}
 
-Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
+Prima di iniziare, assicurati che la tua Wii U abbia un firmware 5.5.0, 5.5.1 o 5.5.2. Al momento non sono supportate versioni del software precedenti.
 {: .notice--info}
 
 La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi.
