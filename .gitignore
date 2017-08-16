@@ -12,4 +12,3 @@ example/_site
 node_modules
 npm-debug.log*
 /vendor
-Gemfile.lock
