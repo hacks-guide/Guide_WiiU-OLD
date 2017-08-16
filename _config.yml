@@ -11,10 +11,10 @@ title                    : "Wii U Guide"
 title_separator          : "-"
 name                     : "Plailect & FlimFlam69"
 description              : "Full Coldboot Haxchi CFW Guide"
-url                      : "https://mike15678.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-enforce_ssl              : "mike15678.github.io"
+url                      : "https://wiiu.guide" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+enforce_ssl              : "wiiu.guide"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "Mike15678/Mike15678.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "Plailect/Guide_WiiU" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
 breadcrumbs              : # true, false (default)
 words_per_minute         : 200
