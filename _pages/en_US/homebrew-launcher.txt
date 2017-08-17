@@ -74,7 +74,7 @@ Make sure you have deactivated any sort of custom DNS (DNS blocking) on your Wii
 | Yoshi's Touch & Go |
 
 #### Instructions
-1. Make sure you purchased your Haxchi-compatible game and downloaded it to your Wii U's internal memory. If it's not in your Wii U's internal memory, please move it there through System Settings -> Data Management.
+1. Make sure you purchased your Haxchi-compatible DS virtual console game and downloaded it to your Wii U's internal memory. If it's not in your Wii U's internal memory, please move it there through System Settings -> Data Management.
 1. Launch the browser on your device
 1. Go to the browser settings and select "Reset Save Data"
   + This will prevent issues with the browser exploit
