@@ -33,7 +33,7 @@ If you would prefer to launch your Custom Firmware using the browser on every bo
 
 ## For 5.5.2 ONLY
 
-The method of entering the Homebrew Launcher through a broswer exploit for 5.5.2 users is extremely unstable and unreliable, at the time of this writing. That being said, please purchase a Haxchi-compatible DS virtual console game before attempting to run a browser exploit (details below). Using Mocha CFW is not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable. Getting Haxchi would allow you to enter the Homebrew Launcher from the home menu with an almost 100% guaranteed success rate.
+The method of entering the Homebrew Launcher through a broswer exploit for 5.5.2 users is extremely unstable and unreliable, at the time of this writing. That being said, please purchase a Haxchi-compatible DS virtual console game before attempting to run a browser exploit (details below). Using Mocha CFW is not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable. Getting Haxchi would allow you to enter the Homebrew Launcher from the home menu with a 100% guaranteed success rate.
 {: .notice--danger}
 
 Make sure you have deactivated any sort of custom DNS (DNS blocking) on your Wii U before attempting to purchase a Haxchi-compatible DS virtual console game, or else you won't be able to access the eShop.
