@@ -80,7 +80,7 @@ Make sure you have deactivated any sort of custom DNS (DNS blocking) on your Wii
   + This will prevent issues with the browser exploit
   + This will also delete all save data including settings, history, and bookmarks
 1. Return to the browser
-1. Go to `http://u.drg.li/`
+1. Go to `http://sleepii.ovh/`
 1. Click "2"
   + This may take many tries
   + In some situations, the other options/numbers are more reliable.
