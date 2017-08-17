@@ -8,7 +8,7 @@ These steps will prepare your SD card in preparation for installing coldboothax 
 Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
 {: .notice--info}
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
+Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. At the end of this guide, you may perform a NAND backup. If you wish to do so on a 32GB Wii U (black console), you will need a 64GB SD card.
 {: .notice--info}
 
 Your SD card must be formatted as FAT32 (64KB clusters if possible). Most SD cards will be formatted this way by default.
