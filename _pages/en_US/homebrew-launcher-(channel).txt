@@ -21,7 +21,7 @@ This will install the Homebrew Channel so that, once you have a patched SysNAND 
 
 ## For 5.5.2 Users ONLY
 
-Make sure you followed everything above before following this
+Make sure you followed everything above before attempting to follow these instructions.
 {: .notice--info}
 
 ##### Block System Updates
