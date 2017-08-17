@@ -8,7 +8,9 @@ Haxchi is a custom firmware that patches signature checks, region checks, and ru
 Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
 {: .notice--info}
 
-If you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
+## For 5.5.0-5.5.1 ONLY
+
+If on Wii U version 5.5.0 or 5.5.1 and you need to purchase one of the exploitable games, run NNU-Patcher from the Homebrew Launcher then launch the eShop. Once it has been purchased, re-enter the [Homebrew Launcher](homebrew-launcher).
 {: .notice--primary}
 
 
@@ -55,6 +57,17 @@ If you need to purchase one of the exploitable games, run NNU-Patcher from the H
 1. The console will reboot into patched SysNAND
   + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
 
+## For 5.5.2 ONLY
+
+#### Instructions
+
+1. Launch the Haxchi Installer
+1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
+1. Read the warning that appears, then press (A) to install
+1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
+1. The console will reboot into patched SysNAND
+  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+  
 ___
 
 Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
