@@ -8,6 +8,8 @@ The Homebrew Launcher is a homebrew application that lists and allows the launch
 We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
 {: .notice--info}
 
+## For 5.5.0 & 5.5.1 ONLY
+
 #### Instructions
 
 1. Launch the browser on your device
@@ -15,31 +17,73 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
   + This will prevent issues with the browser exploit
   + This will also delete all save data including settings, history, and bookmarks
 1. Return to the browser
-
-### For 5.5.0 & 5.5.1
-
 1. Go to `http://loadiine.ovh`
   + You may want to bookmark this address to save time on typing in the future
-1. Ensure that the drop down box shows "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", then press "Submit"
+1. Ensure that the drop down box shows "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)", then press "Submit"
   + This may take many tries
-  + In some situations, the "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" option may be more reliable for launching the Homebrew Launcher
   + If it freezes, just force the console to power off by holding the power button, then try again
 1. Your console should load the Homebrew Launcher
-
-### For 5.5.2
-
-1. Go to `http://u.drg.li/`
-  + You may want to bookmark this address to save time on typing in the future
-2. Click "2"
-  + This may take many tries
-  + In some situations, the other options/numbers are more reliable.
-  + If it freezes, just force the console to power off by holding the power button, then try again
-1. Your console should load the Homebrew Launcher
-
-___
 
 If you would prefer to buy a cheap exploitable game to launch your Custom Firmware automatically at boot *(or already own one of the DS virtual console games listed)*, continue to [Haxchi](haxchi).
 {: .notice--primary}
 
 If you would prefer to launch your Custom Firmware using the browser on every boot to save money, continue to [Mocha CFW](mocha-cfw).
 {: .notice--primary}
+
+
+## For 5.5.2 ONLY
+
+The method of entering the Homebrew Launcher through a broswer exploit for 5.5.2 users is extremely unstable and unreliable, at the time of this writing. That being said, please purchase a Haxchi-compatible DS virtual console game before attempting to run a browser exploit (details below). Using Mocha CFW is not recommended, since the broswer exploit required to enter the Homebrew Launcher and run Mocha, is unreliable. Getting Haxchi would allow you to enter the Homebrew Launcher from the home menu with an almost 100% guaranteed success rate.
+{: .notice--danger}
+
+Make sure you have deactivated any sort of custom DNS (DNS blocking) on your Wii U before attempting to purchase a Haxchi-compatible DS virtual console game, or else you won't be able to access the eShop.
+{: .notice--danger}
+
+#### What you need
+
++ A legitimate copy of one of the following DS virtual console games installed to your Wii U's internal memory
+  + Do **not** install the DS virtual console game to a USB stick
+  + Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD)
+  + If you've had Brain Age / Brain Training installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game will not work with Haxchi
+  + The game will not be playable after you complete the rest of this guide.
+  + **Your Haxchi DS virtual console game MUST be a LEGITIMATE copy!**
+
+| Compatible Haxchi Games |
+| ------------- |
+| Animal Crossing: Wild World |
+| Big Brain Training |
+| DK: Jungle Climber |
+| Dr. Kawashima's Brain Training |
+| Kirby: Canvas Curse |
+| Kirby: Mass Attack|
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
+| Legend of Zelda: Phantom Hourglass, The |
+| Legend of Zelda: Spirit Tracks, The |
+| Mario & Luigi: Partners in Time |
+| Mario Kart DS |
+| New Super Mario Bros. |
+| Pokemon Mystery Dungeon: Explorers of the Sky |
+| Pokemon Ranger |
+| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Shadows of Almia |
+| Starfox Command |
+| Super Mario 64 DS |
+| Wario: Master of Disguise |
+| WarioWare: Touched |
+| Yoshi's Island DS |
+| Yoshi's Touch & Go |
+
+#### Instructions
+1. Make sure you purchased your Haxchi-compatible game and downloaded it to your Wii U's internal memory. If it's not in your Wii U's internal memory, please move it there through System Settings -> Data Management.
+1. Launch the browser on your device
+1. Go to the browser settings and select "Reset Save Data"
+  + This will prevent issues with the browser exploit
+  + This will also delete all save data including settings, history, and bookmarks
+1. Return to the browser
+1. Go to `http://u.drg.li`
+1. Click "2"
+  + This may take many tries
+  + In some situations, the other options/numbers are more reliable.
+  + If it freezes, just force the console to power off by holding the power button, then try again
+1. Your console should load the Homebrew Launcher
+1. Proceed with the [Haxchi](haxchi) guide.
