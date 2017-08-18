@@ -37,8 +37,8 @@ Om du följde guiden när den använde RedNAND, notera att spel och sparningar s
 {% capture notice-3 %}
 **Ta bort alla extra filer och kataloger från roten av SD-kortet som *inte* finns med i följande lista (du kanske inte har alla eller ens några av dessa):**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 
