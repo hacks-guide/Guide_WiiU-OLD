@@ -3,10 +3,8 @@ title: "Coldboot Haxchi"
 ---
 
 CBHC (Coldboot Haxchi) ändrar vilken titel som laddas vid uppstart så att ditt SysNAND startar DS virtual console-spelet istället för hem-menyn, vilket i sin tur kommer starta modifierad SysNAND.
-{: .notice}
 
 Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. Om du vill hoppa över Haxchi, fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
-{: .notice--info}
 
 **Du MÅSTE ha en fungerande Haxchi-uppsättning för att det ska fungera. Om du inte har det kommer du få en BRICKNING!**
 {: .notice--danger}
@@ -44,14 +42,14 @@ Din Wii U ska nu automatiskt starta till Cooldboot Haxchi modifierad SysNAND vid
 {: .notice}
 
 {% capture notice-1 %}
-** Du kan trycka (Hem) under uppstart för att komma åt CBHCs boot meny. Det här är vad var och en av inställningarna gör:**
+You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
 
-+ Boot System Menu -> Startar i SysNAND
-+ Boot Homebrew Launcher -> Startar Homebrew Launcher på SysNAND
-+ Boot Mocha CFW -> Startar Mocha CFW med RedNAND
-+ Boot fw.img on SD Card -> Startar en äldre fw.img-baserad CFW från SD-kortet
-+ Boot vWii System Menu -> Startar vWii på SysNAND
-+ Boot vWii Homebrew Channel -> Startar vWii Homebrew Channel på SysNAND
+  + Boot System Menu -> Startar i SysNAND
+  + Boot Homebrew Launcher -> Startar Homebrew Launcher på SysNAND
+  + Boot Mocha CFW -> Startar Mocha CFW med RedNAND
+  + Boot fw.img on SD Card -> Startar en äldre fw.img-baserad CFW från SD-kortet
+  + Boot vWii System Menu -> Startar vWii på SysNAND
+  + Boot vWii Homebrew Channel -> Startar vWii Homebrew Channel på SysNAND
 
 {% endcapture %}
 
