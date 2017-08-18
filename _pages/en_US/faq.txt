@@ -5,41 +5,41 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** No
-<br><br>
+**A:** Yes
+
 <a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
 **A:** This guide is only compatible with versions 5.5.0 to 5.5.2. Older versions are incompatible for now.
-<br><br>
+
 <a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
 **A:** No! The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
-<br><br>
+
 <a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
 **A:** No! You must always ensure that you have set DNS servers that will block updates.
-<br><br>
+
 <a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
 **A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
-<br><br>
+
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
 **A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
-<br><br>
+
 <a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
 **A:** Yes! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
-<br><br>
+
 <a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
 **A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
-<br><br>
+
 <a name="faq_updates" />**Q:** *Is it safe to update patched SysNAND?*    
 **A:** No! You must always ensure that your internet settings include DNS servers that block updates just in case a new update is released!
-<br><br>
+
 <a name="faq_support" />**Q:** *Where should I go for support?*    
 **A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
-<br><br>
+
 <a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
 **A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
-<br><br>
+
 <a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
 **A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
-<br><br>
+
 <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
 **A:** All you need is the ability to put files on an SD card!
 
