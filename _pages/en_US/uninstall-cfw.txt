@@ -37,8 +37,8 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 {% capture notice-3 %}
 **Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 

@@ -3,22 +3,13 @@ title: "disc2app"
 ---
 
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
-{: .notice--info}
 
-{% capture notice-2 %}
-**If you are planning to use an external hard drive to install your dumped discs on, note the following:**
+If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
-+ You cannot use the same hard drive for vWii and Wii U games.
-+ The Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-+ Formatting an external hard drive for use with a Wii U will erase its contents.
-+ If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
-
-If you are planning to use an external hard drive to install your dumped discs on, note that the Wii U can only utilize up to 2tb of an external hard drive, even if the drive itself has a larger capacity.
-{: .notice--info}
+  + You cannot use the same hard drive for vWii and Wii U games.
+  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + Formatting an external hard drive for use with a Wii U will erase its contents.
+  + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
 #### What you need
 
@@ -29,13 +20,10 @@ If you are planning to use an external hard drive to install your dumped discs o
 
 ##### Section I - Formatting external drive
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section.
+If you are planning to use an external hard drive to install your dumped discs on, follow this section. If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
 {: .notice--info}
 
-If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
-{: .notice--info}
-
-Note that this will completely erase the contents of the external hard drive!
+This will completely erase the contents of the external hard drive!
 {: .notice--danger}
 
 1. Plug your USB HDD into your Wii U while it is powered off
