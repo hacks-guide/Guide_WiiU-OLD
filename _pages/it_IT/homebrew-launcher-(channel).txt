@@ -3,14 +3,15 @@ title: "Homebrew Launcher (Canale)"
 ---
 
 Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da avere l'Homebrew Launcher come icona sul menu di sistema della tua SysNAND patchata.
-{: .notice--info}
 
 #### Istruzioni
 
-1. Avvia l'Homebrew Launcher utilizzando `http://loadiine.ovh`, Haxchi, o Coldboot Haxchi
-  + Gli utenti Haxchi devono avviare Haxchi una volta per patchare la SysNAND e una seconda volta tenendo premuto (A) per avviare l'Homebrew Launcher
-1. **Solo utenti dell'Homebrew Launcher:** Avvia Mocha CFW, quindi riavvia l'Homebrew Launcher
+1. Enter the Homebrew Launcher
+  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
+  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
 1. Avvia WUP Installer GX2
+  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
 1. Seleziona l'Homebrew Channel
 1. Premi "Install", quindi premi "Yes" per confermare
 1. Seleziona "NAND" come destinazione
