@@ -3,10 +3,6 @@ title: "vWii 改機"
 ---
 
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
-{: .notice--info}
-
-若您尚未完成本手冊的主要步驟，為避免您的 Wii U 自動更新至最新版本，請按照[從頭開始 — 第二節 — 阻擋系統更新](get-started#section-ii---block-system-updates)中的步驟執行，並繼續本頁面之步驟。
-[: .notice--danger]
 
 #### 必備項目
 
@@ -14,6 +10,7 @@ title: "vWii 改機"
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [Hackmii Installer](https://bootmii.org/download/)
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
 
 #### 操作說明
 
@@ -25,6 +22,7 @@ title: "vWii 改機"
 1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
 1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
 1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
 1. 啟動你的裝置
 
@@ -93,7 +91,7 @@ title: "vWii 改機"
 
 ##### 第五節 － 修改 IOS80
 
-**如果本節出了任何差錯（跳電...等），你的 vWii 將會磚機而得要你還原先前備份的 vWii 才能恢復運作。 請在確保你已經先備份完畢再行繼續。**
+This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.
 {: .notice--danger}
 
 1. 從 vWii 的 Homebrew Channel 中啟動 vWii 的 Patched IOS80 Installer
