@@ -8,10 +8,10 @@ title: "Preguntas Frecuentes"
 **R:** No
 <br><br>
 <a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo / debería hacer con ella?*    
-**R:** Esta guía es compatible sólo con las versiones 5.5.0 y 5.5.1. Las versiones anteriores son incompatibles por el momento.
+**R:** Esta guía es compatible sólo con las versiones 5.5.0 a 5.5.2. Las versiones anteriores son incompatibles por el momento.
 <br><br>
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
-**A:** ¡No! La versión 5.5.2 (la cual bloquea un exploit del navegador) ha sido liberada después del fin de la producción.
+**A:** ¡No! La versión 5.5.2 fue liberada justo después del fin de la producción. Por ello debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
 <br><br>
 <a name="faq_updatesysnand" />**P:** *¿Es seguro actualizar una SysNAND modificada?*    
 **A:** ¡No! Siempre debes asegurarte de usar servidores DNS que bloquean las actualizaciones.

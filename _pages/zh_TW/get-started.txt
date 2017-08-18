@@ -5,7 +5,7 @@ title: "從頭開始"
 下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
 {: .notice--primary}
 
-在進行前，請先確保您的 Wii U 系統版本為 5.5.0 或 5.5.1。 最新版的系統版本（5.5.2）修補了我們將要使用的瀏覽器漏洞。
+Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
 {: .notice--info}
 
 建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
@@ -30,9 +30,9 @@ title: "從頭開始"
 * 最新版的 [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [WUP Installer GX2 (頻道版)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
 * 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
@@ -46,7 +46,7 @@ title: "從頭開始"
 1. 將 SD 卡插入電腦
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
-1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
+1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
 1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 Haxchi `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 CBHC `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
@@ -56,7 +56,7 @@ title: "從頭開始"
 1. 解壓 WUP Installer GX2 (Channel) `.zip` 中的 `WUP_Installer_GX2` 資料夾至 SD 卡的 `/install/` 資料夾中
 1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
-1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
+1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製並覆蓋 WUP Installer GX2 (Homebrew Launcher) `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 hid\_to\_vpad `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
@@ -64,7 +64,7 @@ title: "從頭開始"
 1. 將 SD 卡插回裝置中
 1. 啟動你的裝置
 
-##### 第一節 — 阻擋系統更新
+##### 第二節 — 阻擋系統更新
 
 請注意，除非你在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
 {: .notice--danger}

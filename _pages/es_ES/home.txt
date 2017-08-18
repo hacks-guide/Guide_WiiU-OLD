@@ -52,7 +52,7 @@ Respaldar, editar y restaurar partidas guardadas de muchos juegos
 ## ¿Qué necesito saber antes de empezar?
 
 + **Antes de comenzar la guía, debes conocer los riesgos de hackear la Wii U: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
-+ Esta guía funcionará en todas las Wii U de todas las regiones en las versiones 5.5.0 o 5.5.1.
++ Esta guía funcionará en todas las Wii U de todas las regiones en las versiones 5.5.0 a 5.5.2.
 + Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (juegos, NNID, datos de guardado, etc se conservarán).
 + Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos.
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/).
