@@ -4,10 +4,10 @@ title: "disc2app"
 
 Detta gör att du kan lagra dina skivor i ett format som går att installera med syftet att kunna spela dem utan att behöva skivan.
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, notera följande:
 
   + Du kan inte använda samma hårddisk för vWii- och Wii U-spel.
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + Wii U kan bara utnyttja upp till 2TB på en extern hårddisk, även om den har större kapacitet än så.
   + Att formatera en extern hårddisk för att användas med en Wii U kommer radera allt dess innehåll.
   + Om du använder en extern hårddisk som inte har sin egna strömförsörjning kommer du behöva en [Y-kabel](http://amzn.to/2mjQjin).
 
@@ -23,7 +23,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, följ stegen i det här avsnittet. Om du inte planerar att använda en extern hårddisk eller om du redan har en extern hårddisk formaterad för Wii U, hoppa över det här avsnittet.
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+Detta kommer radera allt innehåll på den externa hårddisken!
 {: .notice--danger}
 
 1. Plugga in din USB-hårddisk i ditt Wii U medan den är avstängd
