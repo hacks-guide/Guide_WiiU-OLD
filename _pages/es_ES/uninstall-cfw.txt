@@ -37,8 +37,8 @@ Si seguiste esta guía cuando se hacía uso de RedNAND, ten en cuenta que los ju
 {% capture notice-3 %}
 **Elimina cualquier archivo o carpeta extra de la raíz de la tarjeta SD que *no* esté en la siguiente lista (puede que no tengas alguno o incluso ninguno de ellos):**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 
