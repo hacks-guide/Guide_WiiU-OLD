@@ -42,7 +42,7 @@ Din Wii U ska nu automatiskt starta till Cooldboot Haxchi modifierad SysNAND vid
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Du kan trycka (Hem) medan CBHC startar för att komma åt CBHCs startalternativ. Det här är vad var och en av inställningarna gör:
 
   + Boot System Menu -> Startar i SysNAND
   + Boot Homebrew Launcher -> Startar Homebrew Launcher på SysNAND
