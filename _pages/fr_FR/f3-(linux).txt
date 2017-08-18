@@ -3,13 +3,10 @@ title: "F3 (Linux)"
 ---
 
 Cette page vous décrira les étapes nécessaires à la vérification d'erreurs sur votre carte SD en utilisant F3.
-{: .notice}
 
 En fonction de la taille de votre carte SD et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures!
-{: .notice--info}
 
 Ces instructions ne concernent que les utilisateurs Linux. Si vous n'êtes pas sous Linux, utilisez [H2testw (windows)](h2testw-(windows)) ou [F3X (mac)](f3x-(mac)).
-{: .notice--info}
 
 #### Prérequis
 
