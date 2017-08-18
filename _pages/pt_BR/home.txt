@@ -52,7 +52,7 @@ e instalar o Custom Firmware Mocha com Coldboot Haxchi. Ele utiliza o homebrew c
 ## O que eu preciso saber antes de começar?
 
 + **Antes de começar a seguir o guia, você precisa saber os riscos de hackear o Wii U: TODA vez que você modifica seu sistema, existe sempre o potencial de ocorrer um brick IRRECUPERÁVEL. Eles são raros, mas ainda existe a possibilidade, então garanta que você siga TODOS os passos EXATAMENTE como escritos.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 or 5.5.1.
++ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
 + Se tudo ocorrer conforme o esperado, você não perderá dados pessoais e continuará com tudo o que tinha antes de começar (jogos, NNID, saves, etc serão preservados).
 + É recomendado que seu cartão SD tenha pelo menos 16GB ou 32GB para ter espaço suficiente para extrair e instalar os jogos.
 + Seu cartão SD deve ser [MBR, não GPT](http://www.howtogeek.com/245610/).

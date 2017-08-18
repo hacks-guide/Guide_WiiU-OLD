@@ -5,7 +5,7 @@ title: "Get Started"
 Diese Schritte werden deine SD-Karte vorbereiten um coldboothax Custom Firmware zu installieren.
 {: .notice--primary}
 
-Bevor du beginnst solltest du dir sicher sein, dass deine WiiU auf der Systemversion 5.5.0 oder 5.5.1 ist. Die neueste Systemversion 5.5.2 patcht einen Exploit des Browser welchen wir nutzen werden.
+Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
 {: .notice--info}
 
 Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist um genug Platz zum dumpen und installieren von Spielen zu bieten.

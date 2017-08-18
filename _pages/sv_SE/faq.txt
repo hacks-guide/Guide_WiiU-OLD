@@ -8,10 +8,10 @@ title: "FAQ"
 **S:** Nej
 <br><br>
 <a name="faq_oldfw" />**F:** *Jag har en Wii U på systemversion X.X.X. Vad kan jag / borde jag göra med den?*    
-**S:** Denna guide fungerar bara med version 5.5.0 och 5.5.1. Äldre versioner är inkompatibla just nu.
+**S:** Denna guide fungerar bara med version 5.5.0 till 5.5.2. Äldre versioner är inkompatibla just nu.
 <br><br>
 <a name="faq_updates" />**F:** *Nu när Nintendo ska avsluta produktionen av Wii U, innebär det att det inte kommer några fler uppdateringar?*    
-**S:** Nej! Version 5.5.2 (som täpper till säkerhetshålet i webbläsaren) har släppts mer än ett år efter att Wii U slutat produceras.
+**S:** Nej! Version 5.5.2 har släppts långt efter produktionen avslutades. Därför måste du alltid se till att ställa in DNS-servrar som blockerar uppdateringar.
 <br><br>
 <a name="faq_updatesysnand" />**F:** *Är det säkert att uppdatera din modifierade SysNAND?*    
 **S:** Nej! Du måste alltid se till att du ställt in DNS-servrar som blockerar uppdateringar.

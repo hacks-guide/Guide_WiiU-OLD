@@ -5,7 +5,7 @@ title: "vWii 改機"
 本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
 {: .notice--info}
 
-If you have not already done the main Wii U guide, please follow [Get Started - Section II - Block System Updates](get-started#section-ii---block-system-updates) to prevent your Wii U from being automatically updated to the latest version, then return to this page.
+若您尚未完成本手冊的主要步驟，為避免您的 Wii U 自動更新至最新版本，請按照[從頭開始 — 第二節 — 阻擋系統更新](get-started#section-ii---block-system-updates)中的步驟執行，並繼續本頁面之步驟。
 [: .notice--danger]
 
 #### 必備項目
@@ -30,8 +30,8 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 
 ##### 第二節 — wuphax
 
-1. Launch the Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
+1. 啟動 Homebrew Launcher
+  + 若您尚未完成本手冊的主要步驟且不知道該如何進行本步驟，請先參閱 [Homebrew Launcher](homebrew-launcher) 中的詳情以繼續本頁面之步驟。
 1. 啟動 wuphax
 1. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
 1. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
@@ -44,7 +44,7 @@ If you have not already done the main Wii U guide, please follow [Get Started - 
 1. 照步驟跑完回至 vWii 中
 1. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
 1. 回到系統主選單中，並將你的 Wii U 關機
-1. Launch the Homebrew Launcher with the method used earlier in this section
+1. 透過本節先前使用的步驟啟動 Homebrew Launcher
 1. 啟動 wuphax
 1. 當提示時，按下「B」鍵還原 Mii 頻道
 1. 照步驟跑完回至 vWii 中

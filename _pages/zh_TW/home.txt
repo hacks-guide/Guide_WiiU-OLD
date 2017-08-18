@@ -52,8 +52,8 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 ## 我在開始前需要知道什麼？
 
 + **在開始前，你一定得注意 Wii U 改機的風險：每次在更改系統時都有可能造成無法挽回的磚機或死機。 這種情況是滿罕見的，但是還是有可能的。所以請確保遵守所有的步驟。**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 or 5.5.1.
++ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
 + 如果一切都很順利的話，你將不會失去任何資料（像是遊戲、NNID、存檔...等都會被留下）。
 + 建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
 + 你的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
++ 如果您需要格式化一張新的 SD 卡，可以使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 且將配置單位設為 64K。

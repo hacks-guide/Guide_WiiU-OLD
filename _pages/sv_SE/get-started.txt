@@ -5,7 +5,7 @@ title: "Kom Igång"
 Följande steg hjälper dig förbereda ditt SD-kort för att installera coldboothax custom firmware.
 {: .notice--primary}
 
-Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0 eller 5.5.1 installerad. Den senaste firmware-uppdateringen (5.5.2) fixar säkerhetsluckan i webbläsaren som används av denna guide.
+Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 5.5.1 eller 5.5.2 installerad. Äldre versioner stöds inte för närvarande.
 {: .notice--info}
 
 Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.

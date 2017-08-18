@@ -5,16 +5,16 @@ title: "常見問題 FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
-**A:** No
+**A:** 目前不行。
 <br><br>
 <a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
-**A:** This guide is only compatible with versions 5.5.0 and 5.5.1. Older versions are incompatible for now.
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.2. 目前不相容於較舊版本。
 <br><br>
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
-**A:** 不對！ The version 5.5.2 (which patches the browser part of the exploit) has been released well after the end of production.
+**A:** 不對！ The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
 <br><br>
-<a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
-**A:** No! You must always ensure that you have set DNS servers that will block updates.
+<a name="faq_updatesysnand" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
+**A:** 不！ 您必須確保您已設置了可以阻擋系統更新的 DNS 伺服器。
 <br><br>
 <a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
 **A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）

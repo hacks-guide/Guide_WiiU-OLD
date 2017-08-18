@@ -15,11 +15,24 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
   + Cette démarche permet une meilleur compatibilité avec les exploits utilisés dans le navigateur
   + En contre-partie, cela supprimera aussi tout vos favoris ainsi que votre historique et vos paramètres de navigation
 1. Retournez dans le navigateur
+
+### Pour 5.5.0 & 5.5.1
+
 1. Ouvrez le site `http://loadiine.ovh`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Ensure that the drop down box shows "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", then press "Submit"
   + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
   + Dans certaines situations, l'option "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" peut mieux marcher pour lancer le Homebrew Launcher
+  + Si votre console freeze (ne répond plus), vous pouvez forcer l'extinction de celle-ci en maintenant le bouton Power et réessayer
+1. Votre console devrait maintenant charger le Homebrew Launcher
+
+### Pour 5.5.2
+
+1. Aller sur `http://u.drg.li/`
+  + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
+2. Clic "2"
+  + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
+  + Dans certaines situations, les autres options/nombres sont plus fiables.
   + Si votre console freeze (ne répond plus), vous pouvez forcer l'extinction de celle-ci en maintenant le bouton Power et réessayer
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
