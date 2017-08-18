@@ -13,15 +13,15 @@ excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <
 ---
 
 {% capture notice-home %}
-**Questa guida è riservata _solamente_ alle console retail (cioè quelle acquistate in negozio, non quelle ottenute tramite il Nintendo Developer Program)!**
+This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**La guida ha bisogno di *te* per [essere tradotta](https://translate.wiiu.guide/) in altre lingue!**
+This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
 {: .notice--success}
 
-**Assicurati di leggere tutte le sezioni introduttive prima di proseguire.**
+Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
 ## Cosa vuol dire Homebrew?
@@ -52,7 +52,7 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 ## Cosa mi serve sapere prima di cominciare?
 
 + **Prima di seguire la guida, è necessario che tu conosca il rischio dell'hacking di una Wii U: OGNI volta che si modifica il sistema c'è sempre il rischio di un brick IRREVERSIBILE. È raro ma può sempre capitare, quindi assicurati di seguire ESATTAMENTE OGNI SINGOLO PASSAGGIO.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
++ Questa guida funziona su qualsiasi console di qualsiasi regione con versione di sistema da 5.5.0 a 5.5.2.
 + Seguendo correttamente la guida non perderai alcun dato e manterrai tutto ciò che era installato nella console (per cui giochi, NNID, salvataggi, ecc verranno tutti conservati).
 + La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi.
 + La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/).
