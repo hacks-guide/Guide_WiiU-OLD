@@ -3,22 +3,13 @@ title: "disc2app"
 ---
 
 Cela vous permettra de faire des sauvegardes (dump) de vos disques, qui vous permettront de les installer sur la Wii U et de jouer sans avoir besoin du disque.
-{: .notice--info}
 
-{% capture notice-2 %}
-**Si vous prévoyez d'utiliser un disque dur externe pour installer vos jeux dumpés, voici quelques remarques :**
+If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
-+ Vous ne pouvez pas utiliser le même disque dur pour les jeux vWii et les jeux Wii U.
-+ La Wii U n'utilisera qu'au maximum 2To du disque dur, même si celui-ci est de plus grande capacité.
-+ Formater un disque dur externe pour l'utiliser avec la Wii U supprime tout son contenu.
-+ Si vous utilisez un disque dur externe qui n’a pas sa propre source d’alimentation, vous aurez besoin d’un [Câble en Y](http://amzn.to/2mjQjin).
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
-
-Si vous prévoyez d'utiliser un disque dur externe pour y installer des jeux dumpés, notez que la Wii U ne pourra utiliser qu'au maximum 2 To du disque dur, même si celui-ci est de plus grande capacité.
-{: .notice--info}
+  + Vous ne pouvez pas utiliser le même disque dur pour les jeux vWii et les jeux Wii U.
+  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + Formater un disque dur externe pour l'utiliser avec la Wii U supprime tout son contenu.
+  + Si vous utilisez un disque dur externe qui n’a pas sa propre source d’alimentation, vous aurez besoin d’un [Câble en Y](http://amzn.to/2mjQjin).
 
 #### Ce dont vous avez besoin
 
@@ -29,13 +20,10 @@ Si vous prévoyez d'utiliser un disque dur externe pour y installer des jeux dum
 
 ##### Section I - Formatage du disque dur externe
 
-Si vous prévoyez d'installer vos jeux dumpés sur un disque dur externe, suivez cette section.
+Si vous prévoyez d'installer vos jeux dumpés sur un disque dur externe, suivez cette section. Si vous ne prévoyez pas d'utiliser un disque dur externe ou que vous possédez déjà un disque dur externe formaté au format Wii U, sautez cette section.
 {: .notice--info}
 
-Si vous ne prévoyez pas d'utiliser un disque dur externe ou que vous possédez déjà un disque dur externe formaté au format Wii U, sautez cette section.
-{: .notice--info}
-
-Prenez conscience que ceci effacera complètement le contenu du disque dur externe!
+This will completely erase the contents of the external hard drive!
 {: .notice--danger}
 
 1. Assurez vous que la Wii U soit éteinte, et branchez votre disque dur externe
