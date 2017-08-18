@@ -37,8 +37,8 @@ title: "卸載自製韌體"
 {% capture notice-3 %}
 **移除所有的檔案/資料夾*除了*下列的檔案/資料夾外（你甚至有可能連這些都沒有）：**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 
