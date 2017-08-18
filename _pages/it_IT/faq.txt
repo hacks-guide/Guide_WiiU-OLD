@@ -5,41 +5,41 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
-**R:** No
-<br><br>
+**A:** Yes
+
 <a name="faq_oldfw" />**D:** *Ho una Wii U alla versione X.X.X. Cosa posso fare?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.2. Versioni precedenti non sono al momento supportate.
-<br><br>
+**R:** Questa guida è compatibile solo con le versioni da 5.5.0 a 5.5.2. Versioni precedenti non sono al momento supportate.
+
 <a name="faq_updates" />**D:** *Ora che Nintendo ha smesso di produrre Wii U, non ci saranno più aggiornamenti?*    
-**R:** No! The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
-<br><br>
+**R:** No! La versione di sistema 5.5.2 è stata rilasciata molto tempo dopo la fine della produzione. Perciò assicurati di aver sempre impostati i server DNS che bloccano gli aggiornamenti.
+
 <a name="faq_updatesysnand" />**D:** *È sicuro aggiornare una SysNAND patchata?*    
 **R:** No! Assicurati di aver sempre impostati i server DNS che bloccano gli aggiornamenti.
-<br><br>
+
 <a name="faq_updatemocha" />**D:** *Come aggiorno Mocha CFW all'ultima versione?*    
 **R:** Scarica l'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), quindi copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` della tua scheda SD (sovrascrivi il file esistente)
-<br><br>
+
 <a name="faq_risky" />**D:** *Quanto è rischioso modificare la mia console?*    
 **R:** I brick sono estremamente rari e sono di solito causati dagli utenti che saltano le istruzioni o che non le seguono.
-<br><br>
+
 <a name="faq_homebrew" />**D:** *Potrò avviare emulatori ed homebrew fantastici al termine della guida?*    
 **R:** Sì! Questa guida non solo ti permette di avviare l'Homebrew Launcher, ma le funzionalità aggiuntive permangono anche dopo un aggiornamento di sistema.
-<br><br>
+
 <a name="faq_regionfree" />**D:** *Potrò giocare a giochi comprati all'estero?*    
 **R:** Mocha CFW supporta le patch Region Free, che permettono agli utenti di installare e giocare senza problemi a giochi provenienti da altre parti del mondo.
-<br><br>
+
 <a name="faq_updates" />**D:** *È sicuro aggiornare una SysNAND patchata?*    
 **R:** No! Devi sempre assicurati di bloccare gli aggiornamenti dalle impostazioni internet in caso di un nuovo aggiornamento!
-<br><br>
+
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
 **R:** Se hai bisogno di aiuto, chiedi pure su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese).
-<br><br>
+
 <a name="faq_sdsize" />**D:** *Quanto grande deve essere la mia scheda SD?*    
 **R:** La tua scheda SD deve avere una grandezza di almeno 64GB se hai una Wii U nera da 32GB. Se hai una Wii U bianca da 8GB, avrai bisogno di una scheda SD da almeno 16GB.
-<br><br>
+
 <a name="faq_NNID" />**D:** *Posso mantenere il mio NNID?*    
 **R:** Se parti con un NNID assegnato e segui correttamente ogni passaggio, al termine della guida avrai mantenuto il tuo NNID originale.
-<br><br>
+
 <a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer a disposizione (ad esempio, da un telefono Android)?*    
 **R:** Sì, a patto che tu abbia modo di trasferire file sulla scheda SD!
 
