@@ -13,15 +13,15 @@ excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desd
 ---
 
 {% capture notice-home %}
-**¡Esta guía es para sólo consolas retail (compradas en tiendas), no para consolas del Nintendo Developer Program!**
+This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-**¡Esta guía necesita de *tu* ayuda para [traducirla](https://translate.wiiu.guide/) a otros idiomas!**
+This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
 {: .notice--success}
 
-**Lee todas las páginas de introducción antes de proceder.**
+Read all of the introductory pages before proceeding.
 {: .notice--warning}
 
 ## ¿Qué es Homebrew?
