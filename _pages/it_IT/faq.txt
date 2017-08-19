@@ -5,7 +5,7 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
-**A:** Yes
+**A:** Si
 
 <a name="faq_oldfw" />**D:** *Ho una Wii U alla versione X.X.X. Cosa posso fare?*    
 **R:** Questa guida è compatibile solo con le versioni da 5.5.0 a 5.5.2. Versioni precedenti non sono al momento supportate.
