@@ -5,7 +5,7 @@ title: "Preguntas Frecuentes"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**P:** *Estoy en la última versión del sistema, ¿mi consola es hackeable?*    
-**A:** Yes
+**R:** Si
 
 <a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo / debería hacer con ella?*    
 **R:** Esta guía es compatible sólo con las versiones 5.5.0 a 5.5.2. Las versiones anteriores son incompatibles por el momento.
