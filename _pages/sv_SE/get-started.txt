@@ -2,17 +2,17 @@
 title: "Kom Igång"
 ---
 
-These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
+Följande steg hjälper dig förbereda ditt SD-kort för att installera Coldboot Haxci custom firmware.
 
 Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 5.5.1 eller 5.5.2 installerad. Äldre versioner stöds inte för närvarande.
 
-Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel. Om du vill göra en säkerhetskopia av ditt Wii U-system, ifall det skulle behöva återställas någon gång i framtiden, behöver du ett SD-kort som är minst dubbelt så stort som ditt Wii Us system-minne (16GB SD-kort för en 8GB vit konsol; 64GB SD-kort för en 32GB svart konsol).
 
 Ditt SD-kort måste vara formaterat som FAT32 (64KB klusterstorlek om möjligt).  De flesta SD-kort kommer vara formaterade såhär från början.
 
 Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Använd [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) istället och sätt "Allocation Unit Size" till 64KB.
 
-Your SD card *cannot* be named `wiiu`, or it will cause problems.
+Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
@@ -58,20 +58,20 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-##### Section II - DS Virtual Console Game
+##### Avsnitt II - DS Virtual Console-spel
 
-There are two methods for using Wii U custom firmware.
+Det finns två metoder för att köra custom firmware på Wii U.
 
-The first method is to run a browser exploit through the browser which will patch the system. Unfortunately, the nature of this exploit is that this *must* be run after every reboot. Additionally, the browser exploit compatible with 5.5.2 is very unreliable making this an even less usable option.
+Den första metoden är att nyttja ett säkerhetshål i webbläsaren som ser till att patcha systemet. Tyvärr *kräver* detta säkerhetshål att man nyttjar det efter varje omstart. Dessutom är säkerhetshålet i version 5.5.2 mycket mer opålitligt vilket gör det till ett ännu mer ointressant alternativ.
 
-The second method is to purchase a very cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
+Den andra metoden är att köpa ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål och använda för att starta custom firmware automatiskt när systemet startas. Det här *krävs i stort sett* för användare på 5.5.2 på grund av den dåliga pålitligheten när man använder säkerhetshålet i webbläsaren.
 
-The DS Virtual Console game *must* be a **legitimately purchased** copy of the game installed to the **internal memory** of your device. You *cannot* install this DS Virtual Console game to a USB drive.
+DS Virtual Console-spelet *måste* vara en **legitimt inköpt** kopia av spelet installerat på det **interna minnet** på din enhet. Du *kan inte* installera DS Virtual Console-spelet på en USB-enhet.
 
-If you want to use the DS Virtual Console method, you should purchase the game before proceeding to the next section.
+Om du vill använda DS Virtual Console-metoden ska du se till att köpa spelet innan du fortsätter med nästa kapitel.
 {: .notice--primary}
 
-The following DS Virtual Console games are compatible:
+Följande DS Virtual Console-spel är kompatibla:
 
 | Kompatibla Haxchi-spel |
 | ------------- |
@@ -99,13 +99,13 @@ The following DS Virtual Console games are compatible:
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
+För närvarande är Dr. Kawashima's Brain Training den billigaste av dessa titlar på eShopen (70:-).
 
-If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
+Om du redan äger Brain age eller Brain Training och har haft det installerat på din Wii U ett tag försök radera det och ladda ner det på nytt från eShopen. Äldre versioner av spelet har inte det nödvändiga säkerhetshålet.
 
-##### Section III - Block System Updates
+##### Avsnitt III - Blockera systemuppdateringar
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Notera att för att komma åt eShopen med dessa DNS-inställningar måste du först köra NNU-Patcher genom Homebrew Launcher. Notera även att NNU-Patcher är tillfällig och du kommer behöva köra den igen om du behöver komma åt eShopen efter en omstart.
 
 Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande och framtida nätverksanslutningar så sköts uppdateringar av Wii U *automatiskt* och *kan inte* stängas av. 
 {: .notice--danger}
