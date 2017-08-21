@@ -3,13 +3,10 @@ title: "NAND Backup"
 ---
 
 Mit diesen Schritten kannst du ein Backup deines NANDs auf deiner SD-Karte erstellen, die es dir über einen Hardmod erlauben, das System wieder herzustellen, falls es gebrickt wurde.
-{: .notice}
 
 Falls du ein schwarzes (32GB) Wii U-Modell besitzt, muss deine SD-Karte mindestens 64GB groß sein. Falls du ein weißes (8GB) Wii U-Modell besitzt, muss deine SD-Karte mindestens 16GB groß sein.
-{: .notice--info}
 
 Note that Mocha CFW users should follow these instructions after a reboot *without* running Mocha CFW (using the browser based Homebrew Launcher) to prevent Wii U NAND Dumper from freezing.
-{: .notice--info}
 
 Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
 {: .notice--warning}

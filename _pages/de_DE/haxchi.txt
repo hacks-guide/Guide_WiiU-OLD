@@ -3,48 +3,14 @@ title: "Haxchi"
 ---
 
 Haxchi ist eine custom firmware die Signaturprüfungen und Regionsprüfungen patcht und anderen eigenen Code im Hintergrund ausführt.
-{: .notice}
 
 Haxchi ist ein Exploit, der es uns erlaubt CFW direkt vom Wii U Menü zu starten, ohne den Homebrew Launcher zu nutzen.
-{: .notice--info}
-
-Wenn du eines der exploitbaren Spiele kaufen möchtest, führe zunächst NNU-Patcher mit Hilfe des Homebrew Launcher aus und starte dann den eShop. Sobald es gekauft wurde, gehe wieder in den [Homebrew Launcher](homebrew-launcher).
-{: .notice--primary}
 
 
 #### Was du benötigst
 
-+ Ein legal erworbenes DS Virtual Console Spiel aus der folgenden Liste, installiert im internen Speicher der Wii U
-  + Installiere das DS Virtual Console Spiel **nicht** auf einen USB Stick
-  + Aktuell ist Dr. Kawashima's Gehirnjogging das preiswerteste im eShop (6,99€)
-  + Solltest du Dr. Kawashima's Gehirnjogging schon eine Weile auf der Wii U installiert haben, versuche es zu löschen und neu aus dem eShop herunterzuladen. Ältere Versionen des Spiels sind nicht mit Haxchi kompatibel
-  + Das Spiel wird nach diesem Schritt nicht mehr spielbar sein
-  + **Dein Haxchi DS Virtual Console Spiel MUSS LEGAL ERWORBEN worden sein!**
-
-| Kompatible Haxchi Spiele |
-| ------------- |
-| Animal Crossing: Wild World |
-| Big Brain Academy |
-| DK: Jungle Climber |
-| Dr. Kawashimas Gehirn Jogging |
-| Kirby Power-Malpinsel |
-| Kirby: Mass Attack |
-| Kirby: Mouse Attack / Kirby: Mausattacke |
-| Legend of Zelda: Phantom Hourglass, The |
-| Legend of Zelda: Spirit Tracks, The |
-| Mario & Luigi: Partners in Time |
-| Mario Kart DS |
-| New Super Mario Bros. |
-| Pokémon Mystery Dungeon: Erkundungsteam Himmel |
-| Pokemon Ranger |
-| Pokemon Ranger: Spuren des Lichts | 
-| Pokemon Ranger: Finsternis über Almia |
-| Star Fox Command |
-| Super Mario 64 DS |
-| Wario: Master of Disguise |
-| WarioWare: Touched |
-| Yoshi's Island DS |
-| Yoshi Touch & Go |
++ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
+  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
 
 #### Anleitung
 
@@ -58,13 +24,13 @@ Wenn du eines der exploitbaren Spiele kaufen möchtest, führe zunächst NNU-Pat
 ___
 
 Zurzeit musst du das DS Virtual Console Spiel bei jedem Neustart erneut laden um ins gepatchte SysNAND zu gelangen. Die nächste Seite wird CBHC (Coldboot Haxchi) installieren, welches das automatisch erledigt.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 **Du kannst jetzt mehrere Knöpfe, für unterschiedliche Optionen drücken, während du dein DS Virtual Console Spiel startest. Hier ist eine Liste der einzelnen Optionen:**
 
-+ None -> Bootet ins gepatchte SysNAND
-+ (A) -> Bootet den Homebrew Launcher
+  + None -> Bootet ins gepatchte SysNAND
+  + (A) -> Bootet den Homebrew Launcher
 
 {% endcapture %}
 

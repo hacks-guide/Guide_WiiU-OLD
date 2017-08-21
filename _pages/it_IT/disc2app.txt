@@ -3,22 +3,13 @@ title: "disc2app"
 ---
 
 Questa guida ti permetterà di fare un backup dei tuoi dischi in un formato che permetterà di giocarli senza il disco stesso.
-{: .notice--info}
 
-{% capture notice-2 %}
-**Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, presta attenzioni alle seguenti nozioni:**
+If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
-+ Non puoi usare lo stesso hard disk sia per i giochi Wii U che per quelli vWii.
-+ La Wii U può utilizzare solo 2tb del tuo hard disk, anche se la sua capacità è maggiore.
-+ La formattazione delll'hard disk esterno cancellerà tutti i dati al suo interno.
-+ Se stai usando un hard disk esterno che non ha la sua fonte di energia propria, avrai bisogno di un [cavo Y USB](https://www.amazon.it/QUMOX-USB3-0-maschio-Micro-mobile/dp/B003RTZBTQ).
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
-
-Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, devi prestare attenzione al fatto che la Wii U può solo utilizzare 2tb di un qualsiasi hard disk esterno, anche se la sua capacità è maggiore.
-{: .notice--info}
+  + Non puoi usare lo stesso hard disk sia per i giochi Wii U che per quelli vWii.
+  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + La formattazione delll'hard disk esterno cancellerà tutti i dati al suo interno.
+  + Se stai usando un hard disk esterno che non ha la sua fonte di energia propria, avrai bisogno di un [cavo Y USB](https://www.amazon.it/QUMOX-USB3-0-maschio-Micro-mobile/dp/B003RTZBTQ).
 
 #### Quello che ti serve
 
@@ -29,13 +20,10 @@ Se hai intenzione di utilizzare un hard disk esterno per installare i giochi est
 
 ##### Sezione I - Formattare l'hard disk esterno
 
-Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, segui questa sezione.
+Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, segui questa sezione. Se non hai intenzione di utilizzare un hard disk esterno o hai già un hard disk formattato per i giochi della Wii U, salta questa sezione.
 {: .notice--info}
 
-Se non hai intenzione di utilizzare un hard disk esterno o hai già un hard disk formattato per i giochi della Wii U, salta questa sezione.
-{: .notice--info}
-
-Nota bene che questo procedimento cancellerà tutti i file presenti sul tuo hard disk!
+This will completely erase the contents of the external hard drive!
 {: .notice--danger}
 
 1. Collega il tuo hard disk USB alla Wii U mentre quest'ultima è spenta

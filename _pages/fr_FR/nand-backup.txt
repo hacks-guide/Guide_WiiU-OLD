@@ -3,13 +3,10 @@ title: "Sauvegarde NAND"
 ---
 
 Ces étapes vont créer une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil avec un hardmode dans le cas d'un brick.
-{: .notice}
 
 Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
-{: .notice--info}
 
 Remarque que les utilisateurs moka CFW doivent suivre ces instructions après un redémarrage *sans* exécutant moka CFW (en utilisant le navigateur basé Homebrew Launcher) pour empêcher la frezze du backup nand Wii U .
-{: .notice--info}
 
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}

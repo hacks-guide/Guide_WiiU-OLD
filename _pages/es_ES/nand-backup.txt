@@ -3,13 +3,10 @@ title: "Respaldo de la NAND"
 ---
 
 Con estos pasos crearás un respaldo de tu NAND en tu SD, el que te permitirá restaurar tu consola usando hardmod en caso de inutilizarla.
-{: .notice}
 
 Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
-{: .notice--info}
 
 Ten en cuenta que los usuarios de Mocha CFW deberían seguir estas instrucciones después de un reinicio *sin* ejecutar Mocha CFW (utilizando el Homebrew Launcher basado en el navegador) para prevenir que el Wii U NAND Dumper se congele.
-{: .notice--info}
 
 ¡Antes de empezar, deberías comprobar si tu tarjeta SD tiene errores usando [H2testw (Windows)](h2testw-(windows)),[F3 (Linux)](f3-(linux)), o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}

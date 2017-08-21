@@ -3,10 +3,8 @@ title: "Mocha CFW"
 ---
 
 Mocha CFW är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.
-{: .notice}
 
 För att starta konsolen med modifierade signaturkontroller och starta modifierad SysNAND kommer du behöva gå in i Homebrew Launcher och starta Mocha CFW varje gång din enhet startar om.
-{: .notice--info}
 
 #### Instruktioner
 

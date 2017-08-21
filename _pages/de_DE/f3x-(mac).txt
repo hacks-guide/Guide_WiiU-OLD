@@ -3,13 +3,10 @@ title: "F3X (Mac)"
 ---
 
 Diese Seite erklärt dir den Prozess, die SD Karte mit F3X auf Fehler zu überprüfen.
-{: .notice}
 
 Basierend auf der Größe der SD Karte und der Geschwindigkeit deines Computers kann dieser Prozess mehrere Stunden dauern!
-{: .notice--info}
 
 Diese Seite ist nur für macOS-Nutzer. Falls du kein Mac System einsetzt, schau dir stattdessen die [H2testw (Windows)](h2testw-(windows)) oder [F3 (Linux)](f3-(linux)) Seiten an.
-{: .notice--info}
 
 #### Was du benötigst
 

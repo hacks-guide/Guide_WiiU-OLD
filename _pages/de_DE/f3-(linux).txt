@@ -3,13 +3,10 @@ title: "F3 (Linux)"
 ---
 
 Diese Seite erklärt dir den Prozess, wie du deine SD Karte mit F3 auf Fehler überprüfen kannst.
-{: .notice}
 
 Basierend auf der Größe der SD Karte und der Geschwindigkeit deines Computers kann dieser Prozess mehrere Stunden dauern!
-{: .notice--info}
 
 Diese Seite ist nur für Linux-Nutzer gedacht. Falls du kein Linux System einsetzt, schau dir stattdessen die [H2testw (Windows)](h2testw-(windows)) oder [F3X (Mac)](f3x-(mac)) Seiten an.
-{: .notice--info}
 
 #### Was du benötigst
 

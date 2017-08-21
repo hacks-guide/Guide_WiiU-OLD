@@ -37,8 +37,8 @@ Se você seguiu este guia quando ele utilizava RedNAND, note que os jogos e save
 {% capture notice-3 %}
 **Remova quaisquer arquivos ou pastas extras da raiz do seu cartão SD que *não* estão na seguinte lista (você pode não ter todos, ou até mesmo não ter nenhum deles):**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 

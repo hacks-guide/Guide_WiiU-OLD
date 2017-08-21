@@ -3,22 +3,13 @@ title: "disc2app"
 ---
 
 本工具可將你的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
-{: .notice--info}
 
-{% capture notice-2 %}
-**如果你想將遊戲安裝至外接硬碟上，請注意下列幾點：**
+If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
-+ 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲（無法共存）。
-+ 即使硬碟容量再大，Wii U 最多只能使用 2TB 的空間
-+ 若要使用外接硬碟搭配 Wii U，硬碟得先格式化。這將會清除硬碟上所有的資料。
-+ 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-2 | markdownify }}</div>
-
-如果你想要安裝拷貝遊戲至外接硬碟上，請注意即使硬碟空間再大，Wii U 只能最多使用 2TB 的空間
-{: .notice--info}
+  + 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲（無法共存）。
+  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化。這將會清除硬碟上所有的資料。
+  + 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 
 #### 必備項目
 
@@ -29,13 +20,10 @@ title: "disc2app"
 
 ##### 第一節 — 格式化外接硬碟
 
-如果你想將遊戲安裝至外接硬碟上，請遵循本節。
+如果你想將遊戲安裝至外接硬碟上，請遵循本節。 如果你不打算將遊戲安裝至外接硬碟上或者你已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
 {: .notice--info}
 
-如果你不打算將遊戲安裝至外接硬碟上或者你已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
-{: .notice--info}
-
-請注意，這將會完全清除外接硬碟上的內容 ！
+This will completely erase the contents of the external hard drive!
 {: .notice--danger}
 
 1. 於 Wii U 關機狀態下，將你的 USB 外接硬碟插入至主機內

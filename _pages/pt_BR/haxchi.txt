@@ -3,48 +3,14 @@ title: "Haxchi"
 ---
 
 Haxchi é um custom firmware que altera as verificações de assinatura, verificações de região e executa outro código personalizado em segundo plano.
-{: .notice}
 
 Haxchi é um exploit que nos permite iniciar o CFW diretamente do menu do sistema sem usar o Homebrew Launcher.
-{: .notice--info}
-
-Se você precisar adiquirir um dos jogos exploitáveis, rode o NNU-Patcher do Homebrew Launcher e então inicie o eShop. Uma vez adquirido, entre novamente no [Homebrew Launcher](homebrew-launcher).
-{: .notice--primary}
 
 
 #### O que você precisa
 
-+ Uma cópia legítima de um dos seguintes jogos do Virtual Console de DS instalado na memória interna do seu Wii U
-  + **Não** instale o jogo de Virtual Console de DS em um pendrive USB
-  + Atualmente, Brain Age é o mais barato destes títulos na eShop ($6,99 USD)
-  + Se você tem Brain Age / Brain Training instalado no seu Wii U a um tempo, tente excluí-lo e depois baixe-o novamente na eShop. Versões antigas do jogo não funcionarão com o Haxchi
-  + O jogo não será jogável após este processo
-  + ** Seu jogo de Virtual Console de DS com o Haxchi DEVE ser uma cópia LEGÍTIMA!**
-
-| Jogos compatíveis com o Haxchi |
-| ------------- |
-| Animal Crossing: Wild World |
-| Big Brain Training |
-| DK: Jungle Climber |
-| Dr. Kawashima's Brain Training |
-| Kirby: Canvas Curse |
-| Kirby: Mass Attack|
-| Kirby: Squeak Squad / Kirby: Mouse Attack |
-| Legend of Zelda: Phantom Hourglass, The |
-| Legend of Zelda: Spirit Tracks, The |
-| Mario & Luigi: Partners in Time |
-| Mario Kart DS |
-| New Super Mario Bros. |
-| Pokemon Mystery Dungeon: Explorers of the Sky |
-| Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
-| Pokemon Ranger: Shadows of Almia |
-| Starfox Command |
-| Super Mario 64 DS |
-| Wario: Master of Disguise |
-| WarioWare: Touched |
-| Yoshi's Island DS |
-| Yoshi's Touch & Go |
++ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
+  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
 
 #### Instruções
 
@@ -58,13 +24,13 @@ Se você precisar adiquirir um dos jogos exploitáveis, rode o NNU-Patcher do Ho
 ___
 
 Atualmente, você deve iniciar o jogo de DS do Virtual Console cada vez que você reiniciar para entrar na SysNAND alterada. A próxima página irá instalar o CBHC (Coldboot Haxchi) que fará isso automaticamente.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 **Você pode agora segurar vários botões enquanto inicia seu jogo de Virtual Console de DS para opções de inicialização diferentes. Isto é o que cada uma das opções de inicialização faz:**
 
-+ None -> Inicia na SysNAND alterada
-+ (A) -> Inicia no Homebrew Launcher
+  + None -> Inicia na SysNAND alterada
+  + (A) -> Inicia no Homebrew Launcher
 
 {% endcapture %}
 

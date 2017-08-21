@@ -3,13 +3,10 @@ title: "H2testw (Windows)"
 ---
 
 Cette page vous indiquera comment procéder à la vérification des erreurs sur votre carte SD à l'aide de l'utilitaire h2testw.
-{: .notice}
 
 Dépendant de la capacité de votre carte SD et la vitesse d'exécution de votre ordinateur, le processus peut prendre jusqu'à plusieurs heures avant de s'achever!
-{: .notice--info}
 
 Cette page est destinée aux utilisateurs de Windows uniquement. Si vous n’êtes pas sous Windows, consultez [F3 (Linux)](f3-(linux)) ou [F3X (Mac)](f3x-(mac)).
-{: .notice--info}
 
 #### Ce dont vous aurez besoin
 

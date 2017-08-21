@@ -37,8 +37,8 @@ Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez 
 {% capture notice-3 %}
 **Supprimez les dossiers et les fichiers supplémentaires de la racine de la carte SD qui ne sont *pas* dans la liste suivante (il se peut que vous ne les ayez pas tous) :**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 

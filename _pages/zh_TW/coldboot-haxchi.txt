@@ -3,10 +3,8 @@ title: "冷啟動 Haxchi"
 ---
 
 CBHC (Coldboot Haxchi) 將把你的預設系統 title 修改為自動啟動修改後的 DS 虛擬主機 遊戲，讓你自動開機至修改後的 SysNAND 中，而非普通的系統選單。
-{: .notice}
 
 本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 如果你想跳過設置 Haxchi，請繼續至 [Homebrew Launcher (Channel)](homebrew-launcher-(channel))。
-{: .notice--info}
 
 **你 _必須_ 先裝好 Haxchi 才能繼續。 否則－保。證。磚。機！**
 {: .notice--danger}
@@ -44,14 +42,14 @@ ___
 {: .notice}
 
 {% capture notice-1 %}
-**你可以在 CBHC 啟動時按下「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：**
+You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
 
-+ Boot System Menu -> 開機至 SysNAND
-+ Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
-+ Boot Mocha CFW -> 開機至 RedNAND 的 Mocha CFW 中
-+ Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
-+ Boot vWii System Menu -> 開機至 SysNAND 的 vWii 中
-+ Boot vWii Homebrew Channel -> 開機至 SysNAND vWii 的 Homebrew Channel 中
+  + Boot System Menu -> 開機至 SysNAND
+  + Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
+  + Boot Mocha CFW -> 開機至 RedNAND 的 Mocha CFW 中
+  + Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
+  + Boot vWii System Menu -> 開機至 SysNAND 的 vWii 中
+  + Boot vWii Homebrew Channel -> 開機至 SysNAND vWii 的 Homebrew Channel 中
 
 {% endcapture %}
 

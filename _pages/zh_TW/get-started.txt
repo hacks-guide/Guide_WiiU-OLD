@@ -2,23 +2,17 @@
 title: "從頭開始"
 ---
 
-下列步驟將協助你準備你的 SD 卡以安裝基於 coldboothax 的自製韌體。
-{: .notice--primary}
+These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
 
 Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
-{: .notice--info}
 
-建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
-{: .notice--info}
+建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
 你的 SD 卡必須是 FAT32 格式（建議 64KB 的配置大小）。 大部分的 SD 卡預設都是以這個格式出廠的。
-{: .notice--info}
 
 如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
-{: .notice--warning}
 
-**千萬不要**將你的 SD 卡命名為 `wiiu`，否則將會造成問題。
-{: .notice--warning}
+Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
@@ -64,13 +58,57 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 1. 將 SD 卡插回裝置中
 1. 啟動你的裝置
 
-##### 第二節 — 阻擋系統更新
+##### Section II - DS Virtual Console Game
+
+There are two methods for using Wii U custom firmware.
+
+The first method is to run a browser exploit through the browser which will patch the system. Unfortunately, the nature of this exploit is that this *must* be run after every reboot. Additionally, the browser exploit compatible with 5.5.2 is very unreliable making this an even less usable option.
+
+The second method is to purchase a very cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
+
+The DS Virtual Console game *must* be a **legitimately purchased** copy of the game installed to the **internal memory** of your device. You *cannot* install this DS Virtual Console game to a USB drive.
+
+If you want to use the DS Virtual Console method, you should purchase the game before proceeding to the next section.
+{: .notice--primary}
+
+The following DS Virtual Console games are compatible:
+
+|相容的 Haxchi 遊戲 |
+| ------------- |
+| 《歡迎光臨：動物之森》 |
+| Big Brain Academy |
+| Brain Age |
+| 《大金剛：叢林攀爬高手》 |
+|《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》|
+| 《觸摸！卡比》 |
+| 《卡比大集合》|
+| 《卡比之星：多洛奇團登場》 |
+| Legend of Zelda: Phantom Hourglass |
+| Legend of Zelda: Spirit Tracks |
+| 《瑪利歐與路易吉 RPG 2》 |
+| 《瑪利歐賽車 DS》 |
+| 《新 超級瑪利歐兄弟》 |
+| 《神奇寶貝不可思議的迷宮：空之探險隊》 |
+| 《神奇寶貝保育家》 |
+| 《神奇寶貝保育家：光之軌跡》 | 
+| 《神奇寶貝保育家：風湧篇》 |
+| 《星戰火狐：秘密指令》 |
+| 《超級瑪利歐64 DS》 |
+| 《怪盜壞利歐七面人》 |
+| 《觸控壞利歐工坊》 |
+| 《耀西之島DS》 |
+| 《捕捉！觸摸！耀西！》 |
+
+Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
+
+If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
+
+##### Section III - Block System Updates
+
+Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
 
 請注意，除非你在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
 {: .notice--danger}
-
-請注意，如果你想要在設置這些 DNS 後使用 eShop，你必須首先透過 Homebrew Launcher 進行 NNU-Patcher（NNU-Patcher 是一個臨時補丁，如果你想要在重啟後啟動 eShop，你必須再重新跑一次這補丁）。
-{: .notice--info}
 
 1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示你目前的網路設置
 1. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：

@@ -3,13 +3,10 @@ title: "F3X (Mac)"
 ---
 
 Questa pagina ti guiderà nel processo di controllo della presenza di errori sulla tua scheda SD utilizzando F3X.
-{: .notice}
 
 A seconda della dimensione della tua scheda SD e della velocità del tuo computer, questo procedimento può durare diverse ore!
-{: .notice--info}
 
 Questa pagina è solo per utenti Mac. Se non sei su Mac, usa [H2testw (Windows)](h2testw-(windows)) o [F3 (Linux)](f3-(linux)).
-{: .notice--info}
 
 #### Quello che ti serve
 

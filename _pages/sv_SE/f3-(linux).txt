@@ -3,13 +3,10 @@ title: "F3 (Linux)"
 ---
 
 Den här sidan kommer att ta dig igenom processen att använda F3 för att söka igenom ditt SD-kort efter fel.
-{: .notice}
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
-{: .notice--info}
 
 Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3X (Mac)](f3x-(mac)).
-{: .notice--info}
 
 #### Vad du behöver
 

@@ -5,41 +5,41 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*    
-**R:** Non
-<br><br>
+**A:** Yes
+
 <a name="faq_oldfw" />**Q:** *J'ai une Wii U en version X.X.X. Qu'est ce que je peut / devrais faire avec?*    
 **R:** Ce guide est uniquement compatible avec les versions 5.5.0 à 5.5.2. Les anciennes versions sont incompatibles pour le moment.
-<br><br>
+
 <a name="faq_updates" />**Q:** *Maintenant que Nintendo a stoppé la production des Wii U, cela signifie-t-il qu'il n'y aura plus jamais de mises à jour ?*    
 **R :** Non ! La version 5.5.2 a été publiée bien après la fin de la production. C'est pourquoi vous devez toujours vous assurer que vous avez configuré les serveurs DNS qui bloqueront les mises à jour.
-<br><br>
+
 <a name="faq_updatesysnand" />**Q:** *Est-il sûr de mettre à jour ma SysNAND avec un Cfw?*    
 **R :** Non ! Vous devez toujours vous assurer que vous avez configuré les serveurs DNS qui vont bloquer les mises à jour.
-<br><br>
+
 <a name="faq_updatemocha" />**Q:** *Comment puis-je mettre à jour Mocha CFW vers la dernière version ?*    
 **R:** Téléchargez la dernière version de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), et copiez `mocha.elf` du `.zip` de Mocha CFW dans le dossier `/wiiu/apps/mocha/`de votre carte SD (en écrasant le fichier existant)
-<br><br>
+
 <a name="faq_risky" /> **Q :** *À quel point le processus de hack la console est-il risqué ?*    
 **R:** Le brick est extrêmement rare et est généralement causé par l'oubli d'une étape ou le non-respect d'une instruction.
-<br><br>
+
 <a name="faq_homebrew" /> **Q :** *Puis-je exécuter des homebrew et des émulateurs avec cela ?*    
 **R:** Oui ! Ce n'est pas réservé qu'à l'Homebrew Launcher, mais il vous donnera également accès aux hacks sur toutes les versions. Cela signifie que vous le garderez pour toujours, même avec des mises à jour.
-<br><br>
+
 <a name="faq_regionfree" /> **Q :** *Puis-je l'utiliser pour jouer à des jeux d’autres régions?*    
 **R :** Mocha CFW prend en charge les patchs Region Free, ce qui permet aux utilisateurs d’installer des jeux de n'importe quelle région sans aucune modification supplémentaire.
-<br><br>
+
 <a name="faq_updates" />**Q :** *Est-il sûr de mettre à jour ma SysNAND avec un CFW ?*    
 **R :** Non ! Vous devez toujours vous assurer que vos paramètres internet incluent les serveurs DNS qui bloquent les mises à jour juste au cas où une nouvelle mise à jour sortirais !
-<br><br>
+
 <a name="faq_support" /> **Q :** *Où dois-je aller pour avoir de l'aide ?*    
 **A:** Pour le support, demander de l'aide sur [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
-<br><br>
+
 <a name="faq_sdsize" />**Q:** *Quelle capacité de stockage dois-je prévoir pour la carte SD ?*    
 **R:** Votre carte SD doit être d'au moins 64GB si vous possédez une Wii U noire (32GB). Si vous avez une Wii U blanche (8GB), votre carte SD devra faire au minimum 16GB.
-<br><br>
+
 <a name="faq_NNID" /> **Q :** *Puis-je garder mon NNID ?*    
 **R:** Si vous démarrez avec un NNID et suivez toutes les étapes, vous le conserverez.
-<br><br>
+
 <a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur (par exemple avec un téléphone Android) ?*    
 **R:** Tout ce dont vous avez besoin est de pouvoir mettre des fichiers sur une carte SD !
 

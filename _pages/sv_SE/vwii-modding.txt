@@ -3,10 +3,6 @@ title: "vWii Modding"
 ---
 
 Det här gör att du kan installera Homebrew Channel och andra modifikationer till Wii U:s vWii (virtual Wii).
-{: .notice--info}
-
-Om du ännu inte har gått igenom Wii U guiden, se till att följa [Kom igång - Avsnitt II - Blockera Systemuppdateringar](get-started#avsnitt-ii---blockera-systemuppdateringar) för att undvika att din Wii U uppdateras till senaste versionen av firmware automatiskt, och återkom sen hit.
-[: .notice--danger]
 
 #### Vad du behöver
 
@@ -14,6 +10,7 @@ Om du ännu inte har gått igenom Wii U guiden, se till att följa [Kom igång -
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * Senaste versionen av [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
+* En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
 
 #### Instruktioner
 
@@ -25,6 +22,7 @@ Om du ännu inte har gått igenom Wii U guiden, se till att följa [Kom igång -
 1. Kopiera `boot.elf` från `hackmii_installer_v1.2`-katalogen i Hackmii Installer `.zip`-filen till roten av ditt SD-kort
 1. Kopiera `apps`-katalogen från `vWii_cIOS_apps_20131218.zip` till roten av ditt SD-kort
 1. Kopiera och slå ihop `apps`-katalogen från `Patched_IOS80_Installer_for_vWii.zip` till roten av ditt SD-kort
+1. Kopiera och slå ihop _innehållet_ från Homebrew Launcher `zip`-filen till roten av ditt SD-kort
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
@@ -93,7 +91,7 @@ Se till att det inte finns några kataloger som heter `wad` eller `wads` på rot
 
 ##### Avsnitt V - Patchning av IOS80
 
-**Det här steget kommer bricka din vWii-installation om det misslyckas av någon anledning (strömavbrott, etc.) vilket kommer kräva en återställning av vWii NAND. Säkerställ att du har din säkerhetskopia innan du fortsätter med det här avsnittet. **
+Det här steget kommer bricka din vWii-installation om det misslyckas av någon anledning (strömavbrott, etc.) vilket kommer kräva en återställning av vWii NAND. Säkerställ att du har din säkerhetskopia innan du fortsätter med det här avsnittet.
 {: .notice--danger}
 
 1. Från Homebrew Channel på vWii starta Patched iOS80 Installer for vWii

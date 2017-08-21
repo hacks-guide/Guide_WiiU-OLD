@@ -3,48 +3,14 @@ title: "Haxchi"
 ---
 
 Haxchi est un custom firmware qui patche le contrôle des signatures, la vérifications de la région et exécute d'autres codes personnalisé en arrière-plan.
-{: .notice}
 
 Haxchi est un exploit qui permet de lancer le CFW directement depuis le menu d'accueil sans utiliser l'Homebrew Launcher.
-{: .notice--info}
-
-Si vous avez besoin d’acheter un des jeux exploitables, exécutez NNU-Patcher à partir de l'Homebrew Launcher puis lancer l’eShop. Une fois qu’il a été acheté, entrez à nouveau dans le [Homebrew Launcher](homebrew-launcher).
-{: .notice--primary}
 
 
 #### Prérequis
 
-+ Une copie légitime de l’un des jeux Console Virtuelle DS suivants installé dans la mémoire interne de votre Wii U
-  + **Ne pas** installer le jeu Console Virtuelle DS sur une clé USB
-  + Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? ", " Cérébrale Académie ", " Pokémon Ranger : Nuit sur Almia ", " Pokémon Ranger : Sillages de lumière " et " Yoshi Touch & Go ".
-  + Si vous aviez " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? " installé sur votre Wii U depuis un certain temps, essayez de le supprimer et de réinstaller le jeu depuis l’eShop. Les anciennes versions du jeu ne fonctionnent pas avec Haxchi
-  + Le jeu ne sera plus jouable après ce processus
-  **Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie légitime !**
-
-| Les jeux compatibles avec Haxchi |
-| ------------- |
-| Animal Crossing: Wild World |
-| Cérébrale Académie |
-| Donkey Kong : Jungle Climber |
-| Dr. Kawashima's Brain Training |
-| Kirby : Le Pinceau du pouvoir |
-| Kirby : Mass Attack |
-| Kirby : Les souris attaquent |
-| The Legend of Zelda: Phantom Hourglass |
-| The Legend of Zelda: Spirit Tracks |
-| Mario et Luigi : Les Frères du temps |
-| Mario Kart DS |
-| New Super Mario Bros. |
-| Pokémon Donjon Mystère : Explorateurs du Ciel |
-| Pokémon Ranger |
-| Pokémon Ranger : Sillages de lumière | 
-| Pokémon Ranger : Nuit sur Almia |
-| Starfox Command |
-| Super Mario 64 DS |
-| Wario: Master of Disguise |
-| WarioWare: Touched! |
-| Yoshi's Island DS |
-| Yoshi Touch & Go |
++ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
+  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
 
 #### Instructions
 
@@ -58,13 +24,13 @@ Si vous avez besoin d’acheter un des jeux exploitables, exécutez NNU-Patcher 
 ___
 
 Actuellement, vous devez lancer le jeu DS Console Virtuelle à chaque fois que vous redémarrez la console pour entrer dans SysNAND patché. Dans la page suivante vous fera installer CBHC (Coldboot Haxchi) qui le fera automatiquement.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 ** Vous pouvez désormais maintenir différents boutons tout en lançant votre jeu DS Console Virtuelle pour des options de démarrage différentes. Voici la liste des options de démarrage et leur effet :**
 
-+ Aucun -> Démarrer sur la SysNAND patché
-+ (A)-> Démarrer en lançant le Homebrew Launcher
+  + Aucun -> Démarrer sur la SysNAND patché
+  + (A)-> Démarrer en lançant le Homebrew Launcher
 
 {% endcapture %}
 

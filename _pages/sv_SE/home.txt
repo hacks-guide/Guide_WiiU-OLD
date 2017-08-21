@@ -13,15 +13,15 @@ excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii
 ---
 
 {% capture notice-home %}
-**Den här guiden är _endast_ för butiksköpta konsoler (ej utvecklingsenheter från Nintendo Developer Program)!**
+Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Developer Program)!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-***Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!**
+*Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!
 {: .notice--success}
 
-**Läs alla introduktionssidor innan du fortsätter.**
+Läs alla introduktionssidor innan du fortsätter.
 {: .notice--warning}
 
 ## Vad är Homebrew?

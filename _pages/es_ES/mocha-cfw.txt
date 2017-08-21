@@ -3,10 +3,8 @@ title: "Mocha CFW"
 ---
 
 Mocha CFW es un custom firmware el cual modifica la verificación de firmas y de región, así como también ejecuta código personalizado en segundo plano.
-{: .notice}
 
 Para iniciar los verificadores de firmas modificados e iniciar la SysNAND modificada, debes entrar al Homebrew Launcher e iniciar Mocha CFW cada vez que reinicias la consola.
-{: .notice--info}
 
 #### Instrucciones
 

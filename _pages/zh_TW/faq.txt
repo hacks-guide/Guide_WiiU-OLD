@@ -5,41 +5,41 @@ title: "常見問題 FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
-**A:** 目前不行。
-<br><br>
+**A:** Yes
+
 <a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
 **A:** This guide is only compatible with versions 5.5.0 to 5.5.2. 目前不相容於較舊版本。
-<br><br>
+
 <a name="faq_updates" />**Q:** *任天堂已經停產 Wii U 了，那這樣不就代表未來不會再有系統更新了嗎？*    
 **A:** 不對！ The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
-<br><br>
+
 <a name="faq_updatesysnand" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
 **A:** 不！ 您必須確保您已設置了可以阻擋系統更新的 DNS 伺服器。
-<br><br>
+
 <a name="faq_updatemocha" />**Q:** *我該怎麼更新至最新的 Mocha CFW？*    
 **A:** 下載最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，並複製 Mocha CFW `.zip` 中的 `mocha.elf` 至 SD 卡中的 `/wiiu/apps/mocha/` 資料夾中（覆蓋原有檔案）
-<br><br>
+
 <a name="faq_risky" />**Q:** *改機風險多高？*    
 **A:** 磚機非常非常的少見，而通常都是因為跳了些步驟或不按教學進行才造成的。
-<br><br>
+
 <a name="faq_homebrew" />**Q:** *我可以透過本教學跑超讚的自製程式跟模擬器嗎？*    
 **A:** 可以的！ 自製韌體不但可以讓你使用 Homebrew Launcher（一款自製軟體啟動器），甚至還可以免於未來更新系統時自製韌體被蓋掉的困擾。
-<br><br>
+
 <a name="faq_regionfree" />**Q:** *我能玩其他區的遊戲嗎？*    
 **A:** 可以的，Mocha CFW 支援破解區碼限制。表示說你可以不用修改任何東西就能任意地安裝所有區域的遊戲。
-<br><br>
+
 <a name="faq_updates" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
 **A:** 不對！ 請確保你的網路設定中已經設置好 DNS 伺服器的設定以阻擋未來的所有更新，
-<br><br>
+
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*    
 **A:** 若需支援，請見 [Discord 上的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器。
-<br><br>
+
 <a name="faq_sdsize" />**Q:** *我需要多大的 SD 卡？*    
 **A:** 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
-<br><br>
+
 <a name="faq_NNID" />**Q:** *我的 NNID 不會被清除吧？*    
 **A:** 如果裝置本身就有 NNID 且你遵守每個步驟，你的 NNID 將不變。
-<br><br>
+
 <a name="faq_nopc" />**Q:** *沒電腦也可以嗎（例： Android 手機）？*    
 **A:** 你只要能在 SD 卡上放檔案就可以了！
 

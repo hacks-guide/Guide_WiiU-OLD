@@ -37,8 +37,8 @@ Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, 
 {% capture notice-3 %}
 **Lösche die folgenden Ordner, von dem Standardverzeichnis deiner SD Karte:**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 

@@ -3,13 +3,10 @@ title: "F3X (Mac)"
 ---
 
 Den här sidan kommer att ta dig igenom processen att använda F3X för att söka igenom ditt SD-kort efter fel.
-{: .notice}
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
-{: .notice--info}
 
 Den här sidan är enbart för Mac-användare. Om du inte använder Mac kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3 (Linux)](f3-(linux)).
-{: .notice--info}
 
 #### Vad du behöver
 

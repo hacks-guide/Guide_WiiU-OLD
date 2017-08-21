@@ -3,14 +3,15 @@ title: "Homebrew Launcher（透過頻道）"
 ---
 
 本節將安裝 Homebrew Channel，這讓你可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。
-{: .notice--info}
 
 #### 操作說明
 
-1. 透過 `http://loadiine.ovh`、Haxchi、或 Coldboot Haxchi 啟動 Homebrew Launcher
-  + 請注意，Haxchi 使用者必須先啟動過 Haxchi 以套用 SysNAND 補丁，然後再將它啟動一次並按住「A」啟動 Homebrew Launcher
-1. **僅適用於 Homebrew Launcher 使用者：** 啟動 Mocha 自製韌體，並重啟 Homebrew Launcher
+1. Enter the Homebrew Launcher
+  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
+  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
 1. 啟動 WUP Installer GX2
+  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
 1. 選擇 Homebrew Channel
 1. 按下「Install」，並選擇「Yes」確認
 1. 選擇「NAND」為安裝目標

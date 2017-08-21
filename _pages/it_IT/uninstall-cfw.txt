@@ -37,8 +37,8 @@ Se hai seguito questa guida quando utilizzava la RedNAND, nota che i giochi e i 
 {% capture notice-3 %}
 **Cancella quasi cartella o file dalla root della tua scheda SD che *non* compare nella lista seguente (potresti non avere nessuna di queste cartelle):**
 
-    + DCIM
-    + private
+  + DCIM
+  + private
 
 {% endcapture %}
 
