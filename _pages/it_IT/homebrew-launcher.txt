@@ -3,12 +3,12 @@ title: "Homebrew Launcher"
 ---
 
 L'Homebrew Launcher è un'applicazione homebrew che ti permette di visualizzare ed avviare altre applicazioni homebrew dalla scheda SD.
-{: .notice}
 
 Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovrà avere accesso ad internet.
-{: .notice--info}
 
 #### Istruzioni
+
+##### Section I - Preparing Browser
 
 1. Avvia il browser internet sulla tua console
 1. Apri le impostazioni del browser e seleziona "Cancella Dati di Salvataggio"
@@ -16,7 +16,7 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
   + Questa impostazione cancellerà tutti i dati salvati, quali impostazioni, cronologia e preferiti
 1. Ritorna al browser
 
-### For 5.5.0 & 5.5.1
+##### Section II (i) - Versions 5.5.0 & 5.5.1
 
 1. Naviga sul sito `http://loadiine.ovh`
   + Sarebbe meglio mettere questo sito nei preferiti in modo tale da non perdere tempo successivamente
@@ -26,20 +26,36 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
   + Se la console dovesse bloccarsi, forzane lo spegnimento tenendo premuto il pulsante di accensione, quindi riprova
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
-### For 5.5.2
+##### Section II (ii) - Versions 5.5.2
 
-1. Go to `http://u.drg.li/`
+1. Open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit
+1. Naviga sul sito `http://u.drg.li/`
   + Sarebbe meglio mettere questo sito nei preferiti in modo tale da non perdere tempo successivamente
-2. Click "2"
+1. Select "2" for the first exploit attempt
   + Potrebbero essere necessari più tentativi
-  + In some situations, the other options/numbers are more reliable.
-  + Se la console dovesse bloccarsi, forzane lo spegnimento tenendo premuto il pulsante di accensione, quindi riprova
+  + If it freezes, just force the console to power off by holding the power button, then try a different number
+  + You may need to try all exploit numbers more than once before one works
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
 ___
 
-Se preferisci comprare un gioco exploitabile per avviare il Custom Firmware all'avvio della console *(o possiedi già uno dei giochi DS della Virtual Console successivamente elencati)* continua alla pagina [Haxchi](haxchi).
-{: .notice--primary}
+{% capture notice-1 %}
 
-Se preferisci avviare il Custom Firmware utilizzando il browser ogni volta per risparmiare soldi, continua alla pagina [Mocha CFW](mocha-cfw).
-{: .notice--primary}
+[Mocha CFW](mocha-cfw)
+
+This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+
+[Haxchi](haxchi)
+
+This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+
+{% endcapture %}
+
+<div class="notice--primary">{{ notice-1 | markdownify }}</div>

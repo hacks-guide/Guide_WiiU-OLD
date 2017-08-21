@@ -3,10 +3,8 @@ title: "Mocha CFW"
 ---
 
 Mocha CFW是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。
-{: .notice}
 
 為了能在開機時套用簽證補丁及啟動至修改後的 SysNAND 中，你每次重啟時都得透過 Homebrew Launcher 啟動 Mocha CFW。
-{: .notice--info}
 
 #### 操作說明
 

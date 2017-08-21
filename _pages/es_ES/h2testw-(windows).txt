@@ -3,13 +3,10 @@ title: "H2testw (Windows)"
 ---
 
 Esta página te guiará a través del proceso de comprobación de errores de tu tarjeta SD con h2testw.
-{: .notice}
 
 Dependiendo del tamaño tu tarjeta SD y la velocidad de tu computadora, ¡este proceso podría tardar varias horas!
-{: .notice--info}
 
 Esta página es sólo para usuarios de Windows. Si no estás en Windows, revisa las páginas [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac)).
-{: .notice--info}
 
 #### Qué necesitas
 

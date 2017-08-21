@@ -3,13 +3,10 @@ title: "H2testw (Windows)"
 ---
 
 Den här sidan kommer ta dig igenom processen att använda h2testw för att söka igenom ditt SD-kort efter fel.
-{: .notice}
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
-{: .notice--info}
 
 Den här sidan är enbart för Windows-användare. Om du inte använder Windows kan du gå till sidorna för [F3 (Linux)](f3-(linux)) eller [F3X (Mac)](f3x-(mac)).
-{: .notice--info}
 
 #### Vad du behöver
 

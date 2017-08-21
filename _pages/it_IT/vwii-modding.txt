@@ -3,10 +3,6 @@ title: "Modifica vWii"
 ---
 
 Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche sulla vWii (Wii virtuale) della tua Wii U.
-{: .notice--info}
-
-Se non hai ancora completato la guida principale Wii U, vai alla pagina [Cominciamo! - Sezione II - Bloccare gli aggiornamenti](get-started#section-ii---block-system-updates) per evitare che la tua Wii U si aggiorni automaticamente all'ultima versione, quindi ritorna a questa pagina.
-[: .notice--danger]
 
 #### Quello che ti serve
 
@@ -14,6 +10,7 @@ Se non hai ancora completato la guida principale Wii U, vai alla pagina [Cominci
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * L'ultima versione di [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * L'ultima versione del [Hackmii Installer](https://bootmii.org/download/)
+* Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip`del Launcher)*
 
 #### Istruzioni
 
@@ -25,6 +22,7 @@ Se non hai ancora completato la guida principale Wii U, vai alla pagina [Cominci
 1. Copia il file `boot.elf` dalla cartella `hackmii_installer_v1.2` all'interno dell'archivio `.zip` dell'Hackmii Installer nella root della tua scheda SD
 1. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
 1. Copia e unisci la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
+1. Copia e unisci _il contenuto_ dell'archivio `.zip` dell'Homebrew Launcher nella root della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
@@ -93,7 +91,7 @@ Assicurati che non ci siano cartelle di nome `wad` o `wads` nella root della tua
 
 ##### Sezione V - Patchare IOS80
 
-**Questo passaggio brickerà la tua vWii se fallisce per qualsiasi motivo (salti di corrente ecc.) e servirà un backup della NAND per recuperarla. Assicurati di averne creato uno prima di continuare con questa sezione**
+Questo passaggio brickerà la tua vWii se fallisce per qualsiasi motivo (salti di corrente ecc.) e servirà un backup della NAND per recuperarla. Assicurati di averne creato uno prima di continuare con questa sezione.
 {: .notice--danger}
 
 1. Dall'Homebrew Channel della vWii, avvia Patched IOS80 Installer for vWii

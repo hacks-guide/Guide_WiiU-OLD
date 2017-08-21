@@ -3,10 +3,8 @@ title: "Coldboot Haxchi"
 ---
 
 CBHC (Coldboot Haxchi) modifie votre SysNAND pour la forcer à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger la SysNAND patché.
-{: .notice}
 
 Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. Si vous souhaitez ignorer Haxchi, continuer vers [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
-{: .notice--info}
 
 **Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiiser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, vous allez « BRICKER » !**
 {: .notice--danger}
@@ -44,14 +42,14 @@ Votre Wii U devrait à présent automatiquement lancer dans Coldboot Haxchi SysN
 {: .notice}
 
 {% capture notice-1 %}
-**Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux options de démarrage de CBHC. Voici la liste des options de démarrage et leur effet :**
+You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
 
-+ Boot System Menu -> Démarrer la Wii U sur la SysNAND
-+ Boot Homebrew Launcher -> Démarrer la Wii U en lançant le Homebrew Launcher de la SysNAND
-+ Boot Mocha CFW -> Démarrer la Wii U en lançant Mocha CFW avec la RedNAND
-+ Boot fw.img on SD Card -> Démarrer la Wii U avec n'importe quel ancien firmware CFW fw.img à la racine de la carte SD
-+ Boot vWii System Menu -> Démarrer la Wii U en lançant la vWii de la SysNAND
-+ Boot vWii Homebrew Channel -> Démarrer la Wii U en lançant le Homebrew Channel de la vWii de la SysNAND
+  + Boot System Menu -> Démarrer la Wii U sur la SysNAND
+  + Boot Homebrew Launcher -> Démarrer la Wii U en lançant le Homebrew Launcher de la SysNAND
+  + Boot Mocha CFW -> Démarrer la Wii U en lançant Mocha CFW avec la RedNAND
+  + Boot fw.img on SD Card -> Démarrer la Wii U avec n'importe quel ancien firmware CFW fw.img à la racine de la carte SD
+  + Boot vWii System Menu -> Démarrer la Wii U en lançant la vWii de la SysNAND
+  + Boot vWii Homebrew Channel -> Démarrer la Wii U en lançant le Homebrew Channel de la vWii de la SysNAND
 
 {% endcapture %}
 

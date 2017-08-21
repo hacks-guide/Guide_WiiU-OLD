@@ -3,13 +3,10 @@ title: "NAND 備份"
 ---
 
 這些步驟將在你的 SD 卡上建立 NAND 備份，這將讓你可以在磚機時透過硬改來進行還原。
-{: .notice}
 
 如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
-{: .notice--info}
 
 請注意，Mocha 自製韌體的使用者應在重啟後且*尚未運行* Mocha 自製韌體（透過瀏覽器版本的 Homebrew Launcher）的情況下進行下列步驟以避免 Wii U NAND Dumper 死當。
-{: .notice--info}
 
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}

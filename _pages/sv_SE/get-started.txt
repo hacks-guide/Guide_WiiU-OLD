@@ -2,23 +2,17 @@
 title: "Kom Igång"
 ---
 
-Följande steg hjälper dig förbereda ditt SD-kort för att installera coldboothax custom firmware.
-{: .notice--primary}
+Följande steg hjälper dig förbereda ditt SD-kort för att installera Coldboot Haxci custom firmware.
 
 Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 5.5.1 eller 5.5.2 installerad. Äldre versioner stöds inte för närvarande.
-{: .notice--info}
 
-Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.
-{: .notice--info}
+Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel. Om du vill göra en säkerhetskopia av ditt Wii U-system, ifall det skulle behöva återställas någon gång i framtiden, behöver du ett SD-kort som är minst dubbelt så stort som ditt Wii Us system-minne (16GB SD-kort för en 8GB vit konsol; 64GB SD-kort för en 32GB svart konsol).
 
 Ditt SD-kort måste vara formaterat som FAT32 (64KB klusterstorlek om möjligt).  De flesta SD-kort kommer vara formaterade såhär från början.
-{: .notice--info}
 
 Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Använd [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) istället och sätt "Allocation Unit Size" till 64KB.
-{: .notice--warning}
 
-Ditt SD-kort **får** ej döpas till `wiiu`, för då kommer du stöta på problem.
-{: .notice--warning}
+Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
@@ -64,13 +58,57 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-##### Avsnitt II - Blockera Systemuppdateringar
+##### Avsnitt II - DS Virtual Console-spel
+
+Det finns två metoder för att köra custom firmware på Wii U.
+
+Den första metoden är att nyttja ett säkerhetshål i webbläsaren som ser till att patcha systemet. Tyvärr *kräver* detta säkerhetshål att man nyttjar det efter varje omstart. Dessutom är säkerhetshålet i version 5.5.2 mycket mer opålitligt vilket gör det till ett ännu mer ointressant alternativ.
+
+Den andra metoden är att köpa ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål och använda för att starta custom firmware automatiskt när systemet startas. Det här *krävs i stort sett* för användare på 5.5.2 på grund av den dåliga pålitligheten när man använder säkerhetshålet i webbläsaren.
+
+DS Virtual Console-spelet *måste* vara en **legitimt inköpt** kopia av spelet installerat på det **interna minnet** på din enhet. Du *kan inte* installera DS Virtual Console-spelet på en USB-enhet.
+
+Om du vill använda DS Virtual Console-metoden ska du se till att köpa spelet innan du fortsätter med nästa kapitel.
+{: .notice--primary}
+
+Följande DS Virtual Console-spel är kompatibla:
+
+| Kompatibla Haxchi-spel |
+| ------------- |
+| Animal Crossing: Wild World |
+| Big Brain Academy |
+| Brain Age |
+| DK: Jungle Climber |
+| Dr. Kawashima's Brain Training |
+| Kirby: Canvas Curse |
+| Kirby: Mass Attack|
+| Kirby: Squeak Squad / Kirby: Mouse Attack |
+| Legend of Zelda: Phantom Hourglass |
+| Legend of Zelda: Spirit Tracks |
+| Mario & Luigi: Partners in Time |
+| Mario Kart DS |
+| New Super Mario Bros. |
+| Pokemon Mystery Dungeon: Explorers of the Sky |
+| Pokemon Ranger |
+| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Shadows of Almia |
+| Starfox Command |
+| Super Mario 64 DS |
+| Wario: Master of Disguise |
+| WarioWare: Touched |
+| Yoshi's Island DS |
+| Yoshi's Touch & Go |
+
+För närvarande är Dr. Kawashima's Brain Training den billigaste av dessa titlar på eShopen (70:-).
+
+Om du redan äger Brain age eller Brain Training och har haft det installerat på din Wii U ett tag försök radera det och ladda ner det på nytt från eShopen. Äldre versioner av spelet har inte det nödvändiga säkerhetshålet.
+
+##### Avsnitt III - Blockera systemuppdateringar
+
+Notera att för att komma åt eShopen med dessa DNS-inställningar måste du först köra NNU-Patcher genom Homebrew Launcher. Notera även att NNU-Patcher är tillfällig och du kommer behöva köra den igen om du behöver komma åt eShopen efter en omstart.
 
 Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande och framtida nätverksanslutningar så sköts uppdateringar av Wii U *automatiskt* och *kan inte* stängas av. 
 {: .notice--danger}
-
-Notera att för att komma åt eShopen med dessa DNS-adresser så måste du först köra NNU-Patcher genom Homebrew Launcher (NNU-Patcher modifierar bara systemrutinerna i minnet, och kommer behöva köras igen om du behöver komma åt eShopen efter en omstart).
-{: .notice--info}
 
 1. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
 1. För varje anslutning (och för alla framtida anslutningar), gör följande

@@ -5,41 +5,41 @@ title: "Preguntas Frecuentes"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" />**P:** *Estoy en la última versión del sistema, ¿mi consola es hackeable?*    
-**R:** No
-<br><br>
+**R:** Si
+
 <a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo / debería hacer con ella?*    
 **R:** Esta guía es compatible sólo con las versiones 5.5.0 a 5.5.2. Las versiones anteriores son incompatibles por el momento.
-<br><br>
+
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
 **A:** ¡No! La versión 5.5.2 fue liberada justo después del fin de la producción. Por ello debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
-<br><br>
+
 <a name="faq_updatesysnand" />**P:** *¿Es seguro actualizar una SysNAND modificada?*    
 **A:** ¡No! Siempre debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
-<br><br>
+
 <a name="faq_updatemocha" />**P:** *¿Cómo actualizo a la última versión de Mocha CFW?*    
 **R:** Descarga la última versión de [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), luego copia `mocha.elf`del archivo `.zip` de Mocha CFW a la carpeta `/wiiu/apps/mocha/` en tu tarjeta SD (sobreescribe el archivo existente)
-<br><br>
+
 <a name="faq_risky" />**P:** *¿Qué tan peligroso es modificar mi consola?*    
 **R:** Los bricks son extremadamente raros y usualmente sólo son causados por saltarse instrucciones o no seguirlas apropiadamente.
-<br><br>
+
 <a name="faq_homebrew" />**P:** *¿Puedo usar esto para correr homebrew y emuladores?*    
 **R:** ¡Sí! Esto no sólo activa el Homebrew Launcher, si no que además te dará hacks en todas las versiones, por lo tanto lo tendrás para siempre, incluso si actualizas el sistema.
-<br><br>
+
 <a name="faq_regionfree" />**P:** *¿Puedo usar esto para jugar juegos de otras regiones?*    
 **R:** Mocha CFW soporta parches para Libertad de Región, lo cual permite a los usuarios instalar juegos de cualquier región sin necesidad de modificaciones o pasos extras.
-<br><br>
+
 <a name="faq_updates" />**P:** *¿Es seguro actualizar una SysNAND modificada?*    
 **A:** ¡No! Siempre debes asegurarte de que tus ajustes de internet tengan configurados servidores DNS que bloqueen las actualizaciones sólo en caso de que salga una nueva actualización.
-<br><br>
+
 <a name="faq_support" />**P:** *¿A dónde debería ir para pedir ayuda?*    
 **R:** Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).
-<br><br>
+
 <a name="faq_sdsize" />**P:** *¿De qué capacidad debe ser la tarjeta SD a utilizar?*    
 **R:** Tu tarjeta SD debe ser de al menos 64 GB si posees un modelo de Wii U negro (de 32 GB). Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
-<br><br>
+
 <a name="faq_NNID" />**P:** *¿Puedo conservar mi Identificador de Nintendo Network (NNID)?*    
 **R:** Si inicias el proceso con un NNID y sigues todos los pasos, seguirás conservando el mismo NNID al finalizar.
-<br><br>
+
 <a name="faq_nopc" />**P:** *¿Puedo realizar este proceso sin una computadora (Ej: con un celular Android)?*    
 **R:** ¡Todo lo que necesitas es la posibilidad de cargar archivos a una tarjeta SD!
 

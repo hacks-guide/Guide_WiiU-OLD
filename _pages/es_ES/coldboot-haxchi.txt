@@ -3,10 +3,8 @@ title: "Coldboot Haxchi"
 ---
 
 CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del menú del sistema, el cual cargará entonces la SysNAND modificada.
-{: .notice}
 
 Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. Si deseas omitir Haxchi, continuar en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
-{: .notice--info}
 
 **DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tienes, ¡BRICKEARÁS!**
 {: .notice--danger}
@@ -44,14 +42,14 @@ Tu consola ahora debería iniciar automáticamente en la SysNAND modificada con 
 {: .notice}
 
 {% capture notice-1 %}
-**Puedes presionar (Home) durante el inicio de CBHC para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones de arraque:**
+Puedes presionar (Home) durante el inicio de CBHC para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones:
 
-+ Boot System Menu -> Arranca la SysNAND
-+ Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
-+ Boot Mocha CFW -> Arranca Mocha CFW en la RedNAND
-+ Boot fw.img on SD Card -> Arranca cualquier CFW antiguo basado en fw.img desde la tarjeta SD
-+ Boot vWii System Menu -> Arranca la vWii en la SysNAND
-+ Boot vWii Homebrew Channel -> Arranca el Homebrew Channel en el modo vWii en la SysNAND
+  + Boot System Menu -> Arranca la SysNAND
+  + Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
+  + Boot Mocha CFW -> Arranca Mocha CFW en la RedNAND
+  + Boot fw.img on SD Card -> Arranca cualquier CFW antiguo basado en fw.img desde la tarjeta SD
+  + Boot vWii System Menu -> Arranca la vWii en la SysNAND
+  + Boot vWii Homebrew Channel -> Arranca el Homebrew Channel en el modo vWii en la SysNAND
 
 {% endcapture %}
 
