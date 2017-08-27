@@ -42,7 +42,7 @@ La tua console dovrebbe ora entrare automaticamente dentro Coldboot Hachi e quin
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Puoi premere il pulsante (Home) all'avvio di CBHC per accedere al suo menu di avvio. Ecco le varie opzioni a te disponibili:
 
   + Boot System Menu -> Avvia la SysNAND
   + Boot Homebrew Launcher -> Avvia l'Homebrew Launcher nella SysNAND

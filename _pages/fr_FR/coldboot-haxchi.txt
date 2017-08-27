@@ -42,7 +42,7 @@ Votre Wii U devrait à présent automatiquement lancer dans Coldboot Haxchi SysN
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux options de démarrage de CBHC. Voici la liste des options de démarrage et leur effet :
 
   + Boot System Menu -> Démarrer la Wii U sur la SysNAND
   + Boot Homebrew Launcher -> Démarrer la Wii U en lançant le Homebrew Launcher de la SysNAND
