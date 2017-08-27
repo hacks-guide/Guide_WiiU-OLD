@@ -4,10 +4,10 @@ title: "disc2app"
 
 Esto te permitirá volcar tus discos a un formato que puedas instalar con el fin de jugar sin necesidad de tener el disco.
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:
 
   + No puedes usar el mismo disco duro para vWii y los juegos de Wii U.
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + La Wii U sólo reconoce hasta 2TB del disco duro externo, incluso si es de mayor capacidad.
   + Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
   + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
 
@@ -23,7 +23,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 Si planeas utilizar un disco duro externo para instalar tus discos volcados, sigue esta sección. Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii U, salta esta sección.
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+¡Esto borrará completamente el contenido del disco duro externo!
 {: .notice--danger}
 
 1. Conecta tu HDD USB en tu Wii U mientras está apagada

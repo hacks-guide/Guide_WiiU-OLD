@@ -5,7 +5,7 @@ title: "FAQ"
 {% capture notice-1 %}
 
 <a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*    
-**A:** Yes
+**R :** Oui
 
 <a name="faq_oldfw" />**Q:** *J'ai une Wii U en version X.X.X. Qu'est ce que je peut / devrais faire avec?*    
 **R:** Ce guide est uniquement compatible avec les versions 5.5.0 à 5.5.2. Les anciennes versions sont incompatibles pour le moment.

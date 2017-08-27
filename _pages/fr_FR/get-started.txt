@@ -2,17 +2,17 @@
 title:"Pour Commencer"
 ---
 
-These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
+Ces étapes vont préparer votre carte SD pour l'installation du custom firmware Coldboot Haxchi.
 
 Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmware 5.5.0, 5.5.1 ou 5.5.2. Les anciennes versions ne sont actuellement pas prises en charge.
 
-On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux. Si vous voulez faire une sauvegarde du système de votre Wii U, s'il est nécessaire de la restaurer plus tard, vous aurez besoin d'une carte SD de deux fois la taille de la mémoire de votre Wii U (une carte SD de 16Go pour une console blanche de 8Go; une carte SD de 64Go pour une console noire de 32Go).
 
 Votre carte SD doit être formaté en FAT32 (64KB d'unité d'allocation si possible). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
 
 Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Utilisez [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et une taille d'Allocation de 64Kb.
 
-Your SD card *cannot* be named `wiiu`, or it will cause problems.
+Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysfonctionnements.
 
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
@@ -58,20 +58,20 @@ Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/rele
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
-##### Section II - DS Virtual Console Game
+##### Section II - Le jeu de DS "Console Virtuelle"
 
-There are two methods for using Wii U custom firmware.
+Il y a deux méthodes pour utiliser le custom firmware sur Wii U.
 
-The first method is to run a browser exploit through the browser which will patch the system. Unfortunately, the nature of this exploit is that this *must* be run after every reboot. Additionally, the browser exploit compatible with 5.5.2 is very unreliable making this an even less usable option.
+La première méthode consiste à utiliser un exploit du navigateur qui va patcher le système. Malheureusement, la nature de cet exploit fait que le navigateur *doit* être lancé après chaque redémarrage de la console. De plus, l'exploit de la faille du navigateur des version 5.5.2 de la Wii U est très peu fiable, ce qui en fait une option peu utilisable.
 
-The second method is to purchase a very cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
+La seconde méthode consiste à acheter un jeu de DS "Console Virtuelle" à petit prix pour lancer le custom firmware automatiquement au démarrage. Cette méthode est *essentiellement requise* pour les utilisateur de la version 5.5.2, à cause de l'instabilité précédemment évoquée de la faille du navigateur en 5.5.2.
 
-The DS Virtual Console game *must* be a **legitimately purchased** copy of the game installed to the **internal memory** of your device. You *cannot* install this DS Virtual Console game to a USB drive.
+Le jeu de DS "Console Virtuelle" *doit* être un **véritable achat** installé sur la **mémoire interne** de votre console. Vous *ne devez pas* installer le jeu de DS "Console Virtuelle" sur un support USB.
 
-If you want to use the DS Virtual Console method, you should purchase the game before proceeding to the next section.
+Si vous voulez utiliser la méthode du jeu de DS "Console Virtuelle", vous devez acheter le jeu avant de commencer la section suivante.
 {: .notice--primary}
 
-The following DS Virtual Console games are compatible:
+Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 
 | Les jeux compatibles avec Haxchi |
 | ------------- |
@@ -99,13 +99,13 @@ The following DS Virtual Console games are compatible:
 | Yoshi's Island DS |
 | Yoshi Touch & Go |
 
-Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
++ Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? ", " Cérébrale Académie ", " Pokémon Ranger : Nuit sur Almia ", " Pokémon Ranger : Sillages de lumière " et " Yoshi Touch & Go ".
 
-If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
++ Si vous possédez déjà "Programme d'entrainement cérébral de Dr Kawashima : Quel âge a votre cerveau ?" installé sur votre Wii U depuis un certain temps, essayez de supprimer et de réinstaller le jeu depuis l'eShop. Les anciennes versions du jeu ne sont pas compatibles avec cet exploit.
 
-##### Section III - Block System Updates
+##### Section III - Blocage des mises à jours
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Notez que, pour accéder à l'eShop avec ces DNS, vous devrez d'abord lancer NNU-Patcher via l'Homebrew Launcher. Notez aussi que NNU-Patcher est un patch temporaire et qu'il devra être lancé à nouveau si vous avez besoin d'accéder à l'eShop après un redémarrage.
 
 Notez que, à moins que vous bloquez les mises à jour avec cette méthode sur toutes les connexions actuelles et futures, les mises à jour sur la Wii U, sont effectuées *automatiquement* et *ne peuvent* êtres désactivés. 
 {: .notice--danger}

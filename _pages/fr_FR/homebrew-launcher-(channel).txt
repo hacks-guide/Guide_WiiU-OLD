@@ -6,12 +6,12 @@ Ceci va installera la Chaîne Homebrew pour que, quand votre SysNAND patché est
 
 #### Instructions
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
+1. Allez sur le Homebrew Launcher
+  + Les utilisateurs de CBHC doivent appuyer sur le bouton (Home) lorsque CBHC démarre pour accéder au menu des options de démarrage de CBHC, puis sélectionner le Homebrew Launcher
+  + Les utilisateurs de Haxchi doivent démarrer Haxchi une fois pour patcher la SysNAND, puis une seconde fois en maintenant (A) enfoncé pour démarrer le Homebrew Launcher
+  + Les utilisateurs de Mocha CWF doivent démarrer Mocha CWF puis redémarrer le Homebrew Launcher
 1. Lancez WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
+  + Retenez que, si WUP installer GX2 plante en affichant l'erreur "DSi Exception Has Occured", vous devez simplement éteindre votre console et réessayer.
 1. Sélectionnez l’Homebrew Channel
 1. Touchez "Install", puis "Yes" pour confirmer
 1. Choisissez "NAND" comme destination

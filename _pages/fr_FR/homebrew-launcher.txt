@@ -8,7 +8,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 ##### Instructions
 
-##### Section I - Preparing Browser
+### Section I – Préparer le navigateur
 
 1. Lancer le navigateur sur votre Wii U
 1. Allez dans les paramètres de navigation et cliquez sur "Mettre les paramètres à zéro"
@@ -16,7 +16,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
   + En contre-partie, cela supprimera aussi tout vos favoris ainsi que votre historique et vos paramètres de navigation
 1. Retournez dans le navigateur
 
-##### Section II (i) - Versions 5.5.0 & 5.5.1
+#### Section II (i) - Versions 5.5.0 & 5.5.1
 
 1. Ouvrez le site `http://loadiine.ovh`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
@@ -26,16 +26,16 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
   + Si votre console freeze (ne répond plus), vous pouvez forcer l'extinction de celle-ci en maintenant le bouton Power et réessayer
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
-##### Section II (ii) - Versions 5.5.2
+#### Section II (ii) - Version 5.5.2
 
-1. Open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
+1. Ouvrez les rideaux du navigateur (sur l'écran Tv)
+  + Cela augmente le taux de réussite de l'exploit de navigateur de la version 5.5.2
 1. Aller sur `http://u.drg.li/`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
-1. Select "2" for the first exploit attempt
+1. Sélectionnez "2 " pour la première tentative d’exploit
   + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
-  + If it freezes, just force the console to power off by holding the power button, then try a different number
-  + You may need to try all exploit numbers more than once before one works
+  + Si la console ne répond plus, forcez-la simplement à s'éteindre en maintenant le bouton power, puis réessayez avec un nombre différent
+  + Vous devrez peut être essayer tous les numéros plusieurs fois avant que l'un d'eux fonctionne
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
 ___
@@ -44,7 +44,7 @@ ___
 
 [Mocha CFW](mocha-cfw)
 
-This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
+Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*. Il est déconseillé d'utiliser cette méthode sur les consoles en 5.5.2 car l'exploit du navigateur n'est pas fiable.
 
 {% endcapture %}
 
@@ -54,7 +54,7 @@ This method requires that you rerun the web exploit used above *after every rebo
 
 [Haxchi](haxchi)
 
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage. Elle est *essentiellement requise* pour les utilisateurs de la version 5.5.2 car l'exploit du navigateur pour cette version n'est pas fiable.
 
 {% endcapture %}
 
