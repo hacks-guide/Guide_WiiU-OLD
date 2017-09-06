@@ -6,11 +6,11 @@ These steps will prepare your SD card for installing Coldboot Haxchi custom firm
 
 Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
 
-建議你的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-你的 SD 卡必須是 FAT32 格式（建議 64KB 的配置大小）。 大部分的 SD 卡預設都是以這個格式出廠的。
+您的 SD 卡必須是 FAT32 格式(建議 64KB 的配置大小)。 大部分的 SD 卡預設都是以這個格式出廠的。
 
-如果你想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
@@ -27,16 +27,16 @@ Your SD card *cannot* be named `wiiu`, or it will cause problems.
 * 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
 * 最新版的 [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *（選擇 channel `.zip` 檔案）*
-* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
-* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *（兩個 `.zip` 檔案）*
+* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(選擇 channel `.zip` 檔案)*
+* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 #### 操作說明
 
 ##### 第一節 — 準備工作
 
-1. 關閉你的裝置
+1. 關閉您的裝置
 1. 將 SD 卡插入電腦
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
@@ -56,7 +56,7 @@ Your SD card *cannot* be named `wiiu`, or it will cause problems.
 1. 複製並覆蓋 hid\_to\_vpad `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 NNU-Patcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
-1. 啟動你的裝置
+1. 啟動您的裝置
 
 ##### Section II - DS Virtual Console Game
 
@@ -107,15 +107,15 @@ If already own Brain Age or Brain Training and have had it installed on your Wii
 
 Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
 
-請注意，除非你在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
+請注意，除非您在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
 {: .notice--danger}
 
-1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示你目前的網路設置
-1. 請於所有的連線設定（及未來所有新的設定）中，設定下列選項：
+1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示您目前的網路設置
+1. 請於所有的連線設定(及未來所有新的設定)中，設定下列選項：
   + 選擇網路設定
-  + 選擇「更改設置（Change Settings）」
+  + 選擇「更改設置(Change Settings)」
   + 到第二個選單中，選擇「DNS」
-  + 將 DNS 設為「不自動擷取（Don't Auto-Obtain）」
+  + 將 DNS 設為「不自動擷取(Don't Auto-Obtain)」
   + 將 DNS 伺服器 IP 設為下列位址
   + `168.235.092.108`
   + `081.004.127.020`
