@@ -9,8 +9,8 @@ Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞�
 
 #### 必備項目
 
-+ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
-  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
++ 一份正版、安裝於 Wii U 系統內部儲存空間且可執行漏洞的 DS 虛擬主機遊戲
+  + 若您尚未購買任何相容之遊戲，請見[從頭開始](get-started)
 
 #### 操作說明
 
