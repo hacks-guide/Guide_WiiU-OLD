@@ -2,62 +2,62 @@
 title: "disc2app"
 ---
 
-本工具可將你的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
+本工具可將您的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+如果您想將遊戲安裝至外接硬碟上，請注意下列幾點：
 
-  + 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲（無法共存）。
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
-  + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化。這將會清除硬碟上所有的資料。
-  + 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
+  + 您無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲。
+  + 即使硬碟容量再大，Wii U 最多只能使用 2TB 的空間。
+  + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化；這將會清除硬碟上所有的資料。
+  + 如果您的外接硬碟沒有另外外接電源，您將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 
 #### 必備項目
 
-* 一台可使用修改後 SysNAND 的 Wii U（Mocha CFW, Haxchi, CBHC...等）
+* 一台可使用修改後 SysNAND 的 Wii U (Mocha CFW, Haxchi, CBHC... 等)
 * 剩餘空間至少為 25GB 的 SD 卡
 
 #### 操作說明
 
 ##### 第一節 — 格式化外接硬碟
 
-如果你想將遊戲安裝至外接硬碟上，請遵循本節。 如果你不打算將遊戲安裝至外接硬碟上或者你已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
+如果您想將遊戲安裝至外接硬碟上，請遵循本節。 如果您不打算將遊戲安裝至外接硬碟上或者您已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+這將會完全清除外接硬碟上的內容 ！
 {: .notice--danger}
 
-1. 於 Wii U 關機狀態下，將你的 USB 外接硬碟插入至主機內
-1. 啟動你的 Wii U
-1. 當提示時，格式化你的外接硬碟
+1. 於 Wii U 關機狀態下，將您的 USB 外接硬碟插入至主機內
+1. 啟動您的 Wii U
+1. 當提示時，格式化您的外接硬碟
 
 ##### 第二節 — 使用 disc2app
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 disc2app
 1. 按「A」鍵來拷貝遊戲至 SD 卡中
-1. 當提示時，插入你想要拷貝的遊戲光碟
+1. 當提示時，插入您想要拷貝的遊戲光碟
 1. 光碟拷貝過程將耗費一段時間，請耐心等候
-1. 當完成後，你將會被踢回 SysNAND 的系統主選單中
+1. 當完成後，您將會被踢回 SysNAND 的系統主選單中
 
 ##### 第三節 — 安裝拷貝遊戲
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 WUP Installer GX2
-1. 選擇你要安裝的遊戲
+1. 選擇您要安裝的遊戲
 1. 按下「Install」，並選擇「Yes」確認
-1. 選擇你想要安裝到的地點
+1. 選擇您想要安裝到的地點
   + 選擇使用內存 (NAND) 或是外存 (USB)
 1. 遊戲安裝過程將耗費一段時間，請耐心等候
-1. 當完成後，你將會回到 Homebrew Launcher 中
+1. 當完成後，您將會回到 Homebrew Launcher 中
 1. 按下「Home」鍵並將本軟體關閉以退出至系統選單
 
 ___
 
-在遊戲拷貝完後，你可以將 SD 卡中的 `/install/` 資料夾刪除以釋放些空間
+在遊戲拷貝完後，您可以將 SD 卡中的 `/install/` 資料夾刪除以釋放些空間
 {: .notice--info}
 
-如果一切順利，你將在你的 HOME 主選單看到新安裝的遊戲！
+如果一切順利，您將在您的 HOME 主選單看到新安裝的遊戲！
 {: .notice--success}
 
-你可以透過系統設定中的「資料管理（Data Management）」功能來檢查遊戲是否安裝在正確的資料夾中
+您可以透過系統設定中的「資料管理(Data Management)」功能來檢查遊戲是否安裝在正確的資料夾中
 {: .notice--success}
