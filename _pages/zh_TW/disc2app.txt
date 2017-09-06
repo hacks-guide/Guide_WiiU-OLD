@@ -4,10 +4,10 @@ title: "disc2app"
 
 本工具可將您的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+如果您想將遊戲安裝至外接硬碟上，請注意下列幾點：
 
   + 您無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲。
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  + 即使硬碟容量再大，Wii U 最多只能使用 2TB 的空間。
   + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化；這將會清除硬碟上所有的資料。
   + 如果您的外接硬碟沒有另外外接電源，您將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 
@@ -23,7 +23,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 如果您想將遊戲安裝至外接硬碟上，請遵循本節。 如果您不打算將遊戲安裝至外接硬碟上或者您已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+這將會完全清除外接硬碟上的內容 ！
 {: .notice--danger}
 
 1. 於 Wii U 關機狀態下，將您的 USB 外接硬碟插入至主機內
