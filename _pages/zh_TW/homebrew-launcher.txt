@@ -4,39 +4,39 @@ title: "Homebrew Launcher"
 
 Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
-我們將透過 Wii U 的內建網頁瀏覽器啟動它，也就是說你的 Wii U 需要可以連網才能繼續。
+我們將透過 Wii U 的內建網頁瀏覽器啟動它，也就是說您的 Wii U 需要可以連網才能繼續。
 
 #### 操作說明
 
-##### Section I - Preparing Browser
+##### 第一節 — 準備瀏覽器
 
-1. 開啟你裝置上的網頁瀏覽器
-1. 到瀏覽器設定中選擇「Reset Save Data」（清除儲存資料）
+1. 開啟您裝置上的網頁瀏覽器
+1. 到瀏覽器設定中選擇「Reset Save Data」(清除儲存資料)
   + 這將確保網頁瀏覽器漏洞能正常運行
   + 這將刪除所有已儲存的資料，包括設定、瀏覽紀錄、及書籤
 1. 返回至瀏覽器中
 
-##### Section II (i) - Versions 5.5.0 & 5.5.1
+##### 第二節 (一) — 版本 5.5.0 及 5.5.1 之系統
 
 1. 前往 `http://loadiine.ovh`
-  + 你可以將本網址設為書籤，這樣未來要使用時較方便
+  + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. 請確保下拉選單中顯示的是「Homebrew Launcher 1.4 (5.5.0 - 5.5.1)」，並按下「送出」
   + 可能需要嘗試多次
   + 在某些情況下，使用「Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)」可能會比較可靠
-  + 如果當機的話，按住電源紐強制重啟你的裝置在試一次即可
-1. 你的主機應該就會啟動 Homebrew Launcher 了
+  + 如果當機的話，按住電源紐強制重啟您的裝置在試一次即可
+1. 您的主機應該就會啟動 Homebrew Launcher 了
 
-##### Section II (ii) - Versions 5.5.2
+##### 第二節 (二) — 版本 5.5.2 之系統
 
-1. Open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
-1. Go to `http://u.drg.li/`
-  + 你可以將本網址設為書籤，這樣未來要使用時較方便
-1. Select "2" for the first exploit attempt
+1. 請先將瀏覽器窗簾 (curtains) 開啟
+  + 這將提高 5.5.2 瀏覽器漏洞成功的可能性
+1. 前往 `http://u.drg.li/`
+  + 您可以將本網址設為書籤，這樣未來要使用時較方便
+1. 第一次嘗試，請選擇「2」
   + 可能需要嘗試多次
-  + If it freezes, just force the console to power off by holding the power button, then try a different number
-  + You may need to try all exploit numbers more than once before one works
-1. 你的主機應該就會啟動 Homebrew Launcher 了
+  + 如果當機的話，透過電源按鈕將您的主機強制關機，並試試看選擇不同的號碼
+  + 您可能需要每個號碼都多試幾次才有可能成功
+1. 您的主機應該就會啟動 Homebrew Launcher 了
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 [Mocha CFW](mocha-cfw)
 
-This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
+本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。 因為 5.5.2 系統的瀏覽器漏洞極不可靠，我們不建議您在 5.5.2 中使用本方法。
 
 {% endcapture %}
 
@@ -54,7 +54,7 @@ This method requires that you rerun the web exploit used above *after every rebo
 
 [Haxchi](haxchi)
 
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+本方法為將透過個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 這基本上對版本 5.5.2 的使用者來說是*必要*的，因為此版本的瀏覽器漏洞非常地不可靠。
 
 {% endcapture %}
 
