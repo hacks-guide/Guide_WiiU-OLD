@@ -2,7 +2,7 @@
 title: "vWii 改機"
 ---
 
-本章節將教你如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii（vWii）。
+本章節將教您如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii(vWii)。
 
 #### 必備項目
 
@@ -10,38 +10,38 @@ title: "vWii 改機"
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [Hackmii Installer](https://bootmii.org/download/)
-* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *（選擇 channel `.zip` 檔案）*
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(選擇 channel `.zip` 檔案)*
 
 #### 操作說明
 
 ##### 第一節 — 準備工作
 
-1. 關閉你的裝置
+1. 關閉您的裝置
 1. 將 SD 卡插入電腦
 1. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
-1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到你的 SD 卡下
-1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到你的 SD 卡下
+1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到您的 SD 卡下
+1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到您的 SD 卡下
 1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
-1. 啟動你的裝置
+1. 啟動您的裝置
 
 ##### 第二節 — wuphax
 
 1. 啟動 Homebrew Launcher
   + 若您尚未完成本手冊的主要步驟且不知道該如何進行本步驟，請先參閱 [Homebrew Launcher](homebrew-launcher) 中的詳情以繼續本頁面之步驟。
 1. 啟動 wuphax
-1. 按「A」鍵以備份你的 Mii 頻道，並注入 Hackmii Installer
+1. 按「A」鍵以備份您的 Mii 頻道，並注入 Hackmii Installer
 1. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
 1. 按下「Home」鍵以退出至系統主選單
 1. 啟動 vWii
 1. 啟動 vWii Mii 頻道
-1. 如果漏洞順利執行，你將會進入 Hackmii Installer 中
+1. 如果漏洞順利執行，您將會進入 Hackmii Installer 中
 1. 讀完警示，並於提示時按下「1」繼續
 1. 依照顯示的步驟來安裝 Homebrew Channel 至 vWii 上
 1. 照步驟跑完回至 vWii 中
-1. 如果漏洞順利執行，你將會在 vWii 選單中看到 Homebrew Channel
-1. 回到系統主選單中，並將你的 Wii U 關機
+1. 如果漏洞順利執行，您將會在 vWii 選單中看到 Homebrew Channel
+1. 回到系統主選單中，並將您的 Wii U 關機
 1. 透過本節先前使用的步驟啟動 Homebrew Launcher
 1. 啟動 wuphax
 1. 當提示時，按下「B」鍵還原 Mii 頻道
@@ -49,16 +49,16 @@ title: "vWii 改機"
 
 ##### 第三節 － 拷貝 vWii NAND
 
-未來如果你的 vWii 出了任何問題的話，到時這個 NAND 備份能將 vWii 還原至正常狀態。
+未來如果您的 vWii 出了任何問題的話，到時這個 NAND 備份能將 vWii 還原至正常狀態。
 {: .notice--info}
 
 1. 於 vWii 上啟動 Homebrew Channel
 1. 啟動 Dump Mii NAND
-  + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的 SD 卡速度而定，有可能會到數小時）
-1. 當備份完成後，你的 Wii U 將自動重啟
-1. 關閉你的 Wii U
+  + 可以拿起您的爆米花慢慢等了；這過程可能會花好一段時間(依您的 SD 卡速度而定，有可能會到數小時)
+1. 當備份完成後，您的 Wii U 將自動重啟
+1. 關閉您的 Wii U
 1. 將 Wii U 中的 SD 卡插入至電腦中
-1. **從你 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方（像是雲端硬碟）；此備份將會在你未來玩壞 vWii 時救你一命**
+1. **從您 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方(像是雲端硬碟)；此備份將會在您未來玩壞 vWii 時救您一命**
 1. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
 
 ##### 第四節 － cIOS 安裝
@@ -91,11 +91,11 @@ title: "vWii 改機"
 
 ##### 第五節 － 修改 IOS80
 
-This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.
+如果本節出了任何差錯 (跳電... 等)，您的 vWii 將會磚機而您必須先還原先前備份的 vWii 才能恢復運作. 請在確保您已經先備份完畢再行繼續.
 {: .notice--danger}
 
 1. 從 vWii 的 Homebrew Channel 中啟動 vWii 的 Patched IOS80 Installer
-1. 讀完警示，並稍待 30 秒直到安裝程式讓你繼續為止
+1. 讀完警示，並稍待 30 秒直到安裝程式讓您繼續為止
 1. 按「A」鍵安裝
   + 這應該很快
 1. 完成後，按下任一按鈕回至 Homebrew Channel 中
@@ -103,20 +103,20 @@ This step will brick your vWii installation if it fails for any reason (power ou
 
 ___
 
-現在你可以安裝並使用任何 Wii 的自製程式像是 USB Loader GX、Wiiflow、CFG USB Loader、模擬器...等等。
+現在您可以安裝並使用任何 Wii 的自製程式像是 USB Loader GX、Wiiflow、CFG USB Loader、模擬器...等等。
 {: .notice--success}
 
-外接硬碟一定得接到 Wii U 後端的 USB 才能在 vWii 中使用。 這不能跟你裝 Wii U 遊戲的硬碟互相共用。 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
+外接硬碟一定得接到 Wii U 後端的 USB 才能在 vWii 中使用。 這不能跟您裝 Wii U 遊戲的硬碟互相共用。 如果您的外接硬碟沒有另外外接電源，您將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 {: .notice--info}
 
-請先確保你所裝的 `.wad` 檔案（頻道、遊戲...等）是[可與 vWii 相容的格式](https://gbatemp.net/threads/340226/)。 如果你所裝的 `.wad` 檔案是給一般 Wii 所使用的格式的話，你將會使你的 vWii 磚機，且將需要還原先前的備份才能恢復運作。
+請先確保您所裝的 `.wad` 檔案(頻道、遊戲...等)是[可與 vWii 相容的格式](https://gbatemp.net/threads/340226/)。 如果您所裝的 `.wad` 檔案是給一般 Wii 所使用的格式的話，您將會使您的 vWii 磚機，且將需要還原先前的備份才能恢復運作。
 {: .notice--danger}
 
 在 vWii 上安裝自訂主題將會使它磚機。
 {: .notice--danger}
 
-擅自手動移除 `.wad` 檔案將有可能使你的 vWii 磚機。
+擅自手動移除 `.wad` 檔案將有可能使您的 vWii 磚機。
 {: .notice--danger}
 
-在 vWii 上安裝 Priiloader 將會使你它磚機。
+在 vWii 上安裝 Priiloader 將會使您它磚機。
 {: .notice--danger}
