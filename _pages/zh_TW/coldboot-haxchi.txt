@@ -42,7 +42,7 @@ ___
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+您可以在 CBHC 啟動時按下「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：
 
   + Boot System Menu -> 開機至 SysNAND
   + Boot Homebrew Launcher -> 開機至 SysNAND 的 Homebrew Launcher 中
