@@ -6,14 +6,14 @@ title: "disc2app"
 
 If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
-  + 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲（無法共存）。
+  + 你無法在同顆硬碟上安裝 vWii 及 Wii U 遊戲。
   + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
-  + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化。這將會清除硬碟上所有的資料。
+  + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化；這將會清除硬碟上所有的資料。
   + 如果你的外接硬碟沒有另外外接電源，你將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 
 #### 必備項目
 
-* 一台可使用修改後 SysNAND 的 Wii U（Mocha CFW, Haxchi, CBHC...等）
+* 一台可使用修改後 SysNAND 的 Wii U (Mocha CFW, Haxchi, CBHC... 等)
 * 剩餘空間至少為 25GB 的 SD 卡
 
 #### 操作說明
@@ -59,5 +59,5 @@ ___
 如果一切順利，你將在你的 HOME 主選單看到新安裝的遊戲！
 {: .notice--success}
 
-你可以透過系統設定中的「資料管理（Data Management）」功能來檢查遊戲是否安裝在正確的資料夾中
+你可以透過系統設定中的「資料管理(Data Management)」功能來檢查遊戲是否安裝在正確的資料夾中
 {: .notice--success}
