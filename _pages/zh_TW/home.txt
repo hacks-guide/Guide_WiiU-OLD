@@ -13,15 +13,15 @@ excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌
 ---
 
 {% capture notice-home %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+此指南 _僅_ 適用於零售機使用 (透過正常管道購買；非任天堂開發者計畫所取得的主機)！
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
+本指南正缺乏翻譯人員，請*您*幫助我們[翻譯](https://translate.wiiu.guide/)本網站成您的母語!
 {: .notice--success}
 
-Read all of the introductory pages before proceeding.
+請先讀完本手冊的所有序章再進行改機。
 {: .notice--warning}
 
 ## 什麼是自製程式？
@@ -52,7 +52,7 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 ## 我在開始前需要知道什麼？
 
 + **在開始前，您一定得注意 Wii U 改機的風險：每次在更改系統時都有可能造成無法挽回的磚機或死機。 這種情況是滿罕見的，但是還是有可能的。所以請確保遵守所有的步驟。**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
++ 本教學將適用於任意區搭載 5.5.0 至 5.5.2 版本的 Wii U。
 + 如果一切都很順利的話，您將不會失去任何資料(像是遊戲、NNID、存檔...等都會被留下)。
 + 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
 + 您的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
