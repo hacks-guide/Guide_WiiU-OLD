@@ -6,7 +6,7 @@ Mit diesen Schritten kannst du ein Backup deines NANDs auf deiner SD-Karte erste
 
 Falls du ein schwarzes (32GB) Wii U-Modell besitzt, muss deine SD-Karte mindestens 64GB groß sein. Falls du ein weißes (8GB) Wii U-Modell besitzt, muss deine SD-Karte mindestens 16GB groß sein.
 
-Note that Mocha CFW users should follow these instructions after a reboot *without* running Mocha CFW (using the browser based Homebrew Launcher) to prevent Wii U NAND Dumper from freezing.
+Beachte dass Mocha CFW dieser Anleitung nach einem Neustart folgen sollten *ohne* Mocha CFW zu starten damit der Wii U NAND Dumper nicht abstürzt.
 
 Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
 {: .notice--warning}
@@ -22,7 +22,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Kopiere und füge _den Inhalt_ der Wii U NAND Dumper `.zip` im Stammverzeichnis deiner SD-Karte zusammen
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
-1. Launch the Homebrew Launcher
+1. Starte den Homebrew Launcher
 1. Starte nanddumper
 1. Benutze das D-Pad um folgende Optionen zu setzen:
   + Dump SLC (528MB): **yes**
