@@ -28,8 +28,8 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 
 ##### Abschnitt II - wuphax
 
-1. Launch the Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
+1. Starte den Homebrew Launcher
+  + Wenn du dem Wii U Hauptguide noch nicht gefolgt bist und nicht weisst wie dies funktioniert, gehe bitte zu [Homebrew Launcher](homebrew-launcher) und kehre danach wieder hierher zurück.
 1. Starte wuphax
 1. Drücke (A), um deinen Mii Channels zu sichern und den Hackmii Installer zu injecten
 1. Du wirst zum Homebrew Launcher im SysNAND zurückkommen
@@ -42,7 +42,7 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 1. Befolge die Anweisungen, um zurück zu deiner vWii zu gelangen
 1. Wenn der Exploit erfolgreich war, siehst du nun den Homebrew Channel im Hauptmenü deiner vWii
 1. Kehre zum Hauptmenü zurück, und schalte dann deine Wii U aus
-1. Launch the Homebrew Launcher with the method used earlier in this section
+1. Starte den Homebrew Launcher mit der Methode die oben erwähnt wurde.
 1. Starte wuphax
 1. Drücke (B), wenn du dazu aufgefordert wirst, um den Mii Channel wieder herzustellen
 1. Befolge die Anweisungen, um zurück zu deiner vWii zu gelangen
@@ -71,19 +71,19 @@ Stelle sicher, dass keine Ordner mit dem Namen `wad` oder `wads` im Stammverzeic
   + CBHC Mocha CFW Nutzer können das tun indem sie (B) während des Hochfahrens gedrückt halten und anschließend "Boot vWii Homebrew Channel" auswählen
 1. Starte den d2x cIOS Installer
 1. Setze die Optionen am oberen Bildschirmrand so, dass sie folgenden entsprechen:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Wähle cIOS: **d2x-v10-beta53-alt-vWii**
   + Wähle cIOS base : **56**
   + Wähle cIOS slot : **249**
 1. Drücke (A) zum Installieren
 1. Warte bis die Installation beendet ist, und drücke dann (A), um fortzufahren
 1. Setze die Optionen am oberen Bildschirmrand so, dass sie folgenden entsprechen:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Wähle cIOS: **d2x-v10-beta53-alt-vWii**
   + Wähle cIOS base : **57**
   + Wähle cIOS slot : **250**
 1. Drücke (A) zum Installieren
 1. Warte bis die Installation beendet ist, und drücke dann (A), um fortzufahren
 1. Setze die Optionen am oberen Bildschirmrand so, dass sie folgenden entsprechen:
-  + Select cIOS : **d2x-v10-beta52-vWii**
+  + Wähle cIOS: **d2x-v10-beta53-alt-vWii**
   + Wähle cIOS base : **58**
   + Wähle cIOS slot : **251**
 1. Drücke (A) zum Installieren
@@ -91,7 +91,7 @@ Stelle sicher, dass keine Ordner mit dem Namen `wad` oder `wads` im Stammverzeic
 
 ##### Abschnitt V - IOS80 patchen
 
-This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.
+Dieser Schritt wird deine vWii-Installation bricken, wenn irgendetwas schief geht (Stromausfall, etc), was eine vWii NAND Sicherungskopie benötigt, um behoben zu werden. Stelle sicher, dass du deine gemacht hast, bevor du fortfährst.
 {: .notice--danger}
 
 1. Aus dem Homebrew Channel für vWii, starte den Patched IOS80 Installer für vWii
