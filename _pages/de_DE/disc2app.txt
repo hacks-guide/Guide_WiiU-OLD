@@ -4,10 +4,10 @@ title: "disc2app"
 
 Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit du später spielen kannst ohne die Disc zu benötigen.
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte folgendes:
 
   + Du kannst nicht die selbe Festplatte für vWii und Wii U Spiele nutzen.
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
+  Die Wii U nutzt nur 2TB Speicherplatz einer externen Festplatte, auch wenn die Festplatte an sich größer ist.
   + Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
   + Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
 
@@ -23,7 +23,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 Solltest du eine externe Festplatte beutzen wollen, auf der du deine Spiele installierst, folge diesem Abschnitt. Solltest du nicht vorhaben, eine externe Festplatte zu verwenden, oder schon eine im Wii U Format haben, überspringe diesen Abschnitt.
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 {: .notice--danger}
 
 1. Schließe die Festplatte an die Wii U an, während diese ausgeschaltet ist
