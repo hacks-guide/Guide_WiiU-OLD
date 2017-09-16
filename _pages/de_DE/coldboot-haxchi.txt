@@ -42,7 +42,7 @@ Dein Gerät sollte nun automatisch in ein Coldboot Haxchi gepatchtes SysNAND boo
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Drücke die (Home) Taste wenn der CBHC bootet um in die CBHC boot Optionen zu gelangen. Hier ist eine Liste der einzelnen Optionen:
 
   + Boot System Menu -> Startet SysNAND
   + Boot Homebrew Launcher -> Startet im SysNAND den Homebrew Launcher

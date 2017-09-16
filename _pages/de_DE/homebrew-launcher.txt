@@ -8,7 +8,7 @@ Wir starten dies mithilfe des Wii U Webbrowsers, also muss sich deine Wii U mit 
 
 #### Anleitung
 
-##### Section I - Preparing Browser
+##### Abschnitt I - Browser vorbereiten
 
 1. Starte den Browser auf deiner Wii U
 1. Gehe zu den Browser Einstellungen und wähle "Daten zurücksetzen" aus
@@ -16,7 +16,7 @@ Wir starten dies mithilfe des Wii U Webbrowsers, also muss sich deine Wii U mit 
   + Das wird außerdem alle Speicherdaten inklusive Einstellungen, Verlauf und Lesezeichen löschen
 1. Kehre zum Browser zurück
 
-##### Section II (i) - Versions 5.5.0 & 5.5.1
+##### Abschnitt II (i) - Versions 5.5.0 & 5.5.1
 
 1. Gehe zu `http://loadiine.ovh`
   + Du solltest diese Adresse als Lesezeichen speichern, um Zeit beim Tippen zu sparen
@@ -26,16 +26,16 @@ Wir starten dies mithilfe des Wii U Webbrowsers, also muss sich deine Wii U mit 
   + Wenn sich deine Konsole aufhängt, schalte sie durch langes Halten des Power-Knopfes aus und versuche es erneut
 1. Deine Konsole sollte den Homebrew Launcher laden
 
-##### Section II (ii) - Versions 5.5.2
+##### Abschnitt II (ii) - Versions 5.5.2
 
-1. Open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
-1. Go to `http://u.drg.li/`
+1. Öffne den Vorhand des Browsers
+  + Hiermit verbesserst du die Chancen dass der Exploit funktioniert
+1. Navigiere zu `http://u.drg.li/`
   + Du solltest diese Adresse als Lesezeichen speichern, um Zeit beim Tippen zu sparen
-1. Select "2" for the first exploit attempt
+1. Wähle "2" für den ersten Exploit Versuch
   + Dies kann einige Versuche benötigen
-  + If it freezes, just force the console to power off by holding the power button, then try a different number
-  + You may need to try all exploit numbers more than once before one works
+  + Wenn sich deine Konsole aufhängt, schalte sie durch langes Halten des Power-Knopfes aus und versuche es erneut
+  + Eventuell musst du alle Exploit Nummern mehrmals nutzen bevor es funktioniert
 1. Deine Konsole sollte den Homebrew Launcher laden
 
 ___
@@ -44,7 +44,7 @@ ___
 
 [Mocha CFW](mocha-cfw)
 
-This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
+Diese Methode setzt vorraus dass du den oben genannten Exploit *nach jedem Neustart* anwendest. Es ist nicht empfohlen diese Methode auf Version 5.5.2 zu verwenden da der Web Exploit sehr instabil ist.
 
 {% endcapture %}
 
@@ -54,7 +54,7 @@ This method requires that you rerun the web exploit used above *after every rebo
 
 [Haxchi](haxchi)
 
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen. Dies ist *unbedingt nötig* für Nutzer der Version 5.5.2 da der Web Exploit sehr instabil ist.
 
 {% endcapture %}
 
