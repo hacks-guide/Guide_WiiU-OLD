@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "從頭開始" #
-  cta_url: "/zh_TW/get-started" #
   caption:
 
 excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌體改成冷起 Haxchi。<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 此指南 _僅_ 適用於零售機使用 (透過正常管道購買；非任天堂開發者計畫所取得的主機)！
@@ -20,9 +21,6 @@ excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌
 
 本指南正缺乏翻譯人員，請*您*幫助我們[翻譯](https://translate.wiiu.guide/)本網站成您的母語!
 {: .notice--success}
-
-請先讀完本手冊的所有序章再進行改機。
-{: .notice--warning}
 
 ## 什麼是自製程式？
 
@@ -57,3 +55,8 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 + 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
 + 您的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
 + 如果您需要格式化一張新的 SD 卡，可以使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 且將配置單位設為 64K。
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
