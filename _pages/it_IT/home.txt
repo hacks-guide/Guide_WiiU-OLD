@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Cominciamo!" #
-  cta_url: "/it_IT/get-started" #
   caption:
 
 excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 Questa guida è riservata _solamente_ alle console retail (cioè quelle acquistate in negozio, non quelle ottenute tramite il Nintendo Developer Program)!
@@ -20,9 +21,6 @@ Questa guida è riservata _solamente_ alle console retail (cioè quelle acquista
 
 La guida ha bisogno di *te* per [essere tradotta](https://translate.wiiu.guide/) in altre lingue!
 {: .notice--success}
-
-Assicurati di leggere tutte le sezioni introduttive prima di proseguire.
-{: .notice--warning}
 
 ## Cosa vuol dire Homebrew?
 
@@ -57,3 +55,8 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 + La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi.
 + La tua scheda SD dovrebbe essere [MBR e non GPT](http://www.howtogeek.com/245610/).
 + Se devi formattare una nuova scheda SD, puoi usare [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e impostare Allocation Unit Size a 64K.
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
