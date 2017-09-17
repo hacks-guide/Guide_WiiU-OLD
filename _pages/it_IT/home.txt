@@ -10,7 +10,7 @@ header:
 excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <br /> da zero a Coldboot Haxchi.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di continuare.
 {: .notice--warning}
 
 {% capture notice-home %}
@@ -58,5 +58,5 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 
 ___
 
-Continue to [Get Started](get-started)
+Prosegui con [Cominciamo!](get-started)
 {: .notice--primary}
