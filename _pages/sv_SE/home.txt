@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Kom igång" #
-  cta_url: "/sv_SE/get-started" #
   caption:
 
 excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U,<br /> från standard till Coldboot Haxchi.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Developer Program)!
@@ -20,9 +21,6 @@ Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Devel
 
 *Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!
 {: .notice--success}
-
-Läs alla introduktionssidor innan du fortsätter.
-{: .notice--warning}
 
 ## Vad är Homebrew?
 
@@ -57,3 +55,8 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 + Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.
 + Ditt SD-kort bör vara [MBR, inte GPT] (http://www.howtogeek.com/245610/).
 + Om du måste formatera ett helt nytt SD-kort kan du använda [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) och sätta Allocation Unit Size till 64K.
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
