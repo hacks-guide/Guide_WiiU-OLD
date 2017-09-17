@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Comencemos" #
-  cta_url: "/es_ES/get-started"
   caption:
 
 excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desde stock hasta Coldboot Haxchi.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 ¡Esta guía es _sólo_ para consolas retail (compradas en tiendas), no para consolas del Nintendo Developer Program!
@@ -20,9 +21,6 @@ excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desd
 
 ¡Esta guía necesita de *tu* ayuda para [traducirla](https://translate.wiiu.guide/) a otros idiomas!
 {: .notice--success}
-
-Lee todas las páginas introductorias antes de continuar.
-{: .notice--warning}
 
 ## ¿Qué es Homebrew?
 
@@ -57,3 +55,8 @@ Respaldar, editar y restaurar partidas guardadas de muchos juegos
 + Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos.
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/).
 + Si necesitas formatear una tarjeta SD nueva, puedes usar [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y ajustar el tamaño de unidad de asignación a 64K.
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
