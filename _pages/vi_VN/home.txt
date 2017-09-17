@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Get Started" #
-  cta_url: "get-started" #
   caption:
 
 excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
@@ -20,9 +21,6 @@ This guide is for retail (consumer purchased; not from the Nintendo Developer Pr
 
 This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
 {: .notice--success}
-
-Read all of the introductory pages before proceeding.
-{: .notice--warning}
 
 ## What is Homebrew?
 
@@ -57,3 +55,8 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
