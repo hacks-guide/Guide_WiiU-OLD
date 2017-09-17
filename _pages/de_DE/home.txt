@@ -5,12 +5,13 @@ header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
-  cta_label: "Los geht's" #
-  cta_url: "/de_DE/get-started"
   caption:
 
 excerpt: "Eine vollständige Anleitung für Wii U Custom Firmware<br />vom Original zu Coldboot Haxchi. <br />"
 ---
+
+Thoroughly read all of the introductory pages (including this one!) before proceeding.
+{: .notice--warning}
 
 {% capture notice-home %}
 **Diese Anleitung ist _nur_ für Handelsübliche Konsolen (vom Endnutzer im Handel erworben; nicht aus dem Nintendo Entwickler Programm bezogen) gedacht!
@@ -20,9 +21,6 @@ excerpt: "Eine vollständige Anleitung für Wii U Custom Firmware<br />vom Origi
 
 **Diese Anleitung benötigt *deine* Hilfe für die [Übersetzung](https://translate.wiiu.guide/) in andere Sprachen!**
 {: .notice--success}
-
-Bevor du fortfährst, lies alle Einleitungsseiten.
-{: .notice--warning}
 
 ## Was ist Homebrew?
 
@@ -57,3 +55,8 @@ Sichere, editiere und stelle Spielstände für viele Spiele wieder her
 Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist, um genug Platz zum dumpen und installieren von Spielen zu bieten.
 +Deine SD-Karte sollte [MBR, nicht GPT](http://www.howtogeek.com/245610/) formatiert sein.
 + Falls du eine neue SD-Karte formatieren musst, kannst du [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) benutzen und die Größe der Zuordnungseinheiten ("Allocation Unit Size") auf 64K setzen.
+
+___
+
+Continue to [Get Started](get-started)
+{: .notice--primary}
