@@ -4,7 +4,7 @@ title: "Mocha CFW"
 
 Mocha CFW是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。
 
-為了能在開機時套用簽證補丁及啟動至修改後的 SysNAND 中，你每次重啟時都得透過 Homebrew Launcher 啟動 Mocha CFW。
+為了能在開機時套用簽證補丁及啟動至修改後的 SysNAND 中，您每次重啟時都得透過 Homebrew Launcher 啟動 Mocha CFW。
 
 #### 操作說明
 
@@ -18,11 +18,11 @@ Mocha CFW是個用來跳過簽證檢查、區域檢查及在背景運行其他�
   + Launch System Menu: **on**
   + RedNAND: **off**
 1. 按「A」鍵確認並退出
-1. 你的 Wii U 將重啟至系統主選單中
+1. 您的 Wii U 將重啟至系統主選單中
 
 ___
 
-你每次重啟時都得從 Homebrew Launcher 開啟 Mocha CFW 才能進入修改後的 SysNAND 中。
+您每次重啟時都得從 Homebrew Launcher 開啟 Mocha CFW 才能進入修改後的 SysNAND 中。
 {: .notice}
 
 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。

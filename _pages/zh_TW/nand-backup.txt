@@ -2,11 +2,11 @@
 title: "NAND 備份"
 ---
 
-這些步驟將在你的 SD 卡上建立 NAND 備份，這將讓你可以在磚機時透過硬改來進行還原。
+這些步驟將在您的 SD 卡上建立 NAND 備份，這將讓您可以在磚機時透過硬改來進行還原。
 
-如果你的 Wii U 是黑色（32GB）版本的型號，你的 SD 卡必須至少有 64GB 的容量。 如果你的 Wii U 是白色（8GB）版本的型號，你的 SD 卡必須至少有 16GB 的容量。
+如果您的 Wii U 是黑色(32GB)版本的型號，您的 SD 卡必須至少有 64GB 的容量。 如果您的 Wii U 是白色(8GB)版本的型號，您的 SD 卡必須至少有 16GB 的容量。
 
-請注意，Mocha 自製韌體的使用者應在重啟後且*尚未運行* Mocha 自製韌體（透過瀏覽器版本的 Homebrew Launcher）的情況下進行下列步驟以避免 Wii U NAND Dumper 死當。
+請注意，Mocha 自製韌體的使用者應在重啟後且*尚未運行* Mocha 自製韌體(透過瀏覽器版本的 Homebrew Launcher)的情況下進行下列步驟以避免 Wii U NAND Dumper 死當。
 
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
@@ -17,11 +17,11 @@ title: "NAND 備份"
 
 #### 操作說明
 
-1. 關閉你的裝置
+1. 關閉您的裝置
 1. 將 SD 卡插入電腦
 1. 複製並覆蓋 Wii U NAND Dumper `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 將 SD 卡插回裝置中
-1. 啟動你的裝置
+1. 啟動您的裝置
 1. 啟動 Homebrew Launcher
 1. 啟動 nanddumper
 1. 使用方向鍵來設定下列選項：
@@ -30,14 +30,14 @@ title: "NAND 備份"
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. 按「A」轉儲你的 NAND
-  + 可以拿起你的爆米花慢慢等了；這過程可能會花好一段時間（依你的內存使用空間而定，有可能會到數小時）
-1. 當備份完成後，你的 Wii U 將自動重啟
-1. 關閉你的裝置
+1. 按「A」轉儲您的 NAND
+  + 可以拿起您的爆米花慢慢等了；這過程可能會花好一段時間(依您的內存使用空間而定，有可能會到數小時)
+1. 當備份完成後，您的 Wii U 將自動重啟
+1. 關閉您的裝置
 1. 將 SD 卡插入電腦
-1. 從你的 SD 卡中複製 `slc.bin`、`slccmpt.bin`、`otp.bin`、`seeprom.bin`、以及各個`mlc.bin.part` 檔案至電腦中各個安全的位置中
+1. 從您的 SD 卡中複製 `slc.bin`、`slccmpt.bin`、`otp.bin`、`seeprom.bin`、以及各個`mlc.bin.part` 檔案至電腦中各個安全的位置中
 
 ___
 
-如果你磚機了，你之後可以透過這個備份以及硬改還原你的裝置。
+如果您磚機了，您之後可以透過這個備份以及硬改還原您的裝置。
 {: .notice--info}
