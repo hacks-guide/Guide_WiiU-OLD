@@ -2,8 +2,6 @@
 title: "常見問題 FAQ"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
 **A:** 可以的！
 
@@ -42,7 +40,3 @@ title: "常見問題 FAQ"
 
 <a name="faq_nopc" />**Q:** *沒電腦也可以嗎(例： Android 手機)？*    
 **A:** 您只要能在 SD 卡上放檔案就可以了！
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
