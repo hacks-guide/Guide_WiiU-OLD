@@ -2,17 +2,21 @@
 title: "F3 (Linux)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Den här sidan kommer att ta dig igenom processen att använda F3 för att söka igenom ditt SD-kort efter fel.
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 
 Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3X (Mac)](f3x-(mac)).
 
-#### Vad du behöver
+### What you need
 
 * Den senaste versionen av [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
-#### Instruktioner
+### Instructions
 
 1. Packa upp F3 `zip`-filen
 1. Använd `cd` för att ta dig in i F3-katalogen
