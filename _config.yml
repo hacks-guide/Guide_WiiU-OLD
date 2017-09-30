@@ -5,6 +5,8 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+minimal_mistakes_skin    : "nord"
+
 # Site Settings
 locale                   : "en-US"
 title                    : "Wii U Guide"
@@ -206,7 +208,7 @@ sass:
   style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Plugins
-gems:
+plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
@@ -268,6 +270,7 @@ defaults:
     values:
       layout: single
       author_profile: false
+      sidebar: true
   - scope:
       path: "_pages/af_ZA"
       type: pages

@@ -25,38 +25,10 @@ $(document).ready(function(){
   // FitVids init
   $("#main").fitVids();
 
-  // init sticky sidebar
-  $(".sticky").Stickyfill();
-
-  var stickySideBar = function(){
-    var show = $(".author__urls-wrapper #toggle-nav").length === 0 ? $(window).width() > 1024 : !$(".author__urls-wrapper #toggle-nav").is(":visible");
-    // console.log("has button: " + $(".author__urls-wrapper #toggle-nav").length === 0);
-    // console.log("Window Width: " + windowWidth);
-    // console.log("show: " + show);
-    //old code was if($(window).width() > 1024)
-    if (show) {
-      // fix
-      Stickyfill.rebuild();
-      Stickyfill.init();
-      $(".author__urls").show();
-    } else {
-      // unfix
-      Stickyfill.stop();
-      $(".author__urls").hide();
-    }
-  };
-
-  stickySideBar();
-
-  $(window).resize(function(){
-    stickySideBar();
-  });
-
   // Follow menu drop down
-
-  $(".author__urls-wrapper #toggle-nav").on("click", function() {
-    $(".author__urls").fadeToggle("fast", function() {});
-    $(".author__urls-wrapper #toggle-nav").toggleClass("open");
+  $(".author__urls-wrapper button").on("click", function() {
+    $(".author__urls").toggleClass("is--visible");
+    $(".author__urls-wrapper button").toggleClass("open");
   });
 
   // init smooth scroll
@@ -98,19 +70,100 @@ $(document).ready(function(){
   });
 
   if((window.location.href.indexOf("/he_IL/") > -1) || (window.location.href.indexOf("/ar_SA/") > -1)) {
-    $(".nav-selector").css("left", "3rem");
-    $(".lang-selector").css("left", "0");
-    $(".links-menu").css("right", "auto");
-    $(".lang-menu").css("right", "auto");
-    $(".links-menu").css("left", "3rem");
-    $(".lang-menu").css("left", "0");
-    $('.greedy-nav').prepend('<style>.hidden-links:before{right:auto !important;}</style>');
-    $('.greedy-nav').prepend('<style>.hidden-links:after{right:auto !important;}</style>');
-    $('.greedy-nav').prepend('<style>.hidden-links:before{left:14px !important;}</style>');
-    $('.greedy-nav').prepend('<style>.hidden-links:after{left:14px !important;}</style>');
-    $(".masthead__menu-item--lg").css("padding-right", "inherit");
-    $(".masthead__menu-item--lg").css("padding-left", "2em");
-    document.body.style.direction = "rtl";
+    $("body").css("direction", "rtl");
+
+    $("nav.greedy-nav .nav-selector").css("left", "2.5rem");
+    $("nav.greedy-nav .lang-selector").css("left", ".2rem");
+    
+    $("nav.greedy-nav .links-menu").css("right", "auto");
+    $("nav.greedy-nav .lang-menu").css("right", "auto");
+
+    $("nav.greedy-nav .links-menu").css("left", "2.5rem");
+    $("nav.greedy-nav .lang-menu").css("left", ".2rem");
+
+    $("nav.greedy-nav .visible-links").css("padding-right", "0");
+    $("nav.greedy-nav .visible-links").css("padding-left", "2rem");
+
+    $("nav.greedy-nav .visible-links li:first-child a").css("margin-right", "0");
+    $("nav.greedy-nav .visible-links li:first-child a").css("margin-left", "1rem");
+
+    $("nav.greedy-nav .visible-links li:first-child").css("padding-right", "0");
+    $("nav.greedy-nav .visible-links li:first-child").css("padding-left", "2em");
+
+    $("nav.greedy-nav .visible-links li:last-child a").css("margin-right", "1rem");
+    $("nav.greedy-nav .visible-links li:last-child a").css("margin-left", "0");
+
+    // for some reason js cannot directly modify :before and :after pseudo-elements' css
+    $('nav.greedy-nav').prepend('<style>.hidden-links:before{right:inherit !important;}</style>');
+    $('nav.greedy-nav').prepend('<style>.hidden-links:before{left:5px !important;}</style>');
+
+    $('nav.greedy-nav').prepend('<style>.hidden-links:after{right:inherit !important;}</style>');
+    $('nav.greedy-nav').prepend('<style>.hidden-links:after{left:5px !important;}</style>');
   }
 
+  var sidebar_shown = true;
+  var sidebar_hidden_pages = ["404", "credits", "disc2app", "donations", "f3-(linux)", "f3x-(mac)", 
+                              "faq", "file-extensions-(windows)", "h2testw-(windows)", "site-navigation", 
+                              "troubleshooting", "uninstall-cfw", "vwii-modding", "why-ads"];
+  
+  for(var i = 0; i < sidebar_hidden_pages.length; i++){
+    if(window.location.href.indexOf(sidebar_hidden_pages[i]) > -1) {
+      sidebar_shown = false;
+    }
+  }
+
+  var methods = {
+    "get-started": "0",
+    "homebrew-launcher": "1",
+    "mocha-cfw": "2",
+    "haxchi": "3",
+    "coldboot-haxchi": "4",
+  };
+
+  for(var method in methods){
+    if(window.location.href.indexOf("/" + method) > -1) {
+      localStorage.setItem('method', methods[method]);
+    }
+  }
+
+  var method;
+  if(!(method = localStorage.getItem('method'))){
+    sidebar_shown = false;
+  }
+ 
+  if(sidebar_shown){
+    var unhide = [];
+    var route = {
+      "0": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
+      "1": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
+      "2": ["homebrew-launcher", "mocha-cfw", "homebrew-launcher-(channel)", "nand-backup"],
+      "3": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
+      "4": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
+    };
+    unhide = unhide.concat(route[method]);
+    if(typeof unhide !== 'undefined' && unhide.length > 0){
+      unhide.push("home");
+      unhide.push("get-started");
+      var ol = $('.sidebar.sticky .nav__list .nav__items ol');
+      for (var i = 0; i < unhide.length; i++){
+        ol.children('li[data-name="' + unhide[i] + '"]').css("display", "");
+      }
+      ol.children().each(function(idx, li) {
+        var link = $(li).find("a").attr('href');
+        var name = $(li).attr('data-name');
+        if((window.location.href.endsWith(link) || 
+            window.location.href.endsWith(link + "/") || 
+            window.location.href.indexOf(link + "#") > -1 || 
+            window.location.href.indexOf(link + ".html") > -1) 
+            && name !== "home"){
+          $(li).addClass("active");
+          return false;
+        }
+        $(li).addClass("completed");
+      });
+      if (ol.children(".active").css("display") != "none"){
+        $('.sidebar.sticky').css("display", "inherit");
+      }
+    }
+  }
 });
