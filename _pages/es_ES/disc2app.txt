@@ -2,6 +2,10 @@
 title: "disc2app"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Esto te permitirá volcar tus discos a un formato que puedas instalar con el fin de jugar sin necesidad de tener el disco.
 
 Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo siguiente:
@@ -11,14 +15,14 @@ Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo
   + Formatear un disco duro externo para usarlo en la Wii U eliminará todo su contenido.
   + Si estás usando un disco duro externo que no tiene fuente de alimentación propia, necesitarás un [cable Y](http://amzn.to/2mjQjin).
 
-#### Qué necesitas
+### What you need
 
 * Una Wii U que puede acceder a una SysNAND modificada (Mocha CFW, Haxchi, CBHC, etc)
 * Se requieren 25GB disponibles en tu tarjeta SD
 
-#### Instrucciones
+### Instructions
 
-##### Sección I - Formatear el disco externo
+#### Section I - Formatting external drive
 
 Si planeas utilizar un disco duro externo para instalar tus discos volcados, sigue esta sección. Si no planeas utilizar un disco duro externo o ya tienes uno formateado para Wii U, salta esta sección.
 {: .notice--info}
@@ -30,7 +34,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, sig
 1. Enciende tu Wii U
 1. Formatea el disco duro externo cuando se te pida
 
-##### Sección II - Usando disc2app
+#### Section II - Using disc2app
 
 1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
 1. Inicia disc2app
@@ -39,7 +43,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, sig
 1. Deja que acabe el proceso de volcado puesto que podría llevar algo de tiempo
 1. Cuando haya finalizado, se regresará al menú del sistema
 
-##### Sección III - Instalar el juego volcado
+#### Section III - Installing dumped game
 
 1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
 1. Inicia WUP Installer GX2
