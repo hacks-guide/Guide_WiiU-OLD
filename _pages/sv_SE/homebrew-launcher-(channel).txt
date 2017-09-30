@@ -2,9 +2,13 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Det här kommer installera Homebrew Channel så att när modifierad SysNAND körs kommer Homebrew Launcher dyka upp som en ikon på hemskärmen.
 
-#### Instruktioner
+### Instructions
 
 1. Starta Homebrew Launcher
   + CBHC-användare måste trycka (Hem) medan CBHC startar för att komma åt CBHCs startalternativ, sen välja Homebrew Launcher
