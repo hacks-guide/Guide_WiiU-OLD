@@ -2,6 +2,10 @@
 title: "disc2app"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 本工具可將您的遊戲光碟轉成可安裝的格式，擺脫使用光碟的困擾。
 
 如果您想將遊戲安裝至外接硬碟上，請注意下列幾點：
@@ -11,14 +15,14 @@ title: "disc2app"
   + 若要使用外接硬碟搭配 Wii U，硬碟得先格式化；這將會清除硬碟上所有的資料。
   + 如果您的外接硬碟沒有另外外接電源，您將會需要使用[Y型 USB 線](http://amzn.to/2mjQjin)。
 
-#### 必備項目
+### What you need
 
 * 一台可使用修改後 SysNAND 的 Wii U (Mocha CFW, Haxchi, CBHC... 等)
 * 剩餘空間至少為 25GB 的 SD 卡
 
-#### 操作說明
+### Instructions
 
-##### 第一節 — 格式化外接硬碟
+#### Section I - Formatting external drive
 
 如果您想將遊戲安裝至外接硬碟上，請遵循本節。 如果您不打算將遊戲安裝至外接硬碟上或者您已經有一個 Wii U 格式化後的外接硬碟，請跳過本節。
 {: .notice--info}
@@ -30,7 +34,7 @@ title: "disc2app"
 1. 啟動您的 Wii U
 1. 當提示時，格式化您的外接硬碟
 
-##### 第二節 — 使用 disc2app
+#### Section II - Using disc2app
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 disc2app
@@ -39,7 +43,7 @@ title: "disc2app"
 1. 光碟拷貝過程將耗費一段時間，請耐心等候
 1. 當完成後，您將會被踢回 SysNAND 的系統主選單中
 
-##### 第三節 — 安裝拷貝遊戲
+#### Section III - Installing dumped game
 
 1. 在修改後的 SysNAND 上啟動 Homebrew Launcher 頻道
 1. 啟動 WUP Installer GX2
