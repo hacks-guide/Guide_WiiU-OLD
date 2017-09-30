@@ -2,13 +2,17 @@
 title: "Homebrew Launcher"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 L'Homebrew Launcher è un'applicazione homebrew che ti permette di visualizzare ed avviare altre applicazioni homebrew dalla scheda SD.
 
 Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovrà avere accesso ad internet.
 
-#### Istruzioni
+### Instructions
 
-##### Sezione I - Preparazione del Browser
+#### Section I - Preparing Browser
 
 1. Avvia il browser internet sulla tua console
 1. Apri le impostazioni del browser e seleziona "Cancella Dati di Salvataggio"
@@ -16,7 +20,7 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
   + Questa impostazione cancellerà tutti i dati salvati, quali impostazioni, cronologia e preferiti
 1. Ritorna al browser
 
-##### Sezione II (i) - Versioni 5.5.0 & 5.5.1
+#### Section II (i) - Versions 5.5.0 & 5.5.1
 
 1. Naviga sul sito `http://loadiine.ovh`
   + Sarebbe meglio mettere questo sito nei preferiti in modo tale da non perdere tempo successivamente
@@ -26,7 +30,7 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
   + Se la console dovesse bloccarsi, forzane lo spegnimento tenendo premuto il pulsante di accensione, quindi riprova
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
-##### Sezione II (ii) - Versione 5.5.2
+#### Section II (ii) - Version 5.5.2
 
 1. Apri le tende del browser
   + Ciò aumenta le possibilità di successo dell'exploit del browser 5.5.2
@@ -39,23 +43,24 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
 ___
+### Methods
 
-{% capture notice-1 %}
+___
 
-[Mocha CFW](mocha-cfw)
+#### Mocha CFW
 
 Questo metodo richiede l'avvio dell'exploit del browser dopo *ogni riavvio della console*. Sarebbe meglio non utilizzare questo metodo con la versione di sistema 5.5.2 dato che l'exploit è estramente instabile.
 
-{% endcapture %}
+Continue to [Mocha CFW](mocha-cfw)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
-
-[Haxchi](haxchi)
+#### Haxchi
 
 Questo metodo usa un gioco DS della Virtual Console exploitabile per avviare il Custom Firmware all'avvio della console. Questo metodo è *estremamente consigliato* per gli utenti 5.5.2 dato che l'exploit del browser per quella versione è estremamente instabile.
 
-{% endcapture %}
+Continue to [Haxchi](haxchi)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
