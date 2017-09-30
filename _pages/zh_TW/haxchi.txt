@@ -2,17 +2,20 @@
 title: "Haxchi"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Haxchi 是個用來跳過簽證檢查、區域檢查及在背景運行其他自定義程式碼的自製韌體。
 
 Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞，省去使用 Homebrew Launcher 的麻煩。
 
-
-#### 必備項目
+### What you need
 
 + 一份正版、安裝於 Wii U 系統內部儲存空間且可執行漏洞的 DS 虛擬主機遊戲
   + 若您尚未購買任何相容之遊戲，請見[從頭開始](get-started)
 
-#### 操作說明
+### Instructions
 
 1. 啟動 Haxchi installer
 1. 選擇您要安裝 Haxchi 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
