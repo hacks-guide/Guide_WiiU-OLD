@@ -2,9 +2,13 @@
 title: "vWii Modding"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Det här gör att du kan installera Homebrew Channel och andra modifikationer till Wii U:s vWii (virtual Wii).
 
-#### Vad du behöver
+### What you need
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
@@ -12,9 +16,9 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 * Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
 * En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
 
-#### Instruktioner
+### Instructions
 
-##### Avsnitt I - Förberedelser
+#### Section I - Prep Work
 
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
@@ -26,7 +30,7 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-##### Avsnitt II - wuphax
+#### Section II - wuphax
 
 1. Starta Homebrew Launcher
   + Om du inte redan har gått igenom Wii U guiden och är osäker på hur du gör detta, följ [Homebrew Launcher](homebrew-launcher), och återkom sen hit.
@@ -47,7 +51,7 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 1. Tryck (B) när du frågas om att återställa Mii Channel
 1. Gå igenom instruktionerna för att återgå till vWii
 
-##### Avsnitt III - Dumpa vWii NAND
+#### Section III - Dumping vWii NAND
 
 Den här säkerhetskopian av NAND kommer låta dig återställa din vWii till ett fungerande tillstånd om något skulle gå fel.
 {: .notice--info}
@@ -61,7 +65,7 @@ Den här säkerhetskopian av NAND kommer låta dig återställa din vWii till et
 1. **Kopiera `nand.bin` och `keys.bin` från roten av ditt SD-kort till en säker plats på din dator och säkerhetskopiera båda filerna till ett flertal platser (som t.ex. online-lagring); den här säkerhetskopian kommer rädda din vWii från en brickning om något skulle gå fel**
 1. Radera `nand.bin`och `keys.bin`från roten av ditt SD-kort
 
-##### Avsnitt IV - cIOS Installation
+#### Section IV - cIOS Installation
 
 Se till att det inte finns några kataloger som heter `wad` eller `wads` på roten av ditt SD-kort och att det inte finns några `.wad`-filer någonstans annat än i `/apps/` på SD-kortet.
 {: .notice--warning}
@@ -89,7 +93,7 @@ Se till att det inte finns några kataloger som heter `wad` eller `wads` på rot
 1. Tryck (A) för att installera
 1. Vänta på att installationen slutförs, tryck sen (B) för att avsluta
 
-##### Avsnitt V - Patchning av IOS80
+#### Section V - Patching IOS80
 
 Det här steget kommer bricka din vWii-installation om det misslyckas av någon anledning (strömavbrott, etc.) vilket kommer kräva en återställning av vWii NAND. Säkerställ att du har din säkerhetskopia innan du fortsätter med det här avsnittet.
 {: .notice--danger}
