@@ -1,23 +1,32 @@
 ---
 main:
   - 
-    title: Guida
+    title: Wii U Guide
+    url: /
   - 
     title: FAQ
+    url: faq
   - 
     title: Donazioni
+    url: donations
   - 
     title: Riconoscimenti
+    url: credits
   - 
     title: disc2app
+    url: disc2app
   - 
     title: Modifica vWii
+    url: vwii-modding
   - 
     title: Backup della NAND
-  - 
-    title: Disinstalla CFW
+    url: nand-backup
   - 
     title: Mappa del sito
+    url: site-navigation
+  - 
+    title: Uninstall CFW
+    url: uninstall-cfw
 bottom:
   - 
     title: 'Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).'
@@ -30,3 +39,34 @@ footer:
     title: Mappa del sito
   - 
     title: Perché c'è la pubblicità?
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  - 
+    title: Get Started
+    url: get-started
+  - 
+    title: Homebrew Launcher
+    url: homebrew-launcher
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
+    title: Mocha CFW
+    url: mocha-cfw
+  - 
+    title: Haxchi
+    url: haxchi
+  - 
+    title: Coldboot Haxchi
+    url: coldboot-haxchi
+  - 
+    title: Homebrew Launcher (Channel)
+    url: homebrew-launcher-(channel)
+  - 
+    title: NAND Backup (Optional)
+    url: nand-backup
