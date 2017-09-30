@@ -2,7 +2,11 @@
 title: "Backup da NAND"
 ---
 
-Estas etapas irão criar um backup da sua NAND no seu cartão SD, o que permitirá que você restaure seu dispositivo usando um hardmod caso ele sofra um brick.
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This is an optional page which will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
 
 Se você possuir o modelo preto do Wii U (32GB), seu cartão SD deverá ter pelo menos 64GB. Se você possuir o modelo branco do Wii U (8GB), seu cartão SD deverá ter pelo menos 16GB.
 
@@ -11,11 +15,11 @@ Note that Mocha CFW users should follow these instructions after a reboot *witho
 Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros utilizando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### O que você precisa
+### What you need
 
 * A versão mais recente do [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
-#### Instruções
+### Instructions
 
 1. Desligue seu dispositivo
 1. Insira o seu cartão SD no seu computador
