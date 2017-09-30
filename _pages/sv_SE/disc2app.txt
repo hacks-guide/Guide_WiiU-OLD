@@ -2,6 +2,10 @@
 title: "disc2app"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Detta gör att du kan lagra dina skivor i ett format som går att installera med syftet att kunna spela dem utan att behöva skivan.
 
 Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, notera följande:
@@ -11,14 +15,14 @@ Om du planerar att använda en extern hårddisk att installera dina dumpade skiv
   + Att formatera en extern hårddisk för att användas med en Wii U kommer radera allt dess innehåll.
   + Om du använder en extern hårddisk som inte har sin egna strömförsörjning kommer du behöva en [Y-kabel](http://amzn.to/2mjQjin).
 
-#### Vad du behöver
+### What you need
 
 * En Wii U som har åtkomst till modifierad SysNAND (med hjälp av Mocha CFW, Haxchi, CBHC, etc.)
 * 25GB ledigt utrymme på ditt SD-kort
 
-#### Instruktioner
+### Instructions
 
-##### Avsnitt I - Formatera den externa hårddisken
+#### Section I - Formatting external drive
 
 Om du planerar att använda en extern hårddisk att installera dina dumpade skivor på, följ stegen i det här avsnittet. Om du inte planerar att använda en extern hårddisk eller om du redan har en extern hårddisk formaterad för Wii U, hoppa över det här avsnittet.
 {: .notice--info}
@@ -30,7 +34,7 @@ Detta kommer radera allt innehåll på den externa hårddisken!
 1. Starta din Wii U
 1. Formatera den externa hårddisken när du frågas om det
 
-##### Avsnitt II - Användning av disc2app
+#### Section II - Using disc2app
 
 1. Stata Homebrew Launcher Channel från modifierad SysNAND
 1. Starta disc2app
@@ -39,7 +43,7 @@ Detta kommer radera allt innehåll på den externa hårddisken!
 1. Överföringsprocessen fortsätter nu automatiskt, detta kommer att ta ett tag
 1. När allt är klart kommer du tillbaka till hemskärmen
 
-##### Avsnitt III - Installera dumpade spel
+#### Section III - Installing dumped game
 
 1. Stata Homebrew Launcher Channel från modifierad SysNAND
 1. Starta WUP Installer GX2
