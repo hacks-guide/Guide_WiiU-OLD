@@ -2,6 +2,10 @@
 title: "從頭開始"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 下列步驟將協助您準備您的 SD 卡以安裝 Coldboot Haxchi。
 
 在進行前，請先確保您的 Wii U 系統版本為 5.5.0、5.5.1 或 5.5.2。 較舊的系統版本是不相容的。
@@ -17,7 +21,7 @@ title: "從頭開始"
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
-#### 必備項目
+### What you need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ title: "從頭開始"
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### 操作說明
+### Instructions
 
-##### 第一節 — 準備工作
+#### Section I - Prep Work
 
 1. 關閉您的裝置
 1. 將 SD 卡插入電腦
@@ -58,7 +62,7 @@ title: "從頭開始"
 1. 將 SD 卡插回裝置中
 1. 啟動您的裝置
 
-##### 第二節 — DS 虛擬主機遊戲
+#### Section II - DS Virtual Console Game
 
 目前有兩種方法可以使用 Wii U 自製韌體。
 
@@ -103,7 +107,7 @@ title: "從頭開始"
 
 如果您已擁有或已經安裝過了上述遊戲，請將它刪除並再透過 eShop 重新下載。 較舊版的遊戲將無法與此漏洞相容。
 
-##### 第三節 — 阻擋系統更新
+#### Section III - Block System Updates
 
 請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為一次性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
 
