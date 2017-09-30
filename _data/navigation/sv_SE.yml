@@ -1,23 +1,32 @@
 ---
 main:
   - 
-    title: Guide
+    title: Wii U Guide
+    url: /
   - 
     title: Vanliga frågor
+    url: faq
   - 
     title: Bidrag
+    url: donations
   - 
     title: Tack till
+    url: credits
   - 
     title: disc2app
+    url: disc2app
   - 
     title: vWii Modding
+    url: vwii-modding
   - 
     title: Säkerhetskopiera NAND
-  - 
-    title: Avinstallera CFW
+    url: nand-backup
   - 
     title: Navigering på webbplatsen
+    url: site-navigation
+  - 
+    title: Uninstall CFW
+    url: uninstall-cfw
 bottom:
   - 
     title: 'För support på engelska be om help på <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew på Discord</a>.'
@@ -30,3 +39,34 @@ footer:
     title: Navigering på webbplatsen
   - 
     title: Varför annonser?
+sidebar_title:
+  - 
+    title: Overall Progress
+sidebar_pages:
+  - 
+    title: Home
+    url: /
+  - 
+    title: Get Started
+    url: get-started
+  - 
+    title: Homebrew Launcher
+    url: homebrew-launcher
+  - 
+    title: Multiple Options
+    url: multiple-options
+  - 
+    title: Mocha CFW
+    url: mocha-cfw
+  - 
+    title: Haxchi
+    url: haxchi
+  - 
+    title: Coldboot Haxchi
+    url: coldboot-haxchi
+  - 
+    title: Homebrew Launcher (Channel)
+    url: homebrew-launcher-(channel)
+  - 
+    title: NAND Backup (Optional)
+    url: nand-backup
