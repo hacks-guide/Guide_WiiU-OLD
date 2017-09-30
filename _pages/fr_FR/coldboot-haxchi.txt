@@ -2,23 +2,28 @@
 title: "Coldboot Haxchi"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 CBHC (Coldboot Haxchi) modifie votre SysNAND pour la forcer à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger la SysNAND patché.
 
-Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. Si vous souhaitez ignorer Haxchi, continuer vers [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
 
-**Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiiser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, vous allez « BRICKER » !**
-{: .notice--danger}
+{% capture notice-1 %}
+You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
 
-**Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être dans la mémoire interne de votre Wii U. S'il se trouve sur un disque USB, vous allez « BRICKER » !**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
 
-**Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie légitime, ou vous allez BRICK !**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
 
-**Vous devez supprimer tous les périphériques USB avant d’installer ou vous pourriez BRICK !**
-{: .notice--danger}
+You must remove all USB devices before installing or you may BRICK!
+{% endcapture %}
 
-##### Instructions
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+
+### Instructions
 
 1. Retirez tous les périphériques USB de votre Wii U
 1. Entrez dans l'Homebrew Launcher en maintenant (A) en lançant votre jeu de console virtuelle Haxchi DS
