@@ -2,8 +2,6 @@
 title: "FAQ"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
 **A:** Yes
 
@@ -42,7 +40,3 @@ title: "FAQ"
 
 <a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
 **A:** All you need is the ability to put files on an SD card!
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
