@@ -2,9 +2,13 @@
 title: "vWii 改機"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 本章節將教您如何安裝 Homebrew Channel 及修改 Wii U 的虛擬 Wii(vWii)。
 
-#### 必備項目
+### What you need
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
@@ -12,9 +16,9 @@ title: "vWii 改機"
 * 最新版的 [Hackmii Installer](https://bootmii.org/download/)
 * 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(選擇 channel `.zip` 檔案)*
 
-#### 操作說明
+### Instructions
 
-##### 第一節 — 準備工作
+#### Section I - Prep Work
 
 1. 關閉您的裝置
 1. 將 SD 卡插入電腦
@@ -26,7 +30,7 @@ title: "vWii 改機"
 1. 將 SD 卡插回裝置中
 1. 啟動您的裝置
 
-##### 第二節 — wuphax
+#### Section II - wuphax
 
 1. 啟動 Homebrew Launcher
   + 若您尚未完成本手冊的主要步驟且不知道該如何進行本步驟，請先參閱 [Homebrew Launcher](homebrew-launcher) 中的詳情以繼續本頁面之步驟。
@@ -47,7 +51,7 @@ title: "vWii 改機"
 1. 當提示時，按下「B」鍵還原 Mii 頻道
 1. 照步驟跑完回至 vWii 中
 
-##### 第三節 － 拷貝 vWii NAND
+#### Section III - Dumping vWii NAND
 
 未來如果您的 vWii 出了任何問題的話，到時這個 NAND 備份能將 vWii 還原至正常狀態。
 {: .notice--info}
@@ -61,7 +65,7 @@ title: "vWii 改機"
 1. **從您 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方(像是雲端硬碟)；此備份將會在您未來玩壞 vWii 時救您一命**
 1. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
 
-##### 第四節 － cIOS 安裝
+#### Section IV - cIOS Installation
 
 請確保 SD 卡根目錄底下沒有名為 `wad` 或 `wads` 的資料夾，並確保除了 `/apps/` 之外沒有任何其他的 `.wad` 檔案在 SD 卡中。
 {: .notice--warning}
@@ -89,7 +93,7 @@ title: "vWii 改機"
 1. 按「A」鍵安裝
 1. 等待安裝完畢，並按下「B」鍵離開
 
-##### 第五節 － 修改 IOS80
+#### Section V - Patching IOS80
 
 如果本節出了任何差錯 (跳電... 等)，您的 vWii 將會磚機而您必須先還原先前備份的 vWii 才能恢復運作. 請在確保您已經先備份完畢再行繼續.
 {: .notice--danger}
