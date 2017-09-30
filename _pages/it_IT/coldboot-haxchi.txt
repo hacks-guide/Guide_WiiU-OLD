@@ -2,23 +2,28 @@
 title: "Coldboot Haxchi"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 CBHC (Coldboot Haxchi) cambia il programma di avvio della console in modo tale che la SysNAND avvii il gioco DS della Virtual Console invece del menu di sitema, il quale caricherà la SysNAND patchata.
 
-Questa pagina è facoltativa. Il normale Haxchi funziona senza problemi; questa sezione ti renderà solamente il tutto più pratico. Se non vuoi installare Haxchi, prosegui con [Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
+Questa pagina è facoltativa. Il normale Haxchi funziona senza problemi; questa sezione ti renderà solamente il tutto più pratico. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
 
-**DEVI avere Haxchi funzionante per far funzionare CBHC. In caso contrario, BRICKERAI la tua Wii U!**
-{: .notice--danger}
+{% capture notice-1 %}
+You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
 
-**Il tuo gioco DS della Virtual Console con all'interno Haxchi DEVE essere installato nella memoria interna della Wii U. Se è installato su un dispositivo USB, BRICKERAI!**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
 
-**Il tuo gioco DS della Virtual Console DEVE essere COMPRATO DALL'eShop! In caso contrario BRICKERAI!**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
 
-**Devi scollegare tutti i dispositivi USB dalla console prima di cominciare l'installazione o potresti BRICKARE!**
-{: .notice--danger}
+You must remove all USB devices before installing or you may BRICK!
+{% endcapture %}
 
-#### Istruzioni
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+
+### Instructions
 
 1. Scollega tutti i dispositivi USB dalla tua Wii U
 1. Avvia l'Homebrew Launcher tenendo premuto (A) mentre avvii il tuo gioco DS della Virtual Console con Haxchi
