@@ -2,13 +2,17 @@
 title: "Homebrew Launcher"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Homebrew Launcher är en homebrew-applikation som listar och möjliggör att starta andra homebrew-applikationer lagrade på SD-kortet.
 
 Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva tillgång till internet.
 
-#### Instruktioner
+### Instructions
 
-##### Avsnitt I - Förbered webbläsaren
+#### Section I - Preparing Browser
 
 1. Starta webbläsaren på din enhet
 1. Gå till webbläsarens inställningar och välj "Reset Save Data"
@@ -16,7 +20,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Det här kommer även radera all webbläsarens data inklusive inställningar, historik och bokmärken
 1. Återvänd till webbläsaren
 
-##### Avsnitt II (i) - Version 5.5.0 & 5.5.1
+#### Section II (i) - Versions 5.5.0 & 5.5.1
 
 1. Gå till `http://loadiine.ovh`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
@@ -26,7 +30,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen
 1. Din konsol ska nu ha laddat Homebrew Launcher
 
-##### Avsnitt II (ii) - Version 5.5.2
+#### Section II (ii) - Version 5.5.2
 
 1. Öppna gardinen på webbläsaren
   + Detta ökar chansen att lyckas nyttja säkerhetshålet i webbläsaren på 5.5.2
@@ -39,23 +43,24 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 1. Din konsol ska nu ha laddat Homebrew Launcher
 
 ___
+### Methods
 
-{% capture notice-1 %}
+___
 
-[Mocha CFW](mocha-cfw)
+#### Mocha CFW
 
 Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*. Det rekommenderas inte att du använder det här på 5.5.2 eftersom säkerhetshålet i den versionen är väldigt opålitligt.
 
-{% endcapture %}
+Continue to [Mocha CFW](mocha-cfw)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
-
-[Haxchi](haxchi)
+#### Haxchi
 
 Den här metoden använder ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål för att starta custom firmware automatiskt när systemet startas. Det är *i stort sett ett krav* för användare på 5.5.2 eftersom säkerhetshålet i webbläsaren är för opålitligt.
 
-{% endcapture %}
+Continue to [Haxchi](haxchi)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
