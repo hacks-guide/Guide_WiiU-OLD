@@ -2,9 +2,9 @@
 title: "Disinstallare CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Questa guida rimuoverà il CFW della vostra Wii U, a prescindere dal metodo di installazione, riportando quindi la console alla versione di stock originale.
 {: .notice--danger}
@@ -12,9 +12,9 @@ Questa guida rimuoverà il CFW della vostra Wii U, a prescindere dal metodo di i
 Se hai seguito questa guida quando utilizzava la RedNAND, nota che i giochi e i salvataggi sono salvati sulla memoria interna della console, non sulla scheda SD. Ciò significa che tutti i giochi e i salvataggi installati dopo l'installazione della RedNAND saranno rimossi visto che rimarrà la SysNAND dalla quale sei partito!
 {: .notice--danger}
 
-### Instructions
+### Istruzioni
 
-#### Section I - Removal from Wii U
+#### Sezione I - Rimozione del CFW dalla Wii U
 
 ##### CBHC
 
@@ -36,7 +36,7 @@ Se hai seguito questa guida quando utilizzava la RedNAND, nota che i giochi e i 
 
 1. Se lo hai aggiunto, cancella il sito dai siti preferiti del browser internet della Wii U
 
-#### Section II - Removal from SD Card
+#### Sezione II - Rimozione del CFW dalla scheda SD
 
 {% capture notice-3 %}
 **Cancella quasi cartella o file dalla root della tua scheda SD che *non* compare nella lista seguente (potresti non avere nessuna di queste cartelle):**
