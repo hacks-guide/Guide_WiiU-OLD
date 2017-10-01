@@ -2,9 +2,9 @@
 title: "disc2app"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Questa guida ti permetterà di fare un backup dei tuoi dischi in un formato che permetterà di giocarli senza il disco stesso.
 
@@ -15,14 +15,14 @@ Se hai intenzione di utilizzare un hard disk esterno per installare i giochi est
   + La formattazione delll'hard disk esterno cancellerà tutti i dati al suo interno.
   + Se stai usando un hard disk esterno che non ha la sua fonte di energia propria, avrai bisogno di un [cavo Y USB](https://www.amazon.it/QUMOX-USB3-0-maschio-Micro-mobile/dp/B003RTZBTQ).
 
-### What you need
+### Quello che ti serve
 
 * Una Wii U con una SysNAND patchata (Mocha CFW, Haxchi, CBHC, ecc)
 * 25GB di spazio liberi sulla scheda SD
 
-### Instructions
+### Istruzioni
 
-#### Section I - Formatting external drive
+#### Sezione I - Formattare l'hard disk esterno
 
 Se hai intenzione di utilizzare un hard disk esterno per installare i giochi estratti, segui questa sezione. Se non hai intenzione di utilizzare un hard disk esterno o hai già un hard disk formattato per i giochi della Wii U, salta questa sezione.
 {: .notice--info}
@@ -34,7 +34,7 @@ Questo procedimento cancellerà tutti i file presenti sul tuo hard disk!
 1. Accendi la tua Wii U
 1. Formatta l'hard disk esterno quando richiesto
 
-#### Section II - Using disc2app
+#### Sezione II - Usare disc2app
 
 1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia disc2app
@@ -43,7 +43,7 @@ Questo procedimento cancellerà tutti i file presenti sul tuo hard disk!
 1. Attendi che il processo di estrazione del disco finisca automaticamente; richiederà del tempo
 1. Una volta finito il processo, ritornerai al menu di sistema
 
-#### Section III - Installing dumped game
+#### Sezione III - Installare il gioco estratto
 
 1. Avvia l'Homebrew Launcher Channel sulla SysNAND patchata
 1. Avvia WUP Installer GX2
