@@ -2,13 +2,13 @@
 title: "Homebrew Launcher (Canale)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Indice" %}
 
-### Required Reading
+### Lettura necessaria
 
 Questa sezione ti permetterà di installare l'Homebrew Channel, in modo tale da avere l'Homebrew Launcher come icona sul menu di sistema della tua SysNAND patchata.
 
-### Instructions
+### Istruzioni
 
 1. Entra nell'Homebrew Launcher
   + Gli utenti di CBHC devono premere (Home) all'avvio di CBHC per poter accedere alle opzioni di avvio di CBHC, selezionando poi l'Homebrew Launcher
