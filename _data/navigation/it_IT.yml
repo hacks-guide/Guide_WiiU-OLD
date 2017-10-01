@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Wii U Guide
+    title: Guida Wii U
     url: /
   - 
     title: FAQ
@@ -25,7 +25,7 @@ main:
     title: Mappa del sito
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Disinstallare il CFW
     url: uninstall-cfw
 bottom:
   - 
@@ -41,19 +41,19 @@ footer:
     title: Perché c'è la pubblicità?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Avanzamento
 sidebar_pages:
   - 
     title: Home
     url: /
   - 
-    title: Get Started
+    title: Cominciamo!
     url: get-started
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Più Opzioni
     url: multiple-options
   - 
     title: Mocha CFW
@@ -65,8 +65,8 @@ sidebar_pages:
     title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Channel)
+    title: Homebrew Launcher (Canale)
     url: homebrew-launcher-(channel)
   - 
-    title: NAND Backup (Optional)
+    title: Backup della NAND (Facoltativo)
     url: nand-backup
