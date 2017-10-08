@@ -2,7 +2,7 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Innehåll" %}
 
 ### Obligatorisk läsning
 
@@ -12,7 +12,7 @@ Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp til
 
 Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3X (Mac)](f3x-(mac)).
 
-### What you need
+### Vad du behöver
 
 * Den senaste versionen av [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
