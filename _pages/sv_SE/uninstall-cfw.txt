@@ -4,7 +4,7 @@ title: "Avinstallera CFW"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Det här kommer ta bort CFW från ditt Wii U, oavsett installationsmetod, för att återställa din enhet.
 {: .notice--danger}
@@ -12,7 +12,7 @@ Det här kommer ta bort CFW från ditt Wii U, oavsett installationsmetod, för a
 Om du följde guiden när den använde RedNAND, notera att spel och sparningar sparas till interna lagringen (RedNAND) och inte SD-kortet. Det här betyder att alla spel och sparningar som tillkommit efter RedNAND installerades kommer försvinna om du avinstallerar eftersom systemet endast skulle ha det SysNAND som du började med!
 {: .notice--danger}
 
-### Instructions
+### Instruktioner
 
 #### Section I - Removal from Wii U
 
