@@ -6,7 +6,7 @@ title: "Respaldo de la NAND"
 
 ### Required Reading
 
-This is an optional page which will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Esta es una página opcional en la cual crearás una copia de seguridad de tu NAND en tu tarjeta SD, la cual te permitirá restaurar tu consola utilizando un hardmod en caso de un brickeo.
 
 Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
 
