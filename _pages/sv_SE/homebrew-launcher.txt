@@ -4,13 +4,13 @@ title: "Homebrew Launcher"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Homebrew Launcher är en homebrew-applikation som listar och möjliggör att starta andra homebrew-applikationer lagrade på SD-kortet.
 
 Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva tillgång till internet.
 
-### Instructions
+### Instruktioner
 
 #### Section I - Preparing Browser
 
