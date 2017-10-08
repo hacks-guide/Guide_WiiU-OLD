@@ -18,7 +18,7 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
