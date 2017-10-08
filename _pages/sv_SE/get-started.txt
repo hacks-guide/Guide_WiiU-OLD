@@ -4,7 +4,7 @@ title: "Kom Igång"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Följande steg hjälper dig förbereda ditt SD-kort för att installera Coldboot Haxci custom firmware.
 
@@ -36,7 +36,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-### Instructions
+### Instruktioner
 
 #### Section I - Prep Work
 
