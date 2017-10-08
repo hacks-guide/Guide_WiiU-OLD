@@ -4,7 +4,7 @@ title: "vWii Modding"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Det här gör att du kan installera Homebrew Channel och andra modifikationer till Wii U:s vWii (virtual Wii).
 
@@ -16,7 +16,7 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 * Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
 * En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
 
-### Instructions
+### Instruktioner
 
 #### Section I - Prep Work
 
