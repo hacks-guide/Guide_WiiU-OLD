@@ -4,7 +4,7 @@ title: "F3X (Mac)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Obligatorisk läsning
 
 Den här sidan kommer att ta dig igenom processen att använda F3X för att söka igenom ditt SD-kort efter fel.
 
@@ -16,7 +16,7 @@ Den här sidan är enbart för Mac-användare. Om du inte använder Mac kan du g
 
 * Den senaste versionen av [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### Instruktioner
 
 1. Packa upp F3X `.zip` -filen
 1. Sätt in ditt SD-kort i datorn
