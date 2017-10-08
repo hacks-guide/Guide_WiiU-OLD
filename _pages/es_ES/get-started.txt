@@ -4,7 +4,7 @@ title: "Comencemos"
 
 {% include toc title="Tabla de contenidos" %}
 
-### Required Reading
+### Lectura requerida
 
 Con estos pasos prepararás tu tarjeta SD para instalar custom firmware basado en Coldboot Haxchi.
 
@@ -21,7 +21,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 ¡Antes de empezar, deberías comprobar si tu tarjeta SD tiene errores usando [H2testw (Windows)](h2testw-(windows)),[F3 (Linux)](f3-(linux)), o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### Qué necesitas
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -36,9 +36,9 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 * Las últimas versiones de [Haxchi y CBHC](https://github.com/FIX94/haxchi/releases/latest) *(los dos archivos `.zip`)*
 * La última versión de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-### Instructions
+### Instrucciones
 
-#### Section I - Prep Work
+#### Sección I - Preparativos
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
@@ -62,7 +62,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 1. Reinserta la tarjeta SD en tu consola
 1. Enciende tu consola
 
-#### Section II - DS Virtual Console Game
+#### Sección II - Juego de la consola virtual de DS
 
 Hay dos métodos para usar custom firmware para Wii U.
 
@@ -107,7 +107,7 @@ Actualmente, Brain Age es el más barato de todos en la eShop ($6.99 USD).
 
 Si ya posees Brain Age o Brain Training y lo tenías instalado en tu Wii U de antes, prueba a borrarlo y a descargarlo nuevamente desde la eShop. Las versiones anteriores a la actual de este juego no son compatibles con el exploit.
 
-#### Section III - Block System Updates
+#### Sección III - Bloquear actualizaciones del sistema
 
 Ten en cuenta que para acceder a la eShop con estas direcciones DNS configuradas, primero debes ejecutar NNU-Patcher desde el Homebrew Launcher. Adicionalmente ten en cuenta que NNU-Patcher es una modificación temporal que debe ser ejecutada nuevamente para acceder a la eShop luego de reiniciar.
 
