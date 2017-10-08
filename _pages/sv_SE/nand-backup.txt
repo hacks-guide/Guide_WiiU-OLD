@@ -2,11 +2,11 @@
 title: "Säkerhetskopiera NAND"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Innehåll" %}
 
 ### Obligatorisk läsning
 
-This is an optional page which will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Det här är ett valfritt steg som hjälper dig skapa en säkerhetskopia av ditt NAND-minne till ditt SD-kort, vilket gör det möjligt för dig att återställa din enhet med hjälp av en hardmod, om du lyckas bricka.
 
 Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort.
 
@@ -15,7 +15,7 @@ Observera att Mocha CFW-användare ska följa de här instruktionerna efter en o
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### Vad du behöver
 
 * Senaste versionen av [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
