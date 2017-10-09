@@ -10,7 +10,7 @@ Haxchi är en modifierad firmware som patchar signatur-kontroller, region-kontro
 
 Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn utan att använda Homebrew Launcher.
 
-### What you need
+### Vad du behöver
 
 + En äkta kopia av ett DS Virtual Console-spel med säkerhetshål installerat på din Wii U:s inbyggda lagring
   + Om du inte redan har en av spelen med säkerhetshål installerat se [Kom igång](get-started)
