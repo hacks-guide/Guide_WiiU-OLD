@@ -2,7 +2,7 @@
 title: "Avinstallera CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Innehåll" %}
 
 ### Obligatorisk läsning
 
@@ -14,7 +14,7 @@ Om du följde guiden när den använde RedNAND, notera att spel och sparningar s
 
 ### Instruktioner
 
-#### Section I - Removal from Wii U
+#### Avsnitt I - Avinstallation från Wii U
 
 ##### CBHC
 
@@ -36,7 +36,7 @@ Om du följde guiden när den använde RedNAND, notera att spel och sparningar s
 
 1. Ta bort bokmärket från din Wii U's webbläsare om du skapade ett
 
-#### Section II - Removal from SD Card
+#### Avsnitt II - Rensning av SD-kort
 
 {% capture notice-3 %}
 **Ta bort alla extra filer och kataloger från roten av SD-kortet som *inte* finns med i följande lista (du kanske inte har alla eller ens några av dessa):**
