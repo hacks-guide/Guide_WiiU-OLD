@@ -2,6 +2,10 @@
 title:"Pour Commencer"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Ces étapes vont préparer votre carte SD pour l'installation du custom firmware Coldboot Haxchi.
 
 Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmware 5.5.0, 5.5.1 ou 5.5.2. Les anciennes versions ne sont actuellement pas prises en charge.
@@ -17,7 +21,7 @@ Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysf
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### Ce dont vous avez besoin
+### What you need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/releases/latest) *(les 2 fichiers`.zip`)*
 * La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### Instructions
+### Instructions
 
-##### Section I - Préparatifs
+#### Section I - Prep Work
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
@@ -58,7 +62,7 @@ Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/rele
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
-##### Section II - Le jeu de DS "Console Virtuelle"
+#### Section II - DS Virtual Console Game
 
 Il y a deux méthodes pour utiliser le custom firmware sur Wii U.
 
@@ -103,7 +107,7 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 
 + Si vous possédez déjà "Programme d'entrainement cérébral de Dr Kawashima : Quel âge a votre cerveau ?" installé sur votre Wii U depuis un certain temps, essayez de supprimer et de réinstaller le jeu depuis l'eShop. Les anciennes versions du jeu ne sont pas compatibles avec cet exploit.
 
-##### Section III - Blocage des mises à jours
+#### Section III - Block System Updates
 
 Notez que, pour accéder à l'eShop avec ces DNS, vous devrez d'abord lancer NNU-Patcher via l'Homebrew Launcher. Notez aussi que NNU-Patcher est un patch temporaire et qu'il devra être lancé à nouveau si vous avez besoin d'accéder à l'eShop après un redémarrage.
 

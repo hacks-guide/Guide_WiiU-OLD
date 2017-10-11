@@ -2,17 +2,21 @@
 title: "Avinstallera CFW"
 ---
 
+{% include toc title="Innehåll" %}
+
+### Obligatorisk läsning
+
 Det här kommer ta bort CFW från ditt Wii U, oavsett installationsmetod, för att återställa din enhet.
 {: .notice--danger}
 
 Om du följde guiden när den använde RedNAND, notera att spel och sparningar sparas till interna lagringen (RedNAND) och inte SD-kortet. Det här betyder att alla spel och sparningar som tillkommit efter RedNAND installerades kommer försvinna om du avinstallerar eftersom systemet endast skulle ha det SysNAND som du började med!
 {: .notice--danger}
 
-#### Instruktioner
+### Instruktioner
 
-##### Avsnitt I - Avinstallation från Wii U
+#### Avsnitt I - Avinstallation från Wii U
 
-###### CBHC
+##### CBHC
 
 1. Starta Homebrew Launcher Channel
 1. Starta CBHC installer
@@ -23,16 +27,16 @@ Om du följde guiden när den använde RedNAND, notera att spel och sparningar s
 1. Gå till systeminställningar och till "Data Management" och radera ditt DS virtual console-spel
 1. Återinstallera ditt DS virtual console-spel från eShop
 
-###### Haxchi
+##### Haxchi
 
 1. Gå till systeminställningar och till "Data Management" och radera ditt DS virtual console-spel
 1. Återinstallera ditt DS virtual console-spel från eShop
 
-###### Homebrew Launcher
+##### Homebrew Launcher
 
 1. Ta bort bokmärket från din Wii U's webbläsare om du skapade ett
 
-##### Avsnitt II - Rensning av SD-kort
+#### Avsnitt II - Rensning av SD-kort
 
 {% capture notice-3 %}
 **Ta bort alla extra filer och kataloger från roten av SD-kortet som *inte* finns med i följande lista (du kanske inte har alla eller ens några av dessa):**

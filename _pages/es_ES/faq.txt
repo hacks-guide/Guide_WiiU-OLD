@@ -2,8 +2,6 @@
 title: "Preguntas Frecuentes"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" />**P:** *Estoy en la última versión del sistema, ¿mi consola es hackeable?*    
 **R:** Si
 
@@ -42,7 +40,3 @@ title: "Preguntas Frecuentes"
 
 <a name="faq_nopc" />**P:** *¿Puedo realizar este proceso sin una computadora (Ej: con un celular Android)?*    
 **R:** ¡Todo lo que necesitas es la posibilidad de cargar archivos a una tarjeta SD!
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>

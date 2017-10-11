@@ -2,11 +2,15 @@
 title: "Mocha CFW"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Mocha CFW est un custom firmware qui patche le contrôle des signatures, la vérifications de la région et exécute d'autres codes personnalisé en arrière-plan.
 
 Pour désactiver le contrôle des signatures et démarrer sous la SysNAND patché, vous devrez entrer dans le Homebrew Launcher et lancer Mocha CFW chaque fois que votre console redémarrerez.
 
-#### Instructions
+### Instructions
 
 1. Lancez Mocha CFW
 1. Le menu de configuration de Mocha CFW devrait se charger

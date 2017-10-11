@@ -10,7 +10,7 @@ header:
 excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desde stock hasta Coldboot Haxchi.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Lee detenidamente todas las páginas de introducción (incluido ésta) antes de proceder.
 {: .notice--warning}
 
 {% capture notice-home %}
@@ -58,5 +58,5 @@ Respaldar, editar y restaurar partidas guardadas de muchos juegos
 
 ___
 
-Continue to [Get Started](get-started)
+Continúa en [Comencemos](get-started)
 {: .notice--primary}

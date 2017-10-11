@@ -2,8 +2,6 @@
 title: "FAQ"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" /> **Q :** *Je suis sur la dernière version du système, est-ce que ma console est hackable ?*    
 **R :** Oui
 
@@ -42,7 +40,3 @@ title: "FAQ"
 
 <a name="faq_nopc" /> **Q :** *Puis-je faire cela sans ordinateur (par exemple avec un téléphone Android) ?*    
 **R:** Tout ce dont vous avez besoin est de pouvoir mettre des fichiers sur une carte SD !
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>

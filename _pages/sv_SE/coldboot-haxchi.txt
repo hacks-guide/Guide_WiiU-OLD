@@ -2,23 +2,28 @@
 title: "Coldboot Haxchi"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Obligatorisk läsning
+
 CBHC (Coldboot Haxchi) ändrar vilken titel som laddas vid uppstart så att ditt SysNAND startar DS virtual console-spelet istället för hem-menyn, vilket i sin tur kommer starta modifierad SysNAND.
 
-Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. Om du vill hoppa över Haxchi, fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. Om du vill hoppa över Coldboot Haxchi, fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
 
-**Du MÅSTE ha en fungerande Haxchi-uppsättning för att det ska fungera. Om du inte har det kommer du få en BRICKNING!**
-{: .notice--danger}
+{% capture notice-1 %}
+Du MÅSTE ha en fungerande Haxchi-installation för att det här ska fungera. Om du inte har det kommer du få en BRICKNING!
 
-**Ditt Haxchi DS virtual console-spel MÅSTE vara på interna lagringen på din Wii U. Om det är på ett USB-minne kommer du få en BRICKNING!**
-{: .notice--danger}
+Ditt Haxchi DS virtual console-spel MÅSTE vara på interna lagringen på din Wii U. Om det är på ett USB-minne kommer du få en BRICKNING!
 
-**Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia, annars kommer du få en BRICKNING!**
-{: .notice--danger}
+Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia, annars kommer du få en BRICKNING!
 
-**Du måste ta bort alla USB-enheter innan du installerar annars kan du få en BRICKNING!**
-{: .notice--danger}
+Du måste ta bort alla USB-enheter innan du installerar annars kan du få en BRICKNING!
+{% endcapture %}
 
-#### Instruktioner
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+
+### Instruktioner
 
 1. Ta bort alla USB-enheter från din Wii U
 1. Gå in i Homebrew Launcher genom att hålla inne (A) när du startar ditt Haxchi DS virtual console-spel

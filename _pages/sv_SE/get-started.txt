@@ -2,6 +2,10 @@
 title: "Kom Igång"
 ---
 
+{% include toc title="Innehåll" %}
+
+### Obligatorisk läsning
+
 Följande steg hjälper dig förbereda ditt SD-kort för att installera Coldboot Haxci custom firmware.
 
 Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 5.5.1 eller 5.5.2 installerad. Äldre versioner stöds inte för närvarande.
@@ -17,7 +21,7 @@ Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### Vad du behöver
+### Vad du behöver
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### Instruktioner
+### Instruktioner
 
-##### Avsnitt I - Förberedelser
+#### Avsnitt I - Förberedelser
 
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
@@ -58,7 +62,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-##### Avsnitt II - DS Virtual Console-spel
+#### Avsnitt II - DS Virtual Console-spel
 
 Det finns två metoder för att köra custom firmware på Wii U.
 
@@ -103,7 +107,7 @@ För närvarande är Dr. Kawashima's Brain Training den billigaste av dessa titl
 
 Om du redan äger Brain age eller Brain Training och har haft det installerat på din Wii U ett tag försök radera det och ladda ner det på nytt från eShopen. Äldre versioner av spelet har inte det nödvändiga säkerhetshålet.
 
-##### Avsnitt III - Blockera systemuppdateringar
+#### Avsnitt III - Blockera systemuppdateringar
 
 Notera att för att komma åt eShopen med dessa DNS-inställningar måste du först köra NNU-Patcher genom Homebrew Launcher. Notera även att NNU-Patcher är tillfällig och du kommer behöva köra den igen om du behöver komma åt eShopen efter en omstart.
 

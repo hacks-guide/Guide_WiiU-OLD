@@ -2,17 +2,21 @@
 title: "H2testw (Windows)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 This page will walk you through the process of checking your SD card for errors using h2testw.
 
 Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
 
 This page is for Windows users only. If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
 
-#### What you need
+### What you need
 
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Instructions
+### Instructions
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
 1. Insert your SD card into your computer

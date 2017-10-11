@@ -2,17 +2,21 @@
 title: "Uninstall CFW"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Dies wird die Mocha CFW von deiner Wii U entfernen, egal welche Methode genutzt wurde, um die Wii U auf den Originalzustand zurückzusetzen.
 {: .notice--danger}
 
 Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, dass Spiele und Speicherstände im internen Speicher und nicht auf der SD-Karte gesichert werden. Das heißt alle Spiele und Speicherdaten, die nach der Installation von RedNAND installiert wurden, würden gelöscht werden, da dein System nur noch das SysNAND hat, mit dem du angefangen hast!
 {: .notice--danger}
 
-#### Anleitung
+### Instructions
 
-##### Abschnitt I - Von der Wii U entfernen
+#### Section I - Removal from Wii U
 
-###### CBHC
+##### CBHC
 
 1. Starte den Homebrew Launcher Channel
 1. Starte den CBHC Installationsassistenten
@@ -23,16 +27,16 @@ Wenn du diese Anleitung genutzt halst als sie noch RedNAND nutze, dann beachte, 
 1. Gehe in die Systemeinstellungen unter "Datenverwaltung" und lösche dein DS Virtual Console Spiel
 1. Installiere dein DS Virtual Console Spiel erneut aus dem eShop
 
-###### Haxchi
+##### Haxchi
 
 1. Gehe in die Systemeinstellungen unter "Datenverwaltung" und lösche dein DS Virtual Console Spiel
 1. Installiere dein DS Virtual Console Spiel erneut aus dem eShop
 
-###### Homebrew Launcher
+##### Homebrew Launcher
 
 1. Entferne das Lesezeichen aus dem Browser, wenn du eins angelegt hast
 
-##### Abschnitt II - Von der SD Karte entfernen
+#### Section II - Removal from SD Card
 
 {% capture notice-3 %}
 **Lösche die folgenden Ordner, von dem Standardverzeichnis deiner SD Karte:**

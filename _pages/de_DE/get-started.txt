@@ -2,6 +2,10 @@
 title: "Get Started"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Diese Schritte werden deine SD-Karte vorbereiten um Coldboot-Haxchi coldboothax Custom Firmware zu installieren.
 
 Bevor Sie beginnen, sollten Sie sicherstellen, dass Ihre Wii U ist derzeit auf Firmware 5.5.0, 5.5.1 und 5.5.2. Frühere Versionen werden momentan nicht unterstützt.
@@ -17,7 +21,7 @@ Die SD-Karte **darf nicht** `wiiu` genannt werden, sonst treten Probleme auf.
 Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
 {: .notice--warning}
 
-#### Was du benötigst
+### What you need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Die neueste Version des [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 * Die neueste Version von [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(beide `.zip` Dateien)*
 * Die neueste Version von [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### Anleitung
+### Instructions
 
-##### Abschnitt I - Vorbereitungen
+#### Section I - Prep Work
 
 1. Schalte dein Gerät aus
 1. Stecke deine SD Karte in den Computer
@@ -58,7 +62,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
 
-##### Abschnitt II - DS Virtual Console Game
+#### Section II - DS Virtual Console Game
 
 Es gibt zwei Varianten die WII U custom firmware zu benutzen.
 
@@ -103,7 +107,7 @@ Aktuell ist Dr. Kawashima's Gehirnjogging das preiswerteste im eShop (6,99€)
 
 Solltest du Dr. Kawashima's Gehirnjogging schon eine Weile auf der Wii U installiert haben, versuche es zu löschen und neu aus dem eShop herunterzuladen. Ältere Versionen des Spieles werden mit dem Exploit nicht funktionieren.
 
-##### Abschnitt III - System Aktualisierungen Deaktivieren
+#### Section III - Block System Updates
 
 Beachte dass du erst den NNU-Patcher im Homebrew Launcher benutzen musst bevor du versuchst den eShop zu benutzen. Außerdem solltest du wissen dass der NNU-Patch nur temporär ist und nach jedem Neustart erneut ausgeführt werden muss wenn du den eShop benutzen willst.
 

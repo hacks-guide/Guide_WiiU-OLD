@@ -2,6 +2,10 @@
 title: "disc2app"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
 
 If you are planning to use an external hard drive to install your dumped discs on, note the following:
@@ -11,14 +15,14 @@ If you are planning to use an external hard drive to install your dumped discs o
   + Formatting an external hard drive for use with a Wii U will erase its contents.
   + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
 
-#### What you need
+### What you need
 
 * A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB of free space on your SD card
 
-#### Instructions
+### Instructions
 
-##### Section I - Formatting external drive
+#### Section I - Formatting external drive
 
 If you are planning to use an external hard drive to install your dumped discs on, follow this section. If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
 {: .notice--info}
@@ -30,7 +34,7 @@ This will completely erase the contents of the external hard drive!
 1. Power on your Wii U
 1. Format the external hard drive when prompted
 
-##### Section II - Using disc2app
+#### Section II - Using disc2app
 
 1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch disc2app
@@ -39,7 +43,7 @@ This will completely erase the contents of the external hard drive!
 1. Allow the disc dump process to proceed automatically; this will take some time
 1. When it is complete, you will be returned to the system menu
 
-##### Section III - Installing dumped game
+#### Section III - Installing dumped game
 
 1. Launch the Homebrew Launcher Channel on patched SysNAND
 1. Launch WUP Installer GX2

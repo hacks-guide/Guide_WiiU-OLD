@@ -2,17 +2,21 @@
 title: "H2testw (Windows)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Cette page vous indiquera comment procéder à la vérification des erreurs sur votre carte SD à l'aide de l'utilitaire h2testw.
 
 Dépendant de la capacité de votre carte SD et la vitesse d'exécution de votre ordinateur, le processus peut prendre jusqu'à plusieurs heures avant de s'achever!
 
 Cette page est destinée aux utilisateurs de Windows uniquement. Si vous n’êtes pas sous Windows, consultez [F3 (Linux)](f3-(linux)) ou [F3X (Mac)](f3x-(mac)).
 
-#### Ce dont vous aurez besoin
+### What you need
 
 * La dernière version de [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Instructions
+### Instructions
 
 1. Copiez le fichier `h2testw.exe` extrait depuis l'archive ht2testw_1.4.zip vers votre bureau
 1. Insérez votre carte SD dans votre ordinateur

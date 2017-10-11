@@ -2,13 +2,17 @@
 title: "Homebrew Launcher"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
 
 We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
 
-#### Instructions
+### Instructions
 
-##### Section I - Preparing Browser
+#### Section I - Preparing Browser
 
 1. Launch the browser on your device
 1. Go to the browser settings and select "Reset Save Data"
@@ -16,7 +20,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
   + This will also delete all save data including settings, history, and bookmarks
 1. Return to the browser
 
-##### Section II (i) - Versions 5.5.0 & 5.5.1
+#### Section II (i) - Versions 5.5.0 & 5.5.1
 
 1. Go to `http://loadiine.ovh`
   + You may want to bookmark this address to save time on typing in the future
@@ -26,7 +30,7 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
   + If it freezes, just force the console to power off by holding the power button, then try again
 1. Your console should load the Homebrew Launcher
 
-##### Section II (ii) - Versions 5.5.2
+#### Section II (ii) - Version 5.5.2
 
 1. Open the browser curtains
   + This improves the success rate of the 5.5.2 browser exploit
@@ -39,23 +43,24 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 1. Your console should load the Homebrew Launcher
 
 ___
+### Methods
 
-{% capture notice-1 %}
+___
 
-[Mocha CFW](mocha-cfw)
+#### Mocha CFW
 
 This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
 
-{% endcapture %}
+Continue to [Mocha CFW](mocha-cfw)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___
 
-{% capture notice-1 %}
-
-[Haxchi](haxchi)
+#### Haxchi
 
 This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
 
-{% endcapture %}
+Continue to [Haxchi](haxchi)
+{: .notice--primary}
 
-<div class="notice--primary">{{ notice-1 | markdownify }}</div>
+___

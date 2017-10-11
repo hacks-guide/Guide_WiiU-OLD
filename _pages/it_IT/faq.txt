@@ -2,8 +2,6 @@
 title: "FAQ"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
 **A:** Si
 
@@ -42,7 +40,3 @@ title: "FAQ"
 
 <a name="faq_nopc" />**D:** *Posso seguire questa guida senza un computer a disposizione (ad esempio, da un telefono Android)?*    
 **R:** Sì, a patto che tu abbia modo di trasferire file sulla scheda SD!
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
