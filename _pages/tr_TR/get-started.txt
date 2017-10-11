@@ -2,6 +2,10 @@
 title: "Get Started"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
 
 Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
@@ -17,7 +21,7 @@ Your SD card *cannot* be named `wiiu`, or it will cause problems.
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### What you need
+### What you need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 * The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### Instructions
+### Instructions
 
-##### Section I - Prep Work
+#### Section I - Prep Work
 
 1. Power off your device
 1. Insert your SD card into your computer
@@ -58,7 +62,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 1. Reinsert your SD card into your device
 1. Power on your device
 
-##### Section II - DS Virtual Console Game
+#### Section II - DS Virtual Console Game
 
 There are two methods for using Wii U custom firmware.
 
@@ -103,7 +107,7 @@ Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
 
 If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
 
-##### Section III - Block System Updates
+#### Section III - Block System Updates
 
 Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
 

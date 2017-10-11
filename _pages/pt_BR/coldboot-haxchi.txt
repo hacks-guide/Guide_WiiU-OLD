@@ -2,23 +2,28 @@
 title: "Coldboot Haxchi"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie os jogos de DS do Virtual Console por padrão em vez do menu de sistema, o qual irá carregar a SysNAND alterada.
 
-Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apenas oferece uma conveniência extra. Se você gostaria de ignorar o Haxchi, continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apenas oferece uma conveniência extra. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
 
-**Você DEVE ter uma instalação funcional do Haxchi para isto funcionar. Caso não tenha, você irá BRICKAR!**
-{: .notice--danger}
+{% capture notice-1 %}
+You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
 
-**Seu jogo de DS do Virtual Console com o Haxchi DEVE estar na memória interna do seu Wii U. Caso ele esteja em um drive USB, você irá BRICKAR!**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
 
-**Seu jogo de DS do Virtual Console com o Haxchi DEVE ser uma cópia LEGÍTIMA, ou você irá BRICKAR!**
-{: .notice--danger}
+Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
 
-**Você deve remover todos os dispositivos USB antes de realizar a instalação ou você poderá BRICKAR!**
-{: .notice--danger}
+You must remove all USB devices before installing or you may BRICK!
+{% endcapture %}
 
-#### Instruções
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
+
+### Instructions
 
 1. Remova todos os dispositivos USB do seu Wii U
 1. Entre no Homebrew Launcher segurando (A) enquanto inicia seu jogo Haxchi de DS do Virtual Console

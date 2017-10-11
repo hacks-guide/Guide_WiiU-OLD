@@ -2,6 +2,10 @@
 title: "Cominciamo!"
 ---
 
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter installare un custom firmware basato su Coldboot Haxchi.
 
 Prima di iniziare, assicurati che la tua Wii U abbia un firmware 5.5.0, 5.5.1 o 5.5.2. Al momento non sono supportate versioni del software precedenti.
@@ -17,7 +21,7 @@ Se devi formattare una scheda SD con Windows, non usare il programma di formatta
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### Quello che ti serve
+### Quello che ti serve
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -32,9 +36,9 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 * L'ultima versione di [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi gli archivi`.zip`)*
 * L'ultima versione di [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-#### Istruzioni
+### Istruzioni
 
-##### Sezione I - Preparazione
+#### Sezione I - Preparazione
 
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
@@ -58,7 +62,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
-##### Sezione II - Gioco DS della Virtual Console
+#### Sezione II - Gioco DS della Virtual Console
 
 Ci sono due metodi per installare un custom firmware sulla tua Wii U.
 
@@ -103,7 +107,7 @@ Al momento, Brain Training è il gioco più economico sull'eShop (6.99€).
 
 Se avevi già acquistato Brain Training sulla tua Wii U, sarebbe meglio disinstallarlo e riscaricarlo dall'eShop. Le vecchie versioni del gioco non sono compatibili con l'exploit.
 
-##### Sezione III - Bloccare gli aggiornamenti
+#### Sezione III - Bloccare gli aggiornamenti
 
 Per poter accedere all'eShop dopo aver impostato questi indirizzi DNS, devi prima avviare NNU-Patcher attraverso l'Homebrew Launcher. Inoltre, NNU-Patcher è una patch temporanea e quindi dovrà essere avviata di nuovo se si ha intenzione di avviare l'eShop dopo aver riavviato la console.
 

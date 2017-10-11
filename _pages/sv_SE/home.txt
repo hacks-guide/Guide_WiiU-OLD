@@ -10,7 +10,7 @@ header:
 excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U,<br /> från standard till Coldboot Haxchi.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Läs noggrant alla inledande sidor (inklusive denna!) innan du fortsätter.
 {: .notice--warning}
 
 {% capture notice-home %}
@@ -58,5 +58,5 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 
 ___
 
-Continue to [Get Started](get-started)
+Fortsätt till [Kom igång](get-started)
 {: .notice--primary}

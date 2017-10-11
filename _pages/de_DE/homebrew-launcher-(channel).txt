@@ -2,9 +2,13 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Hiermit wird Homebrew Channel installiert, so dass sobald du ein gepatchtes SysNAND am laufen hast, der Homebrew Launcher als Icon im Sytem-Menü angezeigt wird.
 
-#### Anleitung
+### Instructions
 
 1. Starte den Hombrew Launcher
   + CBHC Nutzer müssen (Home) drücken während CBHC startet um in das Startoptionen Menü zu kommen und dann den Homebrow Launcher wählen

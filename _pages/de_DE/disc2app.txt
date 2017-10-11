@@ -2,6 +2,10 @@
 title: "disc2app"
 ---
 
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
 Dies erlaubt dir deine Discs zu einem installierbaren Format auszulesen, damit du später spielen kannst ohne die Disc zu benötigen.
 
 Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu installieren, beachte folgendes:
@@ -11,14 +15,14 @@ Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu install
   + Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
   + Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
 
-#### Was du benötigst
+### What you need
 
 * Eine Wii U mit Zugriff auf ein gepatchtes SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB freien Speicherplatz auf deiner SD Karte
 
-#### Anleitung
+### Instructions
 
-##### Schritt I - Die externe Festplatte formatieren
+#### Section I - Formatting external drive
 
 Solltest du eine externe Festplatte beutzen wollen, auf der du deine Spiele installierst, folge diesem Abschnitt. Solltest du nicht vorhaben, eine externe Festplatte zu verwenden, oder schon eine im Wii U Format haben, überspringe diesen Abschnitt.
 {: .notice--info}
@@ -30,7 +34,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Schalte die Wii U an
 1. Formatiere die Festplatte, wenn du dazu aufgefordert wirst
 
-##### Schritt II - disc2app benutzen
+#### Section II - Using disc2app
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte disc2app
@@ -39,7 +43,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 1. Erlaube dem Disc dump Fortschritt automatisch fortzufahren; das dauert eine Weile
 1. Wenn alles fertig ist, kehrst du ins System-Menü zurück
 
-##### Schritt III - Gedumptes Spiel installieren
+#### Section III - Installing dumped game
 
 1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
 1. Starte "WUP Installer GX2"

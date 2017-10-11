@@ -2,11 +2,15 @@
 title: "Mocha CFW"
 ---
 
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
 Mocha CFW è un custom firmware che patcha i controlli sulle firme, i controlli sulla regionalità e avvia linne di codice modificato.
 
 Per poter avviare le patch per i controlli delle firme digitali e la SysNAND patchata, dovrai entrare nell'Homebrew Launcher ed avviare Mocha CFW ogni volta che riavvii la console.
 
-#### Istruzioni
+### Istruzioni
 
 1. Avvia Mocha CFW
 1. Dovrebbe apparire il menu di configurazione di Mocha CFW

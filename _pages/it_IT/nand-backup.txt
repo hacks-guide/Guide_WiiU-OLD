@@ -2,7 +2,11 @@
 title: "Backup della NAND"
 ---
 
-Con questo procedimento creerai una copia della tua NAND nella tua scheda SD, che ti permetterà di recuperare la tua console in caso di brick con una hardmod.
+{% include toc title="Indice" %}
+
+### Lettura necessaria
+
+Con questo procedimento facoltativo creerai una copia della tua NAND nella tua scheda SD, che ti permetterà di recuperare la tua console in caso di brick con una hardmod.
 
 Se hai una Wii U nera da 32GB, avrai bisogno di una scheda SD da almeno 64GB. Se hai una Wii U bianca da 8GB, avrai bisogno di una scheda SD da almeno 16GB.
 
@@ -11,11 +15,11 @@ Gli utenti di Mocha CFW devono seguire queste istruzioni dopo un riavvio *senza*
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-#### Quello che ti serve
+### Quello che ti serve
 
 * L'ultima versione di [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
-#### Istruzioni
+### Istruzioni
 
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer

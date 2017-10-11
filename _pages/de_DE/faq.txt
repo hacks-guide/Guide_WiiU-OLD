@@ -2,8 +2,6 @@
 title: "FAQ"
 ---
 
-{% capture notice-1 %}
-
 <a name="faq_latestfw" />**F:** *Mein Gerät ist auf der neuesten Systemversion. Kann ich mein Gerät hacken?*    
 **A: ** Ja
 
@@ -42,7 +40,3 @@ title: "FAQ"
 
 <a name="faq_nopc" /> ** F: ** * Kann ich das auch ohne Computer tun (z.B. mit einem Android Smartphone)?*    
 **A: ** Alles was du brauchst, ist eine Möglichkeit die Dateien auf eine SD-Karte zu schreiben!
-
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>

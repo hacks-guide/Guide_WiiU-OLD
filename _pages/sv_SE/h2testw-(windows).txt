@@ -2,17 +2,21 @@
 title: "H2testw (Windows)"
 ---
 
+{% include toc title="Innehåll" %}
+
+### Obligatorisk läsning
+
 Den här sidan kommer ta dig igenom processen att använda h2testw för att söka igenom ditt SD-kort efter fel.
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 
 Den här sidan är enbart för Windows-användare. Om du inte använder Windows kan du gå till sidorna för [F3 (Linux)](f3-(linux)) eller [F3X (Mac)](f3x-(mac)).
 
-#### Vad du behöver
+### Vad du behöver
 
 * Senaste versionen av [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-#### Instruktioner
+### Instruktioner
 
 1. Kopiera `h2testw.exe` från h2testw `.zip` till ditt skrivbord
 1. Sätt in ditt SD-kort i datorn
