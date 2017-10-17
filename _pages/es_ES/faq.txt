@@ -26,9 +26,6 @@ title: "Preguntas Frecuentes"
 <a name="faq_regionfree" />**P:** *¿Puedo usar esto para jugar juegos de otras regiones?*    
 **R:** Mocha CFW soporta parches para Libertad de Región, lo cual permite a los usuarios instalar juegos de cualquier región sin necesidad de modificaciones o pasos extras.
 
-<a name="faq_updates" />**P:** *¿Es seguro actualizar una SysNAND modificada?*    
-**A:** ¡No! Siempre debes asegurarte de que tus ajustes de internet tengan configurados servidores DNS que bloqueen las actualizaciones sólo en caso de que salga una nueva actualización.
-
 <a name="faq_support" />**P:** *¿A dónde debería ir para pedir ayuda?*    
 **R:** Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).
 

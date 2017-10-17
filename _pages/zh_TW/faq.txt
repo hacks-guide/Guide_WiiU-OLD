@@ -26,9 +26,6 @@ title: "常見問題 FAQ"
 <a name="faq_regionfree" />**Q:** *我能玩其他區的遊戲嗎？*    
 **A:** 可以的，Mocha CFW 支援破解區碼限制。表示說您可以不用修改任何東西就能任意地安裝所有區域的遊戲。
 
-<a name="faq_updates" />**Q:** *我可以安全地更新修改後的 SysNAND 嗎？*    
-**A:** 不對！ 請確保您的網路設定中已經設置好 DNS 伺服器的設定以阻擋未來的所有更新，
-
 <a name="faq_support" />**Q:** *如果我遇到問題該怎麼辦？*    
 **A:** 若需支援，請見 [Discord 上的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器。
 

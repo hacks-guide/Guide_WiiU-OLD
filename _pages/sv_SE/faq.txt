@@ -26,9 +26,6 @@ title: "FAQ"
 <a name="faq_regionfree" />**F:** *Kan jag använda det här för att spela spel från andra regioner?*    
 **S:** Mocha CFW stödjer patchar för att göra spel regionsfria, vilket gör att du kan installera och spela spel oavsett region utan några extra modifikationer eller steg.
 
-<a name="faq_updates" />**F:** *Är det säkert att uppdatera modifierad SysNAND?*    
-**S:** Nej! Du måste alltid se till att dina internetinställningar använder DNS-servrar som blockerar uppdateringer, ifall en ny uppdatering skulle släppas!
-
 <a name="faq_support" />**F:** *Vart ska jag vända mig för hjälp?*    
 **S:** För support, fråga om hjälp på [Nintendo Homebrew på Discord](https://discord.gg/MWxPgEp) (huvudsakligen engelskspråkigt).
 
