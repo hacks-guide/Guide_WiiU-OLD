@@ -29,9 +29,9 @@ main:
     url: uninstall-cfw
 bottom:
   - 
-    title: 'Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).'
+    title: Se hai bisogno di aiuto, chiedi pure su <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew su Discord</a> (in inglese).
   - 
-    title: 'Se hai apprezzato questa guida, accettiamo <a href="donations">donazioni</a> attraverso <a href="https://www.paypal.me/plailectguides/15">PayPal (Plailect)</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin (Plailect)</a> o <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal (FlimFlam69)</a>.'
+    title: Se hai apprezzato questa guida, accettiamo <a href="donations">donazioni</a> attraverso <a href="https://www.paypal.me/plailectguides/15">PayPal (Plailect)</a> o <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin (Plailect)</a> o <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">PayPal (FlimFlam69)</a>.
 footer:
   - 
     title: Codice Sorgente
