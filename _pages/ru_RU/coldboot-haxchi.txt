@@ -12,29 +12,29 @@ CBHC (Coldboot Haxchi) изменяет системный тайл, запус�
 {: .notice--primary}
 
 {% capture notice-1 %}
-Для продолжения необходимо иметь функционирующий Haxchi. If you do not, you will BRICK!
+Для продолжения необходимо иметь функционирующий Haxchi. Без него получите гарантированный БРИК!
 
-Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
+Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА находится во внутренней памяти Wii U. Если она находится на USB-носителе, гарантированно получите БРИК!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА быть ЛЕГАЛЬНОЙ копией, в иных случаях вы гарантированно получите БРИК!
 
-You must remove all USB devices before installing or you may BRICK!
+Все USB-устройства должны быть отключены перед установкой, иначе есть шанс получить БРИК!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Instructions
+### Инструкция
 
-1. Remove all USB devices from your Wii U
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, you should be back at the system menu
-1. You may reconnect any USB devices that were disconnected earlier.
-1. Reboot your Wii U
-1. If the exploit was successful, you will see a menu appear with various boot options
+1. Отключите все USB-устройства от Wii U
+1. Войдите в Homebrew Launcher, удерживая (A) во время запуска игры для DS virtual console с установленным Haxchi
+1. Запустите CBHC installer
+1. Выберите игру для DS virtual console, в которую вы собираетесь установить CBHC, затем нажмите (A) для подтверждения
+  + **Игра уже ДОЛЖНА содержать установленный и работающий Haxchi**
+1. Ознакомьтесь с появившимся предупреждением и нажмите (A) для установки
+1. После окончания процесса вы вернетесь в системное меню
+1. Вы можете подсоединить обратно все USB-устройства, которые были отключены раннее.
+1. Перезагрузите Wii U
+1. Если эксплойт сработал корректно, вы увидите меню с различными опциями загрузки
 1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
 1. Press (A) on "Boot System Menu"
 1. Reboot your Wii U to ensure the exploit works automatically as intended
