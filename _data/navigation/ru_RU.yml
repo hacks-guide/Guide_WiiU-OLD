@@ -4,50 +4,50 @@ main:
     title: Wii U Guide
     url: /
   - 
-    title: FAQ
+    title: Вопросы и ответы
     url: faq
   - 
-    title: Donations
+    title: Пожертвования
     url: donations
   - 
-    title: Credits
+    title: Благодарности
     url: credits
   - 
     title: disc2app
     url: disc2app
   - 
-    title: vWii Modding
+    title: Модификация vWii
     url: vwii-modding
   - 
-    title: NAND Backup
+    title: Резервная копия NAND
     url: nand-backup
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Удаление кастомной прошивки
     url: uninstall-cfw
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: Для поддержки на английском языке обратитесь за помощью сюда <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a> through <a href="https://www.paypal.me/plailectguides/15">PayPal (Plailect)</a> or <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin (Plailect)</a> or <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Paypal (FlimFlam69)</a>.
+    title: Если вам помогло это руководство, мы принимаем <a href="donations">пожертвования</a> через <a href="https://www.paypal.me/plailectguides/15">PayPal (Plailect)</a> или <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin (Plailect)</a> или <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Paypal (FlimFlam69)</a>.
 footer:
   - 
-    title: Source
+    title: Исходный код
   - 
-    title: Site Navigation
+    title: Навигация по сайту
   - 
-    title: Why Ads?
+    title: Зачем реклама?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Общий прогресс
 sidebar_pages:
   - 
-    title: Home
+    title: Главная
     url: /
   - 
-    title: Get Started
+    title: Начало
     url: get-started
   - 
     title: Homebrew Launcher
