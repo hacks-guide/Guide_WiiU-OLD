@@ -24,8 +24,8 @@ Note that Mocha CFW users should follow these instructions after a reboot *witho
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 1. Launch the Homebrew Launcher
 1. Launch nanddumper
 1. Use the D-Pad to set the following options:
