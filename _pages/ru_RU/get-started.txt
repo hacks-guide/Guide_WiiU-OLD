@@ -75,9 +75,9 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 Если вы планируете использовать метод с игрой DS Virtual Console, то купите её прежде чем переходить к следующей части.
 {: .notice--primary}
 
-The following DS Virtual Console games are compatible:
+Список совместимых игр для DS Virtual Console:
 
-| Compatible Haxchi Games |
+| Игры, совместимые с Haxchi |
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Academy |
