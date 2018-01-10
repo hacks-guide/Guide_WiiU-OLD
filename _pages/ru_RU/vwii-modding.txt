@@ -27,8 +27,8 @@ This will allow you to install the Homebrew Channel and other modifications to t
 1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
 1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
 1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
 #### Section II - wuphax
 
