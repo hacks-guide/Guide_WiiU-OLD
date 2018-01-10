@@ -2,9 +2,9 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
 This page will walk you through the process of checking your SD card for errors using h2testw.
 
