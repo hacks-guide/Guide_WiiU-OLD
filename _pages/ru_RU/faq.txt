@@ -2,10 +2,10 @@
 title: "FAQ"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+<a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
+**О:** Да
 
-<a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
+<a name="faq_oldfw" />**В:** *Моя Wii U на прошивке X.X.X. What can / should  I do with it?*    
 **A:** This guide is only compatible with versions 5.5.0 to 5.5.2. Older versions are incompatible for now.
 
 <a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
