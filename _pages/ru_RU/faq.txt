@@ -15,25 +15,25 @@ title: "FAQ"
 **О:** Нет! Убедитесь что у вас прописаны DNS-сервера, блокирующие обновление.
 
 <a name="faq_updatemocha" />**В:** *Как я могу обновить Mocha CFW до последней версии?*    
-**A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
+**О:** Скачайте последний релиз [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), затем скопируйте `mocha.elf` из `.zip` архива Mocha CFW в папку `/wiiu/apps/mocha/` на SD-карте (с заменой существующих файлов)
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+<a name="faq_risky" />**В:** *Насколько рискованно взламывать мою консоль?*    
+**О:** Вероятность брика крайне мала. Чаще всего это происходит при невыполнении или пропуске некоторых инструкций руководства.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+<a name="faq_homebrew" />**В:** *Смогу ли я запускать homebrew программы и эмуляторы?*    
+**О:** Конечно! Кастомная прошивка не только поддерживает Homebrew Launcher, но и сохраняет возможность его запуска даже после обновлений.
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Mocha CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+<a name="faq_regionfree" />**В:** *Смогу ли я играть в игры, предназначенные для других регионов?*    
+**О:** Mocha CFW поддерживает Region Free патчи, которые позволяют пользователю устанавливать и запускать игры для всех регионов без каких-либо модификаций.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<a name="faq_support" />**В:** *Куда я могу обратиться за помощью?*    
+**О:** Для поддержки, обратитесь за помощью в [Nintendo Homebrew on Discord (англ.)](https://discord.gg/MWxPgEp).
 
-<a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+<a name="faq_sdsize" />**В:** *Насколько большая SD-карта мне понадобится?*    
+**О:** SD-карта должна быть по меньшей мере 64ГБ для черной модели Wii U (32ГБ). Если у вас белая модель Wii U (8ГБ), SD-карта должна быть по меньшей мере 16ГБ.
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+<a name="faq_NNID" />**В:** *Могу ли я сохранить свой NNID?*    
+**О:** Если точно следовать этому руководству от начала и до конца, вы сохраните свой NNID.
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
+<a name="faq_nopc" />**В:** *Могу ли я обойтись без использования компьютера (например, использовать телефон на Android)?*    
 **A:** All you need is the ability to put files on an SD card!
