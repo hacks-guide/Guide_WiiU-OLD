@@ -34,10 +34,10 @@ title: "disc2app"
 1. Включите консоль
 1. Отформатируйте внешний жесткий диск при появлении запроса
 
-#### Section II - Using disc2app
+#### Часть II - Использование disc2app
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
-1. Launch disc2app
+1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
+1. Запустите disc2app
 1. Press (A) to dump to the SD card
 1. Insert the disc you want to dump when prompted
 1. Allow the disc dump process to proceed automatically; this will take some time
@@ -45,7 +45,7 @@ title: "disc2app"
 
 #### Section III - Installing dumped game
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
 1. Launch WUP Installer GX2
 1. Select the game you want to install
 1. Press "Install", then press "Yes" to confirm
