@@ -15,11 +15,11 @@ Haxchi is an exploit that allows us to launch CFW directly from the system menu 
 + A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
   + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
 
-### Instructions
+### Инструкция
 
 1. Launch the Haxchi Installer
 1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
+1. Ознакомьтесь с появившимся предупреждением и нажмите (A) для установки
 1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
 1. The console will reboot into patched SysNAND
   + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
