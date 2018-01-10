@@ -38,30 +38,30 @@ title: "disc2app"
 
 1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
 1. Запустите disc2app
-1. Press (A) to dump to the SD card
-1. Insert the disc you want to dump when prompted
-1. Allow the disc dump process to proceed automatically; this will take some time
-1. When it is complete, you will be returned to the system menu
+1. Нажмите (А), чтобы сохранить образ на SD-карту
+1. Вставьте нужный диск в дисковод при появлении запроса
+1. Начнется автоматическое сохранение образа диска; это займет некоторое время
+1. Когда процесс завершится, вы вернетесь в системное меню
 
-#### Section III - Installing dumped game
+#### Часть III - Установка игры из образа
 
 1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
-1. Launch WUP Installer GX2
-1. Select the game you want to install
-1. Press "Install", then press "Yes" to confirm
-1. Select the destination you wish to install to
-  + Pick from either internal storage (NAND) or an external drive (USB)
-1. Allow the installation process to proceed automatically; this will take some time
-1. When it is complete, you will be returned to the Homebrew Launcher
-1. Press (Home), then close the software to return to the system menu
+1. Запустите WUP Installer GX2
+1. Выберите игру, которую вы хотите установить
+1. Нажмите "Install" для установки, затем "Yes" для подтверждения
+1. Выберите куда вы хотите установить игру
+  + Выбор производится между внутренней памятью приставки (NAND) и внешним носителем (USB)
+1. Установка игры из образа начнется автоматически; это займет некоторое время
+1. Когда процесс завершится, вы вернетесь в Homebrew Launcher
+1. Нажмите (Home) и выберите Закрыть программу, чтобы вернуться в системное меню
 
 ___
 
-To reclaim the space on your SD card taken up by the disc dump, delete the newly created folder in `/install/` on your SD card
+Чтобы освободить место на SD-карте, занятое образом диска, удалите папку с образом внутри папки `/install/` на SD-карте
 {: .notice--info}
 
-If everything went well, you'll see your new game installed on the menu ready to be played!
+Если все прошло успешно, вы увидите, что в списке игр появилась новая игра!
 {: .notice--success}
 
-You can ensure that the game installed to the correct directory by checking its installation location in the System Settings under "Data Management"
+Проверить, куда была установлена игра, можно в Системных настройках в разделе "Управление данными"
 {: .notice--success}
