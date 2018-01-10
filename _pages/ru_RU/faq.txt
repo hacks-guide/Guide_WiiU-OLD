@@ -5,16 +5,16 @@ title: "FAQ"
 <a name="faq_latestfw" />**В:** *Моя консоль на последней версии прошивки, могу ли я её взломать?*    
 **О:** Да
 
-<a name="faq_oldfw" />**В:** *Моя Wii U на прошивке X.X.X. What can / should  I do with it?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.2. Older versions are incompatible for now.
+<a name="faq_oldfw" />**В:** *Моя Wii U на прошивке X.X.X. Что мне следует делать?*    
+**О:** Этот гайд предназначен исключительно для консолей с прошивкой от 5.5.0 до 5.5.2 включительно. Прошивки более ранних версий не поддерживаются.
 
-<a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
-**A:** No! The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
+<a name="faq_updates" />**В:** *На текущий момент Nintendo завершила производство Wii U, означает ли это, что больше не будет новых обновлений прошивки?*    
+**О:** Нет! Версия 5.5.2 выпущена уже после окончания производства Wii U. Именно поэтому вам нужно быть уверенным, что у вас прописаны DNS-сервера, блокирующие обновление.
 
-<a name="faq_updatesysnand" />**Q:** *Is it safe to update patched SysNAND?*    
-**A:** No! You must always ensure that you have set DNS servers that will block updates.
+<a name="faq_updatesysnand" />**В:** *Безопасно ли обновлять пропатченный SysNAND?*    
+**О:** Нет! Убедитесь что у вас прописаны DNS-сервера, блокирующие обновление.
 
-<a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
+<a name="faq_updatemocha" />**В:** *Как я могу обновить Mocha CFW до последней версии?*    
 **A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
 
 <a name="faq_risky" />**Q:** *How risky is hacking my console?*    
