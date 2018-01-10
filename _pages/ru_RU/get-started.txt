@@ -38,22 +38,22 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 
 ### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
-1. Power off your device
+1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Create a folder named `wiiu` on the root of your SD card
-1. Create a folder named `install` on the root of your SD card
-1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-1. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card
-1. Create a folder named `hbc` in the `/install/` folder on your SD card
-1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
-1. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
+1. Создайте папку `wiiu` в корне SD-карты
+1. Создайте папку `install` в корне SD-карты
+1. Скопируйте папку `apps` из `.zip-архива` с Homebrew App Store в папку `/wiiu/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с Haxchi в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с CBHC в корень вашей SD-карты
+1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
+1. Создайте папку `hbc` в папке `/install/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc/`на SD-карте
+1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
+1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
+1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
 1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
 1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
 1. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
