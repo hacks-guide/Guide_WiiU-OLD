@@ -22,17 +22,17 @@ title: "disc2app"
 
 ### Инструкция
 
-#### Section I - Formatting external drive
+#### Часть I - Форматирование внешнего жесткого диска
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section. If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+Если вы планируете использовать внешний жесткий диск для установки образов дисков, выполните эту часть инструкции. Если вы не планируете использовать внешний жесткий диск, или у вас уже есть отформатированный для Wii U внешний жесткий диск, то пропустите эту часть инструкции.
 {: .notice--info}
 
-This will completely erase the contents of the external hard drive!
+Эти действия полностью уничтожат данные на внешнем жестком диске!
 {: .notice--danger}
 
-1. Plug your USB HDD into your Wii U while it is powered off
-1. Power on your Wii U
-1. Format the external hard drive when prompted
+1. Подключите внешний жесткий диск к Wii U, пока консоль выключена
+1. Включите консоль
+1. Отформатируйте внешний жесткий диск при появлении запроса
 
 #### Section II - Using disc2app
 
