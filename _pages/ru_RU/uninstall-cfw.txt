@@ -4,7 +4,7 @@ title: "Uninstall CFW"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Обязательно к прочтению
 
 This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
 {: .notice--danger}
