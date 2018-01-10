@@ -22,7 +22,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 ### Инструкция
 
 1. Power off your device
-1. Insert your SD card into your computer
+1. Вставьте SD-карту в компьютер
 1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
@@ -38,7 +38,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
   + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
 1. When it has completed, your Wii U will reboot automatically
 1. Power off your device
-1. Insert your SD card into your computer
+1. Вставьте SD-карту в компьютер
 1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
 
 ___
