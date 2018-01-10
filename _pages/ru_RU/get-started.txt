@@ -24,19 +24,19 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 ### Что понадобится
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* Свежая версия [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* Свежая версия [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
+* Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
+* Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
+* Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-### Instructions
+### Инструкция
 
 #### Section I - Prep Work
 
