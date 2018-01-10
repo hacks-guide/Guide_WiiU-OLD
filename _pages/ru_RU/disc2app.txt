@@ -20,7 +20,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 * A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB of free space on your SD card
 
-### Instructions
+### Инструкция
 
 #### Section I - Formatting external drive
 
