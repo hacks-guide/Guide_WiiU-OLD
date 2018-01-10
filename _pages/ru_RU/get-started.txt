@@ -41,7 +41,7 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 #### Section I - Prep Work
 
 1. Power off your device
-1. Insert your SD card into your computer
+1. Вставьте SD-карту в компьютер
 1. Create a folder named `wiiu` on the root of your SD card
 1. Create a folder named `install` on the root of your SD card
 1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
