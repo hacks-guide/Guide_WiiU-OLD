@@ -54,21 +54,21 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
 1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
-1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
-1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с NNU-Patcher в корень вашей SD-карты
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
-#### Section II - DS Virtual Console Game
+#### Часть II - Игра для DS Virtual Console
 
-There are two methods for using Wii U custom firmware.
+Существует два метода использования кастомной прошивки Wii U.
 
-The first method is to run a browser exploit through the browser which will patch the system. Unfortunately, the nature of this exploit is that this *must* be run after every reboot. Additionally, the browser exploit compatible with 5.5.2 is very unreliable making this an even less usable option.
+Первый метод подразумевает запуск через браузер консоли эксплойта, который патчит систему. К сожалению, это придется делать после каждой перезагрузки консоли. Кроме того, эксплойт совместимый с 5.5.2 очень нестабилен и запускается далеко не с первого раза.
 
-The second method is to purchase a very cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
+Второй метод потребует покупки недорогой игры для DS Virtual Console, через которую будет автоматически запускаться кастомная прошивка при загрузке консоли. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
 
 The DS Virtual Console game *must* be a **legitimately purchased** copy of the game installed to the **internal memory** of your device. You *cannot* install this DS Virtual Console game to a USB drive.
 
