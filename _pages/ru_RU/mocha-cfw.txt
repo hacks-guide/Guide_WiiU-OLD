@@ -10,7 +10,7 @@ Mocha CFW is a custom firmware that patches signature checks, region checks, and
 
 In order to boot the patched signature checks and boot patched SysNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
 
-### Instructions
+### Инструкция
 
 1. Launch Mocha CFW
 1. The Mocha CFW configuration menu should load
