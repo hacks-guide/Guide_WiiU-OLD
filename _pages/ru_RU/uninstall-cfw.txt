@@ -12,18 +12,18 @@ This will remove CFW from your Wii U, regardless of install method, for the purp
 If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
 {: .notice--danger}
 
-### Instructions
+### Инструкция
 
 #### Section I - Removal from Wii U
 
 ##### CBHC
 
 1. Launch the Homebrew Launcher Channel
-1. Launch the CBHC installer
+1. Запустите CBHC installer
 1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
 1. Read the warning that appears, then press (B) to uninstall
 1. When it is complete, you will be returned to the system menu
-1. Reboot your Wii U
+1. Перезагрузите Wii U
 1. Go to the System Settings under "Data Management" and delete your DS virtual console game
 1. Reinstall your DS virtual console game from the eShop
 
