@@ -16,7 +16,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 * The latest release of [Hackmii Installer](https://bootmii.org/download/)
 * A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 
-### Instructions
+### Инструкция
 
 #### Section I - Prep Work
 
