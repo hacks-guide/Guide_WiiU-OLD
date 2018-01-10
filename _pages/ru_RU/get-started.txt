@@ -1,27 +1,27 @@
 ---
-title: "Get Started"
+title: "Начало"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
+Следующие шаги подготовят вашу SD-карту к установке кастомной прошивки Coldboot Haxchi.
 
-Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
+Прежде всего, нужно убедиться, что прошивка вашей консоли 5.5.0, 5.5.1 или 5.5.2. Более старые в данный момент не поддерживаются.
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+Рекомендуется использовать SD-карту не менее 16ГБ или 32ГБ, иначе вам не хватит места для дампинга и установки игр. Если вы хотите сделать резервную копию вашей Wii U на случай брика, вам нужна SD-карта как минимум в два раза больше, чем размер внутренней памяти вашей консоли (минимум 16ГБ для белой Wii U 8ГБ; минимум 64ГБ для черной Wii U 32ГБ).
 
-Your SD card must be formatted as FAT32 (64KB clusters if possible). Most SD cards will be formatted this way by default.
+SD-карта должна быть отформатирована в FAT32 (желательно с размером кластера в 64КБ). Большинство SD-карт изначально так и отформатированы.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Если вы планируете форматировать SD-карту в Windows, не используйте встроенную утилиту для форматирования, это в дальнейшем может вызвать проблемы. Вместо этого воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm). Установите "Allocation Unit Size" в "64KB".
 
-Your SD card *cannot* be named `wiiu`, or it will cause problems.
+*Нельзя* называть SD-карту `wiiu`, это приведет к проблемам.
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### Что понадобится
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
