@@ -2,11 +2,11 @@
 title: "disc2app"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+Эта программа позволяет сохранять образы дисков, которые могут быть установлены во внутреннюю память или на жесткий диск и не будут требовать диска для игры.
 
 If you are planning to use an external hard drive to install your dumped discs on, note the following:
 
