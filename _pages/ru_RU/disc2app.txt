@@ -8,17 +8,17 @@ title: "disc2app"
 
 Эта программа позволяет сохранять образы дисков, которые могут быть установлены во внутреннюю память или на жесткий диск и не будут требовать диска для игры.
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+Если вы планируете устанавливать полученные образы на внешний жесткий диск, учтите следующие моменты:
 
-  + You cannot use the same hard drive for vWii and Wii U games.
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
-  + Formatting an external hard drive for use with a Wii U will erase its contents.
-  + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+  + Вы не можете использовать один и тот же жесткий диск для игр vWii и Wii U.
+  + Максимальный объем, который будет доступен для использования на Wii U - 2ТБ, даже если жесткий диск имеет больший объем.
+  + Форматирование внешнего жесткого диска для использования на Wii U приведет к потере всех данных на нем.
+  + Если вы используете внешний жесткий диск без собственного источника питания, вам понадобится [Y-образный кабель](http://amzn.to/2mjQjin).
 
-### What you need
+### Что понадобится
 
-* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB of free space on your SD card
+* Wii U с пропатченным SysNAND (Mocha CFW, Haxchi, CBHC, и т. п.)
+* 25ГБ свободного места на SD-карте
 
 ### Инструкция
 
