@@ -21,7 +21,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 #### Section I - Prep Work
 
 1. Power off your device
-1. Insert your SD card into your computer
+1. Вставьте SD-карту в компьютер
 1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
 1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
 1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
