@@ -36,8 +36,8 @@ CFW можно легко установить на любую консоль л
 
 ## Что устанавливается в этом руководстве?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Конечная цель этого руководства это установка на не взломанную Wii U
+Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемся homebrew как промежуточным шагом для достижения конечной цели - кастомной прошивки.
 
 ## What can I do with Custom Firmware?
 
