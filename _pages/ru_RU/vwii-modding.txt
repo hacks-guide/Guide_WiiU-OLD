@@ -1,49 +1,49 @@
 ---
-title: "vWii Modding"
+title: "Модификация vWii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+Мы установим Homebrew Channel и другие модификации для встроенного в Wii U эмулятора Wii (vWii - virtual Wii).
 
 ### Что понадобится
 
 * [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
 * [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+* Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* Свежая версия [Hackmii Installer](https://bootmii.org/download/)
 * Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
 
 ### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Copy and merge _the contents of_ the WUPhax `.zip` to the root of your SD card
-1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
-1. Copy and merge the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Скопируйте _содержимое_ `.zip-архива` с WUPhax в корень вашей SD-карты
+1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
+1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip` в корень вашей SD-карты
+1. Скопируйте папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
 1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-#### Section II - wuphax
+#### Часть II - wuphax
 
 1. Запустите Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
-1. Launch wuphax
-1. Press (A) to backup your Mii Channel and inject the Hackmii Installer
-1. You will be returned to the Homebrew Launcher on SysNAND
-1. Use the (Home) button to exit to the system menu
-1. Launch vWii
-1. Launch the vWii Mii Channel
-1. If the exploit was successful, you will have entered the Hackmii Installer
-1. Read the scam warning, then press (1) to continue when prompted
-1. Go through the prompts on screen to install the Homebrew Channel to vWii
-1. Go through the prompts to get back to vWii
+  + Если вы еще не выполнили основной гайд и не знаете как это сделать, посмотрите на странице [Homebrew Launcher](homebrew-launcher), а затем продолжайте с этого места.
+1. Запустите wuphax
+1. Нажмите (A) для того, чтобы сделать резервную копию Mii Channel и интегрировать Hackmii Installer
+1. Вы вернетесь обратно в Homebrew Launcher, запущенный из SysNAND
+1. Нажмите (Home), чтобы вернуться в системное меню
+1. Запустите vWii
+1. Запустите Mii Channel в vWii
+1. Если эксплойт сработал корректно, запустится Hackmii Installer
+1. Прочитайте предупреждение и нажмите (1) для продолжения при появлении запроса
+1. Пройдите через подсказки на экране, чтобы установить Homebrew Channel в vWii
+1. Пройдите через подсказки, чтобы вернуться в vWii
 1. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
 1. Return to the system menu, then power off your Wii U
 1. Launch the Homebrew Launcher with the method used earlier in this section
