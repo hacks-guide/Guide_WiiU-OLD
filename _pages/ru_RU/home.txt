@@ -39,11 +39,11 @@ CFW можно легко установить на любую консоль л
 Конечная цель этого руководства это установка на не взломанную Wii U
 Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемся homebrew как промежуточным шагом для достижения конечной цели - кастомной прошивки.
 
-## What can I do with Custom Firmware?
+## Что позволяет кастомная прошивка?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
++ Играть в любые игры, доступные на дисках или в eShop, вне зависимости от региона
++ Делать резервные копии, редактировать и восстанавливать сохранения игр
++ Играть в игры от приставок предыдущих поколений с помощью RetroArch и других эмуляторов.
 + Install homebrew titles to your system, and have them appear on your system menu
 + Dump your discs to a format you can install, and play them without needing the disc
 
