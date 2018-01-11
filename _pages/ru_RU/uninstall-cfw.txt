@@ -50,5 +50,5 @@ title: "Удаление кастомной прошивки"
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+Если вы использовали руководство, в то время, когда в нем устанавливался RedNAND, обратите внимание, что раздел RedNAND на SD-карте не был удален. Для того, чтобы сделать это, воспользуйтесь редактором разделов вашей ОС.
 {: .notice--info}
