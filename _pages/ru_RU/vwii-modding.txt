@@ -67,38 +67,38 @@ title: "Модификация vWii"
 
 #### Часть IV - Установка cIOS
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+Убедитесь, что в корне SD-карты нет папок `wad` или `wads` и что нет никаких `.wad-файлов` нигде, кроме папки `/apps/` на SD-карте.
 {: .notice--warning}
 
-1. Get into the Homebrew Channel on vWii
+1. Запустите Homebrew Channel на vWii
   + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND system menu, then launching the Homebrew Channel
   + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
-1. Launch d2x cIOS Installer
-1. Set the options on the top of the screen to match the following:
+1. Запустите d2x cIOS Installer
+1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
-1. Press (A) to install
-1. Wait for the install to complete, then press (A) to continue
-1. Set the options on the top of the screen to match the following:
+1. Нажмите (A) для установки
+1. Дождитесь окончания установки и нажмите (A) для продолжения
+1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
-1. Press (A) to install
-1. Wait for the install to complete, then press (A) to continue
-1. Set the options on the top of the screen to match the following:
+1. Нажмите (A) для установки
+1. Дождитесь окончания установки и нажмите (A) для продолжения
+1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
-1. Press (A) to install
-1. Wait for the install to complete, then press (B) to exit
+1. Нажмите (A) для установки
+1. Дождитесь окончания установки и нажмите (B) для выхода
 
-#### Section V - Patching IOS80
+#### Часть V - Применение патчей к IOS80
 
-This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.
+Этот шаг брикнет вашу vWii, если по какой-то причине будет прерван в процессе применения патчей (отключение электроэнергии, например). В таком случае для восстановления будет необходима резервная копия NAND vWii. Убедитесь, что она у вас есть, перед тем как начинать.
 {: .notice--danger}
 
-1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
+1. Из Homebrew Channel в vWii, запустите Patched IOS80 Installer for vWii
 1. Read the warning, then wait 30 seconds for it to allow you to continue
 1. Press (A) to install
   + This should be very quick
