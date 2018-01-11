@@ -14,27 +14,27 @@ excerpt: "Полное руководство по прошивке Wii U, <br /
 {: .notice--warning}
 
 {% capture notice-home %}
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+Это руководство применимо _только_ для консолей, продающихся в рознице. Консоли для разработчиков невозможно прошить по этой инструкции!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
+Это руководство нуждается в *вашей* помощи в [переводе](https://translate.wiiu.guide/) на другие языки!
 {: .notice--success}
 
-## What is Homebrew?
+## Что такое Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+Под словом [**Homebrew (хомбрю)**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) (англ.) обычно подразумевают программное обеспечение, не авторизованное Nintendo. В качестве примера можно привести разные самописные игры, программы для бэкапа и редактирования сохранений и эмуляторы консолей предыдущих поколений.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Запуск хомбрю абсолютно бесплатен и не требует ничего, кроме браузера консоли.
 
-## What is Custom Firmware?
+## Что такое кастомная прошивка (CFW)?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Кастомная прошивка** ("CFW", "кастом") позволяет использовать более продвинутые инструменты, чем просто homebrew, существенно дополняя возможности последнего.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW можно легко установить на любую консоль любого региона, находящуюся на последней прошивке.
 
-## What does this guide install?
+## Что устанавливается в этом руководстве?
 
 This guide has the end goal of taking a completely unmodified Wii U from stock
 firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
