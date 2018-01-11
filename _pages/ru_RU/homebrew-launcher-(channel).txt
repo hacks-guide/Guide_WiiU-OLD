@@ -38,14 +38,14 @@ ___
 Помните, что для доступа к eShop с блокирующими обновления адресами DNS, вам необходимо сначала запустить NNU-Patcher из Homebrew Launcher (NNU-Patcher - временный патч, и его нужно запускать после каждой перезагрузки, если вам нужен доступ к eShop).
 {: .notice--info}
 
-Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+Помните, что WUP Installer GX2 сможет устанавливать приложения на USB-носитель только в том случае, если вы перенесете сам WUP Installer GX2 на USB-носитель при помощи меню Управление данными в Системных настройках.
 {: .notice--warning}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Для информации о том, как сохранять игры с дисков в формате, пригодном для установки в систему для последующей игры без диска, перейдите к странице [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+Для информации об установке модов vWii в SysNAND, перейдите к странице [Модификация vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Для информации о безопасном удалении кастомной прошивки и возвращении консоли к заводскому состоянию, перейдите на страницу [Удаление кастомной прошивки](uninstall-cfw).
 {: .notice--warning}
