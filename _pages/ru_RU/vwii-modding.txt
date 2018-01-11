@@ -71,8 +71,8 @@ title: "Модификация vWii"
 {: .notice--warning}
 
 1. Запустите Homebrew Channel на vWii
-  + Haxchi and Homebrew Launcher Mocha CFW users can do this by selecting vWii from the SysNAND system menu, then launching the Homebrew Channel
-  + CBHC Mocha CFW users can do this by holding (B) at boot, then selecting "Boot vWii Homebrew Channel"
+  + Пользователи Haxchi и Mocha CFW, запускающие ее через Homebrew Launcher, могут запускать vWii из SysNAND и уже из нее запускать Homebrew Channel
+  + Пользователи Mocha CFW, запускающие ее из под CBHC, могут зажать кнопку (B) при загрузке системы и выбрать "Boot vWii Homebrew Channel"
 1. Запустите d2x cIOS Installer
 1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
   + Select cIOS : **d2x-v10-beta52-vWii**
