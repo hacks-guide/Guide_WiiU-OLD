@@ -1,45 +1,45 @@
 ---
-title: "Uninstall CFW"
+title: "Удаление кастомной прошивки"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Эта инструкция служит для удаления кастомной прошивки с Wii U, независимо от метода установки, в целях восстановления оригинального состояния консоли.
 {: .notice--danger}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+Если вы использовали руководство, в то время, когда в нем устанавливался RedNAND, помните, что игры и сохранения находятся во внутренней памяти, а не на SD-карте. Следовательно, все игры, а так же их сохранения, установленные после установки RedNAND, будут удалены, останется лишь SysNAND, то есть то, с чего мы начинали!
 {: .notice--danger}
 
 ### Инструкция
 
-#### Section I - Removal from Wii U
+#### Часть I - Удаление из Wii U
 
 ##### CBHC
 
-1. Launch the Homebrew Launcher Channel
+1. Запустите Homebrew Launcher Channel
 1. Запустите CBHC installer
-1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-1. Read the warning that appears, then press (B) to uninstall
+1. Выберите игру для DS virtual console, из которой мы удаляем CBHC, затем нажмите (A) для подтверждения выбора
+1. Ознакомьтесь с появившимся предупреждением и нажмите (B) для удаления
 1. Когда процесс завершится, вы вернетесь в системное меню
 1. Перезагрузите Wii U
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Откройте Системные настройки (System Settings), Управление данными (Data Management) и удалите вашу игру для DS virtual console
+1. Переустановите вашу игру для DS virtual console из eShop
 
 ##### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Откройте Системные настройки (System Settings), Управление данными (Data Management) и удалите вашу игру для DS virtual console
+1. Переустановите вашу игру для DS virtual console из eShop
 
 ##### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Удалите все сделанные вами закладки из браузера Wii U
 
-#### Section II - Removal from SD Card
+#### Часть II - Удаление с SD-карты
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Удалите все файлы и папки из корня SD-карты, *кроме* указанных ниже (некоторых либо всех может на карте не оказаться):**
 
   + DCIM
   + private
