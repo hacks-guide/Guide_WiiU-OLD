@@ -44,7 +44,7 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 + Играть в любые игры, доступные на дисках или в eShop, вне зависимости от региона
 + Делать резервные копии, редактировать и восстанавливать сохранения игр
 + Играть в игры от приставок предыдущих поколений с помощью RetroArch и других эмуляторов.
-+ Install homebrew titles to your system, and have them appear on your system menu
++ Устанавливать homebrew-приложения и делать их доступными прямо из системного меню
 + Dump your discs to a format you can install, and play them without needing the disc
 
 ## What do I need to know before starting?
