@@ -32,7 +32,7 @@ This will allow you to install the Homebrew Channel and other modifications to t
 
 #### Section II - wuphax
 
-1. Launch the Homebrew Launcher
+1. Запустите Homebrew Launcher
   + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
 1. Launch wuphax
 1. Press (A) to backup your Mii Channel and inject the Hackmii Installer
