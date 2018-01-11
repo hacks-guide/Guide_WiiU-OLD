@@ -7,10 +7,10 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Внимательно прочитайте все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
 {% capture notice-home %}
