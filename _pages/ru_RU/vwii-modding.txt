@@ -49,23 +49,23 @@ title: "Модификация vWii"
 1. Запустите Homebrew Launcher методом, использовавшимся ранее на этой странице
 1. Запустите wuphax
 1. Нажмите (B) при появлении запроса, чтобы восстановить Mii Channel
-1. Go through the prompts to get back to vWii
+1. Пройдите через подсказки, чтобы вернуться в vWii
 
-#### Section III - Dumping vWii NAND
+#### Часть III - Снятие образа vWii NAND
 
-This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+Резервная копия NAND поможет восстановить работоспособность vWii в случае, если что-то пойдет не так.
 {: .notice--info}
 
-1. Launch the Homebrew Channel on vWii
-1. Launch Dump Mii NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
-1. When it has completed, your Wii U will reboot automatically
-1. Power off your Wii U
-1. Put your SD card from your Wii U into your computer
-1. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
-1. Delete `nand.bin` and `keys.bin` from the root of your SD card
+1. Запустите Homebrew Channel на vWii
+1. Запустите Dump Mii NAND
+  + Будьте готовы ждать; копирование может занять несколько часов и зависит от скорости доступа к вашей SD-карте
+1. После завершения процесса консоль перезагрузится автоматически
+1. Выключите консоль
+1. Вставьте SD-карту Wii U в компьютер
+1. **Скопируйте `nand.bin` и `keys.bin` из корня SD-карты в надежное место на компьютере и сделайте несколько копий в разных местах (например, в онлайн-хранилище); резервная копия NAND поможет восстановить работоспособность vWii в случае, если что-то пойдет не так**
+1. Удалите `nand.bin` и `keys.bin` из корня SD-карты
 
-#### Section IV - cIOS Installation
+#### Часть IV - Установка cIOS
 
 Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
 {: .notice--warning}
