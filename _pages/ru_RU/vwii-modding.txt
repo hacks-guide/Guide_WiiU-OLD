@@ -44,11 +44,11 @@ title: "Модификация vWii"
 1. Прочитайте предупреждение и нажмите (1) для продолжения при появлении запроса
 1. Пройдите через подсказки на экране, чтобы установить Homebrew Channel в vWii
 1. Пройдите через подсказки, чтобы вернуться в vWii
-1. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
-1. Return to the system menu, then power off your Wii U
-1. Launch the Homebrew Launcher with the method used earlier in this section
-1. Launch wuphax
-1. Press (B) when prompted to restore the Mii Channel
+1. Если эксплойт сработал корректно, в меню vWii появится Homebrew Channel
+1. Вернитесь в системное меню, затем выключите Wii U
+1. Запустите Homebrew Launcher методом, использовавшимся ранее на этой странице
+1. Запустите wuphax
+1. Нажмите (B) при появлении запроса, чтобы восстановить Mii Channel
 1. Go through the prompts to get back to vWii
 
 #### Section III - Dumping vWii NAND
