@@ -2,16 +2,16 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Мы установим Homebrew Channel таким образом, что при запуске пропатченного SysNAND, Homebrew Launcher появится в виде иконки в системном меню.
 
-### Instructions
+### Инструкция
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
+1. Запустите Homebrew Launcher
+  + Пользователи CBHC должны нажать кнопку (Home) во время загрузки CBHC для доступа к меню опций загрузки, где необходимо выбрать Homebrew Launcher
   + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
   + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
 1. Launch WUP Installer GX2
