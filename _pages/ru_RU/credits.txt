@@ -1,8 +1,8 @@
 ---
-title: "Credits"
+title: "Благодарности"
 ---
 
-If we forgot you here, contact us and we'll add your name.
+Если мы кого-то забыли, свяжитесь с нами, и мы добавим ваше имя.
 {: .notice}
 
 {% capture notice-1 %}

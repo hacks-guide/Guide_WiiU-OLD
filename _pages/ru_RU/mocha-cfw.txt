@@ -2,32 +2,32 @@
 title: "Mocha CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Mocha CFW is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Mocha CFW - это кастомная прошивка, которая патчит проверку подписи, проверку региона и запускает различный пользовательский код на фоне работающей прошивки.
 
-In order to boot the patched signature checks and boot patched SysNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+Для загрузки патчей проверки подписи и пропатченного SysNAND каждый раз после перезагрузки консоли будет необходимо запускать Homebrew Launcher и затем Mocha CFW.
 
-### Instructions
+### Инструкция
 
-1. Launch Mocha CFW
-1. The Mocha CFW configuration menu should load
-1. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
+1. Запустите Mocha CFW
+1. Должен появиться экран настройки Mocha CFW
+1. Используя кнопки (ВВЕРХ) и (ВНИЗ) для перемещения по строкам и (ВЛЕВО) и (ВПРАВО) для изменения состояния пункта, выставьте следующие параметры:
   + Config view mode: **default**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
   + Launch System Menu: **on**
   + RedNAND: **off**
-1. Press (A) to confirm and exit
-1. Your Wii U should reboot into the system menu
+1. Нажмите кнопку (A) для подтверждения выбора и выхода из меню
+1. Wii U должна перезагрузиться в системное меню
 
 ___
 
-You will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to enter patched SysNAND.
+Вам придется после каждой перезагрузки запускать Mocha CFW через Homebrew Launcher, чтобы войти в пропатченный SysNAND.
 {: .notice}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

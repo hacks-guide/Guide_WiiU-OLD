@@ -1,83 +1,83 @@
 ---
-title: "Get Started"
+title: "Начало"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
+Следующие шаги подготовят вашу SD-карту к установке кастомной прошивки Coldboot Haxchi.
 
-Before beginning, you should make sure your Wii U is currently on firmware 5.5.0, 5.5.1 or 5.5.2. Older versions aren't currently supported.
+Прежде всего, нужно убедиться, что прошивка вашей консоли 5.5.0, 5.5.1 или 5.5.2. Более старые в данный момент не поддерживаются.
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+Рекомендуется использовать SD-карту не менее 16ГБ или 32ГБ, иначе вам не хватит места для дампинга и установки игр. Если вы хотите сделать резервную копию вашей Wii U на случай брика, вам нужна SD-карта как минимум в два раза больше, чем размер внутренней памяти вашей консоли (минимум 16ГБ для белой Wii U 8ГБ; минимум 64ГБ для черной Wii U 32ГБ).
 
-Your SD card must be formatted as FAT32 (64KB clusters if possible). Most SD cards will be formatted this way by default.
+SD-карта должна быть отформатирована в FAT32 (желательно с размером кластера в 64КБ). Большинство SD-карт изначально так и отформатированы.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Если вы планируете форматировать SD-карту в Windows, не используйте встроенную утилиту для форматирования, это в дальнейшем может вызвать проблемы. Вместо этого воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm). Установите "Allocation Unit Size" в "64KB".
 
-Your SD card *cannot* be named `wiiu`, or it will cause problems.
+*Нельзя* называть SD-карту `wiiu`, это приведет к проблемам.
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### Что понадобится
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* Свежая версия [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* Свежая версия [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* Свежая версия [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
+* Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
+* Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
+* Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-### Instructions
+### Инструкция
 
-#### Section I - Prep Work
+#### Часть I - Подготовительные работы
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Create a folder named `wiiu` on the root of your SD card
-1. Create a folder named `install` on the root of your SD card
-1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-1. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card
-1. Create a folder named `hbc` in the `/install/` folder on your SD card
-1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
-1. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
-1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
-1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Выключите консоль
+1. Вставьте SD-карту в компьютер
+1. Создайте папку `wiiu` в корне SD-карты
+1. Создайте папку `install` в корне SD-карты
+1. Скопируйте папку `apps` из `.zip-архива` с Homebrew App Store в папку `/wiiu/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с Haxchi в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с CBHC в корень вашей SD-карты
+1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
+1. Создайте папку `hbc` в папке `/install/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc/`на SD-карте
+1. Скопируйте папку `WUP_Installer_GX2` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
+1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
+1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
+1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
+1. Скопируйте _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с hid\_to\_vpad в корень вашей SD-карты
+1. Скопируйте _содержимое_ `.zip-архива` с NNU-Patcher в корень вашей SD-карты
+1. Вставьте SD-карту обратно в консоль
+1. Включите консоль
 
-#### Section II - DS Virtual Console Game
+#### Часть II - Игра для DS Virtual Console
 
-There are two methods for using Wii U custom firmware.
+Существует два метода использования кастомной прошивки Wii U.
 
-The first method is to run a browser exploit through the browser which will patch the system. Unfortunately, the nature of this exploit is that this *must* be run after every reboot. Additionally, the browser exploit compatible with 5.5.2 is very unreliable making this an even less usable option.
+Первый метод подразумевает запуск через браузер консоли эксплойта, который патчит систему. К сожалению, это придется делать после каждой перезагрузки консоли. Кроме того, эксплойт совместимый с 5.5.2 очень нестабилен и запускается далеко не с первого раза.
 
-The second method is to purchase a very cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 because of the aforementioned instability with the 5.5.2 browser exploit.
+Второй метод потребует покупки недорогой игры для DS Virtual Console, через которую будет автоматически запускаться кастомная прошивка при загрузке консоли. Этот метод рекомендован для пользователей 5.5.2 из-за нестабильности способа с браузером.
 
-The DS Virtual Console game *must* be a **legitimately purchased** copy of the game installed to the **internal memory** of your device. You *cannot* install this DS Virtual Console game to a USB drive.
+Игра для DS Virtual Console должна быть **законно приобретенной** и установленной во **внутреннюю память** консоли. *Не устанавливайте* игру для DS virtual console на USB-носитель.
 
-If you want to use the DS Virtual Console method, you should purchase the game before proceeding to the next section.
+Если вы планируете использовать метод с игрой DS Virtual Console, то купите её прежде чем переходить к следующей части.
 {: .notice--primary}
 
-The following DS Virtual Console games are compatible:
+Список совместимых игр для DS Virtual Console:
 
-| Compatible Haxchi Games |
+| Игры, совместимые с Haxchi |
 | ------------- |
 | Animal Crossing: Wild World |
 | Big Brain Academy |
@@ -103,30 +103,30 @@ The following DS Virtual Console games are compatible:
 | Yoshi's Island DS |
 | Yoshi's Touch & Go |
 
-Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
+На данный момент, самая дешевая подходящая игра в eShop - Brain Age ($6.99 USD).
 
-If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
+Если у вас уже есть купленная установленная копия Brain Age или Brain Training на консоли, удалите ее и переустановите из eShop. Старые версии игры не совместимы с эксплойтом.
 
-#### Section III - Block System Updates
+#### Часть III - Блокировка обновления системы
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Обратите внимание, что для доступа к eShop с этими адресами DNS вам необходимо сначала запустить NNU-Patcher из Homebrew Launcher. Помните также, что NNU-Patcher - временный патч, который необходимо запускать после каждой перезагрузки, если вам нужен доступ к eShop.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Обратите внимание, что если вы не заблокируете обновления этим методом на текущем и всех будущих интернет-соединениях, то все обновления для Wii U будут скачиваться и устанавливаться *автоматически* без вашего ведома и *не могут* быть отключены. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Перейдите в Системные настройки (System Settings), Интернет (Internet), Подключение к Интернету (Connect to the Internet), нажмите (X) для того, чтобы отобразить имеющиеся подключения
+1. Для каждого из имеющихся подключений (и для всех созданных в будущем) выполните следующие инструкции
+  + Выберите подключение
+  + Выберите "Изменить настройки" (Change Settings)
+  + Перейдите на вторую страницу и выберите "DNS"
+  + В пункте меню DNS выберите "Не получать автоматически" (Don't Auto-Obtain)
+  + Введите указанные ниже адреса DNS
   + `168.235.092.108`
   + `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your SysNAND from being updated
+  + Нажмите "Подтвердить" (Confirm), а затем (B), чтобы сохранить внесенные изменения
+  + Эти сервера заблокируют получение обновлений SysNAND на Wii U
 
 ___
 
-Continue to [Homebrew Launcher](homebrew-launcher)
+Следующий шаг: [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

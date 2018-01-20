@@ -25,15 +25,15 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* L'ultima versione di [WUP Installer GX2 (Homebrew Launcher)(http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* L'ultima versione di [WUP Installer GX2 (Canale)] (http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
+* L'ultima versione di [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* L'ultima versione di [WUP Installer GX2 (Canale)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * L'ultima versione di [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
 * L'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
 * L'ultima versione di [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * L'ultima versione dell'[Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(l'archivio `.zip` del canale)*
-* Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip`del Launcher)*
-* L'ultima versione di [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi gli archivi`.zip`)*
+* Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip` del Launcher)*
+* L'ultima versione di [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi gli archivi `.zip`)*
 * L'ultima versione di [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Istruzioni

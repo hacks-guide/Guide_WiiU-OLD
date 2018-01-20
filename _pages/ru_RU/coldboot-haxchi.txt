@@ -4,79 +4,79 @@ title: "Coldboot Haxchi"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the system menu, which will then load patched SysNAND.
+CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по умолчанию при старте SysNAND, на игру для DS virtual console, которая затем запускает пропатченный SysNAND.
 
-This page is optional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Выполнение инструкций на этой странице не обязательно. Обычный Haxchi прекрасно работает; станет просто слегка удобней. Если вы хотите пропустить установку Coldboot Haxchi, переходите к [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
-You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
+Для продолжения необходимо иметь функционирующий Haxchi. Без него получите гарантированный БРИК!
 
-Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
+Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА находится во внутренней памяти Wii U. Если она находится на USB-носителе, гарантированно получите БРИК!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА быть ЛЕГАЛЬНОЙ копией, в иных случаях вы гарантированно получите БРИК!
 
-You must remove all USB devices before installing or you may BRICK!
+Все USB-устройства должны быть отключены перед установкой, иначе есть шанс получить БРИК!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Instructions
+### Инструкция
 
-1. Remove all USB devices from your Wii U
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, you should be back at the system menu
-1. You may reconnect any USB devices that were disconnected earlier.
-1. Reboot your Wii U
-1. If the exploit was successful, you will see a menu appear with various boot options
-1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
-1. Press (A) on "Boot System Menu"
-1. Reboot your Wii U to ensure the exploit works automatically as intended
-1. Move the CBHC DS virtual console game to the last page of the system menu
-  + Read the warnings at the bottom of this page carefully to avoid bricking your device!
+1. Отключите все USB-устройства от Wii U
+1. Войдите в Homebrew Launcher, удерживая (A) во время запуска игры для DS virtual console с установленным Haxchi
+1. Запустите CBHC installer
+1. Выберите игру для DS virtual console, в которую вы собираетесь установить CBHC, затем нажмите (A) для подтверждения
+  + **Игра уже ДОЛЖНА содержать установленный и работающий Haxchi**
+1. Ознакомьтесь с появившимся предупреждением и нажмите (A) для установки
+1. После окончания процесса вы вернетесь в системное меню
+1. Вы можете подсоединить обратно все USB-устройства, которые были отключены раннее.
+1. Перезагрузите Wii U
+1. Если эксплойт сработал корректно, вы увидите меню с различными опциями загрузки
+1. Наведите курсор на **"Autoboot: Disabled"** и нажимайте (A) до тех пор, пока надпись не поменяется на **"Autoboot: System Menu"**
+1. Нажмите (A) на пункте "Boot System Menu"
+1. Перезагрузите консоль, чтобы убедиться, что эксплойт срабатывает автоматически в соответствии с настройками
+1. Переместите игру для DS virtual console с установленным CBHC на последнюю страницу системного меню
+  + Внимательно прочитайте предупреждения внизу этой страницы. Это поможет вам уберечь консоль от брика!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Ваша консоль теперь автоматически должна запускать пропатченный SysNAND при каждой загрузке.
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Нажатие кнопки (Home) во время загрузки CBHC вызовет меню опций загрузки. Ниже краткое описание всех опций:
 
-  + Boot System Menu -> Boots into SysNAND
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-  + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
-  + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-  + Boot vWii System Menu -> Boots into vWii on SysNAND
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
+  + Boot System Menu -> Загрузиться в SysNAND
+  + Boot Homebrew Launcher -> Загрузиться в Homebrew Launcher в SysNAND
+  + Boot Mocha CFW -> Загрузиться в Mocha CFW в RedNAND
+  + Boot fw.img on SD Card -> Загрузить старую CFW из файла fw.img из корня SD-карты
+  + Boot vWii System Menu -> Загрузиться в vWii в SysNAND
+  + Boot vWii Homebrew Channel -> Загрузиться в vWii Homebrew Channel в SysNAND
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-You may reconnect any USB devices after the installation has completed.
+Вы можете подсоединить обратно все USB-устройства после завершения установки.
 {: .notice--info}
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+**Никогда не удаляйте игру для DS virtual console с установленным CBHC, иначе получите БРИК.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game from the eShop or you will BRICK.**
+**Никогда не переустанавливайте игру для DS virtual console с установленным CBHC через eShop, иначе получите БРИК.**
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+**Никогда не перемещайте игру для DS virtual console с установленным CBHC на USB-носитель, иначе получите БРИК.**
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**Никогда не удаляйте пользовательский NNID аккаунт, через который была куплена игра для DS virtual console с установленным CBHC, иначе получите БРИК!**
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**Никогда не форматируйте консоль, пока на ней установлен CBHC, иначе получите БРИК!**
 {: .notice--danger}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

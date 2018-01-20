@@ -2,36 +2,36 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+В этом разделе рассказывается о том, как проверить SD-карту на ошибки с помощью F3X.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Этот раздел предназначен для пользователей Mac. Если у вас не Mac, воспользуйтесь [H2testw (windows)](h2testw-(windows)) или [F3 (Linux)](f3-(linux)).
 
-### What you need
+### Что понадобится
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* Свежая версия [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### Инструкция
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Разархивируйте `.zip-архив` с F3X
+1. Вставьте SD-карту в компьютер
+1. Запустите F3X
+1. Выберите вашу SD-карту
+1. Нажмите "Start Test"
+1. Дождитесь окончания процесса.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+Если в результате тестирования вы видите `Success! Your card is ok!`, ваша карта в порядке. Можете удалить все файлы с расширением `.h2w` на SD-карте
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-Return to [Get Started](get-started)
+Вернитесь к [Началу](get-started)
 {: .notice--primary}
