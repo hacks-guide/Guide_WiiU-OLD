@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "Навигация по сайту" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Все**
 
 + [Coldboot Haxchi](coldboot-haxchi)
-+ [Credits](credits)
++ [Благодарности](credits)
 + [disc2app](disc2app)
-+ [Donations](donations)
++ [Пожертвования](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [Get Started](get-started)
++ [Вопросы и ответы](faq)
++ [Начало](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Главная](/)
 + [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
-+ [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [Удаление кастомной прошивки](uninstall-cfw)
++ [Модификация vWii](vwii-modding)
++ [Зачем реклама?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

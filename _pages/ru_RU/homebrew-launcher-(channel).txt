@@ -2,50 +2,50 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Содержание" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Мы установим Homebrew Channel таким образом, что при запуске пропатченного SysNAND, Homebrew Launcher появится в виде иконки в системном меню.
 
-### Instructions
+### Инструкция
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
-1. Launch WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
-1. Select the Homebrew Channel
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Select WUP Installer GX2
-1. Press "Install", then press "Yes" to confirm
-1. If you plan to install games to a USB HDD, select "USB" as the destination; if you do not plan to use a USB HDD, select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. Запустите Homebrew Launcher
+  + Пользователи CBHC должны нажать кнопку (Home) во время загрузки CBHC для доступа к меню опций загрузки, где необходимо выбрать Homebrew Launcher
+  + Пользователи Haxchi должны сначала запустить Haxchi, чтобы пропатчить SysNAND, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
+  + Пользователи Mocha CFW должны сперва запустить Mocha CFW, а затем перезапустить Homebrew Launcher
+1. Запустите WUP Installer GX2
+  + Если WUP Installer GX2 падает с ошибкой "DSi Exception Has Occurred", перезапустите консоль и попробуйте заново.
+1. Выберите Homebrew Channel
+1. Нажмите "Install" для установки, затем "Yes" для подтверждения
+1. Выберите "NAND" в качестве места установки
+1. Выберите WUP Installer GX2
+1. Нажмите "Install" для установки, затем "Yes" для подтверждения
+1. Если вы планируете устанавливать игры на USB HDD, выберите "USB" в качестве места установки; если вы не планируете использовать USB HDD, выберите "NAND"
+1. Нажмите (Home) и выберите Закрыть программу, чтобы выйти из установщика после завершения установки
 
 ___
 
-You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
+Теперь вы можете запускать Homebrew Launcher из пропатченного SysNAND, просто воспользовавшись Homebrew Channel.
 {: .notice}
 
-You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+Теперь вы можете запускать WUP Installer GX2 из пропатченного SysNAND, используя иконку в системном меню.
 {: .notice}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+В целях безопасности крайне *желательно* выполнить резервное копирование NAND, следуя [инструкции](nand-backup).
 {: .notice--primary}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Помните, что для доступа к eShop с блокирующими обновления адресами DNS, вам необходимо сначала запустить NNU-Patcher из Homebrew Launcher (NNU-Patcher - временный патч, и его нужно запускать после каждой перезагрузки, если вам нужен доступ к eShop).
 {: .notice--info}
 
-Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+Помните, что WUP Installer GX2 сможет устанавливать приложения на USB-носитель только в том случае, если вы перенесете сам WUP Installer GX2 на USB-носитель при помощи меню Управление данными в Системных настройках.
 {: .notice--warning}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Для информации о том, как сохранять игры с дисков в формате, пригодном для установки в систему для последующей игры без диска, перейдите к странице [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+Для информации об установке модов vWii в SysNAND, перейдите к странице [Модификация vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Для информации о безопасном удалении кастомной прошивки и возвращении консоли к заводскому состоянию, перейдите на страницу [Удаление кастомной прошивки](uninstall-cfw).
 {: .notice--warning}

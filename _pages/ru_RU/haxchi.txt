@@ -4,40 +4,40 @@ title: "Haxchi"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Обязательно к прочтению
 
-Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi - это кастомная прошивка, которая патчит проверку подписи, проверку региона и запускает различный пользовательский код на фоне работающей прошивки.
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi - это эксплойт, который позволяет нам запускать CFW напрямую из системного меню без использования Homebrew Launcher.
 
-### What you need
+### Что понадобится
 
-+ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
-  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
++ Купленная копия одной из совместимых с эксплойтом игр для DS virtual console, установленная во внутреннюю память Wii U
+  + Если у вас еще нет совместимой с эксплойтом игры, вернитесь к [Началу](get-started)
 
-### Instructions
+### Инструкция
 
-1. Launch the Haxchi Installer
-1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
-1. The console will reboot into patched SysNAND
-  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+1. Запустите Haxchi Installer
+1. Выберите игру для DS virtual console, в которую вы собираетесь установить Haxchi, затем нажмите (A) для подтверждения
+1. Ознакомьтесь с появившимся предупреждением и нажмите (A) для установки
+1. После окончания процесса, запустите вашу игру для DS virtual console (будет называться "Haxchi")
+1. Консоль перезагрузится в пропатченный SysNAND
+  + Вы сможете запускать неподписанные приложения (например homebrew channel или резервные копии игр) прямо из системного меню
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
+В данный момент для загрузки пропатченного SysNAND вам после каждой перезагрузки нужно запускать игру для DS virtual console. На следующей странице мы установим CBHC (Coldboot Haxchi), который автоматизирует этот процесс.
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**Вы можете удерживать различные кнопки при запуске игры для DS virtual console чтобы изменить опции загрузки. Ниже краткое описание всех опций:**
 
-  + None -> Boots into patched SysNAND
-  + (A) -> Boots into the Homebrew Launcher
+  + Нет -> Загрузка в пропатченный SysNAND
+  + (A) -> Загрузка в Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+Следующий шаг: [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
