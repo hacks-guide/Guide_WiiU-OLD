@@ -29,5 +29,5 @@ ___
 Se vuoi entrare nella SysNAND patchata, dovrai avviare Mocha CFW dall'Homebrew Launcher ogni volta che riavvii la console.
 {: .notice}
 
-Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher- (channel)).
+Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
 {: .notice--primary}
