@@ -66,7 +66,7 @@ ___
 **Никогда не удаляйте игру для DS virtual console с установленным CBHC, иначе получите БРИК.**    
 {: .notice--danger}
 
-**Никогда не переустанавливайте игру для DS virtual console с установленным CBHC через eShop, иначе получите БРИК.**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **Никогда не перемещайте игру для DS virtual console с установленным CBHC на USB-носитель, иначе получите БРИК.**
