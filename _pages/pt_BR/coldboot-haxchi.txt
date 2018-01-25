@@ -66,7 +66,7 @@ Você pode reconectar todos os dispositivos USB após a conclusão da instalaç�
 **Nunca desinstale o jogo de DS do Virtual Console do CBHC ou você irá BRICKAR.**    
 {: .notice--danger}
 
-**Nunca reinstale o jogo de DS do Virtual Console do CBHC no eShop ou você irá BRICKAR.**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **Nunca mova o jogo de DS do Virtual Console do CBHC para um drive USB ou você irá BRICKAR.**
