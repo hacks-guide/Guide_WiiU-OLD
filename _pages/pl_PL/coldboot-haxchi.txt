@@ -66,7 +66,7 @@ You may reconnect any USB devices after the installation has completed.
 **Never uninstall the CBHC DS virtual console game or you will BRICK.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game from the eShop or you will BRICK.**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
