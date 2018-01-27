@@ -66,7 +66,7 @@ Du kan återansluta alla USB-enheter igen efter installationen är klar.
 **Avinstallera aldrig DS virtual console-spelet som använts för CBHC, annars kommer du BRICKA enheten.**    
 {: .notice--danger}
 
-**Ominstallera aldrg DS virtual console-spelet som använts för CBHC från eShopen, annars kommer du BRICKA enheten.**
+**Ominstallera aldrg DS virtual console-spelet som använts för CBHC, annars kommer du BRICKA enheten.**
 {: .notice--danger}
 
 **Flytta aldrig DS virtual console-spelet som använts för CBHC till en USB-enhet, annars kommer du BRICKA enheten.**

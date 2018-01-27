@@ -66,7 +66,7 @@ Nach dem Abschluss der Installation kannst du die zuvor entfernten USB Geräte w
 **Deinstalliere niemals das CBHC DS virtual console Spiel oder du erzeugst ein BRICK.**    
 {: .notice--danger}
 
-**Installiere niemals das CBHC DS virtual console Spiel aus dem eShop oder du erzeugst ein BRICK.**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **Verschiebe niemals das CBHC DS virtual console Spiel auf ein USB Laufwerk oder du erzeugst ein BRICK.**
