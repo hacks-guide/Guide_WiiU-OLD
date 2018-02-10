@@ -19,7 +19,7 @@ excerpt: "Полное руководство по прошивке Wii U, <br /
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-Это руководство нуждается в *вашей* помощи в [переводе](https://translate.wiiu.guide/) на другие языки!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## Что такое Homebrew?
