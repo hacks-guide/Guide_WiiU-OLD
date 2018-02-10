@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Guide" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,11 +13,8 @@ excerpt: "Полное руководство по прошивке Wii U, <br /
 Внимательно прочитайте все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
-{% capture notice-home %}
 Это руководство применимо _только_ для консолей, продающихся в рознице. Консоли для разработчиков невозможно прошить по этой инструкции!
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+{: .notice--danger}
 
 This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
