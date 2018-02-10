@@ -19,7 +19,7 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-本指南正缺乏翻譯人員，請*您*幫助我們[翻譯](https://translate.wiiu.guide/)本網站成您的母語!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## 什麼是自製程式？
