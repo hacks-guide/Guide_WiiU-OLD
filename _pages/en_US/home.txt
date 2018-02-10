@@ -19,7 +19,7 @@ This guide is for retail (consumer purchased; not from the Nintendo Developer Pr
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-This guide needs *your* help to [translate](https://translate.wiiu.guide/) it to other languages!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## What is Homebrew?
