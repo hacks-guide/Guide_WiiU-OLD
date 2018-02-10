@@ -17,9 +17,9 @@ excerpt: "Полное руководство по прошивке Wii U, <br /
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Это руководство доступно на других языках!    
+Нажмите на значок <i class="fa fa-language" aria-hidden="true"></i> в правом верхнем углу страницы, чтобы изменить язык.    
+Или же нажмите [сюда](https://crowdin.com/project/wii-u-guide), чтобы помочь поддерживать перевод в актуальном состоянии.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>

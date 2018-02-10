@@ -2,7 +2,7 @@
 title: "Благодарности"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+**Отдельное спасибо всем [переводчикам](https://crowdin.com/project/wii-u-guide) за их работу!**
 {: .notice--primary}
 
 Если мы кого-то забыли, свяжитесь с нами, и мы добавим ваше имя.
