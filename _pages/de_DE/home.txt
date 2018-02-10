@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Anleitung" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,11 +13,8 @@ excerpt: "Eine vollständige Anleitung für Wii U Custom Firmware<br />vom Origi
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--warning}
 
-{% capture notice-home %}
 **Diese Anleitung ist _nur_ für Handelsübliche Konsolen (vom Endnutzer im Handel erworben; nicht aus dem Nintendo Entwickler Programm bezogen) gedacht!
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+{: .notice--danger}
 
 This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
