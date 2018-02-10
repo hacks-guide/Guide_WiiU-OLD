@@ -19,7 +19,7 @@ Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Devel
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-*Din* hjälp behövs för att [översätta](https://translate.wiiu.guide/) den här guiden till olika språk!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## Vad är Homebrew?
