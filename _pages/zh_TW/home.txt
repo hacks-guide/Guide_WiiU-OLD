@@ -16,8 +16,13 @@ Thoroughly read all of the introductory pages (including this one!) before proce
 此指南 _僅_ 適用於零售機使用 (透過正常管道購買；非任天堂開發者計畫所取得的主機)！
 {: .notice--danger}
 
-This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
-{: .notice--success}
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+{% endcapture %}
+
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ## 什麼是自製程式？
 
