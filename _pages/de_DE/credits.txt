@@ -2,8 +2,10 @@
 title: "Danksagung"
 ---
 
+**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+{: .notice--primary}
+
 Falls du hier nicht aufgeführt bist, kontaktiere uns und wir werden deinen Namen hinzufügen.
-{: .notice}
 
 {% capture notice-1 %}
 

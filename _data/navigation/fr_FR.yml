@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Wii U Guide
+    title: Wii U
     url: /
   - 
     title: FAQ
@@ -31,7 +31,7 @@ bottom:
   - 
     title: Pour le support en Anglais, demander de l'aide sur <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
-    title: Si vous appréciez ce guide, nous acceptons <a href="donations">Donations</a> par <a href="https://www.paypal.me/plailectguides/15">PayPal (Plailect)</a> ou <a href="bitcoin:1Ad3PnU6TmJxvJ62LobgMw5uT8hR1LQety">Bitcoin (Plailect)</a> ou <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted">Paypal (FlimFlam69)</a>.
+    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
 footer:
   - 
     title: Source

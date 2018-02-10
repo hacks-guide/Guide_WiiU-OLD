@@ -66,7 +66,7 @@ ___
 **千萬不要刪除 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**    
 {: .notice--danger}
 
-**千萬不要從 eShop 上重新安裝 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **千萬不要將 CBHC 改後的 DS 虛擬主機遊戲移至 USB 裝置上，否則－保。證。磚。機。**

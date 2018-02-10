@@ -66,7 +66,7 @@ Dopo aver finito l'installazione puoi collegare senza problemi qualsiasi disposi
 **Non disinstallare il gioco DS della Virtual Console sul quale hai installato CBHC o BRICKERAI.**    
 {: .notice--danger}
 
-**Non reinstallare il gioco DS della Virtual Console sul quale hai installato CBHC o BRICKERAI.**
+**Never reinstall the CBHC DS virtual console game or you will BRICK.**
 {: .notice--danger}
 
 **Non spostare il gioco DS della Virtual Console sul quale hai installato CBHC su una chiavetta USB o BRICKERAI.**

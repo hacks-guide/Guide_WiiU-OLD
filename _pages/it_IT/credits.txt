@@ -2,8 +2,10 @@
 title: "Riconoscimenti"
 ---
 
+**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+{: .notice--primary}
+
 Se abbiamo dimenticato di inserirti in questa lista, contattaci e ti aggiungerò.
-{: .notice}
 
 {% capture notice-1 %}
 

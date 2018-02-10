@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Guida Wii U" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,14 +13,16 @@ excerpt: "La guida omnicomprensiva per installare un custom firmware su Wii U, <
 Leggi attentamente tutte le pagine introduttive (compresa questa!) prima di continuare.
 {: .notice--warning}
 
-{% capture notice-home %}
 Questa guida è riservata _solamente_ alle console retail (cioè quelle acquistate in negozio, non quelle ottenute tramite il Nintendo Developer Program)!
+{: .notice--danger}
+
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
 {% endcapture %}
 
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
-
-La guida ha bisogno di *te* per [essere tradotta](https://translate.wiiu.guide/) in altre lingue!
-{: .notice--success}
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ## Cosa vuol dire Homebrew?
 

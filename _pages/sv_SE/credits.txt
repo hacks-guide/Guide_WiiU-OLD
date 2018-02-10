@@ -2,8 +2,10 @@
 title: "Tack till"
 ---
 
+**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+{: .notice--primary}
+
 Om vi glömt dig i listan, kontakta oss så lägger vi till ditt namn.
-{: .notice}
 
 {% capture notice-1 %}
 

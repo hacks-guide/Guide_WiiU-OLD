@@ -2,8 +2,10 @@
 title: "Créditos"
 ---
 
+**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+{: .notice--primary}
+
 Si te olvidamos, puedes contactarnos para añadir tu nombre.
-{: .notice}
 
 {% capture notice-1 %}
 
