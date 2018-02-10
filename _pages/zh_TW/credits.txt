@@ -2,8 +2,10 @@
 title: "製作群"
 ---
 
+**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+{: .notice--primary}
+
 如果我們忘記把您加進來的話，請與我們聯繫。
-{: .notice}
 
 {% capture notice-1 %}
 

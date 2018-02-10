@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Guide" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,14 +13,16 @@ excerpt: "Полное руководство по прошивке Wii U, <br /
 Внимательно прочитайте все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
-{% capture notice-home %}
 Это руководство применимо _только_ для консолей, продающихся в рознице. Консоли для разработчиков невозможно прошить по этой инструкции!
+{: .notice--danger}
+
+{% capture notice-1 %}
+This guide is available in other languages!    
+Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.
+Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
 {% endcapture %}
 
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
-
-Это руководство нуждается в *вашей* помощи в [переводе](https://translate.wiiu.guide/) на другие языки!
-{: .notice--success}
+<div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ## Что такое Homebrew?
 
