@@ -19,7 +19,7 @@ Questa guida è riservata _solamente_ alle console retail (cioè quelle acquista
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-La guida ha bisogno di *te* per [essere tradotta](https://translate.wiiu.guide/) in altre lingue!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## Cosa vuol dire Homebrew?
