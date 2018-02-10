@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U 改機手冊" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,11 +13,8 @@ excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--warning}
 
-{% capture notice-home %}
 此指南 _僅_ 適用於零售機使用 (透過正常管道購買；非任天堂開發者計畫所取得的主機)！
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+{: .notice--danger}
 
 This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
