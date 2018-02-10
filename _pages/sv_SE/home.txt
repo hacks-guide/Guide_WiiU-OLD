@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Guide" #
+title: "Wii U Hacks Guide" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -13,11 +13,8 @@ excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii
 Läs noggrant alla inledande sidor (inklusive denna!) innan du fortsätter.
 {: .notice--warning}
 
-{% capture notice-home %}
 Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Developer Program)!
-{% endcapture %}
-
-<div class="notice--danger">{{ notice-home | markdownify }}</div>
+{: .notice--danger}
 
 This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
