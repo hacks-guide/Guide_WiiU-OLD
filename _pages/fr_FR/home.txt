@@ -19,7 +19,7 @@ Ce guide est destiné aux consoles grand public (achetées par un consommateur; 
 
 <div class="notice--danger">{{ notice-home | markdownify }}</div>
 
-Ce guide a besoin de *votre* aide afin d'être [traduit](https://translate.wiiu.guide/) dans d'autres langues!
+This guide needs *your* help to [translate](https://crowdin.com/project/wii-u-guide) it to other languages!
 {: .notice--success}
 
 ## Qu'est-ce que les Homebrews?
