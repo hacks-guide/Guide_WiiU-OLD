@@ -17,9 +17,9 @@ Den här guiden är _endast_ för butiksköpta konsoler (ej från Nintendo Devel
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Denna guide är tillgänglig på andra språk!    
+Klicka på <i class="fa fa-language" aria-hidden="true"></i>-ikonen längst upp till höger på sidan för att byta språk.    
+Alternativt, klicka [här](https://crowdin.com/project/wii-u-guide) för att hjälpa till att hålla översättningarna uppdaterade.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
