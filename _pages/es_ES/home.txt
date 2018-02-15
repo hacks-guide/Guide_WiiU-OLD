@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Guía de hackeo para Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -17,9 +17,9 @@ Lee detenidamente todas las páginas de introducción (incluido ésta) antes de 
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+¡Esta guía está disponible en otros idiomas!    
+Haz clic en el ícono <i class="fa fa-language" aria-hidden="true"></i> en la parte superior derecha de la página para cambiar el idioma.    
+Alternativamente, haz clic [aquí](https://crowdin.com/project/wii-u-guide) para ayudarnos a mantener estas traducciones actualizadas.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
