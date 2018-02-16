@@ -2,7 +2,7 @@
 title: "Créditos"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+**¡Agradecimientos especiales a todos [los traductores](https://crowdin.com/project/wii-u-guide) por ser asombrosos!**
 {: .notice--primary}
 
 Si te olvidamos, puedes contactarnos para añadir tu nombre.
