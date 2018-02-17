@@ -128,5 +128,5 @@ Note that, unless you block updates with this method on all current and future c
 
 ___
 
-Continue to [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

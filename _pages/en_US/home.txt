@@ -60,5 +60,5 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
