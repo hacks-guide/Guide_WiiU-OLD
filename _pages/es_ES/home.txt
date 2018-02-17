@@ -26,7 +26,7 @@ Alternativamente, haz clic [aquí](https://crowdin.com/project/wii-u-guide) para
 
 ## ¿Qué es Homebrew?
 
-[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. Esto te permite ejecutar varios juegos caseros, herramientas para editar y respaldar partidas y emuladores de varios sistemas antiguos.
+[**Homebrew**](https://es.wikipedia.org/wiki/Homebrew) suele referirse a software no autorizado por Nintendo. This includes homebrew tools, applications, games, and emulators.
 
 Ejecutar homebrew en tu consola es 100% gratuito usando nada más que el navegador de internet de la consola.
 
