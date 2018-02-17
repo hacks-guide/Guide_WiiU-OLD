@@ -21,7 +21,7 @@ Your SD card *cannot* be named `wiiu`, or it will cause problems.
 Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
