@@ -39,21 +39,21 @@ CFW poate fi pus cu ușurință în orice consolă, în orice regiune pe ultima 
 ## Ce instalează acest ghid?
 
 Acest ghid are ca scop transformarea unui Wii U complet nemodificat din firmware
-stoc în Coldboot Haxchi pornind Custom Firmware Mocha. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+stoc în Coldboot Haxchi pornind Custom Firmware Mocha. Se folosește homebrew ca punct de plecare, dar Custom Firmware rămâne ținta.
 
-## What can I do with Custom Firmware?
+## Ce pot face cu Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your system menu
-+ Dump your discs to a format you can install, and play them without needing the disc
++ Puteți juca toate discurile de joc și jocurile din eShop, indiferent de regiunea lor
++ Puteți salva, edita și recupera progresul din mai multe jocuri
++ Puteți juca jocuri pentru console mai vechi prin intermediul emulatoarelor, folosind RetroArch sau altele.
++ Puteți instala titluri homebrew pe sistemul dumneavoastră și să apară în meniul sistemului.
++ Puteți să vă copiați jocurile de pe disc într-un format care va permite să le instalați și să le jucați fără să aveți nevoie de el
 
-## What do I need to know before starting?
+## Ce trebuie să știu înainte să încep?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
++ **Inainte să începeți acest ghid, trebuie să știți riscurile modării unui Wii U: DE FIECARE DATĂ când vă modificați sistemul, există întotdeauna potențialul de a face un brick IRECUPERABIL (sistemul va rămâne neutilizabil). They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
++ Acest ghid va funcționa cu toate consolele Wii U din toate regiunile rulând versiunile de la 5.5.0 la 5.5.2.
++ Dacă totul merge așa cum trebuie, nu o să pierdeți nimic și o să ajungeți să aveți toate lucrurile cu care ați început (jocurile, NNID, salvările, etc. vor fi păstrate).
 + Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
 + If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
