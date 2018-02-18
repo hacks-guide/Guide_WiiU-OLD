@@ -60,5 +60,5 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
