@@ -60,5 +60,5 @@ Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist, um g
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
