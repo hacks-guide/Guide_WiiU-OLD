@@ -10,7 +10,7 @@ Haxchi è un custom firmware che patcha i controlli sulle firme, i controlli sul
 
 Haxchi è un exploit che ci permette di avviare il CFW direttamente dal menu di sistema senza usare l'Homebrew Launcher.
 
-### What You Need
+### Cosa serve
 
 + Una copia legittima di uno dei giochi DS della Virtual Console exploitabili installati nella memoria interna della Wii U
   + Se non hai un gioco exploitabile installato, vedi alla pagina [Cominciamo!](get-started)
@@ -39,5 +39,5 @@ Attualmente dovrai avviare il gioco DS della Virtual Console ogni volta che riav
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### Prosegui con [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
