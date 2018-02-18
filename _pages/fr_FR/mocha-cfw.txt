@@ -29,5 +29,5 @@ ___
 Vous devrez lancer Mocha CFW depuis le Homebrew Launcher chaque fois que vous redémarrez afin d'entrer dans la SysNAND patché.
 {: .notice}
 
-Continuez vers [Homebrew Launcher (Chaîne)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
