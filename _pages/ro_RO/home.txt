@@ -7,39 +7,39 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Un ghid complet spre firmware personalizat pentru Wii U,<br />de la stoc la Coldboot Haxchi.<br />" #
 ---
 
 Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de a continua.
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+Acest ghid este NUMAI pentru consolele cumpărate din magazin (nu se aplică pentru cele din Nintendo Developer Program)!
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Acest ghid este disponibil în alte limbi!    
+Faceţi clic pe iconița <i class="fa fa-language" aria-hidden="true"></i> în partea de sus dreapta a paginii pentru a schimba limba.    
+Opțional, apăsați [aici](https://crowdin.com/project/wii-u-guide) pentru a ajuta spre menține traducerile la zi.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Ce este Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Pornind homebrew pe consolă este 100 % gratuit folosind doar browserul de sistem.
 
-## What is Custom Firmware?
+## Ce este Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW poate fi pus cu ușurință în orice consolă, în orice regiune pe ultima versiune.
 
-## What does this guide install?
+## Ce instalează acest ghid?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Acest ghid are ca scop transformarea unui Wii U complet nemodificat din firmware
+stoc în Coldboot Haxchi pornind Custom Firmware Mocha. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
 
 ## What can I do with Custom Firmware?
 
