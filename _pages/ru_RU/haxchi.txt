@@ -39,5 +39,5 @@ ___
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Следующий шаг: [Coldboot Haxchi](coldboot-haxchi).
+### Следующий шаг: [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

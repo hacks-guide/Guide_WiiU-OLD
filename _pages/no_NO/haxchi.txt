@@ -10,7 +10,7 @@ Haxchi is a custom firmware that patches signature checks, region checks, and ru
 
 Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
 
-### What you need
+### What You Need
 
 + A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
   + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
@@ -39,5 +39,5 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continue to [Coldboot Haxchi](coldboot-haxchi).
+### Continue to [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

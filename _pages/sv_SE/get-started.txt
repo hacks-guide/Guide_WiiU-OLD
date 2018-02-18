@@ -21,7 +21,7 @@ Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kort genom att köra [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), eller [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### Vad du behöver
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande
 
 ___
 
-Fortsätt till [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

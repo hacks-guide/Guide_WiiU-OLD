@@ -12,7 +12,7 @@ Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp til
 
 Den här sidan är enbart för Windows-användare. Om du inte använder Windows kan du gå till sidorna för [F3 (Linux)](f3-(linux)) eller [F3X (Mac)](f3x-(mac)).
 
-### Vad du behöver
+### What You Need
 
 * Senaste versionen av [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
@@ -36,5 +36,5 @@ Om testet ger resultatet `Test finished without errors` är ditt SD-kort OK och 
 Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-Tillbaka till [Komma Igång](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}

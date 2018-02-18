@@ -51,7 +51,7 @@ ___
 
 Diese Methode setzt vorraus dass du den oben genannten Exploit *nach jedem Neustart* anwendest. Es ist nicht empfohlen diese Methode auf Version 5.5.2 zu verwenden da der Web Exploit sehr instabil ist.
 
-Continue to [Mocha CFW](mocha-cfw)
+### Continue to [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen. Dies ist *unbedingt nötig* für Nutzer der Version 5.5.2 da der Web Exploit sehr instabil ist.
 
-Continue to [Haxchi](haxchi)
+### Continue to [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

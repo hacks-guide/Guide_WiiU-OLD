@@ -26,7 +26,7 @@ Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to 
 
 ## Was ist Homebrew?
 
-[**Homebrew**](https://de.wikipedia.org/wiki/Homebrew) bezeichnet für gewöhnlich Software, die nicht von Nintendo autorisiert wurde. Es erlaubt dir, Homebrewspiele, -werkzeuge (wie z. B. Speicherstandbearbeitung/-backups), oder Emulatoren für verschiedene ältere Konsolen laufen zu lassen.
+[**Homebrew**](https://de.wikipedia.org/wiki/Homebrew) bezeichnet für gewöhnlich Software, die nicht von Nintendo autorisiert wurde. This includes homebrew tools, applications, games, and emulators.
 
 Homebrew auf deiner Konsole laufen zu lassen ist 100% kostenlos, mit nichts außer dem Internetbrowser.
 
@@ -60,5 +60,5 @@ Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist, um g
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}

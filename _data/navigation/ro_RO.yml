@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
     title: FAQ
@@ -41,19 +41,19 @@ footer:
     title: Why Ads?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: Progres total
 sidebar_pages:
   - 
-    title: Home
+    title: Acasă
     url: /
   - 
-    title: Get Started
+    title: Începeți (Wii U)
     url: get-started
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: Mai multe opţiuni
     url: multiple-options
   - 
     title: Mocha CFW

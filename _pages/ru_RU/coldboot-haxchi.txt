@@ -78,5 +78,5 @@ ___
 **Никогда не форматируйте консоль, пока на ней установлен CBHC, иначе получите БРИК!**
 {: .notice--danger}
 
-Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

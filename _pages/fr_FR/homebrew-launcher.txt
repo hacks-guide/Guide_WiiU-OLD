@@ -51,7 +51,7 @@ ___
 
 Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*. Il est déconseillé d'utiliser cette méthode sur les consoles en 5.5.2 car l'exploit du navigateur n'est pas fiable.
 
-Continue to [Mocha CFW](mocha-cfw)
+### Continue to [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage. Elle est *essentiellement requise* pour les utilisateurs de la version 5.5.2 car l'exploit du navigateur pour cette version n'est pas fiable.
 
-Continue to [Haxchi](haxchi)
+### Continue to [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

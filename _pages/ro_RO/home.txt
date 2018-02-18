@@ -1,64 +1,64 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Ghidul de Modări Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Un ghid complet spre firmware personalizat pentru Wii U,<br />de la stoc la Coldboot Haxchi.<br />" #
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de a continua.
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+Acest ghid este NUMAI pentru consolele cumpărate din magazin (nu se aplică pentru cele din Nintendo Developer Program)!
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Acest ghid este disponibil în alte limbi!    
+Faceţi clic pe iconița <i class="fa fa-language" aria-hidden="true"></i> în partea de sus dreapta a paginii pentru a schimba limba.    
+Opțional, apăsați [aici](https://crowdin.com/project/wii-u-guide) pentru a ajuta spre menține traducerile la zi.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Ce este Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. It allows you to run homebrew games, tools like save editing and backup, and emulators for various older systems.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) de obicei se referă la software neautorizat de către Nintendo. Asta include unelte de homebrew, aplicații, jocuri și emulatoare.
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Pornind homebrew pe consolă este 100 % gratuit folosind doar browserul de sistem.
 
-## What is Custom Firmware?
+## Ce este Custom Firmware?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") permite utilizarea unor hack-uri mult mai avansate pe care homebrew-ul simplu nu le poate face.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW poate fi pus cu ușurință în orice consolă, în orice regiune pe ultima versiune.
 
-## What does this guide install?
+## Ce instalează acest ghid?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Acest ghid are ca scop transformarea unui Wii U complet nemodificat din firmware
+stoc în Coldboot Haxchi pornind Custom Firmware Mocha. Se folosește homebrew ca punct de plecare, dar Custom Firmware rămâne ținta.
 
-## What can I do with Custom Firmware?
+## Ce pot face cu Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your system menu
-+ Dump your discs to a format you can install, and play them without needing the disc
++ Puteți juca toate discurile de joc și jocurile din eShop, indiferent de regiunea lor
++ Puteți salva, edita și recupera progresul din mai multe jocuri
++ Puteți juca jocuri pentru console mai vechi prin intermediul emulatoarelor, folosind RetroArch sau altele.
++ Puteți instala titluri homebrew pe sistemul dumneavoastră și să apară în meniul sistemului.
++ Puteți să vă copiați jocurile de pe disc într-un format care va permite să le instalați și să le jucați fără să aveți nevoie de el
 
-## What do I need to know before starting?
+## Ce trebuie să știu înainte să încep?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
++ **Inainte să începeți acest ghid, trebuie să știți riscurile modării unui Wii U: DE FIECARE DATĂ când vă modificați sistemul, există întotdeauna potențialul de a face un brick IRECUPERABIL (sistemul va rămâne neutilizabil). Este rar, dar există o posibilitate așa că aveți grijă să urmați TOATE instrucțiunile cu EXACTITATE.**
++ Acest ghid va funcționa cu toate consolele Wii U din toate regiunile rulând versiunile de la 5.5.0 la 5.5.2.
++ Dacă totul merge așa cum trebuie, nu o să pierdeți nimic și o să ajungeți să aveți toate lucrurile cu care ați început (jocurile, NNID, salvările, etc. vor fi păstrate).
++ Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru descărcarea și instalarea de jocuri.
++ Cardul SD ar trebui să fie [MBR, nu GPT] (http://www.howtogeek.com/245610/).
++ Dacă aveți nevoie să formatați un card SD nou, puteți să folosiți [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) și să setați Dimensiunea Unității de Alocare la 64k.
 
 ___
 
-Continue to [Get Started](get-started)
+### Continuați la [Începeți](get-started)
 {: .notice--primary}

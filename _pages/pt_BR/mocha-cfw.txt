@@ -29,5 +29,5 @@ ___
 Você precisará iniciar o Mocha CFW a partir do Homebrew Launcher todas as vezes que você reiniciar para entrar na SysNAND alterada.
 {: .notice}
 
-Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

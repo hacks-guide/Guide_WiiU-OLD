@@ -78,5 +78,5 @@ Vous pouvez reconnecter tous les périphériques USB une fois l’installation t
 **Ne formatez jamais votre Wii U alors que CBHC est installé ou vous BRICKEREZ !**
 {: .notice--danger}
 
-Continuez vers [Homebrew Launcher (Chaîne)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

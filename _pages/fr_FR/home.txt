@@ -26,7 +26,7 @@ Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to 
 
 ## Qu'est-ce que les Homebrews?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) signifie habituellement "les logiciels non autorisé par Nintendo". Cela vous permet de lancer des jeux homebrew (fait maison), des outils comme des éditeurs de sauvegarde et de backup (récupération), et des émulateurs pour d'anciennes consoles.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) signifie habituellement "les logiciels non autorisé par Nintendo". This includes homebrew tools, applications, games, and emulators.
 
 Lancer des homebrews sur votre console est 100% gratuit en n'utilisant rien d'autre que le navigateur de la console.
 
@@ -60,5 +60,5 @@ et d'installer Coldboot Haxchi avec le Custom Firmware Mocha. Ce guide utilise d
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}

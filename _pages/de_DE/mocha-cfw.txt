@@ -29,5 +29,5 @@ ___
 Du musst jedes mal wenn die Wii U neu startet in den Homebrew Launcher und von dort aus Mocha CFW laden um ins gepatchte SysNAND zu gelangen.
 {: .notice}
 
-Mache weiter mit [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

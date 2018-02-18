@@ -26,7 +26,7 @@ Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to 
 
 ## Cosa vuol dire Homebrew?
 
-Con [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) di solito si fa riferimento a software non autorizzato da Nintendo. Ti permette di avviare giochi amatoriali, programmi di save editing e di backup, ed emulatori di diverse piattaforme ormai obsolete.
+Con [**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) di solito si fa riferimento a software non autorizzato da Nintendo. This includes homebrew tools, applications, games, and emulators.
 
 Avviare l'homebrew sulla tua console è gratuito al 100% perchè usa soltanto il browser internet della console.
 
@@ -60,5 +60,5 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 
 ___
 
-Prosegui con [Cominciamo!](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}

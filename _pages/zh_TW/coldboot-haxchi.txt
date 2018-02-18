@@ -78,5 +78,5 @@ ___
 **千萬不要在解除安裝 CBHC 前格式化您的裝置，否則－保。證。磚。機。**
 {: .notice--danger}
 
-回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

@@ -12,7 +12,7 @@ Basierend auf der Größe der SD Karte und der Geschwindigkeit deines Computers 
 
 Diese Seite ist nur für Windowsnutzer gedacht. Falls du kein Windows System einsetzt, schau dir stattdessen die [F3 (Linux)](f3-(linux))(h2testw-(windows)) oder [F3X (Mac)](f3x-(mac)) Seiten an.
 
-### What you need
+### What You Need
 
 * Die neueste Version von [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
@@ -36,5 +36,5 @@ Falls der Test das Ergebnis `Test finished without errors` anzeigt, dann ist dei
 Falls der Test jedoch ein anderes Ergebnis anzeigen sollte, ist deine SD Karte möglicherweise korrupt oder beschädigt und du müsstest diese eventuell austauschen!
 {: .notice--danger}
 
-Zurück zu [Los geht's](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}

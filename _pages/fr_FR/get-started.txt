@@ -21,7 +21,7 @@ Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysf
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ Notez que, à moins que vous bloquez les mises à jour avec cette méthode sur t
 
 ___
 
-Continuer vers [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

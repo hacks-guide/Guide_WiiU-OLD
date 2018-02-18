@@ -21,7 +21,7 @@ title: "從頭開始"
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ title: "從頭開始"
 
 ___
 
-繼續至 [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

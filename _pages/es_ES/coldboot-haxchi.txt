@@ -78,5 +78,5 @@ Puedes volver a conectar cualquier dispositivo USB luego de haber completado la 
 **¡Nunca formatees tu consola mientras tenga CBHC instalado o tendrás un BRICK!**
 {: .notice--danger}
 
-Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

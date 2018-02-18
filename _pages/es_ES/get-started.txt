@@ -128,5 +128,5 @@ Tenga en cuenta que, a menos que bloquees las actualizaciones con este método e
 
 ___
 
-Continúa a [Homebrew Launcher](homebrew-launcher)
+### Continúa a [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
