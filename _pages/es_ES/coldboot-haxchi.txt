@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del menú del sistema, el cual cargará entonces la SysNAND modificada.
 
-Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. Si deseas omitir Coldboot Haxchi, continuar en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
@@ -78,5 +78,5 @@ Puedes volver a conectar cualquier dispositivo USB luego de haber completado la 
 **¡Nunca formatees tu consola mientras tenga CBHC instalado o tendrás un BRICK!**
 {: .notice--danger}
 
-Continúa en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
