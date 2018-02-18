@@ -12,7 +12,7 @@ A seconda della dimensione della tua scheda SD e della velocità del tuo compute
 
 Questa pagina è solo per utenti Mac. Se non sei su Mac, usa [H2testw (Windows)](h2testw-(windows)) o [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Cosa serve
 
 * L'ultima versione di [F3X](https://github.com/insidegui/F3X/releases/latest)
 
@@ -33,5 +33,5 @@ Se il test mostra come risultato `Success! Your card is ok!` la tua scheda SD fu
 Se il test mostra qualunque altro risultato, la tua scheda SD potrebbe essere corrotta o danneggiata e potresti doverla sostituire!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Ritorna a [Cominciamo!](get-started)
 {: .notice--primary}

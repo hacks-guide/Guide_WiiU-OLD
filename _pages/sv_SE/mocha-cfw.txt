@@ -29,5 +29,5 @@ ___
 Du kommer behöva starta Mocha CFW från Homebrew Launcher varje gång du startar om din Wii U för att komma tillbaka till modifierad SysNAND.
 {: .notice}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
