@@ -8,7 +8,7 @@ title: "冷啟動 Haxchi"
 
 CBHC (Coldboot Haxchi) 將把您的預設系統 title 修改為自動啟動修改後的 DS 虛擬主機 遊戲，讓您自動開機至修改後的 SysNAND 中，而非普通的系統選單。
 
-本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
