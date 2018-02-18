@@ -6,24 +6,24 @@ title: "F3 (Linux)"
 
 ### Обязательно к прочтению
 
-This is an add-on section for checking your SD card for errors using F3.
+Этот дополнительный раздел содержит информацию о проверке SD-карты на ошибки с помощью F3.
 
 В зависимости от размера SD-карты и скорости компьютера этот процесс может занять до нескольких часов!
 
-Этот раздел предназначен только для пользователей Linux. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Этот раздел предназначен только для пользователей Linux. Если у вас не Linux, воспользуйтесь [H2testw (windows)](h2testw-(windows)) или [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Что понадобится
 
 * Свежая версия [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
 ### Инструкция
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
+1. Разархивируйте `.zip-архив` с f3
+1. Перейдите в каталог с f3 командой `cd`
 1. Выполните `make` для компиляции F3
 1. Вставьте SD-карту в компьютер
 1. Смонтируйте SD-карту
-1. Run `./f3write <your sd card mount point>`
+1. Выполните `./f3write <your sd card mount point>`
 1. Дождитесь окончания процесса. Ниже приведен пример результата работы программы.
 
 ~~~ bash
@@ -36,7 +36,7 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your sd card mount point>`
+1. Выполните `./f3read <your sd card mount point>`
 1. Дождитесь окончания процесса. Ниже приведен пример результата работы программы.
 
 ~~~ bash
@@ -56,11 +56,11 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Если в результате тестирования вы видите `Data LOST: 0.00 Byte (0 sectors)`, ваша SD-карта в порядке. Можете удалить все файлы с расширением `.h2w` на SD-карте
 {: .notice--success}
 
 При любом другом результате SD-карта скорее всего повреждена и её стоит заменить!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Вернитесь к [Началу](get-started)
 {: .notice--primary}
