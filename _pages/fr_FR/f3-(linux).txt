@@ -6,57 +6,61 @@ title: "F3 (Linux)"
 
 ### Required Reading
 
-Cette page vous décrira les étapes nécessaires à la vérification d'erreurs sur votre carte SD en utilisant F3.
+This is an add-on section for checking your SD card for errors using F3.
 
 En fonction de la taille de votre carte SD et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures!
 
-Ces instructions ne concernent que les utilisateurs Linux. Si vous n'êtes pas sous Linux, utilisez [H2testw (windows)](h2testw-(windows)) ou [F3X (mac)](f3x-(mac)).
+Ces instructions ne concernent que les utilisateurs Linux. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
 
-### What you need
+### What You Need
 
 * La dernière version de [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
 ### Instructions
 
-1. Décompressez le fichier F3 `.zip`
-1. `cd` dans le répertoire F3
+1. Unzip the f3 `.zip` file
+1. `cd` into the f3 directory
 1. Lancez `make` pour compiler F3
 1. Insérez votre carte SD dans votre ordinateur
 1. Montez votre carte SD
-1. Exécutez la commande `./f3write <your SD card mount point>`
+1. Run `./f3write <your sd card mount point>`
 1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie terminal.
 
-		$ ./f3write /media/michel/6135-3363/
-		Free space: 29.71 GB
-		Creating file 1.h2w ... OK!
-		...
-		Creating file 30.h2w ... OK!
-		Free space: 0.00 Byte
-		Average Writing speed: 4.90 MB/s
+~~~ bash
+$ ./f3write /media/michel/6135-3363/
+Free space: 29.71 GB
+Creating file 1.h2w ... OK!
+...
+Creating file 30.h2w ... OK!
+Free space: 0.00 Byte
+Average Writing speed: 4.90 MB/s
+~~~
 
-1. Exécutez la commande `./f3read <your SD card mount point>`
+1. Run `./f3read <your sd card mount point>`
 1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie terminal.
 
-		$ ./f3read /media/michel/6135-3363/
-		                  SECTORS      ok/corrupted/changed/overwritten
-		Validating file 1.h2w ... 2097152/        0/      0/      0
-		...
-		Validating file 30.h2w ... 1491904/        0/      0/      0
+~~~ bash
+$ ./f3read /media/michel/6135-3363/
+									SECTORS      ok/corrupted/changed/overwritten
+Validating file 1.h2w ... 2097152/        0/      0/      0
+...
+Validating file 30.h2w ... 1491904/        0/      0/      0
 
-		  Data OK: 29.71 GB (62309312 sectors)
-		Data LOST: 0.00 Byte (0 sectors)
-			       Corrupted: 0.00 Byte (0 sectors)
-			Slightly changed: 0.00 Byte (0 sectors)
-			     Overwritten: 0.00 Byte (0 sectors)
-		Average Reading speed: 9.42 MB/s
+	Data OK: 29.71 GB (62309312 sectors)
+Data LOST: 0.00 Byte (0 sectors)
+					Corrupted: 0.00 Byte (0 sectors)
+	Slightly changed: 0.00 Byte (0 sectors)
+				Overwritten: 0.00 Byte (0 sectors)
+Average Reading speed: 9.42 MB/s
+~~~
 
 ___
 
-Si le test présente le résultat `Data LOST: 0.00 Byte (0 sectors)`, votre carte SD est en bon état et vous êtes libres de supprimer tous les fichiers `.h2w`présents sur la carte SD
+If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
 {: .notice--success}
 
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer!
 {: .notice--danger}
 
-Retournez vers [Bien démarrer](get-started)
+### Return to [Get Started](get-started)
 {: .notice--primary}
