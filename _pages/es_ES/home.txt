@@ -60,5 +60,5 @@ Respaldar, editar y restaurar partidas guardadas de muchos juegos
 
 ___
 
-Continúa en [Comencemos](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
