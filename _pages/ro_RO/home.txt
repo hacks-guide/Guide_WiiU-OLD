@@ -51,14 +51,14 @@ stoc în Coldboot Haxchi pornind Custom Firmware Mocha. Se folosește homebrew c
 
 ## Ce trebuie să știu înainte să încep?
 
-+ **Inainte să începeți acest ghid, trebuie să știți riscurile modării unui Wii U: DE FIECARE DATĂ când vă modificați sistemul, există întotdeauna potențialul de a face un brick IRECUPERABIL (sistemul va rămâne neutilizabil). They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
++ **Inainte să începeți acest ghid, trebuie să știți riscurile modării unui Wii U: DE FIECARE DATĂ când vă modificați sistemul, există întotdeauna potențialul de a face un brick IRECUPERABIL (sistemul va rămâne neutilizabil). Este rar, dar există o posibilitate așa că aveți grijă să urmați TOATE instrucțiunile cu EXACTITATE.**
 + Acest ghid va funcționa cu toate consolele Wii U din toate regiunile rulând versiunile de la 5.5.0 la 5.5.2.
 + Dacă totul merge așa cum trebuie, nu o să pierdeți nimic și o să ajungeți să aveți toate lucrurile cu care ați început (jocurile, NNID, salvările, etc. vor fi păstrate).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
++ Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru descărcarea și instalarea de jocuri.
++ Cardul SD ar trebui să fie [MBR, nu GPT] (http://www.howtogeek.com/245610/).
++ Dacă aveți nevoie să formatați un card SD nou, puteți să folosiți [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) și să setați Dimensiunea Unității de Alocare la 64k.
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continuați la [Începeți](get-started)
 {: .notice--primary}
