@@ -60,5 +60,5 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 
 ___
 
-Fortsätt till [Kom igång](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
