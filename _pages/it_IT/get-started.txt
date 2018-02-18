@@ -21,7 +21,7 @@ Se devi formattare una scheda SD con Windows, non usare il programma di formatta
 Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di errori usando [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)) o [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### Quello che ti serve
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ Nota che, se non blocchi gli aggiornamenti su questa connessione o su quelle fut
 
 ___
 
-Prosegui all'[Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
