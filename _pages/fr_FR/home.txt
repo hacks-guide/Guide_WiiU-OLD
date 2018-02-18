@@ -60,5 +60,5 @@ et d'installer Coldboot Haxchi avec le Custom Firmware Mocha. Ce guide utilise d
 
 ___
 
-Continue to [Get Started](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
