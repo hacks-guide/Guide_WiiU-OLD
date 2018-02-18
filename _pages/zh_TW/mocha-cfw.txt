@@ -29,5 +29,5 @@ ___
 您每次重啟時都得從 Homebrew Launcher 開啟 Mocha CFW 才能進入修改後的 SysNAND 中。
 {: .notice}
 
-回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

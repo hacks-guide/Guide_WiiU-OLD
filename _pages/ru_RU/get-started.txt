@@ -128,5 +128,5 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 
 ___
 
-Следующий шаг: [Homebrew Launcher](homebrew-launcher)
+### Следующий шаг: [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

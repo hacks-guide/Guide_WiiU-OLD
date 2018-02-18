@@ -51,7 +51,7 @@ ___
 
 This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
 
-Continue to [Mocha CFW](mocha-cfw)
+### Continue to [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
 
-Continue to [Haxchi](haxchi)
+### Continue to [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

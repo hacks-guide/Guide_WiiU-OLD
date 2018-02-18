@@ -51,7 +51,7 @@ ___
 
 Este método requiere que vuelvas a ejecutar el exploit web utilizado anteriormente *después de cada reinicio*. Se recomienda que utilices esto en la 5.5.2 ya que la versión web del exploit es extremadamente poco confiable.
 
-Continúa a [Mocha CFW](mocha-cfw)
+### Continúa a [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 Este método utiliza un juego de la consola virtual de DS barato y vulnerable para ejecutar Custom Firmware automáticamente al encender la consola. Esto es *esencialmente requerido* para usuarios de la 5.5.2 ya que el exploit web para esa versión es extremadamente poco confiable.
 
-Continúa a [Haxchi](haxchi)
+### Continúa a [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

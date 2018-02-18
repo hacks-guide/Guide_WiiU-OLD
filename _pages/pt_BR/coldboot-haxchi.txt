@@ -78,5 +78,5 @@ Você pode reconectar todos os dispositivos USB após a conclusão da instalaç�
 **Nunca formate seu dispositivo enquanto o CBHC estiver instalado ou você irá BRICKAR!**
 {: .notice--danger}
 
-Continue para [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

@@ -78,5 +78,5 @@ Nach dem Abschluss der Installation kannst du die zuvor entfernten USB Geräte w
 **Formatiere niemals das Gerät auf dem CBHC installiert ist oder du erzeugst ein BRICK!**
 {: .notice--danger}
 
-Mache weiter mit [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

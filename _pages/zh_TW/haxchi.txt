@@ -10,7 +10,7 @@ Haxchi 是個用來跳過簽證檢查、區域檢查及在背景運行其他自�
 
 Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞，省去使用 Homebrew Launcher 的麻煩。
 
-### What you need
+### What You Need
 
 + 一份正版、安裝於 Wii U 系統內部儲存空間且可執行漏洞的 DS 虛擬主機遊戲
   + 若您尚未購買任何相容之遊戲，請見[從頭開始](get-started)
@@ -39,5 +39,5 @@ ___
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-繼續至 [冷啟動 Haxchi](coldboot-haxchi)。
+### Continue to [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

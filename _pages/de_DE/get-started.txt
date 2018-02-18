@@ -21,7 +21,7 @@ Die SD-Karte **darf nicht** `wiiu` genannt werden, sonst treten Probleme auf.
 Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Die neueste Version des [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ Beachte, dass sofern du nicht mit Hilfe dieser Methode Updates für alle aktuell
 
 ___
 
-Mache weiter mit [Homebrew Launcher](homebrew-launcher)
+### Continue to [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}

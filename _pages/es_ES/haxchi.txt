@@ -39,5 +39,5 @@ Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinic
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-Continúa en [Coldboot Haxchi](coldboot-haxchi).
+### Continúa en [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "Navigarea pe site" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Toate**
 
 + [Coldboot Haxchi](coldboot-haxchi)
-+ [Credits](credits)
++ [Contribuții](credits)
 + [disc2app](disc2app)
-+ [Donations](donations)
++ [Donaţii](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [Get Started](get-started)
++ [Întrebări frecvente](faq)
++ [Începeți](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Acasă](/)
 + [Haxchi](haxchi)
-+ [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
++ [Homebrew Launcher (Canal)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
-+ [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [Dezinstalând Mocha CFW](uninstall-cfw)
++ [Modare vWii](vwii-modding)
++ [De ce sunt reclame?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
