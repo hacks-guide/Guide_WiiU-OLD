@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) ändrar vilken titel som laddas vid uppstart så att ditt SysNAND startar DS virtual console-spelet istället för hem-menyn, vilket i sin tur kommer starta modifierad SysNAND.
 
-Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. Om du vill hoppa över Coldboot Haxchi, fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
@@ -78,5 +78,5 @@ Du kan återansluta alla USB-enheter igen efter installationen är klar.
 **Formatera aldrig din enhet med CBHC installerat, annars kommer du BRICKA enheten!**
 {: .notice--danger}
 
-Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
