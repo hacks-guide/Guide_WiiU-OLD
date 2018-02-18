@@ -29,5 +29,5 @@ ___
 Вам придется после каждой перезагрузки запускать Mocha CFW через Homebrew Launcher, чтобы войти в пропатченный SysNAND.
 {: .notice}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
