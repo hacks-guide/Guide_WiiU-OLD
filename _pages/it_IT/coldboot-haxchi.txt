@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) cambia il programma di avvio della console in modo tale che la SysNAND avvii il gioco DS della Virtual Console invece del menu di sitema, il quale caricherà la SysNAND patchata.
 
-Questa pagina è facoltativa. Il normale Haxchi funziona senza problemi; questa sezione ti renderà solamente il tutto più pratico. Se non vuoi installare Coldboot Haxchi, prosegui con [Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
+Questa pagina è facoltativa. Il normale Haxchi funziona senza problemi; questa sezione ti renderà solamente il tutto più pratico. If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
@@ -78,5 +78,5 @@ Dopo aver finito l'installazione puoi collegare senza problemi qualsiasi disposi
 **Non formattare la console se hai CBHC installato o BRICKERAI!**
 {: .notice--danger}
 
-Prosegui all'[Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
