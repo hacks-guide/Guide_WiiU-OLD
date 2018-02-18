@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) ändert dein standard system title um dein SysNAND standardmäßig das DS virtual console Spiel an Stelle des System-Menü starten zu lassen, welches dann ein gepatchtes SysNAND lädt.
 
-Diese Seite ist optional. Standard Haxchi ist ausreichend; Dies liefert nur extra Bequemlichkeit. If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Diese Seite ist optional. Standard Haxchi ist ausreichend; Dies liefert nur extra Bequemlichkeit. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
