@@ -60,5 +60,5 @@ un Custom Firmware Mocha basato su Coldboot Haxchi. È necessario utilizzare deg
 
 ___
 
-Prosegui con [Cominciamo!](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
