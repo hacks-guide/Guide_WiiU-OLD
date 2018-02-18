@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Ghidul de Modări Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -10,7 +10,7 @@ header:
 excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Citiți cu atenție toate paginile introductive (inclusiv aceasta!) înainte de a continua.
 {: .notice--warning}
 
 This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
