@@ -21,7 +21,7 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 Прежде чем начать, рекомендуется проверить свою SD-карту на ошибки с помощью [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), или [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What You Need
+### Что понадобится
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -128,5 +128,5 @@ SD-карта должна быть отформатирована в FAT32 (ж�
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Следующий шаг: [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
