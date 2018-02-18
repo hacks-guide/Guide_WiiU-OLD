@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) modifie votre SysNAND pour la forcer à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger la SysNAND patché.
 
-Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. If you would like to skip Coldboot Haxchi, ### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
@@ -78,5 +78,5 @@ Vous pouvez reconnecter tous les périphériques USB une fois l’installation t
 **Ne formatez jamais votre Wii U alors que CBHC est installé ou vous BRICKEREZ !**
 {: .notice--danger}
 
-Continuez vers [Homebrew Launcher (Chaîne)](homebrew-launcher-(channel)).
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
