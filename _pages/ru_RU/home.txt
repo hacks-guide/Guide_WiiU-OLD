@@ -60,5 +60,5 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 
 ___
 
-Следующий шаг: [Начало](get-started)
+### Continue to [Get Started](get-started)
 {: .notice--primary}
