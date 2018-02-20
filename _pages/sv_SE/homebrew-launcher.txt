@@ -51,7 +51,7 @@ ___
 
 Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*. Det rekommenderas inte att du använder det här på 5.5.2 eftersom säkerhetshålet i den versionen är väldigt opålitligt.
 
-### Continue to [Mocha CFW](mocha-cfw)
+### Fortsätt till [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 Den här metoden använder ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål för att starta custom firmware automatiskt när systemet startas. Det är *i stort sett ett krav* för användare på 5.5.2 eftersom säkerhetshålet i webbläsaren är för opålitligt.
 
-### Continue to [Haxchi](haxchi)
+### Fortsätt till [Haxchi](haxchi)
 {: .notice--primary}
 
 ___
