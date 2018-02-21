@@ -6,24 +6,24 @@ title: "F3 (Linux)"
 
 ### Obligatorisk läsning
 
-This is an add-on section for checking your SD card for errors using F3.
+Detta är ett tilläggsavsnitt för att kontrollera ditt SD-kort efter fel med hjälp av F3.
 
 Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp till flera timmar!
 
-Den här sidan är enbart för Linux-användare. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Den här sidan är enbart för Linux-användare. Om du inte använder Linux kan du gå till sidorna för [H2testw (windows)](h2testw-(windows)) eller [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Vad du behöver
 
 * Den senaste versionen av [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
 ### Instruktioner
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
+1. Packa upp f3 `zip` -filen
+1. Använd `cd` för att ta dig in i F3-katalogen
 1. Kör `make` för att kompilera F3
 1. Sätt in ditt SD-kort i datorn
 1. Mounta ditt SD-kort
-1. Run `./f3write <your sd card mount point>`
+1. Kör `./f3write <SD-kortets mount point>`
 1. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 ~~~ bash
@@ -36,7 +36,7 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your sd card mount point>`
+1. Kör `./f3read <SD-kortets mount point>`
 1. Vänta tills processen är klar. Ett exempel på utskriften finns nedan.
 
 ~~~ bash
@@ -56,11 +56,11 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Om testet ger resultatet `Data LOST: 0.00 Byte (0 sectors)` så är SD-kortet OK och du kan ta bort alla `.h2w`-filer på kortet
 {: .notice--success}
 
 Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Tillbaka till [Komma Igång](get-started)
 {: .notice--primary}

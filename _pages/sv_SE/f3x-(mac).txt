@@ -12,7 +12,7 @@ Beroende på SD-kortets storlek och hur snabb din dator är kan detta ta upp til
 
 Den här sidan är enbart för Mac-användare. Om du inte använder Mac kan du gå till sidorna för [H2testw (Windows)](h2testw-(windows)) eller [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Vad du behöver
 
 * Den senaste versionen av [F3X](https://github.com/insidegui/F3X/releases/latest)
 
@@ -33,5 +33,5 @@ Om testet visar resultatet `Success! Your card is ok!` så är ditt SD-kort OK o
 Om testet ger något annat resultat kan ditt SD-kort vara korrupt eller skadat och måste kanske bytas!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Tillbaka till [Komma Igång](get-started)
 {: .notice--primary}

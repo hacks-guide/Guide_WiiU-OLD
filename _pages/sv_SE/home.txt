@@ -26,7 +26,7 @@ Alternativt, klicka [här](https://crowdin.com/project/wii-u-guide) för att hj�
 
 ## Vad är Homebrew?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) är en term som oftast används för att beskriva mjukvara som inte är auktoriserad av Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) är en term som oftast används för att beskriva mjukvara som inte är auktoriserad av Nintendo. Det inkluderar verktyg, applikationer, spel och emulatorer utvecklade av homebrew-scenen.
 
 Att köra homebrew på din spelkonsoll är 100% kostnadsfritt och det behövs inget mer än webbläsaren på ditt system för att genomföra.
 
@@ -60,5 +60,5 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 
 ___
 
-### Continue to [Get Started](get-started)
+### Fortsätt till [Kom igång](get-started)
 {: .notice--primary}

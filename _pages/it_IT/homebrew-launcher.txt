@@ -51,7 +51,7 @@ ___
 
 Questo metodo richiede l'avvio dell'exploit del browser dopo *ogni riavvio della console*. Sarebbe meglio non utilizzare questo metodo con la versione di sistema 5.5.2 dato che l'exploit è estramente instabile.
 
-### Continue to [Mocha CFW](mocha-cfw)
+### Prosegui con [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 Questo metodo usa un gioco DS della Virtual Console exploitabile per avviare il Custom Firmware all'avvio della console. Questo metodo è *estremamente consigliato* per gli utenti 5.5.2 dato che l'exploit del browser per quella versione è estremamente instabile.
 
-### Continue to [Haxchi](haxchi)
+### Prosegui con [Haxchi](haxchi)
 {: .notice--primary}
 
 ___
