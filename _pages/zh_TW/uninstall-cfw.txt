@@ -2,19 +2,19 @@
 title: "卸載自製韌體"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
-### Required Reading
+### 必讀事項
 
-本章節將從您的 Wii U 上移除自製韌體。不論您是如何安裝它的，都將把您的裝置設回原廠狀態。
+本章節將從您的 Wii U 上移除自製韌體。不論您是如何安裝它的，都將把您的主機設回原廠狀態。
 {: .notice--danger}
 
 如果您是在本指南還在使用 RedNAND 時所安裝的，請注意，遊戲及存檔是存在內存而非 SD 卡中的。 也就是說在您設定完 RedNAND 後所安裝的遊戲及存檔都將消失，就像回到當初的 SysNAND 系統一樣！
 {: .notice--danger}
 
-### Instructions
+### 操作說明
 
-#### Section I - Removal from Wii U
+#### 第一節 － 自 Wii U 上移除
 
 ##### CBHC
 
@@ -36,7 +36,7 @@ title: "卸載自製韌體"
 
 1. 自 Wii U 的網頁瀏覽器中刪除之前所創立的書籤(如果有設的話)
 
-#### Section II - Removal from SD Card
+#### 第二節 － 自 SD 卡上移除
 
 {% capture notice-3 %}
 **移除所有的檔案/資料夾*除了*下列的檔案/資料夾外(您甚至有可能連這些都沒有)：**
