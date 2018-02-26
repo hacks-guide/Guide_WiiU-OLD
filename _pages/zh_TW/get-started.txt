@@ -1,27 +1,27 @@
 ---
-title: "從頭開始"
+title: "新手入門"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目錄" %}
 
-### Required Reading
+### 必讀事項
 
-下列步驟將協助您準備您的 SD 卡以安裝 Coldboot Haxchi。
+下列步驟將協助您準備您的 SD 卡以安裝 冷起 Haxchi。
 
 在進行前，請先確保您的 Wii U 系統版本為 5.5.0、5.5.1 或 5.5.2。 較舊的系統版本是不相容的。
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
-您的 SD 卡必須是 FAT32 格式(建議 64KB 的配置大小)。 大部分的 SD 卡預設都是以這個格式出廠的。
+您的 SD 卡必須是 FAT32 格式 (建議 64KB 的配置大小)。 大部分的 SD 卡預設都是以這個格式出廠的。
 
 如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
 
-*千萬不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
+*不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
 在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
 {: .notice--warning}
 
-### What You Need
+### 必備項目
 
 * [`config.txt`]({{ base_path }}/images/config.txt)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
@@ -36,11 +36,11 @@ title: "從頭開始"
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
-### Instructions
+### 操作說明
 
-#### Section I - Prep Work
+#### 第一節 — 準備工作
 
-1. 關閉您的裝置
+1. 關閉您的主機
 1. 將 SD 卡插入電腦
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
@@ -59,18 +59,18 @@ title: "從頭開始"
 1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 hid\_to\_vpad `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 NNU-Patcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-1. 將 SD 卡插回裝置中
-1. 啟動您的裝置
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
 
-#### Section II - DS Virtual Console Game
+#### 第二節 — DS 虛擬主機遊戲
 
 目前有兩種方法可以使用 Wii U 自製韌體。
 
-第一種方法為透過網頁瀏覽器漏洞進行系統修改。 較麻煩的是這漏洞*必須*在每次重啟後重新執行一次。 此外，與版本 5.5.2 相容的瀏覽器漏洞非常不可靠，讓這選項變得更不值得推薦。
+第一種方法為透過瀏覽器漏洞進行系統修改。 較麻煩的是這漏洞*必須*在每次重啟後重新執行一次。 此外，與版本 5.5.2 相容的瀏覽器漏洞非常不可靠，因此這是一個不太實用的選項。
 
-第二種方法為購買一個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 因為先前所提到的瀏覽器漏洞不穩性，這基本上對版本 5.5.2 的使用者來說是*必要*的。
+第二種方法為購買一款非常便宜且有漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 因上述瀏覽器漏洞的不穩性，這基本上對版本 5.5.2 的使用者來說是*必要*的。
 
-您所想要使用的 DS 虛擬主機遊戲*必須*是透過*正版管道購買*，且裝於您主機的**內部儲存空間**中。 您無法將此遊戲裝在 USB 儲存碟中。
+您所想要使用的 DS 虛擬主機遊戲*必須*是透過*正版管道購買*且裝於您主機的**內部儲存空間**中的遊戲。 您無法將此遊戲裝在 USB 儲存碟中。
 
 若您想要使用 DS 虛擬主機遊戲的方法，請在進行下列操作錢購買相容的遊戲。
 {: .notice--primary}
@@ -107,7 +107,7 @@ title: "從頭開始"
 
 如果您已擁有或已經安裝過了上述遊戲，請將它刪除並再透過 eShop 重新下載。 較舊版的遊戲將無法與此漏洞相容。
 
-#### Section III - Block System Updates
+#### 第三節 — 阻擋系統更新
 
 請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為一次性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
 
@@ -128,5 +128,5 @@ title: "從頭開始"
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### 繼續至 [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
