@@ -14,36 +14,36 @@ CBHC (冷起 Haxchi) 將把您的預設系統 title 修改為自動啟動修改�
 {% capture notice-1 %}
 您 _必須_ 先裝好 Haxchi 才能繼續。 否則－保。證。磚。機！
 
-您的 Haxchi DS 虛擬主機 遊戲 _必須_ 先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接裝置上的話－保。證。磚。機！
+您的 Haxchi DS 虛擬主機 遊戲 _必須_ 先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接主機上的話－保。證。磚。機！
 
 您的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的，否則－保。證。磚。機！
 
-您必須在安裝前拔除所有的 USB 裝置，否則您將面臨 _變磚_ 的風險！
+您必須在安裝前拔除所有的 USB 主機，否則您將面臨 _變磚_ 的風險！
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### 操作說明
 
-1. 拔除所有連接至 Wii U 的 USB 裝置
+1. 拔除所有連接至 Wii U 的 USB 主機
 1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
 1. 啟動 CBHC installer
 1. 選擇您要安裝 CBHC 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
   + **所選的遊戲 _必須_ 要先裝好 Haxchi 才能繼續**
 1. 讀完警示，並按下「A」鍵安裝
 1. 完成後，您將會回到系統主選單中
-1. 您現在可以將剛剛拔除的 USB 裝置插回了。
+1. 您現在可以將剛剛拔除的 USB 主機插回了。
 1. 重新啟動您的 Wii U
 1. 如果漏洞順利執行，您將會看到各種選項的開機選單
 1. 將游標移至**「Autoboot: Disabled」**上，並按「A」鍵直到選項變為**「Autoboot: System Menu」**為止
 1. 在「Boot System Menu」上按「A」
 1. 重啟您的 Wii U 以確保漏洞仍能自動執行
 1. 將 CBHC 改後的 DS 虛擬主機遊戲移到系統選單的最後一頁
-  + 請仔細閱讀本頁底部的警告，避免將您的裝置變磚！
+  + 請仔細閱讀本頁底部的警告，避免將您的主機變磚！
 
 ___
 
-您的裝置現在應該在啟動時都會自動啟動修改後的 SysNAND。
+您的主機現在應該在啟動時都會自動啟動修改後的 SysNAND。
 {: .notice}
 
 {% capture notice-1 %}
@@ -60,7 +60,7 @@ ___
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-在安裝結束後，您可以將剛剛拔除的 USB 裝置插回了。
+在安裝結束後，您可以將剛剛拔除的 USB 主機插回了。
 {: .notice--info}
 
 **千萬不要刪除 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**    
@@ -69,13 +69,13 @@ ___
 **千萬不要重新安裝 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**
 {: .notice--danger}
 
-**千萬不要將 CBHC 改後的 DS 虛擬主機遊戲移至 USB 裝置上，否則－保。證。磚。機。**
+**千萬不要將 CBHC 改後的 DS 虛擬主機遊戲移至 USB 主機上，否則－保。證。磚。機。**
 {: .notice--danger}
 
 **千萬不要刪除購買 CBHC DS 虛擬主機遊戲的使用者帳戶或 NNID，否則—保。證。磚。機。**
 {: .notice--danger}
 
-**千萬不要在解除安裝 CBHC 前格式化您的裝置，否則－保。證。磚。機。**
+**千萬不要在解除安裝 CBHC 前格式化您的主機，否則－保。證。磚。機。**
 {: .notice--danger}
 
 ### 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
