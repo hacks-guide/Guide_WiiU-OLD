@@ -20,15 +20,15 @@ title: "vWii 改機"
 
 #### 第一節 — 準備工作
 
-1. 關閉您的裝置
+1. 關閉您的主機
 1. 將 SD 卡插入電腦
 1. 複製並覆蓋 WUPhax `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
 1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到您的 SD 卡下
 1. 複製並覆蓋 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到您的 SD 卡下
 1. 複製並覆蓋 Homebrew Launcher `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
-1. 將 SD 卡插回裝置中
-1. 啟動您的裝置
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
 
 #### 第二節 — wuphax
 
