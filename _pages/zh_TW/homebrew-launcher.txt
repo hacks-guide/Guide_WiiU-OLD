@@ -4,15 +4,15 @@ title: "Homebrew Launcher"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### 必讀事項
 
 Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 我們將透過 Wii U 的內建網頁瀏覽器啟動它，也就是說您的 Wii U 需要可以連網才能繼續。
 
-### Instructions
+### 操作說明
 
-#### Section I - Preparing Browser
+#### 第一節 — 準備瀏覽器
 
 1. 開啟您裝置上的網頁瀏覽器
 1. 到瀏覽器設定中選擇「Reset Save Data」(清除儲存資料)
@@ -20,7 +20,7 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
   + 這將刪除所有已儲存的資料，包括設定、瀏覽紀錄、及書籤
 1. 返回至瀏覽器中
 
-#### Section II (i) - Versions 5.5.0 & 5.5.1
+#### 第二節 (一) — 版本 5.5.0 及 5.5.1 之系統
 
 1. 前往 `http://loadiine.ovh`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
@@ -30,7 +30,7 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
   + 如果當機的話，按住電源紐強制重啟您的裝置在試一次即可
 1. 您的主機應該就會啟動 Homebrew Launcher 了
 
-#### Section II (ii) - Version 5.5.2
+#### 第二節 (二) — 版本 5.5.2 之系統
 
 1. 請先將瀏覽器窗簾 (curtains) 開啟
   + 這將提高 5.5.2 瀏覽器漏洞成功的可能性
@@ -43,7 +43,7 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 1. 您的主機應該就會啟動 Homebrew Launcher 了
 
 ___
-### Methods
+### 方法
 
 ___
 
@@ -51,7 +51,7 @@ ___
 
 本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。 因為 5.5.2 系統的瀏覽器漏洞極不可靠，我們不建議您在 5.5.2 中使用本方法。
 
-### Continue to [Mocha CFW](mocha-cfw)
+### 繼續至 [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -60,7 +60,7 @@ ___
 
 本方法為將透過個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 這基本上對版本 5.5.2 的使用者來說是*必要*的，因為此版本的瀏覽器漏洞非常地不可靠。
 
-### Continue to [Haxchi](haxchi)
+### 繼續至 [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

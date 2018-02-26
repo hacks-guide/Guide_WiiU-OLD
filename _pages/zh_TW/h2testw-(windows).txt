@@ -2,9 +2,9 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目錄" %}
 
-### Required Reading
+### 必讀事項
 
 本頁將教您如何透過 h2testw 檢查您的 SD 卡。
 
@@ -12,11 +12,11 @@ title: "H2testw (Windows)"
 
 本教學是僅給 Windows 使用者使用的。 如果您不在 Windows 平台上，請參閱 [F3 (linux)](f3-(linux)) 或 [F3X (mac)](f3x-(mac))。
 
-### What You Need
+### 必備項目
 
 * 最新版的 [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### 操作說明
 
 1. 從 h2testw `.zip` 中解壓 `h2testw.exe`
 1. 將 SD 卡插入電腦
@@ -36,5 +36,5 @@ ___
 如果出現任何其他結果，您的 SD 卡可能是有問題且需要更換的！
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### 回到[新手入門](get-started)
 {: .notice--primary}

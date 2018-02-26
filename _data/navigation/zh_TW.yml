@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Home
+    title: 首頁
     url: /
   - 
     title: 常見問題 FAQ
@@ -25,13 +25,13 @@ main:
     title: 網站導覽
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: 卸載自製韌體
     url: uninstall-cfw
 bottom:
   - 
     title: 若需英語支援，請於 <a href="https://discord.gg/MWxPgEp">Discord 上的 Nintendo Homebrew 伺服器</a>發問。
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: 如果您喜歡本教學，我們很樂意接受<a href="donations">捐贈</a>。
 footer:
   - 
     title: 來源
@@ -41,19 +41,19 @@ footer:
     title: 為什麼會有廣告?
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 整體進度
 sidebar_pages:
   - 
-    title: Home
+    title: 首頁
     url: /
   - 
-    title: Get Started
+    title: 新手入門
     url: get-started
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: 多項選擇
     url: multiple-options
   - 
     title: Mocha CFW
@@ -62,11 +62,11 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi
+    title: 冷起 Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Channel)
+    title: Homebrew Launcher (透過頻道)
     url: homebrew-launcher-(channel)
   - 
-    title: NAND Backup (Optional)
+    title: NAND 備份 (選用)
     url: nand-backup

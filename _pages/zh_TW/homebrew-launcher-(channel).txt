@@ -2,13 +2,13 @@
 title: "Homebrew Launcher(透過頻道)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目錄" %}
 
-### Required Reading
+### 必讀事項
 
 本節將安裝 Homebrew Channel，這讓您可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。
 
-### Instructions
+### 操作說明
 
 1. 進入 Homebrew Launcher
   + CBHC 的使用者必須在 CBHC 啟動時按下「Home」鍵以使用 CBHC 開啟選單，並選擇 Homebrew Launcher

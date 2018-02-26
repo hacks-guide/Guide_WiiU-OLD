@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Wii U 改機手冊" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -10,23 +10,23 @@ header:
 excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌體改成冷起 Haxchi。<br />"
 ---
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+請在繼續前讀完所有的前言頁面 (包括本頁！)。
 {: .notice--warning}
 
 此指南 _僅_ 適用於零售機使用 (透過正常管道購買；非任天堂開發者計畫所取得的主機)！
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+本手冊支持其他語言！    
+按下右上角的 <i class="fa fa-language" aria-hidden="true"></i> 圖案以切換語言。    
+或者，按一下[這裡](https://crowdin.com/project/wii-u-guide)來貢獻您的翻譯以確保其為最新版本。
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ## 什麼是自製程式？
 
-[**自製程式**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games)(Homebrew)通常是指未經由任天堂所授權之軟體。 This includes homebrew tools, applications, games, and emulators.
+[**自製程式**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games)(Homebrew)通常是指未經由任天堂所授權之軟體。 這包括自製工具、應用程式、遊戲和模擬器。
 
 在您的主機上運行自製程式是 100% 免費的，過程中只需要使用系統內建的瀏覽器即可。
 
@@ -34,16 +34,16 @@ Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to 
 
 **自製韌體** (CFW) 可以做些使用者空間底下自製程式無法輕易達到更高階的修改及破解。
 
-CFW 可以很容易地在任一區、任一最新版本的主機上運行。
+自製韌體可以輕而易舉地安裝在任一區及任一最新版本的主機上。
 
 ## 本教學將安裝些什麼？
 
 此教學的目的是將未改機的 Wii U 從原廠
-的韌體改為 Coldboot Haxchi 的 Mocha CFW。 它會將自製程式當作跳板，但主要目的還是為了安裝自製韌體。
+的韌體改為 冷起 Haxchi 的 Mocha CFW。 它會將自製程式當作跳板，但主要目的還是為了安裝自製韌體。
 
 ## 自製韌體可以做些什麼？
 
-+ 玩任一遊戲光碟或 eShop 上的遊戲，就算是不同區的也可以
++ 遊玩任一區的遊戲光碟或電子商店 (eShop) 上的遊戲
 + 備份、修改、還原許多遊戲的存檔
 + 用像是 RetroArch 或其他模擬器來玩些其他系統的遊戲
 + 安裝自製軟體，並讓它們出現在您的系統主選單中
@@ -51,14 +51,14 @@ CFW 可以很容易地在任一區、任一最新版本的主機上運行。
 
 ## 我在開始前需要知道什麼？
 
-+ **在開始前，您一定得注意 Wii U 改機的風險：每次在更改系統時都有可能造成無法挽回的磚機或死機。 這種情況是滿罕見的，但是還是有可能的。所以請確保遵守所有的步驟。**
++ **在開始前，您一定得注意 Wii U 改機的風險：每當您修改系統時，都有可能造成無法挽回的磚機。 這種情況是滿罕見的，但還是有可能的；所以請確實遵守每一個步驟。**
 + 本教學將適用於任意區搭載 5.5.0 至 5.5.2 版本的 Wii U。
-+ 如果一切都很順利的話，您將不會失去任何資料(像是遊戲、NNID、存檔...等都會被留下)。
++ 如果一切都順利的話，您將不會失去任何資料 (像是遊戲、NNID、存檔... 等都會被留下)。
 + 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
 + 您的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
 + 如果您需要格式化一張新的 SD 卡，可以使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 且將配置單位設為 64K。
 
 ___
 
-### Continue to [Get Started](get-started)
+### 繼續至[新手入門](get-started)
 {: .notice--primary}
