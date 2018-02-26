@@ -4,26 +4,26 @@ title: "冷啟動 Haxchi"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### 必讀事項
 
-CBHC (Coldboot Haxchi) 將把您的預設系統 title 修改為自動啟動修改後的 DS 虛擬主機 遊戲，讓您自動開機至修改後的 SysNAND 中，而非普通的系統選單。
+CBHC (冷起 Haxchi) 將把您的預設系統 title 修改為自動啟動修改後的 DS 虛擬主機 遊戲，讓您自動開機至修改後的 SysNAND 中，而非普通的系統選單。
 
-本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 如果您想跳過 冷起 Haxchi，請繼續至 [Homebrew Launcher (Channel)](homebrew-launcher-(channel))。
 {: .notice--primary}
 
 {% capture notice-1 %}
-You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
+您 _必須_ 先裝好 Haxchi 才能繼續。 否則－保。證。磚。機！
 
-Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
+您的 Haxchi DS 虛擬主機 遊戲 _必須_ 先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接裝置上的話－保。證。磚。機！
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+您的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的，否則－保。證。磚。機！
 
-You must remove all USB devices before installing or you may BRICK!
+您必須在安裝前拔除所有的 USB 裝置，否則您將面臨 _變磚_ 的風險！
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Instructions
+### 操作說明
 
 1. 拔除所有連接至 Wii U 的 USB 裝置
 1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
@@ -66,7 +66,7 @@ ___
 **千萬不要刪除 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game or you will BRICK.**
+**千萬不要重新安裝 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**
 {: .notice--danger}
 
 **千萬不要將 CBHC 改後的 DS 虛擬主機遊戲移至 USB 裝置上，否則－保。證。磚。機。**
@@ -78,5 +78,5 @@ ___
 **千萬不要在解除安裝 CBHC 前格式化您的裝置，否則－保。證。磚。機。**
 {: .notice--danger}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
 {: .notice--primary}
