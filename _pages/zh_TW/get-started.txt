@@ -109,7 +109,7 @@ title: "新手入門"
 
 #### 第三節 — 阻擋系統更新
 
-請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為一次性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
+請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為暫時性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
 
 請注意，除非您在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
 {: .notice--danger}
