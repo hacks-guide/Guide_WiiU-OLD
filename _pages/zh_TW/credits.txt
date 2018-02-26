@@ -2,7 +2,7 @@
 title: "製作群"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+**感謝所有的超讚的[翻譯人員](https://crowdin.com/project/wii-u-guide)！**
 {: .notice--primary}
 
 如果我們忘記把您加進來的話，請與我們聯繫。
