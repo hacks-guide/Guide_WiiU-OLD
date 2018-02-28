@@ -2,9 +2,9 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目錄" %}
 
-### Required Reading
+### 必讀事項
 
 本頁將教您如何透過 F3X 檢查您的 SD 卡。
 
@@ -12,11 +12,11 @@ title: "F3X (Mac)"
 
 本教學是僅給 Mac 使用者使用的。 如果您不在 Mac 平台上，請參閱 [H2testw (Windows)](h2testw-(windows)) 或 [F3 (Linux)](f3-(linux))。
 
-### What You Need
+### 必備項目
 
 * 最新版的 [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### 操作說明
 
 1. 解壓 F3X `.zip` 壓縮檔
 1. 將 SD 卡插入電腦
@@ -33,5 +33,5 @@ ___
 如果出現任何其他結果，您的 SD 卡可能是有問題且需要更換的！
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### 回到[新手入門](get-started)
 {: .notice--primary}
