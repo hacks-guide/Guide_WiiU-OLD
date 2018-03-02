@@ -14,7 +14,7 @@ sitemap: false
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
 + [常見問題 FAQ](faq)
-+ [從頭開始](get-started)
++ [新手入門](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [首頁](/zh_TW/)
 + [Haxchi](haxchi)
