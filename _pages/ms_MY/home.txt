@@ -10,6 +10,11 @@ header:
 excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Thoroughly read all of the introductory pages (including this one!) before proceeding.
 {: .notice--warning}
 

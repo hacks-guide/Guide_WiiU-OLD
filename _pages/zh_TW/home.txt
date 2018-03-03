@@ -10,6 +10,11 @@ header:
 excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌體改成冷起 Haxchi。<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 請在繼續前讀完所有的前言頁面 (包括本頁！)。
 {: .notice--warning}
 

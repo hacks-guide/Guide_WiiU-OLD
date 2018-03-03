@@ -10,6 +10,11 @@ header:
 excerpt: "Полное руководство по прошивке Wii U, <br /> от начала до Coldboot Haxchi.<br />"
 ---
 
+For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+{: .notice--primary}
+
+___
+
 Внимательно прочитайте все вводные страницы (включая эту!) прежде чем продолжить.
 {: .notice--warning}
 
