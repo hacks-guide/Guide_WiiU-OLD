@@ -10,7 +10,7 @@ header:
 excerpt: "En komplett guide till att få igång specialanpassad firmware på Wii U,<br /> från standard till Coldboot Haxchi.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+För kompletta guider till homebrew och modifierade firmware för andra enheter, besök [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
