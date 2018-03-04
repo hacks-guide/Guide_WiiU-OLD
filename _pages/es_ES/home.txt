@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Guía de hackeo para Wii U" #
+title: "Guía de hacks para Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -10,7 +10,7 @@ header:
 excerpt: "Una guía completa para instalar custom firmware en Wii U, <br /> desde stock hasta Coldboot Haxchi.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Si buscas guías completas de homebrew y custom firmware para otras consolas, echa un vistazo al sitio web [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
