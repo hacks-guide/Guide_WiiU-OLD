@@ -10,7 +10,7 @@ header:
 excerpt: "Un ghid complet spre firmware personalizat pentru Wii U,<br />de la stoc la Coldboot Haxchi.<br />" #
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Pentru ghiduri complete de homebrew și firmware personalizat pentru alte console, vedeți [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
