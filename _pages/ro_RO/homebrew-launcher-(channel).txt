@@ -4,7 +4,7 @@ title: "Homebrew Launcher (Channel)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lectură obligatorie
 
 This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
 

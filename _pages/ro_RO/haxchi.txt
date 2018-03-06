@@ -4,7 +4,7 @@ title: "Haxchi"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lectură obligatorie
 
 Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
 

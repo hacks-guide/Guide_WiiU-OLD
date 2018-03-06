@@ -4,7 +4,7 @@ title: "Homebrew Launcher"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lectură obligatorie
 
 The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
 
