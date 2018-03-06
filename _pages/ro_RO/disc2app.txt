@@ -4,7 +4,7 @@ title: "disc2app"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lectură obligatorie
 
 This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
 
