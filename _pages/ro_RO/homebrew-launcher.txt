@@ -60,7 +60,7 @@ ___
 
 This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
 
-### Continue to [Haxchi](haxchi)
+### Continuați la [Haxchi](haxchi)
 {: .notice--primary}
 
 ___
