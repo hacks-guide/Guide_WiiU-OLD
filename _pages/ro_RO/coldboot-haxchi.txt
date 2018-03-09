@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) schimbă titlul de sistem implicit pentru a face ca SysNAND-ul să lanseze jocul de consolă virtuală DS în loc de meniul de sistem, care va lansa SysNAND-ul modificat.
 
-Aceată pagină este opțională. O instalare de Haxchi obișnuită merge așa cum e; oferă confort sporit. Dacă ați dori să săriți peste Coldboot Haxchi, continuați la [Homebrew Launcher (Canal)(homebrew-launcher-(channel)).
+Aceată pagină este opțională. O instalare de Haxchi obișnuită merge așa cum e; oferă confort sporit. Dacă ați dori să săriți peste Coldboot Haxchi, continuați la [Homebrew Launcher (Canal)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
