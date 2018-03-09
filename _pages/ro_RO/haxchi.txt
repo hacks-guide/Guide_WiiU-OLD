@@ -39,5 +39,5 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### Continuați la [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
