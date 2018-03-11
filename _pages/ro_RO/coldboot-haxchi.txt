@@ -16,67 +16,67 @@ TREBUIE să aveți un instalator funcțional Haxchi ca să funcționeze. Dacă n
 
 Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie în memoria internă a consolei. Dacă este într-o unitate USB, consola va face BRICK!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie o copie LEGITIMĂ sau consola va face BRICK!
 
-You must remove all USB devices before installing or you may BRICK!
+Trebuie să eliminaţi toate dispozitivele USB înainte de a instala sau puteți face BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Instructions
+### Instrucțiuni
 
-1. Remove all USB devices from your Wii U
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, you should be back at the system menu
-1. You may reconnect any USB devices that were disconnected earlier.
-1. Reboot your Wii U
-1. If the exploit was successful, you will see a menu appear with various boot options
-1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
-1. Press (A) on "Boot System Menu"
-1. Reboot your Wii U to ensure the exploit works automatically as intended
-1. Move the CBHC DS virtual console game to the last page of the system menu
-  + Read the warnings at the bottom of this page carefully to avoid bricking your device!
+1. Scoateți toate dispozitivele USB din Wii U
+1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi
+1. Porniți instalatorul CBHC
+1. Selectați jocul de consolă virtuală DS pe care veți instala CBHC, apoi apăsați (A) ca să o selectați
+  + **Acest joc TREBUIE să aibă Haxchi 100% funcțional instalat**
+1. Citiți avertismentul, apoi apăsați (A) pentru a instala
+1. După ce s-a finalizat, veți fi redirecționat către meniul principal
+1. Puteți acum reconecta toate dispozitivele USB care s-au deconectat mai devreme.
+1. Reporniți consola
+1. Dacă totul a decurs cum trebuie, veți vedea un meniu cu multe opțiuni de pornire
+1. Mergeți spre **”Autoboot: Disabled”**, apoi apăsați (A) până când spune **”Autoboot: System Menu”**
+1. Apăsați (A) la opțiunea ”Boot System Menu”
+1. Reporniți consola ca să vă asigurați că exploitul merge automat cum trebuie
+1. Mutați CBHC DS VC către ultima pagină a meniului principal
+  + Citiți avertismentele de sub această pagină ca să nu aveți riscul să aveți o consolă brickuită!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Consola ar trebui să pornească automat în SysNAND-ul modificat cu Coldboot Haxchi la pornire.
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Puteți apăsa butonul (Home) în timp ce CBHC se pornește ca să accesați meniul de opțiuni de pornire. Aici puteți vedea ce face fiecare dintre opțiuni:
 
-  + Boot System Menu -> Boots into SysNAND
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-  + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
-  + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-  + Boot vWii System Menu -> Boots into vWii on SysNAND
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
+  + Boot System Menu -> Va porni în SysNAND
+  + Boot Homebrew Launcher -> Pornește Homebrew Launcher în SysNAND
+  + Boot Mocha CFW -> Pornește Mocha CFW în RedNAND
+  + Boot fw.img on SD Card -> Pornește orice CFW vechi dintr-un fișier fw.img de pe cardul SD
+  + Boot vWii System Menu -> Pornește în vWii pe SysNAND
+  + Boot vWii Homebrew Channel -> Pornește vWii Homebrew Channel pe SysNAND
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-You may reconnect any USB devices after the installation has completed.
+Reconectați orice dispozitiv USB după ce s-a terminat de instalat.
 {: .notice--info}
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+***Niciodată nu ștergeți CBHC DS Virtual Console sau consola va deveni NEUTILIZABILĂ:***    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game or you will BRICK.**
+***Niciodată nu reinstalați CBHC DS Virtual Console sau consola va deveni NEUTILIZABILĂ:***
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+***Niciodată nu mutați CBHC DS Virtual Console pe un dispozitiv USB sau consola va deveni NEUTILIZABILĂ:***
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+***Niciodată nu ștergeți contul de utilizator NNID care a cumpărat jocul DS Virtual Console injectat sau consola va deveni NEUTILIZABILĂ!***
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**Nu formatați dispozitivul, în timp ce CBHC este instalat sau consola va deveni NEUTILIZABILĂ!**
 {: .notice--danger}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
