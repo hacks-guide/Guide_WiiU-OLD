@@ -2,32 +2,32 @@
 title: "Mocha CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-Mocha CFW is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Mocha CFW este un custom firmware care modifică verificările de semnătură, verificările de regiune, şi execută alt cod personalizat în fundal.
 
-In order to boot the patched signature checks and boot patched SysNAND, you will need to enter the Homebrew Launcher and run Mocha CFW every time your device reboots.
+Pentru a porni verificatoarele de semnături modificate și SysNAND-ul modificat, va trebui să intrați în Homebrew Launcher și să porniți Mocha CFW de fiecare dată când porniți consola.
 
-### Instructions
+### Instrucțiuni
 
-1. Launch Mocha CFW
-1. The Mocha CFW configuration menu should load
-1. Use (UP) and (DOWN) on the D-Pad to navigate through the lines and (LEFT) and (RIGHT) to set the following:
+1. Porniți Mocha CFW
+1. Meniul de configurare Mocha CFW ar trebui să se încarce
+1. Apăsați (Sus) și (Jos) pe D-Pad pentru a naviga printre opțiuni și (Stânga) și (Dreapta) pentru a seta următoarele:
   + Config view mode: **default**
   + Skip this menu on launch: **on**
   + Show launch image: **on**
   + Don't relaunch OS: **off**
   + Launch System Menu: **on**
   + RedNAND: **off**
-1. Press (A) to confirm and exit
-1. Your Wii U should reboot into the system menu
+1. Apăsaţi (A) pentru a confirma şi ieşi
+1. Consola ar trebui să repornească în meniul de sistem
 
 ___
 
-You will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to enter patched SysNAND.
+Veţi avea nevoie să porniți Mocha CFW din Homebrew Launcher fiecare dată când reporniți pentru a intra în SysNAND-ul modificat.
 {: .notice}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
