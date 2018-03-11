@@ -2,36 +2,36 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
-### Required Reading
+### Lectură obligatorie
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+Această pagină vă va îndruma în procesul de a verifica cardul SD pentru erori folsind F3X.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+În funcție de mărimea cardului SD și de viteza calculatorului dumneavoastră, acest proces poate dura până la câteva ore!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Această pagină este doar pentru utilizatorii de Mac. Dacă nu sunteți pe un Mac, verificați paginile [H2testw (windows)](h2testw-(windows)) sau [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Ce aveți nevoie
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* Ultima versiune de [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### Instrucțiuni
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Extrageți arhiva `.zip` F3X
+1. Introduceți cardul SD în calculator
+1. Executaţi aplicaţia F3X
+1. Selectaţi cardul SD
+1. Apăsaţi "Start Test"
+1. Așteptați până când procesul este terminat.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+Dacă testul afișează rezultatul `Success! Your card is ok!` cardul SD este bun și puteți șterge toate `.h2w` de pe cardul SD
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Dacă testul arată alte rezultate, cardul SD ar putea fi corupt sau deteriorat și s-ar putea să trebuiască să-l înlocuiți!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Întoarceți-vă la [Începeți](get-started)
 {: .notice--primary}
