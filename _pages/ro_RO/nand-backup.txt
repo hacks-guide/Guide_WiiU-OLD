@@ -1,47 +1,47 @@
 ---
-title: "NAND Backup"
+title: "Copie de rezervă NAND"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-This is an optional page which will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Aceasta este o pagină opţională în care veți crea o copie de rezervă a NAND-ului pe cardul SD, care vă va permite să recuperați consola folosind un hardmod în caz de brick.
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Dacă aveți un model negru de Wii U (32GB), cardul SD trebuie să fie cel puțin 64 GB. Dacă aveți un model alb de Wii U (8GB), cardul SD trebuie să fie cel puțin 16GB.
 
-Note that Mocha CFW users should follow these instructions after a reboot *without* running Mocha CFW (using the browser based Homebrew Launcher) to prevent Wii U NAND Dumper from freezing.
+Țineți cont că utilizatorii de Mocha CFW ar trebui să urmeze aceste instrucțiuni după o repornire *fără* să pornească Mocha CFW (folosind Homebrew Laucher-ul de pe browser) pentru a preveni ca Wii U NAND Dumper să înghețe.
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Înainte să începeți, este de dorit să vă verificați cardul SD pentru erori folosind [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), sau [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### Ce aveți nevoie
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* Ultima versiune de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
-### Instructions
+### Instrucțiuni
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy and merge _the contents of_ the Wii U NAND Dumper `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
-1. Launch the Homebrew Launcher
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Închideți dispozitivul
+1. Introduceți cardul SD în calculator
+1. Copiați și îmbinați _conținutul_ din Wii U NAND Dumper `.zip` în rădăcina cardului SD
+1. Reintroduceţi cardul SD în aparatul dvs
+1. Porniți dispozitivul
+1. Porniți Homebrew Launcher
+1. Porniți nanddumper
+1. Folosiți D-Pad-ul pentru a seta următoarele opțiuni:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-1. When it has completed, your Wii U will reboot automatically
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Apăsați (A) pentru a copia NAND-ul
+  + Fiți pregătiți să așteptați; acest lucru poate dura o vreme (până la câteva ore depinzând de cât de mult spațiu este folosit în memoria internă)
+1. Când se va termina, WiiU-ul se ve reporni automatic
+1. Închideți dispozitivul
+1. Introduceți cardul SD în calculator
+1. Copiați `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, și fiecare fișier `mlc.bin.part` de pe rădăcina cardului SD într-o locație sigură pe calculator
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+În cazul în care consola va face vreodată brick, veţi putea să folosiți această copie de rezervă pentru a o restaura folosind un hardmod.
 {: .notice--info}
