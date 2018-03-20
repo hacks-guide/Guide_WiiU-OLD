@@ -78,5 +78,5 @@ Dopo aver finito l'installazione puoi collegare senza problemi qualsiasi disposi
 **Non formattare la console se hai CBHC installato o BRICKERAI!**
 {: .notice--danger}
 
-### Prosegui con [Homebrew Launcher (Canale)](homebrew-launcher- (channel)).
+### Prosegui con [Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
 {: .notice--primary}

@@ -49,7 +49,7 @@ ___
 
 #### Mocha CFW
 
-Este método requiere que vuelvas a ejecutar el exploit web utilizado anteriormente *después de cada reinicio*. Se recomienda que utilices esto en la 5.5.2 ya que la versión web del exploit es extremadamente poco confiable.
+Este método requiere que vuelvas a ejecutar el exploit web utilizado anteriormente *después de cada reinicio*. No se recomienda que utilices esto en la 5.5.2 ya que la versión web del exploit es extremadamente poco confiable.
 
 ### Continúa a [Mocha CFW](mocha-cfw)
 {: .notice--primary}

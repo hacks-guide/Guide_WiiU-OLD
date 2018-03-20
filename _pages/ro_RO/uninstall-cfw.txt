@@ -1,45 +1,45 @@
 ---
-title: "Uninstall CFW"
+title: "Dezinstalare CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Aceasta va elimina CFW-ul din Wii U, indiferent de metoda de instalare, cu scopul de a restaura consola la stoc.
 {: .notice--danger}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+Dacă aţi urmat acest ghid atunci când se folosea RedNAND, țineți cont că jocurile şi datele de salvare se salvează în memoria internă, nu în cardul SD. Asta înseamnă că toate jocurile și datele de salvare instalate după ce a fost instalat RedNAND vor fi eleiminate dacă dezinstalați, de vreme ce sistemul va avea doar SysNAND-ul cu care ați început!
 {: .notice--danger}
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Removal from Wii U
+#### Secțiunea I - Eliminarea din Wii U
 
 ##### CBHC
 
-1. Launch the Homebrew Launcher Channel
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-1. Read the warning that appears, then press (B) to uninstall
-1. When it is complete, you will be returned to the system menu
-1. Reboot your Wii U
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Porniți Homebrew Launcher Channel
+1. Porniți instalatorul CBHC
+1. Selectați jocul de consolă virtuală DS din care veți dezinstala CBHC, apoi apăsați (A) ca să o selectați
+1. Citiți avertismentul, apoi apăsați (B) pentru a dezinstala
+1. Când va fi completat, vă veți întoarce în meniul de sistem
+1. Reporniți consola
+1. Mergeți la System Settings, apoi la "Data Management" și ștergeți jocul de consolă virtuală DS
+1. Reinstalaţi jocul de consolă virtuală DS de pe eShop
 
 ##### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Mergeți la System Settings, apoi la "Data Management" și ștergeți jocul de consolă virtuală DS
+1. Reinstalaţi jocul de consolă virtuală DS de pe eShop
 
 ##### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Eliminaţi marcajul din browserul de internet Wii U în cazul în care aţi făcut unul
 
-#### Section II - Removal from SD Card
+#### Secțiunea II - Eliminarea din cardul SD
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Ștergeți orice fișier sau dosar suplimentar din rădăcina cardului SD care *nu* este în următoarea listă (poate că nu aveți unul sau oricare din astea):**
 
   + DCIM
   + private
@@ -50,5 +50,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+Dacă aţi urmat acest ghid atunci când se folosea RedNAND, țineți cont că asta nu va elimina partiția RedNAND de pe cardul SD. Pentru asta, veți avea nevoie de un administrator de partiții pentru sisitemul dumneavoastră de operare.
 {: .notice--info}

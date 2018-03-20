@@ -1,51 +1,51 @@
 ---
-title: "Homebrew Launcher (Channel)"
+title: "Homebrew Launcher (Canal)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-This will install the Homebrew Channel so that, once you have a patched SysNAND running, the Homebrew Launcher will appear as an icon on the system menu.
+Acesta va instala Homebrew Channel, astfel încât, odată ce porniți un SysNAND modificat, Homebrew Launcher va apărea ca o pictogramă în meniul de sistem.
 
-### Instructions
+### Instrucțiuni
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
-1. Launch WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
-1. Select the Homebrew Channel
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Select WUP Installer GX2
-1. Press "Install", then press "Yes" to confirm
-1. If you plan to install games to a USB HDD, select "USB" as the destination; if you do not plan to use a USB HDD, select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. Intrați în Homebrew Launcher
+  + Utilizatorii de CBHC trebuie să apese (Home) în timp ce CBHC pornește pentru a accesa meniul de opțiuni de pornire de CBHC, și să selecteze Homebrew Launcher
+  + Utilizatorii de Haxchi trebuie să pornească Haxchi o dată pentru a modfica SysNAND-ul, și apoi să-l pornească o a doua oară în timp ce țin apăsat butonul (A) pentru a porni Homebrew Laucher
+  + Utilizatorii de Mocha CFW trebuie să pornească Mocha CFW, apoi să repornească Homebrew Launcher
+1. Porniți WUP Installer GX2
+  + Țineți cont că, dacă WUP Installer GX2 se închide cu eroarea "DSi Exception Has Occurred", trebuie doar să închideți consola și să încercați din nou.
+1. Selectați Homebrew Channel-ul
+1. Apăsați "Install", apoi apăsați "Yes" pentru a confirma
+1. Selectați "NAND" ca destinație
+1. Selectați WUP Installer GX2
+1. Apăsați "Install", apoi apăsați "Yes" pentru a confirma
+1. Dacă plănuiți să instalați jocuri într-un hard disk USB, selectați "USB" ca destinație; dacă nu plănuiți să folosiți un hard disk USB, selectați "NAND" ca destinație
+1. Apăsaţi (Home), apoi închideți programul pentru a ieşi din instalator odată ce s-a terminat
 
 ___
 
-You can now launch the Homebrew Launcher on patched SysNAND just by launching the Homebrew Channel.
+Acum puteţi porni Homebrew Launcher pe SysNAND-ul modificat doar pornind Homebrew Channel.
 {: .notice}
 
-You can now launch WUP Installer GX2 on patched SysNAND just by launching it from the system menu.
+Acum puteţi porni WUP Installer GX2 pe SysNAND-ul modificat doar pornindu-l din meniul de sistem.
 {: .notice}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+Pentru siguranţă sporită, *trebuie* să faceți o copie de rezervă a consolei urmărind [Copie de rezervă NAND](nand-backup).
 {: .notice--primary}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Țineți cont că, pentru a accesa eShop-ul cu adresele DNS care blochează actualizările, trebuie să porniți dinainte (NNU-Patcher prin Homebrew pentru a accesa eShop).
 {: .notice--info}
 
-Note that, due to a bug, WUP Installer GX2 can only install to USB drives (such as a USB HDD) if you move WUP Installer GX2 itself to USB storage using the Data Management menu of the System Settings.
+Țineți cont că, din cauza unei erori, WUP Installer GX2 poate face instalări doar în memorii USB (ca un USB HDD) dacă mutați WUP Installer GX2 la memoria USB folosind meniul Data Management din System Settings.
 {: .notice--warning}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Pentru informații despre cum să copiați datele la discurile de joc spre un format bun de instalat și jucat fără a avea nevoie de disc, vedeți pagina [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on SysNAND, check out the [vWii Modding](vwii-modding) page.
+Pentru informații despre cum să modificați vWii în SysNAND, vedeți pagina [Modare vWii](vwii-modding).
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Pentru informaţii despre cum să dezinstalați CFW în condiţii de siguranţă şi să vă întoarceți la stoc, vedeți pagina [Dezinstalând CFW](uninstall-cfw).
 {: .notice--warning}

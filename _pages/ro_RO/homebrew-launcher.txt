@@ -6,61 +6,61 @@ title: "Homebrew Launcher"
 
 ### Lectură obligatorie
 
-The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+Homebrew Launcher este o aplicație homebrew care afișează o listă și permite pornirea altor aplicații homebrew de pe cardul SD.
 
-We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
+Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că Wii U-ul va avea nevoie de acces la Internet.
 
-### Instructions
+### Instrucțiuni
 
-#### Section I - Preparing Browser
+#### Secțiunea I - Pregătind browserul
 
-1. Launch the browser on your device
-1. Go to the browser settings and select "Reset Save Data"
-  + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
-1. Return to the browser
+1. Porniți browserul pe consolă
+1. Mergeți la setările de browser și selectați "Reset Save Data"
+  + Aceasta va preveni probleme cu exploit-ul
+  + Aceasta va șterge de asemenea toate datele care au legătură cu setările, istoricul de navigare și favoriți
+1. Întoarceți-vă la browser
 
-#### Section II (i) - Versions 5.5.0 & 5.5.1
+#### Secțiunea II (i) - Versiuni 5.5.0 & 5.5.1
 
-1. Go to `http://loadiine.ovh`
-  + You may want to bookmark this address to save time on typing in the future
-1. Ensure that the drop down box shows "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", then press "Submit"
-  + This may take many tries
-  + In some situations, the "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" option may be more reliable for launching the Homebrew Launcher
-  + If it freezes, just force the console to power off by holding the power button, then try again
-1. Your console should load the Homebrew Launcher
+1. Mergeți la `http://loadiine.ovh`
+  + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
+1. Asigurați-vă ca cutia de selectare să afișeze "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", apoi apăsați "Submit"
+  + S-ar putea să fie nevoie să încercați de mai multe ori
+  + În unele situații, opțiunea "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" ar putea fi mai de încredere pentru a porni Homebrew Launcher
+  + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați din nou
+1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 
-#### Section II (ii) - Version 5.5.2
+#### Secțiunea II (ii) - Versiunea 5.5.2
 
-1. Open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
-1. Go to `http://u.drg.li/`
-  + You may want to bookmark this address to save time on typing in the future
-1. Select "2" for the first exploit attempt
-  + This may take many tries
-  + If it freezes, just force the console to power off by holding the power button, then try a different number
-  + You may need to try all exploit numbers more than once before one works
-1. Your console should load the Homebrew Launcher
+1. Deschideți perdelele browserului
+  + Aceasta îmbunătățește rata de succes a exploit-ului de browser 5.5.2
+1. Mergeți la `http://u.drg.li/`
+  + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
+1. Selectaţi "2" pentru prima încercare de exploit
+  + S-ar putea să fie nevoie să încercați de mai multe ori
+  + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați un număr diferit
+  + Trebuie să încercați toate numerele de exploit mai mult de o dată înainte ca unul să funcționeze
+1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 
 ___
-### Methods
+### Metode
 
 ___
 
 #### Mocha CFW
 
-This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 as that version's web exploit is extremely unreliable.
+Această metodă are nevoie să vă reporniți exploit-ul de web folosit *după fiecare repornire*. Nu este recomandat să-l folosiți pe 5.5.2 de vreme ce versiunea web a exploit-ului este extrem de nedemnă de încredere.
 
-### Continue to [Mocha CFW](mocha-cfw)
+### Continuați la [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
 
 #### Haxchi
 
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+Această metodă folosește un joc de consolă virtuală DS ieftină și vulnerabilă pentru a porni Custom Firmware automatic la pornirea consolei. Aceasta este *esențialmente necesar* pentru utilizatorii de 5.5.2 de vreme ce exploit-ul de web este extrem de nedemn de încredere.
 
-### Continue to [Haxchi](haxchi)
+### Continuați la [Haxchi](haxchi)
 {: .notice--primary}
 
 ___
