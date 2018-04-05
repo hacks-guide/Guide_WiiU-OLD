@@ -14,7 +14,9 @@ Haxchi - это эксплойт, который позволяет нам за�
 
 + Купленная копия одной из совместимых с эксплойтом игр для DS virtual console, установленная во внутреннюю память Wii U
   + Если у вас еще нет совместимой с эксплойтом игры, вернитесь к [Началу](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### Инструкция
 
 1. Запустите Haxchi Installer
