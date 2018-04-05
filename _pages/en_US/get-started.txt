@@ -121,8 +121,8 @@ Note that, unless you block updates with this method on all current and future c
   + Move to the second list and choose "DNS"
   + Set the DNS to "Don't Auto-Obtain"
   + Set the DNS server IPs to the following servers
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Select "Confirm", then press (B) to save
   + These servers will block your SysNAND from being updated
 
