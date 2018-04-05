@@ -14,7 +14,9 @@ Haxchi est un exploit qui permet de lancer le CFW directement depuis le menu d'a
 
 + Une copie légitime de l'un des jeux de DS "Console Virtuelle" exploitables installée dans la mémoire interne de votre Wii U
   + Si vous n'avez pas encore l'un des jeux exploitables installé sur votre console, allez voir [Pour Commencer](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### Instructions
 
 1. Lancez Haxchi Installer
