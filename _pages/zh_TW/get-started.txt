@@ -12,7 +12,7 @@ title: "新手入門"
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
-您的 SD 卡必須是 FAT32 格式 (建議 64KB 的配置大小)。 大部分的 SD 卡預設都是以這個格式出廠的。
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分的 SD 卡預設都是以這個格式出廠的。
 
 如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
 
@@ -51,7 +51,7 @@ title: "新手入門"
 1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
 1. 解壓 Homebrew Launcher 頻道 `.zip` 裡的_所有內容_到 SD 卡中的 `/install/hbc/` 資料夾底下
-1. 解壓 WUP Installer GX2 (Channel) `.zip` 中的 `WUP_Installer_GX2` 資料夾至 SD 卡的 `/install/` 資料夾中
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
 1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
@@ -121,8 +121,8 @@ title: "新手入門"
   + 到第二個選單中，選擇「DNS」
   + 將 DNS 設為「不自動擷取(Don't Auto-Obtain)」
   + 將 DNS 伺服器 IP 設為下列位址
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + 按下確認及「B」鍵儲存設置
   + 這些伺服器是用來阻擋 SysNAND 更新用的
 
