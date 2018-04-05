@@ -14,7 +14,7 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). A maioria dos cartões de SD serão formatados assim por padrão.
 
-Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Ao invés disso, utilize o [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e deixe a opção "Allocation Unit Size" em 64KB.
+Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
@@ -23,7 +23,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 ### What You Need
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
 * A versão mais recente do [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * A versão mais recente do [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * A versão mais recente do [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
