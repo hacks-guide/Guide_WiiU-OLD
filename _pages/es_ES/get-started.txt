@@ -14,7 +14,7 @@ Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio s
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
 
-Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Mejor usa [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) y define un Tamaño de Unidad de Asignación de 64KB.
+Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
 
 Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
@@ -23,7 +23,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 ### Qué necesitas
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * La última versión de [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La última versión de [WUP Installer GX2 (Canal)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
