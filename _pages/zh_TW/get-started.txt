@@ -14,7 +14,7 @@ title: "新手入門"
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分的 SD 卡預設都是以這個格式出廠的。
 
-如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 建議使用 [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為64KB。
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
 
 *不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
@@ -23,7 +23,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分
 
 ### 必備項目
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * 最新版的 [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [WUP Installer GX2 (頻道版)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
