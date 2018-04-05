@@ -14,7 +14,9 @@ Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞�
 
 + 一份正版、安裝於 Wii U 系統內部儲存空間且可執行漏洞的 DS 虛擬主機遊戲
   + 若您尚未購買任何相容之遊戲，請見[新手入門](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### 操作說明
 
 1. 啟動 Haxchi installer
