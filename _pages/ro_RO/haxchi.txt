@@ -14,7 +14,9 @@ Haxchi este un exploit care ne permite să pornim CFW direct din meniul de siste
 
 + O copie originală a una dintre jocurile vulnerabile din consola virtuală DS instalate în memoria internă a Wii U-ului
   + Dacă încă nu aveți vreuna dintre jocurile exploatabile instalate, vedeți [Începeți](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### Instrucțiuni
 
 1. Porniți Haxchi Installer
