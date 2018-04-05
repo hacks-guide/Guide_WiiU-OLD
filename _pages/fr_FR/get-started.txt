@@ -12,7 +12,7 @@ Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmwar
 
 On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux. Si vous voulez faire une sauvegarde du système de votre Wii U, s'il est nécessaire de la restaurer plus tard, vous aurez besoin d'une carte SD de deux fois la taille de la mémoire de votre Wii U (une carte SD de 16Go pour une console blanche de 8Go; une carte SD de 64Go pour une console noire de 32Go).
 
-Votre carte SD doit être formaté en FAT32 (64KB d'unité d'allocation si possible). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
 
 Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Utilisez [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et une taille d'Allocation de 64Kb.
 
@@ -51,7 +51,7 @@ Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/rele
 1. Copiez le fichier `config.txt` vers le répertoire `haxchi` de votre carte SD
 1. Créez un dossier nommé `hbc` dans le dossier `/install/` de votre carte SD
 1. Copiez _le contenu de_ the Homebrew Launcher Channel `.zip` vers le répertoire `/install/hbc/` de votre carte SD
-1. Copiez le dossier `WUP_Installer_GX2` provenant du WUP Installer GX2 (Channel) `.zip`dans le dossier `/install/` sur votre carte SD
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Créez un dossier nommé `mocha` dans le répertoire `/wiiu/apps/` de votre carte SD
 1. Copiez le fichier `mocha.elf' depuis le contenu du .zip Mocha CFW vers le répertoire `/wiiu/apps/mocha` de votre carte SD
 1. Copiez le dossier `savemii_mod` du fichier savemii_mod`.zip` vers le répertoire `/wiiu/apps/` de votre carte SD
@@ -121,8 +121,8 @@ Notez que, à moins que vous bloquez les mises à jour avec cette méthode sur t
   + Passez à la page suivante et choisissez"DNS"
   + Dites"Non" à la question"Obtenir les informations du serveur DNS automatiquement ?"
   + Saisissez les DNS primaire et secondaire en entrant les adresses IP des serveurs suivants
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Sélectionnez" Confirmer", puis appuyez sur (B) pour enregistrer
   + Ces serveurs bloqueront la mise à jour de votre SysNAND
 
