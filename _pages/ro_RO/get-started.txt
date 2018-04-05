@@ -14,7 +14,7 @@ Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
 
-În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Folosiți['Guiformat'] (http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) în schimb și setați Allocation Unit Size 64KB.
+În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
 
 Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
@@ -23,7 +23,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 ### Ce aveți nevoie
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
 * Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
 * Cea mai recentă versiune de [WUP Installer GX2 (Homebrew Launcher)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai recentă versiune de [WUP Installer GX2 (Channel)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
