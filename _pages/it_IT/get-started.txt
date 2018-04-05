@@ -14,7 +14,7 @@ La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Molte schede SD appena comprate saranno già formattate in questo modo.
 
-Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Usa invece [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e imposta Allocation Unit Size a 64KB.
+Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
 
 *Non puoi* rinominare la tua scheda SD `wiiu` perchè potrebbe causare problemi.
 
@@ -23,7 +23,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 ### Cosa serve
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
 * L'ultima versione del [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * L'ultima versione di [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * L'ultima versione di [WUP Installer GX2 (Canale)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
