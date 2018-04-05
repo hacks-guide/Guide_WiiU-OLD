@@ -12,7 +12,7 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 É recomendado que seu cartão SD tenha pelo menos 16GB ou 32GB para ter espaço suficiente para extrair e instalar os jogos. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-Seu cartão SD deve estar formatado como FAT32 (clusters de 64KB se possível). A maioria dos cartões de SD serão formatados assim por padrão.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). A maioria dos cartões de SD serão formatados assim por padrão.
 
 Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Ao invés disso, utilize o [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e deixe a opção "Allocation Unit Size" em 64KB.
 
@@ -51,7 +51,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 1. Copie o arquivo `config.txt` para a pasta `/haxchi/` no seu cartão SD
 1. Crie uma pasta chamada `hbc` detro da pasta `/install/` no seu cartão SD
 1. Copie _o conteúdo do_ `.zip` do Homebrew Launcher Channel para a pasta `/install/hbc/` no seu cartão SD
-1. Copie a pasta `WUP_Installer_GX2` do `.zip` do WUP Installer GX2 (Channel) para a pasta `/install/` no seu cartão SD
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
 1. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
 1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
@@ -121,8 +121,8 @@ Note que, ao menos que você bloqueie as atualizações com este método nas atu
   + Mova para a segunda lista e selecione "DNS"
   + Defina o DNS para "Modo manual"
   + Configure o IP dos servidores DNS para os seguintes servidores
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Selecione "Confirmar" e, em seguida, aperte (B) para salvar
   + Estes servidores irão bloquear as atualizações na sua SysNAND
 
