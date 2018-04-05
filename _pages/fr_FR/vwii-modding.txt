@@ -8,10 +8,10 @@ title: "Modding de vWii"
 
 Cela vous permettra d'installer The Homebrew Channel et les autres modifications à vWii de la Wii U (Wii Virtuelle).
 
-### What you need
+### What You Need
 
-* [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
+* [vWii_cIOS_apps_20131218.zip]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
+* [Patched_IOS80_Installer_for_vWii.zip]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * La dernière version de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * La dernière version de [Hackmii Installer](https://bootmii.org/download/)
 * Une version précédente de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(le fichier launcher`.zip`)*
