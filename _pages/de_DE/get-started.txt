@@ -12,7 +12,7 @@ Bevor Sie beginnen, sollten Sie sicherstellen, dass Ihre Wii U ist derzeit auf F
 
 Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist um genug Platz zum dumpen und installieren von Spielen zu bieten. Wenn du ein Backup von deinem WII U System erstellen willst um dieses in Zukungt wiederherstellen zu können solltest du eine SD Karte bereitliegen haben, die mindestens doppelt so groß ist wie der Systemspeicher deiner WII U (16GB für die weisse Konsole; 64GB für die schwarze Konsole).
 
-Deine SD-Karte muss als FAT32 (64KB Cluster wenn möglich) formatiert sein. Die meisten SD-Karten werden standardmäßig so formatiert.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Die meisten SD-Karten werden standardmäßig so formatiert.
 
 Wenn du deine SD-Karte auf Windows formatieren musst, benutze nicht das eingebaute Formatierungstool, ansonsten können Probleme auftreten. Benutze stattdessen [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) und setze eine Allokationgröße von 64KB.
 
@@ -51,7 +51,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Kopiere die `config.txt` in den `/haxchi/` Ordner auf deiner SD-Karte
 1. Erstelle einen Ordner mit dem Namen `hbc`` im `/install/` Ordner deiner SD-Karte
 1. Kopiere _den Inhalt_ der Homebrew Launcher Channel `.zip` in den `/install/hbc/` Ordner deiner SD-Karte
-1. Kopiere den Ordner `WUP_Installer_GX2` von der WUP Installer GX2 (Channel) `.zip` in den `/install/` Ordner deiner SD-Kare
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Erstelle einen Ordner mit dem Namen `mocha` im `/wiiu/apps/` Ordner deiner SD-Karte
 1. Kopiere die `mocha.elf` aus der Mocha CFW `.zip` in den `/wiiu/apps/mocha/` Ordner deiner SD-Karte
 1. Kopiere den `savemii_mod` Ordner von der savemii_mod `.zip` in den `/wiiu/apps/` Ordner auf deiner SD- Karte
@@ -121,8 +121,8 @@ Beachte, dass sofern du nicht mit Hilfe dieser Methode Updates für alle aktuell
   + Navigiere zur zweiten Liste und wählen sie "DNS" aus
   + Stelle die DNS auf "Nicht automatisch beziehen"
   + Stelle die DNS Server IPs zu den folgenden Servern ein
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Wähle "Bestätigen", dann drücke (B) um zu speichern
   + Diese Server werden ein SysNAND Update verhindern
 
