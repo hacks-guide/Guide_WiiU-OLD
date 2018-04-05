@@ -12,7 +12,7 @@ Prima di iniziare, assicurati che la tua Wii U abbia un firmware 5.5.0, 5.5.1 o 
 
 La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi. Se hai intenzione di creare un backup del sistema della Wii U per poterlo poi ripristinare in futuro, avrai bisogno di una scheda SD con almeno due volte lo spazio della memoria di sistema della tua Wii U (una scheda SD da 16GB per la console bianca da 8GB; una scheda SD da 64GB per la console nera da 32GB).
 
-La tua scheda SD deve essere formattata in FAT32 (se possibile con cluster 64KB). Molte schede SD appena comprate saranno già formattate in questo modo.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Molte schede SD appena comprate saranno già formattate in questo modo.
 
 Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Usa invece [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e imposta Allocation Unit Size a 64KB.
 
@@ -51,7 +51,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Copia il file `config.txt` nella cartella `/haxchi/` della scheda SD
 1. Crea una cartella chiamata `hbc` nella cartella `/install/` della tua scheda SD
 1. Copia _il contenuto_ dell'archivio `.zip` dell'Homebrew Launcher Channel nella cartella `/install/hbc` della tua scheda SD
-1. Copia la cartella `WUP_Installer_GX2` dall'archivio `.zip`di WUP Installer GX2 (Canale) nella cartella `/install/` nella tua scheda SD
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
 1. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
 1. Copia la cartella `savemii_mod` dall'archivio `.zip` di savemii_mod nella cartella `/wiiu/apps` nella tua scheda SD
@@ -121,8 +121,8 @@ Nota che, se non blocchi gli aggiornamenti su questa connessione o su quelle fut
   + Seleziona la seconda lista e scegli "DNS"
   + Seleziona in DNS "Non ottenere automaticamente"
   + Inserisci i seguenti indirizzi IP del DNS
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Seleziona "Conferma", quindi premi (B) per salvare le impostazioni
   + Questi server impediranno l'aggiornamento della SysNAND
 
