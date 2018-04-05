@@ -12,7 +12,7 @@ Acești pași vor prepara cardul SD pentru instalarea ColdBoot Haxchi CFW.
 
 Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru instalarea jocului și pentru un backup la memeoria internă. Dacă doriţi să faceţi o copie de rezervă a sistemului dumneavoastră Wii U în cazul în care acesta trebuie să fie restaurat în viitor, va trebui un card SD de cel puţin de două ori mărimea memoriei consolei (16GB SD card pentru o consolă de 8GB alb; 64GB SD card pentru o consolă de 32GB negru).
 
-Cardul SD trebuie sa fie formatat ca FAT32 (64KB clustere dacă este posibil). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
 
 În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Folosiți['Guiformat'] (http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) în schimb și setați Allocation Unit Size 64KB.
 
@@ -51,7 +51,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 1. Copiați `config.txt` în folderul `/haxchi/` de pe cardul SD
 1. Creați un folder numit `hbc` în folderul `install` de pe cardul SD
 1. Copiați _conținutul_ the Homebrew Launcher Channel ”.zip” către folderul ”/install/hbc/” din cardul SD
-1. Copiați folderul ”WUP_Installer_GX2” din WUP Installer GX2 (Channel) ”.zip în folderul ”/install” din cardul SD
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Creați un folder numit ”mocha” în ”/wiiu/apps/” de pe cardul SD
 1. Copiați 'mocha.elf' din Mocha CFW ".zip" în folderul '/wiiu/apps/mocha/' de pe cardul SD
 1. Copiaţi folderul 'savemii_mod' din savemii_mod '.zip' la folderul ”/ wiiu/apps /” de pe cardul SD
@@ -131,8 +131,8 @@ Reţineţi că, pentru a accesa eShop cu aceste adrese adrese DNS, mai întâi, 
   + Mergeți la a doua listă și selectați "DNS"
   + Setați DNS-ul pe "Don't Auto-Obtain"
   + Setați IP-urile de server DNS la următoarele
-  + `168.235.092.108`
-  + `081.004.127.020`
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
   + Selectaţi "Confirm", apoi apăsaţi (B) pentru a salva
   + Aceste servere vor bloca SysNAND-ul din a se actualiza
 
