@@ -61,7 +61,7 @@ stoc în Coldboot Haxchi pornind Custom Firmware Mocha. Se folosește homebrew c
 + Dacă totul merge așa cum trebuie, nu o să pierdeți nimic și o să ajungeți să aveți toate lucrurile cu care ați început (jocurile, NNID, salvările, etc. vor fi păstrate).
 + Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru descărcarea și instalarea de jocuri.
 + Cardul SD ar trebui să fie [MBR, nu GPT] (http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
 
 ___
 
