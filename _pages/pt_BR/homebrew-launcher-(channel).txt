@@ -59,9 +59,6 @@ Para maior segurança, você *deve* criar um backup da NAND de seu dispositivo s
 Note que para acessar o eShop com os endereços DNS de bloqueio de atualizações definidos, você deve primeiro iniciar o NNU-Patcher através do Homebrew Launcher (NNU-Patcher é uma alteração temporária e será necessário rodá-lo novamente se você desejar acessar o eShop após uma reinicialização).
 {: .notice--info}
 
-Note que, devido a um bug, WUP Installer GX2 pode instalar apenas para drives USB (como um HD USB) se você movê-lo para um armazenamento USB usando o menu de Gerenciamento de dados da Configuração do console.
-{: .notice--warning}
-
 Para informações sobre como descarregar seus discos para um formato instalável, para jogá-los sem a necessidade do disco, confira a página [disc2app](disc2app).
 {: .notice--success}
 
