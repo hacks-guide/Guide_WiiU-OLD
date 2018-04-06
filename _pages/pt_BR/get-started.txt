@@ -14,7 +14,7 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). A maioria dos cartões de SD serão formatados assim por padrão.
 
-Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Se você precisar formatar um cartão SD no Windows, não use o formatador padrão do sistema ou ele poderá causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
