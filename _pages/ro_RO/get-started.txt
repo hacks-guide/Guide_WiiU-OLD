@@ -30,7 +30,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 * Cea mai recentă versiune de [WUP Installer GX2 (Channel)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai nouă versiune de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Cea mai recentă versiune de [hid\_to\_vpad] (https://github.com/Maschell/hid_to_vpad/releases/)
-* Cea mai nouă versiune de [Mocha CFW](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Ultima versiune de la [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Cea mai recentă versiune de [Launcher Homebrew Channel] (https://github.com/dimok789/homebrew_launcher/releases/latest) *(fișierul.zip a aplicației) *
 * O versiune anterioară de [Homebrew Launcher] (https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul.zip a aplicației) *
@@ -46,21 +46,20 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 1. Creați un folder numit `wiiu` pe rădăcina cardului SD
 1. Creați un folder numit `install` pe rădăcina cardului SD
 1. Copiaţi folderul "apps" din fișierul '.zip' a aplicației Homebrew App Sore în folderul '/ wiiu /' de pe cardul SD
-1. Copiați _conținutul de_ pe arhiva the Homebrew Launcher `.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva Haxchi`.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva CBHC`.zip` în rădăcina cardului SD
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
+1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Copiați `config.txt` în folderul `/haxchi/` de pe cardul SD
 1. Creați un folder numit `hbc` în folderul `install` de pe cardul SD
-1. Copiați _conținutul_ the Homebrew Launcher Channel ”.zip” către folderul ”/install/hbc/” din cardul SD
+1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
 1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Creați un folder numit ”mocha” în ”/wiiu/apps/” de pe cardul SD
-1. Copiați 'mocha.elf' din Mocha CFW ".zip" în folderul '/wiiu/apps/mocha/' de pe cardul SD
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Copiaţi folderul 'savemii_mod' din savemii_mod '.zip' la folderul ”/ wiiu/apps /” de pe cardul SD
-1. Copiați _conținutul de_ pe arhiva WUP Installer GX2 `.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva disc2app`.zip` în rădăcina cardului SD
-1. Copiați și îmbinați _conținutul_ hid\_to\_vpad ”.zip” către rădăcina cardului SD
-1. Copiați și îmbinați _conținutul_ the NNU-Patcher ”.zip” către rădăcina cardului SD
+1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
+1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Reintroduceţi cardul SD în aparatul dvs
 1. Porniți dispozitivul
 
