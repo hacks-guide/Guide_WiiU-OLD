@@ -11,7 +11,7 @@ title: "Întrebări frecvente"
 <a name="faq_updates" />**Î:** *Acum că Nintendo termină producţia pentru Wii U, asta înseamnă că nu se vor mai efectua actualizări?*    
 **R:** Nu! Versiunea 5.5.2 a fost lansată exact după terminarea producţiei. De aceea trebuie să vă asigurați mereu că aţi setat serverele DNS, care vor bloca actualizările.
 
-<a name="faq_updatesysnand" />**Î:** *Este în regulă să actualizez la CFW SysNAND?*    
+<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
 **R:** Nu! De aceea trebuie sa va asigurati mereu că aţi setat serverele DNS, care vor bloca actualizările.
 
 <a name="faq_updatemocha" /> ** i: ** * Cum pot actualiza la ultima versiune Mocha CFW? *    
@@ -24,7 +24,7 @@ title: "Întrebări frecvente"
 **R:** Da! Custom Firmware-ul nu numai că vă oferă acces la Homebrew Launcher, dar de asemenea vă oferă hackuri pe toate versiunile, ceea ce înseamnă că le veți păstra permanent, chiar și dacă apăr actualizări.
 
 <a name="faq_regionfree" />**Î:** *Pot folosi asta ca să joc jocuri din alte regiuni?*    
-**R:** Mocha CFW suportă patch-urile Region Free, care permit utilizatorilor să instaleze jocuri din orice regiune fără alte modificări în plus.
+**R:** Da! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
 
 <a name="faq_support" /> **Î:** *Unde ar trebui să mă duc pentru asistenţă?*    
 **R:** Pentru suport, cereți ajutor la [Nintendo Homebrew pe Discord](https://discord.gg/MWxPgEp).
