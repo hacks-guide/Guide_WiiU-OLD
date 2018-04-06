@@ -59,9 +59,6 @@ För ökad säkerhet *bör* du skapa en säkerhetskopia av din enhets NAND genom
 Notera att för att komma åt eShopen med DNS-adresserna som blockerar uppdateringar så måste du först köra NNU-Patcher genom Homebrew Launcher (NNU-Patcher modifierar bara systemrutinerna i minnet, och kommer behöva köras igen om du behöver komma åt eShopen efter en omstart).
 {: .notice--info}
 
-Notera att på grund av en bugg kan WUP Installer GX2 bara installera till USB-enheter (som t.ex. en USB-hårddisk) om du flyttar själva WUP Installer GX2 till USB-lagring med hjälp av menyn Data Management från System Settings.
-{: .notice--warning}
-
 För information om att dumpa diskar till ett installerbart format för att spela utan att behöva skivan, läs vidare på sidan [disc2app](disc2app).
 {: .notice--success}
 
