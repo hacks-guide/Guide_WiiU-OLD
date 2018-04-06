@@ -17,8 +17,6 @@ TREBUIE să aveți un instalator funcțional Haxchi ca să funcționeze. Dacă n
 Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie în memoria internă a consolei. Dacă este într-o unitate USB, consola va face BRICK!
 
 Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie o copie LEGITIMĂ sau consola va face BRICK!
-
-Trebuie să eliminaţi toate dispozitivele USB înainte de a instala sau puteți face BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
