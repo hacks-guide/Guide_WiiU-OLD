@@ -14,7 +14,7 @@ Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräc
 
 SD-kortet måste vara formaterat med FAT32 (32K storlek på allokeringsenhet). De flesta SD-kort kommer vara formaterade såhär från början.
 
-Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Använd [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) istället och sätt "Allocation Unit Size" till 32KB.
+Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 
