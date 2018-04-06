@@ -12,9 +12,9 @@ Antes de empezar, debes asegurarte de que tu Wii U posee el firmware de versión
 
 Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos. Si quieres hacer un respaldo del sistema de tu Wii U en caso de que quieras restaurarla en un futuro, necesitarás una tarjeta SD de al menos del doble del tamaño del sistema (una tarjeta SD de 16GB para la consola blanca de 8GB; una de 64GB para la consola negra de 32GB).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
 
-Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
@@ -108,25 +108,6 @@ Los siguientes juegos de consola virtual de DS son compatibles:
 Actualmente, Brain Age es el más barato de todos en la eShop ($6.99 USD).
 
 Si ya posees Brain Age o Brain Training y lo tenías instalado en tu Wii U de antes, prueba a borrarlo y a descargarlo nuevamente desde la eShop. Las versiones anteriores a la actual de este juego no son compatibles con el exploit.
-
-#### Sección III - Bloquear actualizaciones del sistema
-
-Ten en cuenta que para acceder a la eShop con estas direcciones DNS configuradas, primero debes ejecutar NNU-Patcher desde el Homebrew Launcher. Adicionalmente ten en cuenta que NNU-Patcher es una modificación temporal que debe ser ejecutada nuevamente para acceder a la eShop luego de reiniciar.
-
-Tenga en cuenta que, a menos que bloquees las actualizaciones con este método en todas las conexiones actuales y futuras, las actualizaciones en la Wii U se realizan *automáticamente* y *no* pueden ser desactivadas. 
-{: .notice--danger}
-
-1. Ve a las "Configuraciones de la consola", luego a "Internet", luego "Conexión a internet" y presiona (X) para mostrar tus configuraciones de red actuales
-1. Para cada conexión (y todas las futuras conexiones), haz lo siguiente
-  + Selecciona la conexión
-  + Selecciona "Cambiar configuración"
-  + Ve a la segunda lista y selecciona "DNS"
-  + Configura el DNS a "Modo manual"
-  + Configura las IP's de servidores DNS a las siguientes
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + Selecciona "Confirmar" y presiona (B) para guardar
-  + These servers will block your device from being updated
 
 ___
 
