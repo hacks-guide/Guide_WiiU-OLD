@@ -14,7 +14,7 @@ On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
 
-Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysfonctionnements.
 
