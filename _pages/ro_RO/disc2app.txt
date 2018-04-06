@@ -17,7 +17,7 @@ Dacă plănuiți să folosiți un hard disc extern pentru a instala copiile disc
 
 ### Ce aveți nevoie
 
-* Un Wii U care are poate accesa SysNAND modificat (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB de spaţiu liber pe cardul SD
 
 ### Instrucțiuni
@@ -36,7 +36,7 @@ Acest lucru va șterge complet conținuturile hard disk-ului extern!
 
 #### Secțiunea II - Folosind disc2app
 
-1. Porniți Homebrew Launcher Channel pe SysNAND-ul modificat
+1. Porniți Homebrew Launcher Channel
 1. Porniți disc2app
 1. Apăsați (A) pentru a copia în cardul SD
 1. Introduceți discul care doriți să-l copiați când vi se cere
@@ -45,7 +45,7 @@ Acest lucru va șterge complet conținuturile hard disk-ului extern!
 
 #### Secțiunea III - Instalând jocul copiat 
 
-1. Porniți Homebrew Launcher Channel pe SysNAND-ul modificat
+1. Porniți Homebrew Launcher Channel
 1. Porniți WUP Installer GX2
 1. Selectați jocul pe care doriți să-l instalați
 1. Apăsați "Install", apoi apăsați "Yes" pentru a confirma
