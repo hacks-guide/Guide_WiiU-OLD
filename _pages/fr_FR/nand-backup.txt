@@ -15,7 +15,7 @@ Remarque que les utilisateurs moka CFW doivent suivre ces instructions après un
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
@@ -23,7 +23,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
-1. Copiez et fusionnez _le contenue du_ fichier `.zip` de Wii U NAND Dumper à la racine de votre carte SD
+1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 1. Lancer l'Homebrew Launcher
