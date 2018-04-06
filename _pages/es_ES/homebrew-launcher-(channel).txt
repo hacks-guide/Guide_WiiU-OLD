@@ -59,9 +59,6 @@ Para mayor seguridad, *debes* crear un respaldo de tu consola siguiendo [Respald
 Ten en cuenta que para acceder a la eShop con los las direcciones DNS que bloquean las actualizaciones, antes debes iniciar NNU-Patcher desde el Homebrew Launcher (NNU-Patcher es un parche temporal y tendrás que iniciarlo después de cada reinicio para entrar a la eShop).
 {: .notice--info}
 
-Ten en cuenta que, debido a un error, WUP Installer GX2 sólo puede realizar instalaciones en memorias USB (como un USB HDD) si mueves WUP Installer GX2 al almacenamiento USB usando el menú Gestión de datos de las Configuraciones de la consola.
-{: .notice--warning}
-
 Para informarte acerca de cómo volcar los datos de tus discos de juego a un formato instalable para jugar sin necesidad del disco, echa un vistazo al apartado de [disc2app](disc2app).
 {: .notice--success}
 
