@@ -14,7 +14,7 @@ Haxchi est un exploit qui permet de lancer le CFW directement depuis le menu d'a
 
 + Une copie légitime de l'un des jeux de DS "Console Virtuelle" exploitables installée dans la mémoire interne de votre Wii U
   + Si vous n'avez pas encore l'un des jeux exploitables installé sur votre console, allez voir [Pour Commencer](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
   + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
   
 ### Instructions
@@ -23,19 +23,19 @@ Haxchi est un exploit qui permet de lancer le CFW directement depuis le menu d'a
 1. Sélectionnez le jeu Console Virtuelle DS sur lequel vous avez installé Haxchi, puis appuyez sur (A)
 1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (A) pour lancer l'installation
 1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé " Haxchi ")
-1. La console redémarrera dans la SysNAND patché
-  + Ceci permettra aux titres non signés (par exemple la Chaîne Homebrew et backups de jeux) à être lancés directement depuis le menu Home
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-Actuellement, vous devez lancer le jeu DS Console Virtuelle à chaque fois que vous redémarrez la console pour entrer dans SysNAND patché. Dans la page suivante vous fera installer CBHC (Coldboot Haxchi) qui le fera automatiquement.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 ** Vous pouvez désormais maintenir différents boutons tout en lançant votre jeu DS Console Virtuelle pour des options de démarrage différentes. Voici la liste des options de démarrage et leur effet :**
 
-  + Aucun -> Démarrer sur la SysNAND patché
-  + (A)-> Démarrer en lançant le Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 
