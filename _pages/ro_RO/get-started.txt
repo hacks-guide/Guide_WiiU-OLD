@@ -24,6 +24,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 ### Ce aveți nevoie
 
 * [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
 * Cea mai recentă versiune de [WUP Installer GX2 (Homebrew Launcher)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai recentă versiune de [WUP Installer GX2 (Channel)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
@@ -54,6 +55,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Creați un folder numit ”mocha” în ”/wiiu/apps/” de pe cardul SD
 1. Copiați 'mocha.elf' din Mocha CFW ".zip" în folderul '/wiiu/apps/mocha/' de pe cardul SD
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Copiaţi folderul 'savemii_mod' din savemii_mod '.zip' la folderul ”/ wiiu/apps /” de pe cardul SD
 1. Copiați _conținutul de_ pe arhiva WUP Installer GX2 `.zip` în rădăcina cardului SD
 1. Copiați _conținutul de_ pe arhiva disc2app`.zip` în rădăcina cardului SD
@@ -134,7 +136,7 @@ Reţineţi că, pentru a accesa eShop cu aceste adrese adrese DNS, mai întâi, 
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
   + Selectaţi "Confirm", apoi apăsaţi (B) pentru a salva
-  + Aceste servere vor bloca SysNAND-ul din a se actualiza
+  + These servers will block your device from being updated
 
 ___
 
