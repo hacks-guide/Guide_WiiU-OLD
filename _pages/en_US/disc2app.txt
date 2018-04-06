@@ -17,7 +17,7 @@ If you are planning to use an external hard drive to install your dumped discs o
 
 ### What You Need
 
-* A Wii U that can access patched SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB of free space on your SD card
 
 ### Instructions
@@ -36,7 +36,7 @@ This will completely erase the contents of the external hard drive!
 
 #### Section II - Using disc2app
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Launch the Homebrew Launcher Channel
 1. Launch disc2app
 1. Press (A) to dump to the SD card
 1. Insert the disc you want to dump when prompted
@@ -45,7 +45,7 @@ This will completely erase the contents of the external hard drive!
 
 #### Section III - Installing dumped game
 
-1. Launch the Homebrew Launcher Channel on patched SysNAND
+1. Launch the Homebrew Launcher Channel
 1. Launch WUP Installer GX2
 1. Select the game you want to install
 1. Press "Install", then press "Yes" to confirm
