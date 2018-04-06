@@ -14,7 +14,7 @@ Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
 
-În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
