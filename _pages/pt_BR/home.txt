@@ -60,7 +60,7 @@ This guide has the end goal of taking a completely unmodified Wii U from stock f
 + Se tudo ocorrer conforme o esperado, você não perderá dados pessoais e continuará com tudo o que tinha antes de começar (jogos, NNID, saves, etc serão preservados).
 + É recomendado que seu cartão SD tenha pelo menos 16GB ou 32GB para ter espaço suficiente para extrair e instalar os jogos.
 + Seu cartão SD deve ser [MBR, não GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 
