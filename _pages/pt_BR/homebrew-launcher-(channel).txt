@@ -6,14 +6,14 @@ title: "Homebrew Launcher (Channel)"
 
 ### Required Reading
 
-Isto irá instalar o Homebrew Channel para que, uma vez você possua uma SysNAND alterada em execução, o Homebrew Launcher aparecerá como um ícone no menu do sistema.
+This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
 
 ### Instructions
 
 1. Enter the Homebrew Launcher
   + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to patch SysNAND, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users must launch Mocha CFW, then relaunch the Homebrew Launcher
+  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users should already have entered this
 1. Acesse o WUP Installer GX2
   + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
 1. Select the Homebrew Channel
@@ -21,16 +21,16 @@ Isto irá instalar o Homebrew Channel para que, uma vez você possua uma SysNAND
 1. Selecione "NAND" como o destino
 1. Select WUP Installer GX2
 1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar
-1. If you plan to install games to a USB HDD, select "USB" as the destination; if you do not plan to use a USB HDD, select "NAND" as the destination
+1. Selecione "NAND" como o destino
 1. Aperte (Home) e em seguida, feche o software para sair do instalador, uma vez que a instalação for concluída
 
 ___
 
-Você pode iniciar o Homebrew Launcher na SysNAND alterada apenas iniciando o Homebrew Channel.
-{: .notice}
+You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+{: .notice--info}
 
-Agora, você pode abrir o WUP Installer GX2 na SysNAND modificada simplesmente iniciando-o a partir do menu do sistema.
-{: .notice}
+You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+{: .notice--info}
 
 Para maior segurança, você *deve* criar um backup da NAND de seu dispositivo seguindo [Backup da NAND](nand-backup).
 {: .notice--primary}
@@ -44,7 +44,7 @@ Note que, devido a um bug, WUP Installer GX2 pode instalar apenas para drives US
 Para informações sobre como descarregar seus discos para um formato instalável, para jogá-los sem a necessidade do disco, confira a página [disc2app](disc2app).
 {: .notice--success}
 
-Para informações sobre como installar mods de vWii na SysNAND, confira a página [Modding do vWii](vwii-modding).
+For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
 Para informações sobre como desinstalar o CFW com segurança e retornar ao modo de fábrica, confira a página [Desinstalar o Mocha CFW](uninstall-mocha-cfw).
