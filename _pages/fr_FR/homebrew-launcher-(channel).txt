@@ -59,9 +59,6 @@ Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre
 Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise à jours, vous devez d’abord exécuter NNU-Patcher via le l'Homebrew Launcher (NNU-Patcher est un patch temporaire et devra être lancé à nouveau si vous avez besoin d’accéder à l’eShop après un redémarrage).
 {: .notice--info}
 
-Notez que, dû à un bug, WUP Installer GX2 peut seulement installer sur un disque USB (comme un HDD USB) si vous déplacez WUP Installer GX2 sur un stockage USB en utilisant le Gestionnaire de Données dans les Paramètres Systèmes.
-{: .notice--warning}
-
 Pour toute information concernant la copie de vos disques afin de pouvoir les installer sur votre console et jouer sans le disque, consultez la page de [disc2app](disc2app).
 {: .notice--success}
 
