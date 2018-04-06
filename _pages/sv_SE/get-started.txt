@@ -12,9 +12,9 @@ Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 
 
 Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel. Om du vill göra en säkerhetskopia av ditt Wii U-system, ifall det skulle behöva återställas någon gång i framtiden, behöver du ett SD-kort som är minst dubbelt så stort som ditt Wii Us system-minne (16GB SD-kort för en 8GB vit konsol; 64GB SD-kort för en 32GB svart konsol).
 
-SD-kortet måste vara formaterat med FAT32 (32K storlek på allokeringsenhet). De flesta SD-kort kommer vara formaterade såhär från början.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). De flesta SD-kort kommer vara formaterade såhär från början.
 
-Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+Om du behöver formatera ett SD-kort på windows använd inte systemets formateringsverktyg eftersom det kan skapa problem. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Ditt SD-kort *får ej* döpas till `wiiu`, annars kommer det orsaka problem.
 
@@ -108,25 +108,6 @@ Följande DS Virtual Console-spel är kompatibla:
 För närvarande är Dr. Kawashima's Brain Training den billigaste av dessa titlar på eShopen (70:-).
 
 Om du redan äger Brain age eller Brain Training och har haft det installerat på din Wii U ett tag försök radera det och ladda ner det på nytt från eShopen. Äldre versioner av spelet har inte det nödvändiga säkerhetshålet.
-
-#### Avsnitt III - Blockera systemuppdateringar
-
-Notera att för att komma åt eShopen med dessa DNS-inställningar måste du först köra NNU-Patcher genom Homebrew Launcher. Notera även att NNU-Patcher är tillfällig och du kommer behöva köra den igen om du behöver komma åt eShopen efter en omstart.
-
-Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande och framtida nätverksanslutningar så sköts uppdateringar av Wii U *automatiskt* och *kan inte* stängas av. 
-{: .notice--danger}
-
-1. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
-1. För varje anslutning (och för alla framtida anslutningar), gör följande
-  + Välj anslutningen
-  + Välj "Change Settings"
-  + Flytta till andra listan och välj "DNS"
-  + Sätt DNS till "Don't Auto-Obtain"
-  + Ställ in följande IP-adresser som DNS-servrar
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + Välj "Confirm" och tryck sen (B) för att spara
-  + These servers will block your device from being updated
 
 ___
 
