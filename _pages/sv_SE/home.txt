@@ -60,7 +60,7 @@ Säkerhetskopiera, redigera och återställa sparningar för många spel
 + Om allt går enligt planen kommer du inte att förlora någon data och ha kvar allting du började med (spel, NNID, sparfiler osv kommer finnas kvar).
 + Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel.
 + Ditt SD-kort bör vara [MBR, inte GPT] (http://www.howtogeek.com/245610/).
-+ Om du måste formatera ett helt nytt SD-kort kan du använda [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) och sätta Allocation Unit Size till 32K.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 
