@@ -12,9 +12,9 @@ Acești pași vor prepara cardul SD pentru instalarea ColdBoot Haxchi CFW.
 
 Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru instalarea jocului și pentru un backup la memeoria internă. Dacă doriţi să faceţi o copie de rezervă a sistemului dumneavoastră Wii U în cazul în care acesta trebuie să fie restaurat în viitor, va trebui un card SD de cel puţin de două ori mărimea memoriei consolei (16GB SD card pentru o consolă de 8GB alb; 64GB SD card pentru o consolă de 32GB negru).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
 
-În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
@@ -118,25 +118,6 @@ Request Context
 În prezent, Brain Age (Dr Kawashima's Brain Training: How Old Is Your Brain) este cel mai ieftin din aceste titluri pe eShop ($6.99 USD).
 
 Dacă aveți Brain Age sau alt joc DS compatibil în Wii U pentru o lungă durată de timp, ștergeți și reinstalați de pe eShop. Versiunile mai vechi ale acestui joc nu sunt compatibile cu acest exploit.
-
-### Secţiunea III - Blocați actualizările de sistem
-
-Reţineţi că, pentru a accesa eShop cu aceste adrese adrese DNS, mai întâi, trebuie să rulaţi NNU-Patcher prin Homebrew Launcher. În plus, reţineţi că NNU-Patcher este un patch temporar şi va trebui să fie rulat din nou, dacă aveţi nevoie pentru a accesa eShop după ce reporniți.
-
-Țineți cont că, dacă nu blocați actualizările cu această metodă pe toate conexiunile prezente și viitoare, actualizările se fac *automat* și *nu* pot fi dezactivate. 
-{: .notice--danger}
-
-1. Mergeți la "System Settings", apoi "Internet", apoi "Connect to the Internet" apoi apăsați (X) pentru a afișa conexiunile de rețea prezente
-1. Pentru fiecare conexiune (şi toate conexiunile viitoare), faceți următoarele
-  + Selectaţi conexiunea
-  + Selectați "Change Settings"
-  + Mergeți la a doua listă și selectați "DNS"
-  + Setați DNS-ul pe "Don't Auto-Obtain"
-  + Setați IP-urile de server DNS la următoarele
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + Selectaţi "Confirm", apoi apăsaţi (B) pentru a salva
-  + These servers will block your device from being updated
 
 ___
 
