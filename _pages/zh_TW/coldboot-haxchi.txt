@@ -17,8 +17,6 @@ CBHC (Coldboot Haxchi) changes your default system title to make your device lau
 您的 Haxchi DS 虛擬主機 遊戲 _必須_ 先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接主機上的話－保。證。磚。機！
 
 您的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的，否則－保。證。磚。機！
-
-您必須在安裝前拔除所有的 USB 主機，否則您將面臨 _變磚_ 的風險！
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
