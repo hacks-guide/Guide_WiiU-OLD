@@ -15,9 +15,9 @@ Si vous prévoyez d'utiliser un disque dur externe pour y installer vos jeux dum
   + Formater un disque dur externe pour l'utiliser avec la Wii U supprime tout son contenu.
   + Si vous utilisez un disque dur externe qui n’a pas sa propre source d’alimentation, vous aurez besoin d’un [Câble en Y](http://amzn.to/2mjQjin).
 
-### What you need
+### What You Need
 
-* Une Wii U pouvant accéder à la SysNAND patché (CFW Mocha, Haxchi, CBHC, etc.)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB d'espaces libres sur votre carte SD
 
 ### Instructions
@@ -36,7 +36,7 @@ Cette opération effacera complètement le contenu du disque dur externe!
 
 #### Section II - Using disc2app
 
-1. Lancer l'Homebrew Launcher Channel depuis la SysNAND patché
+1. Lancer l'Homebrew Launcher Channel
 1. Lancez disc2app
 1. Appuyez sur (A) pour créer le dump sur la carte SD
 1. Insérer le disque que vous souhaitez dumper lorsque l'on vous le demande
@@ -45,7 +45,7 @@ Cette opération effacera complètement le contenu du disque dur externe!
 
 #### Section III - Installing dumped game
 
-1. Lancer l'Homebrew Launcher Channel depuis la SysNAND patché
+1. Lancer l'Homebrew Launcher Channel
 1. Lancez WUP Installer GX2
 1. Sélectionnez le jeu que vous voulez installer
 1. Touchez "Install", puis "Yes" pour confirmer
