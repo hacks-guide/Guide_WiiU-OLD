@@ -14,7 +14,7 @@ Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio s
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La mayoría de las tarjetas SD vendrán formateadas así por defecto.
 
-Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+Si necesitas formatear una tarjeta SD en Windows, no utilices el formateador incorporado porque podría causar problemas. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
