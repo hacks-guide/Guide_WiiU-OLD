@@ -12,9 +12,9 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Most SD cards will be formatted this way by default.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Most SD cards will be formatted this way by default.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
@@ -108,25 +108,6 @@ The following DS Virtual Console games are compatible:
 Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
 
 If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
-
-#### Section III - Block System Updates
-
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
-
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
-{: .notice--danger}
-
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
 
 ___
 
