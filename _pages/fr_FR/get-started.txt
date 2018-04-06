@@ -12,9 +12,9 @@ Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmwar
 
 On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux. Si vous voulez faire une sauvegarde du système de votre Wii U, s'il est nécessaire de la restaurer plus tard, vous aurez besoin d'une carte SD de deux fois la taille de la mémoire de votre Wii U (une carte SD de 16Go pour une console blanche de 8Go; une carte SD de 64Go pour une console noire de 32Go).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
 
-Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysfonctionnements.
 
@@ -108,25 +108,6 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 + Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? ", " Cérébrale Académie ", " Pokémon Ranger : Nuit sur Almia ", " Pokémon Ranger : Sillages de lumière " et " Yoshi Touch & Go ".
 
 + Si vous possédez déjà "Programme d'entrainement cérébral de Dr Kawashima : Quel âge a votre cerveau ?" installé sur votre Wii U depuis un certain temps, essayez de supprimer et de réinstaller le jeu depuis l'eShop. Les anciennes versions du jeu ne sont pas compatibles avec cet exploit.
-
-#### Section III - Block System Updates
-
-Notez que, pour accéder à l'eShop avec ces DNS, vous devrez d'abord lancer NNU-Patcher via l'Homebrew Launcher. Notez aussi que NNU-Patcher est un patch temporaire et qu'il devra être lancé à nouveau si vous avez besoin d'accéder à l'eShop après un redémarrage.
-
-Notez que, à moins que vous bloquez les mises à jour avec cette méthode sur toutes les connexions actuelles et futures, les mises à jour sur la Wii U, sont effectuées *automatiquement* et *ne peuvent* êtres désactivés. 
-{: .notice--danger}
-
-1. Allez dans"Paramètres de la console", puis"Internet", puis"Connexion Internet", puis appuyez sur (X) pour afficher la liste de vos connexions réseau actuelles
-1. Pour chacune de vos connexions (et toutes les connexions futures), procédez comme suit
-  + Sélectionnez la connexion
-  + Sélectionnez"Modifier"
-  + Passez à la page suivante et choisissez"DNS"
-  + Dites"Non" à la question"Obtenir les informations du serveur DNS automatiquement ?"
-  + Saisissez les DNS primaire et secondaire en entrant les adresses IP des serveurs suivants
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + Sélectionnez" Confirmer", puis appuyez sur (B) pour enregistrer
-  + These servers will block your device from being updated
 
 ___
 
