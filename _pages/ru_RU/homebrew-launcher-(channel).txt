@@ -10,6 +10,8 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 
 ### Инструкция
 
+#### Section I - Installing the Homebrew Launcher Channel
+
 1. Запустите Homebrew Launcher
   + Пользователи CBHC должны нажать кнопку (Home) во время загрузки CBHC для доступа к меню опций загрузки, где необходимо выбрать Homebrew Launcher
   + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
@@ -23,6 +25,25 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Нажмите "Install" для установки, затем "Yes" для подтверждения
 1. Выберите "NAND" в качестве места установки
 1. Нажмите (Home) и выберите Закрыть программу, чтобы выйти из установщика после завершения установки
+
+#### Section II - Blocking System Updates
+
+Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+1. For each of your connections (and all future connections), do the following
+  + Select the connection
+  + Select "Change Settings"
+  + Move to the second list and choose "DNS"
+  + Set the DNS to "Don't Auto-Obtain"
+  + Set the DNS server IPs to the following servers
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
+  + Select "Confirm", then press (B) to save
+  + These servers will block your device from being updated
 
 ___
 
