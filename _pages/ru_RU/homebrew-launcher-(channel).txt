@@ -6,14 +6,14 @@ title: "Homebrew Launcher (Channel)"
 
 ### Обязательно к прочтению
 
-Мы установим Homebrew Channel таким образом, что при запуске пропатченного SysNAND, Homebrew Launcher появится в виде иконки в системном меню.
+This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
 
 ### Инструкция
 
 1. Запустите Homebrew Launcher
   + Пользователи CBHC должны нажать кнопку (Home) во время загрузки CBHC для доступа к меню опций загрузки, где необходимо выбрать Homebrew Launcher
-  + Пользователи Haxchi должны сначала запустить Haxchi, чтобы пропатчить SysNAND, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
-  + Пользователи Mocha CFW должны сперва запустить Mocha CFW, а затем перезапустить Homebrew Launcher
+  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users should already have entered this
 1. Запустите WUP Installer GX2
   + Если WUP Installer GX2 падает с ошибкой "DSi Exception Has Occurred", перезапустите консоль и попробуйте заново.
 1. Выберите Homebrew Channel
@@ -21,16 +21,16 @@ title: "Homebrew Launcher (Channel)"
 1. Выберите "NAND" в качестве места установки
 1. Выберите WUP Installer GX2
 1. Нажмите "Install" для установки, затем "Yes" для подтверждения
-1. Если вы планируете устанавливать игры на USB HDD, выберите "USB" в качестве места установки; если вы не планируете использовать USB HDD, выберите "NAND"
+1. Выберите "NAND" в качестве места установки
 1. Нажмите (Home) и выберите Закрыть программу, чтобы выйти из установщика после завершения установки
 
 ___
 
-Теперь вы можете запускать Homebrew Launcher из пропатченного SysNAND, просто воспользовавшись Homebrew Channel.
-{: .notice}
+You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+{: .notice--info}
 
-Теперь вы можете запускать WUP Installer GX2 из пропатченного SysNAND, используя иконку в системном меню.
-{: .notice}
+You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+{: .notice--info}
 
 В целях безопасности крайне *желательно* выполнить резервное копирование NAND, следуя [инструкции](nand-backup).
 {: .notice--primary}
@@ -44,7 +44,7 @@ ___
 Для информации о том, как сохранять игры с дисков в формате, пригодном для установки в систему для последующей игры без диска, перейдите к странице [disc2app](disc2app).
 {: .notice--success}
 
-Для информации об установке модов vWii в SysNAND, перейдите к странице [Модификация vWii](vwii-modding).
+For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
 Для информации о безопасном удалении кастомной прошивки и возвращении консоли к заводскому состоянию, перейдите на страницу [Удаление кастомной прошивки](uninstall-cfw).
