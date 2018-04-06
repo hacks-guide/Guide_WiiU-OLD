@@ -59,9 +59,6 @@ Pentru siguranţă sporită, *trebuie* să faceți o copie de rezervă a console
 Țineți cont că, pentru a accesa eShop-ul cu adresele DNS care blochează actualizările, trebuie să porniți dinainte (NNU-Patcher prin Homebrew pentru a accesa eShop).
 {: .notice--info}
 
-Țineți cont că, din cauza unei erori, WUP Installer GX2 poate face instalări doar în memorii USB (ca un USB HDD) dacă mutați WUP Installer GX2 la memoria USB folosind meniul Data Management din System Settings.
-{: .notice--warning}
-
 Pentru informații despre cum să copiați datele la discurile de joc spre un format bun de instalat și jucat fără a avea nevoie de disc, vedeți pagina [disc2app](disc2app).
 {: .notice--success}
 
