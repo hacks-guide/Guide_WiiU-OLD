@@ -33,7 +33,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
-* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(選擇 channel `.zip` 檔案)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
