@@ -17,8 +17,6 @@ CBHC (Coldboot Haxchi) changes your default system title to make your device lau
 Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА находится во внутренней памяти Wii U. Если она находится на USB-носителе, гарантированно получите БРИК!
 
 Ваша игра для DS virtual console, используемая для Haxchi, ДОЛЖНА быть ЛЕГАЛЬНОЙ копией, в иных случаях вы гарантированно получите БРИК!
-
-Все USB-устройства должны быть отключены перед установкой, иначе есть шанс получить БРИК!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
