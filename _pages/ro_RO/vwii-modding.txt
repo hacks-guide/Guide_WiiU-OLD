@@ -36,7 +36,7 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
   + Dacă nu ați făcut deja ghidul principal de Wii U și nu știți cum să faceți asta, rog să vedeți [Homebrew Launcher](homebrew-launcher), apoi să vă înparceți la această pagină.
 1. Porniți wuphax
 1. Apăsați (A) pentru a face o copie de rezervă la Mii Channel și injecta Hackmii Installer
-1. Vă veți întoarce la Homebrew Launcher pe SysNAND
+1. You will be returned to the Homebrew Launcher
 1. Folosiți butonul (Home) pentru a ieși din meniul de sistem
 1. Porniți vWii
 1. Porniți Mii Channel în vWii
@@ -71,8 +71,6 @@ Asiguraţi-vă că nu există niciun folder numit `wad` sau `wads` pe rădăcina
 {: .notice--warning}
 
 1. Porniți Homebrew Channel pe vWii
-  + Utilizatorii de Haxchi și Mocha CFW încărcat prin Homebrew Launcher pot face asta selectând vWii-ul de pe meniul de sistem SysNAND, apoi pornind Homebrew Channel
-  + Utilizatorii de CBHC Mocha CFW pot face asta ținând apăsat (B) la pornire, apoi selectând "Boot vWii Homebrew Channel"
 1. Porniți d2x cIOS Installer
 1. Alegeți opțiunile din partea de sus a ecranului după următoarele:
   + Selectați cIOS : **d2x-v10-beta52-vWii**
