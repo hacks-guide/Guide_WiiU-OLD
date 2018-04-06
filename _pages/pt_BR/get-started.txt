@@ -24,6 +24,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 ### What You Need
 
 * [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * A versão mais recente do [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * A versão mais recente do [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * A versão mais recente do [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
@@ -54,6 +55,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Crie uma pasta chamada `moca` detro da pasta `/wiiu/apps/` no seu cartão SD
 1. Copie o arquivo `mocha.elf` do `.zip` do Mocha CFW para a pasta `/wiiu/apps/mocha/` no seu cartão SD
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
 1. Copie e mescle _o conteúdo do_ `.zip` do WUP Installer GX2 (Homebrew Launcher) para a raiz do seu cartão SD
 1. Copie e mescle _o conteúdo do_ `.zip` do disc2app para a raiz do seu cartão SD
@@ -124,7 +126,7 @@ Note que, ao menos que você bloqueie as atualizações com este método nas atu
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
   + Selecione "Confirmar" e, em seguida, aperte (B) para salvar
-  + Estes servidores irão bloquear as atualizações na sua SysNAND
+  + These servers will block your device from being updated
 
 ___
 
