@@ -59,9 +59,6 @@ Aus Sicherheitsgründen solltest du eine [Backup des NANDs](nand-backup) auf dei
 Beachte, dass wenn diese DNS Adressen eingetragen sind, der Zugriff auf den eShop nur möglich ist, wenn zuerst NNU-Patcher mit Hilfe des Homebrew Launchers ausgeführt wurde (NNU-Patcher ist ein temporärer Patch und muss daher nach jedem Neustart neu ausgeführt werden).
 {: .notice--info}
 
-Beachte, dass wegen eines Bugs, der WUP Installer GX2 nur auf eine externe Festplatte installieren kann (z. B. auf eine HDD) wenn du WUP Installer GX2 auf deine USB-Festplatte mittels des Datenmanagement-Menüs der System-Optionen verschiebst.
-{: .notice--warning}
-
 Für Informationen wie du deine Discs in ein installierbares Format dumpen kannst, siehe [disc2app](disc2app).
 {: .notice--success}
 
