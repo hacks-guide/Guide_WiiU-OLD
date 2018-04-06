@@ -14,7 +14,7 @@ Haxchi este un exploit care ne permite să pornim CFW direct din meniul de siste
 
 + O copie originală a una dintre jocurile vulnerabile din consola virtuală DS instalate în memoria internă a Wii U-ului
   + Dacă încă nu aveți vreuna dintre jocurile exploatabile instalate, vedeți [Începeți](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
   + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
   
 ### Instrucțiuni
@@ -23,19 +23,19 @@ Haxchi este un exploit care ne permite să pornim CFW direct din meniul de siste
 1. Selectați jocul de consolă virtuală DS pe care veți instala Haxchi, apoi apăsați (A) ca să o selectați
 1. Citiți avertismentul, apoi apăsați (A) pentru a instala
 1. Odată completat, porniți jocul de consolă virtuală DS (numit "Haxchi")
-1. Consola se va reporni în SysNAND-ul modificat
-  + Acest lucru va permite ca titlurile nesemnate (cum ar Homebrew Channel şi copii de rezervă ale jocurilor) să fie lansate direct din meniul de sistem
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-În prezent, trebuie să lansați jocul de consolă virtuală DS de fiecare dată când reporniți pentru a intra în SysNAND-ul modificat. În pagina următoare se va instala CBHC (Coldboot Haxchi), care va face asta automat.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puteţi acum să țineți apăsate diferite butoane în timp ce porniți jocul de consolă virtuală DS pentru diferite opţiuni de pornire. Aici puteți vedea ce face fiecare dintre opțiuni:**
 
-  + None -> Pornește în SysNAND-ul modificat
-  + (A) -> Pornește Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 
