@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Lectură obligatorie
 
-CBHC (Coldboot Haxchi) schimbă titlul de sistem implicit pentru a face ca SysNAND-ul să lanseze jocul de consolă virtuală DS în loc de meniul de sistem, care va lansa SysNAND-ul modificat.
+CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
 
 Aceată pagină este opțională. O instalare de Haxchi obișnuită merge așa cum e; oferă confort sporit. Dacă ați dori să săriți peste Coldboot Haxchi, continuați la [Homebrew Launcher (Canal)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -43,18 +43,18 @@ Trebuie să eliminaţi toate dispozitivele USB înainte de a instala sau puteți
 
 ___
 
-Consola ar trebui să pornească automat în SysNAND-ul modificat cu Coldboot Haxchi la pornire.
+Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
 {: .notice}
 
 {% capture notice-1 %}
 Puteți apăsa butonul (Home) în timp ce CBHC se pornește ca să accesați meniul de opțiuni de pornire. Aici puteți vedea ce face fiecare dintre opțiuni:
 
-  + Boot System Menu -> Va porni în SysNAND
-  + Boot Homebrew Launcher -> Pornește Homebrew Launcher în SysNAND
-  + Boot Mocha CFW -> Pornește Mocha CFW în RedNAND
+  + Boot System Menu -> Boots into custom firmware
+  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
+  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
   + Boot fw.img on SD Card -> Pornește orice CFW vechi dintr-un fișier fw.img de pe cardul SD
-  + Boot vWii System Menu -> Pornește în vWii pe SysNAND
-  + Boot vWii Homebrew Channel -> Pornește vWii Homebrew Channel pe SysNAND
+  + Boot vWii System Menu -> Boots into vWii
+  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
 
 {% endcapture %}
 
