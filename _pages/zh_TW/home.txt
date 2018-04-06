@@ -43,8 +43,7 @@ ___
 
 ## 本教學將安裝些什麼？
 
-此教學的目的是將未改機的 Wii U 從原廠
-的韌體改為 冷起 Haxchi 的 Mocha CFW。 它會將自製程式當作跳板，但主要目的還是為了安裝自製韌體。
+This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. 它會將自製程式當作跳板，但主要目的還是為了安裝自製韌體。
 
 ## 自製韌體可以做些什麼？
 
