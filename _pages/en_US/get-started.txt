@@ -14,7 +14,7 @@ Your SD card is recommended to be at least 16GB or 32GB to have enough space for
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Most SD cards will be formatted this way by default.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
