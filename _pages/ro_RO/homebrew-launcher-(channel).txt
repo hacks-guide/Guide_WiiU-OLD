@@ -6,14 +6,14 @@ title: "Homebrew Launcher (Canal)"
 
 ### Lectură obligatorie
 
-Acesta va instala Homebrew Channel, astfel încât, odată ce porniți un SysNAND modificat, Homebrew Launcher va apărea ca o pictogramă în meniul de sistem.
+This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
 
 ### Instrucțiuni
 
 1. Intrați în Homebrew Launcher
   + Utilizatorii de CBHC trebuie să apese (Home) în timp ce CBHC pornește pentru a accesa meniul de opțiuni de pornire de CBHC, și să selecteze Homebrew Launcher
-  + Utilizatorii de Haxchi trebuie să pornească Haxchi o dată pentru a modfica SysNAND-ul, și apoi să-l pornească o a doua oară în timp ce țin apăsat butonul (A) pentru a porni Homebrew Laucher
-  + Utilizatorii de Mocha CFW trebuie să pornească Mocha CFW, apoi să repornească Homebrew Launcher
+  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users should already have entered this
 1. Porniți WUP Installer GX2
   + Țineți cont că, dacă WUP Installer GX2 se închide cu eroarea "DSi Exception Has Occurred", trebuie doar să închideți consola și să încercați din nou.
 1. Selectați Homebrew Channel-ul
@@ -21,16 +21,16 @@ Acesta va instala Homebrew Channel, astfel încât, odată ce porniți un SysNAN
 1. Selectați "NAND" ca destinație
 1. Selectați WUP Installer GX2
 1. Apăsați "Install", apoi apăsați "Yes" pentru a confirma
-1. Dacă plănuiți să instalați jocuri într-un hard disk USB, selectați "USB" ca destinație; dacă nu plănuiți să folosiți un hard disk USB, selectați "NAND" ca destinație
+1. Selectați "NAND" ca destinație
 1. Apăsaţi (Home), apoi închideți programul pentru a ieşi din instalator odată ce s-a terminat
 
 ___
 
-Acum puteţi porni Homebrew Launcher pe SysNAND-ul modificat doar pornind Homebrew Channel.
-{: .notice}
+You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+{: .notice--info}
 
-Acum puteţi porni WUP Installer GX2 pe SysNAND-ul modificat doar pornindu-l din meniul de sistem.
-{: .notice}
+You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+{: .notice--info}
 
 Pentru siguranţă sporită, *trebuie* să faceți o copie de rezervă a consolei urmărind [Copie de rezervă NAND](nand-backup).
 {: .notice--primary}
@@ -44,7 +44,7 @@ Pentru siguranţă sporită, *trebuie* să faceți o copie de rezervă a console
 Pentru informații despre cum să copiați datele la discurile de joc spre un format bun de instalat și jucat fără a avea nevoie de disc, vedeți pagina [disc2app](disc2app).
 {: .notice--success}
 
-Pentru informații despre cum să modificați vWii în SysNAND, vedeți pagina [Modare vWii](vwii-modding).
+For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
 Pentru informaţii despre cum să dezinstalați CFW în condiţii de siguranţă şi să vă întoarceți la stoc, vedeți pagina [Dezinstalând CFW](uninstall-cfw).
