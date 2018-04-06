@@ -14,7 +14,7 @@ title: "新手入門"
 
 Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分的 SD 卡預設都是以這個格式出廠的。
 
-如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
 
 *不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
