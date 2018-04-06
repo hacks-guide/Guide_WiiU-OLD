@@ -24,6 +24,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 ### Что понадобится
 
 * [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Свежая версия [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Свежая версия [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
@@ -54,6 +55,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 1. Скопируйте папку `wupgx2_install_channel` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Создайте папку `mocha` в папке `/wiiu/apps/` на SD-карте
 1. Скопируйте `mocha.elf` из `.zip-архива` с Mocha CFW в папку `/wiiu/apps/mocha/`на SD-карте
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
 1. Скопируйте _содержимое_ `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
 1. Скопируйте _содержимое_ `.zip-архива` с disc2app в корень вашей SD-карты
@@ -124,7 +126,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
   + Нажмите "Подтвердить" (Confirm), а затем (B), чтобы сохранить внесенные изменения
-  + Эти сервера заблокируют получение обновлений SysNAND на Wii U
+  + These servers will block your device from being updated
 
 ___
 
