@@ -59,9 +59,6 @@ You can now launch WUP Installer GX2 on custom firmware just by launching it fro
 請注意，如果您想要在設置阻擋更新用的 DNS 後使用 eShop，您必須首先透過 Homebrew Launcher 進行 NNU-Patcher(NNU-Patcher 是一個臨時補丁，如果您想要在重啟後啟動 eShop，您必須再重新跑一次這補丁)。
 {: .notice--info}
 
-請注意，由於一個 bug，目前如果您透過系統設定中的資料管理選單將 WUP Installer GX2 移動至 USB 儲存主機中的話，WUP Installer GX2 目前只能安裝遊戲至 USB 主機中(例如外接硬碟)。
-{: .notice--warning}
-
 若您想知道如何將遊戲光碟轉為可安裝的格式，請見[disc2app](disc2app)。
 {: .notice--success}
 
