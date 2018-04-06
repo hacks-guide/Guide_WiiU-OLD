@@ -17,8 +17,6 @@ DEVI avere Haxchi funzionante per far funzionare CBHC. In caso contrario, BRICKE
 Il tuo gioco DS della Virtual Console con all'interno Haxchi DEVE essere installato nella memoria interna della Wii U. Se è installato su un dispositivo USB, BRICKERAI!
 
 Il tuo gioco DS della Virtual Console DEVE essere COMPRATO DALL'eShop! In caso contrario BRICKERAI!
-
-Devi scollegare tutti i dispositivi USB dalla console prima di cominciare l'installazione o potresti BRICKARE!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
