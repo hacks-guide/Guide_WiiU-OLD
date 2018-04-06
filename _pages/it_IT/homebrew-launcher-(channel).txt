@@ -59,9 +59,6 @@ Per precauzione, *faresti meglio* a creare un backup della NAND della tua consol
 Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
 {: .notice--info}
 
-Per via di un bug, se sposti WUP Installer GX2 su un dispositivo USB tramite il menu Gestione Dati delle Impostazioni della console, WUP Installer GX2 potrà installare file solo su dispositivi USB (come ad esempio degli hard disk).
-{: .notice--warning}
-
 Per informazioni su come creare un backup dei tuoi dischi in un formato che permette di giocarli senza necessitare il disco, visita la pagina [disc2app](disc2app).
 {: .notice--success}
 
