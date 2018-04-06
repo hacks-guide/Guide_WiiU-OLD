@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Required Reading
 
-CBHC (Coldboot Haxchi) altera seu título padrão do sistema para fazer com que sua SysNAND inicie os jogos de DS do Virtual Console por padrão em vez do menu de sistema, o qual irá carregar a SysNAND alterada.
+CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
 
 Esta página é opcional. O Haxchi regular funciona muito bem como é; isto apenas oferece uma conveniência extra. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -43,18 +43,18 @@ You must remove all USB devices before installing or you may BRICK!
 
 ___
 
-Seu dispositivo deve agora iniciar automaticamente no Coldboot Haxchi junto a SysNAND alterada na inicialização.
+Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
 {: .notice}
 
 {% capture notice-1 %}
 You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
 
-  + Boot System Menu -> Inicializa na SysNAND
-  + Boot Homebrew Launcher -> Inicializa no Homebrew Launcher na SysNAND
-  + Boot Mocha CFW -> Inicializa no Mocha CFW com a RedNAND
+  + Boot System Menu -> Boots into custom firmware
+  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
+  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
   + Boot fw.img on SD Card -> Inicializa qualquer CFW antigo baseado na fw.img do cartão SD
-  + Boot vWii System Menu -> Inicializa no vWii na SysNAND
-  + Boot vWii Homebrew Channel -> Inicializa no vWii Homebrew Channel na SysNAND
+  + Boot vWii System Menu -> Boots into vWii
+  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
 
 {% endcapture %}
 
