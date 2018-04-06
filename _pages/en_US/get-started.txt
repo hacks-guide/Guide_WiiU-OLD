@@ -12,9 +12,9 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). Most SD cards will be formatted this way by default.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Most SD cards will be formatted this way by default.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
