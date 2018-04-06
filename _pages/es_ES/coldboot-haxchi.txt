@@ -17,8 +17,6 @@ DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tie
 Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna de la Wii U. Si está en un dispositivo USB, ¡BRICKEARÁS!
 
 Tu juego de la consola virtual de DS con Haxchi DEBE ser una copia LEGÍTIMA o BRICKEARÁS!
-
-Debes extraer todos los dispositivos USB antes de instalar, ¡o podrías tener un BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
