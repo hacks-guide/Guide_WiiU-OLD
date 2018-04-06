@@ -6,14 +6,14 @@ title: "Homebrew Launcher(透過頻道)"
 
 ### 必讀事項
 
-本節將安裝 Homebrew Channel，這讓您可以在修改後的 SysNAND 中直接在系統主選單中直接啟動 Homebrew Launcher。
+This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
 
 ### 操作說明
 
 1. 進入 Homebrew Launcher
   + CBHC 的使用者必須在 CBHC 啟動時按下「Home」鍵以使用 CBHC 開啟選單，並選擇 Homebrew Launcher
-  + Haxchi 的使用者必須先啟動過 Haxchi 以套用 SysNAND 補丁，然後再將它啟動一次並按住「A」啟動 Homebrew Launcher
-  + Mocha CFW 的使用者必須先啟動 Mocha，並重新啟動 Homebrew Launcher。
+  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users should already have entered this
 1. 啟動 WUP Installer GX2
   + 請注意，若您的 WUP Installer GX2 因「DSi Exception Has Occurred」錯誤而閃退，您應先將主機關機並再試一次。
 1. 選擇 Homebrew Channel
@@ -21,16 +21,16 @@ title: "Homebrew Launcher(透過頻道)"
 1. 選擇「NAND」為安裝目標
 1. 選擇 WUP Installer GX2
 1. 按下「Install」，並選擇「Yes」確認
-1. 若您想將遊戲安裝至外接硬碟中，請於目的地選為「USB」；反而之，若您不打算安裝遊戲至外接硬碟中，請將目的地選為「NAND」
+1. 選擇「NAND」為安裝目標
 1. 在安裝完後，按下「HOME」鍵以退出安裝
 
 ___
 
-您現在可以在修改後的 SysNAND 底下透過 Homebrew Channel 來啟動 Homebrew Launcher。
-{: .notice}
+You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+{: .notice--info}
 
-您現在可以在修改後的 SysNAND 中透過系統選單直接啟動 WUP Installer GX2。
-{: .notice}
+You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+{: .notice--info}
 
 為了以防萬一，您*應該*趕快透過 [NAND 備份](nand-backup)來備份您的 NAND 磁區。
 {: .notice--primary}
@@ -44,7 +44,7 @@ ___
 若您想知道如何將遊戲光碟轉為可安裝的格式，請見[disc2app](disc2app)。
 {: .notice--success}
 
-若您想知道如何在 SysNAND 下修改 vWii，請見[vWii Modding](vwii-modding)。
+For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
 若您想知道如何安全卸載自製韌體並還原至原廠狀態，請見[卸載自製韌體](uninstall-mocha-cfw)。
