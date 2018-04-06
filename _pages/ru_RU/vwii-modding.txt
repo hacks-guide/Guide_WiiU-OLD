@@ -14,7 +14,7 @@ title: "Модификация vWii"
 * [Patched_IOS80_Installer_for_vWii.zip]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 
 ### Инструкция
 
@@ -22,11 +22,11 @@ title: "Модификация vWii"
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Скопируйте _содержимое_ `.zip-архива` с WUPhax в корень вашей SD-карты
+1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip` в корень вашей SD-карты
-1. Скопируйте папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
-1. Скопируйте _содержимое_ `.zip-архива` с Homebrew Launcher в корень вашей SD-карты
+1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
