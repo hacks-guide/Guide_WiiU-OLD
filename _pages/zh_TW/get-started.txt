@@ -24,6 +24,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分
 ### 必備項目
 
 * [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * 最新版的 [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [WUP Installer GX2 (頻道版)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
@@ -54,6 +55,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分
 1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. 建立一個新的 `mocha` 資料夾於 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製 Mocha CFW `.zip` 裡的 `mocha.elf` 到 SD 卡中的 `/wiiu/apps/mocha/` 資料夾底下
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
 1. 複製並覆蓋 WUP Installer GX2 (Homebrew Launcher) `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
 1. 複製並覆蓋 disc2app `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
@@ -124,7 +126,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
   + 按下確認及「B」鍵儲存設置
-  + 這些伺服器是用來阻擋 SysNAND 更新用的
+  + These servers will block your device from being updated
 
 ___
 
