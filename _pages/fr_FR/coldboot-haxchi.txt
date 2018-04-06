@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Required Reading
 
-CBHC (Coldboot Haxchi) modifie votre SysNAND pour la forcer à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger la SysNAND patché.
+CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
 
 Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -43,18 +43,18 @@ You must remove all USB devices before installing or you may BRICK!
 
 ___
 
-Votre Wii U devrait à présent automatiquement lancer dans Coldboot Haxchi SysNAND patché au démarrage.
+Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
 {: .notice}
 
 {% capture notice-1 %}
 Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux options de démarrage de CBHC. Voici la liste des options de démarrage et leur effet :
 
-  + Boot System Menu -> Démarrer la Wii U sur la SysNAND
-  + Boot Homebrew Launcher -> Démarrer la Wii U en lançant le Homebrew Launcher de la SysNAND
-  + Boot Mocha CFW -> Démarrer la Wii U en lançant Mocha CFW avec la RedNAND
+  + Boot System Menu -> Boots into custom firmware
+  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
+  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
   + Boot fw.img on SD Card -> Démarrer la Wii U avec n'importe quel ancien firmware CFW fw.img à la racine de la carte SD
-  + Boot vWii System Menu -> Démarrer la Wii U en lançant la vWii de la SysNAND
-  + Boot vWii Homebrew Channel -> Démarrer la Wii U en lançant le Homebrew Channel de la vWii de la SysNAND
+  + Boot vWii System Menu -> Boots into vWii
+  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
 
 {% endcapture %}
 
