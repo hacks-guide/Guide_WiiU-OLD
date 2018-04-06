@@ -33,7 +33,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * La dernière version de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(Le fichier Channel `.zip`)*
-* Une version précédente de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(le fichier launcher`.zip`)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/releases/latest) *(les 2 fichiers`.zip`)*
 * La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
