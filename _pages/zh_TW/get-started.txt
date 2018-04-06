@@ -12,9 +12,9 @@ title: "新手入門"
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分的 SD 卡預設都是以這個格式出廠的。
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). 大部分的 SD 卡預設都是以這個格式出廠的。
 
-如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K.
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 *不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
@@ -108,25 +108,6 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K). 大部分
 目前為止，《東北大學未來科學技術共同研究中心川島隆太教授監修 大人的DS腦力鍛鍊》是 eShop 上最便宜的遊戲 ($6.99 美元)。
 
 如果您已擁有或已經安裝過了上述遊戲，請將它刪除並再透過 eShop 重新下載。 較舊版的遊戲將無法與此漏洞相容。
-
-#### 第三節 — 阻擋系統更新
-
-請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為暫時性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
-
-請注意，除非您在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
-{: .notice--danger}
-
-1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示您目前的網路設置
-1. 請於所有的連線設定(及未來所有新的設定)中，設定下列選項：
-  + 選擇網路設定
-  + 選擇「更改設置(Change Settings)」
-  + 到第二個選單中，選擇「DNS」
-  + 將 DNS 設為「不自動擷取(Don't Auto-Obtain)」
-  + 將 DNS 伺服器 IP 設為下列位址
-  + {:.bigdns} `168.235.092.108`
-  + {:.bigdns} `081.004.127.020`
-  + 按下確認及「B」鍵儲存設置
-  + These servers will block your device from being updated
 
 ___
 
