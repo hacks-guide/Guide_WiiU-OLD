@@ -14,7 +14,7 @@ Haxchi è un exploit che ci permette di avviare il CFW direttamente dal menu di 
 
 + Una copia legittima di uno dei giochi DS della Virtual Console exploitabili installati nella memoria interna della Wii U
   + Se non hai un gioco exploitabile installato, vedi alla pagina [Cominciamo!](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) is in the `/haxchi/` folder on your SD card
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
   + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
   
 ### Istruzioni
@@ -23,19 +23,19 @@ Haxchi è un exploit che ci permette di avviare il CFW direttamente dal menu di 
 1. Seleziona il gioco DS della Virtual Console nel quale installerai Haxchi, quindi premi (A) per selezionarlo
 1. Leggi l'avviso visualizzato, quindi premi (A) per installare Haxchi
 1. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
-1. La console si riavvierà nella SysNAND patchata
-  + Essa ti permetterà di installare titoli non firmati (quali backup dei giochi e l'homebrew channel) ed avviarli direttamente dal menu di sistema
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-Attualmente dovrai avviare il gioco DS della Virtual Console ogni volta che riavvii la console per entrare nella SysNAND patchata. Nella prossima pagina installeremo CBHC (Cooldboot Haxchi) che farà ciò in automatico.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puoi tenere premuto alcuni pulsanti all'avvio del tuo gioco DS della Virtual Console per avere diversi tipi di avvio di Haxchi. Ecco le varie opzioni a te disponibili:**
 
-  + Nulla -> Avvia la SysNAND patchata
-  + (A) -> Avvia l'Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 
