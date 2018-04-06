@@ -36,7 +36,7 @@ title: "vWii 改機"
   + 若您尚未完成本手冊的主要步驟且不知道該如何進行本步驟，請先參閱 [Homebrew Launcher](homebrew-launcher) 中的詳情以繼續本頁面之步驟。
 1. 啟動 wuphax
 1. 按「A」鍵以備份您的 Mii 頻道，並注入 Hackmii Installer
-1. 安裝完後將返回 SysNAND 的 Homebrew Launcher 中
+1. You will be returned to the Homebrew Launcher
 1. 按下「Home」鍵以退出至系統主選單
 1. 啟動 vWii
 1. 啟動 vWii Mii 頻道
@@ -71,8 +71,6 @@ title: "vWii 改機"
 {: .notice--warning}
 
 1. 於 vWii 上啟動 Homebrew Channel
-  + Haxchi 及 Homebrew Launcher Mocha CFW 的使用這可以在 SysNAND 下，透過選擇系統主選單選擇 vWii，並啟動 Homebrew Channel
-  + CBHC Mocha CFW 使用者可以在開機時按住「B」鍵，並選擇「Boot vWii Homebrew Channel」
 1. 啟動 d2x cIOS Installer
 1. 將螢幕上方選項設為下列選項：
   + Select cIOS : **d2x-v10-beta52-vWii**
