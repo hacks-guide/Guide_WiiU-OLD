@@ -33,7 +33,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * A versão mais recente do [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(o arquivo channel `.zip`)*
-* A versão anterior do [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(o arquivo launcher `.zip`)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * A versão mais recente do [Haxchi e CBHC](https://github.com/FIX94/haxchi/releases/latest) *(os dois arquivos `.zip`)*
 * A versão mais recente do [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
