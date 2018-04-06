@@ -33,7 +33,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
-* Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`homebrew_launcher.v1.4.zip`)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
