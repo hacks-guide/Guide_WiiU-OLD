@@ -17,8 +17,6 @@ You MUST have a functional Haxchi setup for this to work. If you do not, you wil
 Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
 
 Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
-
-You must remove all USB devices before installing or you may BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
