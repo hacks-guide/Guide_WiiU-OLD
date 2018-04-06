@@ -17,8 +17,6 @@ Du MÅSTE ha en fungerande Haxchi-installation för att det här ska fungera. Om
 Ditt Haxchi DS virtual console-spel MÅSTE vara på interna lagringen på din Wii U. Om det är på ett USB-minne kommer du få en BRICKNING!
 
 Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia, annars kommer du få en BRICKNING!
-
-Du måste ta bort alla USB-enheter innan du installerar annars kan du få en BRICKNING!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
