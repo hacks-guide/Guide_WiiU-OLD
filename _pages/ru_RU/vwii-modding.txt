@@ -36,7 +36,7 @@ title: "Модификация vWii"
   + Если вы еще не выполнили основной гайд и не знаете как это сделать, посмотрите на странице [Homebrew Launcher](homebrew-launcher), а затем продолжайте с этого места.
 1. Запустите wuphax
 1. Нажмите (A) для того, чтобы сделать резервную копию Mii Channel и интегрировать Hackmii Installer
-1. Вы вернетесь обратно в Homebrew Launcher, запущенный из SysNAND
+1. You will be returned to the Homebrew Launcher
 1. Нажмите (Home), чтобы вернуться в системное меню
 1. Запустите vWii
 1. Запустите Mii Channel в vWii
@@ -71,8 +71,6 @@ title: "Модификация vWii"
 {: .notice--warning}
 
 1. Запустите Homebrew Channel на vWii
-  + Пользователи Haxchi и Mocha CFW, запускающие ее через Homebrew Launcher, могут запускать vWii из SysNAND и уже из нее запускать Homebrew Channel
-  + Пользователи Mocha CFW, запускающие ее из под CBHC, могут зажать кнопку (B) при загрузке системы и выбрать "Boot vWii Homebrew Channel"
 1. Запустите d2x cIOS Installer
 1. Установите параметры в верхней части экрана таким образом, чтобы они соответствовали нижеуказанным:
   + Select cIOS : **d2x-v10-beta52-vWii**
