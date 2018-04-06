@@ -30,7 +30,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 * L'ultima versione di [WUP Installer GX2 (Canale)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * L'ultima versione di [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* L'ultima versione di [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * L'ultima versione di [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * L'ultima versione dell'[Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(l'archivio `.zip` del canale)*
 * Una versione precedente dell'[Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(l'archivio `.zip` del Launcher)*
@@ -46,21 +46,20 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
 1. Crea una cartella chiamata `install` nella root della tua scheda SD
 1. Copia la cartella `apps` dall'archivio `.zip` dell'Homebrew App Store nella cartella `/wiiu/` nella tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` dell'Homebrew Launcher nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di Haxchi nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di CBHC nella root della tua scheda SD
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
+1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Copia il file `config.txt` nella cartella `/haxchi/` della scheda SD
 1. Crea una cartella chiamata `hbc` nella cartella `/install/` della tua scheda SD
-1. Copia _il contenuto_ dell'archivio `.zip` dell'Homebrew Launcher Channel nella cartella `/install/hbc` della tua scheda SD
+1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
 1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Crea una cartella chiamata `mocha` nella cartella `/wiiu/apps` della tua scheda SD
-1. Copia il file `mocha.elf` dall'archivio `.zip` di Mocha CFW nella cartella `/wiiu/apps/mocha/` nella tua scheda SD
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Copia la cartella `savemii_mod` dall'archivio `.zip` di savemii_mod nella cartella `/wiiu/apps` nella tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di WUP Installer GX2 (Homebrew Launcher) nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di disc2app nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di hid\_to\_vpad nella root della tua scheda SD
-1. Copia e unisci _il contenuto_ dell'archivio `.zip` di NNU-Patcher nella root della tua scheda SD
+1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
+1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
