@@ -26,7 +26,7 @@ title: "Модификация vWii"
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip` в корень вашей SD-карты
 1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
