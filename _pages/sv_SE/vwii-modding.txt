@@ -10,11 +10,11 @@ Det här gör att du kan installera Homebrew Channel och andra modifikationer ti
 
 ### Vad du behöver
 
-* [vWii_cIOS_apps_20131218.zip]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
-* [Patched_IOS80_Installer_for_vWii.zip]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
-* Senaste versionen av [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* Senaste versionen av [Hackmii Installer](https://bootmii.org/download/)
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
+* [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
+* [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
+* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip){:target="_blank"}
+* The latest release of [Hackmii Installer](https://bootmii.org/download/){:target="_blank"}
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3){:target="_blank"} *(the launcher `.zip` file)*
 
 ### Instruktioner
 
