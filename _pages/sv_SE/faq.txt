@@ -24,7 +24,7 @@ title: "FAQ"
 **S:** Ja! Modifieringarna gör inte bara Homebrew Launcher möjligt, de möjliggör den oavsett systemversion, vilket betyder att du behåller den för alltid, även med uppdateringar.
 
 <a name="faq_regionfree" />**F:** *Kan jag använda det här för att spela spel från andra regioner?*    
-**S:** Ja! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+**S:** Ja! CFW stödjer patchar för att göra spel regionsfria, vilket gör att du kan installera och spela spel oavsett region utan några extra modifikationer eller steg.
 
 <a name="faq_support" />**F:** *Vart ska jag vända mig för hjälp?*    
 **S:** För support, fråga om hjälp på [Nintendo Homebrew på Discord](https://discord.gg/MWxPgEp) (huvudsakligen engelskspråkigt).
