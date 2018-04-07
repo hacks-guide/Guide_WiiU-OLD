@@ -6,23 +6,23 @@ title: "Mocha CFW"
 
 ### Obligatorisk läsning
 
-Mocha CFW is a custom firmware that patches signature checks, region checks, and enables other custom firmware features.
+Mocha CFW är en modifierad firmware som patchar signatur-kontroller, region-kontroller och möjliggör annan modifierad firmware-funktionalitet.
 
-In order to use Mocha CFW, you will need to enter the Homebrew Launcher through the browser and launch Mocha CFW every time your device reboots.
+För att använda Mocha CFW behöver du starta Homebrew Launcher genom webbläsaren och starta Mocha CFW varje gång din enhet startar om.
 
 ### Vad du behöver
 
-+ The custom `config.ini` provided in [Get Started](get-started) should already be in the `/wiiu/apps/mocha/` folder on your SD card
++ Den anpassade `config.ini` som listas i [Get Started](get-started) ska redan finnas i `/wiiu/apps/mocha/`-katalogen på ditt SD-kort
 
 ### Instruktioner
 
 1. Starta Mocha CFW
-1. The console will return to the Homebrew Launcher and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu until the next reboot
+1. Konsollen kommer återvända till Homebrew Launcher och aktivera den modifierade firmware-funktionaliteten
+  + Det här tillåter osignerade titlar (som t.ex. Homebrew Launcher) att startas direkt från system-menyn tills nästa omstart
 
 ___
 
-Note that you will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to re-enable custom firmware features.
+Du kommer behöva starta Mocha CFW från Homebrew Launcher varje gång du startar om din Wii U för att återaktivera den modifierade firmware-funktionaliteten.
 {: .notice--info}
 
 ### Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
