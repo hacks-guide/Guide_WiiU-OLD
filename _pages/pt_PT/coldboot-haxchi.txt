@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Required Reading
 
-CBHC (Coldboot Haxchi) changes your default system title to make your SysNAND launch the DS virtual console game by default instead of the system menu, which will then load patched SysNAND.
+CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
 
 This page is optional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -17,8 +17,6 @@ You MUST have a functional Haxchi setup for this to work. If you do not, you wil
 Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
 
 Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
-
-You must remove all USB devices before installing or you may BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -43,18 +41,18 @@ You must remove all USB devices before installing or you may BRICK!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi patched SysNAND on boot.
+Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
 {: .notice}
 
 {% capture notice-1 %}
 You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
 
-  + Boot System Menu -> Boots into SysNAND
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher on SysNAND
-  + Boot Mocha CFW -> Boots into Mocha CFW with RedNAND
+  + Boot System Menu -> Boots into custom firmware
+  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
+  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
   + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-  + Boot vWii System Menu -> Boots into vWii on SysNAND
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel on SysNAND
+  + Boot vWii System Menu -> Boots into vWii
+  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
 
 {% endcapture %}
 

@@ -14,26 +14,28 @@ Haxchi is an exploit that allows us to launch CFW directly from the system menu 
 
 + A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
   + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### Instructions
 
 1. Launch the Haxchi Installer
 1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
 1. Read the warning that appears, then press (A) to install
 1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
-1. The console will reboot into patched SysNAND
-  + This will allow unsigned titles (such as the homebrew channel and game backups) to be launched directly from the system menu
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter patched SysNAND. The next page will install CBHC (Coldboot Haxchi) which will do this automatically.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 **You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
 
-  + None -> Boots into patched SysNAND
-  + (A) -> Boots into the Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 

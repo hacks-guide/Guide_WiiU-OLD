@@ -14,26 +14,28 @@ Haxchi es un exploit que nos permite iniciar un CFW directamente desde el menú 
 
 + Una copia original de cualquiera de los juegos vulnerables de la consola virtual de DS instalado en la memoria interna de tu Wii U
   + Si aún no tienes uno de esos juegos vulnerables instalado, revisa [Comencemos](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
+  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
+  
 ### Instrucciones
 
 1. Inicia Haxchi Installer
 1. Elige el juego de la consola virtual de DS en el que vas a instalar Haxchi, después pulsa (A) para seleccionarlo
 1. Lee la advertencia que aparezca, después pulsa (A) para instalar
 1. Una vez se haya completado, ejecuta tu juego de la consola virtual de DS (llamado "Haxchi")
-1. La consola se reiniciará en la SysNAND modificada
-  + Esto permitirá que los títulos sin firmar (como el homebrew channel y las copias de seguridad de los juegos) sean iniciados directamente desde el menú del sistema
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinicies para ingresar a la SysNAND modificada. En la siguiente página se instalará CBHC (Coldboot Haxchi), que hará esto automáticamente.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. Esto es lo que hace cada una de las opciones de arraque:**
 
-  + None -> Inicia la SysNAND modificada
-  + (A) -> Inicia el Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 

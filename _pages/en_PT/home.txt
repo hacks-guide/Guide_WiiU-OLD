@@ -43,8 +43,7 @@ CFW can be easily set up on any console in any region on the latest version.
 
 ## What does this guide install?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock
-firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
 
 ## What can I do with Custom Firmware?
 
@@ -61,7 +60,7 @@ firmware to Coldboot Haxchi powered Mocha Custom Firmware. It utilizes homebrew 
 + If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
 + Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
 + Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 64K.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

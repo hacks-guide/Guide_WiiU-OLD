@@ -15,9 +15,9 @@ If you are planning to use an external hard drive to install your dumped discs o
   + Formatar um disco rígido para ser compatível com o Wii U irá apagar todo o seu conteúdo.
   + Se você estiver usando um HD externo que não tem fonte de energia própria, você precisará de um [Y-cable](http://amzn.to/2mjQjin).
 
-### What you need
+### What You Need
 
-* Um Wii U que tenha acesso a SysNAND alterada (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB de espaço livre no seu cartão SD
 
 ### Instructions
@@ -36,7 +36,7 @@ This will completely erase the contents of the external hard drive!
 
 #### Section II - Using disc2app
 
-1. Inicie o Homebrew Launcher Channel na SysNAND alterada
+1. Inicie o Homebrew Launcher Channel
 1. Execute o disc2app
 1. Aperte (A) para descarregar para o cartão SD
 1. Insira o disco que você deseja descarregar quando solicitado
@@ -45,7 +45,7 @@ This will completely erase the contents of the external hard drive!
 
 #### Section III - Installing dumped game
 
-1. Inicie o Homebrew Launcher Channel na SysNAND alterada
+1. Inicie o Homebrew Launcher Channel
 1. Acesse o WUP Installer GX2
 1. Selecione o jogo que você deseja instalar
 1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar

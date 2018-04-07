@@ -12,9 +12,9 @@ Acești pași vor prepara cardul SD pentru instalarea ColdBoot Haxchi CFW.
 
 Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru instalarea jocului și pentru un backup la memeoria internă. Dacă doriţi să faceţi o copie de rezervă a sistemului dumneavoastră Wii U în cazul în care acesta trebuie să fie restaurat în viitor, va trebui un card SD de cel puţin de două ori mărimea memoriei consolei (16GB SD card pentru o consolă de 8GB alb; 64GB SD card pentru o consolă de 32GB negru).
 
-Cardul SD trebuie sa fie formatat ca FAT32 (64KB clustere dacă este posibil). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Cele mai multe carduri SD vor fi formatate cu acest tip de obicei.
 
-În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Folosiți['Guiformat'] (http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) în schimb și setați Allocation Unit Size 64KB.
+În cazul în care aveţi nevoie pentru a formata un card SD pe Windows, nu utilizaţi programul preinstalat, că are posibilitatea de a vă creea necazuri. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
@@ -23,16 +23,17 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 ### Ce aveți nevoie
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
 * Cea mai recentă versiune de [WUP Installer GX2 (Homebrew Launcher)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai recentă versiune de [WUP Installer GX2 (Channel)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai nouă versiune de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Cea mai recentă versiune de [hid\_to\_vpad] (https://github.com/Maschell/hid_to_vpad/releases/)
-* Cea mai nouă versiune de [Mocha CFW](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Ultima versiune de la [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Cea mai recentă versiune de [Launcher Homebrew Channel] (https://github.com/dimok789/homebrew_launcher/releases/latest) *(fișierul.zip a aplicației) *
-* O versiune anterioară de [Homebrew Launcher] (https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul.zip a aplicației) *
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * Cele mai recente versiuni [Haxchi și CBHC] (https://github.com/FIX94/haxchi/releases/latest) *(ambele fișiere.zip) *
 * Cea mai recentă versiune de [NNU-Patcher] (https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
@@ -45,20 +46,20 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 1. Creați un folder numit `wiiu` pe rădăcina cardului SD
 1. Creați un folder numit `install` pe rădăcina cardului SD
 1. Copiaţi folderul "apps" din fișierul '.zip' a aplicației Homebrew App Sore în folderul '/ wiiu /' de pe cardul SD
-1. Copiați _conținutul de_ pe arhiva the Homebrew Launcher `.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva Haxchi`.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva CBHC`.zip` în rădăcina cardului SD
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
+1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Copiați `config.txt` în folderul `/haxchi/` de pe cardul SD
 1. Creați un folder numit `hbc` în folderul `install` de pe cardul SD
-1. Copiați _conținutul_ the Homebrew Launcher Channel ”.zip” către folderul ”/install/hbc/” din cardul SD
-1. Copiați folderul ”WUP_Installer_GX2” din WUP Installer GX2 (Channel) ”.zip în folderul ”/install” din cardul SD
-1. Creați un folder numit ”mocha” în ”/wiiu/apps/” de pe cardul SD
-1. Copiați 'mocha.elf' din Mocha CFW ".zip" în folderul '/wiiu/apps/mocha/' de pe cardul SD
+1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Copiaţi folderul 'savemii_mod' din savemii_mod '.zip' la folderul ”/ wiiu/apps /” de pe cardul SD
-1. Copiați _conținutul de_ pe arhiva WUP Installer GX2 `.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva disc2app`.zip` în rădăcina cardului SD
-1. Copiați și îmbinați _conținutul_ hid\_to\_vpad ”.zip” către rădăcina cardului SD
-1. Copiați și îmbinați _conținutul_ the NNU-Patcher ”.zip” către rădăcina cardului SD
+1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
+1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Reintroduceţi cardul SD în aparatul dvs
 1. Porniți dispozitivul
 
@@ -116,25 +117,6 @@ Request Context
 În prezent, Brain Age (Dr Kawashima's Brain Training: How Old Is Your Brain) este cel mai ieftin din aceste titluri pe eShop ($6.99 USD).
 
 Dacă aveți Brain Age sau alt joc DS compatibil în Wii U pentru o lungă durată de timp, ștergeți și reinstalați de pe eShop. Versiunile mai vechi ale acestui joc nu sunt compatibile cu acest exploit.
-
-### Secţiunea III - Blocați actualizările de sistem
-
-Reţineţi că, pentru a accesa eShop cu aceste adrese adrese DNS, mai întâi, trebuie să rulaţi NNU-Patcher prin Homebrew Launcher. În plus, reţineţi că NNU-Patcher este un patch temporar şi va trebui să fie rulat din nou, dacă aveţi nevoie pentru a accesa eShop după ce reporniți.
-
-Țineți cont că, dacă nu blocați actualizările cu această metodă pe toate conexiunile prezente și viitoare, actualizările se fac *automat* și *nu* pot fi dezactivate. 
-{: .notice--danger}
-
-1. Mergeți la "System Settings", apoi "Internet", apoi "Connect to the Internet" apoi apăsați (X) pentru a afișa conexiunile de rețea prezente
-1. Pentru fiecare conexiune (şi toate conexiunile viitoare), faceți următoarele
-  + Selectaţi conexiunea
-  + Selectați "Change Settings"
-  + Mergeți la a doua listă și selectați "DNS"
-  + Setați DNS-ul pe "Don't Auto-Obtain"
-  + Setați IP-urile de server DNS la următoarele
-  + `168.235.092.108`
-  + `081.004.127.020`
-  + Selectaţi "Confirm", apoi apăsaţi (B) pentru a salva
-  + Aceste servere vor bloca SysNAND-ul din a se actualiza
 
 ___
 

@@ -23,7 +23,7 @@ title: "NAND 備份"
 
 1. 關閉您的主機
 1. 將 SD 卡插入電腦
-1. 複製並覆蓋 Wii U NAND Dumper `.zip` 裡的 _所有內容_ 到 SD 卡的根目錄底下
+1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 1. 啟動 Homebrew Launcher

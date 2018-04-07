@@ -12,9 +12,9 @@ Bevor Sie beginnen, sollten Sie sicherstellen, dass Ihre Wii U ist derzeit auf F
 
 Es wird empfohlen, dass deine SD-Karte mindestens 16GB oder 32GB groß ist um genug Platz zum dumpen und installieren von Spielen zu bieten. Wenn du ein Backup von deinem WII U System erstellen willst um dieses in Zukungt wiederherstellen zu können solltest du eine SD Karte bereitliegen haben, die mindestens doppelt so groß ist wie der Systemspeicher deiner WII U (16GB für die weisse Konsole; 64GB für die schwarze Konsole).
 
-Deine SD-Karte muss als FAT32 (64KB Cluster wenn möglich) formatiert sein. Die meisten SD-Karten werden standardmäßig so formatiert.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Die meisten SD-Karten werden standardmäßig so formatiert.
 
-Wenn du deine SD-Karte auf Windows formatieren musst, benutze nicht das eingebaute Formatierungstool, ansonsten können Probleme auftreten. Benutze stattdessen [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) und setze eine Allokationgröße von 64KB.
+Wenn du deine SD-Karte auf Windows formatieren musst, benutze nicht das eingebaute Formatierungstool, ansonsten können Probleme auftreten. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Die SD-Karte **darf nicht** `wiiu` genannt werden, sonst treten Probleme auf.
 
@@ -23,16 +23,17 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 ### What You Need
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * Die neueste Version des [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Die neueste Version von [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Die neueste Version von [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * Die neueste Version von [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Die neueste Version von [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
-* Die neueste Version der [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Die neueste Version von [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Die neueste Version des [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(die channel- `.zip` -Datei)*
-* Eine vorherige Version [des Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(die launcher- `.zip` -Datei)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * Die neueste Version von [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(beide `.zip` Dateien)*
 * Die neueste Version von [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
@@ -45,20 +46,20 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 1. Erstelle einen Ordner mit dem Namen `wiiu` im Stammverzeichnis deiner SD-Karte
 1. Erstelle einen Ordner mit dem Namen `install` im Stammverzeichnis deiner SD-Karte
 1. Kopiere den `apps` Ordner der Homebrew App Store `.zip` in den `/wiiu/` Ordner auf der SD -Karte
-1. Kopiere und füge _den Inhalt_ der Haxchi `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der Haxchi `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der CBHC `.zip` im Stammverzeichnis deiner SD-Karte zusammen
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
+1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Kopiere die `config.txt` in den `/haxchi/` Ordner auf deiner SD-Karte
 1. Erstelle einen Ordner mit dem Namen `hbc`` im `/install/` Ordner deiner SD-Karte
-1. Kopiere _den Inhalt_ der Homebrew Launcher Channel `.zip` in den `/install/hbc/` Ordner deiner SD-Karte
-1. Kopiere den Ordner `WUP_Installer_GX2` von der WUP Installer GX2 (Channel) `.zip` in den `/install/` Ordner deiner SD-Kare
-1. Erstelle einen Ordner mit dem Namen `mocha` im `/wiiu/apps/` Ordner deiner SD-Karte
-1. Kopiere die `mocha.elf` aus der Mocha CFW `.zip` in den `/wiiu/apps/mocha/` Ordner deiner SD-Karte
+1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Kopiere den `savemii_mod` Ordner von der savemii_mod `.zip` in den `/wiiu/apps/` Ordner auf deiner SD- Karte
-1. Kopiere und füge _den Inhalt_ der WUP Installer GX2 (Homebrew Launcher) `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der disc2app `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der hid\_to\_vpad `.zip` im Stammverzeichnis deiner SD-Karte zusammen
-1. Kopiere und füge _den Inhalt_ der NNU-Patcher `.zip` im Stammverzeichnis deiner SD-Karte zusammen
+1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
+1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
 
@@ -106,25 +107,6 @@ Die folgenden Spiele sind mit dem Exploit kompatibel:
 Aktuell ist Dr. Kawashima's Gehirnjogging das preiswerteste im eShop (6,99€)
 
 Solltest du Dr. Kawashima's Gehirnjogging schon eine Weile auf der Wii U installiert haben, versuche es zu löschen und neu aus dem eShop herunterzuladen. Ältere Versionen des Spieles werden mit dem Exploit nicht funktionieren.
-
-#### Section III - Block System Updates
-
-Beachte dass du erst den NNU-Patcher im Homebrew Launcher benutzen musst bevor du versuchst den eShop zu benutzen. Außerdem solltest du wissen dass der NNU-Patch nur temporär ist und nach jedem Neustart erneut ausgeführt werden muss wenn du den eShop benutzen willst.
-
-Beachte, dass sofern du nicht mit Hilfe dieser Methode Updates für alle aktuellen sowie zukünftigen Verbindungen blockierst, Updates *automatisch* auf der Wii U ausgeführt werden und sich auch *nicht* deaktivieren lassen. 
-{: .notice--danger}
-
-1. Gehe in die Systemeinstellungen, dann "Internet" und drücke (X) um deine derzeitigen Netzwerkverbindungen anzuzeigen
-1. Für jede deiner Verbindungen (und alle zukünftigen), mache folgendes
-  + Wähle die Verbindung aus
-  + Wähle "Einstellungen ändern"
-  + Navigiere zur zweiten Liste und wählen sie "DNS" aus
-  + Stelle die DNS auf "Nicht automatisch beziehen"
-  + Stelle die DNS Server IPs zu den folgenden Servern ein
-  + `168.235.092.108`
-  + `081.004.127.020`
-  + Wähle "Bestätigen", dann drücke (B) um zu speichern
-  + Diese Server werden ein SysNAND Update verhindern
 
 ___
 
