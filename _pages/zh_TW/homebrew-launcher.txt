@@ -28,8 +28,7 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + 可能需要嘗試多次
-  + 如果當機的話，透過電源按鈕將您的主機強制關機，並試試看選擇不同的號碼
-  + 您可能需要每個號碼都多試幾次才有可能成功
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. 您的主機應該就會啟動 Homebrew Launcher 了
 
 ___
