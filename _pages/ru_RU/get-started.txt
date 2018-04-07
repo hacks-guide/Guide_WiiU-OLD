@@ -32,9 +32,9 @@ SD-карта должна быть отформатирована в FAT32 (р�
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/){:target="_blank"}
 * Свежая версия [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
 * Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target="_blank"}
-* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(`.zip` архив с суффиксом _channel)*
+* Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(`.zip-архив` с суффиксом _channel)*
 * Предыдущая версия [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(`homebrew_launcher.v1.3.zip`)*
-* Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(оба `.zip` архива)*
+* Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target="_blank"}
 
 ### Инструкция
@@ -46,20 +46,20 @@ SD-карта должна быть отформатирована в FAT32 (р�
 1. Создайте папку `wiiu` в корне SD-карты
 1. Создайте папку `install` в корне SD-карты
 1. Скопируйте папку `apps` из `.zip-архива` с Homebrew App Store в папку `/wiiu/` на SD-карте
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
-1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
+1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с Haxchi в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с CBHC в корень SD-карты
 1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте
 1. Создайте папку `hbc` в папке `/install/` на SD-карте
-1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher Channel в папку `/install/hbc/`на SD-карте
 1. Скопируйте папку `wupgx2_install_channel` из `.zip-архива` с WUP Installer GX2 (Channel) в папку `/install/` на SD-карте
 1. Скопируйте папку `savemii_mod` из `.zip-архива` с savemii_mod в папку `/wiiu/apps/` на SD-карте
-1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
-1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
-1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
+1. Скопируйте *содержимое* `.zip-архива` с WUP Installer GX2 (Homebrew Launcher) в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с disc2app в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с hid\_to\_vpad в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с NNU-Patcher в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с Mocha CFW в корень SD-карты
+1. Скопируйте `config.ini` в папку `/wiiu/apps/mocha/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
