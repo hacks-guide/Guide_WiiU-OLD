@@ -11,7 +11,7 @@ title: "FAQ"
 <a name="faq_updates" />**F:** *Nu när Nintendo ska avsluta produktionen av Wii U, innebär det att det inte kommer några fler uppdateringar?*    
 **S:** Nej! Version 5.5.2 har släppts långt efter produktionen avslutades. Därför måste du alltid se till att ställa in DNS-servrar som blockerar uppdateringar.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
+<a name="faq_update" />**F:** *Är det säkert att uppdatera en Wii U med modifierad firmware?*    
 **S:** Nej! Du måste alltid se till att du ställt in DNS-servrar som blockerar uppdateringar.
 
 <a name="faq_updatemocha" />**F:** *Hur uppdaterar jag till senaste Mocha CFW?*    
