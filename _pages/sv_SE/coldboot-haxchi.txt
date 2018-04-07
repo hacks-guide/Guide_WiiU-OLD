@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Obligatorisk läsning
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) ändrar vilken titel som laddas vid uppstart så att din konsol startar DS virtual console-spelet istället för hem-menyn, vilket i sin tur kommer starta ditt modifierade firmware.
 
 Det här steget är valfritt. Vanliga Haxchi fungerar precis lika bra; Cooldboot ger bara lite extra bekvämlighet. Om du vill hoppa över Coldboot Haxchi, fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -41,18 +41,18 @@ Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia, annars kommer du
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
+Din Wii U ska nu automatiskt starta till Cooldboot Haxchi modifierad firmware vid uppstart.
 {: .notice}
 
 {% capture notice-1 %}
 Du kan trycka (Hem) medan CBHC startar för att komma åt CBHCs startalternativ. Det här är vad var och en av inställningarna gör:
 
-  + Boot System Menu -> Boots into custom firmware
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
-  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
+  + Boot System Menu -> Startar modifierad firmware
+  + Boot Homebrew Launcher -> Startar Homebrew Launcher
+  + Boot Mocha CFW -> Startar Mocha CFW (finns ingen anledning att använda med CBHC)
   + Boot fw.img on SD Card -> Startar en äldre fw.img-baserad CFW från SD-kortet
-  + Boot vWii System Menu -> Boots into vWii
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
+  + Boot vWii System Menu -> Startar vWii
+  + Boot vWii Homebrew Channel -> Startar vWii Homebrew Channel
 
 {% endcapture %}
 
