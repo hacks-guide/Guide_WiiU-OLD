@@ -23,7 +23,7 @@ title: "Резервная копия NAND"
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
+1. Скопируйте *содержимое* `.zip-архива` с Wii U NAND Dumper в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 1. Запустите Homebrew Launcher
