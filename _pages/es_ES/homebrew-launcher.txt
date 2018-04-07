@@ -28,8 +28,7 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Esto puede tomar varios intentos
-  + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta con otro número
-  + Puede que necesites probar todos los números de exploit más de una vez antes de que uno funcione
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. Tu consola debería cargar el Homebrew Launcher
 
 ___
