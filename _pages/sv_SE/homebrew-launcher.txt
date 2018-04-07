@@ -28,8 +28,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Det här kan behöva många försök
-  + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen med ett annat nummer
-  + Du kan behöva prova alla olika nummer mer än en gång innan en av dem lyckas
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. Din konsol ska nu ha laddat Homebrew Launcher
 
 ___
