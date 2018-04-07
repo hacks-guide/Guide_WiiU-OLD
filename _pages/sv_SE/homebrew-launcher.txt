@@ -20,23 +20,13 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
   + Det här kommer även radera all webbläsarens data inklusive inställningar, historik och bokmärken
 1. Återvänd till webbläsaren
 
-#### Avsnitt II (i) - Version 5.5.0 & 5.5.1
+#### Section II - Homebrew Launcher
 
-1. Gå till `http://loadiine.ovh`
+1. If your device is on 5.5.2, open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
+1. Go to `tiny.cc/wiiu`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
-1. Säkerställ att dropdown-menyn visar "Homebrew Launcher 1.4 (5.5.0 - 5.5.1)", tryck sedan "Submit"
-  + Det här kan behöva många försök
-  + I vissa situationer kan alternativet "Homebrew Launcher 1.3 (5.3.2 - 5.4.0 - 5.5.0 - 5.5.1)" vara mer pålitligt för att starta Homebrew Launcher
-  + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen
-1. Din konsol ska nu ha laddat Homebrew Launcher
-
-#### Avsnitt II (ii) - Version 5.5.2
-
-1. Öppna gardinen på webbläsaren
-  + Detta ökar chansen att lyckas nyttja säkerhetshålet i webbläsaren på 5.5.2
-1. Gå till `http://u.drg.li/`
-  + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
-1. Välj "2" för det första försöket att nyttja säkerhetshålet
+1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Det här kan behöva många försök
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen. Försök sen igen med ett annat nummer
   + Du kan behöva prova alla olika nummer mer än en gång innan en av dem lyckas

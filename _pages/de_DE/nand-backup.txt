@@ -15,7 +15,7 @@ Beachte dass Mocha CFW dieser Anleitung nach einem Neustart folgen sollten *ohne
 Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende dazu [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), oder [F3X (macOS)](f3x-(mac))!
 {: .notice--warning}
 
-### What you need
+### What You Need
 
 * Die neueste Version von [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
@@ -23,7 +23,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 1. Schalte dein Gerät aus
 1. Stecke deine SD Karte in den Computer
-1. Kopiere und füge _den Inhalt_ der Wii U NAND Dumper `.zip` im Stammverzeichnis deiner SD-Karte zusammen
+1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
 1. Stecke deine SD-Karte wieder in die Wii U
 1. Schalte dein Gerät an
 1. Starte den Homebrew Launcher

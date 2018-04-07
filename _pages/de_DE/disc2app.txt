@@ -15,9 +15,9 @@ Solltest du planen eine externe Festplatte zu nutzen, um deine Spiele zu install
   + Eine Festplatte zu formatieren, um sie mit der Wii U nutzen zu können, löscht alle sich darauf befindlichen Daten.
   + Solltest du eine Festplatte benutzen, die keine eigene Stromversorgung hat, benötigst du ein [Y-Kabel](http://amzn.to/2mjQjin).
 
-### What you need
+### What You Need
 
-* Eine Wii U mit Zugriff auf ein gepatchtes SysNAND (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB freien Speicherplatz auf deiner SD Karte
 
 ### Instructions
@@ -36,7 +36,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 
 #### Section II - Using disc2app
 
-1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
+1. Starte den Homebrew Launcher Channel
 1. Starte disc2app
 1. Drücke (A) um auf die SD Karte zu dumpen
 1. Lege die zu dumpende Disc ein, sobald du dazu aufgefordert wirst
@@ -45,7 +45,7 @@ Beachte, dass dies alle Daten auf der externen Festplatte löscht!
 
 #### Section III - Installing dumped game
 
-1. Starte den Homebrew Launcher Channel im gepatchten SysNAND
+1. Starte den Homebrew Launcher Channel
 1. Starte "WUP Installer GX2"
 1. Wähle das Spiel aus, das du installieren willst
 1. Drücke "Install" und dann "Yes" zum bestätigen

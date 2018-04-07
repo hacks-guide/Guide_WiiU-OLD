@@ -6,28 +6,24 @@ title: "Mocha CFW"
 
 ### Lectură obligatorie
 
-Mocha CFW este un custom firmware care modifică verificările de semnătură, verificările de regiune, şi execută alt cod personalizat în fundal.
+Mocha CFW is a custom firmware that patches signature checks, region checks, and enables other custom firmware features.
 
-Pentru a porni verificatoarele de semnături modificate și SysNAND-ul modificat, va trebui să intrați în Homebrew Launcher și să porniți Mocha CFW de fiecare dată când porniți consola.
+In order to use Mocha CFW, you will need to enter the Homebrew Launcher through the browser and launch Mocha CFW every time your device reboots.
+
+### Ce aveți nevoie
+
++ The custom `config.ini` provided in [Get Started](get-started) should already be in the `/wiiu/apps/mocha/` folder on your SD card
 
 ### Instrucțiuni
 
 1. Porniți Mocha CFW
-1. Meniul de configurare Mocha CFW ar trebui să se încarce
-1. Apăsați (Sus) și (Jos) pe D-Pad pentru a naviga printre opțiuni și (Stânga) și (Dreapta) pentru a seta următoarele:
-  + Config view mode: **default**
-  + Skip this menu on launch: **on**
-  + Show launch image: **on**
-  + Don't relaunch OS: **off**
-  + Launch System Menu: **on**
-  + RedNAND: **off**
-1. Apăsaţi (A) pentru a confirma şi ieşi
-1. Consola ar trebui să repornească în meniul de sistem
+1. The console will return to the Homebrew Launcher and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu until the next reboot
 
 ___
 
-Veţi avea nevoie să porniți Mocha CFW din Homebrew Launcher fiecare dată când reporniți pentru a intra în SysNAND-ul modificat.
-{: .notice}
+Note that you will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to re-enable custom firmware features.
+{: .notice--info}
 
 ### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

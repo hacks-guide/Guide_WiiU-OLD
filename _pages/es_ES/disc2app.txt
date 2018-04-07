@@ -17,7 +17,7 @@ Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo
 
 ### Qué necesitas
 
-* Una Wii U que puede acceder a una SysNAND modificada (Mocha CFW, Haxchi, CBHC, etc)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * Se requieren 25GB disponibles en tu tarjeta SD
 
 ### Instrucciones
@@ -36,7 +36,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, sig
 
 #### Sección II - Usando disc2app
 
-1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
+1. Inicia el Homebrew Launcher Channel
 1. Inicia disc2app
 1. Presiona (A) para volcar a la tarjeta SD
 1. Inserta el disco que quieres volcar cuando se te pida
@@ -45,7 +45,7 @@ Si planeas utilizar un disco duro externo para instalar tus discos volcados, sig
 
 #### Sección III - Instalar el juego volcado
 
-1. Inicia el Homebrew Launcher Channel en la SysNAND modificada
+1. Inicia el Homebrew Launcher Channel
 1. Inicia WUP Installer GX2
 1. Selecciona el juego que quieras instalar
 1. Presiona "Install", luego presiona "Yes" para confirmar

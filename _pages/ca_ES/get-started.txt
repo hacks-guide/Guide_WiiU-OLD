@@ -12,9 +12,9 @@ Before beginning, you should make sure your Wii U is currently on firmware 5.5.0
 
 Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-Your SD card must be formatted as FAT32 (64KB clusters if possible). Most SD cards will be formatted this way by default.
+Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Most SD cards will be formatted this way by default.
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 64KB.
+If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
 
 Your SD card *cannot* be named `wiiu`, or it will cause problems.
 
@@ -23,16 +23,17 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 ### What You Need
 
-* [`config.txt`]({{ base_path }}/images/config.txt)
+* [config.txt]({{ base_path }}/images/config.txt)
+* [config.ini]({{ base_path }}/images/config.ini)
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 * The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
@@ -45,20 +46,20 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 1. Create a folder named `wiiu` on the root of your SD card
 1. Create a folder named `install` on the root of your SD card
 1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-1. Copy and merge _the contents of_ the Homebrew Launcher `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the Haxchi `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the CBHC `.zip` to the root of your SD card
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
+1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Copy `config.txt` to the `/haxchi/` folder on your SD card
 1. Create a folder named `hbc` in the `/install/` folder on your SD card
-1. Copy _the contents of_ the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. Copy the `WUP_Installer_GX2` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
-1. Create a folder named `mocha` in the `/wiiu/apps/` folder on your SD card
-1. Copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card
+1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. Copy the `savemii_mod` folder from the savemii_mod `.zip` to the `/wiiu/apps/` folder on your SD card
-1. Copy and merge _the contents of_ the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the disc2app `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy and merge _the contents of_ the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
+1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
+1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
+1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
 1. Reinsert your SD card into your device
 1. Power on your device
 
@@ -106,25 +107,6 @@ The following DS Virtual Console games are compatible:
 Currently, Brain Age is the cheapest of these titles on the eShop ($6.99 USD).
 
 If already own Brain Age or Brain Training and have had it installed on your Wii U for a while, try deleting it and redownloading the game from the eShop. Older versions of the game are not compatible with the exploit.
-
-#### Section III - Block System Updates
-
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
-
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
-{: .notice--danger}
-
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
-  + `168.235.092.108`
-  + `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your SysNAND from being updated
 
 ___
 

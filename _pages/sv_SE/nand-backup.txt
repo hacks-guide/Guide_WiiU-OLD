@@ -23,7 +23,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
-1. Kopiera och slå ihop _innehållet_ från Wii U NAND Dumper `zip`-filen till roten av ditt SD-kort
+1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 1. Starta Homebrew Launcher

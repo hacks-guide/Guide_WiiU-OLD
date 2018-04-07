@@ -10,11 +10,11 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
 
 ### Ce aveți nevoie
 
-* [`vWii_cIOS_apps_20131218.zip`]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
-* [`Patched_IOS80_Installer_for_vWii.zip`]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
+* [vWii_cIOS_apps_20131218.zip]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
+* [Patched_IOS80_Installer_for_vWii.zip]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
 * Ultima versiune de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Ultima versiune de [Hackmii Installer](https://bootmii.org/download/)
-* O versiune anterioară de [Homebrew Launcher] (https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul.zip a aplicației) *
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
 
 ### Instrucțiuni
 
@@ -22,11 +22,11 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
-1. Copiați și îmbinați _conținutul de_ pe arhiva`.zip` WUPhax în rădăcina cardului SD
+1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
 1. Copiați `boot.elf` de pe folderul `hackmii_installer_v1.2` din arhiva `.zip` Hackmii Installer în rădăcina cardului SD
 1. Copiați folderul `apps` din `vWii_cIOS_apps_20131218.zip` în rădăcina cardului SD
-1. Copiați și îmbinați folderul `apps`din`Patched_IOS80_Installer_for_vWii.zip` în rădăcina cardului SD
-1. Copiați _conținutul de_ pe arhiva the Homebrew Launcher `.zip` în rădăcina cardului SD
+1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
 1. Reintroduceţi cardul SD în aparatul dvs
 1. Porniți dispozitivul
 
@@ -36,7 +36,7 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
   + Dacă nu ați făcut deja ghidul principal de Wii U și nu știți cum să faceți asta, rog să vedeți [Homebrew Launcher](homebrew-launcher), apoi să vă înparceți la această pagină.
 1. Porniți wuphax
 1. Apăsați (A) pentru a face o copie de rezervă la Mii Channel și injecta Hackmii Installer
-1. Vă veți întoarce la Homebrew Launcher pe SysNAND
+1. You will be returned to the Homebrew Launcher
 1. Folosiți butonul (Home) pentru a ieși din meniul de sistem
 1. Porniți vWii
 1. Porniți Mii Channel în vWii
@@ -71,8 +71,6 @@ Asiguraţi-vă că nu există niciun folder numit `wad` sau `wads` pe rădăcina
 {: .notice--warning}
 
 1. Porniți Homebrew Channel pe vWii
-  + Utilizatorii de Haxchi și Mocha CFW încărcat prin Homebrew Launcher pot face asta selectând vWii-ul de pe meniul de sistem SysNAND, apoi pornind Homebrew Channel
-  + Utilizatorii de CBHC Mocha CFW pot face asta ținând apăsat (B) la pornire, apoi selectând "Boot vWii Homebrew Channel"
 1. Porniți d2x cIOS Installer
 1. Alegeți opțiunile din partea de sus a ecranului după următoarele:
   + Selectați cIOS : **d2x-v10-beta52-vWii**

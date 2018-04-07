@@ -6,14 +6,16 @@ title: "Homebrew Launcher (Channel)"
 
 ### Required Reading
 
-Ceci va installera la Chaîne Homebrew pour que, quand votre SysNAND patché est exécuté, l'Homebrew Launcher apparaîtra sous forme d’icône dans le menu Home.
+This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
 
 ### Instructions
 
+#### Section I - Installing the Homebrew Launcher Channel
+
 1. Allez sur le Homebrew Launcher
   + Les utilisateurs de CBHC doivent appuyer sur le bouton (Home) lorsque CBHC démarre pour accéder au menu des options de démarrage de CBHC, puis sélectionner le Homebrew Launcher
-  + Les utilisateurs de Haxchi doivent démarrer Haxchi une fois pour patcher la SysNAND, puis une seconde fois en maintenant (A) enfoncé pour démarrer le Homebrew Launcher
-  + Les utilisateurs de Mocha CWF doivent démarrer Mocha CWF puis redémarrer le Homebrew Launcher
+  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
+  + Mocha CFW users should already have entered this
 1. Lancez WUP Installer GX2
   + Retenez que, si WUP installer GX2 plante en affichant l'erreur "DSi Exception Has Occured", vous devez simplement éteindre votre console et réessayer.
 1. Sélectionnez l’Homebrew Channel
@@ -21,16 +23,35 @@ Ceci va installera la Chaîne Homebrew pour que, quand votre SysNAND patché est
 1. Choisissez "NAND" comme destination
 1. Sélectionnez WUP Installer GX2
 1. Touchez "Install", puis "Yes" pour confirmer
-1. Si vous prévoyez d’installer des jeux sur un HDD USB, sélectionner "USB" comme la destination ; Si vous ne prévoyez pas d’utiliser un HDD USB, sélectionnez "NAND" comme destination
+1. Choisissez "NAND" comme destination
 1. Appuyez sur le bouton (Home) puis quittez le logiciel Éditeur Mii quand l'installation est terminée
+
+#### Section II - Blocking System Updates
+
+Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+
+Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+{: .notice--danger}
+
+1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
+1. For each of your connections (and all future connections), do the following
+  + Select the connection
+  + Select "Change Settings"
+  + Move to the second list and choose "DNS"
+  + Set the DNS to "Don't Auto-Obtain"
+  + Set the DNS server IPs to the following servers
+  + {:.bigdns} `168.235.092.108`
+  + {:.bigdns} `081.004.127.020`
+  + Select "Confirm", then press (B) to save
+  + These servers will block your device from being updated
 
 ___
 
-Vous pouvez à présent lancer le Homebrew Launcher à partir de la SysNAND patché en lançant la Chaîne Homebrew.
-{: .notice}
+You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+{: .notice--info}
 
-Vous pouvez à présent lancer le WUP Installer GX2 sur la SysNAND patchée en lançant le logiciel depuis le menu Home.
-{: .notice}
+You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+{: .notice--info}
 
 Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre Wii U en suivant le guide [Sauvegarde NAND](nand-backup).
 {: .notice--primary}
@@ -38,13 +59,10 @@ Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre
 Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise à jours, vous devez d’abord exécuter NNU-Patcher via le l'Homebrew Launcher (NNU-Patcher est un patch temporaire et devra être lancé à nouveau si vous avez besoin d’accéder à l’eShop après un redémarrage).
 {: .notice--info}
 
-Notez que, dû à un bug, WUP Installer GX2 peut seulement installer sur un disque USB (comme un HDD USB) si vous déplacez WUP Installer GX2 sur un stockage USB en utilisant le Gestionnaire de Données dans les Paramètres Systèmes.
-{: .notice--warning}
-
 Pour toute information concernant la copie de vos disques afin de pouvoir les installer sur votre console et jouer sans le disque, consultez la page de [disc2app](disc2app).
 {: .notice--success}
 
-Pour toute information concernant l'installation de « mods » vWii sur la SysNAND, consultez la page [Mod de la vWii](vwii-modding).
+For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
 {: .notice--success}
 
 Pour toute information concernant la désinstallation du CFW en toute sécurité et un retour aux paramètres d'usine, consultez la page [Désinstallation du CFW](uninstall-cfw).

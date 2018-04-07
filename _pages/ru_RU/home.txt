@@ -43,8 +43,7 @@ CFW можно легко установить на любую консоль л
 
 ## Что устанавливается в этом руководстве?
 
-Конечная цель этого руководства это установка на не взломанную Wii U
-Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемся homebrew как промежуточным шагом для достижения конечной цели - кастомной прошивки.
+This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. Мы воспользуемся homebrew как промежуточным шагом для достижения конечной цели - кастомной прошивки.
 
 ## Что позволяет кастомная прошивка?
 
@@ -61,7 +60,7 @@ Coldboot Haxchi, запускающую Mocha CFW. Мы воспользуемс
 + Если всё пройдет по плану, вы ничего не потеряете и всё останется в первоначальном состоянии (игры, сохранения, NNID).
 + Рекомендуется использовать SD-карту не менее 16ГБ или 32ГБ, если необходимо место для дампинга и установки игр.
 + SD-карта должна использовать [MBR, а не GPT](http://www.howtogeek.com/245610/) (англ.).
-+ Если вам нужно отформатировать новую SD-карту, воспользуйтесь [`guiformat`](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) (англ.) и установите Allocation Unit Size на 64К.
++ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
 
 ___
 

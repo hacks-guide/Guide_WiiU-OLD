@@ -14,26 +14,28 @@ Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn ut
 
 + En äkta kopia av ett DS Virtual Console-spel med säkerhetshål installerat på din Wii U:s inbyggda lagring
   + Om du inte redan har en av spelen med säkerhetshål installerat se [Kom igång](get-started)
-
++ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
+  + Om du använder standard-versionen av config.txt (från Haxchi `.zip`-zipfilen) kommer din Haxchi-installation bete sig annorlunda än förväntat och vad som beskrivs i den här guiden
+  
 ### Instruktioner
 
 1. Starta Haxchi Installer
 1. Välj DS virtual console-spelet du vill installera Haxchi till, tryck sen (A) för att välja det
 1. Läs varningen som dyker upp, tryck sen (A) för att installera
 1. När det är klart, starta ditt Haxchi DS virtual console-spel (som nu har döpts om till "Haxchi")
-1. Konsolen kommer starta om till modifierad SysNAND
-  + Det här tillåter osignerade titlar (som t.ex. homebrew channel och backuper av spel) att laddas in via hemskärmen
+1. The console will reboot and enable custom firmware features
+  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
 ___
 
-För närvarande måste du starta ditt DS virtual console-spelet varje gång du vill starta ditt modifierade SysNAND. Nästa sida kommer installera CBHC (Coldboot Haxchi) som gör allt detta automatiskt.
+Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Du kan nu hålla inne olika knappar medan du startar ditt DS virtual console-spel för olika startalternativ. Det här är vad var och en av inställningarna gör:**
 
-  + None -> Startar modifierad SysNAND
-  + (A) -> Startar Homebrew Launcher
+  + None -> Reboots into custom firmware
+  + (A) -> Reboots into the Homebrew Launcher
 
 {% endcapture %}
 

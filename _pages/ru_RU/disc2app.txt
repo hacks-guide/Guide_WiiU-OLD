@@ -17,7 +17,7 @@ title: "disc2app"
 
 ### Что понадобится
 
-* Wii U с пропатченным SysNAND (Mocha CFW, Haxchi, CBHC, и т. п.)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25ГБ свободного места на SD-карте
 
 ### Инструкция
@@ -36,7 +36,7 @@ title: "disc2app"
 
 #### Часть II - Использование disc2app
 
-1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
+1. Запустите Homebrew Launcher Channel
 1. Запустите disc2app
 1. Нажмите (А), чтобы сохранить образ на SD-карту
 1. Вставьте нужный диск в дисковод при появлении запроса
@@ -45,7 +45,7 @@ title: "disc2app"
 
 #### Часть III - Установка игры из образа
 
-1. Запустите Homebrew Launcher Channel в пропатченном SysNAND
+1. Запустите Homebrew Launcher Channel
 1. Запустите WUP Installer GX2
 1. Выберите игру, которую вы хотите установить
 1. Нажмите "Install" для установки, затем "Yes" для подтверждения

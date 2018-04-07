@@ -23,7 +23,7 @@ Dacă aveți un model negru de Wii U (32GB), cardul SD trebuie să fie cel puți
 
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
-1. Copiați și îmbinați _conținutul_ din Wii U NAND Dumper `.zip` în rădăcina cardului SD
+1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
 1. Reintroduceţi cardul SD în aparatul dvs
 1. Porniți dispozitivul
 1. Porniți Homebrew Launcher

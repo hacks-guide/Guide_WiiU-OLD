@@ -17,7 +17,7 @@ Om du planerar att använda en extern hårddisk att installera dina dumpade skiv
 
 ### Vad du behöver
 
-* En Wii U som har åtkomst till modifierad SysNAND (med hjälp av Mocha CFW, Haxchi, CBHC, etc.)
+* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB ledigt utrymme på ditt SD-kort
 
 ### Instruktioner
@@ -36,7 +36,7 @@ Detta kommer radera allt innehåll på den externa hårddisken!
 
 #### Avsnitt II - Användning av disc2app
 
-1. Stata Homebrew Launcher Channel från modifierad SysNAND
+1. Starta Homebrew Launcher Channel
 1. Starta disc2app
 1. Tryck (A) för att dumpa skivan till SD-kortet
 1. Sätt i skivan du vill dumpa när du uppmanas
@@ -45,7 +45,7 @@ Detta kommer radera allt innehåll på den externa hårddisken!
 
 #### Avsnitt III - Installera dumpade spel
 
-1. Stata Homebrew Launcher Channel från modifierad SysNAND
+1. Starta Homebrew Launcher Channel
 1. Starta WUP Installer GX2
 1. Välj spelet du vill installera
 1. Tryck "install" följt av "yes" för att bekräfta

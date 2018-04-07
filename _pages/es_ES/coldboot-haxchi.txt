@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Lectura requerida
 
-CBHC (Clodboot Haxchi) cambia el título del sistema por defecto para que tu SysNAND ejecute el juego de la consola virtual de DS por defecto en vez del menú del sistema, el cual cargará entonces la SysNAND modificada.
+CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
 
 Esta página es opcional. Una instalación normal de Haxchi funciona muy bien como es; ésto sólo ofrece comodidad adicional. Si deseas omitir Coldboot Haxchi, continuar en [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -17,8 +17,6 @@ DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tie
 Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna de la Wii U. Si está en un dispositivo USB, ¡BRICKEARÁS!
 
 Tu juego de la consola virtual de DS con Haxchi DEBE ser una copia LEGÍTIMA o BRICKEARÁS!
-
-Debes extraer todos los dispositivos USB antes de instalar, ¡o podrías tener un BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -43,18 +41,18 @@ Debes extraer todos los dispositivos USB antes de instalar, ¡o podrías tener u
 
 ___
 
-Tu consola ahora debería iniciar automáticamente en la SysNAND modificada con Coldboot Haxchi al encenderla.
+Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
 {: .notice}
 
 {% capture notice-1 %}
 Puedes presionar (Home) durante el inicio de CBHC para acceder al menú de opciones de arranque de CBHC. Esto es lo que hace cada una de las opciones:
 
-  + Boot System Menu -> Arranca la SysNAND
-  + Boot Homebrew Launcher -> Arranca el Homebrew Launcher en la SysNAND
-  + Boot Mocha CFW -> Arranca Mocha CFW en la RedNAND
+  + Boot System Menu -> Boots into custom firmware
+  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
+  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
   + Boot fw.img on SD Card -> Arranca cualquier CFW antiguo basado en fw.img desde la tarjeta SD
-  + Boot vWii System Menu -> Arranca la vWii en la SysNAND
-  + Boot vWii Homebrew Channel -> Arranca el Homebrew Channel en el modo vWii en la SysNAND
+  + Boot vWii System Menu -> Boots into vWii
+  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
 
 {% endcapture %}
 
