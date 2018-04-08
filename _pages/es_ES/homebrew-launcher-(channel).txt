@@ -15,7 +15,7 @@ Esto instalará el Homebrew Channel y, mientras se utilice Custom Firmware, el H
 1. Ingresa al Homebrew Launcher
   + Los usuarios de CBHC deben presionar (Home) mientras CBHC está iniciando para acceder al menú de opciones de inicio de CBHC y luego selecciona Homebrew Launcher
   + Los usuarios de Haxchi deben iniciar Haxchi una vez para habilitar el custom firmware, luego ejecutarlo una segunda vez manteniendo presionado (A) para iniciar el Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Usuarios de Mocha CFW deberían ya haber ingresado en éste
 1. Inicia WUP Installer GX2
   + Ten en cuenta que si WUP Installer GX2 crashea con el error "DSi Exception Has Ocurred", tan solo deberías apagar la consola y volver a intentar.
 1. Selecciona el Homebrew Channel
