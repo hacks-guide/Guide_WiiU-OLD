@@ -12,8 +12,8 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip){:target="_blank"}
-* The latest release of [Hackmii Installer](https://bootmii.org/download/){:target="_blank"}
+* La última versión de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip){:target="_blank"}
+* La última versión de [Hackmii Installer](https://bootmii.org/download/){:target="_blank"}
 * Una versión anterior del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3){:target="_blank"} *(el archivo `.zip` del launcher)*
 
 ### Instrucciones
@@ -22,10 +22,10 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
+1. Copia *el contenido del* `.zip` de WUPhax a la raíz de tu tarjeta SD
 1. Copia `boot.elf` desde la carpeta `hackmii_installer_v1.2` del `.zip` de Hackmii Installer a la raíz de tu tarjeta SD
 1. Copia la carpeta `apps` desde `vWii_cIOS_apps_20131218.zip` a la raíz de tu tarjeta SD
-1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
+1. Copia la carpeta `apps` de `Patched_IOS80_Installer_for_vWii.zip` a la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` del Homebrew Launcher a la raíz de tu tarjeta SD
 1. Reinserta la tarjeta SD en tu consola
 1. Enciende tu consola
@@ -36,7 +36,7 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
   + Si aún no has hecho la guía principal de Wii U y no sabes cómo hacer esto, por favor sigue [Homebrew Launcher](homebrew-launcher), luego vuelve a esta página.
 1. Inicia wuphax
 1. Presiona (A) para hacer una copia de seguridad de tu Canal Mii e inyectar Hackmii Installer
-1. You will be returned to the Homebrew Launcher
+1. Se regresará al Homebrew Launcher
 1. Utiliza el botón (Home) para salir al menú del sistema
 1. Inicia la vWii
 1. Inicia el Canal Mii en la vWii
