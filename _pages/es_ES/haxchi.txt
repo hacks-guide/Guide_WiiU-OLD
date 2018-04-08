@@ -14,8 +14,8 @@ Haxchi es un exploit que nos permite iniciar un CFW directamente desde el menú 
 
 + Una copia original de cualquiera de los juegos vulnerables de la consola virtual de DS instalado en la memoria interna de tu Wii U
   + Si aún no tienes uno de esos juegos vulnerables instalado, revisa [Comencemos](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ El `config.txt` personalizado provisto en [Comencemos](get-started) (¡*no* el archivo `config.txt` de Haxchi por defecto!) debería estar ya en la carpeta `/haxchi/` de tu tarjeta SD
+  + Utilizar la configuración por defecto (proveniente del archivo `.zip` de Haxchi) provocará que la instalación de Haxchi se comporte diferente a lo esperado
   
 ### Instrucciones
 
@@ -23,19 +23,19 @@ Haxchi es un exploit que nos permite iniciar un CFW directamente desde el menú 
 1. Elige el juego de la consola virtual de DS en el que vas a instalar Haxchi, después pulsa (A) para seleccionarlo
 1. Lee la advertencia que aparezca, después pulsa (A) para instalar
 1. Una vez se haya completado, ejecuta tu juego de la consola virtual de DS (llamado "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. La consola se reiniciará y habilitará las opciones de custom firmware
+  + Esto permitirá que títulos sin firmar (como el Homebrew Launcher) puedan ser ejecutados directamente desde el menú del sistema
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+Actualmente, debes iniciar tu juego de consola virtual de DS cada vez que reinicies para ingresar al custom firmware. En la página siguiente podrás instalar Coldboot Haxchi opcionalmente, que es capaz de hacer esto automáticamente al iniciar.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puedes mantener pulsado varios botones al iniciar tu juego de consola virtual de DS para accionar distintas opciones de arranque. Esto es lo que hace cada una de las opciones de arraque:**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + None -> Reinicia el custom firmware
+  + (A) -> Reinicia y carga el Homebrew Launcher
 
 {% endcapture %}
 
