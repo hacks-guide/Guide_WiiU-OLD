@@ -20,9 +20,9 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
   + Esto también eliminará todos los datos que involucran configuración, historial de navegación y favoritos
 1. Regresa al navegador
 
-#### Section II - Homebrew Launcher
+#### Sección II - Homebrew Launcher
 
-1. If your device is on 5.5.2, open the browser curtains
+1. Si tu consola está en versión 5.5.2, abre las cortinas del navegador
   + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
 1. Go to `tiny.cc/wiiu`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
