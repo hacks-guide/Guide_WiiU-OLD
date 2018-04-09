@@ -17,7 +17,7 @@ Si planeas usar un disco duro externo para instalar los juegos, ten en cuenta lo
 
 ### Qué necesitas
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
+*Una Wii U con alguna clase de custom firmware (Mocha CFW, Haxhi, CBHC, etc.)
 * Se requieren 25GB disponibles en tu tarjeta SD
 
 ### Instrucciones

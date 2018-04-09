@@ -28,8 +28,7 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + S-ar putea să fie nevoie să încercați de mai multe ori
-  + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați un număr diferit
-  + Trebuie să încercați toate numerele de exploit mai mult de o dată înainte ca unul să funcționeze
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 
 ___

@@ -28,8 +28,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
-  + Si la console ne répond plus, forcez-la simplement à s'éteindre en maintenant le bouton power, puis réessayez avec un nombre différent
-  + Vous devrez peut être essayer tous les numéros plusieurs fois avant que l'un d'eux fonctionne
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
 ___

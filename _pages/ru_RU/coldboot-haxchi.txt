@@ -6,7 +6,7 @@ title: "Coldboot Haxchi"
 
 ### Обязательно к прочтению
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) изменяет системный тайл, запускающийся по умолчанию при старте консоли, на игру для DS virtual console, которая затем запускает кастомную прошивку.
 
 Выполнение инструкций на этой странице не обязательно. Обычный Haxchi прекрасно работает; станет просто слегка удобней. Если вы хотите пропустить установку Coldboot Haxchi, переходите к [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
@@ -41,18 +41,18 @@ CBHC (Coldboot Haxchi) changes your default system title to make your device lau
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
+Ваша консоль теперь автоматически должна запускать кастомную прошивку Coldboot Haxchi при каждой загрузке.
 {: .notice}
 
 {% capture notice-1 %}
 Нажатие кнопки (Home) во время загрузки CBHC вызовет меню опций загрузки. Ниже краткое описание всех опций:
 
-  + Boot System Menu -> Boots into custom firmware
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
-  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
+  + Boot System Menu -> Загрузиться в кастомную прошивку
+  + Boot Homebrew Launcher -> Загрузиться в Homebrew Launcher
+  + Boot Mocha CFW -> Загрузиться в Mocha CFW (нет смысла использовать при наличии CBHC)
   + Boot fw.img on SD Card -> Загрузить старую CFW из файла fw.img из корня SD-карты
-  + Boot vWii System Menu -> Boots into vWii
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
+  + Boot vWii System Menu -> Загрузиться в vWii
+  + Boot vWii Homebrew Channel -> Загрузиться в vWii Homebrew Channel
 
 {% endcapture %}
 

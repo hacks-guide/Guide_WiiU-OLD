@@ -10,11 +10,11 @@ title: "Модификация vWii"
 
 ### Что понадобится
 
-* [vWii_cIOS_apps_20131218.zip]({{ base_path }}/images/vWii_cIOS_apps_20131218.zip)
-* [Patched_IOS80_Installer_for_vWii.zip]({{ base_path }}/images/Patched_IOS80_Installer_for_vWii.zip)
-* Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
+* [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
+* [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
+* Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip){:target="_blank"}
+* Свежая версия [Hackmii Installer](https://bootmii.org/download/){:target="_blank"}
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
 
 ### Инструкция
 
@@ -22,11 +22,11 @@ title: "Модификация vWii"
 
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
+1. Скопируйте *содержимое* `.zip-архива` с WUPhax в корень SD-карты
 1. Скопируйте `boot.elf` из папки `hackmii_installer_v1.2` из `.zip-архива` с Hackmii Installer в корень вашей SD-карты
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip` в корень вашей SD-карты
-1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Скопируйте папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher в корень SD-карты
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
@@ -36,7 +36,7 @@ title: "Модификация vWii"
   + Если вы еще не выполнили основной гайд и не знаете как это сделать, посмотрите на странице [Homebrew Launcher](homebrew-launcher), а затем продолжайте с этого места.
 1. Запустите wuphax
 1. Нажмите (A) для того, чтобы сделать резервную копию Mii Channel и интегрировать Hackmii Installer
-1. You will be returned to the Homebrew Launcher
+1. Вы вернетесь обратно в Homebrew Launcher
 1. Нажмите (Home), чтобы вернуться в системное меню
 1. Запустите vWii
 1. Запустите Mii Channel в vWii
