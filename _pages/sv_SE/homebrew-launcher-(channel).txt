@@ -6,16 +6,16 @@ title: "Homebrew Launcher (Channel)"
 
 ### Obligatorisk läsning
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Det här kommer installera Homebrew Channel så att när modifierad firmware körs kommer Homebrew Launcher dyka upp som en ikon på hemskärmen.
 
 ### Instruktioner
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Avsnitt I - Installera Homebrew Launcher Channel
 
 1. Starta Homebrew Launcher
   + CBHC-användare måste trycka (Hem) medan CBHC startar för att komma åt CBHCs startalternativ, sen välja Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Haxchi-användare måste starta Haxchi en gång för att aktivera den modifierade firmware-funktionaliteten, sen starta Haxchi en andra gång och samtidigt hålla inne (a) för att starta Homebrew Launcher
+  + Mocha CFW-användare ska redan ha återvänt till Homebrew Launcher
 1. Starta WUP Installer GX2
   + Observera att om WUP Installer GX2 kraschar med ett "DSi Exception Has Occurred"-fel bör du stänga av konsolen och prova igen.
 1. Välj Homebrew Channel
@@ -26,31 +26,31 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Välj "NAND" som destination
 1. Tryck (Hem), och avsluta sen programmet för att avsluta installationen när den är färdig
 
-#### Section II - Blocking System Updates
+#### Avsnitt II - Blockera Systemuppdateringar
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Notera att för att komma åt eShopen med dessa DNS-inställningar måste du först köra NNU-Patcher genom Homebrew Launcher. Notera även att NNU-Patcher är tillfällig och du kommer behöva köra den igen om du behöver komma åt eShopen efter en omstart.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Notera att om du inte blockerar uppdateringar med denna metod på alla nuvarande och framtida nätverksanslutningar så sköts uppdateringar av Wii U *automatiskt* och *kan inte* stängas av. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Gå till systeminställningar, sedan internet, och "Anslut till internet". Tryck sen (X) för att visa dina nuvarande nätverksanslutningar
+1. För varje anslutning (och för alla framtida anslutningar), gör följande
+  + Välj anslutningen
+  + Välj "Change Settings"
+  + Flytta till andra listan och välj "DNS"
+  + Sätt DNS till "Don't Auto-Obtain"
+  + Ställ in följande IP-adresser som DNS-servrar
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Välj "Confirm" och tryck sen (B) för att spara
+  + Dessa servrar kommer hindra att din konsol uppdateras
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Du kan nu starta Homebrew Launcher på modifierad firmware genom att bara starta Homebrew Channel.
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+Du kan nu starta WUP Installer GX2 på modifierad firmware genom att bara starta det från hemskärmen.
 {: .notice--info}
 
 För ökad säkerhet *bör* du skapa en säkerhetskopia av din enhets NAND genom att följa [Säkerhetskopiera NAND](nand-backup).
@@ -62,7 +62,7 @@ Notera att för att komma åt eShopen med DNS-adresserna som blockerar uppdateri
 För information om att dumpa diskar till ett installerbart format för att spela utan att behöva skivan, läs vidare på sidan [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+För information om att installera vWii modifikationer med modifierad firmware besök sidan [vWii Modding](vwii-modding).
 {: .notice--success}
 
 För information om säker avinstallation av CFW för att återgå till standard-firmware, besök sidan [Avinstallera CFW](uninstall-cfw).

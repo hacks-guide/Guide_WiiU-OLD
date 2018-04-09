@@ -17,7 +17,7 @@ Om du planerar att använda en extern hårddisk att installera dina dumpade skiv
 
 ### Vad du behöver
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
+* En Wii U med någon form av modifierad firmware (Mocha CFW, Haxchi, CBHC, etc.)
 * 25GB ledigt utrymme på ditt SD-kort
 
 ### Instruktioner

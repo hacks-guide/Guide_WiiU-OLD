@@ -23,19 +23,19 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 ### Ce aveți nevoie
 
-* [config.txt]({{ base_path }}/images/config.txt)
-* [config.ini]({{ base_path }}/images/config.ini)
-* Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
-* Cea mai recentă versiune de [WUP Installer GX2 (Homebrew Launcher)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* Cea mai recentă versiune de [WUP Installer GX2 (Channel)] (http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* Cea mai nouă versiune de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* Cea mai recentă versiune de [hid\_to\_vpad] (https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* Ultima versiune de la [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* Cea mai recentă versiune de [Launcher Homebrew Channel] (https://github.com/dimok789/homebrew_launcher/releases/latest) *(fișierul.zip a aplicației) *
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.3) *(the launcher `.zip` file)*
-* Cele mai recente versiuni [Haxchi și CBHC] (https://github.com/FIX94/haxchi/releases/latest) *(ambele fișiere.zip) *
-* Cea mai recentă versiune de [NNU-Patcher] (https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download}
+* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download}
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target="_blank"}
+* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
+* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip){:target="_blank"}
+* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target="_blank"}
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/){:target="_blank"}
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
+* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target="_blank"}
+* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(the channel `.zip` file)*
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
+* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(both `.zip` files)*
+* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target="_blank"}
 
 ### Instrucțiuni
 

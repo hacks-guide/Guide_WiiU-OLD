@@ -14,7 +14,7 @@ Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn ut
 
 + En äkta kopia av ett DS Virtual Console-spel med säkerhetshål installerat på din Wii U:s inbyggda lagring
   + Om du inte redan har en av spelen med säkerhetshål installerat se [Kom igång](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
++ Den anpassade `config.txt`-filen från [Get Started](get-started) (*inte* standardfilen `config.txt` som följer med Haxchi) ska redan finnas i `/haxchi/`-katalogen på ditt SD-kort
   + Om du använder standard-versionen av config.txt (från Haxchi `.zip`-zipfilen) kommer din Haxchi-installation bete sig annorlunda än förväntat och vad som beskrivs i den här guiden
   
 ### Instruktioner
@@ -23,19 +23,19 @@ Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn ut
 1. Välj DS virtual console-spelet du vill installera Haxchi till, tryck sen (A) för att välja det
 1. Läs varningen som dyker upp, tryck sen (A) för att installera
 1. När det är klart, starta ditt Haxchi DS virtual console-spel (som nu har döpts om till "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. Konsollen kommer starta om och aktivera modifierad firmware-funktionalitet
+  + Det här tillåter osignerade titlar (som t.ex. Homebrew Launcher) att startas direkt från hemskärmen
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+För närvarande måste du starta DS virtual console-spelet varje gång du startar om för att aktivera modifierad firmware-funktionalitet. Nästa sida kommer som ett frivilligt steg installera CBHC (Coldboot Haxchi) som kan göra allt detta automatiskt när konsolen startar.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Du kan nu hålla inne olika knappar medan du startar ditt DS virtual console-spel för olika startalternativ. Det här är vad var och en av inställningarna gör:**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + Ingen -> Startar om till modifierad firmware
+  + (A) -> Startar om till Homebrew Launcher
 
 {% endcapture %}
 

@@ -28,8 +28,7 @@ Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U 
   + Você pode querer adicionar este endereço à lista de favoritos, para poupar tempo na digitação no futuro
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Isso pode levar várias tentativas
-  + If it freezes, just force the console to power off by holding the power button, then try a different number
-  + You may need to try all exploit numbers more than once before one works
+  + If it freezes, just force the console to power off by holding the power button, then try again
 1. Seu console deve carregar o Homebrew Launcher
 
 ___

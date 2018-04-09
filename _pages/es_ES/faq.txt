@@ -11,7 +11,7 @@ title: "Preguntas Frecuentes"
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
 **A:** ¡No! La versión 5.5.2 fue liberada justo después del fin de la producción. Por ello debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
+<a name="faq_update" />**P:** *¿Es seguro actualizar una Wii U con CFW?*    
 **A:** ¡No! Siempre debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
 
 <a name="faq_updatemocha" />**P:** *¿Cómo actualizo a la última versión de Mocha CFW?*    
@@ -24,7 +24,7 @@ title: "Preguntas Frecuentes"
 **R:** ¡Sí! Esto no sólo activa el Homebrew Launcher, si no que además te dará hacks en todas las versiones, por lo tanto lo tendrás para siempre, incluso si actualizas el sistema.
 
 <a name="faq_regionfree" />**P:** *¿Puedo usar esto para jugar juegos de otras regiones?*    
-**R:** ¡Sí! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+**R:** ¡Sí! Un CFW soporta parches para Libertad de Región, lo cual permite a los usuarios instalar juegos de cualquier región sin necesidad de modificaciones o pasos extras.
 
 <a name="faq_support" />**P:** *¿A dónde debería ir para pedir ayuda?*    
 **R:** Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).

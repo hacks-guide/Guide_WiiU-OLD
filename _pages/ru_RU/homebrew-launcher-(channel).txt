@@ -6,16 +6,16 @@ title: "Homebrew Launcher (Channel)"
 
 ### Обязательно к прочтению
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Мы установим Homebrew Channel таким образом, что при запуске кастомной прошивки, Homebrew Launcher появится в виде иконки в системном меню.
 
 ### Инструкция
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Часть I - Установка Homebrew Launcher Channel
 
 1. Запустите Homebrew Launcher
   + Пользователи CBHC должны нажать кнопку (Home) во время загрузки CBHC для доступа к меню опций загрузки, где необходимо выбрать Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Пользователи Haxchi должны сначала запустить Haxchi, чтобы включить кастомную прошивку, а затем запустить его еще раз, удерживая (A), чтобы запустить Homebrew Launcher
+  + Пользователи Mocha CFW уже должны находиться в Homebrew Launcher
 1. Запустите WUP Installer GX2
   + Если WUP Installer GX2 падает с ошибкой "DSi Exception Has Occurred", перезапустите консоль и попробуйте заново.
 1. Выберите Homebrew Channel
@@ -26,31 +26,31 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Выберите "NAND" в качестве места установки
 1. Нажмите (Home) и выберите Закрыть программу, чтобы выйти из установщика после завершения установки
 
-#### Section II - Blocking System Updates
+#### Часть II - Блокировка обновления системы
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Обратите внимание, что для доступа к eShop с этими адресами DNS вам необходимо сначала запустить NNU-Patcher из Homebrew Launcher. Помните также, что NNU-Patcher - временный патч, который необходимо запускать после каждой перезагрузки, если вам нужен доступ к eShop.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Обратите внимание, что если вы не заблокируете обновления этим методом на текущем и всех будущих интернет-соединениях, то все обновления для Wii U будут скачиваться и устанавливаться *автоматически* без вашего ведома и *не могут* быть отключены. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Перейдите в Системные настройки (System Settings), Интернет (Internet), Подключение к Интернету (Connect to the Internet), нажмите (X) для того, чтобы отобразить имеющиеся подключения
+1. Для каждого из имеющихся подключений (и для всех созданных в будущем) выполните следующие инструкции
+  + Выберите подключение
+  + Выберите "Изменить настройки" (Change Settings)
+  + Перейдите на вторую страницу и выберите "DNS"
+  + В пункте меню DNS выберите "Не получать автоматически" (Don't Auto-Obtain)
+  + Введите указанные ниже адреса DNS
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Нажмите "Подтвердить" (Confirm), а затем (B), чтобы сохранить внесенные изменения
+  + Эти сервера заблокируют получение обновлений на вашей консоли
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Теперь вы можете запускать Homebrew Launcher на кастомной прошивке, просто воспользовавшись Homebrew Channel.
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+Теперь вы можете запускать WUP Installer GX2 на кастомной прошивке, используя иконку в системном меню.
 {: .notice--info}
 
 В целях безопасности крайне *желательно* выполнить резервное копирование NAND, следуя [инструкции](nand-backup).
@@ -62,7 +62,7 @@ You can now launch WUP Installer GX2 on custom firmware just by launching it fro
 Для информации о том, как сохранять игры с дисков в формате, пригодном для установки в систему для последующей игры без диска, перейдите к странице [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+Для информации об установке модов vWii на кастомной прошивке, перейдите к странице [Модификация vWii](vwii-modding).
 {: .notice--success}
 
 Для информации о безопасном удалении кастомной прошивки и возвращении консоли к заводскому состоянию, перейдите на страницу [Удаление кастомной прошивки](uninstall-cfw).

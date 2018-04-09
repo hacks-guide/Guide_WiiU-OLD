@@ -17,7 +17,7 @@ title: "disc2app"
 
 ### Что понадобится
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
+* Wii U с кастомной прошивкой (Mocha CFW, Haxchi, CBHC, и т. п.)
 * 25ГБ свободного места на SD-карте
 
 ### Инструкция
