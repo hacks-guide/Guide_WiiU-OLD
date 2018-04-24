@@ -24,7 +24,7 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 1. If your device is on 5.5.2, open the browser curtains
   + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `tiny.cc/wiiu`
+1. Go to `tiny.cc/cfw`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + 可能需要嘗試多次
