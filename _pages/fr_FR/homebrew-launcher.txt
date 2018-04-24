@@ -24,7 +24,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 1. If your device is on 5.5.2, open the browser curtains
   + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `tiny.cc/wiiu`
+1. Go to `tiny.cc/cfw`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
