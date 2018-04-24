@@ -24,7 +24,7 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
 
 1. If your device is on 5.5.2, open the browser curtains
   + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `tiny.cc/cfw`
+1. Go to `usploit.hacks.guide`
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + S-ar putea să fie nevoie să încercați de mai multe ori
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-Această metodă are nevoie să vă reporniți exploit-ul de web folosit *după fiecare repornire*. Nu este recomandat să-l folosiți pe 5.5.2 de vreme ce versiunea web a exploit-ului este extrem de nedemnă de încredere.
+Această metodă are nevoie să vă reporniți exploit-ul de web folosit *după fiecare repornire*. It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
 
 ### Continuați la [Mocha CFW](mocha-cfw)
 {: .notice--primary}
