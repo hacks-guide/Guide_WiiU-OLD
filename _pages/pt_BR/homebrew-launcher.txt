@@ -24,7 +24,7 @@ Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U 
 
 1. If your device is on 5.5.2, open the browser curtains
   + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `tiny.cc/wiiu`
+1. Go to `tiny.cc/cfw`
   + Você pode querer adicionar este endereço à lista de favoritos, para poupar tempo na digitação no futuro
 1. Select "Run Homebrew Launcher" for the first exploit attempt
   + Isso pode levar várias tentativas
