@@ -24,7 +24,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 1. Om din konsol är på 5.5.2, öppna webbläsarens "gardiner"
   + Detta ökar chanserna för att nyttjandet av säkerhetshålet på webbläsaren i 5.5.2 kommer lyckas (även om det fortfarande är opålitligt)
-1. Go to `tiny.cc/cfw`
+1. Go to `usploit.hacks.guide`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
   + Det här kan behöva många försök
@@ -38,7 +38,7 @@ ___
 
 ### Mocha CFW
 
-Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*. Det rekommenderas inte att du använder det här på 5.5.2 eftersom säkerhetshålet i den versionen är väldigt opålitligt.
+Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*. It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
 
 ### Fortsätt till [Mocha CFW](mocha-cfw)
 {: .notice--primary}
