@@ -24,7 +24,7 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
 
 1. Si tu consola está en versión 5.5.2, abre las cortinas del navegador
   + Esto mejora la probabilidad de éxito del exploit de navegador para versión 5.5.2 (aunque sigue siendo poco confiable)
-1. Go to `tiny.cc/cfw`
+1. Ve a `tiny.cc/cfw`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
 1. Selecciona "Run Homebrew Launcher" para el primer intento de ejecutar el exploit
   + Esto puede tomar varios intentos
