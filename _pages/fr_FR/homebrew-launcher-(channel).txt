@@ -21,9 +21,6 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Sélectionnez l’Homebrew Channel
 1. Touchez "Install", puis "Yes" pour confirmer
 1. Choisissez "NAND" comme destination
-1. Sélectionnez WUP Installer GX2
-1. Touchez "Install", puis "Yes" pour confirmer
-1. Choisissez "NAND" comme destination
 1. Appuyez sur le bouton (Home) puis quittez le logiciel Éditeur Mii quand l'installation est terminée
 
 #### Section II - Blocking System Updates

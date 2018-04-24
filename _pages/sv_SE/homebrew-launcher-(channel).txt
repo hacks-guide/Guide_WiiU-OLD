@@ -21,9 +21,6 @@ Det här kommer installera Homebrew Channel så att när modifierad firmware kö
 1. Välj Homebrew Channel
 1. Tryck "install" följt av "yes" för att bekräfta
 1. Välj "NAND" som destination
-1. Välj WUP Installer GX2
-1. Tryck "install" följt av "yes" för att bekräfta
-1. Välj "NAND" som destination
 1. Tryck (Hem), och avsluta sen programmet för att avsluta installationen när den är färdig
 
 #### Avsnitt II - Blockera Systemuppdateringar

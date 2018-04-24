@@ -21,9 +21,6 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Select the Homebrew Channel
 1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar
 1. Selecione "NAND" como o destino
-1. Select WUP Installer GX2
-1. Aperte "Install" e, em seguida, aperte "Sim" para confirmar
-1. Selecione "NAND" como o destino
 1. Aperte (Home) e em seguida, feche o software para sair do instalador, uma vez que a instalação for concluída
 
 #### Section II - Blocking System Updates

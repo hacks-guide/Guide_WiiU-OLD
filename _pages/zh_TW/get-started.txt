@@ -26,14 +26,13 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download}
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target="_blank"}
-* The latest release of [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
-* The latest release of [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip){:target="_blank"}
+* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target="_blank"}
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/){:target="_blank"}
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
 * The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target="_blank"}
 * The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(the channel `.zip` file)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
+* A previous release (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
 * The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(both `.zip` files)*
 * The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target="_blank"}
 
@@ -46,15 +45,14 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
 1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
 1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. Copy the `wupgx2_install_channel` folder from the WUP Installer GX2 (Channel) `.zip` to the `/install/` folder on your SD card
 1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
-1. Copy *the contents of* the WUP Installer GX2 (Homebrew Launcher) `.zip` to the root of your SD card
+1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
 1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
 1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
 1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
