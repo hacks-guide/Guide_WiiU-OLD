@@ -24,7 +24,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 1. Om din konsol är på 5.5.2, öppna webbläsarens "gardiner"
   + Detta ökar chanserna för att nyttjandet av säkerhetshålet på webbläsaren i 5.5.2 kommer lyckas (även om det fortfarande är opålitligt)
-1. Gå till `tiny.cc/wiiu`
+1. Go to `tiny.cc/cfw`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
   + Det här kan behöva många försök
