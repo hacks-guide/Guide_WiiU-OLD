@@ -33,7 +33,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 * La última versión de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
 * La última versión de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target="_blank"}
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(el archivo `.zip` del canal)*
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
+* Una versión anterior del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(el archivo `.zip` del launcher)*
 * Las últimas versiones de [Haxchi y CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(los archivos `.zip`)*
 * La última versión de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target="_blank"}
 
