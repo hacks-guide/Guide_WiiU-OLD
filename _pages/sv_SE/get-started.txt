@@ -26,14 +26,13 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download}
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target=”_blank”}
-* Senaste versionen av [WUP Installer GX2 (Homebrew Launcher)](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
-* Senaste versionen av [WUP Installer GX2 (Channel)](http://www.wiiubru.com/appstore/chan_zips/wup_installer_gx2.zip){:target="_blank"}
+* Senaste versionen av [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target=”_blank”}
 * Senaste versionen av [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/){:target="_blank"}
 * Senaste versionen av [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
 * Senaste versionen av [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target=”_blank”}
 * Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(`.zip`-filen som har `channel` i fil-namnet)*
-* En äldre version av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(`.zip`-filen som har `launcher` i fil-namnet)*
+* En äldre version (v1.3) av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(`.zip`-filen som har `launcher` i fil-namnet)*
 * Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target=”_blank”}
 
@@ -46,15 +45,14 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
 1. Skapa en katalog döpt `install` i roten av ditt SD-kort
 1. Kopiera `apps`-katalogen från Homebrew App Store `zip`-filen till `/wiiu/`-katalogen på ditt SD-kort
-1. Kopiera *innehållet* från Homebrew Launcher `zip`-filen till roten av ditt SD-kort
+1. Kopiera *innehållet* från Homebrew Launcher (v1.3) `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från Haxchi `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från CBHC `zip`-filen till roten av ditt SD-kort
 1. Kopiera `config.txt`till `/haxchi/`-katalogen på ditt SD-kort
 1. Skapa en katalog döpt `hbc`i katalogen `/install/` på ditt SD-kort
 1. Kopiera *innehållet* från Homebrew Launcher Channel `zip`-filen till `/install/hbc/`-katalogen på ditt SD-kort
-1. Kopiera `wupgx2_install_channel`-katalogen från WUP Installer GX2 (Channel) `zip`-filen till `/install/`-katalogen på ditt SD kort
 1. Kopiera `savemii_mod`-katalogen från savemii_mod `zip`-filen till `/wiiu/apps/`-katalogen på ditt SD-kort
-1. Kopiera *innehållet* från WUP Installer GX2 (Homebrew Launcher) `zip`-filen till roten av ditt SD-kort
+1. Kopiera *innehållet* från WUP Installer GX2 `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från disc2app `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från hid\_to\_vpad `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från NNU-Patcher `zip`-filen till roten av ditt SD-kort
