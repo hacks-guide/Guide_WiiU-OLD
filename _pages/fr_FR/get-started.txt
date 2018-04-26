@@ -48,7 +48,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. Copiez le fichier `config.txt` vers le répertoire `haxchi` de votre carte SD
+1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
 1. Créez un dossier nommé `hbc` dans le dossier `/install/` de votre carte SD
 1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
 1. Copiez le dossier `savemii_mod` du fichier savemii_mod`.zip` vers le répertoire `/wiiu/apps/` de votre carte SD
