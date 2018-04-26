@@ -48,7 +48,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. 將 `config.txt` 複製到 SD 卡中的 `/haxchi/` 資料夾底下
+1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
 1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
 1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
