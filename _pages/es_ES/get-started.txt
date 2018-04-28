@@ -23,8 +23,8 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 ### Qué necesitas
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download}
+* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target="_blank"}
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target="_blank"}
@@ -48,7 +48,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copia *el contenido del* `.zip` de Haxchi a la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` de CBHC a la raíz de tu tarjeta SD
-1. Copia `config.txt` a la carpeta `/haxchi/` en tu tarjeta SD
+1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
 1. Crea una carpeta llamada `hbc` en la carpeta `/install/` de tu tarjeta SD
 1. Copia *el contenido del* `.zip` del Homebrew Launcher Channel a la carpeta `/install/hbc/` en tu tarjeta SD
 1. Copia la carpeta `savemii_mod` del `.zip` de savemii_mod a la carpeta `/wiiu/apps/` de tu tarjeta SD
