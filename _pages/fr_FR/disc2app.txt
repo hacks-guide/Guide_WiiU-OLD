@@ -4,7 +4,7 @@ title: "disc2app"
 
 {% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Cela vous permettra de faire des sauvegardes (dump) de vos disques, qui vous permettront de les installer sur la Wii U et de jouer sans avoir besoin du disque.
 
