@@ -30,7 +30,7 @@ ___
 Si le test affiche le résultat `Success! Your card is ok!`votre carte SD est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte SD
 {: .notice--success}
 
-Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer!
+Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer !
 {: .notice--danger}
 
 ### Retournez vers [Pour Commencer](get-started)
