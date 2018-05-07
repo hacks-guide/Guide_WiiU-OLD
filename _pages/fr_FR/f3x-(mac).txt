@@ -33,5 +33,5 @@ Si le test affiche le résultat `Success! Your card is ok!`votre carte SD est bo
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}
