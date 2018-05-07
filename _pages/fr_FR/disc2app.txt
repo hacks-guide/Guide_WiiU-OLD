@@ -2,7 +2,7 @@
 title: "disc2app"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Required Reading
 
