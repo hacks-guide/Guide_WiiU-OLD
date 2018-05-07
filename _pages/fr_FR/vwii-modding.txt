@@ -2,7 +2,7 @@
 title: "Modding de vWii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
 ### Required Reading
 
