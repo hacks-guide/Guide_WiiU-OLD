@@ -2,9 +2,9 @@
 title: "Désinstaller CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Cela supprimera Mocha CFW de votre Wii U, quelle que soit la méthode d'installation utilisée, dans le but d'un retour aux paramètres d'usine.
 {: .notice--danger}

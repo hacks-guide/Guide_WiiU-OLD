@@ -2,21 +2,21 @@
 title: "Coldboot Haxchi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) modifie votre application système par défaut pour forcer votre console à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger un custom firmware.
 
-Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. Si vous souhaitez ne pas installer Coldboot Haxchi, continuez vers [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
-You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
+Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiliser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, votre console va BRICKER !
 
-Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
+Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être dans la mémoire interne de votre Wii U. S'il se trouve sur un disque USB, votre console va BRICKER !
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie légitime, ou votre console va BRICKER !
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -41,18 +41,18 @@ Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
+Votre console devrait désormais lancer automatiquement au démarrage le custom firmware Colboot Haxchi.
 {: .notice}
 
 {% capture notice-1 %}
 Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux options de démarrage de CBHC. Voici la liste des options de démarrage et leur effet :
 
-  + Boot System Menu -> Boots into custom firmware
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
-  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
+  + Boot System Menu -> Démarrer la Wii U sur le custom firmware
+  + Boot Homebrew Launcher -> Démarrer la Wii U sur le Homebrew Launcher
+  + Boot Mocha CFW -> Démarrer la Wii U sur Mocha CFW (aucune raison de l'utiliser avec CBHC)
   + Boot fw.img on SD Card -> Démarrer la Wii U avec n'importe quel ancien firmware CFW fw.img à la racine de la carte SD
-  + Boot vWii System Menu -> Boots into vWii
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
+  + Boot vWii System Menu -> Démarrer la Wii U sur la vWii
+  + Boot vWii Homebrew Channel -> Démarrer la Wii U sur le Homebrew Channel de la vWii
 
 {% endcapture %}
 
@@ -64,7 +64,7 @@ Vous pouvez reconnecter tous les périphériques USB une fois l’installation t
 **Ne jamais modifier ou supprimer le jeu de console virtuelle DS que vous avez utilisé pour installer CBHC sur votre SysNAND ou vous BRICKEREZ.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game or you will BRICK.**
+**Ne jamais réinstaller le jeu de console virtuelle DS CBHC ou vous allez BRICK.**
 {: .notice--danger}
 
 **Ne jamais déplacer le jeu de console virtuelle DS CBHC sur une clé USB ou vous BRICKEREZ.**
@@ -76,5 +76,5 @@ Vous pouvez reconnecter tous les périphériques USB une fois l’installation t
 **Ne formatez jamais votre Wii U alors que CBHC est installé ou vous BRICKEREZ !**
 {: .notice--danger}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continuer vers [Homebrew Launcher (chaîne)](homebrew-launcher-(channel)).
 {: .notice--primary}

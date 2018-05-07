@@ -36,5 +36,5 @@ Si le test affiche le résultat `Test finished without errors`, votre carte SD e
 Si le test montre tout autre résultat, votre carte SD peut être corrompu ou endommagé et vous devrez la remplacer !
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}

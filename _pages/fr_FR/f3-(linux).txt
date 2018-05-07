@@ -4,26 +4,26 @@ title: "F3 (Linux)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
-This is an add-on section for checking your SD card for errors using F3.
+Cette section supplémentaire vous indique comment vérifier si votre carte SD ne contient pas d'erreurs en utilisant F3.
 
-En fonction de la taille de votre carte SD et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures!
+En fonction de la taille de votre carte SD et de la vitesse de votre ordinateur, ce processus peut prendre plusieurs heures !
 
-Ces instructions ne concernent que les utilisateurs Linux. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Ces instructions ne concernent que les utilisateurs Linux. Si vous n'êtes pas sous Linux, consultez les pages [H2testw (windows)](h2testw-(windows)) ou [F3X (mac)](f3x-(mac)).
 
-### What You Need
+## Ce dont vous avez besoin
 
 * La dernière version de [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
 
 ### Instructions
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
+1. Décompressez le fichier `.zip` de F3
+1. Faites un `cd` vers le dossier de F3
 1. Lancez `make` pour compiler F3
 1. Insérez votre carte SD dans votre ordinateur
 1. Montez votre carte SD
-1. Run `./f3write <your sd card mount point>`
+1. Exécutez la commande `./f3write <point de montage de votre carte SD>`
 1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie terminal.
 
 ~~~ bash
@@ -36,7 +36,7 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your sd card mount point>`
+1. Exécutez la commande `./f3read <point de montage de votre carte SD>`
 1. Attendez la fin de l'opération. Voir ci-dessous pour un exemple de sortie terminal.
 
 ~~~ bash
@@ -56,11 +56,11 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Si le test montre comme résultat `Data LOST: 0.00 Byte (0 sectors)` , votre carte SD est saine et vous pouvez supprimer tous les fichiers `.h2w` sur votre carte SD
 {: .notice--success}
 
 Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}

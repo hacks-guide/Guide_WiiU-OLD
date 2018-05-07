@@ -2,9 +2,9 @@
 title: "Mocha CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Mocha CFW is a custom firmware that patches signature checks, region checks, and enables other custom firmware features.
 
@@ -25,5 +25,5 @@ ___
 Note that you will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to re-enable custom firmware features.
 {: .notice--info}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continuer vers [Homebrew Launcher (chaîne)](homebrew-launcher-(channel)).
 {: .notice--primary}
