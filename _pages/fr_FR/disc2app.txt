@@ -2,9 +2,9 @@
 title: "disc2app"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Cela vous permettra de faire des sauvegardes (dump) de vos disques, qui vous permettront de les installer sur la Wii U et de jouer sans avoir besoin du disque.
 
@@ -15,35 +15,35 @@ Si vous prévoyez d'utiliser un disque dur externe pour y installer vos jeux dum
   + Formater un disque dur externe pour l'utiliser avec la Wii U supprime tout son contenu.
   + Si vous utilisez un disque dur externe qui n’a pas sa propre source d’alimentation, vous aurez besoin d’un [Câble en Y](http://amzn.to/2mjQjin).
 
-### What You Need
+### Ce dont vous avez besoin
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB d'espaces libres sur votre carte SD
+* Une Wii U avec un custom firmware installé (Mocha CFW, Haxchi, CBHC, etc)
+* 25 Go d'espace libre sur votre carte SD
 
 ### Instructions
 
-#### Section I - Formatting external drive
+#### Section I - Formatage du disque dur externe
 
 Si vous prévoyez d'installer vos jeux dumpés sur un disque dur externe, suivez cette section. Si vous ne prévoyez pas d'utiliser un disque dur externe ou que vous possédez déjà un disque dur externe formaté au format Wii U, sautez cette section.
 {: .notice--info}
 
-Cette opération effacera complètement le contenu du disque dur externe!
+Cette opération effacera complètement le contenu du disque dur externe !
 {: .notice--danger}
 
 1. Assurez vous que la Wii U soit éteinte, et branchez votre disque dur externe
 1. Allumez votre Wii U
 1. Formatez le disque dur externe lorsque vous y êtes invité
 
-#### Section II - Using disc2app
+#### Section II - Utilisation de disc2app
 
 1. Lancer l'Homebrew Launcher Channel
 1. Lancez disc2app
 1. Appuyez sur (A) pour créer le dump sur la carte SD
-1. Insérer le disque que vous souhaitez dumper lorsque l'on vous le demande
+1. Insérez le disque que vous souhaitez dumper lorsque l'on vous le demande
 1. Laissez le processus de dump suivre son cours, cela prendra du temps
 1. Une fois le processus terminé, vous serez de retour sur le Menu Home
 
-#### Section III - Installing dumped game
+#### Section III - Installation d'un jeu dumpé
 
 1. Lancer l'Homebrew Launcher Channel
 1. Lancez WUP Installer GX2
@@ -60,7 +60,7 @@ ___
 Pour récupérer de l'espace disque pris par le dump sur votre carte SD, supprimez le dossier nouvellement créé à l'intérieur de `/install/`sur votre carte SD
 {: .notice--info}
 
-Si tout s'est bien passé, vous verrez apparaître votre nouveau jeu sur le menu, prêt à être lancé!
+Si tout s'est bien passé, vous verrez apparaître votre nouveau jeu sur le menu, prêt à être lancé !
 {: .notice--success}
 
 Vous pouvez vous assurer que le jeu a bien été installé au bon endroit en vérifiant l'emplacement d'installation dans les Paramètres Système sous "Gestion des Données"

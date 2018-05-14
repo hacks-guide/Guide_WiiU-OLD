@@ -4,7 +4,7 @@ title: "F3X (Mac)"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Lecture requise
 
 Cette page vous guidera à travers le processus de vérification de votre carte SD en utilisant F3X.
 
@@ -12,7 +12,7 @@ En fonction de la taille de votre carte SD et de la vitesse de votre ordinateur,
 
 Cette page est pour les utilisateurs de Mac uniquement. Si vous n’êtes pas sur Mac, consultez [H2testw (Windows)](h2testw-(windows)) ou [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Ce dont vous avez besoin
 
 * La dernière version de [F3X](https://github.com/insidegui/F3X/releases/latest)
 
@@ -30,8 +30,8 @@ ___
 Si le test affiche le résultat `Success! Your card is ok!`votre carte SD est bonne et vous pouvez supprimer tous les fichiers `.h2w` sur la carte SD
 {: .notice--success}
 
-Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer!
+Si le test présente n'importe quel autre résultat, votre carte SD est peut être corrompue ou endommagée et vous serez peut être amenés à la remplacer !
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Retournez vers [Pour Commencer](get-started)
 {: .notice--primary}
