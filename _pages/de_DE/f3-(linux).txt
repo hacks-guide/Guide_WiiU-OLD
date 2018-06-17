@@ -14,7 +14,7 @@ Diese Seite ist nur für Linux-Nutzer gedacht. If you are not on Linux, check ou
 
 ### What You Need
 
-* Die neueste Version von [F3](https://github.com/AltraMayor/f3/archive/v6.0.zip)
+* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
 
 ### Instructions
 

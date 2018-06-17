@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Accueil
+    title: Home
     url: /
   - 
     title: FAQ
@@ -62,7 +62,7 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi
+    title: Coldboot Haxchi (Optional)
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (chaîne)
