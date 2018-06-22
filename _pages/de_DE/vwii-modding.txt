@@ -12,9 +12,9 @@ Dies erlaubt dir, den Homebrew Channel und andere Modifikationen auf der vWii (v
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip){:target="_blank"}
-* The latest release of [Hackmii Installer](https://bootmii.org/download/){:target="_blank"}
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(the launcher `.zip` file)*
+* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* The latest release of [Hackmii Installer](https://bootmii.org/download/)
+* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
 
 ### Instructions
 
