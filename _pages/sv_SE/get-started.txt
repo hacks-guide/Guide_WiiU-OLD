@@ -25,16 +25,16 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
-* Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest){:target=”_blank”}
-* Senaste versionen av [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip){:target="_blank"}
-* Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest){:target=”_blank”}
-* Senaste versionen av [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/){:target="_blank"}
-* Senaste versionen av [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip){:target="_blank"}
-* Senaste versionen av [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases){:target=”_blank”}
-* Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest){:target="_blank"} *(`.zip`-filen som har `channel` i fil-namnet)*
-* En äldre version (v1.3) av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3){:target="_blank"} *(`.zip`-filen som har `launcher` i fil-namnet)*
-* Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest){:target="_blank"} *(båda `.zip`-filerna)*
-* Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip){:target=”_blank”}
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
+* A previous release (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
+* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
+* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Instruktioner
 
