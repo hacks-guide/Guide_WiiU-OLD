@@ -21,7 +21,7 @@ Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysf
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What You Need
+## Ce dont vous avez besoin
 
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
@@ -108,5 +108,5 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 
 ___
 
-### Continue to [Homebrew Launcher](homebrew-launcher)
+### Continuer vers [Homebrew Launcher](homebrew-launcher)
 {: .notice--primary}
