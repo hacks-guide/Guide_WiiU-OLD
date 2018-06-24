@@ -2,9 +2,9 @@
 title: "Pour Commencer"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Ces étapes vont préparer votre carte SD pour l'installation du custom firmware Coldboot Haxchi.
 
@@ -12,9 +12,9 @@ Avant de commencer, assurez-vous que votre Wii U est actuellement sur un firmwar
 
 On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux. Si vous voulez faire une sauvegarde du système de votre Wii U, s'il est nécessaire de la restaurer plus tard, vous aurez besoin d'une carte SD de deux fois la taille de la mémoire de votre Wii U (une carte SD de 16Go pour une console blanche de 8Go; une carte SD de 64Go pour une console noire de 32Go).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). La majorité des cartes SD sont pré-formatés suivant ces règles lors de leur achat.
+Votre carte SD doit être formatée en FAT32 (avec une taille d'unité d'allocation ("Allocation Unit Size") de 32K (32768)). La majorité des cartes SD sont pré-formatées ainsi par défaut.
 
-Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
+Si vous souhaitez formater une carte SD sous Windows, n'utilisez pas l'outil de formatage fourni avec le système, celui-ci causant des problèmes, empêchant votre carte d'être reconnu par votre Wii U. Utilisez [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) à la place et choisissez une taille d'unité d'allocation ("Allocation Unit Size") de 32K (32768).
 
 Votre carte SD *NE DOIT PAS* être renommée `wiiu`, ou cela provoquera des dysfonctionnements.
 
@@ -25,47 +25,47 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* La dernière version de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* La dernière version de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* La dernière version de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(le fichier `.zip` de la chaîne)*
+* Une version précédente (v1.3) de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(le fichier`.zip` du launcher)*
+Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/releases/latest) *(les deux fichiers`.zip`)*
+* La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
 1. Créez un répertoire nommé `install` à la racine de votre carte SD
 1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
-1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
-1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
-1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
+1. Copiez *le contenu* du fichier `.zip` de Homebrew Launcher (v1.3) vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` d'Haxchi vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de CBHC vers la racine de votre carte SD
+1. Copiez le fichier `config.txt` dans le dossier `/haxchi/`sur votre carte SD (en remplaçant le fichier `config.txt` déjà existant)
 1. Créez un dossier nommé `hbc` dans le dossier `/install/` de votre carte SD
-1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Copiez *le contenu* du fichier `.zip` Homebrew Launcher Channel vers le répertoire `/install/hbc/` de votre carte SD
 1. Copiez le dossier `savemii_mod` du fichier savemii_mod`.zip` vers le répertoire `/wiiu/apps/` de votre carte SD
-1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
-1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
-1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
+1. Copiez *le contenu* du fichier `.zip` de WUP Installer GX2 vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de disc2app vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de hid\_to\_vpad vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de NNU-Patcher vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de Mocha CFW vers la racine de votre carte SD
+1. Copiez `config.ini` vers le répertoire `/wiiu/apps/mocha/` sur votre carte SD
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
-#### Section II - DS Virtual Console Game
+#### Section II - Le jeu console virtuelle DS
 
 Il y a deux méthodes pour utiliser le custom firmware sur Wii U.
 
-La première méthode consiste à utiliser un exploit du navigateur qui va patcher le système. Malheureusement, la nature de cet exploit fait que le navigateur *doit* être lancé après chaque redémarrage de la console. De plus, l'exploit de la faille du navigateur des version 5.5.2 de la Wii U est très peu fiable, ce qui en fait une option peu utilisable.
+La première méthode consiste à utiliser un exploit du navigateur qui va patcher le système. Malheureusement, la nature de cet exploit fait que le navigateur *doit* être lancé après chaque redémarrage de la console. De plus, l'exploit de la faille du navigateur compatible avec la version 5.5.2 de la Wii U est très peu fiable, ce qui en fait une option peu utilisable.
 
 La seconde méthode consiste à acheter un jeu de DS "Console Virtuelle" à petit prix pour lancer le custom firmware automatiquement au démarrage. Cette méthode est *essentiellement requise* pour les utilisateur de la version 5.5.2, à cause de l'instabilité précédemment évoquée de la faille du navigateur en 5.5.2.
 
