@@ -2,20 +2,20 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Ceci va installer le Homebrew Channel pour que, quand votre Custom Firmware sera exécuté, le Homebrew Launcher apparaisse sous forme d'icône dans le menu Home.
 
 ### Instructions
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Section I - Installer l'Homebrew Launcher Channel
 
 1. Allez sur le Homebrew Launcher
   + Les utilisateurs de CBHC doivent appuyer sur le bouton (Home) lorsque CBHC démarre pour accéder au menu des options de démarrage de CBHC, puis sélectionner le Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Les utilisateurs de Haxchi doivent démarrer Haxchi une fois pour autoriser les custom firmware, puis une seconde fois en maintenant (A) enfoncé pour démarrer le Homebrew Launcher
+  + Les utilisateurs de Mocha CFW devraient déjà l'avoir lancé
 1. Lancez WUP Installer GX2
   + Retenez que, si WUP installer GX2 plante en affichant l'erreur "DSi Exception Has Occured", vous devez simplement éteindre votre console et réessayer.
 1. Sélectionnez l’Homebrew Channel
@@ -23,7 +23,7 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Choisissez "NAND" comme destination
 1. Appuyez sur le bouton (Home) puis quittez le logiciel Éditeur Mii quand l'installation est terminée
 
-#### Section II - Blocking System Updates
+#### Section II - Blocage des mises à jour système
 
 Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
 
