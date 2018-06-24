@@ -18,7 +18,7 @@ Cela vous permettra d'installer The Homebrew Channel et les autres modifications
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
