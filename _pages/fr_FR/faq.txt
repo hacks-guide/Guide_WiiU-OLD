@@ -24,7 +24,7 @@ title: "FAQ"
 **R:** Oui ! Ce n'est pas réservé qu'à l'Homebrew Launcher, mais il vous donnera également accès aux hacks sur toutes les versions. Cela signifie que vous le garderez pour toujours, même avec des mises à jour.
 
 <a name="faq_regionfree" /> **Q :** *Puis-je l'utiliser pour jouer à des jeux d’autres régions?*    
-**R:** Oui ! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+**R:** Oui ! Le CFW prend en charge les patchs Region Free, ce qui permet aux utilisateurs d’installer des jeux de n'importe quelle région sans aucune modification supplémentaire.
 
 <a name="faq_support" /> **Q :** *Où dois-je aller pour avoir de l'aide ?*    
 **A:** Pour le support, demander de l'aide sur [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
