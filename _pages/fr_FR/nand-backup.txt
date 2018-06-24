@@ -15,7 +15,7 @@ Remarque que les utilisateurs moka CFW doivent suivre ces instructions après un
 Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre carte SD. Pour traquer les éventuelles erreurs qu'elle peut contenir, ce programme devrait vous convenir : [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What You Need
+## Ce dont vous avez besoin
 
 * La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
