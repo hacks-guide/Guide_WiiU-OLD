@@ -25,29 +25,29 @@ Ceci va installer le Homebrew Channel pour que, quand votre Custom Firmware sera
 
 #### Section II - Blocage des mises à jour système
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Notez que, pour accéder à l'eShop avec ces réglages DNS, vous devrez d'abord lancer NNU-Patcher via l'Homebrew Launcher. Notez aussi que NNU-Patcher est un patch temporaire et qu'il devra être lancé à nouveau si vous avez besoin d'accéder à l'eShop après un redémarrage.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Notez que, à moins que vous bloquiez les mises à jour avec cette méthode sur toutes les connexions actuelles et futures, les mises à jour sur la Wii U sont effectuées *automatiquement* et *ne peuvent* être désactivées. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Allez dans "Paramètres de la console", puis "Internet", puis "Connexion Internet", puis appuyez sur (X) pour afficher la liste de vos connexions réseau actuelles
+1. Pour chacune de vos connexions (et toutes les connexions futures), procédez comme suit
+  + Sélectionnez la connexion
+  + Sélectionnez "Modifier les paramètres"
+  + Passez à la page suivante et choisissez "DNS"
+  + Dites "Non" à la question "Obtenir les informations du serveur DNS automatiquement ?"
+  + Saisissez les IPs suivantes pour les serveurs DNS
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Sélectionnez "Confirmer", puis appuyez sur (B) pour enregistrer
+  + Ces serveurs bloqueront les mises à jour de votre console
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Vous pouvez à présent lancer le Homebrew Launcher à partir du custom firmware en lançant le Homebrew Channel.
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+Vous pouvez à présent lancer WUP Installer GX2 sur le custom firmware en lançant le logiciel depuis le menu Home.
 {: .notice--info}
 
 Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre Wii U en suivant le guide [Sauvegarde NAND](nand-backup).
@@ -59,7 +59,7 @@ Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise 
 Pour toute information concernant la copie de vos disques afin de pouvoir les installer sur votre console et jouer sans le disque, consultez la page de [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+Pour toute information concernant l'installation de "mods" vWii sur le custom firmware, consultez la page [Mod de la vWii](vwii-modding).
 {: .notice--success}
 
 Pour toute information concernant la désinstallation du CFW en toute sécurité et un retour aux paramètres d'usine, consultez la page [Désinstallation du CFW](uninstall-cfw).
