@@ -1,6 +1,6 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Guide Hacks Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
@@ -10,28 +10,28 @@ header:
 excerpt: "Un guide complet sur l’obtention d’un Custom Firmware pour Wii U, <br />du firmware d'origine jusqu'à Coldboot Haxchi.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Pour des guides complets pour les homebrew et Custom Firmware sur d'autres consoles, consultez [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Lisez attentivement toutes les pages d'introduction (y compris celle-ci !) avant de continuer.
 {: .notice--warning}
 
 Ce guide est destiné aux consoles grand public (achetées par un consommateur; pas issues du Programme Développeur de Nintendo) _uniquement_!
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Ce guide est disponible dans d’autres langues !    
+Cliquez sur l'icône <i class="fa fa-language" aria-hidden="true"></i> en haut à droite de cette page pour changer de langue.    
+Ou sinon, cliquez [ici](https://crowdin.com/project/wii-u-guide) pour aider à maintenir ces traductions à jour.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
 ## Qu'est-ce que les Homebrews?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) signifie habituellement "les logiciels non autorisé par Nintendo". This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) signifie habituellement "les logiciels non autorisés par Nintendo". Ceci inclut les outils, applications, jeux, émulateurs "fait maison".
 
 Lancer des homebrews sur votre console est 100% gratuit en n'utilisant rien d'autre que le navigateur de la console.
 
@@ -43,7 +43,7 @@ CFW peut être installée facilement sur n'importe quel console de n'importe que
 
 ## Qu'est-ce que ce guide installe ?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. Ce guide utilise des homebrews comme point de départ, mais l’installation d'un Custom Firmware est le véritable but.
+Ce guide a pour but final d'amener une Wii U complètement non modifiée du firmware original vers le custom firmware Coldboot Haxchi. Ce guide utilise des homebrews comme point de départ, mais l’installation d'un Custom Firmware est le véritable but.
 
 ## Qu'est-ce que je peut faire avec un Custom Firmware ?
 
@@ -60,9 +60,9 @@ This guide has the end goal of taking a completely unmodified Wii U from stock f
 + Si tout se passe comme prévu, vous ne perdrez aucune donnée et finirez avec tout ce que vous aviez au départ (les jeux, votre NNID, les sauvegardes, etc., seront préservées).
 + On vous recommande une carte SD d'au moins 16 GB ou 32GB pour avoir suffisamment de place afin de dumper et installer des jeux.
 + Votre carte SD doit être [MBR, pas de GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ Si vous devez formater une carte SD neuve, vous pouvez utiliser [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) et choisir une taille d'unité d'allocation ("Allocation Unit Size") de 32K (32768).
 
 ___
 
-### Continue to [Get Started](get-started)
+### Continuer vers [Pour Commencer](get-started)
 {: .notice--primary}

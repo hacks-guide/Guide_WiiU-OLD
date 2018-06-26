@@ -9,18 +9,18 @@ title: "Désinstaller CFW"
 Cela supprimera Mocha CFW de votre Wii U, quelle que soit la méthode d'installation utilisée, dans le but d'un retour aux paramètres d'usine.
 {: .notice--danger}
 
-Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez que les jeux et les sauvegardes sont enregistrées dans la mémoire interne et non la carte SD. Cela signifie que tous les jeux et sauvegardes installés après que l’installation de RedNAND seront supprimés car votre système ne disposera que du SysNAND avec lequel vous avez démarré !
+Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez que les jeux et les sauvegardes sont enregistrées dans la mémoire interne et non la carte SD. Cela signifie que tous les jeux et sauvegardes installés après l’installation de RedNAND seront supprimés car votre système ne disposera que du SysNAND avec lequel vous avez démarré !
 {: .notice--danger}
 
 ### Instructions
 
-#### Section I - Removal from Wii U
+#### Section I - Désinstaller de votre Wii U
 
 ##### CBHC
 
 1. Lancer l'Homebrew Launcher Channel
 1. Lancez CBHC Installer
-1. Sélectionnez le jeu DS Console Virtuelle sur lequel vous avez installé Haxchi, puis appuyez sur (A). CBHC s'installera dessus
+1. Sélectionnez le jeu Console Virtuelle DS sur lequel vous avez installé Haxchi, puis appuyez sur (A). CBHC s'installera dessus
 1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (B) pour lancer la désinstallation
 1. Une fois le processus terminé, vous serez de retour sur le Menu Home
 1. Redémarrez la Wii U
@@ -36,7 +36,7 @@ Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez 
 
 1. Supprimez le marque page de votre navigateur internet Wii U si vous en avez fait un
 
-#### Section II - Removal from SD Card
+#### Section II - Désinstaller de votre carte SD
 
 {% capture notice-3 %}
 **Supprimez les dossiers et les fichiers supplémentaires de la racine de la carte SD qui ne sont *pas* dans la liste suivante (il se peut que vous ne les ayez pas tous) :**
@@ -50,5 +50,5 @@ Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez 
 
 ___
 
-Si vous avez suivi ce guide quand il utilisaisla méthode de la RedNAND, notez que cela ne va pas supprimer la partition RedNAND de votre carte SD. Pour cela, vous aurez besoin d'utiliser un éditeur de partition pour votre système d'exploitation.
+Si vous avez suivi ce guide quand il utilisait la méthode de la RedNAND, notez que cela ne va pas supprimer la partition RedNAND de votre carte SD. Pour cela, vous aurez besoin d'utiliser un éditeur de partition pour votre système d'exploitation.
 {: .notice--info}
