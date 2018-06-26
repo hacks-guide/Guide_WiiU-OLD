@@ -2,9 +2,9 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Le Homebrew Launcher est une application homebrew qui répertorie et permet le lancement d’autres applications homebrew de la carte SD.
 
@@ -12,7 +12,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 ### Instructions
 
-#### Section I - Preparing Browser
+#### Section I – Préparer le navigateur
 
 1. Lancer le navigateur sur votre Wii U
 1. Allez dans les paramètres de navigation et cliquez sur "Mettre les paramètres à zéro"
@@ -22,25 +22,25 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 #### Section II - Homebrew Launcher
 
-1. If your device is on 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `usploit.hacks.guide`
+1. Si votre console est en version 5.5.2, ouvrez les rideaux du navigateur web (ceux apparaissant sur le téléviseur)
+  + Cela améliore le taux de succès de l'exploit du navigateur web en version 5.5.2 (bien que ce ne soit toujours pas fiable)
+1. Rendez vous à l'adresse `usploit.hacks.guide`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
-1. Select "Run Homebrew Launcher" for the first exploit attempt
+1. Sélectionnez "Run Homebrew Launcher" pour le premier essai d'exploit
   + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
-  + If it freezes, just force the console to power off by holding the power button, then try again
+  + Si la console freeze (ne répond plus), forcez-la simplement à s'éteindre en maintenant le bouton Power, puis réessayez
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
 ___
-### Methods
+### Méthodes
 
 ___
 
 #### Mocha CFW
 
-Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*. It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
+Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*. Il n'est pas recommandé d'utiliser cette méthode sur une console en 5.5.2 du fait d'un web exploit non fiable.
 
-### Continue to [Mocha CFW](mocha-cfw)
+### Continuer vers [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
@@ -49,7 +49,7 @@ ___
 
 Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage. Elle est *essentiellement requise* pour les utilisateurs de la version 5.5.2 car l'exploit du navigateur pour cette version n'est pas fiable.
 
-### Continue to [Haxchi](haxchi)
+### Continuer vers [Haxchi](haxchi)
 {: .notice--primary}
 
 ___

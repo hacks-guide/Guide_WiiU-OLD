@@ -2,9 +2,9 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Table des matières" %}
 
-### Required Reading
+### Lecture requise
 
 Cette page vous indiquera comment procéder à la vérification des erreurs sur votre carte SD à l'aide de l'utilitaire h2testw.
 
@@ -12,7 +12,7 @@ Dépendant de la capacité de votre carte SD et la vitesse d'exécution de votre
 
 Cette page est destinée aux utilisateurs de Windows uniquement. Si vous n’êtes pas sous Windows, consultez [F3 (Linux)](f3-(linux)) ou [F3X (Mac)](f3x-(mac)).
 
-### What You Need
+## Ce dont vous avez besoin
 
 * La dernière version de [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 

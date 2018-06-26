@@ -8,25 +8,25 @@ title: "Modding de vWii"
 
 Cela vous permettra d'installer The Homebrew Channel et les autres modifications à vWii de la Wii U (Wii Virtuelle).
 
-### What You Need
+## Ce dont vous avez besoin
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
+* La dernière version de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* La dernière version de [Hackmii Installer](https://bootmii.org/download/)
+* Une version précédente de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(le fichier `.zip` du launcher)*
 
 ### Instructions
 
-#### Section I - Prep Work
+#### Section I - Préparatifs
 
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
-1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
+1. Copiez *le contenu* du fichier `.zip` de WUPhax vers la racine de votre carte SD
 1. Copiez le fichier `boot.elf` du dossier `hackmii_installer_v1.2` de Hackmii Installer `.zip` vers la racine de votre carte SD
 1. Copiez le dossier `apps` de `vWii_cIOS_apps_20131218.zip` vers la racine de votre carte SD
-1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. Copiez le dossier `apps` de `Patched_IOS80_Installer_for_vWii.zip` vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` du Homebrew Launcher vers la racine de votre carte SD
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
@@ -36,7 +36,7 @@ Cela vous permettra d'installer The Homebrew Channel et les autres modifications
   + Si vous n’avez pas encore fait le guide principal de la Wii U et ne sais pas comment procéder, veuillez suivre [Homebrew Launcher](homebrew-launcher), puis revenez à cette page.
 1. Lancez wuphax
 1. Appuyez sur (A) pour faire un backup de votre chaîne Mii et injecter HackMii Installer
-1. You will be returned to the Homebrew Launcher
+1. Vous retournerez sur le Homebrew Launcher
 1. Utilisez le bouton (Home) pour quitter vers le Menu Home
 1. Lancer vWii
 1. Lancez la chaîne vWii Mii
@@ -51,7 +51,7 @@ Cela vous permettra d'installer The Homebrew Channel et les autres modifications
 1. Appuyez sur (B) lorsque vous êtes invité à restaurer la Chaîne Mii
 1. Traverser les invitations pour revenir à vWii
 
-#### Section III - Dumping vWii NAND
+#### Section III - Dump de la NAND vWii
 
 Ce backup de la NAND vous permettra de restaurer votre vWii à un état de fonctionnement, si quelque chose se passe mal.
 {: .notice--info}
@@ -65,7 +65,7 @@ Ce backup de la NAND vous permettra de restaurer votre vWii à un état de fonct
 1. **Copiez `nand.bin` et `keys.bin` depuis la racine de votre carte SD vers un emplacement sécurisé sur votre ordinateur et à plusieurs endroits (tels que le stockage de fichiers en ligne); cette sauvegarde sauvera votre vWii d’un BRICK, si quelque chose passe mal**
 1. Supprimez `nand.bin` et `keys.bin` de la racine de votre carte SD
 
-#### Section IV - cIOS Installation
+#### Section IV - Installation de cIOS
 
 S’assurer qu'il n'y a aucun dossier nommé `wad` ou `wads` à la racine de votre carte SD et qu'il n'y a aucun autres fichiers `.wad` n’importe où sauf dans `/apps/` sur la carte SD.
 {: .notice--warning}
@@ -91,7 +91,7 @@ S’assurer qu'il n'y a aucun dossier nommé `wad` ou `wads` à la racine de vot
 1. Appuyez sur (A) pour installer
 1. Attendez que l’installation finisse, puis appuyez sur (B) continuer
 
-#### Section V - Patching IOS80
+#### Section V - Patch de l'IOS80
 
 Cette étape BRICKERA votre vWii si elle échoue pour une raison quelconque (panne de courant, etc.) qui nécessitera une restauration de la NAND vWii. Assurez vous d'avoir sauvegardé votre NAND avant de continuer dans cette section.
 {: .notice--danger}

@@ -10,36 +10,36 @@ Haxchi est un custom firmware qui patche le contrôle des signatures, la vérifi
 
 Haxchi est un exploit qui permet de lancer le CFW directement depuis le menu d'accueil sans utiliser l'Homebrew Launcher.
 
-### What You Need
+## Ce dont vous avez besoin
 
-+ Une copie légitime de l'un des jeux de DS "Console Virtuelle" exploitables installée dans la mémoire interne de votre Wii U
++ Une copie légitime de l'un des jeux de Console Virtuelle DS exploitables installée dans la mémoire interne de votre Wii U
   + Si vous n'avez pas encore l'un des jeux exploitables installé sur votre console, allez voir [Pour Commencer](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ Le fichier personnalisé `config.txt` fourni dans [Pour Commencer](get-started) (*pas* le `config.txt` par défaut de Haxchi) devant être déjà dans le répertoire `/haxchi/` sur votre carte SD
+  + Utiliser la configuration par défaut (du fichier `.zip` de Haxchi) fera que votre installation de Haxchi va fonctionner différemment de ce qui est prévu
   
 ### Instructions
 
 1. Lancez Haxchi Installer
 1. Sélectionnez le jeu Console Virtuelle DS sur lequel vous avez installé Haxchi, puis appuyez sur (A)
 1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (A) pour lancer l'installation
-1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé " Haxchi ")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé "Haxchi")
+1. La console va redémarrer et va autoriser les fonctionnalités du custom firmware
+  + Ceci permettra aux titres non signés (par exemple le Homebrew Channel) à être lancés directement depuis le menu Home
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+Actuellement, vous devez lancer le jeu Console Virtuelle DS à chaque fois que vous redémarrez la console pour entrer dans le custom firmware. La page suivante vous apprendra comment installer Coldboot Haxchi qui peut faire cela automatiquement au démarrage.
 {: .notice--info}
 
 {% capture notice-1 %}
 ** Vous pouvez désormais maintenir différents boutons tout en lançant votre jeu DS Console Virtuelle pour des options de démarrage différentes. Voici la liste des options de démarrage et leur effet :**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + None -> Redémarrer sur le custom firmware
+  + (A) -> Redémarrer en lançant le Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### Continuer vers [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
