@@ -60,8 +60,8 @@ ___
 + 本教學將適用於任意區搭載 5.5.0 至 5.5.2 版本的 Wii U。
 + 如果一切都順利的話，您將不會失去任何資料 (像是遊戲、NNID、存檔... 等都會被留下)。
 + 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。
-+ 您的 SD 卡應該是 [MBR 的格式，而非 GPT](http://www.howtogeek.com/245610/)
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ 您的 SD 卡應為 [MBR 格式，而非 GPT](http://www.howtogeek.com/245610/)
++ 如果您需要格式化一張新的 SD 卡，您可使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 並且將其配置單位設為 32K (32768)。
 
 ___
 
