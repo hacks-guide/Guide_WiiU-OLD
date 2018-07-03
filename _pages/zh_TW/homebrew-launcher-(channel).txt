@@ -10,12 +10,12 @@ title: "Homebrew Launcher (透過頻道)"
 
 ### 操作說明
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### 第一節 — 安裝 Homebrew Launcher 頻道
 
 1. 進入 Homebrew Launcher
   + CBHC 的使用者必須在 CBHC 啟動時按下「Home」鍵以使用 CBHC 開啟選單，並選擇 Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Haxchi 的使用者必須先啟動過 Haxchi 以啟動自製韌體，然後再將它啟動一次並按住「A」啟動 Homebrew Launcher
+  + Mocha 自製韌體的使用者應該已經進入該模式底下了
 1. 啟動 WUP Installer GX2
   + 請注意，若您的 WUP Installer GX2 因「DSi Exception Has Occurred」錯誤而閃退，您應先將主機關機並再試一次。
 1. 選擇 Homebrew Channel
@@ -23,31 +23,31 @@ title: "Homebrew Launcher (透過頻道)"
 1. 選擇「NAND」為安裝目標
 1. 在安裝完後，按下「HOME」鍵以退出安裝
 
-#### Section II - Blocking System Updates
+#### 第二節 — 阻擋系統更新
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+請注意，若您想要在設定下列 DNS 位址後使用 eShop，您必須先透過 Homebrew Launcher 使用 NNU-Patcher 才能繼續。 另請注意，NNU-Patcher 為暫時性的補丁，也就是說，若您想在重啟後再度使用 eShop，您必須再重新進行本步驟。
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+請注意，除非您在所有當前和將來的網路連接中使用本方法阻止系統更新，否則 Wii U 上的系統更新都是*自動執行*且*無法*關閉的。 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. 進入系統設定、網路、連線至網路，並按下「X」鍵以顯示您目前的網路設置
+1. 請於所有的連線設定(及未來所有新的設定)中，設定下列選項：
+  + 選擇網路設定
+  + 選擇『Change Settings (更改設置)』
+  + 到第二個選單中，選擇『DNS』
+  + 將 DNS 設為『Don't Auto-Obtain (不自動擷取)』
+  + 將 DNS 伺服器 IP 設為下列位址
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + 按下確認及「B」鍵儲存設置
+  + 這些伺服器將阻擋任何可能的更新
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+你現在可以在自製韌體中透過 Homebrew Channel 來啟動 Homebrew Launcher。
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+您現在可以在自製韌體中透過系統選單直接啟動 WUP Installer GX2。
 {: .notice--info}
 
 為了以防萬一，您*應該*趕快透過 [NAND 備份](nand-backup)來備份您的 NAND 磁區。
@@ -59,7 +59,7 @@ You can now launch WUP Installer GX2 on custom firmware just by launching it fro
 若您想知道如何將遊戲光碟轉為可安裝的格式，請見[disc2app](disc2app)。
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+若您想知道如何在自製韌體中修改 vWii，請見[vWii Modding](vwii-modding)。
 {: .notice--success}
 
 若您想知道如何安全卸載自製韌體並還原至原廠狀態，請見[卸載自製韌體](uninstall-mocha-cfw)。
