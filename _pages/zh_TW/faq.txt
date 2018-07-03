@@ -2,7 +2,7 @@
 title: "常見問題 FAQ"
 ---
 
-<a name="faq_latestfw" />**Q:** *我目前裝的是最新版的系統，這樣還可以改機嗎？*    
+<a name="faq_latestfw" />**Q:** *我目前裝的系統為最新版本，這樣還可以改機嗎？*    
 **A:** 可以的！
 
 <a name="faq_oldfw" />**Q:** *我目前的系統為 X.X.X。 我該/能做些什麼？*    
