@@ -20,15 +20,15 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
   + 這將刪除所有已儲存的資料，包括設定、瀏覽紀錄、及書籤
 1. 返回至瀏覽器中
 
-#### Section II - Homebrew Launcher
+#### 第二節 — Homebrew Launcher
 
-1. If your device is on 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `usploit.hacks.guide`
+1. 如果您的主機為 5.5.2，拉開瀏覽器窗簾
+  + 這將提高 5.5.2 瀏覽器漏洞的成功率 (雖然仍不是很可靠)
+1. 前往 `usploit.hacks.guide`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
-1. Select "Run Homebrew Launcher" for the first exploit attempt
+1. 於第一次嘗試時選擇『Run Homebrew Launcher』
   + 可能需要嘗試多次
-  + If it freezes, just force the console to power off by holding the power button, then try again
+  + 如果當機的話，透過電源按鈕將您的主機強制關機，並再試一次
 1. 您的主機應該就會啟動 Homebrew Launcher 了
 
 ___
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。 It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
+本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。 因為此瀏覽器漏洞在 5.5.2 主機中極為不可靠，建議您不要在持有該韌體版本的主機上嘗試本方式。
 
 ### 繼續至 [Mocha CFW](mocha-cfw)
 {: .notice--primary}
