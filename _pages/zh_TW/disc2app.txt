@@ -17,8 +17,8 @@ title: "disc2app"
 
 ### 必備項目
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
-* 剩餘空間至少為 25GB 的 SD 卡
+* 一台持有某種自製韌體的 Wii U (Mocha CFW, Haxchi, CBHC, 等)
+* 一張至少有 25GB 可用空間的 SD 卡
 
 ### 操作說明
 
