@@ -2,19 +2,19 @@
 title: "新手入門"
 ---
 
-{% include toc title="目錄" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
-下列步驟將協助您準備您的 SD 卡以安裝 冷起 Haxchi。
+下列步驟將協助您準備您的 SD 卡安裝 Coldboot Haxchi 自製韌體。
 
 在進行前，請先確保您的 Wii U 系統版本為 5.5.0、5.5.1 或 5.5.2。 較舊的系統版本是不相容的。
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). 大部分的 SD 卡預設都是以這個格式出廠的。
+您的 SD 卡格式必須為 FAT32 (其配置單位大小需為 32K (32768))。 大部分的 SD 卡都是以這個格式出廠的。
 
-如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 請使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為 32K (32768)。
 
 *不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
@@ -41,7 +41,7 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 #### 第一節 — 準備工作
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
 1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
