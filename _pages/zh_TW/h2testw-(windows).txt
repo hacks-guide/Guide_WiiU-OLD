@@ -2,7 +2,7 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="目錄" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
@@ -19,12 +19,12 @@ title: "H2testw (Windows)"
 ### 操作說明
 
 1. 從 h2testw `.zip` 中解壓 `h2testw.exe`
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 開啟 `h2testw.exe`
-1. 選擇「英語(English)」
-1. 按下「Select target」
+1. 選擇『英語 (English)』
+1. 按下『Select target』
 1. 選擇您的 SD 卡磁碟代號
-1. 確定「all available space」有選起來
+1. 確保『all available space』為以勾選狀態
 1. 點下「Write + Verify」
 1. 等到檢查完畢為止。
 
