@@ -22,7 +22,7 @@ Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞�
 1. 啟動 Haxchi installer
 1. 選擇您要安裝 Haxchi 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「A」鍵安裝
-1. 安裝完畢後，啟動您 Haxchi 改後的 DS 虛擬主機 遊戲(叫「Haxchi」)
+1. 安裝完畢後，啟動您 Haxchi 改後的 DS 虛擬主機遊戲 (名為『Haxchi』)
 1. The console will reboot and enable custom firmware features
   + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
 
@@ -41,5 +41,5 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### 繼續至 [冷啟 Haxchi](coldboot-haxchi)。
+### 繼續至 [Coldboot Haxchi](coldboot-haxchi)。
 {: .notice--primary}
