@@ -1,12 +1,12 @@
 ---
-title: "Homebrew Launcher(透過頻道)"
+title: "Homebrew Launcher (透過頻道)"
 ---
 
-{% include toc title="目錄" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+本節將安裝 Homebrew Channel，這樣，只要在使用自製韌體的情況下，Homebrew Launcher 就會在系統主選單上出現。
 
 ### 操作說明
 
