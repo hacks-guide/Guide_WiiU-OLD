@@ -25,16 +25,16 @@ title: "新手入門"
 
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* 最新版的 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* 最新版的 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
+* 舊版 (v1.3) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(選擇 channel `.zip` 檔案)*
+* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
+* 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### 操作說明
 
@@ -45,19 +45,19 @@ title: "新手入門"
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
 1. 解壓 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
-1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
-1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
+1. 解壓 Homebrew Launcher (v1.3) `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 Haxchi `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 CBHC `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 複製 `config.txt` 至您 SD 卡的 `/haxchi/` 資料夾中 (覆蓋現有的 `config.txt` 檔案)
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
-1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. 解壓 Homebrew Launcher Channel `.zip` 中的*所有內容*至 SD 卡的 `/install/hbc/` 資料夾中
 1. 解壓 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
-1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
-1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
-1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
+1. 解壓 WUP Installer GX2 `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 disc2app `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 hid\_to\_vpad `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 NNU-Patcher `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 Mocha CFW `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 複製 `config.ini` 至您 SD 卡的 `/wiiu/apps/mocha/` 資料夾中
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 
