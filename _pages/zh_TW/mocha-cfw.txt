@@ -25,5 +25,5 @@ ___
 Note that you will need to launch Mocha CFW from the Homebrew Launcher every time you reboot in order to re-enable custom firmware features.
 {: .notice--info}
 
-### 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
+### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
