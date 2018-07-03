@@ -2,44 +2,44 @@
 title: "Haxchi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-Haxchi is a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi là bản CFW đánh lừa được kiểm tra chữ ký ứng dụng, kiểm tra phân vùng, có thể chạy nền code tùy biến.
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi là exploit cho phép chạy CFW trực tiếp từ giao diện hệ thống mà không cần thông qua Homebrew Launcher.
 
-### What You Need
+### Cần chuẩn bị gì
 
-+ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
-  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ Máy cần cài sẵn bản game được mua hợp pháp từ eshop (ko phải game lậu) của một trong các game DS thích hợp
+  + Nếu bạn chưa cài game DS chạy được hack, vui lòng xem [Bắt đầu](get-started)
++ File `config.txt` được cung cấp trong [Bắt đầu](get-started) (*không phải* file`config.txt`mặc định của Haxchi) đã được bỏ vào thư mục `/haxchi/` trên thẻ nhớ
+  + Sử dụng file config mặc định của Haxchi sẽ gây ra vấn đề khó lường trước trong quá trình cài đặt Haxchi
   
-### Instructions
+### Hướng dẫn
 
-1. Launch the Haxchi Installer
-1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. Mở Haxchi Installer
+1. Chọn game DS mà bạn muốn cài Haxchi vào, sau đó bấm (A) để xác nhận
+1. Đọc cảnh báo xuất hiện, sau đó bấm (A) để cài 
+1. Một khi cài xong, chạy game DS của bạn (giờ đã có tên và biểu tượng "Haxchi")
+1. Máy sẽ khởi động lại và có tính năng của CFW
+  + Cho phép chạy trực tiếp các ứng dụng không phép (ví dụ như Homebrew Launcher) từ giao diện hệ thống
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+Hiện tại, bạn sẽ phải chạy lại game DS có vỏ "Haxchi" này mỗi lần khởi động lại máy để vào CFW. Trang kế sẽ chỉ cách cài Coldboot Haxchi, giúp tự động thực hiện thao tác trên mỗi lần khởi động máy.
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**Có thể bấm các nút sau đây khi chạy game DS vỏ Haxchi để chọn cách boot khác. Cụ thể là:
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + Mặc định -> Chạy CFW
+  + (A) -> Chạy Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### Tiếp tục đến [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

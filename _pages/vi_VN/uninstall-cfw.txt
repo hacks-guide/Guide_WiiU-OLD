@@ -1,45 +1,45 @@
 ---
-title: "Uninstall CFW"
+title: "Xóa CFW"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+Bước này sẽ xóa CFW khỏi máy Wii U bất kể cách cài hack, mục đích là đưa máy trở về như nguyên bản chưa hack.
 {: .notice--danger}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+Nếu bạn đã theo dõi hướng dẫn này từ khi nó còn đề cập đến RedNAND, lưu ý là game và save sẽ được lưu vào bộ nhớ trong của máy chứ ko còn là thẻ SD nữa. Tức là tất cả game và save đã cài khi dùng RedNAND sẽ bị xóa nếu bạn gỡ CFW!
 {: .notice--danger}
 
-### Instructions
+### Hướng dẫn
 
-#### Section I - Removal from Wii U
+#### Phần I - Gỡ hack khỏi Wii U
 
 ##### CBHC
 
-1. Launch the Homebrew Launcher Channel
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-1. Read the warning that appears, then press (B) to uninstall
-1. When it is complete, you will be returned to the system menu
-1. Reboot your Wii U
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Mở Homebrew Launcher Channel
+1. Mở CBHC installer
+1. Chọn game DS mà bạn muốn gỡ CBHC, sau đó bấm (A) để xác nhận
+1. Đọc cảnh báo xuất hiện, sau đó bấm (B) để gỡ cài đặt
+1. Khi gỡ xong, bạn sẽ quay về giao diện chính của hệ thống
+1. Khởi động lại thiết bị
+1. Vào System Settings, mục "Data Management", xóa game mồi DS
+1. Cài lại game mồi DS từ eShop
 
 ##### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. Vào System Settings, mục "Data Management", xóa game mồi DS
+1. Cài lại game mồi DS từ eShop
 
 ##### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. Gỡ bookmark đến HBL khỏi trình duyệt nếu có
 
-#### Section II - Removal from SD Card
+#### Phần II - Gỡ hack khỏi thẻ SD
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**Xóa tất cả file và thư mục sau đây khỏi thẻ nhớ, *trừ* những mục sau (có thể có hoặc không):**
 
   + DCIM
   + private
@@ -50,5 +50,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+Nếu bạn đã theo dõi hướng dẫn này từ khi nó còn đề cập đến RedNAND, lưu ý là bước này sẽ không xóa RedNAND khỏi thẻ SD. Để xóa hẳn RedNAND, bạn cần dùng trình partition manager có trên hệ điều hành của máy tính.
 {: .notice--info}

@@ -65,9 +65,9 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 Hay dos métodos para usar custom firmware para Wii U.
 
-El primer método es ejecutar un exploit del navegador que te permitirá modificar el sistema. Lamentablemente, la naturaleza de este exploit implica que *debe* ser ejecutado luego de cada reinicio. Adicionalmente, este exploit de navegador compatible con 5.5.2 es poco confiable y la convierte en la opción menos usable.
+El primer método es ejecutar un exploit del navegador que te permitirá modificar el sistema. Lamentablemente, la naturaleza de este exploit implica que *debe* ser ejecutado luego de cada reinicio.
 
-La segunda opción consiste en comprar un juego de la consola virtual de DS barato y vulnerable para ejecutar Custom Firmware automáticamente al encender la consola. Esto es *esencialmente requerido* para usuarios de la versión 5.5.2 por la inestabilidad anteriormente mencionada del exploit de navegador para la 5.5.2.
+La segunda opción consiste en comprar un juego de la consola virtual de DS barato y vulnerable para ejecutar Custom Firmware automáticamente al encender la consola.
 
 El juego de consola virtual de DS *debe* ser una copia **legítimamente comprada** del juego instalada en la **memoria interna** de tu consola. *No* puedes instalar este juego de consola virtual de DS en una unidad USB.
 

@@ -1,124 +1,124 @@
 ---
-title: "vWii Modding"
+title: "Hack vWii"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
+Bước này sẽ cài Homebrew Channel và các mod cần thiết khác cho việc hack vWii trên Wii U (còn gọi là virtual Wii).
 
-### What You Need
+### Cần chuẩn bị gì
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
+* Phiên bản mới nhất của [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* Phiên bản mới nhất của [Hackmii Installer](https://bootmii.org/download/)
+* Phiên bản cũ hơn (v) của [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(chọn file `.zip`)*
 
-### Instructions
+### Hướng dẫn
 
-#### Section I - Prep Work
+#### Phần I - Chuẩn bị
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
-1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
-1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
-1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
+1. Tắt máy đi
+1. Lắp thẻ nhớ SD vào máy tính
+1. Chép các file trong gói WUPhax `.zip` vào thư mục gốc thẻ nhớ
+1. Chép file `boot.elf` từ thư mục`hackmii_installer_v1.2` của gói Hackmii Installer `.zip` vào thư mục gốc của thẻ nhớ
+1. Chép thư mục `apps` từ gói `vWii_cIOS_apps_20131218.zip` vào thư mục gốc của thẻ nhớ
+1. Chép thư mục `apps` từ gói `Patched_IOS80_Installer_for_vWii.zip` vào thư mục gốc của thẻ nhớ
+1. Chép các file trong gói Homebrew Launcher `.zip` vào thư mục gốc của thẻ nhớ
+1. Lắp thẻ nhớ SD vào thiết bị
+1. Bật thiết bị lên
 
-#### Section II - wuphax
+#### Phần II - wuphax
 
-1. Launch the Homebrew Launcher
-  + If you have not already done the main Wii U guide and do not know how to do this, please follow [Homebrew Launcher](homebrew-launcher), then return to this page.
-1. Launch wuphax
-1. Press (A) to backup your Mii Channel and inject the Hackmii Installer
-1. You will be returned to the Homebrew Launcher
-1. Use the (Home) button to exit to the system menu
-1. Launch vWii
-1. Launch the vWii Mii Channel
-1. If the exploit was successful, you will have entered the Hackmii Installer
-1. Read the scam warning, then press (1) to continue when prompted
-1. Go through the prompts on screen to install the Homebrew Channel to vWii
-1. Go through the prompts to get back to vWii
-1. If the exploit was successful, you will see the Homebrew Channel on the vWii Menu
-1. Return to the system menu, then power off your Wii U
-1. Launch the Homebrew Launcher with the method used earlier in this section
-1. Launch wuphax
-1. Press (B) when prompted to restore the Mii Channel
-1. Go through the prompts to get back to vWii
+1. Mở Homebrew Launcher
+  + Nếu bạn vẫn chưa thực hiện các bước hack Wii U và không biết phải làm sao, vui lòng xem trang [Homebrew Launcher](homebrew-launcher-vie), sau đó quay lại trang này.
+1. Chạy wuphax
+1. Bấm (A) để backup lại Mii Channel và nhúng Hackmii Installer vào đó
+1. Bạn sẽ quay lại giao diện Homebrew Launcher
+1. Dùng nút (Home) để thoát ra giao diện hệ thống
+1. Khởi động vWii
+1. Chạy Mii Channel trên vWii
+1. Nếu exploit chạy thành công, bạn sẽ vào Hackmii Installer
+1. Đọc dòng cảnh báo lừa đảo, sau đó bấm (1) để tiếp tục khi được hỏi
+1. Theo các bước trên màn hình để cài Homebrew Channel vào vWii
+1. Qua các bước để về lại vWii
+1. Nếu exploit chạy thành công, bạn sẽ thấy Homebrew Channel trên giao diện Menu của vWii
+1. Trở về giao diện hệ thống, sau đó tắt máy
+1. Chạy Homebrew Launcher với cách được nhắc lúc nãy trong phần này
+1. Chạy wuphax
+1. Bấm (B) khi được hỏi để khôi phục Mii Channel gốc
+1. Qua các bước để về lại vWii
 
-#### Section III - Dumping vWii NAND
+### Phần III - Dump NAND của vWii
 
-This NAND backup will allow you to restore your vWii to a working state if anything goes wrong.
+Backup NAND sẽ giúp bạn phục hồi lại vWii trên máy nếu có sự cố xảy ra.
 {: .notice--info}
 
-1. Launch the Homebrew Channel on vWii
-1. Launch Dump Mii NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
-1. When it has completed, your Wii U will reboot automatically
-1. Power off your Wii U
-1. Put your SD card from your Wii U into your computer
-1. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
-1. Delete `nand.bin` and `keys.bin` from the root of your SD card
+1. Mở Homebrew Channel trên vWii
+1. Mở Dump Mii NAND
+  + Cần kiên nhẫn vì cuá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào dung lượng trống còn lại của bộ nhớ trong của máy)
+1. Khi dump xong, máy Wii U sẽ tự khởi động lại
+1. Tắt máy đi
+1. Gắn thẻ nhớ từ Wii U vào máy tính
+1. **Chép file `nand.bin` và `keys.bin` từ thư mục gốc của thẻ nhớ vào nơi dễ nhớ trong máy tính của bạn, sao lưu chúng trên nhiều phương tiện (như các host lưu trữ online); bản backup này sẽ là cứu cánh nếu chẳng may vWii bị brick**
+1. Xóa tập tin `nand.bin` và `keys.bin` có trong thư mục gốc của thẻ nhớ
 
-#### Section IV - cIOS Installation
+#### Phần III - Cài đặt cIOS
 
-Ensure that there are no folders named `wad` or `wads` on the root of your SD card and that there are no other `.wad` files anywhere except `/apps/` on the SD card.
+Hãy đảm bảo rằng không có thư mục nào tên `wad` hay `wads`trong thư mục gốc của thẻ nhớ, và không có file đuôi `.wad` nào nằm ngoài thư mục `/apps/` trên thẻ nhớ. (Không có càng tốt).
 {: .notice--warning}
 
-1. Launch the Homebrew Channel on vWii
-1. Launch d2x cIOS Installer
-1. Set the options on the top of the screen to match the following:
+1. Mở Homebrew Channel trên vWii
+1. Mở d2x cIOS Installer
+1. Đặt tùy chọn trên cùng màn hình thành như sau:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **56**
   + Select cIOS slot : **249**
-1. Press (A) to install
-1. Wait for the install to complete, then press (A) to continue
-1. Set the options on the top of the screen to match the following:
+1. Bấm (A) để cài
+1. Đợi cài đặt hoàn tất, sau đó bấm (A) để tiếp tục
+1. Đặt tùy chọn trên cùng màn hình thành như sau:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **57**
   + Select cIOS slot : **250**
-1. Press (A) to install
-1. Wait for the install to complete, then press (A) to continue
-1. Set the options on the top of the screen to match the following:
+1. Bấm (A) để cài
+1. Đợi cài đặt hoàn tất, sau đó bấm (A) để tiếp tục
+1. Đặt tùy chọn trên cùng màn hình thành như sau:
   + Select cIOS : **d2x-v10-beta52-vWii**
   + Select cIOS base : **58**
   + Select cIOS slot : **251**
-1. Press (A) to install
-1. Wait for the install to complete, then press (B) to exit
+1. Bấm (A) để cài
+1. Đợi cài đặt hoàn tất, sau đó bấm (B) để thoát
 
-#### Section V - Patching IOS80
+#### Phần V - Patch IOS80
 
-This step will brick your vWii installation if it fails for any reason (power outage, etc) which will require a vWii NAND backup to restore. Ensure you have yours before proceeding with this section.
+Bước này có thể brick vWii nếu vì lý do nào đó nó bị gián đoạn (sụp nguồn, cúp điện, vân vân) và sẽ cần backup vWii từ trước mới cứu được. Hãy đảm bảo bạn đã backup trước khi làm tiếp.
 {: .notice--danger}
 
-1. From the Homebrew Channel on vWii, launch Patched IOS80 Installer for vWii
-1. Read the warning, then wait 30 seconds for it to allow you to continue
-1. Press (A) to install
-  + This should be very quick
-1. When it has completed, press any button to return to the Homebrew Channel
-1. Exit to the vWii Menu
+1. Từ Homebrew Channel trên vWii, mở Patched IOS80 Installer for vWii
+1. Đọc dòng cảnh báo, rồi đợi 30 giây để nó cho phép bạn tiếp tục
+1. Bấm (A) để cài
+  + Phần này sẽ rất nhanh
+1. Khi cài xong, bấm bất kỳ nút nào để trở về Homebrew Channel
+1. Thoát ra Menu của vWii
 
 ___
 
-You can now install and use any Wii homebrew such as USB Loader GX, Wiiflow, CFG USB Loader, emulators, etc.
+Giờ bạn đã có thể cài và dùng bất cứ homebrew nào của Wii, ví dụ như USB Loader GX, Wiiflow, CFG USB Loader, giả lập, vân vân.
 {: .notice--success}
 
-External hard drives must be connected to the upper back USB port of the Wii U to be detected by vWii. This cannot be the same external hard drive you use for Wii U games. If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+Nếu dùng ổ cứng rời, bạn cần cắm vào cổng USB nằm trên ở sau lưng máy thì vWii mới đọc được. Đây phải là ổ cứng khác ổ cứng mà bạn dùng để chứa game Wii U. Nếu bạn dùng ổ cứng ngoài không có nguồn phụ, cân nhắc dùng thêm cáp chữ Y (http://amzn.to/2mjQjin).
 {: .notice--info}
 
-Ensure any `.wad` files (channels, forwarders, games, etc) you install are formatted to [work properly with vWii](https://gbatemp.net/threads/340226/) first. If you install a `.wad` formatted for a regular Wii console, you will brick the vWii which will require a vWii NAND backup to restore.
+Hãy đảm bảo tất cả file `.wad` (channel, forwarder, game, vv...) trước khi cài vào máy phải được format cho tương thích với vWii(https://gbatemp.net/threads/340226/). Nếu bạn cài file `.wad` format cho máy Wii, bạn sẽ khiến vWii bị brick, và chỉ có backup NAND mới cứu được.
 {: .notice--danger}
 
-Installing custom themes on vWii will brick your vWii.
+Cài theme trên vWii sẽ gây brick.
 {: .notice--danger}
 
-Removing `.wad` files manually without knowing what you are doing will brick your vWii.
+Gỡ file `.wad` bừa bãi sẽ gây brick.
 {: .notice--danger}
 
-Installing Priiloader will brick your vWii.
+Cài Priiloader sẽ gây brick.
 {: .notice--danger}

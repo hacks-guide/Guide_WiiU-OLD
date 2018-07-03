@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "Những người đã đóng góp"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+**Chân thành cảm ơn các [Dịch giả](https://crowdin.com/project/wii-u-guide) vì đã giúp đỡ rất nhiều!**
 {: .notice--primary}
 
-If we forgot you here, contact us and we'll add your name.
+Nếu thiếu tên ai, vui lòng liên hệ tôi và tôi sẽ thêm tên bạn vào.
 
 {% capture notice-1 %}
 

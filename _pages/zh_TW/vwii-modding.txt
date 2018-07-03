@@ -12,21 +12,21 @@ title: "vWii 改機"
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
-* The latest release of [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
-* The latest release of [Hackmii Installer](https://bootmii.org/download/)
-* A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
+* 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
+* 最新版的 [Hackmii Installer](https://bootmii.org/download/)
+* 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(選擇 channel `.zip` 檔案)*
 
 ### 操作說明
 
 #### 第一節 — 準備工作
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
-1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
+1. 將 SD 卡插入至電腦中
+1. 解壓 WUPhax `.zip` 中的*所有內容*至 SD 卡的根目錄底下
 1. 複製 Hackmii Installer `.zip` `hackmii_installer_v1.2` 資料夾中的 `boot.elf` 到 SD 卡的根目錄中
 1. 解壓 `vWii_cIOS_apps_20131218.zip` 中的 `apps` 資料夾到您的 SD 卡下
-1. Copy the `apps` folder from `Patched_IOS80_Installer_for_vWii.zip` to the root of your SD card
-1. Copy *the contents of* the Homebrew Launcher `.zip` to the root of your SD card
+1. 解壓 `Patched_IOS80_Installer_for_vWii.zip` 中的 `apps` 資料夾到您的 SD 卡下
+1. 解壓 Homebrew Launcher `.zip` 中的*所有內容*至 SD 卡的根目錄底下
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 
@@ -36,7 +36,7 @@ title: "vWii 改機"
   + 若您尚未完成本手冊的主要步驟且不知道該如何進行本步驟，請先參閱 [Homebrew Launcher](homebrew-launcher) 中的詳情以繼續本頁面之步驟。
 1. 啟動 wuphax
 1. 按「A」鍵以備份您的 Mii 頻道，並注入 Hackmii Installer
-1. You will be returned to the Homebrew Launcher
+1. 安裝完後將返回 Homebrew Launcher 中
 1. 按下「Home」鍵以退出至系統主選單
 1. 啟動 vWii
 1. 啟動 vWii Mii 頻道

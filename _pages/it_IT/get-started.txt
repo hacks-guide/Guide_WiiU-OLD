@@ -65,9 +65,9 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 Ci sono due metodi per installare un custom firmware sulla tua Wii U.
 
-Il primo metodo richiede l'avvio di un exploit attraverso il browser internet che patcherà la console. Sfortunatamente, sarà necessario riavviare l'exploit dopo *ogni* riavvio della console. Inoltre, l'exploit compatibile con la versione di sistema 5.5.2 è molto instabile, rendendo questa opzione poco pratica.
+Il primo metodo richiede l'avvio di un exploit attraverso il browser internet che patcherà la console. Sfortunatamente, sarà necessario riavviare l'exploit dopo *ogni* riavvio della console.
 
-Il secondo metodo consiste nel comprare un gioco DS della Virtual Console exploitabile a poco prezzo per avviare il Custom Firmware all'avvio della console. Ciò è praticamente *necessario* per gli utenti 5.5.2 data l'instabilità dell'exploit del browser internet.
+Il secondo metodo consiste nel comprare un gioco DS della Virtual Console exploitabile a poco prezzo per avviare il Custom Firmware all'avvio della console.
 
 Il gioco DS della Virtual Console *deve* essere stato **comprato legittimamente** e deve essere installato nella **memoria interna** della console. Non **puoi** installare il gioco DS della Virtual Console su una chiavetta USB.
 

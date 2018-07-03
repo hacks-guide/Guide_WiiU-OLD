@@ -4,77 +4,77 @@ title: "Coldboot Haxchi"
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Điều cần đọc
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) là cách hack thay đổi cài đặt hệ thống để máy tự chạy game DS vỏ Haxchi nhằm kích hoạt CFW trước khi mở giao diện hệ thống.
 
-This page is optional. Regular Haxchi works just fine as is; this just offers extra convenience. If you would like to skip Coldboot Haxchi, continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+Bước này không bắt buộc. Haxchi thông thường là đã đủ để chạy hack; cách này chỉ để tiện hơn. Nếu muốn bỏ qua bước cài Coldboot Haxchi, vui lòng tiếp tục đến [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 {% capture notice-1 %}
-You MUST have a functional Haxchi setup for this to work. If you do not, you will BRICK!
+Bạn CẦN PHẢI cài sẵn Haxchi để thực hiện bước này. Nếu không, máy sẽ BRICK!
 
-Your Haxchi DS virtual console game MUST be on the internal memory of your Wii U. If it is on a USB drive, you will BRICK!
+Game DS vỏ Haxchi PHẢI được cài trong bộ nhớ trong của Wii U. Nếu cài trên các thiết bị lưu trữ usb, máy sẽ BRICK!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE copy or you will BRICK!
+Game DS vỏ Haxchi của bạn PHẢI là game tải HỢP PHÁP từ eshop, nếu không máy sẽ BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
-### Instructions
+### Hướng dẫn
 
-1. Remove all USB devices from your Wii U
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are installing CBHC onto, then press (A) to select it
-  + **This game MUST already have a functional Haxchi installed**
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, you should be back at the system menu
-1. You may reconnect any USB devices that were disconnected earlier.
-1. Reboot your Wii U
-1. If the exploit was successful, you will see a menu appear with various boot options
-1. Hover over **"Autoboot: Disabled"**, then press (A) on it until it says **"Autoboot: System Menu"**
-1. Press (A) on "Boot System Menu"
-1. Reboot your Wii U to ensure the exploit works automatically as intended
-1. Move the CBHC DS virtual console game to the last page of the system menu
-  + Read the warnings at the bottom of this page carefully to avoid bricking your device!
+1. Gỡ tất cả thiết bị usb khỏi máy Wii U
+1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
+1. Mở CBHC installer
+1. Chọn game DS mà bạn muốn cài CBHC vào, sau đó bấm (A) để xác nhận
+  +**Game DS này CẦN PHẢI được cài haxchi sẵn từ trước**
+1. Đọc cảnh báo xuất hiện, sau đó bấm (A) để cài 
+1. Sau khi cài xong, bạn sẽ quay về giao diện chính của hệ thống
+1. Bạn có thể cắm lại các thiết bị usb đã gỡ ra lúc nãy.
+1. Khởi động lại thiết bị
+1. Nếu exploit chạy thành công, bạn sẽ thấy một menu xuất hiện với vài tùy chọn khởi động (boot option)
+1. Chọn đến ** "Autoboot: Disabled" **, sau đó bấm (A) cho đến khi nó chuyển thành ** "Autoboot: System Menu" **
+1. Bấm (A) trong "Boot System Menu"
+1. Khởi động lại máy Wii U để đảm bảo exploit hoạt động đúng như mong muốn
+1. DI chuyển biểu tượng game DS vỏ CBHC đến trang cuối của giao diện hệ thống
+  + Đọc cảnh báo phía dưới cùng trang này thật kỹ nhằm tránh việc máy bị brick!
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
+Máy bạn sẽ tự động chạy CFW qua Coldboot Haxchi mỗi lần khởi động.
 {: .notice}
 
 {% capture notice-1 %}
-You can press (Home) while CBHC is booting to access the CBHC boot options menu. This is what each of the boot options do:
+Có thể bấm (Home) khi CBHC đang khởi động để vào lại menu tùy chọn này. Cụ thể thì các tùy chọn khởi động sẽ như sau:
 
-  + Boot System Menu -> Boots into custom firmware
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
-  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
-  + Boot fw.img on SD Card -> Boots into any older fw.img based CFW from the SD card
-  + Boot vWii System Menu -> Boots into vWii
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
+  + Boot System Menu -> Khởi động thì vào CFW
+  + Boot Homebrew Launcher -> Khởi động thì vào Homebrew Launcher
+  + Boot Mocha CFW -> Khởi động thì vào Mocha CFW (không cần dùng nếu bạn đang dùng CBHC)
+  + Boot fw.img on SD Card -> Khởi động thì vào bất cứ CFW thời trước có dạng fw.img bỏ trong thẻ SD 
+  + Boot vWii System Menu -> Khởi động thì vào vWii
+  + Boot vWii Homebrew Channel -> Khởi động thì vào vWii Homebrew Channel
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-You may reconnect any USB devices after the installation has completed.
+Bạn có thể cắm lại các thiết bị usb sau khi cài đặt thành công.
 {: .notice--info}
 
-**Never uninstall the CBHC DS virtual console game or you will BRICK.**    
+**Không được xóa game DS có vỏ CBHC, nếu không máy sẽ BRICK.**    
 {: .notice--danger}
 
-**Never reinstall the CBHC DS virtual console game or you will BRICK.**
+**Không cài lại game DS có vỏ CBHC, nếu không máy sẽ BRICK.** 
 {: .notice--danger}
 
-**Never move the CBHC DS virtual console game to a USB drive or you will BRICK.**
+**Không được di chuyển game DS có vỏ CBHC vào bộ nhớ của thiết bị lưu trữ usb, nếu không máy sẽ BRICK.** 
 {: .notice--danger}
 
-**Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!**
+**Không được xóa tài khoản Nintendo đã mua game DS có vỏ CBHC khỏi máy, nếu không máy sẽ BRICK.** 
 {: .notice--danger}
 
-**Never format your device while CBHC is installed or you will BRICK!**
+**Không được format máy, nếu không máy sẽ BRICK.** 
 {: .notice--danger}
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Tiếp tục đến [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

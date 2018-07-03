@@ -65,9 +65,9 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 Es gibt zwei Varianten die WII U custom firmware zu benutzen.
 
-Die erste Variante ist es eine Sicherheitslücke im Browser zu nutzen welche das System patcht. Leider muss dieser bei jedem Neustart der Konsole erneut angewendet werden. Außerdem ist diese Methode nur mit Version 5.5.2 verfügbar was sie weniger nützlich macht.
+Die erste Variante ist es eine Sicherheitslücke im Browser zu nutzen welche das System patcht. Leider muss dieser bei jedem Neustart der Konsole erneut angewendet werden.
 
-Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen. Aufgrund der oben genannten Instabilität der Browser Sicherheitslücke ist dies unbedingt nötig für Nutzer der Version 5.5.2 .
+Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen.
 
 Das DS Virtual Console Spiel *muss* unbedingt **legal erworben sein** und auf dem **internen Speicher** deines Gerätes installiert sein. Es ist *nicht möglich* das DS Virtual Console Spiel auf einem USB Stick zu installieren.
 

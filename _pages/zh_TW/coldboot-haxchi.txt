@@ -1,14 +1,14 @@
 ---
-title: "冷啟動 Haxchi"
+title: "Coldboot Haxchi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) 將把您的預設系統程式修改為自動啟動修改後的 DS 虛擬主機遊戲，讓您自動開機至自製韌體中，而非普通的系統選單。
 
-本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 如果您想跳過 冷起 Haxchi，請繼續至 [Homebrew Launcher (Channel)](homebrew-launcher-(channel))。
+本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 如果您想跳過 Coldboot Haxchi，請繼續至 [Homebrew Launcher (Channel)](homebrew-launcher-(channel))。
 {: .notice--primary}
 
 {% capture notice-1 %}
@@ -41,18 +41,18 @@ CBHC (Coldboot Haxchi) changes your default system title to make your device lau
 
 ___
 
-Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
+您的主機現在應於開機時自動啟動至 Coldboot Haxchi 自製韌體中。
 {: .notice}
 
 {% capture notice-1 %}
 您可以在 CBHC 啟動時按下「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：
 
-  + Boot System Menu -> Boots into custom firmware
-  + Boot Homebrew Launcher -> Boots into the Homebrew Launcher
-  + Boot Mocha CFW -> Boots into Mocha CFW (no reason to use this with CBHC)
+  + Boot System Menu -> 開機至自製韌體
+  + Boot Homebrew Launcher -> 開機至 Homebrew Launcher
+  + Boot Mocha CFW -> 開機至 Mocha CFW (使用 CBHC 時沒必要使用此選項)
   + Boot fw.img on SD Card -> 透過 SD 卡中任一舊式 fw.img 鏡像檔開機
-  + Boot vWii System Menu -> Boots into vWii
-  + Boot vWii Homebrew Channel -> Boots into vWii Homebrew Channel
+  + Boot vWii System Menu -> 開機至 vWii
+  + Boot vWii Homebrew Channel -> 開機至 vWii 的 Homebrew Channel
 
 {% endcapture %}
 

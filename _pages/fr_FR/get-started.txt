@@ -65,9 +65,9 @@ Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/rele
 
 Il y a deux méthodes pour utiliser le custom firmware sur Wii U.
 
-La première méthode consiste à utiliser un exploit du navigateur qui va patcher le système. Malheureusement, la nature de cet exploit fait que le navigateur *doit* être lancé après chaque redémarrage de la console. De plus, l'exploit de la faille du navigateur compatible avec la version 5.5.2 de la Wii U est très peu fiable, ce qui en fait une option peu utilisable.
+La première méthode consiste à utiliser un exploit du navigateur qui va patcher le système. Malheureusement, la nature de cet exploit fait que le navigateur *doit* être lancé après chaque redémarrage de la console.
 
-La seconde méthode consiste à acheter un jeu de DS "Console Virtuelle" à petit prix pour lancer le custom firmware automatiquement au démarrage. Cette méthode est *essentiellement requise* pour les utilisateur de la version 5.5.2, à cause de l'instabilité précédemment évoquée de la faille du navigateur en 5.5.2.
+La seconde méthode consiste à acheter un jeu de DS "Console Virtuelle" à petit prix pour lancer le custom firmware automatiquement au démarrage.
 
 Le jeu de DS "Console Virtuelle" *doit* être un **véritable achat** installé sur la **mémoire interne** de votre console. Vous *ne devez pas* installer le jeu de DS "Console Virtuelle" sur un support USB.
 

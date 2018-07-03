@@ -2,65 +2,65 @@
 title: "Homebrew Launcher (Channel)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Mục này sẽ cài Homebrew Channel vào hệ thống, để mỗi lần chạy CFW đều hiện Homebrew Launcher qua icon hệ thống.
 
-### Instructions
+### Hướng dẫn
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Phần I - Cài Homebrew Launcher Channel
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
-1. Launch WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
-1. Select the Homebrew Channel
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. Mở Homebrew Launcher
+  + Máy dùng CBHC phải bấm (Home) khi CBHC đang khởi chạy để vào menu boot, sau đó mới chọn Homebrew Launcher
+  + Máy chỉ dùng Haxchi thì mở Haxchi mỗi lần khởi động máy để chạy CFW, muốn vào Homebrew Launcher thì mở Haxchi lần nữa, đồng thời giữ (A)
+  + Máy dùng Mocha CFW sẽ tự động vào muc này
+1. Mở WUP Installer GX2
+  + Lưu ý: nếu WUP Installer GX2 treo và báo lỗi "DSi Exception Has Occurred", bạn chỉ cần tắt máy thử lại.
+1. Chọn Homebrew Channel
+1. Bấm vào "Install", bấm tiếp "Yes" để xác nhận
+1. Chọn đích đến là "NAND"
+1. Sau khi đã cài xong, bấm (Home), rồi chọn thoát ứng dụng (close application) 
 
-#### Section II - Blocking System Updates
+#### Phần II - Chặn cập nhật hệ thống
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Lưu ý: nếu muốn vào eshop với thiết lập DNS như bên dưới, bạn phải vào Homebrew Launcher chạy NNU-Patcher trước. NNU-Patcher chỉ là patch tạm thời, sẽ phải chạy lại để vào eshop mỗi lần bạn khởi động lại máy.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Nếu bạn không chặn cập nhật theo cách này, tất cả cập nhật hiện có và sẽ có trong tương lai từ Nintendo đều được Wii U tự động tải và cài đặt và không thể tắt tính năng này. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Vào "System Settings" > "Internet" > "Connect to the Internet" rồi bấm (X) để hiện các kết nối mạng hiện có
+1. Với mọi kết nối bạn muốn dùng, thực hiện như sau
+  + Chọn kết nối cần dùng
+  + Chọn "Change Settings"
+  + Chuyển đến tùy chọn thứ 2 và chọn "DNS"
+  + Đặt DNS thành "Don't Auto-Obtain"
+  + Đặt địa chỉ IP của DNS thành như sau
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Chọn "Confirm", sau đó bấm (B) để lưu
+  + Các IP này sẽ chặn cập nhật trên máy bạn
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Giờ bạn có thể chạy Homebrew Launcher trên CFW bằng cách bấm vào icon Homebrew Channel trên giao diện hệ thống.
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
+Bạn cũng có thể chạy WUP Installer GX2 trên CFW bằng cách bấm vào icon WUP Installer GX2 trên giao diện hệ thống.
 {: .notice--info}
 
-For increased safety, you *should* create a NAND backup of your device by following [NAND Backup](nand-backup).
+Để an toàn, bạn *nên* tạo backup NAND của máy theo hướng dẫn [Backup NAND](nand-backup).
 {: .notice--primary}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+Lưu ý: nếu muốn vào eshop với thiết lập DNS như bên dưới, bạn phải vào Homebrew Launcher chạy NNU-Patcher trước (NNU-Patcher chỉ là patch tạm thời, sẽ phải chạy lại để vào eshop mỗi lần bạn khởi động lại máy).
 {: .notice--info}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+Nếu muốn dump dĩa game thành format có thể chạy trên máy ko cần dĩa, vui lòng xem [disc2app](disc2app)
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+Nếu muốn cài hack cho vWii trên máy đã có CFW, vui lòng xem [Hack vWii](vwii-modding)
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+Nếu muốn xóa hack CFW để về máy chưa hack, vui lòng xem [Uninstall CFW](uninstall-cfw)
 {: .notice--warning}

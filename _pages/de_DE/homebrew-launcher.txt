@@ -22,8 +22,8 @@ Wir starten dies mithilfe des Wii U Webbrowsers, also muss sich deine Wii U mit 
 
 #### Section II - Homebrew Launcher
 
-1. If your device is on 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
+1. If your device is on firmware version 5.5.2, open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit
 1. Go to `usploit.hacks.guide`
   + Du solltest diese Adresse als Lesezeichen speichern, um Zeit beim Tippen zu sparen
 1. Select "Run Homebrew Launcher" for the first exploit attempt
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-Diese Methode setzt vorraus dass du den oben genannten Exploit *nach jedem Neustart* anwendest. It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
+Diese Methode setzt vorraus dass du den oben genannten Exploit *nach jedem Neustart* anwendest.
 
 ### Continue to [Mocha CFW](mocha-cfw)
 {: .notice--primary}
@@ -47,7 +47,7 @@ ___
 
 #### Haxchi
 
-Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen. Dies ist *unbedingt nötig* für Nutzer der Version 5.5.2 da der Web Exploit sehr instabil ist.
+Die zweite Methode ist ein günstiges DS Virtual Console Spiel zu kaufen um die Custom Firmware automatisch beim Systemstart zu patchen.
 
 ### Continue to [Haxchi](haxchi)
 {: .notice--primary}

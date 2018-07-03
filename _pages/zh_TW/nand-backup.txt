@@ -22,8 +22,8 @@ title: "NAND 備份"
 ### 操作說明
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
-1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
+1. 將 SD 卡插入至電腦中
+1. 解壓 Wii U NAND Dumper `.zip` 中的*所有內容*至 SD 卡的根目錄底下
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 1. 啟動 Homebrew Launcher
@@ -38,7 +38,7 @@ title: "NAND 備份"
   + 可以拿起您的爆米花慢慢等了；這過程可能會花好一段時間(依您的內存使用空間而定，有可能會到數小時)
 1. 當備份完成後，您的 Wii U 將自動重啟
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 從您的 SD 卡中複製 `slc.bin`、`slccmpt.bin`、`otp.bin`、`seeprom.bin`、以及各個`mlc.bin.part` 檔案至電腦中各個安全的位置中
 
 ___

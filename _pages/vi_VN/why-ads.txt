@@ -1,15 +1,15 @@
 ---
-title: "Why Ads?" #
+title: "Tại sao có quảng cáo?" #
 layout: single-no-ads
 ---
 
-This project is an extension of hundreds upon hundreds of hours of constant work.
+Dự án này là thành quả của hàng trăm giờ làm việc liên tục.
 
-We maintain this guide, for free, and ensure it is always up to date. Because of this effort, we feel that it is fair for us to attempt to gain a meager income from our work.
+Chúng tôi duy trì hướng dẫn này miễn phí, và đảm bảo rằng nó luôn được cập nhật. Vì công sức đã bỏ ra, tôi cảm thấy nó công bằng khi tôi kiếm thêm một chút từ công trình này.
 
-This site costs you nothing to use, and all that we display are non-intrusive ads. If you still have a problem with this, feel free to block these ads.
+Các bạn có thể sử dụng trang web miễn phí, và tất cả các trang đều không có quảng cáo gây khó chịu. Nếu bạn không vừa ý, bạn vẫn có thể chặn những quảng cáo đó.
 
-If you do block ads, we would like to also remind you of the [Donations](donations) page, but once again that is optional too.
+Nếu bạn chặn những quảng cáo đó, vẫn còn trang web cho việc [Ủng hộ](donations), và nó là tùy ý bạn.
 
-Thanks,<br>
+Xin cảm ơn,<br>
 Plailect & FlimFlam69

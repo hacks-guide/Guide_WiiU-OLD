@@ -65,9 +65,9 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 Există două modalități de a rula Custom Firmare (Firmware personalizat).
 
-Prima metodă este să rulați un exploit al browserului care va patchui sistemul. Din păcate, acest exploit este temporar, faptul că trebuie să faceți acest lucru ori de câte ori reporniți consola. În plus, în versiunea 5.5.2 exploitul este varză, opțiunea fiind mai puțin posibilă. Pentru consolele europene există ȘI MAI PUȚINE șanse să meargă, fiindcă trebuie să găsiți un exploit care să meargă pentru aceste console (în unele cazuri există 10% șanse să meargă în gatewayuri americane).
+Prima metodă este să rulați un exploit al browserului care va patchui sistemul. Din păcate, acest exploit este temporar, faptul că trebuie să faceți acest lucru ori de câte ori reporniți consola.
 
-A doua metodă este să cumpărați un joc DS Virtual Console care costă apr. 24 ron ca să puteți rula CFW când pornește consola. Aceasta este *o necesitate esențială* pentru utilizatorii care rulează 5.5.2 fiindcă, după cum v-am spus, exploitul de pe browser este instabil.
+A doua metodă este să cumpărați un joc DS Virtual Console care costă apr. 24 ron ca să puteți rula CFW când pornește consola.
 
 Jocul DS Virtual Console *trebuie* să fie o **copie legitimată** instalată în **memoria internă** a consolei. *Nu* puteți instala acest joc într-un dispozitiv USB.
 

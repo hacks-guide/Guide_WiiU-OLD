@@ -2,7 +2,7 @@
 title: "Haxchi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
@@ -14,32 +14,32 @@ Haxchi 是個能讓我們能從系統主選單直接啟動自製系統的漏洞�
 
 + 一份正版、安裝於 Wii U 系統內部儲存空間且可執行漏洞的 DS 虛擬主機遊戲
   + 若您尚未購買任何相容之遊戲，請見[新手入門](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ 於[新手入門](get-started)所取得的 `config.txt` (*並非*預設 Haxchi 所提供的 `config.txt`) 應早已在您 SD 卡中的 `/haxchi/` 資料夾中
+  + 若您使用的是預設的設定檔 (從 Haxchi `.zip` 壓縮檔中取得的)，您的 Haxchi 安裝過程或結果可能會與預期的有出入
   
 ### 操作說明
 
 1. 啟動 Haxchi installer
 1. 選擇您要安裝 Haxchi 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「A」鍵安裝
-1. 安裝完畢後，啟動您 Haxchi 改後的 DS 虛擬主機 遊戲(叫「Haxchi」)
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. 安裝完畢後，啟動您 Haxchi 改後的 DS 虛擬主機遊戲 (名為『Haxchi』)
+1. 您的主機將自動重啟並啟動自製韌體相關功能
+  + 這將允許我們透過系統主選單直接啟動任何未簽證的程式 (比如 Homebrew Launcher)
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+目前為止，您必須在每次開機後啟動修改過後的 DS 虛擬主機遊戲才能進入自製韌體。 下一個選用章節將會安裝 CBHC (Coldboot Haxchi)，它可幫您每次在開機時自動執行該項任務。
 {: .notice--info}
 
 {% capture notice-1 %}
 **您現在可以在啟動修改過後的 DS 虛擬主機 時按住不同按鈕以進入不同的開機選項。 每個選項的功能如下：**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + 無 -> 重啟至自製韌體中
+  + (A) -> 重啟至 Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### 繼續至 [冷啟 Haxchi](coldboot-haxchi)。
+### 繼續至 [Coldboot Haxchi](coldboot-haxchi)。
 {: .notice--primary}

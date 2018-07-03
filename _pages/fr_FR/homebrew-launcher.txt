@@ -23,7 +23,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 #### Section II - Homebrew Launcher
 
 1. Si votre console est en version 5.5.2, ouvrez les rideaux du navigateur web (ceux apparaissant sur le téléviseur)
-  + Cela améliore le taux de succès de l'exploit du navigateur web en version 5.5.2 (bien que ce ne soit toujours pas fiable)
+  + Cela augmente le taux de réussite de l'exploit du navigateur en version 5.5.2
 1. Rendez vous à l'adresse `usploit.hacks.guide`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Sélectionnez "Run Homebrew Launcher" pour le premier essai d'exploit
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*. Il n'est pas recommandé d'utiliser cette méthode sur une console en 5.5.2 du fait d'un web exploit non fiable.
+Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*.
 
 ### Continuer vers [Mocha CFW](mocha-cfw)
 {: .notice--primary}
@@ -47,7 +47,7 @@ ___
 
 #### Haxchi
 
-Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage. Elle est *essentiellement requise* pour les utilisateurs de la version 5.5.2 car l'exploit du navigateur pour cette version n'est pas fiable.
+Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage.
 
 ### Continuer vers [Haxchi](haxchi)
 {: .notice--primary}
