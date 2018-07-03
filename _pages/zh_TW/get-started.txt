@@ -44,14 +44,14 @@ title: "新手入門"
 1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
-1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
+1. 解壓 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
 1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
 1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
+1. 解壓 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
 1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
 1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
 1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
@@ -86,8 +86,8 @@ title: "新手入門"
 | 《觸摸！卡比》 |
 | 《卡比大集合》|
 | 《卡比之星：多洛奇團登場》 |
-| Legend of Zelda: Phantom Hourglass |
-| Legend of Zelda: Spirit Tracks |
+| 《薩爾達傳說：夢幻沙漏》 |
+| 《薩爾達傳說：大地汽笛》 |
 | 《瑪利歐與路易吉 RPG 2》 |
 | 《瑪利歐賽車 DS》 |
 | 《新 超級瑪利歐兄弟》 |
