@@ -1,55 +1,55 @@
 ---
-title: "Homebrew Launcher"
+Tựa: "Homebrew Launcher"
 ---
 
 {% include toc title="Table of Contents" %}
 
-### Required Reading
+### Điều cần đọc
 
-The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+Homebrew Launcher là một ứng dụng homebrew liệt kê và chạy được các ứng dụng homebrew khác có trên thẻ SD.
 
-We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
+Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web có sẵn của Wii U, nên máy bạn phải đang kết nối với internet.
 
-### Instructions
+### Hướng dẫn
 
-#### Section I - Preparing Browser
+#### Phần I - Chuẩn bị cho trình duyệt
 
-1. Launch the browser on your device
-1. Go to the browser settings and select "Reset Save Data"
-  + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
-1. Return to the browser
+1. Chạy trình duyệt web trên máy
+1. Vào trong cài đặt của trình duyệt, chọn "Reset Save Data"
+  + Việc này giúp tránh xảy ra vấn đề khi cài exploit trên trình duyệt
+  + Nó cũng xóa hết các thiết lập đã có trong setting, history, và bookmark
+1. Làm xong, bạn bấm về lại trang chính của trình duyệt
 
-#### Section II - Homebrew Launcher
+### Phần IV - cài Homebrew Launcher
 
-1. If your device is on 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit (though it is still unreliable)
-1. Go to `usploit.hacks.guide`
-  + You may want to bookmark this address to save time on typing in the future
-1. Select "Run Homebrew Launcher" for the first exploit attempt
-  + This may take many tries
-  + If it freezes, just force the console to power off by holding the power button, then try again
-1. Your console should load the Homebrew Launcher
+1. Nếu máy bạn ở firm 5.5.2, hãy mở cái màn che trên trình duyệt trước (browser curtain)
+  + Làm vậy sẽ tăng khả năng thành công của exploit
+1. Đi đến `usploit.hacks.guide`
+  + Có thể bookmark lại địa chỉ trên để lần sau không phải gõ lại
+1. Chọn "Run Homebrew Launcher" để cài exploit
+  + Bước này có thể sẽ phải lặp lại vài lần mới thành công
+  + Nếu máy treo, tắt máy bằng cách giữ nút nguồn, rồi thử lại
+1. Lúc này máy sẽ hiện giao diện của Homebrew Launcher
 
 ___
-### Methods
+### Cách dạng hack hiện có
 
 ___
 
 #### Mocha CFW
 
-This method requires that you rerun the web exploit used above *after every reboot*. It is not recommended that you use this on 5.5.2 due to the unreliable web exploit.
+Cách này phải chạy lại exploit trên trình duyệt mỗi lần tắt máy mở lại*. Không nên dùng cách hack này nếu máy bạn ở firm 5.5.2 vì exploit trên trình duyệt ở firm này ít khi thành công.
 
-### Continue to [Mocha CFW](mocha-cfw)
+### Tiếp tục tới [Mocha CFW](mocha-cfw)
 {: .notice--primary}
 
 ___
 
 #### Haxchi
 
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot. This is *essentially required* for users on 5.5.2 as the web exploit for that version is extremely unreliable.
+Cách này chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy. Cách này rất cần thiết với máy firm 5.5.2 vì exploit trên trình duyệt ở firm này ít khi thành công.
 
-### Continue to [Haxchi](haxchi)
+### Tiếp tục tới [Haxchi](haxchi)
 {: .notice--primary}
 
 ___
