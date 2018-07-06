@@ -62,5 +62,5 @@ Nếu quá trình kiểm tra cho ra lỗi 'Data LOST: 0.00 Byte (0 sectors)` ngh
 Nếu quá trình kiểm tra đưa ra các kết quả khác, thì thẻ nhớ của bạn có thể đã bị lỗi và bạn cần thay thế nó!
 {: .notice--danger}
 
-### Quay lại bước [Bắt đầu](bat-dau)
+### Quay lại bước [Bắt đầu](get-started)
 {: .notice--primary}
