@@ -13,8 +13,8 @@ Haxchi là exploit cho phép chạy CFW trực tiếp từ giao diện hệ th�
 ### Cần chuẩn bị gì
 
 + Máy cần cài sẵn bản game được mua hợp pháp từ eshop (ko phải game lậu) của một trong các game DS thích hợp
-  + Nếu bạn chưa cài game DS chạy được hack, vui lòng xem [Get Started](get-started)
-+ File `config.txt` được cung cấp trong [Get Started](get-started) (*không phải* file`config.txt`mặc định của Haxchi) đã được bỏ vào thư mục `/haxchi/` trên thẻ nhớ
+  + Nếu bạn chưa cài game DS chạy được hack, vui lòng xem [Bắt đầu](get-started)
++ File `config.txt` được cung cấp trong [Bắt đầu](get-started) (*không phải* file`config.txt`mặc định của Haxchi) đã được bỏ vào thư mục `/haxchi/` trên thẻ nhớ
   + Sử dụng file config mặc định của Haxchi sẽ gây ra vấn đề khó lường trước trong quá trình cài đặt Haxchi
   
 ### Hướng dẫn
