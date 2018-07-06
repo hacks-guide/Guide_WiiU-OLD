@@ -2,36 +2,36 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+Trang này sẽ hướng dẫn bạn cách sử dụng F3X để kiểm tra lỗi trên thẻ SD.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Tuỳ vào dung lượng thẻ SD và tốc độ máy tính của bạn, quá trình kiểm tra có thể chạy mất vài tiếng!
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+Trang này chỉ dành cho người sử dụng hệ điều hành Mac. Nếu bạn không sử dụng hệ điều hành Mac, hãy xem trang [H2testw (windows)](h2testw-(windows)) hoặc [F3 (Linux)](f3-(linux)).
 
-### What You Need
+### Cần chuẩn bị gì
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* Phiên bản mới nhất của [F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### Hướng dẫn
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. Giải nén tập tin F3X '.zip'
+1. Lắp thẻ nhớ SD vào máy tính
+1. Chạy ứng dụng F3X
+1. Chọn thẻ nhớ của bạn
+1. Chọn "Start Test"
+1. Đợi đến khi quá trình hoàn tất.
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+Nếu kết quả kiểm tra là `Success! Your card is ok!` thì thẻ SD của bạn tốt và bạn có thể xoá tất cả những file `.h2w` trên thẻ SD
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Nếu quá trình kiểm tra đưa ra các kết quả khác, thì thẻ nhớ của bạn có thể đã bị lỗi và bạn cần thay thế nó!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Quay lại bước [Bắt đầu](bat-dau)
 {: .notice--primary}
