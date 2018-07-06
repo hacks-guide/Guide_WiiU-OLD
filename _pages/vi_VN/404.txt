@@ -1,7 +1,7 @@
 ---
-title: "Page Not Found" #
+title: "Không tìm thấy trang" #
 layout: single-no-ads
-excerpt: "Page not found. Your pixels are in another canvas." #
+excerpt: "Không tìm thấy trang. Your pixels are in another canvas." #
 sitemap: false
 ---
 
