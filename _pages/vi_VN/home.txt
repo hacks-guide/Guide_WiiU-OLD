@@ -64,5 +64,5 @@ Khi làm theo đến cuối hướng dẫn này, máy Wii U chưa hack của b�
 
 ___
 
-### Quay lại bước [Bắt đầu](bat-dau)
+### Quay lại bước [Bắt đầu](get-started)
 {: .notice--primary}
