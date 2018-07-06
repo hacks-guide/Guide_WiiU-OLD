@@ -1,9 +1,9 @@
 ---
 title: "Không tìm thấy trang" #
 layout: single-no-ads
-excerpt: "Không tìm thấy trang. Your pixels are in another canvas." #
+excerpt: "Không tìm thấy trang. Điểm ảnh của bạn đang nằm ở bức tranh khác."#
 sitemap: false
 ---
 
-Sorry, but the page you were trying to view does not exist.
+Xin lỗi, trang bạn muốn xem không tồn tại.
 {: .notice--info}
