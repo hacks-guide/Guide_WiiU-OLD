@@ -2,39 +2,39 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This page will walk you through the process of checking your SD card for errors using h2testw.
+Trang này sẽ hướng dẫn bạn cách sử dụng h2testw để kiểm tra lỗi trên thẻ SD.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Tuỳ vào dung lượng thẻ SD và tốc độ máy tính của bạn, quá trình kiểm tra có thể chạy mất vài tiếng!
 
-This page is for Windows users only. If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
+Trang này chỉ dành cho người dùng Windows. Nếu không dùng Windows, bạn có thể xem trang [F3 (linux)](f3-(linux)) hay [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Cần chuẩn bị gì
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* Phiên bản mới nhất của [h2testw] (http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### Hướng dẫn
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. Chép file `h2testw.exe` từ file h2testw '.zip' ra màn hình chính
+1. Lắp thẻ nhớ SD vào máy tính
+1. Chạy 'h2testw.exe'
+1. Chọn "English"
+1. Click vào "Select target"
+1. Chọn ký tự đại diện cho thẻ nhớ SD của bạn
+1. Đảm bảo rằng bạn đã chọn mục "all available space"
+1. Click vào "Write + Verify"
+1. Đợi tới khi quá trình kiểm tra hoàn tất
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on the SD card
+Nếu có thông báo `Test finished without errors`, thẻ SD của bạn có thể sử dụng tốt và bạn có thể xóa tất cả các file có đuôi `.h2w` trong thẻ SD
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Nếu quá trình kiểm tra đưa ra các kết quả khác, thì thẻ nhớ của bạn có thể đã bị lỗi và bạn cần thay thế nó!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Quay lại bước [Bắt đầu](bat-dau)
 {: .notice--primary}
