@@ -22,8 +22,8 @@ Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web c�
 
 ### Phần IV - cài Homebrew Launcher
 
-1. If your device is on firmware version 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
+1. Nếu máy bạn ở firm 5.5.2, hãy mở cái màn che trên trình duyệt trước (browser curtain)
+  + Cách này làm tăng tỷ lệ thành công của exploit trên trình duyệt ở firmware 5.5.2
 1. Đi đến `usploit.hacks.guide`
   + Có thể bookmark lại địa chỉ trên để lần sau không phải gõ lại
 1. Chọn "Run Homebrew Launcher" để cài exploit
