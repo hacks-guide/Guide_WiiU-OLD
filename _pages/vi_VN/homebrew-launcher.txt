@@ -22,8 +22,8 @@ Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web c�
 
 ### Phần IV - cài Homebrew Launcher
 
-1. Nếu máy bạn ở firm 5.5.2, hãy mở cái màn che trên trình duyệt trước (browser curtain)
-  + Làm vậy sẽ tăng khả năng thành công của exploit
+1. If your device is on firmware version 5.5.2, open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit
 1. Đi đến `usploit.hacks.guide`
   + Có thể bookmark lại địa chỉ trên để lần sau không phải gõ lại
 1. Chọn "Run Homebrew Launcher" để cài exploit
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-Cách này phải chạy lại exploit trên trình duyệt mỗi lần tắt máy mở lại*. Không nên dùng cách hack này nếu máy bạn ở firm 5.5.2 vì exploit trên trình duyệt ở firm này ít khi thành công.
+Cách này phải chạy lại exploit trên trình duyệt mỗi lần tắt máy mở lại*.
 
 ### Tiếp tục tới [Mocha CFW](mocha-cfw)
 {: .notice--primary}
@@ -47,7 +47,7 @@ ___
 
 #### Haxchi
 
-Cách này chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy. Cách này rất cần thiết với máy firm 5.5.2 vì exploit trên trình duyệt ở firm này ít khi thành công.
+Cách này chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy.
 
 ### Tiếp tục tới [Haxchi](haxchi)
 {: .notice--primary}
