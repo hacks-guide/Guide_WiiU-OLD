@@ -13,7 +13,7 @@ sitemap: false
 + [Ủng hộ](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
++ [Câu hỏi thường gặp](faq)
 + [Bắt Đầu](get-started)
 + [H2testw (Windows)](h2testw-(windows))
 + [Trang chủ](/)
