@@ -66,9 +66,9 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 
 Có 2 cách để cài CFW cho Wii U.
 
-Cách đầu tiên là chạy exploit trên trình duyệt web. Nhược điểm của cách này là phải *làm lại* mỗi lần khởi động máy. Hơn nữa exploit trên trình duyệt rất bất ổn ở firmware 5.5.2, nên nó càng khó sử dụng hơn ở firm này.
+Cách đầu tiên là chạy exploit trên trình duyệt web. Nhược điểm của cách này là phải *làm lại* mỗi lần khởi động máy.
 
-Cách thứ hai chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy. Đây *hầu như* là cách hack được dùng trên firmware 5.5.2 vì như đã nhắc ở trên, exploit trên trình duyệt không ổn định trên firmware này.
+Cách thứ hai chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy.
 
 + Bản game DS dùng làm game mồi phải được mua hợp pháp từ eshop (ko phải game lậu) , và cài trên bộ nhớ trong của máy. *Không được* cài game mồi DS này vào bộ nhớ của thiết bị lưu trữ usb.
 
