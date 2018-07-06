@@ -7,7 +7,7 @@ header:
   overlay_filter: 0.5
   caption:
 
-excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌體改成冷起 Haxchi。<br />"
+excerpt: "最完整的 Wii U 改機教戰手冊，<br />教您如何從原廠韌體改成Coldboot Haxchi。<br />"
 ---
 
 有關於其他主機的改機手冊，請見 [Hacks.Guide](https://hacks.guide)。
