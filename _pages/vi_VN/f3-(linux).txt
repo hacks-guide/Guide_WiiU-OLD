@@ -2,29 +2,29 @@
 title: "F3 (Linux)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This is an add-on section for checking your SD card for errors using F3.
+Đây là phần tiện ích để kiểm tra lỗi trên thẻ SD bằng F3.
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+Tuỳ vào dung lượng thẻ SD và tốc độ máy tính của bạn, quá trình kiểm tra có thể chạy mất vài tiếng!
 
-This page is for Linux users only. If you are not on Linux, check out the [H2testw (windows)](h2testw-(windows)) or [F3X (mac)](f3x-(mac)) pages.
+Trang này chỉ dành cho người sử dụng hệ điều hành Linux. Nếu bạn không sử dụng Linux, hãy xem trang [H2testw (windows)](h2testw-(windows)) hoặc [F3X (mac)](f3x-(mac)).
 
-### What You Need
+### Cần chuẩn bị gì
 
-* The latest version of [F3](https://github.com/AltraMayor/f3/releases/latest)
+* Phiên bản mới nhất của [F3](https://github.com/AltraMayor/f3/releases/latest)
 
-### Instructions
+### Hướng dẫn
 
-1. Unzip the f3 `.zip` file
-1. `cd` into the f3 directory
-1. Run `make` to compile F3
-1. Insert your SD card into your computer
-1. Mount your SD card
-1. Run `./f3write <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Giải nén tập tin`.zip` của f3
+1. Chạy lệnh 'cd' trong thư mục chứa f3
+1. Chạy lệnh `make` để compile F3
+1. Lắp thẻ nhớ SD vào máy tính
+1. Đọc dữ liệu thẻ nhớ SD (Mount)
+1. Chạy lệnh `./f3write <điểm gán thẻ SD (mount point)>`
+1. Đợi đến khi quá trình hoàn tất. Dưới đây là kết quả ví dụ.
 
 ~~~ bash
 $ ./f3write /media/michel/6135-3363/
@@ -36,8 +36,8 @@ Free space: 0.00 Byte
 Average Writing speed: 4.90 MB/s
 ~~~
 
-1. Run `./f3read <your sd card mount point>`
-1. Wait until the process is complete. See below for an example output.
+1. Chạy lệnh `./f3read <điểm gán thẻ SD (mount point)>`
+1. Đợi đến khi quá trình hoàn tất. Dưới đây là kết quả ví dụ.
 
 ~~~ bash
 $ ./f3read /media/michel/6135-3363/
@@ -56,11 +56,11 @@ Average Reading speed: 9.42 MB/s
 
 ___
 
-If the test shows the result `Data LOST: 0.00 Byte (0 sectors)` your SD card is good and you can delete all `.h2w` files on your SD card
+Nếu quá trình kiểm tra cho ra lỗi 'Data LOST: 0.00 Byte (0 sectors)` nghĩa là thẻ nhớ SD của bạn hoạt động bình thường và bạn có thể xóa các tập tin có đuôi `.h2w` trong thẻ nhớ
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+Nếu quá trình kiểm tra đưa ra các kết quả khác, thì thẻ nhớ của bạn có thể đã bị lỗi và bạn cần thay thế nó!
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### Quay lại bước [Bắt đầu](bat-dau)
 {: .notice--primary}
