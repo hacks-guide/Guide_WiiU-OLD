@@ -22,8 +22,8 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 #### 第二節 — Homebrew Launcher
 
-1. 如果您的主機為 5.5.2，拉開瀏覽器窗簾
-  + 這將提高 5.5.2 瀏覽器漏洞的成功率 (雖然仍不是很可靠)
+1. If your device is on firmware version 5.5.2, open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit
 1. 前往 `usploit.hacks.guide`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. 於第一次嘗試時選擇『Run Homebrew Launcher』
@@ -38,7 +38,7 @@ ___
 
 #### Mocha CFW
 
-本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。 因為此瀏覽器漏洞在 5.5.2 主機中極為不可靠，建議您不要在持有該韌體版本的主機上嘗試本方式。
+本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。
 
 ### 繼續至 [Mocha CFW](mocha-cfw)
 {: .notice--primary}
@@ -47,7 +47,7 @@ ___
 
 #### Haxchi
 
-本方法為將透過個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 這基本上對版本 5.5.2 的使用者來說是*必要*的，因為此版本的瀏覽器漏洞非常地不可靠。
+本方法為將透過個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。
 
 ### 繼續至 [Haxchi](haxchi)
 {: .notice--primary}
