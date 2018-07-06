@@ -22,8 +22,8 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 #### Avsnitt II - Homebrew Launcher
 
-1. Om din konsol är på 5.5.2, öppna webbläsarens "gardiner"
-  + Detta ökar chanserna för att nyttjandet av säkerhetshålet på webbläsaren i 5.5.2 kommer lyckas (även om det fortfarande är opålitligt)
+1. If your device is on firmware version 5.5.2, open the browser curtains
+  + This improves the success rate of the 5.5.2 browser exploit
 1. Gå till `usploit.hacks.guide`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
@@ -38,7 +38,7 @@ ___
 
 ### Mocha CFW
 
-Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*. Om ditt system har firmware version 5.5.2 rekommenderas inte denna metod på grund av att säkerhetshålen som utnyttjas lyckas så mycket mer sällan än lägre versioner av firmware.
+Den här metoden kräver att du nyttjar säkerhetshålet i webbläsaren enligt beskrivningen ovanför *efter varje omstart*.
 
 ### Fortsätt till [Mocha CFW](mocha-cfw)
 {: .notice--primary}
@@ -47,7 +47,7 @@ ___
 
 #### Haxchi
 
-Den här metoden använder ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål för att starta custom firmware automatiskt när systemet startas. Det är *i stort sett ett krav* för användare på 5.5.2 eftersom säkerhetshålet i webbläsaren är för opålitligt.
+Den här metoden använder ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål för att starta custom firmware automatiskt när systemet startas.
 
 ### Fortsätt till [Haxchi](haxchi)
 {: .notice--primary}
