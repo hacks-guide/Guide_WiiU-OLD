@@ -1,39 +1,39 @@
 ---
-title: "FAQ"
+title: "Câu hỏi thường gặp"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+<a name="faq_latestfw" />**Câu hỏi:** *Tôi đang dùng phiên bản firmware hệ thống mới nhất, máy của tôi có thể hack được không?*    
+**Trả lời:** Có
 
-<a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should  I do with it?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.2. Older versions are incompatible for now.
+<a name="faq_oldfw" />**Câu hỏi:** *Tôi đang dùng máy Wii U có firmware X.X.X . Tôi có thể làm được gì với nó?*    
+**Trả lời:** Hướng dẫn này chỉ dành cho firmware từ 5.5.0 tới 5.5.2. Các version khác không tương thích.
 
-<a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
-**A:** No! The version 5.5.2 has been released well after the end of production. That's why you must always ensure that you have set DNS servers that will block updates.
+<a name="faq_updates" />**Câu hỏi:** *Giờ Nintendo ngừng sản xuất Wii U rồi, vậy không còn bản cập nhật nào phải không?*     
+**Trả lời:** Không! Phiên bản 5.5.2 được phát hành ngay sau công bố ngừng sản xuất. Vậy nên bạn cần bảo đảm máy luôn được thiết lập DNS chặn cập nhật.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
-**A:** No! You must always ensure that you have set DNS servers that will block updates.
+<a name="faq_update" />**Câu hỏi:** *Có an toàn không khi tôi cập nhật máy Wii U đang có CFW?*    
+**Trả lời:** Không! Bạn luôn cần bảo đảm máy luôn được thiết lập DNS chặn cập nhật.
 
-<a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
-**A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
+<a name="faq_updatemocha" />**Câu hỏi:** *Tôi phải làm sao để cập nhật Mocha CFW bản mới nhất?*    
+**Trả lời:** Bạn có thể tải bản mới nhất của [Mocha CFW](https://github.com/dimok789/mocha/releases/latest) , rồi chép file `mocha.elf`trong file `.zip` của Mocha CFW vào thư mục `/wiiu/apps/mocha/` trên thẻ nhớ (dùng tùy chọn chép đè)
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+<a name="faq_risky" />**Câu hỏi:** *Việc hack máy sẽ nguy hiểm tới mức nào?*    
+**Trả lời:** Brick rất hiếm khi xảy ra, nguyên nhân thường do không làm đúng các bước trong hướng dẫn, hay cố tình không làm theo hướng dẫn.
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+<a name="faq_homebrew" />**Câu hỏi:** *Tôi có thể chạy phần mềm homebrew và giả lập sau khi làm cái này không?*    
+**Trả lời:** Có! Chạy Custom Firmware không chỉ cho bạn khả năng sử dụng Homebrew Launcher, mà nó còn giúp bạn có hack trên mọi phiên bản phần mềm, nghĩa là bạn có thể có nó vĩnh viễn, kể cả khi có bản cập nhật mới.
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Yes! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+<a name="faq_regionfree" />**Câu hỏi:** *Tôi có thể chơi game ở vùng khác với máy mình sau khi làm cái này không?*    
+**Trả lời:** Có! Trả lời:** CFW có hỗ trợ các bản vá Region Free, giúp cho người dùng cài đặt game từ bất kỳ vùng nào mà không cần bất kỳ công đoạn hoặc chỉnh sửa nào.
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<a name="faq_support" />**Câu hỏi:** *Tôi có thể tìm trợ giúp ở đâu?*    
+Trả lời:** Để được hỗ trợ, bạn hãy vào [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
-<a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+<a name="faq_sdsize" />**Câu hỏi:** *Tôi cần dùng thẻ nhớ SD dung lượng bao nhiêu?*    
+Trả lời:** Thẻ SD cần có dung lượng ít nhất 64G nếu bạn dùng máy Wii U màu đen (32GB) Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+<a name="faq_NNID" />**Câu hỏi:** *Tôi có thể giữ tài khoản Nintendo (NNID) của mình không?*    
+**Trả lời:** Nếu khi bắt đầu bạn đã có NNID và bạn làm theo từng bước, khi làm xong bạn sẽ giữ được NNID của mình.
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+<a name="faq_nopc" />**Câu hỏi:** *Tôi có thể làm cái này mà không có máy vi tính không. (ví dụ, dùng điện thoại Android)?*    
+**Trả lời:** Miễn là bạn có khả năng chép file lên một thẻ nhớ SD, bạn có thể dùng bất kỳ máy nào!
