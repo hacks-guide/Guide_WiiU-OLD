@@ -22,8 +22,8 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 #### Avsnitt II - Homebrew Launcher
 
-1. If your device is on firmware version 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
+1. Om din konsol är på firmware-version 5.5.2, öppna webbläsarens "gardiner"
+  + Detta ökar chansen att lyckas nyttja säkerhetshålet i webbläsaren på 5.5.2
 1. Gå till `usploit.hacks.guide`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
