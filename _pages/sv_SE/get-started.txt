@@ -65,9 +65,9 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 Det finns två metoder för att köra custom firmware på Wii U.
 
-Den första metoden är att nyttja ett säkerhetshål i webbläsaren som ser till att patcha systemet. Tyvärr *kräver* detta säkerhetshål att man nyttjar det efter varje omstart. Dessutom är säkerhetshålet i version 5.5.2 mycket mer opålitligt vilket gör det till ett ännu mer ointressant alternativ.
+Den första metoden är att nyttja ett säkerhetshål i webbläsaren som ser till att patcha systemet. Tyvärr *kräver* detta säkerhetshål att man nyttjar det efter varje omstart.
 
-Den andra metoden är att köpa ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål och använda för att starta custom firmware automatiskt när systemet startas. Det här *krävs i stort sett* för användare på 5.5.2 på grund av den dåliga pålitligheten när man använder säkerhetshålet i webbläsaren.
+Den andra metoden är att köpa ett av de billiga DS Virtual Console-spelen som har ett säkerhetshål och använda för att starta custom firmware automatiskt när systemet startas.
 
 DS Virtual Console-spelet *måste* vara en **legitimt inköpt** kopia av spelet installerat på det **interna minnet** på din enhet. Du *kan inte* installera DS Virtual Console-spelet på en USB-enhet.
 

@@ -1,47 +1,47 @@
 ---
-title: "NAND Backup"
+title: "Backup NAND"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Mục lục" %}
 
-### Required Reading
+### Điều cần đọc
 
-This is an optional page which will create a backup of your NAND on your SD card, which will allow you to restore your device using a hardmod in the case of a brick.
+Bước này không bắt buộc, nhưng nó sẽ tạo bản sao lưu (backup) NAND của máy trên thẻ SD, sau này có bị brick có thể phục hồi lại bằng cách hardmod.
 
-If you have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
 
-Note that Mocha CFW users should follow these instructions after a reboot *without* running Mocha CFW (using the browser based Homebrew Launcher) to prevent Wii U NAND Dumper from freezing.
+Lưu ý: Người dùng Mocha CFW cần làm theo hướng dẫn này sau khi khởi động lại máy mà không chạy lại Mocha CFW (qua Homebrew Launcher trên trình duyệt), nếu không Wii U NAND Dumper sẽ bị treo.
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằng [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), hay [F3X (Mac)](f3x-(mac))!
 {: .notice--warning}
 
-### What You Need
+### Cần chuẩn bị gì
 
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 
-### Instructions
+### Hướng dẫn
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
-1. Reinsert your SD card into your device
-1. Power on your device
-1. Launch the Homebrew Launcher
-1. Launch nanddumper
-1. Use the D-Pad to set the following options:
+1. Tắt máy đi
+1. Lắp thẻ nhớ SD vào máy tính
+1. Copy các file trong gói Wii U NAND Dumper `.zip` vào thư mục gốc của thẻ nhớ
+1. Lắp thẻ nhớ SD vào thiết bị
+1. Bật thiết bị lên
+1. Mở Homebrew Launcher
+1. Mở nanddumper
+1. Dùng D-pad chọn như sau:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
   + Dump MLC (8GB/32GB): **yes**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
-1. Press (A) to dump your NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on how much used space you have on the internal memory)
-1. When it has completed, your Wii U will reboot automatically
-1. Power off your device
-1. Insert your SD card into your computer
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` file from the root of your SD card to a safe location on your computer
+1. Bấm (A) để dump NAND
+  + Cần kiên nhẫn vì cuá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào dung lượng trống còn lại của bộ nhớ trong của máy)
+1. Khi dump xong, máy Wii U sẽ tự khởi động lại
+1. Tắt máy đi
+1. Lắp thẻ nhớ SD vào máy tính
+1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
 
 ___
 
-If you ever brick your device, you will be able to use this backup to restore it using a hardmod.
+Nếu bị brick, bạn có thể dùng bản backup này để phục hồi máy thông qua cách hardmod.
 {: .notice--info}

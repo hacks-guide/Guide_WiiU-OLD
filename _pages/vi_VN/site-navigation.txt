@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "Chỉ Mục Trang Web" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**Tất cả**
 
 + [Coldboot Haxchi](coldboot-haxchi)
-+ [Credits](credits)
++ [Đóng góp](credits)
 + [disc2app](disc2app)
-+ [Donations](donations)
++ [Ủng hộ](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [Get Started](get-started)
++ [Câu hỏi thường gặp](faq)
++ [Bắt Đầu](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [Trang chủ](/)
 + [Haxchi](haxchi)
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
-+ [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [Gỡ Mocha CFW](uninstall-cfw)
++ [Hack vWii](vwii-modding)
++ [Sao lại có QC?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

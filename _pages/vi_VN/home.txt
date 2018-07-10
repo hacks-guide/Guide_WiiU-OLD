@@ -1,68 +1,68 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Hướng dẫn hack Wii U" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "Hướng dẫn đầy đủ để cài custom firmware (CFW) cho Wii U,<br /> từ phiên bản chưa hack (OFW) tới Coldboot Haxchi.<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+Để có hướng dẫn đầy đủ về homebrew và Cfw cho các thiết bị khác hãy xem [Hacks.Guide](https://hacks.guide).
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+Để tránh các sự cố ko thể cứu vãn, mong các bạn hãy đọc thật kỹ tất cả các trang giới thiệu (bao gồm cả trang này!) trước khi tiếp tục.
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+Hướng dẫn này chỉ dành cho máy bán lẻ (tức máy mua ngoài cửa hàng, không phải máy dành cho nhà phát triển của Nintendo)!
 {: .notice--danger}
 
 {% capture notice-1 %}
-This guide is available in other languages!    
-Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+Hướng dẫn này còn được viết dưới nhiều ngôn ngữ khác!    
+Nhấp vào biểu tượng <i class="fa fa-language" aria-hidden="true"></i> ở trên cùng bên phải của trang để thay đổi ngôn ngữ.    
+Ngoài ra, các bạn có thể click vào [here](https://crowdin.com/project/wii-u-guide) để đóng góp giữ cho các bản dịch này cập nhật.
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## Homebrew là gì?
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) thường được dùng để nói tới những phần mềm không được ủy quyền bởi Nintendo. Chúng bao gồm các công cụ homebrew, ứng dụng (app), trò chơi (game) và trình giả lập (emulator).
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+Chạy homebrew trên máy game của bạn là miễn phí 100%, chỉ cần sử dụng trình duyệt của hệ thống.
 
-## What is Custom Firmware?
+## Custom Firmware là gì?
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware** ("CFW") cho phép bạn sử dụng các dạng hack mà homebrew trong userland khó thực hiện được, và tất nhiên nó cũng cho phép tất cả chức năng của homebrew trong userland.
 
-CFW can be easily set up on any console in any region on the latest version.
+CFW có thể dễ dàng cài đặt trên bất kỳ máy nào, ở bất kỳ hệ ngôn ngữ hay phân vùng (region) nào đang chạy phiên bản firmware mới nhất.
 
-## What does this guide install?
+## Bản hướng dẫn này giúp cài đặt gì?
 
-This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+Khi làm theo đến cuối hướng dẫn này, máy Wii U chưa hack của bạn sẽ trở thành máy đã cài đặt CFW Coldboot Haxchi. Một số bước sẽ yêu cầu cài đặt và sử dụng homebrew, nhưng mục đích cuối vẫn là cài được Custom Firmware.
 
-## What can I do with Custom Firmware?
+## Tôi có thể làm gì với Custom Firmware?
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your system menu
-+ Dump your discs to a format you can install, and play them without needing the disc
++ Chơi tất cả dĩa game và game trên eShop, không giới hạn phân vùng
++ Sao lưu, sửa, và khôi phục save cho phần lớn game
++ Chơi game của các máy thế hệ trước bằng cách sử dụng giả lập riêng hay RetroArch.
++ Cài đặt homebrew vào máy, và cho hiện icon trên màn hình Home
++ Dump dĩa game của bạn ra định dạng có thể cài và chơi trực tiếp trên máy mà không cần dùng thẻ game
 
-## What do I need to know before starting?
+## Tôi cần biết gì trước khi bắt đầu?
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.2.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ **Trước khi bắt đầu bản hướng dẫn, bạn cần biết nguy cơ của việc hack máy Wii U: MỖI LẦN bạn thực hiện tùy chỉnh hệ thống trái phép, luôn có khả năng máy sẽ bị brick KHÔNG PHỤC HỒI ĐƯỢC. Dù khá hiếm khi xảy ra, nguy cơ vẫn luôn có nên cần đảm bảo rằng bạn làm theo TẤT CẢ hướng dẫn MỘT CÁCH CHÍNH XÁC.**
++ Hướng dẫn này áp dụng trên mọi máy Wii U thuộc mọi phân vùng có firmware từ 5.5.0 tới 5.5.2.
++ Nếu hoàn thành tất cả các bước, bạn sẽ không bị mất dữ liệu nào và giữ được mọi thiết lập sẵn có (game, NNID, save game, v. v... đều được lưu giữ).
++ Thẻ SD dùng để hack phải có dung lượng ít nhất từ 16GB cho đến 32GB để có đủ chỗ dump và cài game.
++ Thẻ SD phải ở định dạng [MBR, không phải GPT] , xem thêm tại (http://www.howtogeek.com/245610/).
++ Nếu bạn cần format lại một thẻ SD mới, hãy dùng [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) và chỉnh Allocation Unit Size là 32K (32768).
 
 ___
 
-### Continue to [Get Started](get-started)
+### Quay lại bước [Bắt đầu](get-started)
 {: .notice--primary}

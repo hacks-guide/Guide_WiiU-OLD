@@ -2,19 +2,19 @@
 title: "新手入門"
 ---
 
-{% include toc title="目錄" %}
+{% include toc title="條目內容" %}
 
 ### 必讀事項
 
-下列步驟將協助您準備您的 SD 卡以安裝 冷起 Haxchi。
+下列步驟將協助您準備您的 SD 卡安裝 Coldboot Haxchi 自製韌體。
 
 在進行前，請先確保您的 Wii U 系統版本為 5.5.0、5.5.1 或 5.5.2。 較舊的系統版本是不相容的。
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). 大部分的 SD 卡預設都是以這個格式出廠的。
+您的 SD 卡格式必須為 FAT32 (其配置單位大小需為 32K (32768))。 大部分的 SD 卡都是以這個格式出廠的。
 
-如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
+如果您想要在 Windows 上格式化 SD 卡的話，請不要使用 Windows 內建的格式化工具，因為它可能會造成些問題。 請使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，並將配置單位大小設為 32K (32768)。
 
 *不要*將您的 SD 卡命名為 `wiiu`，否則將會造成問題。
 
@@ -25,39 +25,39 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 
 * [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.3) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
-* The latest releases of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* 最新版的 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* 最新版的 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
+* 舊版 (v1.3) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(選擇 channel `.zip` 檔案)*
+* 最新版的 [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(兩個 `.zip` 檔案)*
+* 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### 操作說明
 
 #### 第一節 — 準備工作
 
 1. 關閉您的主機
-1. 將 SD 卡插入電腦
+1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
-1. 複製 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
-1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
-1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
+1. 解壓 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
+1. 解壓 Homebrew Launcher (v1.3) `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 Haxchi `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 CBHC `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 複製 `config.txt` 至您 SD 卡的 `/haxchi/` 資料夾中 (覆蓋現有的 `config.txt` 檔案)
 1. 建立一個新的 `hbc` 資料夾於 SD 卡的 `/install/` 資料夾中
-1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
-1. 複製 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
-1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
-1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
-1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
+1. 解壓 Homebrew Launcher Channel `.zip` 中的*所有內容*至 SD 卡的 `/install/hbc/` 資料夾中
+1. 解壓 savemii_mod `.zip` 中的 `savemii_mod` 資料夾至 SD 卡的 `/wiiu/apps/` 資料夾中
+1. 解壓 WUP Installer GX2 `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 disc2app `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 hid\_to\_vpad `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 NNU-Patcher `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 解壓 Mocha CFW `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. 複製 `config.ini` 至您 SD 卡的 `/wiiu/apps/mocha/` 資料夾中
 1. 將 SD 卡插回主機中
 1. 啟動您的主機
 
@@ -65,9 +65,9 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 
 目前有兩種方法可以使用 Wii U 自製韌體。
 
-第一種方法為透過瀏覽器漏洞進行系統修改。 較麻煩的是這漏洞*必須*在每次重啟後重新執行一次。 此外，與版本 5.5.2 相容的瀏覽器漏洞非常不可靠，因此這是一個不太實用的選項。
+第一種方法為透過瀏覽器漏洞進行系統修改。 較麻煩的是這漏洞*必須*在每次重啟後重新執行一次。
 
-第二種方法為購買一款非常便宜且有漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。 因上述瀏覽器漏洞的不穩性，這基本上對版本 5.5.2 的使用者來說是*必要*的。
+第二種方法為購買一款非常便宜且有漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。
 
 您所想要使用的 DS 虛擬主機遊戲*必須*是透過*正版管道購買*且裝於您主機的**內部儲存空間**中的遊戲。 您無法將此遊戲裝在 USB 儲存碟中。
 
@@ -86,8 +86,8 @@ Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). �
 | 《觸摸！卡比》 |
 | 《卡比大集合》|
 | 《卡比之星：多洛奇團登場》 |
-| Legend of Zelda: Phantom Hourglass |
-| Legend of Zelda: Spirit Tracks |
+| 《薩爾達傳說：夢幻沙漏》 |
+| 《薩爾達傳說：大地汽笛》 |
 | 《瑪利歐與路易吉 RPG 2》 |
 | 《瑪利歐賽車 DS》 |
 | 《新 超級瑪利歐兄弟》 |
