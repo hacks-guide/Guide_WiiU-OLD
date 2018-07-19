@@ -28,7 +28,7 @@ title: "新手入門"
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * 最新版的 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * 最新版的 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
