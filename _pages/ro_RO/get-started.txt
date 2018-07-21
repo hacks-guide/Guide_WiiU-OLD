@@ -67,7 +67,7 @@ Există două modalități de a rula Custom Firmare (Firmware personalizat).
 
 Prima metodă este să rulați un exploit al browserului care va patchui sistemul. Din păcate, acest exploit este temporar, faptul că trebuie să faceți acest lucru ori de câte ori reporniți consola.
 
-A doua metodă este să cumpărați un joc DS Virtual Console care costă apr. 24 ron ca să puteți rula CFW când pornește consola.
+A doua metodă este să cumpărați un joc DS Virtual Console ca să puteți rula Custom Firmware când pornește consola.
 
 Jocul DS Virtual Console *trebuie* să fie o **copie legitimată** instalată în **memoria internă** a consolei. *Nu* puteți instala acest joc într-un dispozitiv USB.
 
