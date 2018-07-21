@@ -28,7 +28,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 * La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* La dernière version de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * La dernière version de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * La dernière version de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(le fichier `.zip` de la chaîne)*
