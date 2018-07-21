@@ -28,7 +28,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/)
+* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
