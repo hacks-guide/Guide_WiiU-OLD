@@ -29,7 +29,7 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 * Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* Phiên bản mới nhất của [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Phiên bản mới nhất của [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Phiên bản mới nhất của [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Phiên bản mới nhất của [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
