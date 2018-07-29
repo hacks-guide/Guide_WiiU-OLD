@@ -28,7 +28,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * La última versión de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* La última versión de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * La última versión de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * La última versión de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(el archivo `.zip` que dice "channel")*
