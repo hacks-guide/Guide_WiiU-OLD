@@ -22,8 +22,8 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 #### 第二節 — Homebrew Launcher
 
-1. If your device is on firmware version 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
+1. 如果您的主機為韌體版本 5.5.2，拉開瀏覽器窗簾
+  + 這將提高 5.5.2 瀏覽器漏洞成功的可能性
 1. 前往 `usploit.hacks.guide`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. 於第一次嘗試時選擇『Run Homebrew Launcher』
