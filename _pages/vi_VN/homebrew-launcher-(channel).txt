@@ -47,12 +47,6 @@ ___
 Giờ bạn có thể chạy Homebrew Launcher trên CFW bằng cách bấm vào icon Homebrew Channel trên giao diện hệ thống.
 {: .notice--info}
 
-Bạn cũng có thể chạy WUP Installer GX2 trên CFW bằng cách bấm vào icon WUP Installer GX2 trên giao diện hệ thống.
-{: .notice--info}
-
-Để an toàn, bạn *nên* tạo backup NAND của máy theo hướng dẫn [Backup NAND](nand-backup).
-{: .notice--primary}
-
 Lưu ý: nếu muốn vào eshop với thiết lập DNS như bên dưới, bạn phải vào Homebrew Launcher chạy NNU-Patcher trước (NNU-Patcher chỉ là patch tạm thời, sẽ phải chạy lại để vào eshop mỗi lần bạn khởi động lại máy).
 {: .notice--info}
 
