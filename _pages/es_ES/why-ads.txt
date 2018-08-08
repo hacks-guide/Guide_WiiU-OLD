@@ -3,13 +3,13 @@ title: "¿Por qué anuncios?" #
 layout: single-no-ads
 ---
 
-Este proyecto es el resultado de cientos y cientos de horas de constante trabajo.
+This project is the culmination of thousands of hours of constant work.
 
-Mantenemos esta guía en pie sin dinero alguno de por medio, y asegurándonos de que esté siempre actualizada. Por este esfuerzo, sentimos que es justo intentar ganar un poco de dinero por nuestro trabajo.
+I maintain this guide, for free, and ensure it is always up to date. Because of this effort, I feel that it is fair for me to attempt to gain a meager income from my work.
 
-Este sitio no tiene ningún costo de uso, así como ningún anuncio mostrado es intrusivo. Si aún así tienes un problema con eso, siéntete libre de bloquear los anuncios.
+This site costs you nothing to use, and all that I display are non-intrusive ads. Si aún así tienes un problema con eso, siéntete libre de bloquear los anuncios.
 
-Si bloqueas los anuncios, me gustaría recordarte la página de [Donaciones](donations), pero de nuevo, eso también es opcional.
+If you do block ads, I would like to also remind you of the [Donations](donations) page, but once again that is optional too.
 
 Gracias, <br>
-Plailect y FlimFlam69
+Plailect
