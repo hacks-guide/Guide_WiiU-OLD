@@ -123,10 +123,9 @@ $(document).ready(function(){
 
   var methods = {
     "get-started": "0",
-    "homebrew-launcher": "1",
-    "mocha-cfw": "2",
-    "haxchi": "3",
-    "coldboot-haxchi": "4",
+    "mocha-cfw": "1 ",
+    "haxchi": "2",
+    "coldboot-haxchi": "3",
   };
 
   for(var method in methods){
@@ -143,11 +142,10 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
-      "1": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)", "nand-backup"],
-      "2": ["homebrew-launcher", "mocha-cfw", "homebrew-launcher-(channel)", "nand-backup"],
-      "3": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
-      "4": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)", "nand-backup"],
+      "0": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)"],
+      "1": ["homebrew-launcher", "mocha-cfw", "homebrew-launcher-(channel)"],
+      "2": ["homebrew-launcher", "haxchi", "homebrew-launcher-(channel)"],
+      "3": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
