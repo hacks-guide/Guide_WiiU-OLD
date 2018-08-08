@@ -19,9 +19,6 @@ main:
     title: vWii Modding
     url: vwii-modding
   - 
-    title: Säkerhetskopiera NAND
-    url: nand-backup
-  - 
     title: Navigering på webbplatsen
     url: site-navigation
   - 
@@ -62,11 +59,8 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi (Tillval)
+    title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (Channel)
     url: homebrew-launcher-(channel)
-  - 
-    title: Säkerhetskopiera NAND (frivilligt)
-    url: nand-backup

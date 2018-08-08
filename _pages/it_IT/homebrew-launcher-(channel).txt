@@ -47,12 +47,6 @@ ___
 You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
 {: .notice--info}
 
-You can now launch WUP Installer GX2 on custom firmware just by launching it from the system menu.
-{: .notice--info}
-
-Per precauzione, *faresti meglio* a creare un backup della NAND della tua console seguendo la guida sui [Backup della NAND](nand-backup).
-{: .notice--primary}
-
 Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
 {: .notice--info}
 

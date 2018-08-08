@@ -6,22 +6,60 @@ title: "Coldboot Haxchi"
 
 ### Điều cần đọc
 
-CBHC (Coldboot Haxchi) là cách hack thay đổi cài đặt hệ thống để máy tự chạy game DS vỏ Haxchi nhằm kích hoạt CFW trước khi mở giao diện hệ thống.
+CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
 
-Bước này không bắt buộc. Haxchi thông thường là đã đủ để chạy hack; cách này chỉ để tiện hơn. Nếu muốn bỏ qua bước cài Coldboot Haxchi, vui lòng tiếp tục đến [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
-{: .notice--primary}
+This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
 
 {% capture notice-1 %}
 Bạn CẦN PHẢI cài sẵn Haxchi để thực hiện bước này. Nếu không, máy sẽ BRICK!
 
 Game DS vỏ Haxchi PHẢI được cài trong bộ nhớ trong của Wii U. Nếu cài trên các thiết bị lưu trữ usb, máy sẽ BRICK!
 
-Game DS vỏ Haxchi của bạn PHẢI là game tải HỢP PHÁP từ eshop, nếu không máy sẽ BRICK!
+Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Hướng dẫn
+
+#### Section I - NAND Backup
+
+{% capture notice-1 %}
+This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+
+Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+
+If you accept the risk of installing CBHC without a NAND backup, skip this section.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
+1. Mở nanddumper
+1. Dùng D-pad chọn như sau:
+  + Dump SLC (528MB): **yes**
+  + Dump SLCCMPT (528MB): **yes**
+  + Dump MLC (8GB/32GB): **yes**
+  + Dump OTP (1KB): **yes**
+  + Dump SEEPROM (1KB): **yes**
+1. Bấm (A) để dump NAND
+  + Cần kiên nhẫn vì cuá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào dung lượng trống còn lại của bộ nhớ trong của máy)
+1. Khi dump xong, máy Wii U sẽ tự khởi động lại
+1. Tắt máy đi
+1. Lắp thẻ nhớ SD vào máy tính
+1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Lắp thẻ nhớ SD vào thiết bị
+1. Bật thiết bị lên
+
+#### Section II - Installing CBHC
 
 1. Gỡ tất cả thiết bị usb khỏi máy Wii U
 1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
@@ -42,7 +80,7 @@ Game DS vỏ Haxchi của bạn PHẢI là game tải HỢP PHÁP từ eshop, n�
 ___
 
 Máy bạn sẽ tự động chạy CFW qua Coldboot Haxchi mỗi lần khởi động.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 Có thể bấm (Home) khi CBHC đang khởi động để vào lại menu tùy chọn này. Cụ thể thì các tùy chọn khởi động sẽ như sau:
@@ -61,20 +99,19 @@ Có thể bấm (Home) khi CBHC đang khởi động để vào lại menu tùy 
 Bạn có thể cắm lại các thiết bị usb sau khi cài đặt thành công.
 {: .notice--info}
 
-**Không được xóa game DS có vỏ CBHC, nếu không máy sẽ BRICK.**    
-{: .notice--danger}
+{% capture notice-1 %}
+Never uninstall the CBHC DS virtual console game or you will BRICK.
 
-**Không cài lại game DS có vỏ CBHC, nếu không máy sẽ BRICK.** 
-{: .notice--danger}
+Never reinstall the CBHC DS virtual console game or you will BRICK.
 
-**Không được di chuyển game DS có vỏ CBHC vào bộ nhớ của thiết bị lưu trữ usb, nếu không máy sẽ BRICK.** 
-{: .notice--danger}
+Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
 
-**Không được xóa tài khoản Nintendo đã mua game DS có vỏ CBHC khỏi máy, nếu không máy sẽ BRICK.** 
-{: .notice--danger}
+Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
 
-**Không được format máy, nếu không máy sẽ BRICK.** 
-{: .notice--danger}
+Never format your device while CBHC is installed or you will BRICK!
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Tiếp tục đến [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}

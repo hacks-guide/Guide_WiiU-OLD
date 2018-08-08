@@ -6,22 +6,60 @@ title: "Coldboot Haxchi"
 
 ### Lecture requise
 
-CBHC (Coldboot Haxchi) modifie votre application système par défaut pour forcer votre console à lancer un jeu de la console virtuelle DS par défaut au lieu du menu Home, ce qui a pour effet de charger un custom firmware.
+CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
 
-Les instructions de cette page sont optionnelles. Haxchi tout seul fonctionne très bien; cela offre juste plus de commodité. Si vous souhaitez ne pas installer Coldboot Haxchi, continuez vers [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
-{: .notice--primary}
+This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
 
 {% capture notice-1 %}
 Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiliser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, votre console va BRICKER !
 
 Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être dans la mémoire interne de votre Wii U. S'il se trouve sur un disque USB, votre console va BRICKER !
 
-Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie légitime, ou votre console va BRICKER !
+Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instructions
+
+#### Section I - NAND Backup
+
+{% capture notice-1 %}
+This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+
+Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+
+If you accept the risk of installing CBHC without a NAND backup, skip this section.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Entrez dans l'Homebrew Launcher en maintenant (A) en lançant votre jeu de console virtuelle Haxchi DS
+1. Démarrez nanddumper
+1. Utilisez le D-Pad pour mettre ces différentes options:
+  + Dump SLC (528MB): **yes**
+  + Dump SLCCMPT (528MB): **yes**
+  + Dump MLC (8GB/32GB): **yes**
+  + Dump OTP (1KB): **yes**
+  + Dump SEEPROM (1KB): **yes**
+1. Appuyez sur (A) pour copier votre NAND
+  + Préparez à être patient: cela peut prendre un moment (jusqu'à plusieurs heures selon la quantité d'espace que vous avez dans la mémoire interne)
+1. Quand l'opération a terminé, votre Wii U va redémarrer automatiquement
+1. Éteignez votre Wii U
+1. Insérez votre carte SD dans votre ordinateur
+1. Copier `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, et chaque fichier `mlc.bin.part` de la racine de votre carte SD dans un emplacement sécurisé sur votre ordinateur
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Réinsérez votre carte SD dans votre Wii U
+1. Allumez votre Wii U
+
+#### Section II - Installing CBHC
 
 1. Retirez tous les périphériques USB de votre Wii U
 1. Entrez dans l'Homebrew Launcher en maintenant (A) en lançant votre jeu de console virtuelle Haxchi DS
@@ -42,7 +80,7 @@ Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une
 ___
 
 Votre console devrait désormais lancer automatiquement au démarrage le custom firmware Colboot Haxchi.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux options de démarrage de CBHC. Voici la liste des options de démarrage et leur effet :
@@ -61,20 +99,19 @@ Vous pouvez maintenir le bouton (Home) au lancement de CBHC pour accéder aux op
 Vous pouvez reconnecter tous les périphériques USB une fois l’installation terminée.
 {: .notice--info}
 
-**Ne jamais modifier ou supprimer le jeu de console virtuelle DS que vous avez utilisé pour installer CBHC sur votre SysNAND ou vous BRICKEREZ.**    
-{: .notice--danger}
+{% capture notice-1 %}
+Never uninstall the CBHC DS virtual console game or you will BRICK.
 
-**Ne jamais réinstaller le jeu de console virtuelle DS CBHC ou vous allez BRICK.**
-{: .notice--danger}
+Never reinstall the CBHC DS virtual console game or you will BRICK.
 
-**Ne jamais déplacer le jeu de console virtuelle DS CBHC sur une clé USB ou vous BRICKEREZ.**
-{: .notice--danger}
+Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
 
-**Ne jamais supprimer le compte d’utilisateur NNID qui a acheté le jeu console virtuelle DS CBHC ou vous BRICKEREZ !**
-{: .notice--danger}
+Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
 
-**Ne formatez jamais votre Wii U alors que CBHC est installé ou vous BRICKEREZ !**
-{: .notice--danger}
+Never format your device while CBHC is installed or you will BRICK!
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Continuer vers [Homebrew Launcher (chaîne)](homebrew-launcher-(channel)).
 {: .notice--primary}

@@ -5,7 +5,7 @@ title: "Riconoscimenti"
 **Un ringraziamento speciale a [tutti i traduttori](https://crowdin.com/project/wii-u-guide)! Siete fantastici!**
 {: .notice--primary}
 
-Se abbiamo dimenticato di inserirti in questa lista, contattaci e ti aggiungerò.
+If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ Se abbiamo dimenticato di inserirti in questa lista, contattaci e ti aggiungerò
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

@@ -24,8 +24,8 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 
 ### Cần chuẩn bị gì
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -34,7 +34,8 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 * Phiên bản mới nhất của [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Phiên bản mới nhất của [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
 * Phiên bản cũ hơn (v1.3) của [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(chọn file `.zip`)*
-* Phiên bản mới nhất của [Haxchi và CBHC](https://github.com/FIX94/haxchi/releases/latest) *(cả 2 file `.zip`)*
+Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * Phiên bản mới nhất của [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Hướng dẫn
@@ -57,6 +58,7 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 1. Chép các file trong gói disc2app `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói hid\_to\_vpad `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói NNU-Patcher `.zip` vào thư mục gốc thẻ nhớ
+1. Copy các file trong gói Wii U NAND Dumper `.zip` vào thư mục gốc của thẻ nhớ
 1. Chép các file trong gói Mocha CFW `.zip` vào thư mục gốc thẻ nhớ
 1. Chép tập tin `config.ini` vào thư mục `/wiiu/apps/mocha/` trên thẻ nhớ
 1. Lắp thẻ nhớ SD vào thiết bị

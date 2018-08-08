@@ -6,22 +6,60 @@ title: "Coldboot Haxchi"
 
 ### 必讀事項
 
-CBHC (Coldboot Haxchi) 將把您的預設系統程式修改為自動啟動修改後的 DS 虛擬主機遊戲，讓您自動開機至自製韌體中，而非普通的系統選單。
+CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
 
-本節為選用章節。 普通的 Haxchi 就已經很好了；只是此步驟會讓啟動它更方便些。 如果您想跳過 Coldboot Haxchi，請繼續至 [Homebrew Launcher (Channel)](homebrew-launcher-(channel))。
-{: .notice--primary}
+This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
 
 {% capture notice-1 %}
 您 _必須_ 先裝好 Haxchi 才能繼續。 否則－保。證。磚。機！
 
 您的 Haxchi DS 虛擬主機 遊戲 _必須_ 先裝在 Wii U 內存中才能繼續。如果是存在 USB 外接主機上的話－保。證。磚。機！
 
-您的 Haxchi DS 虛擬主機 遊戲 _必須_ 是正版的，否則－保。證。磚。機！
+Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### 操作說明
+
+#### Section I - NAND Backup
+
+{% capture notice-1 %}
+This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+
+如果您的 Wii U 是黑色(32GB)版本的型號，您的 SD 卡必須至少有 64GB 的容量。 If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+
+If you accept the risk of installing CBHC without a NAND backup, skip this section.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
+1. 啟動 nanddumper
+1. 使用方向鍵來設定下列選項：
+  + Dump SLC (528MB): **yes**
+  + Dump SLCCMPT (528MB): **yes**
+  + Dump MLC (8GB/32GB): **yes**
+  + Dump OTP (1KB): **yes**
+  + Dump SEEPROM (1KB): **yes**
+1. 按「A」轉儲您的 NAND
+  + 可以拿起您的爆米花慢慢等了；這過程可能會花好一段時間(依您的內存使用空間而定，有可能會到數小時)
+1. 當備份完成後，您的 Wii U 將自動重啟
+1. 關閉您的主機
+1. 將 SD 卡插入至電腦中
+1. 從您的 SD 卡中複製 `slc.bin`、`slccmpt.bin`、`otp.bin`、`seeprom.bin`、以及各個`mlc.bin.part` 檔案至電腦中各個安全的位置中
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
+
+#### Section II - Installing CBHC
 
 1. 拔除所有連接至 Wii U 的 USB 主機
 1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
@@ -42,7 +80,7 @@ CBHC (Coldboot Haxchi) 將把您的預設系統程式修改為自動啟動修改
 ___
 
 您的主機現在應於開機時自動啟動至 Coldboot Haxchi 自製韌體中。
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 您可以在 CBHC 啟動時按下「Home」鍵進入 CBHC 開機選單。 每個選項的功能如下：
@@ -61,20 +99,19 @@ ___
 在安裝結束後，您可以將剛剛拔除的 USB 主機插回了。
 {: .notice--info}
 
-**千萬不要刪除 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**    
-{: .notice--danger}
+{% capture notice-1 %}
+Never uninstall the CBHC DS virtual console game or you will BRICK.
 
-**千萬不要重新安裝 CBHC 改後的 DS 虛擬主機遊戲，否則－保。證。磚。機。**
-{: .notice--danger}
+Never reinstall the CBHC DS virtual console game or you will BRICK.
 
-**千萬不要將 CBHC 改後的 DS 虛擬主機遊戲移至 USB 主機上，否則－保。證。磚。機。**
-{: .notice--danger}
+Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
 
-**千萬不要刪除購買 CBHC DS 虛擬主機遊戲的使用者帳戶或 NNID，否則—保。證。磚。機。**
-{: .notice--danger}
+Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
 
-**千萬不要在解除安裝 CBHC 前格式化您的主機，否則－保。證。磚。機。**
-{: .notice--danger}
+Never format your device while CBHC is installed or you will BRICK!
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### 回到 [Homebrew Launcher (頻道)](homebrew-launcher-(channel))。
 {: .notice--primary}

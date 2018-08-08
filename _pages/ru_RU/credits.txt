@@ -5,7 +5,7 @@ title: "Благодарности"
 **Отдельное спасибо всем [переводчикам](https://crowdin.com/project/wii-u-guide) за их работу!**
 {: .notice--primary}
 
-Если мы кого-то забыли, свяжитесь с нами, и мы добавим ваше имя.
+Если я кого-то забыл, свяжитесь со мной, и я добавлю ваше имя.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ title: "Благодарности"
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

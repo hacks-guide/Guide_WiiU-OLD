@@ -47,12 +47,6 @@ ___
 Ahora puedes iniciar el Homebrew Launcher desde custom firmware simplemente iniciando el Homebrew Channel.
 {: .notice--info}
 
-Ahora puedes iniciar WUP Installer GX2 desde custom firmware simplemente iniciándolo desde el menú del sistema.
-{: .notice--info}
-
-Para mayor seguridad, *debes* crear un respaldo de tu consola siguiendo [Respaldo de la NAND](nand-backup).
-{: .notice--primary}
-
 Ten en cuenta que para acceder a la eShop con los las direcciones DNS que bloquean las actualizaciones, antes debes iniciar NNU-Patcher desde el Homebrew Launcher (NNU-Patcher es un parche temporal y tendrás que iniciarlo después de cada reinicio para entrar a la eShop).
 {: .notice--info}
 

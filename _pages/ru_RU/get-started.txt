@@ -23,8 +23,8 @@ SD-карта должна быть отформатирована в FAT32 (р�
 
 ### Что понадобится
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Свежая версия [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -33,6 +33,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 * Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
 * Предыдущая версия (v1.3) [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(`zip-архив` homebrew_launcher)*
+* Свежая версия [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
@@ -56,6 +57,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 1. Скопируйте *содержимое* `.zip-архива` с disc2app в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с hid\_to\_vpad в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с NNU-Patcher в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с Wii U NAND Dumper в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с Mocha CFW в корень SD-карты
 1. Скопируйте `config.ini` в папку `/wiiu/apps/mocha/` на SD-карте
 1. Вставьте SD-карту обратно в консоль

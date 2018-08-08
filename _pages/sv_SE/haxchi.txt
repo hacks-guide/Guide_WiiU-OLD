@@ -6,9 +6,9 @@ title: "Haxchi"
 
 ### Obligatorisk läsning
 
-Haxchi är en modifierad firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.
-
 Haxchi är en exploit som tillåter att vi startar CFW direkt från hem-menyn utan att använda Homebrew Launcher.
+
+Det inkluderar modifieringar av firmware som patchar signatur-kontroller, region-kontroller och kör annan funktionalitet i bakgrunden.
 
 ### Vad du behöver
 
@@ -41,5 +41,28 @@ För närvarande måste du starta DS virtual console-spelet varje gång du start
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
+### Metoder
+
+___
+
+#### Stanna på vanlig Haxchi
+
+Vanliga Haxchi är redan installerad på din konsol.
+
+Denna metod har inga risker när det gäller att skada din konsol, men är inte lika bekväm eftersom du måste starta Haxchi manuellt efter varje omstart.
+
+### Fortsätt till [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
+
+___
+
+#### Uppgradera till Coldboot Haxchi
+
+CBHC (Coldboot Haxchi) ändrar systemtiteln som startar automatiskt från system-menyn till ditt DS virtual console-spel. Detta gör att din konsol startar din modifierade firmware automatiskt vid uppstart.
+
+Denna metod är något farligare än vanliga Haxchi eftersom ditt DS Virtual Console-spel blir *enda* sättet att starta systemet. Om spelet någonsin raderas eller Haxchi tas bort från det kommer CBHC att BRICKA din konsol!
+
 ### Fortsätt till [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
+
+___

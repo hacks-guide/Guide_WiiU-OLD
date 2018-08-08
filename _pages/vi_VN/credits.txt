@@ -5,7 +5,7 @@ title: "Những người đã đóng góp"
 **Chân thành cảm ơn các [Dịch giả](https://crowdin.com/project/wii-u-guide) vì đã giúp đỡ rất nhiều!**
 {: .notice--primary}
 
-Nếu thiếu tên ai, vui lòng liên hệ tôi và tôi sẽ thêm tên bạn vào.
+If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ Nếu thiếu tên ai, vui lòng liên hệ tôi và tôi sẽ thêm tên bạn 
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

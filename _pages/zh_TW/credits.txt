@@ -5,7 +5,7 @@ title: "製作群"
 **感謝所有的超讚的[翻譯人員](https://crowdin.com/project/wii-u-guide)！**
 {: .notice--primary}
 
-如果我們忘記把您加進來的話，請與我們聯繫。
+If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ title: "製作群"
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

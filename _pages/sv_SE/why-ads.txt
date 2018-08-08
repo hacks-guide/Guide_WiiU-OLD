@@ -3,13 +3,13 @@ titel: "Varför reklam?" #
 layout: single-no-ads
 ---
 
-Detta projekt är en vidarebyggnad på hundratals och åter hundratals timmar av hårt arbete.
+Detta projekt är kulmen av tusentals timmar av konstant arbete.
 
-Vi underhåller denna guide, gratis, och ser till att den alltid är uppdaterad. På grund av detta slit känner vi att det är rättvist för oss att försöka få en liten inkomst från vårt arbete.
+Jag underhåller denna guide, gratis, och ser till att den alltid är uppdaterad. På grund av detta slit känner jag att det är rättvist för mig att försöka få en liten inkomst från mitt arbete.
 
-Denna webbplats kostar ingenting att använda, och alla annonser vi visar är icke-påträngande. Om du fortfarande har problem med detta, tveka inte att blockera dessa annonser.
+Denna webbplats kostar ingenting att använda, och alla annonser jag visar är icke-påträngande. Om du fortfarande har problem med detta, tveka inte att blockera dessa annonser.
 
-Om du blockerar annonser, vill vi bara påminna om sidan för [Bidrag](donations), men återigen är det valfritt att bidra.
+Om du blockerar annonser, vill jag bara påminna om sidan för [Bidrag](donations), men återigen är det valfritt att bidra.
 
 Tack,<br>
-Plailect & FlimFlam69
+Plailect

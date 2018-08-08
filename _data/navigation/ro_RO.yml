@@ -19,13 +19,10 @@ main:
     title: Modare vWii
     url: vwii-modding
   - 
-    title: Copie de rezervă NAND
-    url: nand-backup
-  - 
     title: Navigarea pe site
     url: site-navigation
   - 
-    title: Dezinstalând CFW
+    title: Uninstall CFW
     url: uninstall-cfw
 bottom:
   - 
@@ -62,11 +59,8 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi (Optional)
+    title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (Canal)
     url: homebrew-launcher-(channel)
-  - 
-    title: Copie de rezervă NAND (Opţional)
-    url: nand-backup

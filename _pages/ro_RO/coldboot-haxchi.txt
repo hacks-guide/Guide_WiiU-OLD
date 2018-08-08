@@ -6,22 +6,60 @@ title: "Coldboot Haxchi"
 
 ### Lectură obligatorie
 
-CBHC (Coldboot Haxchi) changes your default system title to make your device launch the DS virtual console game by default instead of the system menu, which will then load custom firmware.
+CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
 
-Aceată pagină este opțională. O instalare de Haxchi obișnuită merge așa cum e; oferă confort sporit. Dacă ați dori să săriți peste Coldboot Haxchi, continuați la [Homebrew Launcher (Canal)](homebrew-launcher-(channel)).
-{: .notice--primary}
+This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
 
 {% capture notice-1 %}
 TREBUIE să aveți un instalator funcțional Haxchi ca să funcționeze. Dacă nu, veți face BRICK!
 
 Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie în memoria internă a consolei. Dacă este într-o unitate USB, consola va face BRICK!
 
-Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie o copie LEGITIMĂ sau consola va face BRICK!
+Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instrucțiuni
+
+#### Section I - NAND Backup
+
+{% capture notice-1 %}
+This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+
+Dacă aveți un model negru de Wii U (32GB), cardul SD trebuie să fie cel puțin 64 GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+{% capture notice-1 %}
+It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+
+If you accept the risk of installing CBHC without a NAND backup, skip this section.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi
+1. Porniți nanddumper
+1. Folosiți D-Pad-ul pentru a seta următoarele opțiuni:
+  + Dump SLC (528MB): **yes**
+  + Dump SLCCMPT (528MB): **yes**
+  + Dump MLC (8GB/32GB): **yes**
+  + Dump OTP (1KB): **yes**
+  + Dump SEEPROM (1KB): **yes**
+1. Apăsați (A) pentru a copia NAND-ul
+  + Fiți pregătiți să așteptați; acest lucru poate dura o vreme (până la câteva ore depinzând de cât de mult spațiu este folosit în memoria internă)
+1. Când se va termina, WiiU-ul se ve reporni automatic
+1. Închideți dispozitivul
+1. Introduceți cardul SD în calculator
+1. Copiați `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, și fiecare fișier `mlc.bin.part` de pe rădăcina cardului SD într-o locație sigură pe calculator
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Reintroduceţi cardul SD în aparatul dvs
+1. Porniți dispozitivul
+
+#### Section II - Installing CBHC
 
 1. Scoateți toate dispozitivele USB din Wii U
 1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi
@@ -42,7 +80,7 @@ Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie o copie LEGITIMĂ sau c
 ___
 
 Your device should now automatically launch into Coldboot Haxchi custom firmware on boot.
-{: .notice}
+{: .notice--info}
 
 {% capture notice-1 %}
 Puteți apăsa butonul (Home) în timp ce CBHC se pornește ca să accesați meniul de opțiuni de pornire. Aici puteți vedea ce face fiecare dintre opțiuni:
@@ -61,20 +99,19 @@ Puteți apăsa butonul (Home) în timp ce CBHC se pornește ca să accesați men
 Reconectați orice dispozitiv USB după ce s-a terminat de instalat.
 {: .notice--info}
 
-***Niciodată nu ștergeți CBHC DS Virtual Console sau consola va deveni NEUTILIZABILĂ:***    
-{: .notice--danger}
+{% capture notice-1 %}
+Never uninstall the CBHC DS virtual console game or you will BRICK.
 
-***Niciodată nu reinstalați CBHC DS Virtual Console sau consola va deveni NEUTILIZABILĂ:***
-{: .notice--danger}
+Never reinstall the CBHC DS virtual console game or you will BRICK.
 
-***Niciodată nu mutați CBHC DS Virtual Console pe un dispozitiv USB sau consola va deveni NEUTILIZABILĂ:***
-{: .notice--danger}
+Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
 
-***Niciodată nu ștergeți contul de utilizator NNID care a cumpărat jocul DS Virtual Console injectat sau consola va deveni NEUTILIZABILĂ!***
-{: .notice--danger}
+Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
 
-**Nu formatați dispozitivul, în timp ce CBHC este instalat sau consola va deveni NEUTILIZABILĂ!**
-{: .notice--danger}
+Never format your device while CBHC is installed or you will BRICK!
+{% endcapture %}
+
+<div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
