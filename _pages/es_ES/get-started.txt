@@ -23,8 +23,8 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 ### Qué necesitas
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * La última versión de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * La última versión de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La última versión de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -33,7 +33,8 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 * La última versión de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(el archivo `.zip` que dice "channel")*
 * Una versión anterior (v1.3) del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(el archivo `.zip` del launcher)*
-* Las últimas versiones de [Haxchi y CBHC](https://github.com/FIX94/haxchi/releases/latest) *(los dos archivos `.zip`)*
+* La última versión de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * La última versión de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Instrucciones
@@ -56,6 +57,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 1. Copia *el contenido del* `.zip` de disc2app a la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` de hid\_to\_vpad a la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` de NNU-Patcher a la raíz de tu tarjeta SD
+1. Copia *el contenido del*`.zip` de Wii U NAND Dumper en la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` de Mocha CFW a la raíz de tu tarjeta SD
 1. Copia `config.ini` a la carpeta `/wiiu/apps/mocha/` de tu tarjeta SD
 1. Reinserta la tarjeta SD en tu consola
