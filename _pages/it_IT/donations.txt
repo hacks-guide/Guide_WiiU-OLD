@@ -3,8 +3,6 @@ title: "Donazioni" #
 layout: single-no-ads
 ---
 
-### Plailect
-
 [![Paypal]({{ "/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.me/plailectguides/15){: .align-center}
 plailect@gmail.com
 {: .text-center}
@@ -17,11 +15,5 @@ plailect@gmail.com
 
 [![Ethereum]({{ "/images/ethereum_white.png" | absolute_url }}){:height="64px" width="256px"}{: style="padding-bottom: .35em"}](https://www.ethereum.org/){: .align-center}
 0x608C5554D2C53698aA7DFFc7e64BF37f7bebb475
-{: .text-center}
-{: .notice--info}
-
-### FlimFlam69
-
-[![Paypal]({{ "/images/paypal_white.png" | absolute_url }}){:height="72px" width="256px"}{: style="padding-bottom: .35em"}](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=stbukoski%40gmail%2ecom&lc=US&item_name=Wii%20U%20Tutorial&item_number=WiiUGuide&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHosted){: .align-center}
 {: .text-center}
 {: .notice--info}
