@@ -23,8 +23,8 @@ Before starting, you may want to check your SD card for errors using [H2testw (W
 
 ### What You Need
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
