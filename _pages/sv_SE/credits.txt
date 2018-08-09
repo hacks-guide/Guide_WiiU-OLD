@@ -5,7 +5,7 @@ title: "Tack till"
 **Speciellt tack till alla [översättare](https://crowdin.com/project/wii-u-guide) för att ni är supergrymma!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Om jag glömt dig i listan, kontakta mig så lägger jag till ditt namn.
 
 {% capture notice-1 %}
 
