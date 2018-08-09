@@ -8,7 +8,7 @@ title: "Haxchi"
 
 Haxchi - это эксплойт, который позволяет нам запускать CFW напрямую из системного меню без использования Homebrew Launcher.
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Он также содержит кастомную прошивку, которая патчит проверку подписи, проверку региона и запускает различный пользовательский код на фоне работающей прошивки.
 
 ### Что понадобится
 
