@@ -45,18 +45,18 @@ ___
 
 ___
 
-#### Stay on Standard Haxchi
+#### Оставить стандартный Haxchi
 
-Standard Haxchi is the exploit that has already been installed on your device.
+Стандартный Haxchi это эксплойт, который уже был установлен на вашу консоль.
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+Используя этот эксплойт, вы не рискуете повредить консоль, но он менее удобен, поскольку Haxchi нужно активировать вручную после каждой перезагрузки.
 
-### Continue to [Hombrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Следующий шаг: [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### Обновление до Coldboot Haxchi
 
 CBHC (Coldboot Haxchi) изменяет системный тайтл, запускающийся по умолчанию при старте консоли, с системного меню на игру для DS virtual console. Это заставляет консоль автоматически запускать кастомную прошивку при загрузке системы.
 
