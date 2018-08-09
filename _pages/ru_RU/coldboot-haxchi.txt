@@ -100,15 +100,15 @@ ___
 {: .notice--info}
 
 {% capture notice-1 %}
-Never uninstall the CBHC DS virtual console game or you will BRICK.
+Никогда не удаляйте игру для DS virtual console с установленным CBHC, иначе получите БРИК.
 
-Never reinstall the CBHC DS virtual console game or you will BRICK.
+Никогда не переустанавливайте игру для DS virtual console с установленным CBHC, иначе получите БРИК.
 
-Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
+Никогда не перемещайте игру для DS virtual console с установленным CBHC на USB-носитель, иначе получите БРИК.
 
-Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
+Никогда не удаляйте пользовательский NNID аккаунт, через который была куплена игра для DS virtual console с установленным CBHC, иначе получите БРИК!
 
-Never format your device while CBHC is installed or you will BRICK!
+Никогда не форматируйте консоль, пока на ней установлен CBHC, иначе получите БРИК!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
