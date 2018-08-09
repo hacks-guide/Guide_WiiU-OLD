@@ -33,9 +33,9 @@ CBHC (Coldboot Haxchi) изменяет системный тайтл, запу�
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+Невозможно брикнуть консоль в процессе CBHC при условии *выполнения всех инструкций и предупреждений*. Этот факт, в сочетании со строгими требованиями к SD-карте и крайне малой скоростью дампинга NAND, означает, что в настоящее время создание резервной копии NAND является необязательным шагом
 
-If you accept the risk of installing CBHC without a NAND backup, skip this section.
+Если вы принимаете риск установки CBHC без резервной копии NAND, пропустите эту часть.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -54,12 +54,12 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Скопируйте `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin` и все файлы `mlc.bin.part` из корня SD-карты в безопасное место на вашем компьютере
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + Сделайте несколько бэкапов в нескольких местах (например в облачном хранилище)
+  + Эти бэкапы позволят восстановить консоль и/или извлечь файлы из образа NAND, если что-то пойдёт не так
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
-#### Section II - Installing CBHC
+#### Часть II - Установка CBHC
 
 1. Отключите все USB-устройства от Wii U
 1. Войдите в Homebrew Launcher, удерживая (A) во время запуска игры для DS virtual console с установленным Haxchi
