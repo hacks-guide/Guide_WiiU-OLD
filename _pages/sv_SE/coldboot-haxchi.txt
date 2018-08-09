@@ -6,36 +6,36 @@ title: "Coldboot Haxchi"
 
 ### Obligatorisk läsning
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) ändrar systemtiteln som startar automatiskt från system-menyn till ditt DS virtual console-spel. Detta gör att din konsol startar din modifierade firmware automatiskt vid uppstart.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Denna metod är något farligare än vanliga Haxchi eftersom ditt DS Virtual Console-spel blir *enda* sättet att starta systemet. Om spelet någonsin raderas eller Haxchi tas bort från det kommer CBHC att BRICKA din konsol!
 
 {% capture notice-1 %}
 Du MÅSTE ha en fungerande Haxchi-installation för att det här ska fungera. Om du inte har det kommer du få en BRICKNING!
 
 Ditt Haxchi DS virtual console-spel MÅSTE vara på interna lagringen på din Wii U. Om det är på ett USB-minne kommer du få en BRICKNING!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
+Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia (icke-piratad), annars kommer du få en BRICKNING!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instruktioner
 
-#### Section I - NAND Backup
+#### Kapitel I - NAND Backup
 
 {% capture notice-1 %}
-This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+Det här är ett valfritt steg som hjälper dig skapa en säkerhetskopia av din konsols interna NAND-minne till ditt SD-kort, vilket gör det möjligt för dig att återställa din enhet om du råkar bricka.
 
-Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort..
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+Det finns ingen risk att bricka din konsol genom att installera CBHC så länge *alla instruktioner och varningar följs*. Detta, kombinerat med de hårda SD-kort-kraven och den extremt långsamma hastigheten att dumpa NAND-minnet, innebär att skapa en backup av NAND för närvarande är ett frivilligt steg
 
-If you accept the risk of installing CBHC without a NAND backup, skip this section.
+Om du accepterar riskerna med att installera CBHC utan en NAND-backup, hoppa över denna sektionen.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -54,12 +54,12 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
 1. Kopiera `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, och varje `mlc.bin.part`-fil från roten av ditt SD-kort till ett säkert ställe på din dator
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + Gör säkerhetskopieringar på flera olika platser (t. ex. online fillagring)
+  + Dessa säkerhetskopior kan rädda dig från att en brickning och/eller hjälpa dig återställa filer från NAND backupen om något skulle gå fel i framtiden
 1. Sätt tillbaka ditt SD-kort i din enhet
 1. Starta din enhet
 
-#### Section II - Installing CBHC
+#### Kapitel II - Installera CBHC
 
 1. Ta bort alla USB-enheter från din Wii U
 1. Gå in i Homebrew Launcher genom att hålla inne (A) när du startar ditt Haxchi DS virtual console-spel
@@ -100,15 +100,15 @@ Du kan återansluta alla USB-enheter igen efter installationen är klar.
 {: .notice--info}
 
 {% capture notice-1 %}
-Never uninstall the CBHC DS virtual console game or you will BRICK.
+Avinstallera aldrig DS virtual console-spelet som använts för CBHC, annars kommer du BRICKA enheten.
 
-Never reinstall the CBHC DS virtual console game or you will BRICK.
+Ominstallera aldrg DS virtual console-spelet som använts för CBHC, annars kommer du BRICKA enheten.
 
-Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
+Flytta aldrig DS virtual console-spelet som använts för CBHC till en USB-enhet, annars kommer du BRICKA enheten.
 
-Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
+Radera aldrig användarkontot eller NNID:t som användes för att köpa DS Virtual Console-spelet som använts för CBHC, annars kommer du BRICKA enheten!
 
-Never format your device while CBHC is installed or you will BRICK!
+Formatera aldrig din enhet med CBHC installerat, annars kommer du BRICKA enheten!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
