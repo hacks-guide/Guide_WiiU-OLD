@@ -58,9 +58,9 @@ ___
 
 #### Upgrade to Coldboot Haxchi
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) изменяет системный тайтл, запускающийся по умолчанию при старте консоли, с системного меню на игру для DS virtual console. Это заставляет консоль автоматически запускать кастомную прошивку при загрузке системы.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Этот эксплойт чуть более опасен чем стандартный Haxchi, поскольку эксплойт в игре для DS Virtual Console является *единственным* способом загрузки системы. Если игра когда-либо будет удалена или сам эксплойт будет удален, то установка CBHC приведет к БРИКУ!
 
 ### Следующий шаг: [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
