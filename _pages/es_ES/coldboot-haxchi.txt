@@ -6,26 +6,26 @@ title: "Coldboot Haxchi"
 
 ### Lectura requerida
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) intercambia el título del sistema presente por defecto en el menú del sistema por un juego de Consola Virtual de DS. Esto logra que tu consola ejecute CFW automáticamente al encender.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Este exploit es ligeramente más peligroso que el Haxchi tradicional porque tu juego de Consola Virtual de DS pasa a ser la *única* manera de iniciar el sistema. ¡Si el juego es borrado o el exploit es removido, instalar CBHC INUTILIZARÁ tu consola!
 
 {% capture notice-1 %}
 DEBES tener una instalación funcional de Haxchi para que funcione. Si no la tienes, ¡BRICKEARÁS!
 
 Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna de la Wii U. Si está en un dispositivo USB, ¡BRICKEARÁS!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
+¡Tu juego de Consola Virtual de DS DEBE ser una copia obtenida LEGALMENTE (no pirateada) o INUTILIZARÁS tu consola!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instrucciones
 
-#### Section I - NAND Backup
+#### Sección I - Copia de seguridad de la NAND
 
 {% capture notice-1 %}
-This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+Esta es una sección opcional en la cual podrás crear una copia de seguridad de la memoria interna de tu consola en tu tarjeta SD, la cual te permitirá restaurar tu consola en caso de un brickeo.
 
 Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
 {% endcapture %}
@@ -33,7 +33,7 @@ Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB.
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+No es posible inutilizar tu consola al instalar CBHC siempre y cuando *sigas todas las instrucciones al pie de la letra y leas las advertencias*. Esto, combinado con los requisitos estrictos para la tarjeta SD y la extremadamente lenta velocidad de volcado de NAND, implica que crear una copia de seguridad de la NAND es actualmente un paso opcional
 
 If you accept the risk of installing CBHC without a NAND backup, skip this section.
 {% endcapture %}
