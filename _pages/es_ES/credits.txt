@@ -5,7 +5,7 @@ title: "Créditos"
 **¡Agradecimientos especiales a todos [los traductores](https://crowdin.com/project/wii-u-guide) por ser asombrosos!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Si te olvidé, puedes contactarme para añadir tu nombre.
 
 {% capture notice-1 %}
 
