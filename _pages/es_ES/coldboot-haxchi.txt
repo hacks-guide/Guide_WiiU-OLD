@@ -27,7 +27,7 @@ Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna
 {% capture notice-1 %}
 Esta es una sección opcional en la cual podrás crear una copia de seguridad de la memoria interna de tu consola en tu tarjeta SD, la cual te permitirá restaurar tu consola en caso de un brickeo.
 
-Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -35,7 +35,7 @@ Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB.
 {% capture notice-1 %}
 No es posible inutilizar tu consola al instalar CBHC siempre y cuando *sigas todas las instrucciones al pie de la letra y leas las advertencias*. Esto, combinado con los requisitos estrictos para la tarjeta SD y la extremadamente lenta velocidad de volcado de NAND, implica que crear una copia de seguridad de la NAND es actualmente un paso opcional
 
-If you accept the risk of installing CBHC without a NAND backup, skip this section.
+Si aceptas el riesgo de instalar CBHC sin realizar una copia de seguridad de la NAND, sáltate esta sección.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -54,12 +54,12 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
 1. Copia `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, y cada archivo `mlc.bin.part` en la raiz de tu tarjeta SD a un lugar seguro en tu computadora
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
+  + Estos respaldos podrán prevenir que se inutilice la consola y/o ayudarte a recuperar archivos de la memoria de tu consola si algo sale mal en el futuro
 1. Reinserta la tarjeta SD en tu consola
 1. Enciende tu consola
 
-#### Section II - Installing CBHC
+#### Sección II - Instalar CBHC
 
 1. Extrae todos los dispositivos USB de tu Wii U
 1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
@@ -100,15 +100,15 @@ Puedes volver a conectar cualquier dispositivo USB luego de haber completado la 
 {: .notice--info}
 
 {% capture notice-1 %}
-Never uninstall the CBHC DS virtual console game or you will BRICK.
+Nunca desinstales el juego de Consola Virtual de DS que usa CBHC o INUTILIZARÁS tu consola.
 
-Never reinstall the CBHC DS virtual console game or you will BRICK.
+Nunca reinstales el juego de Consola Virtual de DS que usa CBHC o INUTILIZARÁS tu consola.
 
-Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
+Nunca muevas el juego de Consola Virtual de DS que usa CBHC a un dispositivo USB o INUTILIZARÁS tu consola.
 
-Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
+¡Nunca elimines el NNID de la cuenta de usuario que compró el juego de Consola Virtual de DS que usa CBHC o INUTILIZARÁS tu consola!
 
-Never format your device while CBHC is installed or you will BRICK!
+¡Nunca formatees tu consola mientras tenga CBHC instalado o INUTILIZARÁS tu consola!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
