@@ -51,7 +51,7 @@ Standard Haxchi is the exploit that has already been installed on your device.
 
 This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
 
-### Continue to [Hombrew Launcher (Channel)](homebrew-launcher-(channel)).
+### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 ___
