@@ -27,7 +27,7 @@ Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or y
 {% capture notice-1 %}
 This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
 
-Se hai una Wii U nera da 32GB, avrai bisogno di una scheda SD da almeno 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size..
+Se hai una Wii U nera da 32GB, avrai bisogno di una scheda SD da almeno 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
