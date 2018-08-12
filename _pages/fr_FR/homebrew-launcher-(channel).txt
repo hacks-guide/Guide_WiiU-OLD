@@ -47,12 +47,6 @@ ___
 Vous pouvez à présent lancer le Homebrew Launcher à partir du custom firmware en lançant le Homebrew Channel.
 {: .notice--info}
 
-Vous pouvez à présent lancer WUP Installer GX2 sur le custom firmware en lançant le logiciel depuis le menu Home.
-{: .notice--info}
-
-Pour plus de sécurité, vous *devriez* faire une sauvegarde de la NAND de votre Wii U en suivant le guide [Sauvegarde NAND](nand-backup).
-{: .notice--primary}
-
 Notez que pour accéder à l’eShop avec les adresses DNS du bloquage des mise à jours, vous devez d’abord exécuter NNU-Patcher via le l'Homebrew Launcher (NNU-Patcher est un patch temporaire et devra être lancé à nouveau si vous avez besoin d’accéder à l’eShop après un redémarrage).
 {: .notice--info}
 

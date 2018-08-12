@@ -23,8 +23,8 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 
 ## Ce dont vous avez besoin
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -33,7 +33,8 @@ La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup
 * La dernière version de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(le fichier `.zip` de la chaîne)*
 * Une version précédente (v1.3) de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(le fichier`.zip` du launcher)*
-Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/releases/latest) *(les deux fichiers`.zip`)*
+* La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Instructions
@@ -56,6 +57,7 @@ Les dernières versions de [Haxchi et CBHC](https://github.com/FIX94/haxchi/rele
 1. Copiez *le contenu* du fichier `.zip` de disc2app vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de hid\_to\_vpad vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de NNU-Patcher vers la racine de votre carte SD
+1. Copiez *le contenu* du fichier `.zip` de Wii U NAND Dumper vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de Mocha CFW vers la racine de votre carte SD
 1. Copiez `config.ini` vers le répertoire `/wiiu/apps/mocha/` sur votre carte SD
 1. Réinsérez votre carte SD dans votre Wii U

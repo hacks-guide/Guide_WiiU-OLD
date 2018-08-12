@@ -19,13 +19,10 @@ main:
     title: Hack vWii
     url: vwii-modding
   - 
-    title: Backup NAND
-    url: nand-backup
-  - 
     title: Chỉ Mục Trang Web
     url: site-navigation
   - 
-    title: Xóa CFW
+    title: Uninstall CFW
     url: uninstall-cfw
 bottom:
   - 
@@ -62,11 +59,8 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi (Không bắt buộc)
+    title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (Channel)
     url: homebrew-launcher-(channel)
-  - 
-    title: Backup NAND (Không bắt buộc)
-    url: nand-backup

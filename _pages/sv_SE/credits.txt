@@ -5,7 +5,7 @@ title: "Tack till"
 **Speciellt tack till alla [översättare](https://crowdin.com/project/wii-u-guide) för att ni är supergrymma!**
 {: .notice--primary}
 
-Om vi glömt dig i listan, kontakta oss så lägger vi till ditt namn.
+Om jag glömt dig i listan, kontakta mig så lägger jag till ditt namn.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ Om vi glömt dig i listan, kontakta oss så lägger vi till ditt namn.
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

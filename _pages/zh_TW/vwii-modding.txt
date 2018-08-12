@@ -10,8 +10,8 @@ title: "vWii 改機"
 
 ### 必備項目
 
-* [vWii_cIOS_apps_20131218.zip]({{ "/images/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
-* [Patched_IOS80_Installer_for_vWii.zip]({{ "/images/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
+* [vWii_cIOS_apps_20131218.zip]({{ "/assets/files/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
+* [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * 最新版的 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版的 [Hackmii Installer](https://bootmii.org/download/)
 * 前一版的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(選擇 channel `.zip` 檔案)*

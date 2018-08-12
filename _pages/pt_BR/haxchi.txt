@@ -6,9 +6,9 @@ title: "Haxchi"
 
 ### Required Reading
 
-Haxchi é um custom firmware que altera as verificações de assinatura, verificações de região e executa outro código personalizado em segundo plano.
-
 Haxchi é um exploit que nos permite iniciar o CFW diretamente do menu do sistema sem usar o Homebrew Launcher.
+
+It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
 
 ### What You Need
 
@@ -41,5 +41,28 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
+### Methods
+
+___
+
+#### Stay on Standard Haxchi
+
+Standard Haxchi is the exploit that has already been installed on your device.
+
+This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+
+### Continue to [Hombrew Launcher (Channel)](homebrew-launcher-(channel)).
+{: .notice--primary}
+
+___
+
+#### Upgrade to Coldboot Haxchi
+
+CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+
+This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+
 ### Continue to [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
+
+___

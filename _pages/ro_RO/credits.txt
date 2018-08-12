@@ -5,7 +5,7 @@ title: "Contribuții"
 **Mulțumiri speciale tuturor [traducătorilor](https://crowdin.com/project/wii-u-guide) pentru că sunt minunați!**
 {: .notice--primary}
 
-Dacă te-am uitat, contactează-ne și îți vom adăuga numele.
+If I forgot you here, contact me and I'll add your name.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ Dacă te-am uitat, contactează-ne și îți vom adăuga numele.
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

@@ -5,7 +5,7 @@ title: "Créditos"
 **¡Agradecimientos especiales a todos [los traductores](https://crowdin.com/project/wii-u-guide) por ser asombrosos!**
 {: .notice--primary}
 
-Si te olvidamos, puedes contactarnos para añadir tu nombre.
+Si te olvidé, puedes contactarme para añadir tu nombre.
 
 {% capture notice-1 %}
 
@@ -13,6 +13,7 @@ Si te olvidamos, puedes contactarnos para añadir tu nombre.
     + derrek
     + dimok789
     + FIX94
+    + FlimFlam69
     + koolkdev
     + plutooo
     + smea

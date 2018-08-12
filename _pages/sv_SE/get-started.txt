@@ -23,8 +23,8 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 ### Vad du behöver
 
-* [config.txt]({{ "/images/config.txt" | absolute_url }}){:download="config.txt"}
-* [config.ini]({{ "/images/config.ini" | absolute_url }}){:download="config.ini"}
+* [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
+* [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
 * Senaste versionen av [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -33,7 +33,8 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * Senaste versionen av [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip`-filen som har `channel` i fil-namnet)*
 * Version 1.3 av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(`.zip`-filen som har `launcher` i fil-namnet)*
-* Senaste versionen av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
+* Senaste versionen av [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* Senaste versionerna av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Instruktioner
@@ -56,6 +57,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 1. Kopiera *innehållet* från disc2app `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från hid\_to\_vpad `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från NNU-Patcher `zip`-filen till roten av ditt SD-kort
+1. Kopiera *innehållet* från Wii U NAND Dumper `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från Mocha CFW `zip`-filen till roten av ditt SD-kort
 1. Kopiera `config.ini`till `/wiiu/apps/mocha/`-katalogen på ditt SD-Kort
 1. Sätt tillbaka ditt SD-kort i din enhet

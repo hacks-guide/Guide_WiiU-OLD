@@ -19,9 +19,6 @@ main:
     title: Modeo de vWii
     url: vwii-modding
   - 
-    title: Respaldo de la NAND
-    url: nand-backup
-  - 
     title: Navegación del sitio
     url: site-navigation
   - 
@@ -62,11 +59,8 @@ sidebar_pages:
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi (Opcional)
+    title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
     title: Homebrew Launcher (Canal)
     url: homebrew-launcher-(channel)
-  - 
-    title: Copia de seguridad de NAND (Opcional)
-    url: nand-backup
