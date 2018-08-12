@@ -27,7 +27,7 @@ Ditt Haxchi DS virtual console-spel MÅSTE vara en ÄKTA kopia (icke-piratad), a
 {% capture notice-1 %}
 Det här är ett valfritt steg som hjälper dig skapa en säkerhetskopia av din konsols interna NAND-minne till ditt SD-kort, vilket gör det möjligt för dig att återställa din enhet om du råkar bricka.
 
-Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. Om du har den vita (8GB) Wii U-modellen så behöver ditt SD-kort vara minst 16GB stort..
+Om du har den svarta (32GB) Wii U-modellen så behöver ditt SD-kort vara minst 64GB stort. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
