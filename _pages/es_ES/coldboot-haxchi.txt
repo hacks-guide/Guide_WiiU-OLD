@@ -27,7 +27,7 @@ Tu juego de la consola virtual de DS con Haxchi DEBE estar en la memoria interna
 {% capture notice-1 %}
 Esta es una sección opcional en la cual podrás crear una copia de seguridad de la memoria interna de tu consola en tu tarjeta SD, la cual te permitirá restaurar tu consola en caso de un brickeo.
 
-Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
+Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
