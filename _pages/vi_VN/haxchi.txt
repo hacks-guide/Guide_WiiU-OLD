@@ -8,7 +8,7 @@ title: "Haxchi"
 
 Haxchi là exploit cho phép chạy CFW trực tiếp từ giao diện hệ thống mà không cần thông qua Homebrew Launcher.
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Haxchi là bản CFW đánh lừa được kiểm tra chữ ký ứng dụng, kiểm tra phân vùng, có thể chạy nền code tùy biến.
 
 ### Cần chuẩn bị gì
 
@@ -45,22 +45,22 @@ Hiện tại, bạn sẽ phải chạy lại game DS có vỏ "Haxchi" này mỗ
 
 ___
 
-#### Stay on Standard Haxchi
+#### Chỉ dùng Haxchi thường
 
-Standard Haxchi is the exploit that has already been installed on your device.
+Haxchi thường là dạng hack được cài sẵn vào thiết bị.
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+Cách này không có khả năng gây hại đến thiết bị, nhưng cũng phiền hơn khi bạn phải chạy app Haxchi sau mỗi lần khởi động.
 
 ### Tiếp tục đến [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### Nâng cấp thành Coldboot Haxchi
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) đổi app hệ thống trong giao diện chính thành game mồi DS. Qua đó máy sẽ tự chạy CFW mỗi khi khởi động.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. Nếu game này bị xóa hay nội dung hack bị sửa đổi, CBHC sẽ làm brick máy Wii U của bạn!
 
 ### Tiếp tục đến [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

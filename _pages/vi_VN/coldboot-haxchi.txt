@@ -6,36 +6,36 @@ title: "Coldboot Haxchi"
 
 ### Điều cần đọc
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) đổi app hệ thống trong giao diện chính thành game mồi DS. Qua đó máy sẽ tự chạy CFW mỗi khi khởi động.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. Nếu game này bị xóa hay nội dung hack bị sửa đổi, CBHC sẽ làm brick máy Wii U của bạn!
 
 {% capture notice-1 %}
 Bạn CẦN PHẢI cài sẵn Haxchi để thực hiện bước này. Nếu không, máy sẽ BRICK!
 
 Game DS vỏ Haxchi PHẢI được cài trong bộ nhớ trong của Wii U. Nếu cài trên các thiết bị lưu trữ usb, máy sẽ BRICK!
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
+Game DS vỏ Haxchi của bạn PHẢI là game tải HỢP PHÁP từ eshop, nếu không máy sẽ BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Hướng dẫn
 
-#### Section I - NAND Backup
+#### Phần I - Sao lưu NAND
 
 {% capture notice-1 %}
-This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+Bước này không bắt buộc, nhưng nó sẽ tạo bản sao lưu (backup) NAND của máy trên thẻ SD, sau này có bị brick có thể phục hồi lại.
 
-Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+Cài CBHC không khiến máy bạn bị brick *nếu làm đúng theo các hướng dẫn và cảnh báo*. Vì yêu cầu thẻ SD dung lượng lớn và tốc độ chép NAND rất chậm, quá trình này có thể được lược bỏ
 
-If you accept the risk of installing CBHC without a NAND backup, skip this section.
+Nếu bạn chấp nhận nguy cơ khi cài CBHC mà không sao lưu NAND, hãy bỏ qua bước này.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -54,12 +54,12 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
 1. Tắt máy đi
 1. Lắp thẻ nhớ SD vào máy tính
 1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + Lưu file backup ở nhiều chỗ (như tải lên mạng)
+  + Những backup này sẽ giúp bạn phục hồi máy bị brick hoặc lấy lại file gốc của NAND nếu xảy ra sự cố
 1. Lắp thẻ nhớ SD vào thiết bị
 1. Bật thiết bị lên
 
-#### Section II - Installing CBHC
+#### Section II - Cài CBHC
 
 1. Gỡ tất cả thiết bị usb khỏi máy Wii U
 1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
@@ -100,15 +100,15 @@ Bạn có thể cắm lại các thiết bị usb sau khi cài đặt thành cô
 {: .notice--info}
 
 {% capture notice-1 %}
-Never uninstall the CBHC DS virtual console game or you will BRICK.
+Không được xóa game DS có vỏ CBHC, nếu không máy sẽ BRICK.
 
-Never reinstall the CBHC DS virtual console game or you will BRICK.
+Không cài lại game DS có vỏ CBHC, nếu không máy sẽ BRICK.
 
-Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
+Không được di chuyển game DS có vỏ CBHC vào bộ nhớ của thiết bị lưu trữ usb, nếu không máy sẽ BRICK.
 
-Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
+Không được xóa tài khoản Nintendo đã mua game DS có vỏ CBHC khỏi máy, nếu không máy sẽ BRICK!
 
-Never format your device while CBHC is installed or you will BRICK!
+Không được format máy, nếu không máy sẽ BRICK!
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>

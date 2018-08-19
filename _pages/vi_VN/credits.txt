@@ -5,7 +5,7 @@ title: "Những người đã đóng góp"
 **Chân thành cảm ơn các [Dịch giả](https://crowdin.com/project/wii-u-guide) vì đã giúp đỡ rất nhiều!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Nếu thiếu tên ai, vui lòng liên hệ tôi và tôi sẽ thêm tên bạn vào.
 
 {% capture notice-1 %}
 
