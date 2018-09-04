@@ -8,7 +8,7 @@ title: "Începeți"
 
 Acești pași vor prepara cardul SD pentru instalarea ColdBoot Haxchi CFW.
 
-Înainte de a începe, trebuie să vă asigurați că această consolă este în prezent pe firmware-ul 5.5.0, 5.5.1 sau 5.5.2. Versiunile mai vechi nu sunt în prezent suportate.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
 
 Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru instalarea jocului și pentru un backup la memeoria internă. Dacă doriţi să faceţi o copie de rezervă a sistemului dumneavoastră Wii U în cazul în care acesta trebuie să fie restaurat în viitor, va trebui un card SD de cel puţin de două ori mărimea memoriei consolei (16GB SD card pentru o consolă de 8GB alb; 64GB SD card pentru o consolă de 32GB negru).
 
