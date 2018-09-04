@@ -8,8 +8,7 @@ title: "Bắt đầu"
 
 Bước này sẽ giúp bạn chuẩn bị thẻ nhớ SD để cài CFW Haxchi hoặc Coldboot Haxchi.
 
-Trước khi bắt đầu, bạn cần kiểm tra xem máy Wii U của mình hiện có đang ở firmware từ 5.5.0 đến 5.5.2 không.
- Các firmware thấp hơn hiện không được hỗ trợ cài bản hack này.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
 
 Thẻ SD dùng để hack phải có dung lượng ít nhất từ 16GB cho đến 32GB để có đủ chỗ dump và cài game. Nếu muốn tạo backup file hệ thống của máy Wii U để phục hồi sau này, bạn cần dùng thẻ SD có dung lượng ít nhất phải gấp đôi dung lượng hệ thống của máy (thẻ 16GB cho máy trắng 8GB; thẻ 64GB cho máy đen 32GB).
 
