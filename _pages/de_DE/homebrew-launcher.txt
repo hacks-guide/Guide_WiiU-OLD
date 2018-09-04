@@ -22,8 +22,8 @@ Wir starten dies mithilfe des Wii U Webbrowsers, also muss sich deine Wii U mit 
 
 #### Section II - Homebrew Launcher
 
-1. If your device is on firmware version 5.5.2, open the browser curtains
-  + This improves the success rate of the 5.5.2 browser exploit
+1. If your device is on firmware versions 5.5.2 or 5.5.3, open the browser curtains
+  + This improves the success rate of the 5.5.2 / 5.5.3 browser exploit
 1. Go to `usploit.hacks.guide`
   + Du solltest diese Adresse als Lesezeichen speichern, um Zeit beim Tippen zu sparen
 1. Select "Run Homebrew Launcher" for the first exploit attempt
