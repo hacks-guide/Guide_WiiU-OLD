@@ -6,10 +6,10 @@ title: "FAQ"
 **A:** Si
 
 <a name="faq_oldfw" />**D:** *Ho una Wii U alla versione X.X.X. Cosa posso fare?*    
-**R:** Questa guida è compatibile solo con le versioni da 5.5.0 a 5.5.2. Versioni precedenti non sono al momento supportate.
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.3. Versioni precedenti non sono al momento supportate.
 
 <a name="faq_updates" />**D:** *Ora che Nintendo ha smesso di produrre Wii U, non ci saranno più aggiornamenti?*    
-**R:** No! La versione di sistema 5.5.2 è stata rilasciata molto tempo dopo la fine della produzione. Perciò assicurati di aver sempre impostati i server DNS che bloccano gli aggiornamenti.
+**R:** No! The versions 5.5.2 and 5.5.3 released well after the end of production. This is why you must always ensure that you have set DNS servers that will block updates.
 
 <a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
 **R:** No! Assicurati di aver sempre impostati i server DNS che bloccano gli aggiornamenti.
