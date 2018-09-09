@@ -6,10 +6,10 @@ title: "Întrebări frecvente"
 **R:** Da
 
 <a name="faq_oldfw" />**Î:** *Am un Wii U pe firmware-ul xxx. Ce pot / trebuie să fac cu el? *    
-**R:** Acest ghid este compatibil numai cu versiunile de la 5.5.0 la 5.5.2. Versiunile mai vechi sunt incompatibile deocamdată.
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.3. Versiunile mai vechi sunt incompatibile deocamdată.
 
 <a name="faq_updates" />**Î:** *Acum că Nintendo termină producţia pentru Wii U, asta înseamnă că nu se vor mai efectua actualizări?*    
-**R:** Nu! Versiunea 5.5.2 a fost lansată exact după terminarea producţiei. De aceea trebuie să vă asigurați mereu că aţi setat serverele DNS, care vor bloca actualizările.
+**R:** Nu! The versions 5.5.2 and 5.5.3 released well after the end of production. This is why you must always ensure that you have set DNS servers that will block updates.
 
 <a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
 **R:** Nu! De aceea trebuie sa va asigurati mereu că aţi setat serverele DNS, care vor bloca actualizările.
