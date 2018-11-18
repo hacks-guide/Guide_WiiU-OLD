@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Inicio
+    title: Home
     url: /
   - 
     title: FAQ
@@ -19,7 +19,7 @@ main:
     title: Modeo de vWii
     url: vwii-modding
   - 
-    title: Navegación del sitio
+    title: Site Navigation
     url: site-navigation
   - 
     title: Desinstalar CFW
