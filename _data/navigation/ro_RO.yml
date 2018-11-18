@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Acasă
+    title: Home
     url: /
   - 
     title: Întrebări frecvente
@@ -19,7 +19,7 @@ main:
     title: Modare vWii
     url: vwii-modding
   - 
-    title: Navigarea pe site
+    title: Site Navigation
     url: site-navigation
   - 
     title: Uninstall CFW
