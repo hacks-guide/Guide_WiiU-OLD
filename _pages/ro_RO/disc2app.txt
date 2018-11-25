@@ -17,7 +17,7 @@ Dacă plănuiți să folosiți un hard disc extern pentru a instala copiile disc
 
 ### Ce aveți nevoie
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
+* Un Wii U cu un fel de custom firmware (Mocha CFW, Haxchi, CBHC, etc)
 * 25GB de spaţiu liber pe cardul SD
 
 ### Instrucțiuni
