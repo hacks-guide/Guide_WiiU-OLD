@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Home
+    title: Главная
     url: /
   - 
     title: Вопросы и ответы
@@ -19,7 +19,7 @@ main:
     title: Модификация vWii
     url: vwii-modding
   - 
-    title: Site Navigation
+    title: Навигация по сайту
     url: site-navigation
   - 
     title: Удаление кастомной прошивки

@@ -8,14 +8,14 @@ title: "Haxchi"
 
 Haxchi este un exploit care ne permite să pornim CFW direct din meniul de sistem fără să folosim Homebrew Launcher.
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Acesta include un custom firmware care modifică verificările de semnătură, verificările de regiune, şi execută alt cod personalizat în fundal.
 
 ### Ce aveți nevoie
 
 + O copie originală a una dintre jocurile vulnerabile din consola virtuală DS instalate în memoria internă a Wii U-ului
   + Dacă încă nu aveți vreuna dintre jocurile exploatabile instalate, vedeți [Începeți](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++Fișierul personalizat `config.txt` din [Get Started](get-started) (să *nu* confundați cu fișierul existent `config.txt`) să fie pe folderul `/haxchi/` din cardul SD
+  + Folosind setarea de bază (de la arhiva `.zip` Haxchi) va provoca instalarea Haxchi să se poarte diferit de cum ar trebui
   
 ### Instrucțiuni
 
@@ -23,19 +23,19 @@ It includes a custom firmware that patches signature checks, region checks, and 
 1. Selectați jocul de consolă virtuală DS pe care veți instala Haxchi, apoi apăsați (A) ca să o selectați
 1. Citiți avertismentul, apoi apăsați (A) pentru a instala
 1. Odată completat, porniți jocul de consolă virtuală DS (numit "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. Consola va reporni şi va activa funcţiile de custom firmware
+  + Va avea posibilitatea de a rula jocuri neoficiale (Homebrew Launcher și altele) direct de pe meniul sistemului
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+În prezent, trebuie să lansați jocul de consolă virtuală DS de fiecare dată când reporniți pentru a intra în custom firmware. În pagina următoare se va instala opțional Coldboot Haxchi, care va face asta automat la pornire.
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puteţi acum să țineți apăsate diferite butoane în timp ce porniți jocul de consolă virtuală DS pentru diferite opţiuni de pornire. Aici puteți vedea ce face fiecare dintre opțiuni:**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + None -> Repornește custom firmware-ul
+  + (A) -> Repornește Homebrew Launcher
 
 {% endcapture %}
 
@@ -45,22 +45,22 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 ___
 
-#### Stay on Standard Haxchi
+#### Rămâneți pe Haxchi Standard
 
-Standard Haxchi is the exploit that has already been installed on your device.
+Haxchi-ul Standard este exploit-ul care a fost deja instalat în consolă.
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+Acest exploit vine fără vreun risc de a deteriora consola, dar este mai puțin convenabil de vreme ce trebuie să efectuați exploit-ul Haxchi manual după fiecare repornire.
 
 ### Continuare [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### Actualizare la Coldboot Haxchi
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (Coldboot Haxchi) vă modifică titlul de sistem implicit de la meniul de sistem pentru un joc de consolă virtuală DS. Acest lucru va face consola să lanseze CFW automat la pornire.
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Acest exploit este un pic mai periculos decât Haxchi-ul Standard din cauza că exploit-ul de joc DS Virtual Console este *singura* cale pentru a porni sistemul. Dacă acest joc va fi șters vreodată sau exploit-ul este șters, instalând CBHC va face consola INUTILIZABILĂ!
 
 ### Continuați la [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}

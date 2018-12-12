@@ -2,7 +2,7 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
@@ -20,15 +20,15 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
   + Aceasta va șterge de asemenea toate datele care au legătură cu setările, istoricul de navigare și favoriți
 1. Întoarceți-vă la browser
 
-#### Section II - Homebrew Launcher
+#### Secțiunea II - Homebrew Launcher-ul
 
-1. If your device is on firmware versions 5.5.2 or 5.5.3, open the browser curtains
-  + This improves the success rate of the 5.5.2 / 5.5.3 browser exploit
-1. Go to `usploit.hacks.guide`
+1. În cazul în care consola este pe versiuni de firmware 5.5.2 sau 5.5.3, deschideți perdelele de browser
+  + Aceasta îmbunătățește rata de succes a exploit-ului de browser 5.5.2 / 5.5.3
+1. Mergeți la `usploit.hacks.guide`
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
-1. Select "Run Homebrew Launcher" for the first exploit attempt
+1. Selectați "Run Homebrew Launcher" pentru prina încercare de pornire de exploit
   + S-ar putea să fie nevoie să încercați de mai multe ori
-  + If it freezes, just force the console to power off by holding the power button, then try again
+  + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați din nou
 1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 
 ___

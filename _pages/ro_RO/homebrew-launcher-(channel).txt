@@ -6,16 +6,16 @@ title: "Homebrew Launcher (Canal)"
 
 ### Lectură obligatorie
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Acesta va instala Homebrew Channel, astfel încât, odată ce porniți un SysNAND modificat, Homebrew Launcher va apărea ca o pictogramă în meniul de sistem.
 
 ### Instrucțiuni
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Secțiunea I - Pornind Homebrew Launcher-ul
 
 1. Intrați în Homebrew Launcher
   + Utilizatorii de CBHC trebuie să apese (Home) în timp ce CBHC pornește pentru a accesa meniul de opțiuni de pornire de CBHC, și să selecteze Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Utilizatorii de Haxchi trebuie să pornească Haxchi o dată pentru a abilita Custom Firmware, și apoi să-l pornească o a doua oară în timp ce țin apăsat butonul (A) pentru a porni Homebrew Laucher
+  + Utilizatorii de Mocha CFW ar fi trebuit deja să fi intrat aici
 1. Porniți WUP Installer GX2
   + Țineți cont că, dacă WUP Installer GX2 se închide cu eroarea "DSi Exception Has Occurred", trebuie doar să închideți consola și să încercați din nou.
 1. Selectați Homebrew Channel-ul
@@ -23,28 +23,28 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Selectați "NAND" ca destinație
 1. Apăsaţi (Home), apoi închideți programul pentru a ieşi din instalator odată ce s-a terminat
 
-#### Section II - Blocking System Updates
+#### Secţiunea II - Blocând actualizările de sistem
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Reţineţi că, pentru a accesa eShop cu aceste adrese adrese DNS, mai întâi, trebuie să rulaţi NNU-Patcher prin Homebrew Launcher. În plus, reţineţi că NNU-Patcher este un patch temporar şi va trebui să fie rulat din nou, dacă aveţi nevoie pentru a accesa eShop după ce reporniți.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Țineți cont că, dacă nu blocați actualizările cu această metodă pe toate conexiunile prezente și viitoare, actualizările se fac *automat* și *nu* pot fi dezactivate. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Mergeți la "System Settings", apoi "Internet", apoi "Connect to the Internet" apoi apăsați (X) pentru a afișa conexiunile de rețea prezente
+1. Pentru fiecare conexiune (şi toate conexiunile viitoare), faceți următoarele
+  + Selectaţi conexiunea
+  + Selectați "Change Settings"
+  + Mergeți la a doua listă și selectați "DNS"
+  + Setați DNS-ul pe "Don't Auto-Obtain"
+  + Setați IP-urile de server DNS la următoarele
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Selectaţi "Confirm", apoi apăsaţi (B) pentru a salva
+  + Aceste servere vor bloca consola din a se actualiza
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Acum puteţi porni Homebrew Launcher pe Custom Firmware doar pornind Homebrew Channel.
 {: .notice--info}
 
 Țineți cont că, pentru a accesa eShop-ul cu adresele DNS care blochează actualizările, trebuie să porniți dinainte (NNU-Patcher prin Homebrew pentru a accesa eShop).
@@ -53,7 +53,7 @@ You can now launch the Homebrew Launcher on custom firmware just by launching th
 Pentru informații despre cum să copiați datele la discurile de joc spre un format bun de instalat și jucat fără a avea nevoie de disc, vedeți pagina [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+Pentru informații despre cum să modificați vWii în SysNAND, vedeți pagina [Modare vWii](vwii-modding).
 {: .notice--success}
 
 Pentru informaţii despre cum să dezinstalați CFW în condiţii de siguranţă şi să vă întoarceți la stoc, vedeți pagina [Dezinstalând CFW](uninstall-cfw).
