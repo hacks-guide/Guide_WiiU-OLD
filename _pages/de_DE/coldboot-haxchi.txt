@@ -57,7 +57,7 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
   + Make backups in multiple locations (such as online file storage)
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
 1. Stecke deine SD-Karte wieder in die Wii U
-1. Schalte dein Gerät an
+1. Power on your device
 
 #### Section II - Installing CBHC
 
