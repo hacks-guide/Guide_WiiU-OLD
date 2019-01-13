@@ -41,6 +41,9 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 
 #### 第一節 — 準備工作
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
@@ -95,7 +98,7 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 | 《新 超級瑪利歐兄弟》 |
 | 《神奇寶貝不可思議的迷宮：空之探險隊》 |
 | 《神奇寶貝保育家》 |
-| 《神奇寶貝保育家：光之軌跡》 | 
+| 《神奇寶貝保育家：光之軌跡》 |
 | 《神奇寶貝保育家：風湧篇》 |
 | 《星戰火狐：秘密指令》 |
 | 《超級瑪利歐64 DS》 |
