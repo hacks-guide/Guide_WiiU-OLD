@@ -41,6 +41,9 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 #### Avsnitt I - Förberedelser
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Stäng av din enhet
 1. Sätt in ditt SD-kort i datorn
 1. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
@@ -95,7 +98,7 @@ Följande DS Virtual Console-spel är kompatibla:
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
