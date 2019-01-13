@@ -41,6 +41,9 @@ SD-карта должна быть отформатирована в FAT32 (р�
 
 #### Часть I - Подготовительные работы
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `wiiu` в корне SD-карты
@@ -95,7 +98,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
