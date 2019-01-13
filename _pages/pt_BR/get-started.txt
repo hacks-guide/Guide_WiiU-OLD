@@ -41,6 +41,9 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 #### Section I - Prep Work
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Desligue seu dispositivo
 1. Insira o seu cartão SD no seu computador
 1. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
@@ -95,7 +98,7 @@ The following DS Virtual Console games are compatible:
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
