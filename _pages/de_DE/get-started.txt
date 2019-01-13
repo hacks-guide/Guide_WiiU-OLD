@@ -41,6 +41,9 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 #### Section I - Prep Work
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Schalte dein Gerät aus
 1. Stecke deine SD Karte in den Computer
 1. Erstelle einen Ordner mit dem Namen `wiiu` im Stammverzeichnis deiner SD-Karte
@@ -95,7 +98,7 @@ Die folgenden Spiele sind mit dem Exploit kompatibel:
 | New Super Mario Bros. |
 | Pokémon Mystery Dungeon: Erkundungsteam Himmel |
 | Pokemon Ranger |
-| Pokemon Ranger: Spuren des Lichts | 
+| Pokemon Ranger: Spuren des Lichts |
 | Pokemon Ranger: Finsternis über Almia |
 | Star Fox Command |
 | Super Mario 64 DS |
