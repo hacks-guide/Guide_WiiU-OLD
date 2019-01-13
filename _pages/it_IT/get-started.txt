@@ -41,6 +41,9 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 #### Sezione I - Preparazione
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Spegni la tua console
 1. Inserisci la scheda SD nel tuo computer
 1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
@@ -95,7 +98,7 @@ Sono compatibili i seguenti giochi DS della Virtual Console:
 | New Super Mario Bros. |
 | Pokémon Mystery Dungeon: Esploratori del cielo |
 | Pokemon Ranger |
-| Pokémon Ranger: Tracce di Luce| 
+| Pokémon Ranger: Tracce di Luce|
 | Pokémon Ranger: Ombre su Almia |
 | Starfox Command |
 | Super Mario 64 DS |
