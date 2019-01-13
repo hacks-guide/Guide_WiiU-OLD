@@ -41,6 +41,9 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 #### Secțiunea I - Preparații
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
 1. Creați un folder numit `wiiu` pe rădăcina cardului SD
@@ -97,7 +100,7 @@ Request Context
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
  
 Request Context
