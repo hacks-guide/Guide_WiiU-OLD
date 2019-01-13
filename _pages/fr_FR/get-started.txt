@@ -41,6 +41,9 @@ La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup
 
 #### Section I - Préparatifs
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
@@ -95,7 +98,7 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 | New Super Mario Bros. |
 | Pokémon Donjon Mystère : Explorateurs du Ciel |
 | Pokémon Ranger |
-| Pokémon Ranger : Sillages de lumière | 
+| Pokémon Ranger : Sillages de lumière |
 | Pokémon Ranger : Nuit sur Almia |
 | Starfox Command |
 | Super Mario 64 DS |
