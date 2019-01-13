@@ -41,6 +41,9 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 #### Sección I - Preparativos
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
 1. Crea una carpeta llamada`wiiu` en la raíz de tu tarjeta SD
@@ -95,7 +98,7 @@ Los siguientes juegos de consola virtual de DS son compatibles:
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
