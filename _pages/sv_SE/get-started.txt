@@ -41,7 +41,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 #### Avsnitt I - Förberedelser
 
-For all steps in this section, overwrite any existing files on your SD card.
+För alla steg i den här sektionen ska du skriva över befintliga filer på ditt SD-kort om sådana finns.
 {: .notice--info}
 
 1. Stäng av din enhet
