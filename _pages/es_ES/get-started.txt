@@ -41,7 +41,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 
 #### Sección I - Preparativos
 
-For all steps in this section, overwrite any existing files on your SD card.
+Para todos los pasos en esta sección, sobreescribe cualquier archivo existente en tu tarjeta SD.
 {: .notice--info}
 
 1. Apaga tu consola
