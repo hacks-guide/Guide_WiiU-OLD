@@ -41,7 +41,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 #### Secțiunea I - Preparații
 
-For all steps in this section, overwrite any existing files on your SD card.
+Pentru toți pașii din această secțiune, suprascrieți fișierele existente de pe cardul SD.
 {: .notice--info}
 
 1. Închideți dispozitivul
