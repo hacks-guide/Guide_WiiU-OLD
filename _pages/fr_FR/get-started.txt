@@ -33,7 +33,7 @@ La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup
 * La dernière version de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * La dernière version de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La dernière version de [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(le fichier `.zip` de la chaîne)*
-* Une version précédente (v1.3) de [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(le fichier`.zip` du launcher)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.4) *(the launcher `.zip` file)*
 * La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * La dernière version de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -51,7 +51,7 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Créez un répertoire nommé `install` à la racine de votre carte SD
 1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
 1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copiez *le contenu* du fichier `.zip` de Homebrew Launcher (v1.3) vers la racine de votre carte SD
+1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
 1. Copiez *le contenu* du fichier `.zip` d'Haxchi vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de CBHC vers la racine de votre carte SD
 1. Copiez le fichier `config.txt` dans le dossier `/haxchi/`sur votre carte SD (en remplaçant le fichier `config.txt` déjà existant)
