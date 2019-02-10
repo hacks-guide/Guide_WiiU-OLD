@@ -26,6 +26,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * Свежая версия [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
@@ -41,11 +42,15 @@ SD-карта должна быть отформатирована в FAT32 (р�
 
 #### Часть I - Подготовительные работы
 
+Для всех шагов в этой части перезаписывайте любые существующие файлы на SD-карте.
+{: .notice--info}
+
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
 1. Создайте папку `wiiu` в корне SD-карты
 1. Создайте папку `install` в корне SD-карты
 1. Скопируйте папку `apps` из `.zip-архива` с Homebrew App Store в папку `/wiiu/` на SD-карте
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
 1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher (v1.3) в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с Haxchi в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с CBHC в корень SD-карты
@@ -95,7 +100,7 @@ SD-карта должна быть отформатирована в FAT32 (р�
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
