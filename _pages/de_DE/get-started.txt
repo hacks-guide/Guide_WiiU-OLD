@@ -26,6 +26,7 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
@@ -41,11 +42,15 @@ Bevor du anfängst, solltest du deine SD-Karte auf Fehler überprüfen. Verwende
 
 #### Section I - Prep Work
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Schalte dein Gerät aus
 1. Stecke deine SD Karte in den Computer
 1. Erstelle einen Ordner mit dem Namen `wiiu` im Stammverzeichnis deiner SD-Karte
 1. Erstelle einen Ordner mit dem Namen `install` im Stammverzeichnis deiner SD-Karte
 1. Kopiere den `apps` Ordner der Homebrew App Store `.zip` in den `/wiiu/` Ordner auf der SD -Karte
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
@@ -95,7 +100,7 @@ Die folgenden Spiele sind mit dem Exploit kompatibel:
 | New Super Mario Bros. |
 | Pokémon Mystery Dungeon: Erkundungsteam Himmel |
 | Pokemon Ranger |
-| Pokemon Ranger: Spuren des Lichts | 
+| Pokemon Ranger: Spuren des Lichts |
 | Pokemon Ranger: Finsternis über Almia |
 | Star Fox Command |
 | Super Mario 64 DS |
