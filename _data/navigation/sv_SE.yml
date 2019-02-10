@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Home
+    title: Start
     url: /
   - 
     title: Vanliga frågor
@@ -19,7 +19,7 @@ main:
     title: vWii Modding
     url: vwii-modding
   - 
-    title: Site Navigation
+    title: Navigering på webbplatsen
     url: site-navigation
   - 
     title: Avinstallera CFW
