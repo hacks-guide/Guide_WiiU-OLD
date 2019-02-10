@@ -26,6 +26,7 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Phiên bản mới nhất của [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
@@ -41,11 +42,15 @@ Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-na
 
 #### Phần I - Chuẩn bị
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Tắt máy đi
 1. Lắp thẻ nhớ SD vào máy tính
 1. Tạo thư mục tên `wiiu` trên thư mục gốc của thẻ nhớ
 1. Tạo thư mục tên `install` trên thư mục gốc của thẻ nhớ
 1. Chép thư mục `apps` trong gói Homebrew App Store`.zip` vào thư mục `/wiiu/` trên thẻ nhớ
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
 1. Chép các file trong gói Homebrew Launcher (v1.3) `.zip` vào thư mục gốc của thẻ nhớ
 1. Chép các file trong gói Haxchi `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói CBHC `.zip` vào thư mục gốc thẻ nhớ
@@ -95,7 +100,7 @@ Các game DS dạng Virtual Console sau tương thích với hack:
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
