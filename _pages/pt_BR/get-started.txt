@@ -26,6 +26,7 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
@@ -41,11 +42,15 @@ Antes de iniciar, você pode querer verificar se o seu cartão SD possui erros u
 
 #### Section I - Prep Work
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Desligue seu dispositivo
 1. Insira o seu cartão SD no seu computador
 1. Crie uma pasta chamada `wiiu` na raiz do seu cartão SD
 1. Crie uma pasta chamada `install` na raiz do seu cartão SD
 1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
 1. Copy *the contents of* the Homebrew Launcher (v1.3) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
@@ -95,7 +100,7 @@ The following DS Virtual Console games are compatible:
 | New Super Mario Bros. |
 | Pokemon Mystery Dungeon: Explorers of the Sky |
 | Pokemon Ranger |
-| Pokemon Ranger: Guardian Signs | 
+| Pokemon Ranger: Guardian Signs |
 | Pokemon Ranger: Shadows of Almia |
 | Starfox Command |
 | Super Mario 64 DS |
