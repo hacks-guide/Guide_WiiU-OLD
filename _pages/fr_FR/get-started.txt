@@ -26,6 +26,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * La dernière version de [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
@@ -41,11 +42,15 @@ La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup
 
 #### Section I - Préparatifs
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
 1. Créez un répertoire nommé `install` à la racine de votre carte SD
 1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
 1. Copiez *le contenu* du fichier `.zip` de Homebrew Launcher (v1.3) vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` d'Haxchi vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de CBHC vers la racine de votre carte SD
@@ -95,7 +100,7 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 | New Super Mario Bros. |
 | Pokémon Donjon Mystère : Explorateurs du Ciel |
 | Pokémon Ranger |
-| Pokémon Ranger : Sillages de lumière | 
+| Pokémon Ranger : Sillages de lumière |
 | Pokémon Ranger : Nuit sur Almia |
 | Starfox Command |
 | Super Mario 64 DS |
