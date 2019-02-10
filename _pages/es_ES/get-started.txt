@@ -33,7 +33,7 @@ Tu tarjeta SD *no puede* llamarse `wiiu`, o causará problemas.
 * La última versión de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * La última versión de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * La última versión del [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(el archivo `.zip` que dice "channel")*
-* Una versión anterior (v1.3) del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(el archivo `.zip` del launcher)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.4) *(the launcher `.zip` file)*
 * La última versión de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Las últimas versiones de [Haxchi y CBHC](https://github.com/FIX94/haxchi/releases/latest) *(los dos archivos `.zip`)*
 * La última versión de [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -51,7 +51,7 @@ Para todos los pasos en esta sección, sobreescribe cualquier archivo existente 
 1. Crea una carpeta llamada`install` en la raíz de tu tarjeta SD
 1. Copia la carpeta `apps` desde el `.zip` de Homebrew App Store a la carpeta `/wiiu/` en tu tarjeta SD
 1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copia *el contenido del* `.zip` del Homebrew Launcher (v1.3) a la raíz de tu tarjeta SD
+1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
 1. Copia *el contenido del* `.zip` de Haxchi a la raíz de tu tarjeta SD
 1. Copia *el contenido del* `.zip` de CBHC a la raíz de tu tarjeta SD
 1. Copia `config.txt` a la carpeta `/haxchi/` de tu tarjeta SD (sobreescribe el archivo `config.txt` ya existente)
