@@ -22,12 +22,9 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
 
 #### Sección II - Homebrew Launcher
 
-1. Si tu consola está en versión de firmware 5.5.2 o 5.5.3, abre las cortinas del navegador
-  + Esto aumenta la tasa de éxito del exploit de navegador para la 5.5.2/5.5.3
-1. Ve a `usploit.hacks.guide`
+1. Go to `wiiuexploit.xyz`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
 1. Selecciona "Run Homebrew Launcher" para el primer intento de ejecutar el exploit
-  + Esto puede tomar varios intentos
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta el proceso de nuevo
 1. Tu consola debería cargar el Homebrew Launcher
 
