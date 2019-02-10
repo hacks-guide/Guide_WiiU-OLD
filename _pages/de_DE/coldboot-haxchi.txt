@@ -50,14 +50,14 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
   + Dump SEEPROM (1KB): **yes**
 1. Drücke (A) um deinen NAND zu dumpen
   + Sei bereit zu warten; der Vorgang kann eine Weile dauern (mehrere Stunden, je nach dem wie viel internen Speicher du belegt hast)
-1. Wenn es abgeschlossen ist, wird deine Wii U automatisch neu starten
-1. Schalte dein Gerät aus
+1. When it has completed, your Wii U will reboot automatically
+1. Power off your device
 1. Stecke deine SD Karte in den Computer
 1. Kopiere `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, und jeder `mlc.bin.part` Datei aus dem Stammverzeichnis deiner SD-Karte an einen sicheren Ort auf deinem Computer
   + Make backups in multiple locations (such as online file storage)
   + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
 1. Stecke deine SD-Karte wieder in die Wii U
-1. Schalte dein Gerät an
+1. Power on your device
 
 #### Section II - Installing CBHC
 
