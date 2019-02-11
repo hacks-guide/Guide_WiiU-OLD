@@ -33,7 +33,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * Senaste versionen av [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Senaste versionen av [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip`-filen som har `channel` i fil-namnet)*
-* Version 1.4 av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 * Senaste versionen av [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Senaste versionerna av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
