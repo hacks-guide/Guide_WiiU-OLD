@@ -26,14 +26,14 @@ SD-карта должна быть отформатирована в FAT32 (р�
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Свежая версия [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* Свежая версия [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * Свежая версия [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Свежая версия [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Свежая версия [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Свежая версия [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Свежая версия [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Свежая версия [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip-архив` с суффиксом _channel)*
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.4) *(the launcher `.zip` file)*
+* Предыдущая версия (v1.4) [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`zip-архив` homebrew_launcher)*
 * Свежая версия [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Свежая версия [Haxchi и CBHC](https://github.com/FIX94/haxchi/releases/latest) *(оба `.zip-архива`)*
 * Свежая версия [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -50,8 +50,8 @@ SD-карта должна быть отформатирована в FAT32 (р�
 1. Создайте папку `wiiu` в корне SD-карты
 1. Создайте папку `install` в корне SD-карты
 1. Скопируйте папку `apps` из `.zip-архива` с Homebrew App Store в папку `/wiiu/` на SD-карте
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
+1. Скопируйте *содержимое* `.zip-архива` с payload в папку `/wiiu/` на SD-карте
+1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher (v1.4) в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с Haxchi в корень SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с CBHC в корень SD-карты
 1. Скопируйте `config.txt` в папку `/haxchi/` на SD-карте (замените существующий файл `config.txt`)
