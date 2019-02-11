@@ -2,7 +2,7 @@
 title: "Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="Innehåll" %}
 
 ### Obligatorisk läsning
 
@@ -22,7 +22,7 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 #### Avsnitt II - Homebrew Launcher
 
-1. Go to `wiiuexploit.xyz`
+1. Gå till `wiiuexploit.xyz`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
   + Om det fryser, tvinga konsolen att stänga av sig genom att hålla inne strömknappen och försök sen igen
