@@ -12,16 +12,6 @@ Vi startar den genom Wii U:s inbyggda webbläsare, så ditt Wii U kommer behöva
 
 ### Instruktioner
 
-#### Avsnitt I - Förbered webbläsaren
-
-1. Starta webbläsaren på din enhet
-1. Gå till webbläsarens inställningar och välj "Reset Save Data"
-  Det här kommer förhindra problem med att nyttja säkerhetshålen i webbläsaren
-  + Det här kommer även radera all webbläsarens data inklusive inställningar, historik och bokmärken
-1. Återvänd till webbläsaren
-
-#### Avsnitt II - Homebrew Launcher
-
 1. Gå till `wiiuexploit.xyz`
   + Du vill förmodligen göra ett bokmärke för att slippa skriva in adressen när du behöver den igen
 1. Välj "Run Homebrew Launcher" första gången du försöker nyttja säkerhetshålet
