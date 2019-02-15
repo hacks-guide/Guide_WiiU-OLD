@@ -12,16 +12,6 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 
 ### Instructions
 
-#### Section I - Preparing Browser
-
-1. Launch the browser on your device
-1. Go to the browser settings and select "Reset Save Data"
-  + This will prevent issues with the browser exploit
-  + This will also delete all save data including settings, history, and bookmarks
-1. Return to the browser
-
-#### Section II - Homebrew Launcher
-
 1. Go to `wiiuexploit.xyz`
   + You may want to bookmark this address to save time on typing in the future
 1. Select "Run Homebrew Launcher" for the first exploit attempt
