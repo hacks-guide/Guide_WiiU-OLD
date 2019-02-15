@@ -12,16 +12,6 @@ Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web c�
 
 ### Hướng dẫn
 
-#### Phần I - Chuẩn bị cho trình duyệt
-
-1. Chạy trình duyệt web trên máy
-1. Vào trong cài đặt của trình duyệt, chọn "Reset Save Data"
-  + Việc này giúp tránh xảy ra vấn đề khi cài exploit trên trình duyệt
-  + Nó cũng xóa hết các thiết lập đã có trong setting, history, và bookmark
-1. Làm xong, bạn bấm về lại trang chính của trình duyệt
-
-### Phần IV - cài Homebrew Launcher
-
 1. Go to `wiiuexploit.xyz`
   + Có thể bookmark lại địa chỉ trên để lần sau không phải gõ lại
 1. Chọn "Run Homebrew Launcher" để cài exploit
