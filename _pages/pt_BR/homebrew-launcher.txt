@@ -12,16 +12,6 @@ Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U 
 
 ### Instructions
 
-#### Section I - Preparing Browser
-
-1. Inicie o navegador no seu dispositivo
-1. Vá até as configurações do navegador e selecione "Redefinir Dados Salvos"
-  + Isso evitará problemas com o exploit do navegador
-  + Isso também irá apagar todos os dados salvos, incluindo configurações, histórico e favoritos
-1. Retorne ao navegador
-
-#### Section II - Homebrew Launcher
-
 1. Go to `wiiuexploit.xyz`
   + Você pode querer adicionar este endereço à lista de favoritos, para poupar tempo na digitação no futuro
 1. Select "Run Homebrew Launcher" for the first exploit attempt
