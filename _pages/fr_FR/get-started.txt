@@ -110,7 +110,7 @@ Les jeu de DS "Console Virtuelle" suivants sont compatibles:
 | Yoshi's Island DS |
 | Yoshi Touch & Go |
 
-+ Actuellement, les titres les moins chers sur l'eShop (6,99 €) sont : " Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ? ", " Cérébrale Académie ", " Pokémon Ranger : Nuit sur Almia ", " Pokémon Ranger : Sillages de lumière " et " Yoshi Touch & Go ".
++ Actuellement, le titre le moins cher sur l'eShop (6,99 €) est : "Programme d'entraînement cérébral du Dr Kawashima : Quel âge a votre cerveau ?".
 
 + Si vous possédez déjà "Programme d'entrainement cérébral de Dr Kawashima : Quel âge a votre cerveau ?" installé sur votre Wii U depuis un certain temps, essayez de supprimer et de réinstaller le jeu depuis l'eShop. Les anciennes versions du jeu ne sont pas compatibles avec cet exploit.
 
