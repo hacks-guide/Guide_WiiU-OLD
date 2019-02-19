@@ -6,28 +6,28 @@ title: "Coldboot Haxchi"
 
 ### Lecture requise
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. Cela entraîne le lancement automatique du CFW au démarrage de votre appareil.
+CBHC (Coldboot Haxchi) change le programme par défaut du menu système en votre jeu console virtuelle DS. Cela entraîne le lancement automatique du CFW au démarrage de votre appareil.
 
-Cet exploit est légèrement plus dangereux que juste Haxchi car votre jeu console virtuelle DS est le *seul* moyen de démarrer le système. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Cet exploit est légèrement plus dangereux que juste Haxchi car votre jeu console virtuelle DS est le *seul* moyen de démarrer le système. Si jamais ce jeu est supprimé ou l'exploit est supprimé, l'installation de CBHC va BRICK votre Wii U!
 
 {% capture notice-1 %}
 Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiliser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, votre console va BRICKER !
 
 Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être dans la mémoire interne de votre Wii U. S'il se trouve sur un disque USB, votre console va BRICKER !
 
-Your Haxchi DS virtual console game MUST be a LEGITIMATE (non-pirated) copy or you will BRICK!
+Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une copie LÉGITIME (non piratée), ou votre console va BRICKER !
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instructions
 
-#### Section I - NAND Backup
+#### Section I - Sauvegarde de la NAND
 
 {% capture notice-1 %}
-This is an optional section which will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device in the case of a brick.
+Il s'agit d'une section optionnelle qui créera une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil dans le cas d'un brick.
 
-Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
