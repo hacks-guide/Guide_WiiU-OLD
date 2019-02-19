@@ -12,7 +12,7 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 ### Instructions
 
-1. Go to `wiiuexploit.xyz`
+1. Ouvrez le site `wiiuexploit.xyz`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Sélectionnez "Run Homebrew Launcher" pour le premier essai d'exploit
   + Si la console freeze (ne répond plus), forcez-la simplement à s'éteindre en maintenant le bouton Power, puis réessayez
