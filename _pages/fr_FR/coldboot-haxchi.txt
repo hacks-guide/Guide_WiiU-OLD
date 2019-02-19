@@ -25,7 +25,7 @@ Le jeu de console virtuelle DS que vous avez utilisé pour Haxchi DOIT être une
 #### Section I - Sauvegarde de la NAND
 
 {% capture notice-1 %}
-Il s'agit d'une section optionnelle qui créera une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil dans le cas d'un brick.
+Ceci est une section optionnelle qui créera une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil dans le cas d'un brick.
 
 Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
 {% endcapture %}
@@ -33,9 +33,9 @@ Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'es
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
 {% capture notice-1 %}
-It is not possible to brick your device by installing CBHC as long as *all instructions and warnings are followed*. This, combined with the strict SD card requirements and extremely slow NAND dumping speed, means that creating a NAND backup is currently an optional step
+Il n'est pas possible de brick votre Wii U en installant CBHC tant que *toutes les instructions et les avertissements sont suivis*. Ceci, combiné aux exigences de la carte SD et à la lenteur du dump de la NAND, fait que la création d'une sauvegarde de la NAND est actuellement une étape facultative
 
-If you accept the risk of installing CBHC without a NAND backup, skip this section.
+Si vous acceptez le risque d'installer CBHC sans faire une sauvegarde de la NAND, passez à la partie suivante.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
@@ -54,12 +54,12 @@ If you accept the risk of installing CBHC without a NAND backup, skip this secti
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
 1. Copier `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, et chaque fichier `mlc.bin.part` de la racine de votre carte SD dans un emplacement sécurisé sur votre ordinateur
-  + Make backups in multiple locations (such as online file storage)
-  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+  + Faites des sauvegardes dans plusieurs endroits (tels que des stockages de fichiers en ligne par exemple)
+  + Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
-#### Section II - Installing CBHC
+#### Section II - Installation de CBHC
 
 1. Retirez tous les périphériques USB de votre Wii U
 1. Entrez dans l'Homebrew Launcher en maintenant (A) en lançant votre jeu de console virtuelle Haxchi DS
@@ -100,15 +100,15 @@ Vous pouvez reconnecter tous les périphériques USB une fois l’installation t
 {: .notice--info}
 
 {% capture notice-1 %}
-Never uninstall the CBHC DS virtual console game or you will BRICK.
+Ne désinstallez jamais le jeu de console virtuelle DS CBHC ou vous BRICKEREZ.
 
-Never reinstall the CBHC DS virtual console game or you will BRICK.
+Ne réinstallez jamais le jeu de console virtuelle DS CBHC ou vous BRICKEREZ.
 
-Never move the CBHC DS virtual console game to a USB drive or you will BRICK.
+Ne déplacez jamais le jeu de console virtuelle DS CBHC sur un stockage USB ou vous BRICKEREZ.
 
-Never delete the user account NNID that has purchased the CBHC DS virtual console game or you will BRICK!
+Ne supprimez jamais le compte d’utilisateur NNID qui a acheté le jeu console virtuelle DS CBHC ou vous BRICKEREZ !
 
-Never format your device while CBHC is installed or you will BRICK!
+Ne formatez jamais votre Wii U alors que CBHC est installé ou vous BRICKEREZ !
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
