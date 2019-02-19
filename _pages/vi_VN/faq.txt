@@ -5,7 +5,7 @@ title: "Câu hỏi thường gặp"
 <a name="faq_latestfw" />**Câu hỏi:** *Tôi đang dùng phiên bản firmware hệ thống mới nhất, máy của tôi có thể hack được không?*    
 **Trả lời:** Có
 
-<a name="faq_oldfw" />**Câu hỏi:** *Tôi đang dùng máy Wii U có firmware X.X.X . Tôi có thể làm được gì với nó?*    
+<a name="faq_oldfw" />**Câu hỏi:** *Tôi đang dùng máy Wii U có firmware X.X.X . What can / should I do with it?*    
 **Trả lời:** Hướng dẫn này chỉ dành cho firmware từ 5.5.0 tới 5.5.3. Các version khác không tương thích.
 
 <a name="faq_updates" />**Câu hỏi:** *Giờ Nintendo ngừng sản xuất Wii U rồi, vậy không còn bản cập nhật nào phải không?*     
