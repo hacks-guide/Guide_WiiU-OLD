@@ -51,7 +51,7 @@ Pour toutes les étapes de cette section, remplacez tous les fichiers existants 
 1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
 1. Créez un répertoire nommé `install` à la racine de votre carte SD
 1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
+1. Copiez *le contenu* de `payload.zip` vers le dossier wiiu de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` du Homebrew Launcher (v1.4) vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` d'Haxchi vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` de CBHC vers la racine de votre carte SD
