@@ -12,7 +12,7 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
 
 ### Instrucciones
 
-1. Go to `wiiuexploit.xyz`
+1. Ve a `wiiuexploit.xyz`
   + Conviene que añadas esta dirección a favoritos para ahorrar el tiempo de escribirla en el futuro
 1. Selecciona "Run Homebrew Launcher" para el primer intento de ejecutar el exploit
   + Si se congela, fuerza el apagado de la consola manteniendo presionado el botón de apagado y luego intenta el proceso de nuevo
