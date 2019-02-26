@@ -26,14 +26,14 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* Phiên bản mới nhất của [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Phiên bản mới nhất của [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Phiên bản mới nhất của [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Phiên bản mới nhất của [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Phiên bản mới nhất của [Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
+* Phiên bản cũ hơn (v1.4) của [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(chọn file `.zip`)*
 Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Phiên bản mới nhất của [Haxchi và CBHC](https://github.com/FIX94/haxchi/releases/latest) *(cả 2 file `.zip`)*
 * Phiên bản mới nhất của [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -42,7 +42,7 @@ Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-na
 
 #### Phần I - Chuẩn bị
 
-For all steps in this section, overwrite any existing files on your SD card.
+Đối với các bước trong phần này, chép đè toàn bộ các tệp đã có trên thẻ nhớ của bạn.
 {: .notice--info}
 
 1. Tắt máy đi
@@ -50,8 +50,8 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Tạo thư mục tên `wiiu` trên thư mục gốc của thẻ nhớ
 1. Tạo thư mục tên `install` trên thư mục gốc của thẻ nhớ
 1. Chép thư mục `apps` trong gói Homebrew App Store`.zip` vào thư mục `/wiiu/` trên thẻ nhớ
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
+1. Chép các file trong gói payload `.zip` vào thư mục wiiu trên thẻ SD
+1. Chép các file trong gói Homebrew Launcher (v1.4) `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói Haxchi `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói CBHC `.zip` vào thư mục gốc thẻ nhớ
 1. Chép file `config.txt` vào thư mục `/haxchi/` trên thẻ nhớ (chép đè file `config.txt` hiện có)
