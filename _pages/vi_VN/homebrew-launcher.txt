@@ -12,7 +12,7 @@ Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web c�
 
 ### Hướng dẫn
 
-1. Go to `wiiuexploit.xyz`
+1. Vào trang `wiiuexploit.xyz`
   + Có thể bookmark lại địa chỉ trên để lần sau không phải gõ lại
 1. Chọn "Run Homebrew Launcher" để cài exploit
   + Nếu máy treo, tắt máy bằng cách giữ nút nguồn, rồi thử lại
