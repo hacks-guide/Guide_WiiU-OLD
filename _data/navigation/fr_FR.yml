@@ -19,10 +19,10 @@ main:
     title: Modding vWii
     url: vwii-modding
   - 
-    title: Site Navigation
+    title: Index du site
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: Désinstaller le CFW
     url: uninstall-cfw
 bottom:
   - 

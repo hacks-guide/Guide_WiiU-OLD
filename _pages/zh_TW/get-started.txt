@@ -26,13 +26,14 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
 * 最新版的 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * 最新版的 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * 最新版的 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版的 [Homebrew Launcher 頻道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(選擇 channel `.zip` 檔案)*
-* 舊版 (v1.3) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(選擇 channel `.zip` 檔案)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
 * 最新版的 [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
 * 最新版的 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -41,12 +42,16 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 
 #### 第一節 — 準備工作
 
+For all steps in this section, overwrite any existing files on your SD card.
+{: .notice--info}
+
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `wiiu`
 1. 在 SD 卡的根目錄底下建立一個新的資料夾 `install`
 1. 解壓 Homebrew App Store `.zip` 中的 `apps` 資料夾至 SD 卡的 `/wiiu/` 資料夾中
-1. 解壓 Homebrew Launcher (v1.3) `.zip` 中的*所有內容*至 SD 卡的根目錄底下
+1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
+1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
 1. 解壓 Haxchi `.zip` 中的*所有內容*至 SD 卡的根目錄底下
 1. 解壓 CBHC `.zip` 中的*所有內容*至 SD 卡的根目錄底下
 1. 複製 `config.txt` 至您 SD 卡的 `/haxchi/` 資料夾中 (覆蓋現有的 `config.txt` 檔案)
@@ -95,7 +100,7 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 | 《新 超級瑪利歐兄弟》 |
 | 《神奇寶貝不可思議的迷宮：空之探險隊》 |
 | 《神奇寶貝保育家》 |
-| 《神奇寶貝保育家：光之軌跡》 | 
+| 《神奇寶貝保育家：光之軌跡》 |
 | 《神奇寶貝保育家：風湧篇》 |
 | 《星戰火狐：秘密指令》 |
 | 《超級瑪利歐64 DS》 |

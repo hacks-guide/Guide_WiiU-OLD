@@ -12,22 +12,9 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 ### Instructions
 
-#### Section I – Préparer le navigateur
-
-1. Lancer le navigateur sur votre Wii U
-1. Allez dans les paramètres de navigation et cliquez sur "Mettre les paramètres à zéro"
-  + Cette démarche permet une meilleur compatibilité avec les exploits utilisés dans le navigateur
-  + En contre-partie, cela supprimera aussi tout vos favoris ainsi que votre historique et vos paramètres de navigation
-1. Retournez dans le navigateur
-
-#### Section II - Homebrew Launcher
-
-1. If your device is on firmware versions 5.5.2 or 5.5.3, open the browser curtains
-  + This improves the success rate of the 5.5.2 / 5.5.3 browser exploit
-1. Rendez vous à l'adresse `usploit.hacks.guide`
+1. Ouvrez le site `wiiuexploit.xyz`
   + Vous pouvez sauvegarder cette adresse dans vos favoris afin de gagner du temps lors des prochaines sessions
 1. Sélectionnez "Run Homebrew Launcher" pour le premier essai d'exploit
-  + Plusieurs tentatives peuvent être nécessaires pour lancer le hack
   + Si la console freeze (ne répond plus), forcez-la simplement à s'éteindre en maintenant le bouton Power, puis réessayez
 1. Votre console devrait maintenant charger le Homebrew Launcher
 

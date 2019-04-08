@@ -12,22 +12,9 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
 
 ### Instrucțiuni
 
-#### Secțiunea I - Pregătind browserul
-
-1. Porniți browserul pe consolă
-1. Mergeți la setările de browser și selectați "Reset Save Data"
-  + Aceasta va preveni probleme cu exploit-ul
-  + Aceasta va șterge de asemenea toate datele care au legătură cu setările, istoricul de navigare și favoriți
-1. Întoarceți-vă la browser
-
-#### Secțiunea II - Homebrew Launcher-ul
-
-1. În cazul în care consola este pe versiuni de firmware 5.5.2 sau 5.5.3, deschideți perdelele de browser
-  + Aceasta îmbunătățește rata de succes a exploit-ului de browser 5.5.2 / 5.5.3
-1. Mergeți la `usploit.hacks.guide`
+1. Go to `wiiuexploit.xyz`
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
 1. Selectați "Run Homebrew Launcher" pentru prina încercare de pornire de exploit
-  + S-ar putea să fie nevoie să încercați de mai multe ori
   + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați din nou
 1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 

@@ -12,22 +12,9 @@ Homebrew Launcher 是個用來啟動 SD 卡上其他自製程式的啟動器。
 
 ### 操作說明
 
-#### 第一節 — 準備瀏覽器
-
-1. 開啟您主機上的網頁瀏覽器
-1. 到瀏覽器設定中選擇「Reset Save Data」(清除儲存資料)
-  + 這將確保網頁瀏覽器漏洞能正常運行
-  + 這將刪除所有已儲存的資料，包括設定、瀏覽紀錄、及書籤
-1. 返回至瀏覽器中
-
-#### 第二節 — Homebrew Launcher
-
-1. If your device is on firmware versions 5.5.2 or 5.5.3, open the browser curtains
-  + This improves the success rate of the 5.5.2 / 5.5.3 browser exploit
-1. 前往 `usploit.hacks.guide`
+1. Go to `wiiuexploit.xyz`
   + 您可以將本網址設為書籤，這樣未來要使用時較方便
 1. 於第一次嘗試時選擇『Run Homebrew Launcher』
-  + 可能需要嘗試多次
   + 如果當機的話，透過電源按鈕將您的主機強制關機，並再試一次
 1. 您的主機應該就會啟動 Homebrew Launcher 了
 

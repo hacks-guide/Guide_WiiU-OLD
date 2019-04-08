@@ -5,7 +5,7 @@ title: "Întrebări frecvente"
 <a name="faq_latestfw" />**Î:** *Am dispozitivul actualizat la zi, este dispozitivul modabil?*    
 **R:** Da
 
-<a name="faq_oldfw" />**Î:** *Am un Wii U pe firmware-ul xxx. Ce pot / trebuie să fac cu el? *    
+<a name="faq_oldfw" />**Î:** *Am un Wii U pe firmware-ul xxx. What can / should I do with it?*    
 **R:** Acest ghid este compatibil numai cu versiunile de la 5.5.0 la 5.5.3. Versiunile mai vechi sunt incompatibile deocamdată.
 
 <a name="faq_updates" />**Î:** *Acum că Nintendo termină producţia pentru Wii U, asta înseamnă că nu se vor mai efectua actualizări?*    

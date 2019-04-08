@@ -12,22 +12,9 @@ Nós o executamos utilizando o navegador de internet do Wii U, então seu Wii U 
 
 ### Instructions
 
-#### Section I - Preparing Browser
-
-1. Inicie o navegador no seu dispositivo
-1. Vá até as configurações do navegador e selecione "Redefinir Dados Salvos"
-  + Isso evitará problemas com o exploit do navegador
-  + Isso também irá apagar todos os dados salvos, incluindo configurações, histórico e favoritos
-1. Retorne ao navegador
-
-#### Section II - Homebrew Launcher
-
-1. If your device is on firmware versions 5.5.2 or 5.5.3, open the browser curtains
-  + This improves the success rate of the 5.5.2 / 5.5.3 browser exploit
-1. Go to `usploit.hacks.guide`
+1. Go to `wiiuexploit.xyz`
   + Você pode querer adicionar este endereço à lista de favoritos, para poupar tempo na digitação no futuro
 1. Select "Run Homebrew Launcher" for the first exploit attempt
-  + Isso pode levar várias tentativas
   + If it freezes, just force the console to power off by holding the power button, then try again
 1. Seu console deve carregar o Homebrew Launcher
 
