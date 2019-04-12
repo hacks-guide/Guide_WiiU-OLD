@@ -1,7 +1,7 @@
 ---
 main:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
     title: FAQ
