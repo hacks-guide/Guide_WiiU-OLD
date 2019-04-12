@@ -17,11 +17,11 @@ It includes a custom firmware that patches signature checks, region checks, and 
 + The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
   + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
   
-### Instructions
+### 操作步骤
 
 1. Launch the Haxchi Installer
 1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
+1. 阅读出现的警告，然后按下 “A” 键安装
 1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
 1. The console will reboot and enable custom firmware features
   + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
@@ -51,7 +51,7 @@ Standard Haxchi is the exploit that has already been installed on your device.
 
 This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### 继续至 [Homebrew Launcher (通过频道)](homebrew-launcher-(channel))。
 {: .notice--primary}
 
 ___
