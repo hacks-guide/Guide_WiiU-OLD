@@ -2,9 +2,9 @@
 title: "vWii Modding"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
 This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
 
