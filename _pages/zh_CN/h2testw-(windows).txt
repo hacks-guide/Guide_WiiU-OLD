@@ -16,7 +16,7 @@ This page is for Windows users only. If you are not on Windows, check out the [F
 
 * The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### 操作步骤
 
 1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
 1. Insert your SD card into your computer
