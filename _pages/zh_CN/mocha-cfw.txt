@@ -14,7 +14,7 @@ In order to use Mocha CFW, you will need to enter the Homebrew Launcher through 
 
 + The custom `config.ini` provided in [Get Started](get-started) should already be in the `/wiiu/apps/mocha/` folder on your SD card
 
-### Instructions
+### 操作步骤
 
 1. Launch Mocha CFW
 1. The console will return to the Homebrew Launcher and enable custom firmware features
