@@ -10,7 +10,7 @@ The Homebrew Launcher is a homebrew application that lists and allows the launch
 
 We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
 
-### Instructions
+### 操作步骤
 
 1. Go to `wiiuexploit.xyz`
   + You may want to bookmark this address to save time on typing in the future
