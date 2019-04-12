@@ -4,63 +4,63 @@ main:
     title: 主页
     url: /
   - 
-    title: FAQ
+    title: 常见问题
     url: faq
   - 
-    title: Donations
+    title: 捐赠
     url: donations
   - 
-    title: Credits
+    title: 致谢
     url: credits
   - 
     title: disc2app
     url: disc2app
   - 
-    title: vWii Modding
+    title: vWii 模式破解
     url: vwii-modding
   - 
-    title: Site Navigation
+    title: 网站导航
     url: site-navigation
   - 
-    title: Uninstall CFW
+    title: 卸载自制系统
     url: uninstall-cfw
 bottom:
   - 
-    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
+    title: 如果有疑问并且懂英语的话，可以到<a href="https://discord.gg/MWxPgEp">Nintendo Homebrew Discord服务器</a>上使用英文寻求帮助。(请注意，如果你身处中国大陆，你可能需要通过科学上网来访问Discord)
   - 
-    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
+    title: 如果你喜欢这个教程，可以通过<a href="donations">捐款</a>支持我。
 footer:
   - 
-    title: Source
+    title: 本站源码
   - 
-    title: Site Navigation
+    title: 网站导航
   - 
-    title: Why Ads?
+    title: 为什么有广告？
 sidebar_title:
   - 
-    title: Overall Progress
+    title: 总进度
 sidebar_pages:
   - 
-    title: Home
+    title: 主页
     url: /
   - 
-    title: Get Started
+    title: 新手入门
     url: get-started
   - 
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Multiple Options
+    title: 多个选项
     url: multiple-options
   - 
-    title: Mocha CFW
+    title: Mocha 自制固件
     url: mocha-cfw
   - 
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi
+    title: 冷启动 Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Channel)
+    title: 启动 Homebrew Launcher (通过频道)
     url: homebrew-launcher-(channel)
