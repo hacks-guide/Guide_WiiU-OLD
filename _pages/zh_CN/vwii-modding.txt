@@ -16,12 +16,12 @@ This will allow you to install the Homebrew Channel and other modifications to t
 * The latest release of [Hackmii Installer](https://bootmii.org/download/)
 * A previous release of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(the launcher `.zip` file)*
 
-### Instructions
+### 操作步骤
 
 #### Section I - Prep Work
 
 1. Power off your device
-1. Insert your SD card into your computer
+1. 将 SD 卡插入电脑
 1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
 1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
 1. Copy the `apps` folder from `vWii_cIOS_apps_20131218.zip` to the root of your SD card
@@ -59,7 +59,7 @@ This NAND backup will allow you to restore your vWii to a working state if anyth
 1. Launch the Homebrew Channel on vWii
 1. Launch Dump Mii NAND
   + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
-1. When it has completed, your Wii U will reboot automatically
+1. 当备份完成后，你的Wii U会自动重启
 1. Power off your Wii U
 1. Put your SD card from your Wii U into your computer
 1. **Copy the `nand.bin` and `keys.bin` from the root of your SD card to a safe location on your computer and back both up to multiple locations (such as online file storage); this backup will save your vWii from a brick if anything goes wrong**
