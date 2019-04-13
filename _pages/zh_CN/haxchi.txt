@@ -28,41 +28,41 @@ Haxchi 是一个能让设备直接从主菜单启动自制系统的漏洞，它�
 
 ___
 
-到目前为止，在每次重启后你必须要手动启动修改后的 DS 虚拟主机游戏才能进入自制系统。 The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+到目前为止，在每次重启后你必须要手动启动修改后的 DS 虚拟主机游戏才能进入自制系统。 下一章，我们将会安装 CBHC (Coldboot Haxchi/冷启动 Haxchi) 到你的主机来让其能够自动在开机时替你做这个操作。
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**你可以在启动这个 DS 虚拟主机游戏时按下按键来启动不同的开机选项。 每个选项的功能如下：**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + 什么都不按 -> 重启到自制系统
+  + 按住“A”键 -> 重启至 Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Methods
+### 方法
 
 ___
 
-#### Stay on Standard Haxchi
+#### 停留在默认的 Haxchi
 
-Standard Haxchi is the exploit that has already been installed on your device.
+默认的 Haxchi 漏洞已经在你的设备中安装了。
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+它不会导致你的设备变砖，但是它不太方便。因为你必须在每次重启时手动触发 Haxchi 漏洞。
 
 ### 继续至 [Homebrew Launcher (通过频道)](homebrew-launcher-(channel))。
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### 升级至 Coldboot Haxchi
 
 CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时自动进入自制系统。
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+这个漏洞比默认的 Haxchi 略危险一些，因为 DS 虚拟主机游戏将是你Wii U的 *命根子*。 如果你删除了游戏或者漏洞被移除，CBHC 将会导致你的设备 _砖机_！
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### 继续至[冷启动 Haxchi](coldboot-haxchi)
 {: .notice--primary}
 
 ___
