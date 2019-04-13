@@ -12,7 +12,7 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
 
 ### Instrucțiuni
 
-1. Go to `wiiuexploit.xyz`
+1. Mergeți la `wiiuexploit.xyz`
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
 1. Selectați "Run Homebrew Launcher" pentru prina încercare de pornire de exploit
   + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați din nou
