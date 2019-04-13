@@ -2,29 +2,29 @@
 title: "disc2app"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-This will allow you to dump your discs to a format you can install for the purpose of playing them without needing the disc.
+本工具可将你的游戏光盘转换成可以安装的格式，以便无光盘启动游戏来摆脱使用光盘的困扰。
 
-If you are planning to use an external hard drive to install your dumped discs on, note the following:
+如果你想把游戏安装到外接硬盘上，请注意：
 
-  + You cannot use the same hard drive for vWii and Wii U games.
-  + The Wii U can only utilize up to 2TB of an external hard drive, even if the drive itself has a larger capacity.
-  + Formatting an external hard drive for use with a Wii U will erase its contents.
-  + If you are using an external HDD that does not have its own power source, then you will need a [Y-cable](http://amzn.to/2mjQjin).
+  + 你无法在同个硬盘上安装 vWii 和 Wii U 游戏。
+  + 如果硬盘的空间非常大，WiiU 也只能最多使用其中的 2TB 的容量。
+  + 若要给 Wii U 使用外接硬盘，必须先格式化外接硬盘后才能把它给Wii U使用，格式化会删除硬盘的所有数据。
+  + 如果你的外接硬盘没有外接电源接口，则你需要购买[Y型USB线](http://amzn.to/2mjQjin)。
 
-### What You Need
+### 准备工作
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
-* 25GB of free space on your SD card
+* 装了自制固件(比如Mocha CFW、Haxchi、CBHC…等)的Wii U
+* 一个至少有25GB的可用空间的SD卡
 
-### Instructions
+### 操作步骤
 
-#### Section I - Formatting external drive
+#### 第一步 — 格式化外接硬盘
 
-If you are planning to use an external hard drive to install your dumped discs on, follow this section. If you are not planning to use an external hard drive or you already have a Wii U formatted external hard drive, skip this section.
+如果你想把游戏安装到外接硬盘上，请按本步骤做。 如果你不打算把游戏安装到外接硬盘上或者你已经有一个经 Wii U 格式化后的外接硬盘，那么请跳过本步骤。
 {: .notice--info}
 
 This will completely erase the contents of the external hard drive!
