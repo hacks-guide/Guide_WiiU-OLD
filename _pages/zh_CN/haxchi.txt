@@ -6,29 +6,29 @@ title: "Haxchi"
 
 ### 必读事项
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi 是一个能让设备直接从主菜单启动自制系统的漏洞，它可以免去使用 Homebrew Launcher 的麻烦
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+它包括一个自制固件，用于写入签名补丁、区域补丁以及在后台运行其他自定义程序。
 
 ### 准备工作
 
-+ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
-  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ 一个安装在 WiiU 主机内存中的正版且可利用漏洞的 DS 虚拟主机游戏
+  + 如果你还没购买可使用漏洞的游戏，请参考[新手入门](get-started)中的列表购买游戏
++ 从[新手入门](get-started)中下载的 `config.txt` (*不是*Haxchi 压缩包里的 `config.txt`) 应该已经在你 SD 卡中的 `/haxchi/` 文件夹中
+  + 使用默认的配置 (来自于 Haxchi`.zip`压缩包)，将会导致你在安装 Haxchi 时的步骤和你遇到的实际情况不同
   
 ### 操作步骤
 
-1. Launch the Haxchi Installer
-1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
+1. 启动 Haxchi Installer
+1. 选择你要安装 Haxchi 的DS 虚拟主机游戏，并按下 “A”键确认
 1. 阅读出现的警告，然后按下 “A” 键安装
-1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. 完成后，启动被安装了Haxchi的DS虚拟主机游戏(名字是“Haxchi”)
+1. 设备将会重启并自动启动自制系统的相关功能
+  + 它将允许我们通过系统菜单直接进入任何没有签名的程序(比如 Homebrew Launcher)
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+到目前为止，在每次重启后你必须要手动启动修改后的 DS 虚拟主机游戏才能进入自制系统。 The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
 {: .notice--info}
 
 {% capture notice-1 %}
