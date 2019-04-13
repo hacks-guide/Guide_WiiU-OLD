@@ -1,23 +1,23 @@
 ---
-title: "Homebrew Launcher (Channel)"
+title: "Homebrew Launcher (通过频道)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+本章节将安装 Homebrew 频道到你的主机。这样，在使用自制系统时，Homebrew Launcher 就会在你的主菜单中出现。
 
-### Instructions
+### 操作步骤
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### 第一步 — 安装 Homebrew Launcher 频道
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
-1. Launch WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
+1. 进入 Homebrew Launcher
+  + CBHC 用户必须在启动CBHC时按下“Home”键，然后选择Homebrew Launcher
+  + 使用 Haxchi 的用户必须先启动一次 Haxchi 来启动自制固件，然后再按住 “A” 键启动 Haxchi 使其启动至 Homebrew Launcher
+  + Mocha 自制固件的用户应该已经进入 Homebrew Launcher 了
+1. 启动 WUP installer GX2
+  + 请注意，如果 WUP Installer GX2 提示 “DSi Exception Has Occurred” 报错并崩溃，则你需要关闭主机并再试一次。
 1. Select the Homebrew Channel
 1. Press "Install", then press "Yes" to confirm
 1. Select "NAND" as the destination
