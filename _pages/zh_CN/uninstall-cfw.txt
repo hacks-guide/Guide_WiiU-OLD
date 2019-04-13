@@ -50,5 +50,5 @@ title: "卸载自制固件"
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+如果你是在本指南还在用RedNAND时破解的，请注意这不会删除你 SD 卡上的 RedNAND 分区。 如果要清除分区的话，你将会需要使用你电脑操作系统内建的分区工具。
 {: .notice--info}
