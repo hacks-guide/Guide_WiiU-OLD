@@ -1,56 +1,56 @@
 ---
-title: "Get Started"
+title: "新手入门"
 ---
 
 {% include toc title="目录内容" %}
 
 ### 必读事项
 
-These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
+以下步骤将协助你准备 SD 卡来安装 Coldboot Haxchi 自制固件到你的设备。
 
-Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
+在开始之前，请确保你的 Wii U 系统版本在5.5.0，5.5.1，5.5.2，5.5.3之间。 目前较老的系统版本不支持。
 
-Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
+选购 SD 卡时，我们建议购买至少有 16GB 或32GB 以上容量的 SD 卡，以保证后续备份和安装游戏时有足够的空间。 If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Most SD cards will be formatted this way by default.
+你的 SD 卡格式必须为 FAT32 (分配单元大小需为32K (32768))。 大部分的SD卡都是以这个格式出厂的。
 
-If you need to format an SD card on Windows, do not use the built in formatter or it may cause issues. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
+如果你想要在 Windows 系统上格式化 SD 卡的话，请不要使用系统自带的格式化工具，因为它可能会造成一些问题。 请使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 工具进行格式化，并将分配单元大小设置为 (32768)。
 
-Your SD card *cannot* be named `wiiu`, or it will cause problems.
+你的SD卡名 *不能* 被命名为 `wiiu`，这会造成一些问题。
 
-Before starting, you may want to check your SD card for errors using [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), or [F3X (Mac)](f3x-(mac))!
+开始之前，如果你想检测一下 SD 卡是否有错误，那么你可以使用[H2testw (Windows)](h2testw-(windows))，[F3 (Linux)](f3-(linux)) 或 [F3X (Mac)](f3x-(mac))。
 {: .notice--warning}
 
-### What You Need
+### 准备工作
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
-* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
-* The latest release of [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
-* The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* 最新版 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* 最新版 [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* 最新版 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* 最新版 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* 最新版 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* 最新版 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* 最新版 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* 最新版 [Homebrew Launcher 频道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(请下载 channel `.zip` 文件)*
+* 先前版本 (v1.4) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(下载 launcher `.zip` 文件)*
+* 最新版 [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+* 最新版 [Haxchi 和 CBHC](https://github.com/FIX94/haxchi/releases/latest) *(下载两个 `.zip` 文件)*
+* 最新版 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### 操作步骤
 
-#### Section I - Prep Work
+#### 第一步 — 准备工作
 
-For all steps in this section, overwrite any existing files on your SD card.
+请在本节中的所有步骤中覆盖SD卡上的所有现有文件。
 {: .notice--info}
 
-1. Power off your device
-1. Insert your SD card into your computer
-1. Create a folder named `wiiu` on the root of your SD card
-1. Create a folder named `install` on the root of your SD card
-1. Copy the `apps` folder from the Homebrew App Store `.zip` to the `/wiiu/` folder on your SD card
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
+1. 关闭你设备的电源
+1. 将 SD 卡插入电脑
+1. 在你 SD 卡的根目录创建一个叫 `wiiu` 的文件夹
+1. 在你 SD 卡的根目录创建一个叫 `install` 的文件夹
+1. 从 Homebrew App Store `.zip` 中复制出 `apps` 文件夹到你 SD 卡的 `wiiu` 文件夹
+1. 将 payload `.zip` *解压*到你 SD 卡的 wiiu 文件夹
 1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
 1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
 1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
