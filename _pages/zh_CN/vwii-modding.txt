@@ -8,7 +8,7 @@ title: "vWii Modding"
 
 This will allow you to install the Homebrew Channel and other modifications to the Wii U's vWii (virtual Wii).
 
-### What You Need
+### 准备工作
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/assets/files/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
@@ -18,9 +18,9 @@ This will allow you to install the Homebrew Channel and other modifications to t
 
 ### 操作步骤
 
-#### Section I - Prep Work
+#### 第一步 — 准备工作
 
-1. Power off your device
+1. 关闭你设备的电源
 1. 将 SD 卡插入电脑
 1. Copy *the contents of* the WUPhax `.zip` to the root of your SD card
 1. Copy `boot.elf` from the `hackmii_installer_v1.2` folder of the Hackmii Installer `.zip` to the root of your SD card
