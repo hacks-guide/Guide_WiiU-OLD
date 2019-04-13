@@ -1,28 +1,28 @@
 ---
-title: "Site Navigation" #
+title: "网站导航" #
 layout: single-no-ads
 sitemap: false
 ---
 
 {% capture notice-2 %}
-**All**
+**全部**
 
-+ [Coldboot Haxchi](coldboot-haxchi)
-+ [Credits](credits)
++ [冷启动 Haxchi](coldboot-haxchi)
++ [致谢](credits)
 + [disc2app](disc2app)
-+ [Donations](donations)
++ [捐赠](donations)
 + [F3 (Linux)](f3-(linux))
 + [F3X (Mac)](f3x-(mac))
-+ [FAQ](faq)
-+ [Get Started](get-started)
++ [常见问题](faq)
++ [新手入门](get-started)
 + [H2testw (Windows)](h2testw-(windows))
-+ [Home](/)
++ [首页](/zh_CN/)
 + [Haxchi](haxchi)
-+ [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
-+ [Homebrew Launcher](homebrew-launcher)
-+ [Mocha CFW](mocha-cfw)
-+ [Uninstall Mocha CFW](uninstall-cfw)
-+ [vWii Modding](vwii-modding)
-+ [Why Ads?](why-ads)
++ [启动 Homebrew Launcher(通过频道)](homebrew-launcher-(channel))
++ [启动 Homebrew Launcher](homebrew-launcher)
++ [Mocha 自制系统](mocha-cfw)
++ [卸载 Mocha 自制系统](uninstall-cfw)
++ [vWii模式破解](vwii-modding)
++ [为什么有广告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
