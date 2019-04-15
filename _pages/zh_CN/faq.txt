@@ -1,39 +1,39 @@
 ---
-title: "FAQ"
+title: "常见问题"
 ---
 
-<a name="faq_latestfw" />**Q:** *I am on the latest system version, is my device hackable?*    
-**A:** Yes
+<a name="faq_latestfw" />**问:** *我的系统是最新版本，可以破解吗?*    
+**答:** 是的
 
-<a name="faq_oldfw" />**Q:** *I have a Wii U on X.X.X firmware. What can / should I do with it?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.3. Older versions are incompatible for now.
+<a name="faq_oldfw" />**问:** *我的Wii U目前是 X.X.X 的系统版本。 可以直接破解吗？*    
+**答:** 本手册只适用于 5.5.0 至 5.5.3 之间系统版本的主机。 目前旧版本不兼容。
 
-<a name="faq_updates" />**Q:** *Now that Nintendo is ending production of the Wii U, does that mean no more updates?*    
-**A:** No! The versions 5.5.2 and 5.5.3 released well after the end of production. This is why you must always ensure that you have set DNS servers that will block updates.
+<a name="faq_updates" />**问:** *现在Wii U已经停产，这是否意味着未来不会有固件更新？*    
+**答:** 不！ 5.5.2和5.5.3版本在停产过了很久时间后才发布。 这也是为什么你必须始终确保你已经设置了会阻止更新的 DNS 服务器。
 
-<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
-**A:** No! You must always ensure that you have set DNS servers that will block updates.
+<a name="faq_update" />**Q:** *在使用自制固件的时候升级 Wii U 安全吗?*    
+**答:** 不！ 你必须确保你已设置会阻止更新的 DNS 服务器。
 
-<a name="faq_updatemocha" />**Q:** *How do I update to the latest Mocha CFW?*    
-**A:** Download the latest release of [Mocha CFW](https://github.com/dimok789/mocha/releases/latest), then copy `mocha.elf` from the Mocha CFW `.zip` to the `/wiiu/apps/mocha/` folder on your SD card (overwrite the existing file)
+<a name="faq_updatemocha" />**问:** *我该怎么升级到最新的 Mocha 自制固件？*    
+**答:** 只需下载最新版[Mocha CFW](https://github.com/dimok789/mocha/releases/latest)，然后从Mocha CFW `.zip` 中复制 `mocha.elf` 到SD卡的 `/wiiu/apps/mocha/` 文件夹中（覆盖现有文件）
 
-<a name="faq_risky" />**Q:** *How risky is hacking my console?*    
-**A:** Bricks are extremely rare and usually caused by skipping instructions or otherwise not following instructions.
+<a name="faq_risky" />**问: ** *破解我的机器风险有多大？*    
+** 答：** 机器破解后变砖的风险非常罕见，并且通常是因为跳过了某些步骤或不按照教程进行才造成的。
 
-<a name="faq_homebrew" />**Q:** *Can I run awesome homebrew and emulators with this?*    
-**A:** Yes! This not only enables the Homebrew Launcher, but it also will give you hacks on all versions, which means you keep it forever, even with updates.
+<a name="faq_homebrew" />**问：** *我可以通过这个教程运行模拟器和自制程序吗？*    
+**答:** 可以！ 这不仅只能运行Homebrew Launcher，还能让你在任何系统版本上都保持破解状态。这也就是说即使你升级了系统，破解依然还是存在的。
 
-<a name="faq_regionfree" />**Q:** *Can I use this to play games from other regions?*    
-**A:** Yes! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+<a name="faq_regionfree" />**问:** *我可以玩别的地区的游戏吗？*    
+**答:** 可以！ 自制固件支持破解区域限制，也就是说你无需修改特定的东西就可以安装任何区域的游戏。
 
-<a name="faq_support" />**Q:** *Where should I go for support?*    
-**A:** For support, ask for help at [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
+<a name="faq_support" />**问:** *如果我遇到麻烦可以在哪寻求帮助?*    
+**答:** 懂英文的话可以在[Nintendo Homebrew Discord服务器](https://discord.gg/MWxPgEp)上使用英文寻求帮助。（请注意，如果你身处中国大陆，则你可能需要通过科学上网访问Discord）
 
-<a name="faq_sdsize" />**Q:** *How big of an SD card do I need?*    
-**A:** Your SD card must be at least 64GB in size if you have a black Wii U (32GB) model. If you have a white (8GB) Wii U model, your SD card needs to be at least 16GB in size.
+<a name="faq_sdsize" />**问:** *我需要用多大的SD卡？*    
+**答:** 如果你的主机是黑色的Wii U（32GB），请确保你使用的SD卡额定容量至少有64GB。 如果你的主机是白色的Wii U（8GB），请确保你使用的SD卡额定容量至少为16GB。
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
-**A:** If you start with an NNID and follow every step, you will end up keeping your NNID at the end.
+<a name="faq_NNID" />**问:** *我可以保留我的NNID吗？*    
+**答:** 如果你在教程开始之前已经登录了 NNID ，并且严格按照教程的步骤进行，完成教程后你的 NNID 还是在的。
 
-<a name="faq_nopc" />**Q:** *Can I do this without a computer (e.g. an Android phone)?*    
-**A:** All you need is the ability to put files on an SD card!
+<a name="faq_nopc" />**问:** *没有电脑也能完成本教程吗（例如 用一台安卓手机）？*    
+**答:** 只要你能把文件放到SD卡上就行！
