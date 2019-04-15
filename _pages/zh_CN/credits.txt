@@ -1,11 +1,11 @@
 ---
-title: "Credits"
+title: "致谢"
 ---
 
-**Special thanks to all of [the translators](https://crowdin.com/project/wii-u-guide) for being awesome!**
+**特别感谢所有[翻译人员](https://crowdin.com/project/wii-u-guide)的无私贡献！**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+如果我忘记列出你的名字，请联系我。我会把你加上。
 
 {% capture notice-1 %}
 
