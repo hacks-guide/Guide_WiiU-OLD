@@ -2,67 +2,67 @@
 title: "Haxchi"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-Haxchi is an exploit that allows us to launch CFW directly from the system menu without using the Homebrew Launcher.
+Haxchi 是一个能让设备直接从主菜单启动自制系统的漏洞，它可以免去使用 Homebrew Launcher 的麻烦
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+它包括一个自制固件，用于写入签名补丁、区域补丁以及在后台运行其他自定义程序。
 
-### What You Need
+### 准备工作
 
-+ A legitimate copy of one of the exploitable DS virtual console games installed to your Wii U's internal memory
-  + If you do not already have one of the exploitable games installed, see [Get Started](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ 一个安装在 WiiU 主机内存中的正版且可利用漏洞的 DS 虚拟主机游戏
+  + 如果你还没购买可使用漏洞的游戏，请参考[新手入门](get-started)中的列表购买游戏
++ 从[新手入门](get-started)中下载的 `config.txt` (*不是*Haxchi 压缩包里的 `config.txt`) 应该已经在你 SD 卡中的 `/haxchi/` 文件夹中
+  + 使用默认的配置 (来自于 Haxchi`.zip`压缩包)，将会导致你在安装 Haxchi 时的步骤和你遇到的实际情况不同
   
-### Instructions
+### 操作步骤
 
-1. Launch the Haxchi Installer
-1. Select the DS virtual console game you are installing Haxchi onto, then press (A) to select it
-1. Read the warning that appears, then press (A) to install
-1. Once this is complete, launch your Haxchi DS virtual console game (named "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. 启动 Haxchi Installer
+1. 选择你要安装 Haxchi 的DS 虚拟主机游戏，并按下 “A”键确认
+1. 阅读出现的警告，然后按下 “A” 键安装
+1. 完成后，启动被安装了Haxchi的DS虚拟主机游戏(名字是“Haxchi”)
+1. 设备将会重启并自动启动自制系统的相关功能
+  + 它将允许我们通过系统菜单直接进入任何没有签名的程序(比如 Homebrew Launcher)
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+到目前为止，在每次重启后你必须要手动启动修改后的 DS 虚拟主机游戏才能进入自制系统。 下一章，我们将会安装 CBHC (Coldboot Haxchi/冷启动 Haxchi) 到你的主机来让其能够自动在开机时替你做这个操作。
 {: .notice--info}
 
 {% capture notice-1 %}
-**You can now hold various buttons while launching your DS virtual console game for different boot options. This is what each of the boot options do:**
+**你可以在启动这个 DS 虚拟主机游戏时按下按键来启动不同的开机选项。 每个选项的功能如下：**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + 什么都不按 -> 重启到自制系统
+  + 按住“A”键 -> 重启至 Homebrew Launcher
 
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-### Methods
+### 方法
 
 ___
 
-#### Stay on Standard Haxchi
+#### 停留在默认的 Haxchi
 
-Standard Haxchi is the exploit that has already been installed on your device.
+默认的 Haxchi 漏洞已经在你的设备中安装了。
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+它不会导致你的设备变砖，但是它不太方便。因为你必须在每次重启时手动触发 Haxchi 漏洞。
 
-### Continue to [Homebrew Launcher (Channel)](homebrew-launcher-(channel)).
+### 继续至 [Homebrew Launcher (通过频道)](homebrew-launcher-(channel))。
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### 升级至 Coldboot Haxchi
 
-CBHC (Coldboot Haxchi) changes your default system title from the system menu to your DS virtual console game. This causes your device to launch CFW automatically at boot.
+CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时自动进入自制系统。
 
-This exploit is slightly more dangerous than standard Haxchi because your DS Virtual Console game exploit is the *only* way to boot the system. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+这个漏洞比默认的 Haxchi 略危险一些，因为 DS 虚拟主机游戏将是你Wii U的 *命根子*。 如果你删除了游戏或者漏洞被移除，CBHC 将会导致你的设备 _砖机_！
 
-### Continue to [Coldboot Haxchi](coldboot-haxchi).
+### 继续至[冷启动 Haxchi](coldboot-haxchi)
 {: .notice--primary}
 
 ___
