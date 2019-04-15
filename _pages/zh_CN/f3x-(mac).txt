@@ -2,36 +2,36 @@
 title: "F3X (Mac)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="内容目录" %}
 
-### Required Reading
+### 必读事项
 
-This page will walk you through the process of checking your SD card for errors using F3X.
+本节教程将带你使用F3X检查SD卡错误。
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+这个操作的耗时取决于你的 SD 卡的容量大小和电脑的速度，可能将耗费数个小时完成！
 
-This page is for Mac users only. If you are not on Mac, check out the [H2testw (Windows)](h2testw-(windows)) or [F3 (Linux)](f3-(linux)) pages.
+本节教程仅限Mac用户。 如果你的操作系统不是Mac，参见[H2testw (Windows)](h2testw-(windows))或[F3 (Linux)](f3-(linux))页面。
 
-### What You Need
+### 准备工作
 
-* The latest release of [F3X](https://github.com/insidegui/F3X/releases/latest)
+* 最新版[F3X](https://github.com/insidegui/F3X/releases/latest)
 
-### Instructions
+### 操作步骤
 
-1. Unzip the F3X `.zip` file
-1. Insert your SD card into your computer
-1. Run the F3X app
-1. Select your SD card
-1. Press "Start Test"
-1. Wait until the process is complete.
+1. 解压缩 F3X`.zip` 压缩包
+1. 将 SD 卡插入电脑
+1. 运行F3X
+1. 选择你的SD卡
+1. 点击“开始测试(Start Test)”
+1. 等待，直到该过程执行完毕。
 
 ___
 
-If the test shows the result `Success! Your card is ok!` your SD card is good and you can delete all `.h2w` files on the SD card
+如果测试结果显示 `Success! Your card is ok!`（成功，你的SD卡没有问题！），代表你的SD卡完好，之后请删除SD卡上所有的 `.h2w` 文件
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+如果测试显示任何其他结果，你的 SD 卡可能已经出错或损坏，你可能需要更换一张 SD卡 ！
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### 返回到[新手入门](get-started)
 {: .notice--primary}
