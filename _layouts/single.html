@@ -21,6 +21,7 @@ layout: default
     enable_page_level_ads: true
   });
 </script>
+<script type="text/javascript" src="//cdn.thisiswaldo.com/static/js/4156.js"></script>
 
 <div id="main" role="main">
   {% include sidebar.html %}
@@ -44,7 +45,7 @@ layout: default
       <section class="page__content" itemprop="text">
 
         <hr>
-        
+
         {% assign split_path = page.path | split: "/" %}
         {% assign locale = split_path[1] %}
 
@@ -85,19 +86,11 @@ layout: default
 
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn btn--primary">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
-        
+
         <hr>
 
         <center>
-        <ins class="adsbygoogle"
-          style="display:block"
-          data-ad-client="ca-pub-6670011780914577"
-          data-ad-slot="7670623049"
-          data-ad-format="horizontal">
-        </ins>
-        <script>
-        (adsbygoogle = window.adsbygoogle || []).push({});
-        </script>
+        <div id="waldo-tag-4187"></div>
         <ins class="adsbygoogle"
           style="display:block"
           data-ad-client="ca-pub-6670011780914577"
@@ -132,7 +125,7 @@ layout: default
       {% include comments.html %}
     {% endif %}
   </article>
-  
+
   {% comment %}<!-- only show related on a post page when `related: true` -->{% endcomment %}
   {% if page.id and page.related and site.related_posts.size > 0 %}
     <div class="page__related">
