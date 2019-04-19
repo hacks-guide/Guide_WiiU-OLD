@@ -26,7 +26,7 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* Phiên bản mới nhất của [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Phiên bản mới nhất của [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
