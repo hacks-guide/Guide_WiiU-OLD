@@ -30,7 +30,7 @@ title: "Întrebări frecvente"
 **R:** Pentru suport, cereți ajutor la [Nintendo Homebrew pe Discord](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" /> **Î:** *Cât de mare trebuie să fie cardul SD?*    
-**R:** Cardul SD trebuie să fie cel puțin 64GB dacă aveți un Wii U negru (32GB). Dacă aveți o consolă Wii U albă (8GB), cardul SD trebuie să aibă cel puțin 16GB.
+**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
 
 <a name="faq_NNID" />**Î:** *Îmi pot păstra NNID-ul?*    
 **R:** Dacă începeți cu un NNID și urmați fiecare pas, o să vă păstrați NNID-ul la final.
