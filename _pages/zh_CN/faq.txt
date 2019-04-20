@@ -30,7 +30,7 @@ title: "常见问题"
 **答:** 懂英文的话可以在[Nintendo Homebrew Discord服务器](https://discord.gg/MWxPgEp)上使用英文寻求帮助。（请注意，如果你身处中国大陆，则你可能需要通过科学上网访问Discord）
 
 <a name="faq_sdsize" />**问:** *我需要用多大的SD卡？*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**A:** 建议购买至少有 16GB 或 32GB 的内存卡来保证有足够的空间安装和导出游戏。 如果你想要对白色的 Wii U (内存芯片容量为8GB)进行 NAND 备份，则你使用的 SD 卡额定容量至少为16 GB。 如果你想要对黑色的 Wii U (内存芯片容量为32GB)进行 NAND 备份，则你使用的 SD 卡额定容量至少为64 GB。
 
 <a name="faq_NNID" />**问:** *我可以保留我的NNID吗？*    
 **答:** 如果你在教程开始之前已经登录了 NNID ，并且严格按照教程的步骤进行，完成教程后你的 NNID 还是在的。
