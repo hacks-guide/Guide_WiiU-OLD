@@ -30,7 +30,7 @@ title: "Вопросы и ответы"
 **О:** Для поддержки, обратитесь за помощью в [Nintendo Homebrew on Discord (англ.)](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" />**В:** *Насколько большая SD-карта мне понадобится?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**О:** Рекомендуется использовать SD-карту не менее 16ГБ или 32ГБ, иначе вам не хватит места для дампинга и установки игр. Если вы хотите сделать полный бэкап NAND белой модели Wii U (8ГБ), то емкость SD-карты должна быть по меньшей мере 16ГБ. Если вы хотите сделать полный бэкап NAND черной модели Wii U (32ГБ), то емкость SD-карты должна быть по меньшей мере 64ГБ.
 
 <a name="faq_NNID" />**В:** *Могу ли я сохранить свой NNID?*    
 **О:** Если точно следовать этому руководству от начала и до конца, вы сохраните свой NNID.
