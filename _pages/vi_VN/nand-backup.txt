@@ -1,47 +1,59 @@
 ---
-title: "Backup NAND"
+title: "NAND Backup"
 ---
 
-{% include toc title="Mục lục" %}
+{% include toc title="Table of Contents" %}
 
 ### Điều cần đọc
 
-Bước này không bắt buộc, nhưng nó sẽ tạo bản sao lưu (backup) NAND của máy trên thẻ SD, sau này có bị brick có thể phục hồi lại bằng cách hardmod.
-
-Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
-
-Lưu ý: Người dùng Mocha CFW cần làm theo hướng dẫn này sau khi khởi động lại máy mà không chạy lại Mocha CFW (qua Homebrew Launcher trên trình duyệt), nếu không Wii U NAND Dumper sẽ bị treo.
-
-Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằng [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), hay [F3X (Mac)](f3x-(mac))!
-{: .notice--warning}
-
-### Cần chuẩn bị gì
-
-Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
 
 ### Hướng dẫn
 
-1. Tắt máy đi
-1. Lắp thẻ nhớ SD vào máy tính
-1. Copy các file trong gói Wii U NAND Dumper `.zip` vào thư mục gốc của thẻ nhớ
-1. Lắp thẻ nhớ SD vào thiết bị
-1. Bật thiết bị lên
-1. Mở Homebrew Launcher
+{% capture notice-1 %}
+A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+
+If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
 1. Mở nanddumper
 1. Dùng D-pad chọn như sau:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
+  + Dump MLC (8GB/32GB): **optional**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Bấm (A) để dump NAND
-  + Cần kiên nhẫn vì cuá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào dung lượng trống còn lại của bộ nhớ trong của máy)
+  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
 1. Khi dump xong, máy Wii U sẽ tự khởi động lại
 1. Tắt máy đi
 1. Lắp thẻ nhớ SD vào máy tính
-1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
+1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+  + Lưu file backup ở nhiều chỗ (như tải lên mạng)
+  + Những backup này sẽ giúp bạn phục hồi máy bị brick hoặc lấy lại file gốc của NAND nếu xảy ra sự cố
+1. Lắp thẻ nhớ SD vào thiết bị
+1. Bật thiết bị lên
+
+___
+### Cách dạng hack hiện có
 
 ___
 
-Nếu bị brick, bạn có thể dùng bản backup này để phục hồi máy thông qua cách hardmod.
-{: .notice--info}
+#### Mocha CFW
+
+Cách này phải chạy lại exploit trên trình duyệt mỗi lần tắt máy mở lại*.
+
+### Tiếp tục tới [Mocha CFW](mocha-cfw)
+{: .notice--primary}
+
+___
+
+#### Haxchi
+
+Cách này chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy.
+
+### Tiếp tục tới [Haxchi](haxchi)
+{: .notice--primary}
