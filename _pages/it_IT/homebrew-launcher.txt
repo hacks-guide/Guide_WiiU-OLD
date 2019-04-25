@@ -19,24 +19,6 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
 ___
-### Metodi
 
-___
-
-#### Mocha CFW
-
-Questo metodo richiede l'avvio dell'exploit del browser dopo *ogni riavvio della console*.
-
-### Prosegui con [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-Questo metodo usa un gioco DS della Virtual Console exploitabile per avviare il Custom Firmware all'avvio della console.
-
-### Prosegui con [Haxchi](haxchi)
-{: .notice--primary}
-
-___
