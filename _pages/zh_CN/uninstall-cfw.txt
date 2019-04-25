@@ -1,45 +1,45 @@
 ---
-title: "Uninstall CFW"
+title: "卸载自制固件"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-This will remove CFW from your Wii U, regardless of install method, for the purpose of restoring the device to stock.
+本章节将从你的Wii U上移除自制系统，不论是如何安装的，都将把你的设备恢复出厂状态。
 {: .notice--danger}
 
-If you followed this guide back when it used RedNAND, note that games and saves are saved to the internal memory not the SD card. This means all games and saves installed after installing RedNAND would be removed if you uninstall as your system would only have the SysNAND you started with!
+如果你是在本指南还在使用 RedNAND 时所破解的，请注意，游戏及和存档是存在主机内存而非 SD 卡中的。 也就是说在你设置完RedNAND后所安装的游戏及存档都将消失，就像回到最开始的SysNAND系统一样！
 {: .notice--danger}
 
-### Instructions
+### 操作步骤
 
-#### Section I - Removal from Wii U
+#### 第一步 － 从 Wii U 上删除
 
 ##### CBHC
 
-1. Launch the Homebrew Launcher Channel
-1. Launch the CBHC installer
-1. Select the DS virtual console game you are uninstalling CBHC from, then press (A) to select it
-1. Read the warning that appears, then press (B) to uninstall
-1. When it is complete, you will be returned to the system menu
-1. Reboot your Wii U
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. 启动 Homebrew Launcher 频道
+1. 运行 CBHC installer
+1. 选择你要卸载 CBHC 的DS虚拟主机游戏，然后按下“A”键
+1. 阅读警告显示，然后按下“B”键以卸载
+1. 当完成后，你将会被返回到主菜单中
+1. 重启 Wii U
+1. 在“系统设置(System Settings)”中选择“数据管理(Data Management)”然后删除你的 DS 虚拟主机游戏
+1. 在eShop上重新安装你的DS虚拟主机游戏
 
 ##### Haxchi
 
-1. Go to the System Settings under "Data Management" and delete your DS virtual console game
-1. Reinstall your DS virtual console game from the eShop
+1. 在“系统设置(System Settings)”中选择“数据管理(Data Management)”然后删除你的 DS 虚拟主机游戏
+1. 在eShop上重新安装你的DS虚拟主机游戏
 
 ##### Homebrew Launcher
 
-1. Remove the bookmark from the Wii U's internet browser if you made one
+1. 如果你有在Wii U浏览器中保存过启动它的书签，请删除
 
-#### Section II - Removal from SD Card
+#### 第二步 － 从 SD 卡上删除
 
 {% capture notice-3 %}
-**Remove any extra files and folders from the root of the SD card that are *not* in the following list (you may not have all or even any of these):**
+**删除所有的文件/文件夹*除了*下列的文件/文件夹（你有可能连这些都没有）：**
 
   + DCIM
   + private
@@ -50,5 +50,5 @@ If you followed this guide back when it used RedNAND, note that games and saves 
 
 ___
 
-If you followed this guide back when it used RedNAND, note that this will not remove the RedNAND partition on your SD card. For that, you will need to use a partition manager for your operating system.
+如果你是在本指南还在用RedNAND时破解的，请注意这不会删除你 SD 卡上的 RedNAND 分区。 如果要清除分区的话，你将会需要使用你电脑操作系统内建的分区工具。
 {: .notice--info}
