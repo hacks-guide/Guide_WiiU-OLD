@@ -19,24 +19,6 @@ Khi hack lần đầu, ứng dụng này sẽ chạy trên trình duyệt web c�
 1. Lúc này máy sẽ hiện giao diện của Homebrew Launcher
 
 ___
-### Cách dạng hack hiện có
 
-___
-
-#### Mocha CFW
-
-Cách này phải chạy lại exploit trên trình duyệt mỗi lần tắt máy mở lại*.
-
-### Tiếp tục tới [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-Cách này chạy CFW thông qua một game DS giá rẻ mua trên eshop, có thể thiết lập để nó tự chạy mỗi lần khởi động máy.
-
-### Tiếp tục tới [Haxchi](haxchi)
-{: .notice--primary}
-
-___
