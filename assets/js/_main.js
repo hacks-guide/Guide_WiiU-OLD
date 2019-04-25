@@ -142,10 +142,10 @@ $(document).ready(function(){
   if(sidebar_shown){
     var unhide = [];
     var route = {
-      "0": ["homebrew-launcher", "multiple-options", "homebrew-launcher-(channel)"],
-      "1": ["homebrew-launcher", "mocha-cfw", "homebrew-launcher-(channel)"],
-      "2": ["homebrew-launcher", "haxchi", "homebrew-launcher-(channel)"],
-      "3": ["homebrew-launcher", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)"],
+      "0": ["homebrew-launcher", "nand-backup", "multiple-options", "homebrew-launcher-(channel)"],
+      "1": ["homebrew-launcher", "nand-backup", "mocha-cfw", "homebrew-launcher-(channel)"],
+      "2": ["homebrew-launcher", "nand-backup", "haxchi", "homebrew-launcher-(channel)"],
+      "3": ["homebrew-launcher", "nand-backup", "haxchi", "coldboot-haxchi","homebrew-launcher-(channel)"],
     };
     unhide = unhide.concat(route[method]);
     if(typeof unhide !== 'undefined' && unhide.length > 0){
