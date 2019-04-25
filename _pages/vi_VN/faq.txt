@@ -30,7 +30,7 @@ title: "Câu hỏi thường gặp"
 Trả lời:** Để được hỗ trợ, bạn hãy vào [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" />**Câu hỏi:** *Tôi cần dùng thẻ nhớ SD dung lượng bao nhiêu?*    
-Trả lời:** Thẻ SD cần có dung lượng ít nhất 64G nếu bạn dùng máy Wii U màu đen (32GB) Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
+**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
 
 <a name="faq_NNID" />**Câu hỏi:** *Tôi có thể giữ tài khoản Nintendo (NNID) của mình không?*    
 **Trả lời:** Nếu khi bắt đầu bạn đã có NNID và bạn làm theo từng bước, khi làm xong bạn sẽ giữ được NNID của mình.
