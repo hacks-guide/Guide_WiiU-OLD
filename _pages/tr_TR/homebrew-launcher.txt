@@ -19,24 +19,6 @@ We launch this using the Wii U's built in browser, so your Wii U will need to be
 1. Your console should load the Homebrew Launcher
 
 ___
-### Methods
 
-___
-
-#### Mocha CFW
-
-This method requires that you rerun the web exploit used above *after every reboot*.
-
-### Continue to [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot.
-
-### Continue to [Haxchi](haxchi)
-{: .notice--primary}
-
-___
