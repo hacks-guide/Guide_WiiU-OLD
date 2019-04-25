@@ -1,42 +1,24 @@
 ---
-title: "Homebrew Launcher"
+title: "启动 Homebrew Launcher"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-The Homebrew Launcher is a homebrew application that lists and allows the launching of other homebrew applications from the SD card.
+Homebrew Launcher 是一个可以列出 SD 卡中的自制程序并启动它们的工具。
 
-We launch this using the Wii U's built in browser, so your Wii U will need to be able to access the internet.
+我们将通过Wii U的内置浏览器来启动 Homebrew Launcher，所以请确保Wii U可以连接互联网。
 
-### Instructions
+### 操作步骤
 
-1. Go to `wiiuexploit.xyz`
-  + You may want to bookmark this address to save time on typing in the future
-1. Select "Run Homebrew Launcher" for the first exploit attempt
-  + If it freezes, just force the console to power off by holding the power button, then try again
-1. Your console should load the Homebrew Launcher
-
-___
-### Methods
+1. 访问 `wiiuexploit.xyz`
+  + 你可以将此地址加入收藏夹，以便将来可以更方便地访问它
+1. 选择 “Run Homebrew Launcher” 来尝试第一次漏洞触发。
+  + 如果设备死机了，请长按电源键关闭设备，然后再试一次
+1. 此时你的主机应该进入到 Homebrew Launcher了
 
 ___
 
-#### Mocha CFW
-
-This method requires that you rerun the web exploit used above *after every reboot*.
-
-### Continue to [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot.
-
-### Continue to [Haxchi](haxchi)
-{: .notice--primary}
-
-___
