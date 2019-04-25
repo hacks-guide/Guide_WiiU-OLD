@@ -26,7 +26,7 @@ Before beginning, you should make sure your Wii U is currently on firmware versi
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * 最新版的 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * 最新版的 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版的 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * 最新版的 [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
