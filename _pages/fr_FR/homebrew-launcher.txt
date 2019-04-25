@@ -19,24 +19,6 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 1. Votre console devrait maintenant charger le Homebrew Launcher
 
 ___
-### Méthodes
 
-___
-
-#### Mocha CFW
-
-Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*.
-
-### Continuer vers [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage.
-
-### Continuer vers [Haxchi](haxchi)
-{: .notice--primary}
-
-___
