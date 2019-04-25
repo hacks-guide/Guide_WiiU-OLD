@@ -30,7 +30,7 @@ title: "常見問題 FAQ"
 **A:** 若需支援，請見 [Discord 上的 Nintendo Homebrew](https://discord.gg/MWxPgEp) 伺服器。
 
 <a name="faq_sdsize" />**Q:** *我需要多大的 SD 卡？*    
-**A:** 如果您的 Wii U 是黑色(32GB)版本的型號，您的 SD 卡必須至少有 64GB 的容量。 如果您的 Wii U 是白色(8GB)版本的型號，您的 SD 卡必須至少有 16GB 的容量。
+**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
 
 <a name="faq_NNID" />**Q:** *我的 NNID 不會被清除吧？*    
 **A:** 如果您的主機本身就綁有 NNID 且您遵守每個步驟，您的 NNID 帳號將不受影響。
