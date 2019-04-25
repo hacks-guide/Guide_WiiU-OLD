@@ -1,47 +1,59 @@
 ---
-title: "Sauvegarde NAND"
+title: "NAND Backup"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-Il s'agit d'une page optionnelle qui créera une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil en utilisant un disque dur dans le cas d'un brick.
-
-Si vous avez une Wii U noir (32GB), votre carte SD doit avoir au moins 64GB d'espace libre. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
-
-Notez que les utilisateurs de Mocha CFW doivent suivre ces instructions après un redémarrage *sans* exécuter Mocha CFW (en utilisant le Homebrew Launcher basé sur le navigateur) pour éviter que Wii U NAND Dumper freeze.
-
-Avant de commencer, il vaut mieux vérifier si votre carte SD contient des erreurs en utilisant [H2testw (Windows)](h2testw-(windows)), [F3 (Linux)](f3-(linux)), ou [F3X (Mac)](f3x-(mac)) !
-{: .notice--warning}
-
-## Ce dont vous avez besoin
-
-* La dernière version de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
 
 ### Instructions
 
-1. Éteignez votre Wii U
-1. Insérez votre carte SD dans votre ordinateur
-1. Copiez *le contenu* du fichier `.zip` de Wii U NAND Dumper vers la racine de votre carte SD
-1. Réinsérez votre carte SD dans votre Wii U
-1. Allumez votre Wii U
-1. Lancer l'Homebrew Launcher
+{% capture notice-1 %}
+A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+
+If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Entrez dans l'Homebrew Launcher en maintenant (A) en lançant votre jeu de console virtuelle Haxchi DS
 1. Démarrez nanddumper
 1. Utilisez le D-Pad pour mettre ces différentes options:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
+  + Dump MLC (8GB/32GB): **optional**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Appuyez sur (A) pour copier votre NAND
-  + Préparez à être patient: cela peut prendre un moment (jusqu'à plusieurs heures selon la quantité d'espace que vous avez dans la mémoire interne)
+  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
 1. Quand l'opération a terminé, votre Wii U va redémarrer automatiquement
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
-1. Copier `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, et chaque fichier `mlc.bin.part` de la racine de votre carte SD dans un emplacement sécurisé sur votre ordinateur
+1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+  + Faites des sauvegardes dans plusieurs endroits (tels que des stockages de fichiers en ligne par exemple)
+  + Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
+1. Réinsérez votre carte SD dans votre Wii U
+1. Allumez votre Wii U
+
+___
+### Méthodes
 
 ___
 
-Si jamais votre console brick, vous serez capable d'utiliser votre sauvegarde pour la restaurer en utilisant un hardmode.
-{: .notice--info}
+#### Mocha CFW
+
+Cette méthode nécessite que vous ré-exécutiez l'exploit du navigateur utilisé ci-dessus *après chaque redémarrage*.
+
+### Continuer vers [Mocha CFW](mocha-cfw)
+{: .notice--primary}
+
+___
+
+#### Haxchi
+
+Cette méthode utilise un jeu de DS "Console Virtuelle" à petit prix pour lancer le Custom Firmware automatiquement au démarrage.
+
+### Continuer vers [Haxchi](haxchi)
+{: .notice--primary}
