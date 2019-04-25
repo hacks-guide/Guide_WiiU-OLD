@@ -1,0 +1,59 @@
+---
+title: "NAND Backup"
+---
+
+{% include toc title="Table of Contents" %}
+
+### Required Reading
+
+This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+
+### Instructions
+
+{% capture notice-1 %}
+A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+
+If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
+1. Launch nanddumper
+1. Use the D-Pad to set the following options:
+  + Dump SLC (528MB): **yes**
+  + Dump SLCCMPT (528MB): **yes**
+  + Dump MLC (8GB/32GB): **optional**
+  + Dump OTP (1KB): **yes**
+  + Dump SEEPROM (1KB): **yes**
+1. Press (A) to dump your NAND
+  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+1. When it has completed, your Wii U will reboot automatically
+1. Power off your device
+1. Insert your SD card into your computer
+1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. Reinsert your SD card into your device
+1. Power on your device
+
+___
+### Methods
+
+___
+
+#### Mocha CFW
+
+This method requires that you rerun the web exploit used above *after every reboot*.
+
+### Continue to [Mocha CFW](mocha-cfw)
+{: .notice--primary}
+
+___
+
+#### Haxchi
+
+This method uses a cheap exploitable DS Virtual Console game to launch your Custom Firmware automatically at boot.
+
+### Continue to [Haxchi](haxchi)
+{: .notice--primary}
