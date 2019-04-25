@@ -24,6 +24,9 @@ main:
   - 
     title: Desinstalar CFW
     url: uninstall-cfw
+top:
+  - 
+    title: Este sitio web utiliza cookies para mostrar el progreso actual de la guía en la barra lateral y hacer mejor el sitio de otras maneras.
 bottom:
   - 
     title: Para soporte en inglés, pide ayuda en el <a href="https://discord.gg/MWxPgEp">Discord de Nintendo Homebrew</a>.
@@ -36,6 +39,8 @@ footer:
     title: Navegación del sitio
   - 
     title: '¿Por qué anuncios?'
+  - 
+    title: Política de privacidad
 sidebar_title:
   - 
     title: Progreso total
@@ -50,7 +55,10 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Múltiples opciones
+    title: NAND Backup
+    url: nand-backup
+  - 
+    title: Multiple Options
     url: multiple-options
   - 
     title: Mocha CFW
@@ -62,5 +70,5 @@ sidebar_pages:
     title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Canal)
+    title: Homebrew Launcher (Channel)
     url: homebrew-launcher-(channel)
