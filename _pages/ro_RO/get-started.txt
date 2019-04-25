@@ -26,14 +26,14 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * Ultima versiune de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai nouă versiune de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Cea mai recentă versiune de [hid\_to\_vpad] (https://github.com/Maschell/hid_to_vpad/releases/latest)
 *Ultima versiune de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Ultima versiune de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Cea mai recentă versiune de [the Homebrew Launcher Channel] (https://github.com/dimok789/homebrew_launcher/releases/latest) *(fișierul.zip a aplicației) *
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the launcher `.zip` file)*
+* O versiune anterioară (v1.4) de [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul.zip a aplicației)*
 * Ultima versiune de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Cele mai recente versiuni de [Haxchi și CBHC] (https://github.com/FIX94/haxchi/releases/latest) *(ambele fișiere `.zip`) *
 * Cea mai recentă versiune de [NNU-Patcher] (https://wiiubru.com/appstore/zips/nnupatcher.zip)
@@ -50,8 +50,8 @@ Pentru toți pașii din această secțiune, suprascrieți fișierele existente d
 1. Creați un folder numit `wiiu` pe rădăcina cardului SD
 1. Creați un folder numit `install` pe rădăcina cardului SD
 1. Copiaţi folderul "apps" din fișierul '.zip' a aplicației Homebrew App Sore în folderul '/ wiiu /' de pe cardul SD
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
+1. Copiați *conţinutul* de pe payload `.zip` către folderul wiiu de pe cardul SD
+1. Copiați *conținutul* de pe folderul Homebrew Launcher (1.4) `.zip` în rădăcina cardului SD
 1. Copiați *conţinutul* Haxchi `.zip` la rădăcina cardului SD
 1. Copiați *conținutul* de pe arhiva CBHC`.zip` în rădăcina cardului SD
 1. Copiaţi 'config.txt' în folderul "/ haxchi /" de pe cardul SD (suprapune fişierul existent 'config.txt')
