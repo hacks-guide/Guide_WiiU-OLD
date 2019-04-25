@@ -1,68 +1,70 @@
 ---
 layout: splash
-title: "Wii U Hacks Guide" #
+title: "Wii U 破解手册" #
 header:
   overlay_color: "#5e616c" #
   overlay_image: images/home-page-feature.jpg
   overlay_filter: 0.5
   caption:
 
-excerpt: "A complete guide to Wii U custom firmware, <br /> from stock to Coldboot Haxchi.<br />"
+excerpt: "最完整的 WiiU 破解手册，<br /> 教你从原版主机破解成Coldboot Haxchi。<br />"
 ---
 
-For complete guides to homebrew and custom firmware for other devices, check out [Hacks.Guide](https://hacks.guide).
+你还可以访问[Hacks.Guide](https://hacks.guide)找到其他设备的自制软件和自制固件完整安装教程。
 {: .notice--primary}
 
 ___
 
-Thoroughly read all of the introductory pages (including this one!) before proceeding.
+请在开始操作前仔细阅读所有步骤页面（包括这个页面）。
 {: .notice--warning}
 
-This guide is for retail (consumer purchased; not from the Nintendo Developer Program) consoles _only_!
+本教程_仅_适用于零售版的Wii U(市面上销售的；而不是来自任天堂开发者计划的主机) ！
 {: .notice--danger}
 
 {% capture notice-1 %}
+本手册支持其他语言！
 This guide is available in other languages!    
+点击页面右上角的<i class="fa fa-language" aria-hidden="true"></i>图标更改语言。
 Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top right of the page to change the language.    
-Alternatively, click [here](https://crowdin.com/project/wii-u-guide) to help to keep these translations up to date.
+你还可以点击[这里](https://crowdin.com/project/wii-u-guide)帮助翻译或更新翻译。
 {% endcapture %}
 
 <div class="notice--success">{{ notice-1 | markdownify }}</div>
 
-## What is Homebrew?
+## 什么是自制程序？
 
-[**Homebrew**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) usually refers to software that is not authorized by Nintendo. This includes homebrew tools, applications, games, and emulators.
+[**Homebrew（自制程序）**](https://en.wikipedia.org/wiki/List_of_homebrew_video_games) 通常指未经任天堂授权的软件。 比如自制工具、应用、游戏和模拟器。
 
-Running homebrew on your console is 100% free using nothing but the system's browser.
+如果你想运行自制程序是不需要花任何钱的，因为这个过程只需要使用 Wii U 自带的浏览器即可。
 
-## What is Custom Firmware?
+## 什么是自制系统？
 
-**Custom Firmware** ("CFW") enables you to use more advanced hacks that userland homebrew can't easily do, in addition to anything homebrew can do.
+**Custom Firmware（自制系统）** ("CFW") 可以使你进行自制程序无法轻易做到的更高级的破解。
 
-CFW can be easily set up on any console in any region on the latest version.
+自制系统可以很容易地在任何的系统版本及任何区域的设备上安装。
 
-## What does this guide install?
+## 本教程将安装什么？
 
-This guide has the end goal of taking a completely unmodified Wii U from stock firmware to Coldboot Haxchi powered Custom Firmware. It utilizes homebrew as a stepping off point, but Custom Firmware is still the goal.
+本教程的最终目标是带你把未修改的 Wii U 从原生系统破解成自制系统。 本教程会使用自制程序作为跳板，但是最终目的依然是安装自制系统。
 
-## What can I do with Custom Firmware?
+## 我可以在自制系统上做什么？
 
-+ Play all game discs and eShop games, regardless of region
-+ Backup, edit, and restore saves for many games
-+ Play games for older systems with various emulators, using RetroArch or other standalone emulators.
-+ Install homebrew titles to your system, and have them appear on your system menu
-+ Dump your discs to a format you can install, and play them without needing the disc
++ 跨区运行所有的游戏光盘和eShop游戏
++ 备份、修改、或还原游戏的存档
++ 使用模拟器（如RetroArch或其它独立模拟器）运行早期主机的游戏
++ 安装自制程序，并让它们在你的主菜单上出现
++ 将游戏光盘的内容导出为可安装的格式，从而无需光盘运行游戏
 
-## What do I need to know before starting?
+## 在开始之前我需要知道什么？
 
-+ **Before beginning the guide, you must know the risks of Wii U hacking: EVERY time you modify your system, there is always the potential for an UNRECOVERABLE brick. They're rare, but still a possibility so make sure you follow ALL directions EXACTLY.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.3.
-+ If everything goes according to plan, you will lose no data and end up with everything that you started with (games, NNID, saves, etc will be preserved).
-+ Your SD card is recommended to be at least 16GB or 32GB to have enough space for dumping and installing games.
-+ Your SD card should be [MBR, not GPT](http://www.howtogeek.com/245610/).
-+ If you need to format a brand new SD card, you can use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) and set to an Allocation Unit Size of 32K (32768).
++ **在开始之前，你要知道破解Wii U的风险：每次你修改系统的时候，都有可能会使你的Wii U不可恢复的变砖。 这种情况是很少见的，但是仍然存在这样的可能性，所以请确保你完全按照本教程的指导进行操作。**
++ 本教程适用于系统在5.5.0到5.5.3之间的Wii U主机。
++ 如果一切顺利，在安装完自制系统后你不会丢失任何数据（包括游戏、NNID、存档等）。
++ 选购 SD 卡时，我们建议购买至少有 16GB 或32GB 以上容量的 SD 卡，以保证后续备份和安装游戏时有足够的空间。
++ 你的SD卡应为[MBR格式，而非GPT格式](http://www.howtogeek.com/245610/)。
++ 如果你需要格式化一张新的SD卡，可以使用[guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm)，并将“分配单元大小(Allocation Unit Size)”设置为 32K (32768)。
 
 ___
 
-### Continue to [Get Started](get-started)
+### 继续至 [新手入门](get-started)
 {: .notice--primary}
