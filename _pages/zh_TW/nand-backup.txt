@@ -1,47 +1,59 @@
 ---
-title: "NAND 備份"
+title: "NAND Backup"
 ---
 
 {% include toc title="條目內容" %}
 
 ### 必讀事項
 
-本頁面為在您的 SD 卡上建立 NAND 備份的選用章節，這將讓您可以在磚機時透過硬改來進行還原。
-
-如果您的 Wii U 是黑色(32GB)版本的型號，您的 SD 卡必須至少有 64GB 的容量。 如果您的 Wii U 是白色(8GB)版本的型號，您的 SD 卡必須至少有 16GB 的容量。
-
-請注意，Mocha 自製韌體的使用者應在重啟後且*尚未運行* Mocha 自製韌體(透過瀏覽器版本的 Homebrew Launcher)的情況下進行下列步驟以避免 Wii U NAND Dumper 死當。
-
-在開始前，建議先透過 [H2testw (Windows)](h2testw-(windows))、[F3 (Linux)](f3-(linux))、或 [F3X (Mac)](f3x-(mac)) 來檢查您主機的 SD 卡有沒有問題！
-{: .notice--warning}
-
-### 必備項目
-
-* 最新版的 [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
 
 ### 操作說明
 
-1. 關閉您的主機
-1. 將 SD 卡插入至電腦中
-1. 解壓 Wii U NAND Dumper `.zip` 中的*所有內容*至 SD 卡的根目錄底下
-1. 將 SD 卡插回主機中
-1. 啟動您的主機
-1. 啟動 Homebrew Launcher
+{% capture notice-1 %}
+A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+
+If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. If you have a white (8GB) Wii U model, your SD card must be at least 16GB in size.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. 在啟動 Haxchi DS 虛擬主機遊戲時，按下「A」進入 Homebrew Launcher
 1. 啟動 nanddumper
 1. 使用方向鍵來設定下列選項：
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
+  + Dump MLC (8GB/32GB): **optional**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. 按「A」轉儲您的 NAND
-  + 可以拿起您的爆米花慢慢等了；這過程可能會花好一段時間(依您的內存使用空間而定，有可能會到數小時)
+  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
 1. 當備份完成後，您的 Wii U 將自動重啟
 1. 關閉您的主機
 1. 將 SD 卡插入至電腦中
-1. 從您的 SD 卡中複製 `slc.bin`、`slccmpt.bin`、`otp.bin`、`seeprom.bin`、以及各個`mlc.bin.part` 檔案至電腦中各個安全的位置中
+1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+  + Make backups in multiple locations (such as online file storage)
+  + These backups will save you from a brick and/or help you recover files from the NAND image if anything goes wrong in the future
+1. 將 SD 卡插回主機中
+1. 啟動您的主機
+
+___
+### 方法
 
 ___
 
-如果您磚機了，您之後可以透過這個備份以及硬改還原您的主機。
-{: .notice--info}
+#### Mocha CFW
+
+本方法將需要您在*每次重啟後*重新執行上述的瀏覽器漏洞步驟。
+
+### 繼續至 [Mocha CFW](mocha-cfw)
+{: .notice--primary}
+
+___
+
+#### Haxchi
+
+本方法為將透過個非常便宜且可執行漏洞的 DS 虛擬主機遊戲，讓您可在開機時自動進入自製韌體。
+
+### 繼續至 [Haxchi](haxchi)
+{: .notice--primary}
