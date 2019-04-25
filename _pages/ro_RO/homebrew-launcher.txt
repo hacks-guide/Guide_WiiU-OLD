@@ -12,31 +12,13 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
 
 ### Instrucțiuni
 
-1. Go to `wiiuexploit.xyz`
+1. Mergeți la `wiiuexploit.xyz`
   + Ar fi mai convenavil să adăugați această adreasă la favoriți și să economisiți timpul de a-l mai scrie pe viitor
 1. Selectați "Run Homebrew Launcher" pentru prina încercare de pornire de exploit
   + Dacă se blochează, închideți consola forțat ținând apăsat butonul POWER și încercați din nou
 1. Consola dumneavoastră ar trebui să încarce meniul homebrew
 
 ___
-### Metode
 
-___
-
-#### Mocha CFW
-
-Această metodă are nevoie să vă reporniți exploit-ul de web folosit *după fiecare repornire*.
-
-### Continuați la [Mocha CFW](mocha-cfw)
+### Continue to [Creating a NAND backup](nand-backup)
 {: .notice--primary}
-
-___
-
-#### Haxchi
-
-Această metodă folosește un joc de consolă virtuală DS ieftină și vulnerabilă pentru a porni Custom Firmware automatic la pornirea consolei.
-
-### Continuați la [Haxchi](haxchi)
-{: .notice--primary}
-
-___
