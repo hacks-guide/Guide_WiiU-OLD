@@ -26,7 +26,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
