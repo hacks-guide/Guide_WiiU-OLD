@@ -20,5 +20,5 @@ Homebrew Launcher 是一个可以列出 SD 卡中的自制程序并启动它们�
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### 接着请继续 [进行 NAND 备份](nand-backup)
 {: .notice--primary}
