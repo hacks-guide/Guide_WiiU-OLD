@@ -21,7 +21,7 @@ sitemap: false
 + [启动 Homebrew Launcher(通过频道)](homebrew-launcher-(channel))
 + [启动 Homebrew Launcher](homebrew-launcher)
 + [Mocha 自制系统](mocha-cfw)
-+ [NAND Backup](nand-backup)
++ [NAND 备份](nand-backup)
 + [卸载 Mocha 自制系统](uninstall-cfw)
 + [vWii模式破解](vwii-modding)
 + [为什么有广告?](why-ads)
