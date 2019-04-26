@@ -55,20 +55,20 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: NAND Backup
+    title: NAND 备份
     url: nand-backup
   - 
-    title: Multiple Options
+    title: 多个选项
     url: multiple-options
   - 
-    title: Mocha CFW
+    title: Mocha 自制固件
     url: mocha-cfw
   - 
     title: Haxchi
     url: haxchi
   - 
-    title: Coldboot Haxchi
+    title: 冷启动 Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Channel)
+    title: 启动 Homebrew Launcher (通过频道)
     url: homebrew-launcher-(channel)
