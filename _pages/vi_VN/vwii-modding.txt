@@ -14,7 +14,7 @@ Bước này sẽ cài Homebrew Channel và các mod cần thiết khác cho vi�
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * Phiên bản mới nhất của [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Phiên bản mới nhất của [Hackmii Installer](https://bootmii.org/download/)
-* Phiên bản cũ hơn (v) của [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(chọn file `.zip`)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
 
 ### Hướng dẫn
 
