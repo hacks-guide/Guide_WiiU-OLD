@@ -33,7 +33,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 *Ultima versiune de [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Ultima versiune de [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Cea mai recentă versiune de [the Homebrew Launcher Channel] (https://github.com/dimok789/homebrew_launcher/releases/latest) *(fișierul.zip a aplicației) *
-* O versiune anterioară (v1.4) de [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul.zip a aplicației)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
 * Ultima versiune de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Cele mai recente versiuni de [Haxchi și CBHC] (https://github.com/FIX94/haxchi/releases/latest) *(ambele fișiere `.zip`) *
 * Cea mai recentă versiune de [NNU-Patcher] (https://wiiubru.com/appstore/zips/nnupatcher.zip)
