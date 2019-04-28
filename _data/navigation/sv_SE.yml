@@ -24,6 +24,9 @@ main:
   - 
     title: Avinstallera CFW
     url: uninstall-cfw
+top:
+  - 
+    title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
     title: För support på engelska be om help på <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew på Discord</a>.
@@ -36,6 +39,8 @@ footer:
     title: Navigering på webbplatsen
   - 
     title: Varför annonser?
+  - 
+    title: Integritetspolicy
 sidebar_title:
   - 
     title: Avklarade steg
@@ -50,7 +55,10 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: Flera olika alternativ
+    title: NAND Backup
+    url: nand-backup
+  - 
+    title: Multiple Options
     url: multiple-options
   - 
     title: Mocha CFW

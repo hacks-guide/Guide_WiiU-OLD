@@ -14,7 +14,7 @@ Esto te permitirá instalar el Homebrew Channel y realizar otras modificaciones 
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * La última versión de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * La última versión del [Hackmii Installer](https://bootmii.org/download/)
-* Una versión anterior del [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/v1.3) *(el archivo `.zip` del launcher)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
 
 ### Instrucciones
 

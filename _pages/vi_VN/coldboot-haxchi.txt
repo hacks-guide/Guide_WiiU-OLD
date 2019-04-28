@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) đổi app hệ thống trong giao diện chính thành game mồi DS. Qua đó máy sẽ tự chạy CFW mỗi khi khởi động.
 
-Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. Nếu game này bị xóa hay nội dung hack bị sửa đổi, CBHC sẽ làm brick máy Wii U của bạn!
+Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. If this game is ever deleted or moved to USB storage while CBHC is installed, you will BRICK!
 
 {% capture notice-1 %}
 Bạn CẦN PHẢI cài sẵn Haxchi để thực hiện bước này. Nếu không, máy sẽ BRICK!
@@ -21,45 +21,6 @@ Game DS vỏ Haxchi của bạn PHẢI là game tải HỢP PHÁP từ eshop, n�
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Hướng dẫn
-
-#### Phần I - Sao lưu NAND
-
-{% capture notice-1 %}
-Bước này không bắt buộc, nhưng nó sẽ tạo bản sao lưu (backup) NAND của máy trên thẻ SD, sau này có bị brick có thể phục hồi lại.
-
-Nếu bạn dùng máy Wii U màu đen (32GB), thẻ SD phải có dung lượng ít nhất là 64GB. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-Cài CBHC không khiến máy bạn bị brick *nếu làm đúng theo các hướng dẫn và cảnh báo*. Vì yêu cầu thẻ SD dung lượng lớn và tốc độ chép NAND rất chậm, quá trình này có thể được lược bỏ
-
-Nếu bạn chấp nhận nguy cơ khi cài CBHC mà không sao lưu NAND, hãy bỏ qua bước này.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
-1. Mở nanddumper
-1. Dùng D-pad chọn như sau:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
-1. Bấm (A) để dump NAND
-  + Cần kiên nhẫn vì cuá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào dung lượng trống còn lại của bộ nhớ trong của máy)
-1. Khi dump xong, máy Wii U sẽ tự khởi động lại
-1. Tắt máy đi
-1. Lắp thẻ nhớ SD vào máy tính
-1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, and each `mlc.bin.part` từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
-  + Lưu file backup ở nhiều chỗ (như tải lên mạng)
-  + Những backup này sẽ giúp bạn phục hồi máy bị brick hoặc lấy lại file gốc của NAND nếu xảy ra sự cố
-1. Lắp thẻ nhớ SD vào thiết bị
-1. Bật thiết bị lên
-
-#### Section II - Cài CBHC
 
 1. Gỡ tất cả thiết bị usb khỏi máy Wii U
 1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động

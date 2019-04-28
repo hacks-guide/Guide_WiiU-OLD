@@ -1,60 +1,60 @@
 ---
-title: "Homebrew Launcher (Channel)"
+title: "Homebrew Launcher (通过频道)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+本章节将安装 Homebrew 频道到你的主机。这样，在使用自制系统时，Homebrew Launcher 就会在你的主菜单中出现。
 
-### Instructions
+### 操作步骤
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### 第一步 — 安装 Homebrew Launcher 频道
 
-1. Enter the Homebrew Launcher
-  + CBHC users must press (Home) while CBHC is booting to access the CBHC boot options menu, then select the Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
-1. Launch WUP Installer GX2
-  + Note that if WUP Installer GX2 crashes with a "DSi Exception Has Occurred" error, you should just shut down the console and try again.
-1. Select the Homebrew Channel
-1. Press "Install", then press "Yes" to confirm
-1. Select "NAND" as the destination
-1. Press (Home), then close the software to exit the installer once it has completed installing
+1. 进入 Homebrew Launcher
+  + CBHC 用户必须在启动CBHC时按下“Home”键，然后选择Homebrew Launcher
+  + 使用 Haxchi 的用户必须先启动一次 Haxchi 来启动自制固件，然后再按住 “A” 键启动 Haxchi 使其启动至 Homebrew Launcher
+  + Mocha 自制固件的用户应该已经进入 Homebrew Launcher 了
+1. 启动 WUP installer GX2
+  + 请注意，如果 WUP Installer GX2 提示 “DSi Exception Has Occurred” 报错并崩溃，则你需要关闭主机并再试一次。
+1. 选择 Homebrew  Channel
+1. 点击 “Install”，然后选择 “Yes” 确认
+1. 选择 “NAND” 为目标
+1. 在安装完成后，按下“Home”键以退出软件。
 
-#### Section II - Blocking System Updates
+#### 第二步 — 阻止系统更新
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+请注意，若你想要在设置完以下给出的 DNS 后使用 eShop，你必须先通过 Homebrew Launcher 运行 NNU-Patcher 才能继续。 另外，NNU-Patcher 是一个临时补丁，这意味着如果你想在重启之后再次使用eShop，则你需要再运行一次程序。
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+还有，Wii U的更新都是*完全自动且无法取消*的。这也就是说，如果你不在现在使用和以后可能会使用的网络做这些操作来阻止系统更新，后果无法想象。 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. 进入“系统设置(System Settings)”，然后点击“互联网(Internet)”，之后是“连接至互联网(Connect to the Internet)”然后按下“X”键来显示你当前的网络设置。
+1. 请在所有的网络设置(以及你以后可能会使用的新的设置)，依次设置下面的选项
+  + 选择“网络设置(connection)”
+  + 选择“更改设置(Change settings)”
+  + 移动至第二个列表中，然后选择 “DNS”
+  + 将DNS设为“不要自动获取(Don't Auto-Obtain)”
+  + 将DNS服务器 IP 设为如下
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + 选择 “确认(Confirm)”然后按下“B”键保存设置
+  + 这些服务器是用来阻止设备更新用的
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+你现在可以在自制固件下的 Homebrew Channel 来启动 Homebrew Launcher。
 {: .notice--info}
 
-Note that to access the eShop with the update blocking DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher (NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot).
+请注意，如果你想要在设置完阻止更新后的Wii U上启动 eShop，则你必须先启动 Homebrew Launcher运行一次NNU-Patcher(NNU-Patcher 是一个临时补丁，这意味着如果你想在重启之后再次使用eShop，则你需要再运行一次这个程序)。
 {: .notice--info}
 
-For information on dumping your discs to an installable format to play without needing the disc, check out the [disc2app](disc2app) page.
+若你想知道如何把游戏光盘转为可安装的格式，请参见[disc2app](disc2app)。
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+若你想知道如何在自制固件中修改vWii，请参见[vWii模式破解](vwii-modding)。
 {: .notice--success}
 
-For information on uninstalling CFW safely and returning to stock, check out the [Uninstall CFW](uninstall-cfw) page.
+若你想知道如何卸载自制系统并还原至出厂状态。请参见[卸载自制系统](uninstall-cfw)。
 {: .notice--warning}

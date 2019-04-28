@@ -1,47 +1,59 @@
 ---
-title: "Respaldo de la NAND"
+title: "NAND Backup"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-Esta es una página opcional en la cual crearás una copia de seguridad de tu NAND en tu tarjeta SD, la cual te permitirá restaurar tu consola utilizando un hardmod en caso de un brickeo.
-
-Si tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser al menos 64GB. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
-
-Ten en cuenta que los usuarios de Mocha CFW deberían seguir estas instrucciones después de un reinicio *sin* ejecutar Mocha CFW (utilizando el Homebrew Launcher basado en el navegador) para prevenir que el Wii U NAND Dumper se congele.
-
-¡Antes de empezar, deberías comprobar si tu tarjeta SD tiene errores usando [H2testw (Windows)](h2testw-(windows)),[F3 (Linux)](f3-(linux)), o [F3X (Mac)](f3x-(mac))!
-{: .notice--warning}
-
-### Qué necesitas
-
-* La última versión de [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
+This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
 
 ### Instrucciones
 
-1. Apaga tu consola
-1. Inserta tu tarjeta SD en tu computadora
-1. Copia *el contenido del*`.zip` de Wii U NAND Dumper en la raíz de tu tarjeta SD
-1. Reinserta la tarjeta SD en tu consola
-1. Enciende tu consola
-1. Inicia el Homebrew Launcher
+{% capture notice-1 %}
+A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+
+If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
+{% endcapture %}
+
+<div class="notice--info">{{ notice-1 | markdownify }}</div>
+
+1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
 1. Inicia nanddumper
 1. Usa el D-Pad para ajustar las siguientes opciones:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
+  + Dump MLC (8GB/32GB): **optional**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Presiona (A) para volcar tu NAND
-  + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo del espacio que ocupa tu memoria interna)
+  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copia `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, y cada archivo `mlc.bin.part` en la raiz de tu tarjeta SD a un lugar seguro en tu computadora
+1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+  + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
+  + Estos respaldos podrán prevenir que se inutilice la consola y/o ayudarte a recuperar archivos de la memoria de tu consola si algo sale mal en el futuro
+1. Reinserta la tarjeta SD en tu consola
+1. Enciende tu consola
+
+___
+### Métodos
 
 ___
 
-Si llegas a inutilizar tu consola, podrás utilizar esta copia seguridad para restaurarla mediante un hardmod.
-{: .notice--info}
+#### Mocha CFW
+
+Este método requiere que vuelvas a ejecutar el exploit web utilizado anteriormente *después de cada reinicio*.
+
+### Continúa a [Mocha CFW](mocha-cfw)
+{: .notice--primary}
+
+___
+
+#### Haxchi
+
+Este método utiliza un juego de la consola virtual de DS barato y vulnerable para ejecutar Custom Firmware automáticamente al encender la consola.
+
+### Continúa a [Haxchi](haxchi)
+{: .notice--primary}

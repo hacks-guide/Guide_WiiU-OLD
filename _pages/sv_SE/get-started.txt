@@ -26,14 +26,14 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
 * Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* Senaste versionen av [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest)
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * Senaste versionen av [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
 * Senaste versionen av [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
 * Senaste versionen av [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * Senaste versionen av [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * Senaste versionen av [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(`.zip`-filen som har `channel` i fil-namnet)*
-* Version 1.4 av [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip`-filen som har `launcher` i fil-namnet)*
+* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
 * Senaste versionen av [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * Senaste versionerna av [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(båda `.zip`-filerna)*
 * Senaste versionen av [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)

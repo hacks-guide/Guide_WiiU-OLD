@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) vă modifică titlul de sistem implicit de la meniul de sistem pentru un joc de consolă virtuală DS. Acest lucru va face consola să lanseze CFW automat la pornire.
 
-Acest exploit este un pic mai periculos decât Haxchi-ul Standard din cauza că exploit-ul cu joc de consolă virtuală DS este *singura* cale pentru a porni sistemul. Dacă acest joc va fi șters vreodată sau exploit-ul este șters, instalând CBHC va face consola INUTILIZABILĂ!
+Acest exploit este un pic mai periculos decât Haxchi-ul Standard din cauza că exploit-ul cu joc de consolă virtuală DS este *singura* cale pentru a porni sistemul. If this game is ever deleted or moved to USB storage while CBHC is installed, you will BRICK!
 
 {% capture notice-1 %}
 TREBUIE să aveți un instalator funcțional Haxchi ca să funcționeze. Dacă nu, veți face BRICK!
@@ -21,45 +21,6 @@ Jocul de consolă virtuală DS cu Haxchi TREBUIE să fie o copie LEGITIMĂ (nepi
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
 
 ### Instrucțiuni
-
-#### Secţiunea I - Copie de rezervă NAND
-
-{% capture notice-1 %}
-Aceasta este o secțiune opţională în care veți crea o copie de rezervă a NAND-ului de pe memoria internă pe cardul SD, care vă va permite să recuperați consola în caz de brick.
-
-Dacă aveți un model negru de Wii U (32GB), cardul SD trebuie să fie cel puțin 64 GB. Dacă aveți un model alb de Wii U (8GB), cardul SD trebuie să fie cel puțin 16GB.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-{% capture notice-1 %}
-Nu este posibil să faceți brick la consolă instalând CBHC atâta timp cât *toate instrucțiunile și avertismentele sunt urmate cu atenție*. Asta, combinat cu cerințele stricte ale cardului SD și a vitezei foarte mici de descărcare a NAND-ului, înseamnă că crearea unei copii de rezervă NAND este în prezent un pas opțional
-
-Dacă acceptaţi riscul de a instala CBHC fără o copie de rezervă NAND, săriţi peste această secţiune.
-{% endcapture %}
-
-<div class="notice--info">{{ notice-1 | markdownify }}</div>
-
-1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi
-1. Porniți nanddumper
-1. Folosiți D-Pad-ul pentru a seta următoarele opțiuni:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **yes**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
-1. Apăsați (A) pentru a copia NAND-ul
-  + Fiți pregătiți să așteptați; acest lucru poate dura o vreme (până la câteva ore depinzând de cât de mult spațiu este folosit în memoria internă)
-1. Când se va termina, WiiU-ul se ve reporni automatic
-1. Închideți dispozitivul
-1. Introduceți cardul SD în calculator
-1. Copiați `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, și fiecare fișier `mlc.bin.part` de pe rădăcina cardului SD într-o locație sigură pe calculator
-  + Faceți copii de rezervă în mai multe locații (cum ar fi stocări online ale fișierelor)
-  + Aceste copii de rezervă vă va salva de un brick și/sau vă va ajuta să recuperați fișierele dintr-o imagine NAND dacă ceva merge în neregulă pe viitor
-1. Reintroduceţi cardul SD în aparatul dvs
-1. Porniți dispozitivul
-
-#### Secţiunea II - Instalând CBHC
 
 1. Scoateți toate dispozitivele USB din Wii U
 1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi

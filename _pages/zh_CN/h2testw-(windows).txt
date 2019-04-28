@@ -2,39 +2,39 @@
 title: "H2testw (Windows)"
 ---
 
-{% include toc title="Table of Contents" %}
+{% include toc title="目录内容" %}
 
-### Required Reading
+### 必读事项
 
-This page will walk you through the process of checking your SD card for errors using h2testw.
+本节教程将带你使用h2testw检查SD卡错误。
 
-Depending on the size of your SD card and the speed of your computer, this process can take up to several hours!
+这个操作的耗时取决于你的 SD 卡的容量大小和电脑的速度，可能将耗费数个小时完成！
 
-This page is for Windows users only. If you are not on Windows, check out the [F3 (Linux)](f3-(linux)) or [F3X (Mac)](f3x-(mac)) pages.
+本节教程仅限 Windows 用户。 如果你的操作系统不是 Windows，请参见[F3X (Mac)](f3x-(mac))或[F3 (Linux)](f3-(linux))页面。
 
-### What You Need
+### 准备工作
 
-* The latest version of [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
+* 最新版 [h2testw](http://www.heise.de/ct/Redaktion/bo/downloads/h2testw_1.4.zip)
 
-### Instructions
+### 操作步骤
 
-1. Copy `h2testw.exe` from the h2testw `.zip` to your desktop
-1. Insert your SD card into your computer
-1. Run `h2testw.exe`
-1. Select "English"
-1. Click "Select target"
-1. Select your SD card's drive letter
-1. Ensure "all available space" is selected
-1. Click "Write + Verify"
-1. Wait until the process is completed
+1. 解压缩 `h2testw `压缩包，复制 `h2testw.exe` 文件到桌面
+1. 将 SD 卡插入电脑
+1. 运行 `h2testw.exe`
+1. 选择 “English”
+1. 点击 “Select target”
+1. 选择 SD 卡对应的盘符
+1. 确保 “all available space” 已勾选
+1. 点击 “Write + Verify”
+1. 等待检查完成
 
 ___
 
-If the test shows the result `Test finished without errors`, your SD card is good and you can delete all `.h2w` files on the SD card
+如果测试结果显示 `Test finished without errors`（测试完成，没有错误），则你的 SD 卡没有问题，接着请删除 SD 卡上所有的 `.h2w` 文件
 {: .notice--success}
 
-If the test shows any other results, your SD card may be corrupted or damaged and you may have to replace it!
+如果测试显示任何其他结果，你的 SD 卡可能已经出错或损坏，你可能需要更换一张 SD卡 ！
 {: .notice--danger}
 
-### Return to [Get Started](get-started)
+### 返回至[新手入门](get-started)
 {: .notice--primary}

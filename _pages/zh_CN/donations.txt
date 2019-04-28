@@ -1,5 +1,5 @@
 ---
-title: "Donations" #
+title: "捐赠" #
 layout: single-no-ads
 ---
 
