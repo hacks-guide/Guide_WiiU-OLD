@@ -33,7 +33,7 @@ title: "新手入门"
 * 最新版 [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
 * 最新版 [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
 * 最新版 [Homebrew Launcher 频道](https://github.com/dimok789/homebrew_launcher/releases/latest) *(请下载 channel `.zip` 文件)*
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* 先前版本 (v1.4) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(下载 homebrew_launcher.v1.4 `.zip` 文件)*
 * 最新版 [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
 * 最新版 [Haxchi 和 CBHC](https://github.com/FIX94/haxchi/releases/latest) *(下载两个 `.zip` 文件)*
 * 最新版 [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
