@@ -6,14 +6,14 @@ title: "NAND Backup"
 
 ### Lectura requerida
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+Con esta sección crearás una copia de seguridad de la memoria NAND interna de la consola en tu tarjeta SD, lo que permitirá restaurar tu consola mediante un hardmod en caso de quedar inutilizable.
 
 ### Instrucciones
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+Respaldar la partición MLC es opcional ya que es enorme en tamaño, y la mayoría de las consolas inutilizables que necesitan que se restablezca su MLC se hace por error de usuario.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
+Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser de al menos 64GB de tamaño. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
