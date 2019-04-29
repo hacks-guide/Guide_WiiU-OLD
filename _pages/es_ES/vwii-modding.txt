@@ -62,7 +62,7 @@ Esta copia de seguridad de la NAND te permitirá restaurar tu vWii a un estado f
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu Wii U
 1. Introduce la tarjeta SD de tu Wii U en tu computadora
-1. **Copia los archivos `nand.bin` y `keys.bin` desde la raíz de tu tarjeta SD a un lugar seguro en tu computadora y haz varias copias de seguridad en distintos sitios (tales como almacenamiento de archivos en la nube); esto permitirá salvar tu vWii de un brick en caso de que algo salga mal**
+1. **Copia los archivos `nand.bin` y `keys.bin` desde la raíz de tu tarjeta SD a un lugar seguro en tu computadora y haz varias copias de seguridad en distintos sitios (tales como almacenamiento de archivos en la nube); esto permitirá salvar tu vWii de quedar inutilizable en caso de que algo salga mal**
 1. Borra los archivos `nand.bin` y `keys.bin` del directorio raíz de tu tarjeta SD
 
 #### Sección IV - Instalación de cIOS
@@ -93,7 +93,7 @@ Asegúrate que no hay ninguna carpeta llamada `wad` o `wads` en el directorio ra
 
 #### Sección V - Parchear el IOS80
 
-Este paso brickeará tu vWii si llega a fallar por alguna razón (apagones, etc), tras lo cual se deberá restaurar una copia de seguridad de la memoria NAND de la vWii. Asegúrate de tener tu copia de seguridad hecha antes de proseguir con esta sección.
+Este paso inutilizará tu vWii si falla por alguna razón (apagones, etc), tras lo cual se deberá restaurar una copia de seguridad de la memoria NAND de la vWii. Asegúrate de tener tu copia de seguridad hecha antes de proseguir con esta sección.
 {: .notice--danger}
 
 1. Desde el Homebrew Channel en la vWii, inicia Patched IOS80 Installer for vWii
