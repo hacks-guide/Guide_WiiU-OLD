@@ -30,7 +30,7 @@ title: "Preguntas Frecuentes"
 **R:** Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" />**P:** *¿De qué capacidad debe ser la tarjeta SD a utilizar?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. Si quieres hacer una copia de seguridad completa de la NAND de un modelo Wii U blanco (8GB), tu tarjeta SD necesita ser de al menos 16GB de tamaño. Si quieres hacer una copia de seguridad completa de la NAND de un modelo Wii U negro (32GB), tu tarjeta SD necesita ser de al menos 64GB de tamaño.
 
 <a name="faq_NNID" />**P:** *¿Puedo conservar mi Identificador de Nintendo Network (NNID)?*    
 **R:** Si inicias el proceso con un NNID y sigues todos los pasos, seguirás conservando el mismo NNID al finalizar.
