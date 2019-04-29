@@ -1,5 +1,5 @@
 ---
-title: "NAND Backup"
+title: "Respaldo de la NAND"
 ---
 
 {% include toc title="Tabla de contenidos" %}
@@ -31,7 +31,7 @@ Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de W
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Copia `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, y cada archivo `mlc.bin.part` (si elegiste respaldar la partición MLC) en la raiz de tu tarjeta SD a un lugar seguro en tu computadora
   + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
   + Estos respaldos podrán prevenir que se inutilice la consola y/o ayudarte a recuperar archivos de la memoria de tu consola si algo sale mal en el futuro
 1. Reinserta la tarjeta SD en tu consola
