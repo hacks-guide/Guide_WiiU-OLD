@@ -48,7 +48,7 @@ Esta guía tiene la meta de tomar una Wii U sin modificar desde el firmware de s
 ## ¿Qué puedo hacer con Custom Firmware?
 
 + Jugar a todos los juegos disponibles, en formato físico o de la eShop, independiente de su región
-Respaldar, editar y restaurar partidas guardadas de muchos juegos
++ Respaldar, editar y restaurar partidas guardadas de muchos juegos
 + Emular juegos de sistemas antiguos con varios emuladores, mediante RetroArch u otros emuladores independientes.
 + Instalar títulos homebrew en tu sistema y hacer que aparezcan en el menú del sistema
 + Respaldar tus juegos en formato físico a un formato que puedas instalar y jugar sin necesidad del mismo
