@@ -21,13 +21,13 @@ Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de W
 1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
 1. Inicia nanddumper
 1. Usa el D-Pad para ajustar las siguientes opciones:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **optional**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
+  + Dump SLC (528MB): **sí**
+  + Dump SLCCMPT (528MB): **sí**
+  + Dump MLC (8GB/32GB): **opcional**
+  + Dump OTP (1KB): **sí**
+  + Dump SEEPROM (1KB): **sí**
 1. Presiona (A) para volcar tu NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo de las opciones que seleccionaste)
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
