@@ -14,7 +14,7 @@ title: "Модификация vWii"
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* Предыдущая версия (v1.4) [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip-архив` homebrew_launcher.v1.4)*
 
 ### Инструкция
 
