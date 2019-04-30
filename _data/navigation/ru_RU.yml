@@ -55,10 +55,10 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: NAND Backup
+    title: Резервная копия NAND
     url: nand-backup
   - 
-    title: Multiple Options
+    title: Несколько вариантов
     url: multiple-options
   - 
     title: Mocha CFW
