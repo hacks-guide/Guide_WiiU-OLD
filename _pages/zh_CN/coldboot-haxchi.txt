@@ -1,12 +1,12 @@
 ---
-title: "冷启动 Haxchi"
+title: "Coldboot Haxchi"
 ---
 
 {% include toc title="目录内容" %}
 
 ### 必读事项
 
-CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时自动进入自制系统。
+CBHC (Coldboot Haxchi) 将会把你主机的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时就自动进入自制系统。
 
 这个漏洞比普通的 Haxchi 略危险一些，因为 DS 虚拟主机游戏将是你Wii U的 *命根子*。 如果这个游戏在安装 CBHC 时被删除或移动到 USB 存储设备中，你的机器将变砖！
 
