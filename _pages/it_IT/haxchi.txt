@@ -8,14 +8,14 @@ title: "Haxchi"
 
 Haxchi è un exploit che ci permette di avviare il CFW direttamente dal menu di sistema senza usare l'Homebrew Launcher.
 
-It includes a custom firmware that patches signature checks, region checks, and runs other custom code in the background.
+Include un custom firmware che patcha i controlli delle firme, i controlli regionali ed esegue altri codici personalizzati in background.
 
 ### Cosa serve
 
 + Una copia legittima di uno dei giochi DS della Virtual Console exploitabili installati nella memoria interna della Wii U
   + Se non hai un gioco exploitabile installato, vedi alla pagina [Cominciamo!](get-started)
-+ The custom `config.txt` provided in [Get Started](get-started) (*not* the default Haxchi `config.txt`) should already be in the `/haxchi/` folder on your SD card
-  + Using the default config (from the Haxchi `.zip`) will cause your Haxchi installation to behave differently than expected
++ Il file `config.txt` personalizzato fornito in [Cominciamo](get-started) (*non* il `config.txt` di default di Haxchi) dovrebbe già essere nella cartella `/haxchi/` della tua scheda SD
+  + L'utilizzo della configurazione predefinita (dall'archivio `.zip`) di Haxchi farà sì che la tua installazione di Haxchi si comporti in modo diverso dal previsto
   
 ### Istruzioni
 
@@ -23,19 +23,19 @@ It includes a custom firmware that patches signature checks, region checks, and 
 1. Seleziona il gioco DS della Virtual Console nel quale installerai Haxchi, quindi premi (A) per selezionarlo
 1. Leggi l'avviso visualizzato, quindi premi (A) per installare Haxchi
 1. Una volta completato il processo, avvia il tuo gioco DS con Haxchi (il quale avrà come nome "Haxchi")
-1. The console will reboot and enable custom firmware features
-  + This will allow unsigned titles (such as the Homebrew Launcher) to be launched directly from the system menu
+1. La console si riavvierà e abiliterà le funzionalità del custom firmware
+  + Essa ti permetterà di installare titoli non firmati (come l'Homebrew Launcher) e di avviarli direttamente dal menu di sistema
 
 ___
 
-Currently, you must launch the DS virtual console game every time you reboot in order to enter custom firmware. The next page will optionally install Coldboot Haxchi which can do this automatically on boot.
+Attualmente dovrai avviare il gioco della DS Virtual Console ogni volta che riavvii la console per entrare nel custom firmware. Nella prossima pagina installeremo Cooldboot Haxchi che farà ciò in automatico. (facoltativo).
 {: .notice--info}
 
 {% capture notice-1 %}
 **Puoi tenere premuto alcuni pulsanti all'avvio del tuo gioco DS della Virtual Console per avere diversi tipi di avvio di Haxchi. Ecco le varie opzioni a te disponibili:**
 
-  + None -> Reboots into custom firmware
-  + (A) -> Reboots into the Homebrew Launcher
+  + Nessuno -> Riavvia nel custom firmware
+  + (A) -> Riavvia nell'Homebrew Launcher
 
 {% endcapture %}
 
@@ -45,22 +45,22 @@ Currently, you must launch the DS virtual console game every time you reboot in 
 
 ___
 
-#### Stay on Standard Haxchi
+#### Rimani su Haxchi Standard
 
-Standard Haxchi is the exploit that has already been installed on your device.
+Haxchi Standard è l'exploit già installato sul tuo dispositivo.
 
-This exploit comes with no risk of damaging your device, but it is less convenient as you must perform the Haxchi exploit manually after each reboot.
+Questo exploit non comporta alcun rischio di danneggiare il tuo dispositivo, ma è meno conveniente perché devi eseguire l'exploit Haxchi manualmente dopo ogni riavvio.
 
 ### Prosegui con [Homebrew Launcher (Canale)](homebrew-launcher-(channel)).
 {: .notice--primary}
 
 ___
 
-#### Upgrade to Coldboot Haxchi
+#### Aggiorna a Coldboot Haxchi
 
 CBHC (Coldboot Haxchi) cambia il titolo di sistema predefinito dal menu di sistema al tuo gioco DS Virtual Console. Questo causa il lancio automatico del CFW all'avvio del dispositivo.
 
-Questo exploit è leggermente più pericoloso di Haxchi standard perché l'exploit del tuo gioco della DS Virtual Console è il *solo* modo per avviare il sistema. If this game is ever deleted or the exploit is removed, installing CBHC will BRICK your device!
+Questo exploit è leggermente più pericoloso di Haxchi standard perché l'exploit del tuo gioco della DS Virtual Console è il *solo* modo per avviare il sistema. Se questo gioco viene eliminato o l'exploit viene rimosso, installare CBHC BRICKERÀ il tuo dispositivo!
 
 ### Prosegui con [Coldboot Haxchi](coldboot-haxchi).
 {: .notice--primary}
