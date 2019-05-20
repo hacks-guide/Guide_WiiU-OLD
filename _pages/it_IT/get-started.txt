@@ -8,13 +8,13 @@ title: "Cominciamo!"
 
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter installare un custom firmware basato su Coldboot Haxchi.
 
-Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
+Prima di iniziare, controlla che la tua WiiU abbia una versione del firmware che sia 5.5.0, 5.5.1, 5.5.2, o 5.5.3. Versioni meno recenti non sono supportate al momento.
 
 La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi. Se hai intenzione di creare un backup del sistema della Wii U per poterlo poi ripristinare in futuro, avrai bisogno di una scheda SD con almeno due volte lo spazio della memoria di sistema della tua Wii U (una scheda SD da 16GB per la console bianca da 8GB; una scheda SD da 64GB per la console nera da 32GB).
 
-Your SD card must be formatted as FAT32 (Allocation Unit Size of 32K (32768)). Molte schede SD appena comprate saranno già formattate in questo modo.
+La scheda SD deve essere formattata come FAT32 (dimensione unità di allocazione di 32 KB (32768)). Molte schede SD appena comprate saranno già formattate in questo modo.
 
-Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Use [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) instead and set to an Allocation Unit Size of 32K (32768).
+Se devi formattare una scheda SD con Windows, non usare il programma di formattazione di Windows perchè potrebbe causare problemi. Usa invece [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) e imposta le "Dimensioni unità di allocazione" a 32K (32768).
 
 *Non puoi* rinominare la tua scheda SD `wiiu` perchè potrebbe causare problemi.
 
@@ -25,24 +25,24 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
-* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
-* The latest release of [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
-* The latest release of [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
-* The latest release of [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
-* The latest release of [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
-* The latest release of [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
-* The latest release of [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(the channel `.zip` file)*
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* L'ultima versione di [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* L'ultima versione di [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(il file del payload con estensione `.zip`)*
+* L'ultima versione di [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
+* L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
+* L'ultima versione di [hid\_to\_vpad](https://github.com/Maschell/hid_to_vpad/releases/latest)
+* L'ultima versione di [Mocha CFW](https://www.wiiubru.com/appstore/zips/mocha.zip)
+* L'ultima versione di [savemii_mod](https://github.com/GabyPCgeeK/savemii/releases)
+* L'ultima versione di [the Homebrew Launcher Channel](https://github.com/dimok789/homebrew_launcher/releases/latest) *(il file `.zip` channel)*
+* Una versione precedente (v1.4) di [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(il file the homebrew_launcher.v1.4 `.zip`)*
 * L'ultima versione di [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-nanddumper/releases/latest)
-* The latest release of [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(both `.zip` files)*
-* The latest release of [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
+* L'ultima versione di [Haxchi and CBHC](https://github.com/FIX94/haxchi/releases/latest) *(entrambi i file `.zip`)*
+* L'ultima versione di [NNU-Patcher](https://wiiubru.com/appstore/zips/nnupatcher.zip)
 
 ### Istruzioni
 
 #### Sezione I - Preparazione
 
-For all steps in this section, overwrite any existing files on your SD card.
+Per ogni passo in questa sezione, sovrascrivi tutti i file esistenti sulla tua scheda SD.
 {: .notice--info}
 
 1. Spegni la tua console
@@ -50,21 +50,21 @@ For all steps in this section, overwrite any existing files on your SD card.
 1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
 1. Crea una cartella chiamata `install` nella root della tua scheda SD
 1. Copia la cartella `apps` dall'archivio `.zip` dell'Homebrew App Store nella cartella `/wiiu/` nella tua scheda SD
-1. Copy *the contents of* the payload `.zip` to the wiiu folder on your SD card
-1. Copy *the contents of* the Homebrew Launcher (v1.4) `.zip` to the root of your SD card
-1. Copy *the contents of* the Haxchi `.zip` to the root of your SD card
-1. Copy *the contents of* the CBHC `.zip` to the root of your SD card
-1. Copy `config.txt` to the `/haxchi/` folder on your SD card (overwrite the existing `config.txt` file)
+1. Copia *il contenuto* dello `.zip` del payload nella cartella wiiu della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di Homebrew Launcher (v1.4) nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di Haxchi nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di CBHC nella root della tua scheda SD
+1. Copia `config.txt`nella cartella `/haxchi/` nella tua scheda SD (sovrascrivi il file `config.txt` esistente)
 1. Crea una cartella chiamata `hbc` nella cartella `/install/` della tua scheda SD
-1. Copy *the contents of* the Homebrew Launcher Channel `.zip` to the `/install/hbc/` folder on your SD card
+1. Copia *il contenuto* dello `.zip` di Homebrew Launcher Channel nella cartella `/install/hbc/` della tua scheda SD
 1. Copia la cartella `savemii_mod` dall'archivio `.zip` di savemii_mod nella cartella `/wiiu/apps` nella tua scheda SD
-1. Copy *the contents of* the WUP Installer GX2 `.zip` to the root of your SD card
-1. Copy *the contents of* the disc2app `.zip` to the root of your SD card
-1. Copy *the contents of* the hid\_to\_vpad `.zip` to the root of your SD card
-1. Copy *the contents of* the NNU-Patcher `.zip` to the root of your SD card
-1. Copy *the contents of* the Wii U NAND Dumper `.zip` to the root of your SD card
-1. Copy *the contents of* the Mocha CFW `.zip` to the root of your SD card
-1. Copy `config.ini` to the `/wiiu/apps/mocha/` folder on your SD card
+1. Copia *il contenuto* dello `.zip` di WUP Installer GX2 nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di disc2app nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di hid\_to\_vpad nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di NNU-Patcher nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di Wii U NAND Dumper nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` di Mocha CFW nella root della tua scheda SD
+1. Copia `config.ini` nella cartella `/wiiu/apps/mocha/`dello `.zip` della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
