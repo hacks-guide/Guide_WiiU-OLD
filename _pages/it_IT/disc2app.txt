@@ -17,7 +17,7 @@ Se hai intenzione di utilizzare un hard disk esterno per installare i giochi est
 
 ### Cosa serve
 
-* A Wii U with some kind of custom firmware (Mocha CFW, Haxchi, CBHC, etc)
+* Una Wii U con un custom firmware (Mocha CFW, Haxchi, CBHC, ecc)
 * 25GB di spazio liberi sulla scheda SD
 
 ### Istruzioni
