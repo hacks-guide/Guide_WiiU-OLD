@@ -18,8 +18,8 @@ Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de W
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
-1. Inicia nanddumper
+1. While in the Homebrew Launcher, launch nanddumper
+  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
 1. Usa el D-Pad para ajustar las siguientes opciones:
   + Dump SLC (528MB): **sí**
   + Dump SLCCMPT (528MB): **sí**
