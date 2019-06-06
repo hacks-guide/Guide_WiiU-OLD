@@ -18,8 +18,8 @@ If you want a full backup including MLC, and have a black Wii U (32GB) model, yo
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Enter the Homebrew Launcher by holding (A) while launching your Haxchi DS virtual console game
-1. Launch nanddumper
+1. While in the Homebrew Launcher, launch nanddumper
+  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
 1. Use the D-Pad to set the following options:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
