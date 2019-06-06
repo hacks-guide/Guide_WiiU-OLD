@@ -18,8 +18,8 @@ title: "Резервная копия NAND"
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Войдите в Homebrew Launcher, удерживая (A) во время запуска игры для DS virtual console с установленным Haxchi
-1. Запустите nanddumper
+1. While in the Homebrew Launcher, launch nanddumper
+  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
 1. С помощью крестовины отметьте следующие пункты:
   + Dump SLC (528MB): **да**
   + Dump SLCCMPT (528MB): **да**
