@@ -18,8 +18,8 @@ Dacă doriți o copie de rezervă completă inclusiv MLC, și aveți o consolă 
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. While in the Homebrew Launcher, launch nanddumper
-  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
+1. În timp ce sunteți în Homebrew Launcher, lansați nanddumper
+  + Dacă ați părăsit Homebrew Launcher-ul, întoarceți-vă la el pornind browserul Wii U și mergeți spre `wiiuexploit.xyz`
 1. Folosiți D-Pad-ul pentru a seta următoarele opțiuni:
   + Dump SLC (528MB): **da**
   + Dump SLCCMPT (528MB): **da**
