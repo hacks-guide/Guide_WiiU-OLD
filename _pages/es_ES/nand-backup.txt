@@ -18,8 +18,8 @@ Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de W
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. While in the Homebrew Launcher, launch nanddumper
-  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
+1. Estando en el Homebrew Launcher, ejecuta nanddumper
+  + Si saliste del Homebrew Launcher, regresa mediante el navegador de Wii U, cargando la dirección `wiiuexploit.xyz`
 1. Usa el D-Pad para ajustar las siguientes opciones:
   + Dump SLC (528MB): **sí**
   + Dump SLCCMPT (528MB): **sí**
