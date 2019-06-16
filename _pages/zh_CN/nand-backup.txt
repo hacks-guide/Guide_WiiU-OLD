@@ -18,8 +18,8 @@ MLC 分区的备份目前是可选的，因为它的大小巨大且大多数需�
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. While in the Homebrew Launcher, launch nanddumper
-  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
+1. 在Homebrew Launcher中启动nanddumper
+  + 如果你已经退出了Homebrew Launcher，请通过Wii U浏览器，然后访问`wiiuexploit.xyz`返回
 1. 使用十字键设置以下选项：
   + Dump SLC (528MB): **是(yes)**
   + Dump SLCCMPT (528MB): **是(yes)**
