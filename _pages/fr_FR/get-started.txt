@@ -25,7 +25,7 @@ Avant de commencer, il serait de bonne garde de vérifier l'intégrité de votre
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* La dernière version de [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(the wiiu-extracttosd `.zip` file)*
 * The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * La dernière version de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * La dernière version de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -50,7 +50,7 @@ Pour toutes les étapes de cette section, remplacez tous les fichiers existants 
 1. Insérez votre carte SD dans votre ordinateur
 1. Créez un répertoire nommé `wiiu` à la racine de la carte SD
 1. Créez un répertoire nommé `install` à la racine de votre carte SD
-1. Copiez le dossier `apps` du fichier .zip Homebrew App Store vers le répertoire `/wiiu/` de votre carte SD
+1. Copy *the contents of* the wiiu-extracttosd `.zip` to the root of your SD card
 1. Copiez *le contenu* de `payload.zip` vers le dossier wiiu de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` du Homebrew Launcher (v1.4) vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` d'Haxchi vers la racine de votre carte SD
