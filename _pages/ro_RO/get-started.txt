@@ -25,7 +25,7 @@ Cardul SD * nu poate * fi numit 'wiiu', sau va provoca probleme.
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* Ultima versiune [de Homebrew Launcher](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(the wiiu-extracttosd `.zip` file)*
 * Cea mai recentă versiune de [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(fișierul payload în format `.zip`)*
 * Ultima versiune de [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Cea mai nouă versiune de [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -49,7 +49,7 @@ Pentru toți pașii din această secțiune, suprascrieți fișierele existente d
 1. Introduceți cardul SD în calculator
 1. Creați un folder numit `wiiu` pe rădăcina cardului SD
 1. Creați un folder numit `install` pe rădăcina cardului SD
-1. Copiaţi folderul "apps" din fișierul '.zip' a aplicației Homebrew App Sore în folderul '/ wiiu /' de pe cardul SD
+1. Copy *the contents of* the wiiu-extracttosd `.zip` to the root of your SD card
 1. Copiați *conţinutul* de pe payload `.zip` către folderul wiiu de pe cardul SD
 1. Copiați *conținutul* de pe folderul Homebrew Launcher (1.4) `.zip` în rădăcina cardului SD
 1. Copiați *conţinutul* Haxchi `.zip` la rădăcina cardului SD
