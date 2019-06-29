@@ -58,7 +58,7 @@ Click the <i class="fa fa-language" aria-hidden="true"></i> icon at the top righ
 ## 在开始之前我需要知道什么？
 
 + **在开始之前，你要知道破解Wii U的风险：每次你修改系统的时候，都有可能会使你的Wii U不可恢复的变砖。 这种情况是很少见的，但是仍然存在这样的可能性，所以请确保你完全按照本教程的指导进行操作。**
-+ 本教程适用于系统在5.5.0到5.5.3之间的Wii U主机。
++ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.4. (Currently the 5.5.4 update is for European consoles only.)
 + 如果一切顺利，在安装完自制系统后你不会丢失任何数据（包括游戏、NNID、存档等）。
 + 选购 SD 卡时，我们建议购买至少有 16GB 或 32GB 以上容量的 SD 卡，以保证后续备份和安装游戏时有足够的空间。
 + 你的SD卡应为[MBR格式，而非GPT格式](http://www.howtogeek.com/245610/)。
