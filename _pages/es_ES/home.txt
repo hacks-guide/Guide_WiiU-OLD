@@ -56,7 +56,7 @@ Esta guía tiene la meta de tomar una Wii U sin modificar desde el firmware de s
 ## ¿Qué necesito saber antes de empezar?
 
 + **Antes de comenzar la guía, debes conocer los riesgos de hackear la Wii U: CADA VEZ que modificas tu sistema, siempre existe la posibilidad de que tu consola quede inutilizable de forma IRRECUPERABLE. Es algo raro, pero la posibilidad está ahí, así que asegúrate de seguir TODAS las instrucciones AL PIE DE LA LETRA.**
-+ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.4. (Currently the 5.5.4 update is for European consoles only.)
++ Esta guía funcionará en todas las Wii U de todas las regiones en las versiones 5.5.0 a 5.5.4. (Actualmente la actualización 5.5.4 sólo está disponible en consolas Europeas.)
 + Si todo va según el plan, no perderás datos y terminarás con todo lo que tenías anteriormente (juegos, NNID, datos de guardado, etc se conservarán).
 + Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos.
 + Tu tarjeta SD debe ser [MBR, no GPT](http://www.howtogeek.com/245610/).
