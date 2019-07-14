@@ -19,6 +19,7 @@ Haxchi 是一个能让设备直接从主菜单启动自制系统的漏洞，而�
   
 ### 操作步骤
 
+1. Return to the Homebrew Launcher by opening the web browser and go to `wiiuexploit.xyz`.
 1. 启动 Haxchi Installer
 1. 选择你要安装 Haxchi 的DS 虚拟主机游戏，并按下 “A”键确认
 1. 阅读出现的警告，然后按下 “A” 键安装
