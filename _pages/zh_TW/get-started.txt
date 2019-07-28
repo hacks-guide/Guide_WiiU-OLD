@@ -8,7 +8,7 @@ title: "新手入門"
 
 下列步驟將協助您準備您的 SD 卡安裝 Coldboot Haxchi 自製韌體。
 
-Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, 5.5.3 or 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are not currently supported.
 
 建議您的 SD 卡至少要有 16GB 或 32GB 的空間，以便有足夠的空間進行備份和安裝遊戲。 如果您想要備份您的 Wii U 系統好讓您之後可以還原資料，您至少會需要比您主機儲存空間大兩倍的 SD 卡 (也就是說，8GB 的白色主機將需要至少 16GB 的 SD 卡；32GB 的黑色主機將需要至少 64GB 的 SD 卡)。
 
