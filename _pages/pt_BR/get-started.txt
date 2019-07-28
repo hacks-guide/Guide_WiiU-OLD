@@ -8,7 +8,7 @@ title: "Começar"
 
 These steps will prepare your SD card for installing Coldboot Haxchi custom firmware.
 
-Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, or 5.5.3. Older versions are not currently supported.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, 5.5.3 or 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are not currently supported.
 
 É recomendado que seu cartão SD tenha pelo menos 16GB ou 32GB para ter espaço suficiente para extrair e instalar os jogos. If you want to make a backup of your Wii U's system in case it needs to be restored in the future, you will need an SD card at least twice the size of your Wii U's system memory (16GB SD card for an 8GB white console; 64GB SD card for a 32GB black console).
 
