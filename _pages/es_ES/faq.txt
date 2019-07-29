@@ -6,10 +6,10 @@ title: "Preguntas Frecuentes"
 **R:** Si
 
 <a name="faq_oldfw" />**P:** *Tengo una Wii U en el firmware X.X.X. ¿Que puedo / debería hacer con ella?*    
-**R:** Esta guía es compatible sólo con las versiones 5.5.0 a 5.5.3. Las versiones anteriores son incompatibles por el momento.
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are incompatible for now.
 
 <a name="faq_updates" />**P:** *Ahora que Nintendo está terminando la producción de la Wii U, ¿significa eso que no habrá más actualizaciones?*    
-**A:** ¡No! Las versiones 5.5.2 y 5.5.3 fueron lanzadas bastante tiempo después de terminada la producción de la consola. Es por esto que debes asegurarte de usar servidores DNS que bloqueen las actualizaciones.
+**A:** ¡No! The versions 5.5.2, 5.5.3 and 5.5.4 released well after the end of production. Es por esto que debes asegurarte de usar servidores DNS que bloqueen las actualizaciones.
 
 <a name="faq_update" />**P:** *¿Es seguro actualizar una Wii U con CFW?*    
 **A:** ¡No! Siempre debes asegurarte de usar servidores DNS que bloquean las actualizaciones.
@@ -30,7 +30,7 @@ title: "Preguntas Frecuentes"
 **R:** Para soporte, puedes pedir ayuda (*en inglés*) en el [Discord de Nintendo Homebrew](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" />**P:** *¿De qué capacidad debe ser la tarjeta SD a utilizar?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**A:** Se recomienda que tu tarjeta SD sea de al menos 16GB o 32GB para tener espacio suficiente para volcar e instalar juegos. Si quieres hacer una copia de seguridad completa de la NAND de un modelo Wii U blanco (8GB), tu tarjeta SD necesita ser de al menos 16GB de tamaño. Si quieres hacer una copia de seguridad completa de la NAND de un modelo Wii U negro (32GB), tu tarjeta SD necesita ser de al menos 64GB de tamaño.
 
 <a name="faq_NNID" />**P:** *¿Puedo conservar mi Identificador de Nintendo Network (NNID)?*    
 **R:** Si inicias el proceso con un NNID y sigues todos los pasos, seguirás conservando el mismo NNID al finalizar.
