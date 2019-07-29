@@ -1,37 +1,37 @@
 ---
-title: "NAND Backup"
+title: "Copie de rezervă NAND"
 ---
 
 {% include toc title="Cuprins" %}
 
 ### Lectură obligatorie
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+Aceasta este o secțiune opţională în care veți crea o copie de rezervă a NAND-ului de pe memoria internă pe cardul SD, care vă va permite să recuperați consola printr-un hardmod în caz de brick.
 
 ### Instrucțiuni
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+O copie de rezervă a partiției MLC este opțională de vreme ce este mare în mărime, și majoritatea brick-urilor care au nevoie de MLC pentru a fi restaurate sunt cauzate de eroare de utilizator.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Dacă aveți un model alb de Wii U (8GB), cardul SD trebuie să fie cel puțin 16GB.
+Dacă doriți o copie de rezervă completă inclusiv MLC, și aveți o consolă Wii U neagră (32GB), cardul SD trebuie să aibă cel puțin 64GB. Dacă aveți un model alb de Wii U (8GB), cardul SD trebuie să fie cel puțin 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Deschideți Homebrew Launcher ținând apăsat (A) în timp ce lansați jocul de consolă virtuală DS cu Haxchi
-1. Porniți nanddumper
+1. În timp ce sunteți în Homebrew Launcher, lansați nanddumper
+  + Dacă ați părăsit Homebrew Launcher-ul, întoarceți-vă la el pornind browserul Wii U și mergeți spre `wiiuexploit.xyz`
 1. Folosiți D-Pad-ul pentru a seta următoarele opțiuni:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **optional**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
+  + Dump SLC (528MB): **da**
+  + Dump SLCCMPT (528MB): **da**
+  + Dump MLC (8GB/32GB): **opțional**
+  + Dump OTP (1KB): **da**
+  + Dump SEEPROM (1KB): **da**
 1. Apăsați (A) pentru a copia NAND-ul
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Fiți pregătiți să așteptați; acest lucru poate dura o vreme (până la câteva ore depinzând de opțiunile pe care le-ați activat)
 1. Când se va termina, WiiU-ul se ve reporni automatic
 1. Închideți dispozitivul
 1. Introduceți cardul SD în calculator
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Copiați `slc.bin`, `slccmpt.bin`, `otp.bin`, și `seeprom.bin`, și fiecare fișier `mlc.bin.part` (dacă ați ales să faceți copia de rezervă la partiția MLC) de pe rădăcina cardului SD într-o locație sigură pe calculator
   + Faceți copii de rezervă în mai multe locații (cum ar fi stocări online ale fișierelor)
   + Aceste copii de rezervă vă va salva de un brick și/sau vă va ajuta să recuperați fișierele dintr-o imagine NAND dacă ceva merge în neregulă pe viitor
 1. Reintroduceţi cardul SD în aparatul dvs
