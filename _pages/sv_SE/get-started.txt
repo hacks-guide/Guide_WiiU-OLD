@@ -8,7 +8,7 @@ title: "Kom Igång"
 
 Följande steg hjälper dig förbereda ditt SD-kort för att installera Coldboot Haxci custom firmware.
 
-Innan du börjar ska du säkerställa att din Wii U har firmware version 5.5.0, 5.5.1, 5.5.2, eller 5.5.3 installerad. Äldre versioner stöds inte för närvarande.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, 5.5.3 or 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are not currently supported.
 
 Du rekommenderas att ha minst 16GB eller 32GB stort SD-kort för att ha tillräckligt med plats för att kunna dumpa och installera spel. Om du vill göra en säkerhetskopia av ditt Wii U-system, ifall det skulle behöva återställas någon gång i framtiden, behöver du ett SD-kort som är minst dubbelt så stort som ditt Wii Us system-minne (16GB SD-kort för en 8GB vit konsol; 64GB SD-kort för en 32GB svart konsol).
 
@@ -25,7 +25,7 @@ Innan du börjar rekommenderas du att säkerställa integriteten på ditt SD-kor
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* Senaste versionen av [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(the wiiu-extracttosd `.zip` file)*
 * The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * Senaste versionen av [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Senaste versionen av [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -49,7 +49,7 @@ För alla steg i den här sektionen ska du skriva över befintliga filer på dit
 1. Sätt in ditt SD-kort i datorn
 1. Skapa en katalog döpt `wiiu` i roten av ditt SD-kort
 1. Skapa en katalog döpt `install` i roten av ditt SD-kort
-1. Kopiera `apps`-katalogen från Homebrew App Store `zip`-filen till `/wiiu/`-katalogen på ditt SD-kort
+1. Copy *the contents of* the wiiu-extracttosd `.zip` to the root of your SD card
 1. Kopiera *innehållet* från payload `.zip`-filen till wiiu-katalogen på ditt SD-kort
 1. Kopiera *innehållet* från Homebrew Launcher (v1.4) `zip`-filen till roten av ditt SD-kort
 1. Kopiera *innehållet* från Haxchi `zip`-filen till roten av ditt SD-kort
