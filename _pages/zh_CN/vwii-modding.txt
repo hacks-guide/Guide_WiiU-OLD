@@ -6,7 +6,7 @@ title: "vWii模式破解"
 
 ### 必读事项
 
-本章节将教你如何安装 Homebrew 频道及 Wii U 的虚拟Wii（vWii）相关的破解。
+本章节将教你如何安装 Homebrew 频道及破解 Wii U 的虚拟Wii（vWii）。
 
 ### 准备工作
 
@@ -35,7 +35,7 @@ title: "vWii模式破解"
 1. 启动 Homebrew Launcher
   + 如果你还没有完成本手册的主要步骤而且你现在不知道该干什么，请参见[启动Homebrew Launcher](homebrew-launcher)然后再继续这页操作。
 1. 运行 wuphax
-1. 按下 “A” 键以备份你的 “Mii 频道” 并注入Hackmii安装器。
+1. 按下 “A” 键以备份你的 “Mii 频道” 并注入Hackmii安装器
 1. 安装后你将被返回至Homebrew Launcher
 1. 按下 “Home” 键来退出并返回至主菜单
 1. 启动 vWii
@@ -93,7 +93,7 @@ title: "vWii模式破解"
 
 #### 第五步－ 修改 IOS80
 
-如果本节出了任何差错（没电…等），你的 vWii 将会损坏而你不得不将你还原之前备份 vWii 的NAND才能恢复正常。 所以请在确保你已经备份完毕再继续。
+如果本节出了任何差错（没电…等），你的 vWii 将会损坏。则你不得不将你还原之前备份 vWii 的NAND才能恢复正常。 所以请在确保你已经备份完毕再继续。
 {: .notice--danger}
 
 1. 从 vWii 的 Homebrew 频道中启动 vWii 的 Patched IOS80 Installer
