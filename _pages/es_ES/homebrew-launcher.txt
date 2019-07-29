@@ -20,5 +20,5 @@ Para iniciarlo usaremos el navegador de Internet incorporado en la Wii U, por lo
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### Continúa en [Respaldo de la NAND](nand-backup)
 {: .notice--primary}
