@@ -1,55 +1,55 @@
 ---
 main:
   - 
-    title: Trang chủ
+    title: Home
     url: /
   - 
     title: FAQ
     url: faq
   - 
-    title: Ủng hộ
+    title: Donations
     url: donations
   - 
-    title: Đóng góp
+    title: Credits
     url: credits
   - 
     title: disc2app
     url: disc2app
   - 
-    title: Hack vWii
+    title: vWii Modding
     url: vwii-modding
   - 
-    title: Chỉ Mục Trang Web
+    title: Site Navigation
     url: site-navigation
   - 
-    title: Gỡ bỏ CFW
+    title: Uninstall CFW
     url: uninstall-cfw
 top:
   - 
     title: This website uses cookies to display the current guide progress on the sidebar and otherwise enhance the site.
 bottom:
   - 
-    title: Để được hỗ trợ bằng tiếng Anh, yêu cầu giúp đỡ tại <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew trên Discord</a>.
+    title: For support in English, ask for help at <a href="https://discord.gg/MWxPgEp">Nintendo Homebrew on Discord</a>.
   - 
-    title: Nếu bạn thấy những hướng dẫn này có ích. Hãy <a href="donations"> Ủng hộ</a>.
+    title: If you appreciate this guide, we accept <a href="donations">Donations</a>.
 footer:
   - 
-    title: Nguồn
+    title: Source
   - 
-    title: Chỉ Mục Trang Web
+    title: Site Navigation
   - 
-    title: Tại sao có quảng cáo?
+    title: Why Ads?
   - 
     title: Privacy Policy
 sidebar_title:
   - 
-    title: Tiến độ tổng thể
+    title: Overall Progress
 sidebar_pages:
   - 
-    title: Trang chủ
+    title: Home
     url: /
   - 
-    title: Bắt đầu
+    title: Get Started
     url: get-started
   - 
     title: Homebrew Launcher
