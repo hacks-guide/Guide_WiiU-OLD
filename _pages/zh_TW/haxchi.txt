@@ -19,6 +19,7 @@ It includes a custom firmware that patches signature checks, region checks, and 
   
 ### 操作說明
 
+1. Return to the Homebrew Launcher by opening the web browser and go to `wiiuexploit.xyz`.
 1. 啟動 Haxchi installer
 1. 選擇您要安裝 Haxchi 的 DS 虛擬主機 遊戲，並按下「A」鍵以選取
 1. 讀完警示，並按下「A」鍵安裝
