@@ -1,37 +1,37 @@
 ---
-title: "NAND Backup"
+title: "Respaldo de la NAND"
 ---
 
 {% include toc title="Tabla de contenidos" %}
 
 ### Lectura requerida
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+Con esta sección crearás una copia de seguridad de la memoria NAND interna de la consola en tu tarjeta SD, lo que permitirá restaurar tu consola mediante un hardmod en caso de quedar inutilizable.
 
 ### Instrucciones
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+Respaldar la partición MLC es opcional ya que es enorme en tamaño, y la mayoría de las consolas inutilizables que necesitan que se restablezca su MLC se hace por error de usuario.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
+Si quieres un respaldo completo incluyendo la MLC, y tienes un modelo negro de Wii U (32GB), tu tarjeta SD debe ser de al menos 64GB de tamaño. Si tienes el modelo blanco de Wii U (8GB), tu tarjeta SD debe ser de al menos 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Entra al Homebrew Launcher manteniendo (A) mientras inicias tu juego de consola virtual de DS con Haxchi
-1. Inicia nanddumper
+1. Estando en el Homebrew Launcher, ejecuta nanddumper
+  + Si saliste del Homebrew Launcher, regresa mediante el navegador de Wii U, cargando la dirección `wiiuexploit.xyz`
 1. Usa el D-Pad para ajustar las siguientes opciones:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **optional**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
+  + Dump SLC (528MB): **sí**
+  + Dump SLCCMPT (528MB): **sí**
+  + Dump MLC (8GB/32GB): **opcional**
+  + Dump OTP (1KB): **sí**
+  + Dump SEEPROM (1KB): **sí**
 1. Presiona (A) para volcar tu NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Prepárate para esperar; esto puede tomar un buen tiempo (hasta varias horas dependiendo de las opciones que seleccionaste)
 1. Cuando haya terminado, tu Wii U se reiniciará automáticamente
 1. Apaga tu consola
 1. Inserta tu tarjeta SD en tu computadora
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Copia `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, y cada archivo `mlc.bin.part` (si elegiste respaldar la partición MLC) en la raiz de tu tarjeta SD a un lugar seguro en tu computadora
   + Haz copias de seguridad en múltiples sitios (como por ejemplo, en un pendrive o almacenamiento online)
   + Estos respaldos podrán prevenir que se inutilice la consola y/o ayudarte a recuperar archivos de la memoria de tu consola si algo sale mal en el futuro
 1. Reinserta la tarjeta SD en tu consola
