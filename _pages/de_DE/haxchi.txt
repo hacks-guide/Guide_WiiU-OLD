@@ -19,6 +19,7 @@ It includes a custom firmware that patches signature checks, region checks, and 
   
 ### Instructions
 
+1. Return to the Homebrew Launcher by opening the web browser and go to `wiiuexploit.xyz`.
 1. Starte den Haxchi Installationsassistenten
 1. Wähle das DS Virtual Console Spiel aus, das du für die Haxchi Installation nutzt, dann drücke (A) um es auszuwählen
 1. Lese die Warnung, die auftaucht und fahre mit der Installation durch Drücken von (A) fort
