@@ -6,10 +6,10 @@ title: "常见问题"
 **答:** 是的
 
 <a name="faq_oldfw" />**问:** *我的Wii U目前是 X.X.X 的系统版本。 可以直接破解吗？*    
-**答:** 本手册只适用于 5.5.0 至 5.5.3 之间系统版本的主机。 目前旧版本不兼容。
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are incompatible for now.
 
 <a name="faq_updates" />**问:** *现在Wii U已经停产，这是否意味着未来不会有固件更新？*    
-**答:** 不！ 5.5.2和5.5.3版本在停产过了很久时间后才发布。 这也是为什么你必须始终确保你已经设置了会阻止更新的 DNS 服务器。
+**答:** 不！ The versions 5.5.2, 5.5.3 and 5.5.4 released well after the end of production. 这也是为什么你必须始终确保你已经设置了会阻止更新的 DNS 服务器。
 
 <a name="faq_update" />**Q:** *在使用自制固件的时候升级 Wii U 安全吗?*    
 **答:** 不！ 你必须确保你已设置会阻止更新的 DNS 服务器。
