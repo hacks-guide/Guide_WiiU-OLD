@@ -15,6 +15,7 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 * L'ultima versione di [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * L'ultima versione di [Hackmii Installer](https://bootmii.org/download/)
 * Una versione precedente (v1.4) di [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(il file the homebrew_launcher.v1.4 `.zip`)*
+* L'ultima versione di [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(il file del payload con estensione `.zip`)*
 
 ### Istruzioni
 
@@ -27,6 +28,7 @@ Questa guida ti permetterà di installare l'Homebrew Channel ed altre modifiche 
 1. Copia la cartella `apps` dall'archivio `vWii_cIOS_apps_20131218.zip` nella root della tua scheda SD
 1. Copia la cartella `apps` dall'archivio `Patched_IOS80_Installer_for_vWii.zip` nella root della tua scheda SD
 1. Copia *il contenuto* dello `.zip` di Homebrew Launcher nella root della tua scheda SD
+1. Copia *il contenuto* dello `.zip` del payload nella cartella wiiu della tua scheda SD
 1. Reinserisci la scheda SD nella tua console
 1. Accendi la console
 
