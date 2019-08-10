@@ -15,6 +15,7 @@ title: "vWii模式破解"
 * 最新版 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版 [Hackmii Installer](https://bootmii.org/download/)
 * 先前版本 (v1.4) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(下载 homebrew_launcher.v1.4 `.zip` 文件)*
+* 最新版 [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(下载 payload `.zip` 文件)
 
 ### 操作步骤
 
@@ -27,6 +28,7 @@ title: "vWii模式破解"
 1. 复制 `vWii_cIOS_apps_20131218.zip` 压缩包中的 `apps` 文件夹到SD卡的根目录下
 1. 复制 `Patched_IOS80_Installer_for_vWii.zip` 的 `apps` 文件夹到SD卡的根目录下
 1. 将 Homebrew Launcher `.zip` *解压*到你 SD 卡的根目录
+1. 将 payload `.zip` *解压*到你 SD 卡的 wiiu 文件夹
 1. 将 SD 卡重新插入你的设备
 1. 将设备开机
 
