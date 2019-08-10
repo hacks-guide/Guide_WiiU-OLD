@@ -15,6 +15,7 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
 * Ultima versiune de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Ultima versiune de [Hackmii Installer](https://bootmii.org/download/)
 * O versiune anterioară (v1.4) de [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(fișierul homebrew_launcher.v1.4 `.zip`)*
+* Cea mai recentă versiune de [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(fișierul payload în format `.zip`)*
 
 ### Instrucțiuni
 
@@ -27,6 +28,7 @@ Aceasta vă va permite să instalați Homebrew Channel și alte modificări în 
 1. Copiați folderul `apps` din `vWii_cIOS_apps_20131218.zip` în rădăcina cardului SD
 1. Copiați folderul `apps`din`Patched_IOS80_Installer_for_vWii.zip` în rădăcina cardului SD
 1. Copiați *conținutul* de pe arhiva Homebrew Launcher `.zip` în rădăcina cardului SD
+1. Copiați *conţinutul* de pe payload `.zip` către folderul wiiu de pe cardul SD
 1. Reintroduceţi cardul SD în aparatul dvs
 1. Porniți dispozitivul
 
