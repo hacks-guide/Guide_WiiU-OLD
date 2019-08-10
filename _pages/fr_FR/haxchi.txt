@@ -25,7 +25,7 @@ Il inclut un custom firmware qui patche le contrôle des signatures, la vérific
 1. Lisez les mises en gardes qui apparaîtront, puis appuyez sur (A) pour lancer l'installation
 1. Une fois cette opération terminée, lancez votre jeu Console Virtuelle DS Haxchi (nommé "Haxchi")
 1. La console va redémarrer et va autoriser les fonctionnalités du custom firmware
-  + Ceci permettra aux titres non signés (par exemple le Homebrew Channel) à être lancés directement depuis le menu Home
+  + Ceci permettra aux titres non signés (par exemple le Homebrew Channel) à être lancés directement depuis le menu Wii U
 
 ___
 
