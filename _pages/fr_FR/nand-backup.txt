@@ -27,11 +27,11 @@ Si vous voulez une sauvegarde complète incluant la partition MLC, et que vous a
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Appuyez sur (A) pour copier votre NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Préparez-vous à attendre ; cela peut prendre beaucoup de temps (jusqu'à plusieurs heures selon les options que vous avez activées)
 1. Quand l'opération a terminé, votre Wii U va redémarrer automatiquement
 1. Éteignez votre Wii U
 1. Insérez votre carte SD dans votre ordinateur
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Copiez `slc.bin`, `slccmpt.bin`, `otp.bin`, et `seeprom.bin`, et chaque fichier `mlc.bin.part` (si vous avez choisi de sauvegarder la partition MLC) de la racine de votre carte SD vers un emplacement sûr sur votre ordinateur
   + Faites des sauvegardes dans plusieurs endroits (tels que des stockages de fichiers en ligne par exemple)
   + Ces sauvegardes vous sauveront d'un brick et/ou vous aideront à récupérer des fichiers de l'image de la NAND si quelque chose se passe mal plus tard
 1. Réinsérez votre carte SD dans votre Wii U
