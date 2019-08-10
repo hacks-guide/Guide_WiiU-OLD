@@ -1,25 +1,25 @@
 ---
-title: "NAND Backup"
+title: "Sauvegarde de la NAND"
 ---
 
 {% include toc title="Table des matières" %}
 
 ### Lecture requise
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+Cette section vous permettra de créer une sauvegarde de votre NAND sur votre carte SD, ce qui vous permettra de restaurer votre appareil à l'aide d'un hardmod dans le cas d'un brick.
 
 ### Instructions
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+Une sauvegarde de la partition MLC est optionnelle car sa taille est énorme, et la plupart des bricks qui ont besoin du MLC sont dus à une erreur de l'utilisateur.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
+Si vous voulez une sauvegarde complète incluant la partition MLC, et que vous avez une Wii U noire (32 Go), votre carte SD doit être d'au moins 64 Go. Si vous avez une Wii U blanche (8GB), votre carte SD doit avoir au moins 16GB d'espace libre.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. While in the Homebrew Launcher, launch nanddumper
-  + If you left the Homebrew Launcher, return to it by running the Wii U browser and go to `wiiuexploit.xyz`
+1. Pendant que vous êtes dans le Homebrew Launcher, lancez nanddumper
+  + Si vous avez quitté le Homebrew Launcher, retournez-y en lançant le navigateur web et en allant sur le site web `wiiuexploit.xyz`
 1. Utilisez le D-Pad pour mettre ces différentes options:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
