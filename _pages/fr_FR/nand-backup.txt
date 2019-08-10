@@ -23,7 +23,7 @@ Si vous voulez une sauvegarde complète incluant la partition MLC, et que vous a
 1. Utilisez le D-Pad pour mettre ces différentes options:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **optional**
+  + Dump MLC (8GB/32GB): **optionnel**
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Appuyez sur (A) pour copier votre NAND
