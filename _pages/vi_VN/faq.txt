@@ -6,10 +6,10 @@ title: "Câu hỏi thường gặp"
 **Trả lời:** Có
 
 <a name="faq_oldfw" />**Câu hỏi:** *Tôi đang dùng máy Wii U có firmware X.X.X . Tôi có thể làm được gì với nó?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are incompatible for now.
+**Trả lời:** Hướng dẫn này chỉ dành cho firmware từ 5.5.0 tới 5.5.4. (Hiện tại, bản cập nhật 5.5.4 chỉ có ở các máy hệ Eu.) Các phiên bản firmware cũ hơn sẽ không được hỗ trợ trong guide này.
 
 <a name="faq_updates" />**Câu hỏi:** *Giờ Nintendo ngừng sản xuất Wii U rồi, vậy không còn bản cập nhật nào phải không?*     
-**Trả lời:** Không! The versions 5.5.2, 5.5.3 and 5.5.4 released well after the end of production. Vậy nên bạn cần bảo đảm máy luôn được thiết lập DNS chặn cập nhật.
+**Trả lời:** Không! Phiên bản 5.5.2, và 5.5.3 và 5.5.4 được phát hành sau công bố ngừng sản xuất. Vậy nên bạn cần bảo đảm máy luôn được thiết lập DNS chặn cập nhật.
 
 <a name="faq_update" />**Câu hỏi:** *Có an toàn không khi tôi cập nhật máy Wii U đang có CFW?*    
 **Trả lời:** Không! Bạn luôn cần bảo đảm máy luôn được thiết lập DNS chặn cập nhật.
@@ -30,9 +30,9 @@ title: "Câu hỏi thường gặp"
 Trả lời:** Để được hỗ trợ, bạn hãy vào [Nintendo Homebrew on Discord](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" />**Câu hỏi:** *Tôi cần dùng thẻ nhớ SD dung lượng bao nhiêu?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**Thẻ SD dùng để hack cần có dung lượng ít nhất từ 16GB cho đến 32GB để có đủ chỗ dump và cài game. Nếu bạn dùng máy Wii U màu trắng (8GB) và muốn sao lưu lại bản NAND full, thẻ SD cần có dung lượng ít nhất là 16GB. Nếu bạn dùng máy Wii U màu đen (32GB) và muốn sao lưu lại bản NAND full, thẻ SD cần có dung lượng ít nhất là 64GB.
 
-<a name="faq_NNID" />**Q:** *Can I keep my NNID?*    
+<a name="faq_NNID" />**Câu hỏi:** *Tôi có thể giữ tài khoản Nintendo (NNID) của mình không?*    
 **Trả lời:** Nếu khi bắt đầu bạn đã có NNID và bạn làm theo từng bước, khi làm xong bạn sẽ giữ được NNID của mình.
 
 <a name="faq_nopc" />**Câu hỏi:** *Tôi có thể làm cái này mà không có máy vi tính không. (ví dụ, dùng điện thoại Android)?*    
