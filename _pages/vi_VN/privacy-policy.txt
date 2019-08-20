@@ -5,30 +5,30 @@ layout: single-no-ads
 
 ### Cookies
 
-This site utilizes cookies in order to fascilitate routing users through the guide instructions. Cookies allow for the sidebar of the page to display current progress through the site to help users navigate the instructions more easily.
+Trang web này sử dụng cookie để giúp người dùng thuận tiện duyệt qua các bước hướng dẫn. Cookies cho phép thanh sidebar của trang hiển thị tiến trình hiện tại để giúp người dùng điều hướng các hướng dẫn dễ dàng hơn.
 
-### Embedded Content From Other Websites
+### Nội dung được nhúng từ các trang web khác
 
-This site may include embedded content (e.g. videos, images, articles, etc.). Embedded content from other websites behaves as if the user has visited the other website.
+Trang web này có thể bao gồm nội dung được nhúng (ví dụ: video, hình ảnh, bài viết, v.v.).  Nội dung được nhúng từ các trang web khác hoạt động như thể người dùng đã truy cập trang web khác.
 
-These websites may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with that embedded content, including tracking your interaction with the embedded content if you have an account and are logged in to that website.
+Các trang web trên có thể thu thập dữ liệu về bạn, sử dụng cookie, nhúng theo dõi bên thứ ba bổ sung và theo dõi sự tương tác của bạn với nội dung được nhúng đó, bao gồm theo dõi tương tác của bạn với nội dung được nhúng nếu bạn có tài khoản và đăng nhập vào trang web đó.
 
 ### Analytics
 
-This site uses Google Analytics to monitor and analyze traffic. This site is hosted by Github Pages, which may collect data about you, use cookies, embed additional third-party tracking, and monitor your interaction with this site. For more information about Github Pages as it relates to user privacy, see the [GitHub Privacy Statement](https://help.github.com/en/articles/github-privacy-statement).
+Trang web này sử dụng Google Analytics để theo dõi và phân tích lưu lượng truy cập. Trang web này được lưu trữ bởi Github Pages, có thể thu thập dữ liệu về bạn, sử dụng cookie, nhúng theo dõi của bên thứ ba bổ sung và theo dõi sự tương tác của bạn với trang web này. Để biết thêm thông tin về Trang Github do nó liên quan đến quyền riêng tư của người dùng, hãy xem [Tuyên bố về quyền riêng tư của GitHub] (https://help.github.com/en/articles/github-privacy-statement).
 
-### Information Collected
+### Thông tin được thu thập
 
-This site does not collect personal information. This site may collect usage information in order to analyze interest in content and to provide advertisers with information on an aggregate basis. No personally identifiable information is shared with third-party advertising companies.
+Trang web này không thu thập thông tin cá nhân. Nhưng nó có thể sẽ thu thập thông tin sử dụng để phân tích sự quan tâm đến nội dung và cung cấp cho nhà quảng cáo thông tin trên cơ sở tổng hợp. Không có thông tin nhận dạng cá nhân nào được chia sẻ với các công ty quảng cáo bên thứ ba.
 
-Google (as a third party advertisement vendor) uses cookies to serve ads on this site. The use of DART cookies by Google allows them to serve advertisements to visitors based on their visits to this site as well as other sites. To opt-out of DART cookies, see the [Google Advertising Privacy Policy](http://www.google.com/policies/technologies/ads/).
+Google (với tư cách là nhà cung cấp quảng cáo bên thứ ba) sử dụng cookie để đăng quảng cáo trên trang web này. Việc Google sử dụng cookie dạng DART cho phép họ cung cấp quảng cáo cho khách truy cập dựa trên lượt truy cập của họ vào trang web này cũng như các trang web khác. Để từ chối cookie DART, hãy xem [Chính sách bảo mật quảng cáo của Google] (http://www.google.com/polaho/technology/ads/).
 
-Other third-party advertising servers or networks may also use cookies to track user activity on this site to measure advertising effectiveness or for other reasons provided in their privacy policies. This site has no access or control over any cookies which may be used by third-party advertisers.
+Các máy chủ hoặc mạng quảng cáo của bên thứ ba khác cũng có thể sử dụng cookie để theo dõi hoạt động của người dùng trên trang web này để đo lường hiệu quả quảng cáo hoặc vì các lý do khác được cung cấp trong chính sách bảo mật của họ. Trang web này không có quyền truy cập hoặc kiểm soát bất kỳ cookie nào có thể được sử dụng bởi các nhà quảng cáo bên thứ ba.
 
-### Third-Party Websites
+### Trang web của bên thứ ba
 
-This site may link to other sites for users to use or reference. This site is not responsible for the privacy policies of other sites. Users should be aware that the privacy policies of other websites may differ from this one.
+Trang web này có thể liên kết đến các trang web khác để người dùng sử dụng hoặc tham khảo. Trang không chịu trách nhiệm cho các chính sách bảo mật của các trang web khác. Người dùng nên lưu ý rằng chính sách quyền riêng tư của các trang web khác có thể khác với nơi đây.
 
-### Changes to Privacy Policy
+### Thay đổi chính sách bảo mật
 
-The contents of this Privacy Policy may be altered at any time and for any reason. For questions regarding this site's Privacy policy, contact [plailect@gmail.com](mailto:plailect@gmail.com).
+Nội dung của Chính sách quyền riêng tư này có thể được thay đổi bất cứ lúc nào và vì bất kỳ lý do gì. Đối với các câu hỏi liên quan đến chính sách quyền riêng tư của trang web này, hãy liên hệ với [plailect @ gmail] (mailto: plailect@gmail.com).
