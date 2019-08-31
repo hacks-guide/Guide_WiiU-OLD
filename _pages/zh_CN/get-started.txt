@@ -21,7 +21,7 @@ title: "新手入门"
 开始之前，如果你想检测一下 SD 卡是否有错误，那么你可以使用[H2testw (Windows)](h2testw-(windows))，[F3 (Linux)](f3-(linux)) 或 [F3X (Mac)](f3x-(mac))。
 {: .notice--warning}
 
-### 准备工作
+### 你需要准备点啥？
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
