@@ -8,7 +8,7 @@ title: "vWii模式破解"
 
 本章节将教你如何安装 Homebrew 频道及破解 Wii U 的虚拟Wii（vWii）。
 
-### 准备工作
+### 你需要准备点啥？
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/assets/files/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
