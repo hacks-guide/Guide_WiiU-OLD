@@ -66,6 +66,7 @@ Această copie de rezervă NAND vă va permite restaurarea vWii-ului la o stare 
 1. Introduceți cardul SD din consolă în calculator
 1. **Copiați `nand.bin` și `keys.bin` din rădăcina cardului SD spre o locație sigură de pe calculator și faceți diferite copii de rezervă în locații multiple (cum ar fi stocări online ale fișierelor); această copie de rezervă va salva vWii-ul de la un brick decă ceva e în neregulă**
 1. Ștergeți `nand.bin` și `keys.bin` de pe rădăcina cardului SD
+1. Reintroduceţi cardul SD în aparatul dvs
 
 #### Secţiunea IV - Instalare cIOS
 
