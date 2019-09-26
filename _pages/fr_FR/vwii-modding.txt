@@ -66,6 +66,7 @@ Ce backup de la NAND vous permettra de restaurer votre vWii à un état de fonct
 1. Enlevez votre carte SD de votre Wii U et insérez-là dans votre ordinateur
 1. **Copiez `nand.bin` et `keys.bin` depuis la racine de votre carte SD vers un emplacement sécurisé sur votre ordinateur et à plusieurs endroits (tels que le stockage de fichiers en ligne); cette sauvegarde sauvera votre vWii d’un BRICK, si quelque chose passe mal**
 1. Supprimez `nand.bin` et `keys.bin` de la racine de votre carte SD
+1. Réinsérez votre carte SD dans votre Wii U
 
 #### Section IV - Installation de cIOS
 
