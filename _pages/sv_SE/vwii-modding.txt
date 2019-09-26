@@ -66,6 +66,7 @@ Den här säkerhetskopian av NAND kommer låta dig återställa din vWii till et
 1. Sätt i ditt SD-kort från din Wii U i din dator
 1. **Kopiera `nand.bin` och `keys.bin` från roten av ditt SD-kort till en säker plats på din dator och säkerhetskopiera båda filerna till ett flertal platser (som t.ex. online-lagring); den här säkerhetskopian kommer rädda din vWii från en brickning om något skulle gå fel**
 1. Radera `nand.bin`och `keys.bin`från roten av ditt SD-kort
+1. Sätt tillbaka ditt SD-kort i din enhet
 
 #### Avsnitt IV - cIOS Installation
 
