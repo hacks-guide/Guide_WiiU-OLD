@@ -66,6 +66,7 @@ Questo backup della NAND ti permetterà di recuperare la tua vWii nel caso qualc
 1. Rimuovi la scheda SD dalla Wii U e inseriscila nel computer
 1. **Copia i file `nand.bin` e `keys.bin`dalla tua scheda SD in una posizione sicura sul tuo computer e in ulteriori locazioni (come un archivio online); questi file potrebbero salvarti da un brick della vWii**
 1. Cancella i file `nand.bin` e `keys.bin` dalla root della tua scheda SD
+1. Reinserisci la scheda SD nella tua console
 
 #### Sezione IV - Installazione dei cIOS
 
