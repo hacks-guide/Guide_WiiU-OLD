@@ -66,6 +66,7 @@ Die NAND Sicherungskopie erlaubt dir, deine vWii in einen funktionierenden Zusta
 1. Stecke die SD Karte von deiner Wii U in den Computer
 1. **Kopiere die `nand.bin` und `keys.bin` Dateien vom Stammverzeichnis deiner SD-Karte zu einem sicheren Ort auf deinem Computer, und erstelle Sicherungskopien in mehreren Orten (wie Cloudbasierter Onlinespeicher); diese Sicherungen werden deine vWii vor einem Brick bewahren, wenn etwas schief geht**
 1. Lösche `nand.bin` und `keys.bin` aus dem Stammverzeichnis deiner SD-Karte
+1. Stecke deine SD-Karte wieder in die Wii U
 
 #### Section IV - cIOS Installation
 
