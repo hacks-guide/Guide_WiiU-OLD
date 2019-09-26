@@ -66,6 +66,7 @@ Backup NAND sẽ giúp bạn phục hồi lại vWii trên máy nếu có sự c
 1. Gắn thẻ nhớ từ Wii U vào máy tính
 1. **Chép file `nand.bin` và `keys.bin` từ thư mục gốc của thẻ nhớ vào nơi dễ nhớ trong máy tính của bạn, sao lưu chúng trên nhiều phương tiện (như các host lưu trữ online); bản backup này sẽ là cứu cánh nếu chẳng may vWii bị brick**
 1. Xóa tập tin `nand.bin` và `keys.bin` có trong thư mục gốc của thẻ nhớ
+1. Lắp thẻ nhớ SD vào thiết bị
 
 #### Phần III - Cài đặt cIOS
 
