@@ -66,6 +66,7 @@ title: "vWii 改機"
 1. 將 Wii U 中的 SD 卡插入至電腦中
 1. **從您 SD 卡的根目錄中複製 `nand.bin` 及 `keys.bin` 至電腦及多個安全的地方(像是雲端硬碟)；此備份將會在您未來玩壞 vWii 時救您一命**
 1. 自 SD 卡根目錄中刪除 `nand.bin` 及 `keys.bin`
+1. 將 SD 卡插回主機中
 
 #### 第四節 － cIOS 安裝
 
