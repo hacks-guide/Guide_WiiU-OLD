@@ -66,6 +66,7 @@ Esta copia de seguridad de la NAND te permitirá restaurar tu vWii a un estado f
 1. Introduce la tarjeta SD de tu Wii U en tu computadora
 1. **Copia los archivos `nand.bin` y `keys.bin` desde la raíz de tu tarjeta SD a un lugar seguro en tu computadora y haz varias copias de seguridad en distintos sitios (tales como almacenamiento de archivos en la nube); esto permitirá salvar tu vWii de quedar inutilizable en caso de que algo salga mal**
 1. Borra los archivos `nand.bin` y `keys.bin` del directorio raíz de tu tarjeta SD
+1. Reinserta la tarjeta SD en tu consola
 
 #### Sección IV - Instalación de cIOS
 
