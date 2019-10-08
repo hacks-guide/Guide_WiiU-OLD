@@ -1,21 +1,21 @@
 ---
-title: "冷启动 Haxchi"
+title: "Coldboot Haxchi"
 ---
 
 {% include toc title="目录内容" %}
 
 ### 必读事项
 
-CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时自动进入自制系统。
+CBHC (Coldboot Haxchi) 将会把你主机的默认系统菜单程序修改成你的 DS 虚拟主机 (virtual console) 游戏。 这会让你的设备在开机时就自动进入自制系统。
 
-这个漏洞比普通的 Haxchi 略危险一些，因为 DS 虚拟主机游戏将是你Wii U的 *命根子*。 如果这个游戏在安装 CBHC 时被删除或移动到 USB 存储设备中，你的机器将变砖！
+这个漏洞比普通的 Haxchi 更危险，因为 DS 虚拟主机游戏将是你 Wii U 的 *命根子*。 如果这个游戏在安装 CBHC 后被删除或移动到 USB 存储设备中，你的机器将变砖！
 
 {% capture notice-1 %}
 你 _必须_ 事先安装好了 Haxchi 之后才能继续。 如果你不， 那么准备玩砖头吧。
 
-你的 Haxchi DS 虚拟主机游戏 _必须_ 安装在 Wii U 的内存中才能继续。如果它是保存在 USB 设备上的而且你还想做下去，那你准备玩砖头吧。
+你的 Haxchi DS 虚拟主机游戏 _必须_ 安装在 Wii U 的系统内存中才能继续。如果它是保存在 USB 设备上的并且你还想做下去，那你准备玩砖头吧。
 
-你的 Haxchi DS 虚拟主机游戏 _必须_ 是 _正版_ 游戏(不是盗版)，否则你的设备会变砖。
+你的 Haxchi DS 虚拟主机游戏_必须_是_正版_(不是盗版)，否则准备玩砖头吧。
 {% endcapture %}
 
 <div class="notice--danger">{{ notice-1 | markdownify }}</div>
@@ -26,7 +26,7 @@ CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 D
 1. 在启动 Haxchi DS 虚拟主机游戏时按住 “A” 键来启动 Homebrew Launcher
 1. 运行 CBHC installer
 1. 选择要安装 CBHC 的 DS 虚拟主机游戏，然后按下 “A” 按键确认
-  + **此游戏 _必须_ 已经安装了能正常运行的Haxchi**
+  + **此游戏_必须_已经安装了能正常运行的Haxchi**
 1. 阅读出现的警告，然后按下 “A” 键安装
 1. 完成后，你应该会回到主菜单
 1. 你可以插回之前拔出的 USB 设备。
@@ -40,7 +40,7 @@ CBHC (冷启动 Haxchi) 将会把你的默认系统菜单程序修改成你的 D
 
 ___
 
-你的主机现在应该在开机时自动启动到冷启动的 Haxchi 自制固件中。
+你的主机现在应该在开机时自动启动到 Coldboot Haxchi 自制固件中。
 {: .notice--info}
 
 {% capture notice-1 %}
@@ -67,7 +67,7 @@ ___
 
 永远不要把 CBHC DS 虚拟主机游戏移动到 USB 设备中，不然你就等着砖机吧。
 
-永远不要从主机删除你购买或有使用资格的注入 CBHC DS 虚拟主机游戏的 NNID 账户，不然你就等着砖机吧。
+永远不要从主机删除你购买或有使用资格的被注入 CBHC 的 DS 虚拟主机游戏的 NNID 账户，不然你就等着砖机吧。
 
 不要在安装 CBHC 的时候初始化主机，不然你就等着砖机吧。
 {% endcapture %}
