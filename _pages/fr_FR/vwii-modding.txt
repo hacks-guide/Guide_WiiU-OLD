@@ -14,7 +14,8 @@ Cela vous permettra d'installer The Homebrew Channel et les autres modifications
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * La dernière version de [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * La dernière version de [Hackmii Installer](https://bootmii.org/download/)
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* Une version précédente (v1.4) du [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(le fichier homebrew_launcher.v1.4 `.zip`)*
+* La dernière version de [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(le fichier `.zip` du payload)*
 
 ### Instructions
 
@@ -27,6 +28,7 @@ Cela vous permettra d'installer The Homebrew Channel et les autres modifications
 1. Copiez le dossier `apps` de `vWii_cIOS_apps_20131218.zip` vers la racine de votre carte SD
 1. Copiez le dossier `apps` de `Patched_IOS80_Installer_for_vWii.zip` vers la racine de votre carte SD
 1. Copiez *le contenu* du fichier `.zip` du Homebrew Launcher vers la racine de votre carte SD
+1. Copiez *le contenu* de `payload.zip` vers le dossier wiiu de votre carte SD
 1. Réinsérez votre carte SD dans votre Wii U
 1. Allumez votre Wii U
 
@@ -64,6 +66,7 @@ Ce backup de la NAND vous permettra de restaurer votre vWii à un état de fonct
 1. Enlevez votre carte SD de votre Wii U et insérez-là dans votre ordinateur
 1. **Copiez `nand.bin` et `keys.bin` depuis la racine de votre carte SD vers un emplacement sécurisé sur votre ordinateur et à plusieurs endroits (tels que le stockage de fichiers en ligne); cette sauvegarde sauvera votre vWii d’un BRICK, si quelque chose passe mal**
 1. Supprimez `nand.bin` et `keys.bin` de la racine de votre carte SD
+1. Réinsérez votre carte SD dans votre Wii U
 
 #### Section IV - Installation de cIOS
 
