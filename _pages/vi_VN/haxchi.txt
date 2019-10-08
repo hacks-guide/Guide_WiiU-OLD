@@ -19,6 +19,7 @@ Haxchi là bản CFW đánh lừa được kiểm tra chữ ký ứng dụng, ki
   
 ### Hướng dẫn
 
+1. Return to the Homebrew Launcher by opening the web browser and go to `wiiuexploit.xyz`.
 1. Mở Haxchi Installer
 1. Chọn game DS mà bạn muốn cài Haxchi vào, sau đó bấm (A) để xác nhận
 1. Đọc cảnh báo xuất hiện, sau đó bấm (A) để cài 
