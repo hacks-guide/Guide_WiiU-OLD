@@ -55,10 +55,10 @@ sidebar_pages:
     title: Homebrew Launcher
     url: homebrew-launcher
   - 
-    title: NAND Backup
+    title: Respaldo de la NAND
     url: nand-backup
   - 
-    title: Multiple Options
+    title: Múltiples opciones
     url: multiple-options
   - 
     title: Mocha CFW
@@ -70,5 +70,5 @@ sidebar_pages:
     title: Coldboot Haxchi
     url: coldboot-haxchi
   - 
-    title: Homebrew Launcher (Channel)
+    title: Homebrew Launcher (canal)
     url: homebrew-launcher-(channel)
