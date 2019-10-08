@@ -6,15 +6,16 @@ title: "vWii模式破解"
 
 ### 必读事项
 
-本章节将教你如何安装 Homebrew 频道及 Wii U 的虚拟Wii（vWii）相关的破解。
+本章节将教你如何安装 Homebrew 频道及破解 Wii U 的虚拟Wii（vWii）。
 
-### 准备工作
+### 你需要准备点啥？
 
 * [vWii_cIOS_apps_20131218.zip]({{ "/assets/files/vWii_cIOS_apps_20131218.zip" | absolute_url }}){:download}
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * 最新版 [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * 最新版 [Hackmii Installer](https://bootmii.org/download/)
 * 先前版本 (v1.4) 的 [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(下载 homebrew_launcher.v1.4 `.zip` 文件)*
+* 最新版 [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(下载 payload `.zip` 文件)
 
 ### 操作步骤
 
@@ -27,6 +28,7 @@ title: "vWii模式破解"
 1. 复制 `vWii_cIOS_apps_20131218.zip` 压缩包中的 `apps` 文件夹到SD卡的根目录下
 1. 复制 `Patched_IOS80_Installer_for_vWii.zip` 的 `apps` 文件夹到SD卡的根目录下
 1. 将 Homebrew Launcher `.zip` *解压*到你 SD 卡的根目录
+1. 将 payload `.zip` *解压*到你 SD 卡的 wiiu 文件夹
 1. 将 SD 卡重新插入你的设备
 1. 将设备开机
 
@@ -35,7 +37,7 @@ title: "vWii模式破解"
 1. 启动 Homebrew Launcher
   + 如果你还没有完成本手册的主要步骤而且你现在不知道该干什么，请参见[启动Homebrew Launcher](homebrew-launcher)然后再继续这页操作。
 1. 运行 wuphax
-1. 按下 “A” 键以备份你的 “Mii 频道” 并注入Hackmii安装器。
+1. 按下 “A” 键以备份你的 “Mii 频道” 并注入Hackmii安装器
 1. 安装后你将被返回至Homebrew Launcher
 1. 按下 “Home” 键来退出并返回至主菜单
 1. 启动 vWii
@@ -64,6 +66,7 @@ title: "vWii模式破解"
 1. 将SD卡插入电脑
 1. **在你SD卡的根目录中复制`nand.bin`和`keys.bin`到电脑和多个安全的地方（比如网盘）；此备份会在你将来玩坏vWii时救你一命**
 1. 删除你SD卡根目录下的`nand.bin`和`keys.bin`文件
+1. 将 SD 卡重新插入你的设备
 
 #### 第四步 － 安装 cIOS
 
@@ -93,7 +96,7 @@ title: "vWii模式破解"
 
 #### 第五步－ 修改 IOS80
 
-如果本节出了任何差错（没电…等），你的 vWii 将会损坏而你不得不将你还原之前备份 vWii 的NAND才能恢复正常。 所以请在确保你已经备份完毕再继续。
+如果本节出了任何差错（没电…等），你的 vWii 将会损坏。则你不得不将你还原之前备份 vWii 的NAND才能恢复正常。 所以请在确保你已经备份完毕再继续。
 {: .notice--danger}
 
 1. 从 vWii 的 Homebrew 频道中启动 vWii 的 Patched IOS80 Installer
