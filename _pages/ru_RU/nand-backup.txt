@@ -1,37 +1,37 @@
 ---
-title: "NAND Backup"
+title: "Резервная копия NAND"
 ---
 
 {% include toc title="Содержание" %}
 
 ### Обязательно к прочтению
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+В этой части мы создадим резервную копию внутренней памяти NAND на SD-карте, что позволит нам восстановить работоспособность консоли при помощи хардмода в случае брика.
 
 ### Инструкция
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+Делать резервную копию раздела MLC необязательно, так как он огромен в размере, и большинство бриков, которым требуется восстановление MLC, возникают из-за ошибки пользователя.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Если у вас белая модель Wii U (8ГБ), SD-карта должна быть не менее 16ГБ.
+Если вы хотите сделать полный бэкап, включая раздел MLC, и у вас черная модель Wii U (32ГБ), SD-карта должна быть не менее 64ГБ. Если у вас белая модель Wii U (8ГБ), SD-карта должна быть не менее 16ГБ.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Войдите в Homebrew Launcher, удерживая (A) во время запуска игры для DS virtual console с установленным Haxchi
-1. Запустите nanddumper
+1. Находясь в Homebrew Launcher, запустите nanddumper
+  + Если вы вышли из Homebrew Launcher, вернитесь туда, запустив браузер Wii U и перейдя по ссылке `wiiuexploit.xyz`
 1. С помощью крестовины отметьте следующие пункты:
-  + Dump SLC (528MB): **yes**
-  + Dump SLCCMPT (528MB): **yes**
-  + Dump MLC (8GB/32GB): **optional**
-  + Dump OTP (1KB): **yes**
-  + Dump SEEPROM (1KB): **yes**
+  + Dump SLC (528MB): **да**
+  + Dump SLCCMPT (528MB): **да**
+  + Dump MLC (8GB/32GB): **не обязательно**
+  + Dump OTP (1KB): **да**
+  + Dump SEEPROM (1KB): **да**
 1. Нажмите (A), чтобы сделать резервную копию NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Будьте готовы ждать; копирование может занять несколько часов в зависимости от выбранных пунктов
 1. После завершения процесса консоль перезагрузится автоматически
 1. Выключите консоль
 1. Вставьте SD-карту в компьютер
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Скопируйте `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin` и все файлы `mlc.bin.part` (только если вы сделали бэкап раздела MLC) из корня SD-карты в безопасное место на вашем компьютере
   + Сделайте несколько бэкапов в нескольких местах (например в облачном хранилище)
   + Эти бэкапы позволят восстановить консоль и/или извлечь файлы из образа NAND, если что-то пойдёт не так
 1. Вставьте SD-карту обратно в консоль
