@@ -8,24 +8,24 @@ title: "新手入门"
 
 以下步骤将协助你准备 SD 卡来安装 Coldboot Haxchi 自制固件到你的设备。
 
-在开始之前，请确保你的 Wii U 系统版本在5.5.0，5.5.1，5.5.2，5.5.3之间。 目前较老的系统版本不支持。
+在开始之前，请确保你的 Wii U 系统版本在 5.5.0，5.5.1，5.5.2，5.5.3，5.5.4 之间。 （不过，只有欧版机收到了 5.5.4 更新推送。）较早的系统版本不兼容此手册。
 
-选购 SD 卡时，我们建议购买至少有 16GB 或32GB 以上容量的 SD 卡，以保证后续备份和安装游戏时有足够的空间。 如果你想要备份你的 WiiU 以防万一从备份中恢复数据，则你使用的 SD 卡至少要有你设备内存容量两倍大的空间。(也就是说如果你有白色的 WiiU (设备容量为8GB)，你使用的 SD 卡就应该是16GB以上的；如果你有黑色的 WiiU (设备容量为32GB)，你使用的 SD 卡就应该是64GB以上的)
+选购 SD 卡时，我们建议购买至少有 16GB 或32GB 以上容量的 SD 卡，以保证后续备份和安装游戏时有足够的空间。 如果你想要备份你的 WiiU 以防万一从备份中恢复数据，则你使用的 SD 卡至少要有你设备内存容量两倍大的空间。(也就是说如果你的主机是白色的 WiiU (设备容量为8GB)，你使用的 SD 卡就应该是16GB以上的；如果你的主机是黑色的 WiiU (设备容量为32GB)，你使用的 SD 卡就应该是64GB以上的)
 
 你的 SD 卡格式必须为 FAT32 (分配单元大小需为32K (32768))。 大部分的SD卡都是以这个格式出厂的。
 
-如果你想要在 Windows 系统上格式化 SD 卡的话，请不要使用系统自带的格式化工具，因为它可能会造成一些问题。 请使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 工具进行格式化，并将分配单元大小设置为 (32768)。
+如果你想要在 Windows 系统上格式化 SD 卡的话，请不要使用系统自带的格式化工具，因为它可能会出现一些问题。 请使用 [guiformat](http://www.ridgecrop.demon.co.uk/index.htm?guiformat.htm) 工具进行格式化，并将分配单元大小设置为 (32768)。
 
 你的SD卡名 *不能* 被命名为 `wiiu`，这会造成一些问题。
 
 开始之前，如果你想检测一下 SD 卡是否有错误，那么你可以使用[H2testw (Windows)](h2testw-(windows))，[F3 (Linux)](f3-(linux)) 或 [F3X (Mac)](f3x-(mac))。
 {: .notice--warning}
 
-### 准备工作
+### 你需要准备点啥？
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* 最新版 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* 最新版 [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(下载 wiiu-extracttosd `.zip` 文件)*
 * 最新版 [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(下载 payload `.zip` 文件)
 * 最新版 [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * 最新版 [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -49,7 +49,7 @@ title: "新手入门"
 1. 将 SD 卡插入电脑
 1. 在你 SD 卡的根目录创建一个叫 `wiiu` 的文件夹
 1. 在你 SD 卡的根目录创建一个叫 `install` 的文件夹
-1. 从 Homebrew App Store `.zip` 中复制出 `apps` 文件夹到你 SD 卡的 `wiiu` 文件夹
+1. 将 wiiu-extracttosd `.zip` *解压*到内存卡根目录
 1. 将 payload `.zip` *解压*到你 SD 卡的 wiiu 文件夹
 1. 将 Homebrew Launcher (v1.4) `.zip` *解压*到你 SD 卡的根目录
 1. 将 Haxchi `.zip` *解压*到 SD 卡的根目录
@@ -70,11 +70,11 @@ title: "新手入门"
 
 #### 第二节 — DS 虚拟主机游戏
 
-目前有两种方法来使用 Wii U 的自制程序。
+目前有两种方法来运行 Wii U 的自制程序。
 
 第一种方法是通过浏览器漏洞对系统进行修改。 不过，这个漏洞*必须*在每一次重启后重新执行一次。
 
-第二种方法是购买非常便宜而且有漏洞的 DS 虚拟主机游戏(DS Virtual Console game) 来让你在开机时就自动进入自制系统。
+第二种方法是购买非常便宜并有漏洞的 DS 虚拟主机游戏(DS Virtual Console game) 来让你在开机时就自动进入自制系统。
 
 你所使用的游戏*必须*是通过**正规渠道购买**并且是安装**在你主机的内存**上的。 你*不能*把 DS 虚拟主机游戏安装在 USB 设备中。
 
