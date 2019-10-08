@@ -20,5 +20,5 @@ Pentru a-l porni vom folosi browserul de internet incorporat în Wii U, așa că
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### Continuați la [Creând o copie de rezervă NAND](nand-backup)
 {: .notice--primary}
