@@ -1,25 +1,25 @@
 ---
-title: "NAND Backup"
+title: "Sao lưu NAND"
 ---
 
 {% include toc title="Table of Contents" %}
 
 ### Điều cần đọc
 
-This section will create a backup of your device's internal NAND memory on your SD card, which will allow you to restore your device via a hardmod in the case of a brick.
+Bước này sẽ tạo bản sao lưu (backup) NAND của máy trên thẻ SD, sau này có bị brick có thể phục hồi lại bằng cách hardmod.
 
 ### Hướng dẫn
 
 {% capture notice-1 %}
-A backup of the MLC partition is optional as it's huge in size, and most bricks that need MLC to be restored are done by user-error.
+Bản sao lưu của phân vùng MLC có thể bỏ qua vì dung lượng rất lớn, và bởi vì đa số trường hợp brick cần phục hồi MLC đều do lỗi người dùng.
 
-If you want a full backup including MLC, and have a black Wii U (32GB) model, your SD card must be at least 64GB in size. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
+Nếu bạn muốn tạo bản backup đầy đủ bao gồm cả MLC và máy Wii U của bạn màu đen (mẫu 32gb), thẻ SD của bạn phải có dung lương ít nhất 64gb. Nếu bạn dùng máy Wii U màu trắng (8GB), thẻ SD phải có dung lượng ít nhất là 16GB.
 {% endcapture %}
 
 <div class="notice--info">{{ notice-1 | markdownify }}</div>
 
-1. Mở Homebrew Launcher bằng cách giữ (A) khi game DS vỏ Haxchi đang khởi động
-1. Mở nanddumper
+1. Khi đang ở Homebrew Launcher, chạy chương trình nanddumper
+  + Nếu bạn đã rời khỏi Homebrew Launcher, có thể quay lại bằng cách chạy lại trình duyệt và đến địa chỉ `wiiuexploit.xyz`
 1. Dùng D-pad chọn như sau:
   + Dump SLC (528MB): **yes**
   + Dump SLCCMPT (528MB): **yes**
@@ -27,11 +27,11 @@ If you want a full backup including MLC, and have a black Wii U (32GB) model, yo
   + Dump OTP (1KB): **yes**
   + Dump SEEPROM (1KB): **yes**
 1. Bấm (A) để dump NAND
-  + Be prepared to wait; this can take a while (up to several hours depending on the options you enabled)
+  + Cần kiên nhẫn vì quá trình cài đặt sẽ mất khá nhiều thời gian (có thể lên đến vài tiếng tùy vào mục bạn đã chọn)
 1. Khi dump xong, máy Wii U sẽ tự khởi động lại
 1. Tắt máy đi
 1. Lắp thẻ nhớ SD vào máy tính
-1. Copy `slc.bin`, `slccmpt.bin`, `otp.bin`, and `seeprom.bin`, and each `mlc.bin.part` file (if you chose to backup the MLC partition) from the root of your SD card to a safe location on your computer
+1. Copy các file `slc.bin`, `slccmpt.bin`, `otp.bin`, `seeprom.bin`, và từng phần có tên `mlc.bin.part` (nếu bạn chọn sao lưu phân vùng MLC) từ thư mục gốc của thẻ nhớ vào một nơi dễ nhớ trong máy tính
   + Lưu file backup ở nhiều chỗ (như tải lên mạng)
   + Những backup này sẽ giúp bạn phục hồi máy bị brick hoặc lấy lại file gốc của NAND nếu xảy ra sự cố
 1. Lắp thẻ nhớ SD vào thiết bị
