@@ -15,6 +15,7 @@ Bước này sẽ cài Homebrew Channel và các mod cần thiết khác cho vi�
 * Phiên bản mới nhất của [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Phiên bản mới nhất của [Hackmii Installer](https://bootmii.org/download/)
 * A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 
 ### Hướng dẫn
 
@@ -27,6 +28,7 @@ Bước này sẽ cài Homebrew Channel và các mod cần thiết khác cho vi�
 1. Chép thư mục `apps` từ gói `vWii_cIOS_apps_20131218.zip` vào thư mục gốc của thẻ nhớ
 1. Chép thư mục `apps` từ gói `Patched_IOS80_Installer_for_vWii.zip` vào thư mục gốc của thẻ nhớ
 1. Chép các file trong gói Homebrew Launcher `.zip` vào thư mục gốc của thẻ nhớ
+1. Chép các file trong gói payload `.zip` vào thư mục wiiu trên thẻ SD
 1. Lắp thẻ nhớ SD vào thiết bị
 1. Bật thiết bị lên
 
@@ -64,6 +66,7 @@ Backup NAND sẽ giúp bạn phục hồi lại vWii trên máy nếu có sự c
 1. Gắn thẻ nhớ từ Wii U vào máy tính
 1. **Chép file `nand.bin` và `keys.bin` từ thư mục gốc của thẻ nhớ vào nơi dễ nhớ trong máy tính của bạn, sao lưu chúng trên nhiều phương tiện (như các host lưu trữ online); bản backup này sẽ là cứu cánh nếu chẳng may vWii bị brick**
 1. Xóa tập tin `nand.bin` và `keys.bin` có trong thư mục gốc của thẻ nhớ
+1. Lắp thẻ nhớ SD vào thiết bị
 
 #### Phần III - Cài đặt cIOS
 
