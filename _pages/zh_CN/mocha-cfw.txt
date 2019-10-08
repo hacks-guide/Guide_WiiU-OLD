@@ -8,9 +8,9 @@ title: "Mocha 自制系统"
 
 Mocha是用于写入跳过签名检查补丁、区域补丁以及在后台运行其他自定义程序的自制系统。
 
-如果要使用 Mocha 自制系统，则你需要在每次重启主机时，通过浏览器进入 Homebrew Launcher，并重新启动 Mocha 自制系统。
+如果要使用 Mocha 自制系统，则你需要在每次重启主机时通过浏览器进入 Homebrew Launcher 并启动 Mocha 自制系统。
 
-### 准备工作
+### 你需要准备点啥？
 
 + 你的 SD 卡中的 `/wiiu/apps/mocha/` 文件夹中应该有在[新手入门](get-started)中下载的 `config.ini`
 
