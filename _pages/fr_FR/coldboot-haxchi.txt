@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) change le programme par défaut du menu système en votre jeu console virtuelle DS. Cela entraîne le lancement automatique du CFW au démarrage de votre appareil.
 
-Cet exploit est légèrement plus dangereux que juste Haxchi car votre jeu console virtuelle DS est le *seul* moyen de démarrer le système. If this game is ever deleted or moved to USB storage while CBHC is installed, you will BRICK!
+Cet exploit est légèrement plus dangereux que juste Haxchi car votre jeu console virtuelle DS est le *seul* moyen de démarrer le système. Si ce jeu est supprimé ou déplacé sur le stockage USB pendant que CBHC est installé, votre console va BRICKER !
 
 {% capture notice-1 %}
 Vous DEVEZ avoir mis en place Haxchi pour pouvoir utiliser CBHC. Si vous ne l'avez pas fait et que vous suivez ces instructions, votre console va BRICKER !
