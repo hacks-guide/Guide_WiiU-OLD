@@ -14,7 +14,8 @@ title: "Модификация vWii"
 * [Patched_IOS80_Installer_for_vWii.zip]({{ "/assets/files/Patched_IOS80_Installer_for_vWii.zip" | absolute_url }}){:download}
 * Свежая версия [WUPhax](http://wiiubru.com/appstore/zips/wuphax.zip)
 * Свежая версия [Hackmii Installer](https://bootmii.org/download/)
-* A previous release (v1.4) of [the Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(the homebrew_launcher.v1.4 `.zip` file)*
+* Предыдущая версия (v1.4) [Homebrew Launcher](https://github.com/dimok789/homebrew_launcher/releases/tag/1.4) *(`.zip-архив` homebrew_launcher.v1.4)*
+* Свежая версия [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(`.zip-архив` payload)*
 
 ### Инструкция
 
@@ -27,6 +28,7 @@ title: "Модификация vWii"
 1. Скопируйте папку `apps` из архива `vWii_cIOS_apps_20131218.zip` в корень вашей SD-карты
 1. Скопируйте папку `apps` из архива `Patched_IOS80_Installer_for_vWii.zip` в корень вашей SD-карты
 1. Скопируйте *содержимое* `.zip-архива` с Homebrew Launcher в корень SD-карты
+1. Скопируйте *содержимое* `.zip-архива` с payload в папку `/wiiu/` на SD-карте
 1. Вставьте SD-карту обратно в консоль
 1. Включите консоль
 
@@ -64,6 +66,7 @@ title: "Модификация vWii"
 1. Вставьте SD-карту Wii U в компьютер
 1. **Скопируйте `nand.bin` и `keys.bin` из корня SD-карты в надежное место на компьютере и сделайте несколько копий в разных местах (например, в онлайн-хранилище); резервная копия NAND поможет восстановить работоспособность vWii в случае, если что-то пойдет не так**
 1. Удалите `nand.bin` и `keys.bin` из корня SD-карты
+1. Вставьте SD-карту обратно в консоль
 
 #### Часть IV - Установка cIOS
 
