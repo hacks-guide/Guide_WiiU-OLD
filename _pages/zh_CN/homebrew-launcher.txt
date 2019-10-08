@@ -13,8 +13,8 @@ Homebrew Launcher 是一个可以列出 SD 卡中的自制程序并启动它们�
 ### 操作步骤
 
 1. 访问 `wiiuexploit.xyz`
-  + 你可以将此地址加入收藏夹，以便将来可以更方便地访问它
-1. 选择 “Run Homebrew Launcher” 来尝试第一次漏洞触发。
+  + 你可以将此地址加入收藏夹，将来可以更便捷的地访问
+1. 选择 “Run Homebrew Launcher” 来尝试第一次漏洞触发
   + 如果设备死机了，请长按电源键关闭设备，然后再试一次
 1. 此时你的主机应该进入到 Homebrew Launcher了
 
