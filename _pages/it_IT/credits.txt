@@ -5,7 +5,7 @@ title: "Riconoscimenti"
 **Un ringraziamento speciale a [tutti i traduttori](https://crowdin.com/project/wii-u-guide)! Siete fantastici!**
 {: .notice--primary}
 
-If I forgot you here, contact me and I'll add your name.
+Se ho dimenticato di inserirti in questa lista, contattami e ti aggiungerò.
 
 {% capture notice-1 %}
 

@@ -8,7 +8,7 @@ title: "Bắt đầu"
 
 Bước này sẽ giúp bạn chuẩn bị thẻ nhớ SD để cài CFW Haxchi hoặc Coldboot Haxchi.
 
-Trước khi bắt đầu, bạn cần kiểm tra xem máy Wii U của mình hiện có đang ở firmware từ 5.5.0 đến 5.5.3 không. Các firmware thấp hơn hiện không được hỗ trợ cài bản hack này.
+Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, 5.5.3 or 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are not currently supported.
 
 Thẻ SD dùng để hack phải có dung lượng ít nhất từ 16GB cho đến 32GB để có đủ chỗ dump và cài game. Nếu muốn tạo backup file hệ thống của máy Wii U để phục hồi sau này, bạn cần dùng thẻ SD có dung lượng ít nhất phải gấp đôi dung lượng hệ thống của máy (thẻ 16GB cho máy trắng 8GB; thẻ 64GB cho máy đen 32GB).
 
@@ -25,7 +25,7 @@ Trước khi bắt đầu, bạn nên kiểm tra lỗi của thẻ nhớ SD bằ
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* Phiên bản mới nhất của [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest)
+* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(the wiiu-extracttosd `.zip` file)*
 * The latest release of [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(the payload `.zip` file)*
 * Phiên bản mới nhất của [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * Phiên bản mới nhất của [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -49,7 +49,7 @@ Bản mới nhất của [Wii U NAND Dumper](https://github.com/koolkdev/wiiu-na
 1. Lắp thẻ nhớ SD vào máy tính
 1. Tạo thư mục tên `wiiu` trên thư mục gốc của thẻ nhớ
 1. Tạo thư mục tên `install` trên thư mục gốc của thẻ nhớ
-1. Chép thư mục `apps` trong gói Homebrew App Store`.zip` vào thư mục `/wiiu/` trên thẻ nhớ
+1. Copy *the contents of* the wiiu-extracttosd `.zip` to the root of your SD card
 1. Chép các file trong gói payload `.zip` vào thư mục wiiu trên thẻ SD
 1. Chép các file trong gói Homebrew Launcher (v1.4) `.zip` vào thư mục gốc thẻ nhớ
 1. Chép các file trong gói Haxchi `.zip` vào thư mục gốc thẻ nhớ

@@ -5,13 +5,13 @@ title: "FAQ"
 <a name="faq_latestfw" />**D:** *Ho installato l'ultima versione di sistema, posso comunque installare un custom firmware?*    
 **A:** Si
 
-<a name="faq_oldfw" />**D:** *Ho una Wii U alla versione X.X.X. What can / should I do with it?*    
-**A:** This guide is only compatible with versions 5.5.0 to 5.5.3. Versioni precedenti non sono al momento supportate.
+<a name="faq_oldfw" />**D:** *Ho una Wii U alla versione X.X.X. Cosa posso / dovrei fare?*    
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are incompatible for now.
 
 <a name="faq_updates" />**D:** *Ora che Nintendo ha smesso di produrre Wii U, non ci saranno più aggiornamenti?*    
-**R:** No! The versions 5.5.2 and 5.5.3 released well after the end of production. This is why you must always ensure that you have set DNS servers that will block updates.
+**R:** No! The versions 5.5.2, 5.5.3 and 5.5.4 released well after the end of production. Per questo motivo devi sempre garantire di aver impostato i server DNS che bloccheranno gli aggiornamenti.
 
-<a name="faq_update" />**Q:** *Is it safe to update a Wii U on CFW?*    
+<a name="faq_update" />**D:** *È sicuro aggiornare una Wii U con CFW?*    
 **R:** No! Assicurati di aver sempre impostati i server DNS che bloccano gli aggiornamenti.
 
 <a name="faq_updatemocha" />**D:** *Come aggiorno Mocha CFW all'ultima versione?*    
@@ -24,13 +24,13 @@ title: "FAQ"
 **R:** Sì! Questa guida non solo ti permette di avviare l'Homebrew Launcher, ma le funzionalità aggiuntive permangono anche dopo un aggiornamento di sistema.
 
 <a name="faq_regionfree" />**D:** *Potrò giocare a giochi comprati all'estero?*    
-**R:** Sì! CFW supports Region Free patches, which enables users to install games from any region without any extra modification or steps.
+**R:** Sì! Il CFW supporta le patch Region Free, che consentono di installare senza problemi giochi di qualsiasi regione.
 
 <a name="faq_support" />**D:** *Dove posso andare se dovessi aver bisogno di ulteriore supporto?*    
 **R:** Se hai bisogno di aiuto, chiedi pure su [Nintendo Homebrew su Discord](https://discord.gg/MWxPgEp) (in inglese).
 
 <a name="faq_sdsize" />**D:** *Quanto grande deve essere la mia scheda SD?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**R:** La tua scheda SD dovrebbe essere da almeno 16GB o 32GB per poter installare e creare dei backup dei tuoi giochi. Se vuoi eseguire un backup completo della NAND di una Wii U bianca (8GB), la tua scheda SD deve essere da almeno 16GB. Se vuoi eseguire un backup completo della NAND di una Wii U nera (32GB), la tua scheda SD deve essere da almeno 64GB.
 
 <a name="faq_NNID" />**D:** *Posso mantenere il mio NNID?*    
 **R:** Se parti con un NNID assegnato e segui correttamente ogni passaggio, al termine della guida avrai mantenuto il tuo NNID originale.

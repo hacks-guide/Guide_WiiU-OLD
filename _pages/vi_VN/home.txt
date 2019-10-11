@@ -56,7 +56,7 @@ Khi làm theo đến cuối hướng dẫn này, máy Wii U chưa hack của b�
 ## Tôi cần biết gì trước khi bắt đầu?
 
 + **Trước khi bắt đầu bản hướng dẫn, bạn cần biết nguy cơ của việc hack máy Wii U: MỖI LẦN bạn thực hiện tùy chỉnh hệ thống trái phép, luôn có khả năng máy sẽ bị brick KHÔNG PHỤC HỒI ĐƯỢC. Dù khá hiếm khi xảy ra, nguy cơ vẫn luôn có nên cần đảm bảo rằng bạn làm theo TẤT CẢ hướng dẫn MỘT CÁCH CHÍNH XÁC.**
-+ Hướng dẫn này áp dụng trên mọi máy Wii U thuộc mọi phân vùng có firmware từ 5.5.0 tới 5.5.3.
++ This guide will work on all Wii U devices in all regions on the version 5.5.0 to 5.5.4. (Currently the 5.5.4 update is for European consoles only.)
 + Nếu hoàn thành tất cả các bước, bạn sẽ không bị mất dữ liệu nào và giữ được mọi thiết lập sẵn có (game, NNID, save game, v. v... đều được lưu giữ).
 + Thẻ SD dùng để hack phải có dung lượng ít nhất từ 16GB cho đến 32GB để có đủ chỗ dump và cài game.
 + Thẻ SD phải ở định dạng [MBR, không phải GPT] , xem thêm tại (http://www.howtogeek.com/245610/).

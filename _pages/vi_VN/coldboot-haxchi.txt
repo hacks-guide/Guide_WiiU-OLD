@@ -8,7 +8,7 @@ title: "Coldboot Haxchi"
 
 CBHC (Coldboot Haxchi) đổi app hệ thống trong giao diện chính thành game mồi DS. Qua đó máy sẽ tự chạy CFW mỗi khi khởi động.
 
-Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. If this game is ever deleted or moved to USB storage while CBHC is installed, you will BRICK!
+Cách hack này có phần nguy hiểm hơn Haxchi thường vì biến game mồi DS thành *cách duy nhất* để chạy được hệ thống. Nếu game mồi này bị xóa hoặc di chuyển vào thiết bị lưu trữ usb khi đã cài CBHC vào máy, máy bạn sẽ BRICK!
 
 {% capture notice-1 %}
 Bạn CẦN PHẢI cài sẵn Haxchi để thực hiện bước này. Nếu không, máy sẽ BRICK!

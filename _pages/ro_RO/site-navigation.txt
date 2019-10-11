@@ -21,7 +21,7 @@ sitemap: false
 + [Homebrew Launcher (Canal)](homebrew-launcher-(soundhax))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [NAND Backup](nand-backup)
++ [Copie de reezervă NAND](nand-backup)
 + [Dezinstalând Mocha CFW](uninstall-cfw)
 + [Modare vWii](vwii-modding)
 + [De ce sunt reclame?](why-ads)

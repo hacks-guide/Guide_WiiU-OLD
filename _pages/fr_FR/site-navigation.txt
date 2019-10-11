@@ -21,7 +21,7 @@ sitemap: false
 + [Homebrew Launcher (Channel)](homebrew-launcher-(channel))
 + [Homebrew Launcher](homebrew-launcher)
 + [Mocha CFW](mocha-cfw)
-+ [NAND Backup](nand-backup)
++ [Sauvegarde de la NAND](nand-backup)
 + [Désinstallation du CFW](uninstall-mocha-cfw)
 + [vWii Modding](vwii-modding)
 + [Pourquoi des pubs ?](why-ads)

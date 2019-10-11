@@ -20,5 +20,5 @@ La méthode de lancement de HBL nécessite que votre Wii U soit raccordée à in
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### Continuer vers [Sauvegarde de la NAND](nand-backup)
 {: .notice--primary}

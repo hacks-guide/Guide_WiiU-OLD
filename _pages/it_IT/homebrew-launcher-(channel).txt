@@ -6,16 +6,16 @@ title: "Homebrew Launcher (Canale)"
 
 ### Lettura necessaria
 
-This will install the Homebrew Channel so that, as long as Custom Firmware is being used, the Homebrew Launcher will appear as an icon on the system menu.
+Questo installerà l'Homebrew Channel in modo che, finché verrà utilizzato il Custom Firmware, l'Homebrew Launcher apparirà come icona nel menu di sistema.
 
 ### Istruzioni
 
-#### Section I - Installing the Homebrew Launcher Channel
+#### Sezione I - Installazione del Canale Homebrew Launcher
 
 1. Entra nell'Homebrew Launcher
   + Gli utenti di CBHC devono premere (Home) all'avvio di CBHC per poter accedere alle opzioni di avvio di CBHC, selezionando poi l'Homebrew Launcher
-  + Haxchi users must launch Haxchi once to enable custom firmware, then run it a second time while holding (A) to launch the Homebrew Launcher
-  + Mocha CFW users should already have entered this
+  + Gli utenti Haxchi devono avviare Haxchi una volta per abilitare il custom firmware e una seconda volta tenendo premuto (A) per avviare l'Homebrew Launcher
+  + Gli utilizzatori di Mocha CFW dovrebbero già essere dentro
 1. Avvia WUP Installer GX2
   + Se WUP Installer GX2 crasha con l'errore "DSi Exception Has Occurred", spegni la console e riprova.
 1. Seleziona l'Homebrew Channel
@@ -23,28 +23,28 @@ This will install the Homebrew Channel so that, as long as Custom Firmware is be
 1. Seleziona "NAND" come destinazione
 1. Premi (Home), quindi chiudi il software appena finisce l'installazione
 
-#### Section II - Blocking System Updates
+#### Sezione II - Bloccare gli aggiornamenti
 
-Note that, to access the eShop with these DNS addresses set, you must first run NNU-Patcher through the Homebrew Launcher. Additionally note that NNU-Patcher is a temporary patch and will need to be ran again if you need to access the eShop after a reboot.
+Per poter accedere all'eShop dopo aver impostato questi indirizzi DNS, devi prima avviare NNU-Patcher attraverso l'Homebrew Launcher. Inoltre, NNU-Patcher è una patch temporanea e quindi dovrà essere avviata di nuovo se si ha intenzione di avviare l'eShop dopo aver riavviato la console.
 
-Note that, unless you block updates with this method on all current and future connections, updates on the Wii U are performed *automatically* and *cannot* be disabled. 
+Nota che, se non blocchi gli aggiornamenti su questa connessione o su quelle future con questo metodo, la Wii U si aggiornerà automaticamente. 
 {: .notice--danger}
 
-1. Go to the "System Settings", then "Internet", then "Connect to the Internet" then press (X) to display your current network connections
-1. For each of your connections (and all future connections), do the following
-  + Select the connection
-  + Select "Change Settings"
-  + Move to the second list and choose "DNS"
-  + Set the DNS to "Don't Auto-Obtain"
-  + Set the DNS server IPs to the following servers
+1. Vai nelle Impostazioni della Console, quindi Internet, quindi "Connettiti ad Internet" e premi (X) per far apparire le tue connessioni internet
+1. Per ogni connessione presente (e anche per le eventuali connessioni future), segui i seguenti passaggi
+  + Seleziona la connessione
+  + Seleziona "Cambia Impostazioni"
+  + Seleziona la seconda lista e scegli "DNS"
+  + Seleziona in DNS "Non ottenere automaticamente"
+  + Inserisci i seguenti indirizzi IP del DNS
   + {:.bigdns} `168.235.092.108`
   + {:.bigdns} `081.004.127.020`
-  + Select "Confirm", then press (B) to save
-  + These servers will block your device from being updated
+  + Seleziona "Conferma", quindi premi (B) per salvare le impostazioni
+  + Questi server bloccheranno l'aggiornamento del dispositivo
 
 ___
 
-You can now launch the Homebrew Launcher on custom firmware just by launching the Homebrew Channel.
+Adesso puoi avviare l'Homebrew Launcher nel custom firmware semplicemente avviando l'Homebrew Channel.
 {: .notice--info}
 
 Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, dovrai prima avviare NNU-Patcher attraverso l'Homebrew Launcher (NNU-Patcher è una patch temporanea e dovrai riavviarla nel caso tu riavvi la console).
@@ -53,7 +53,7 @@ Nota bene che se intendi avviare l'eShop con gli indirizzi IP del DNS bloccati, 
 Per informazioni su come creare un backup dei tuoi dischi in un formato che permette di giocarli senza necessitare il disco, visita la pagina [disc2app](disc2app).
 {: .notice--success}
 
-For information on installing vWii mods on custom firmware, check out the [vWii Modding](vwii-modding) page.
+Per informazioni su come modificare la vWii del custom firmware, visita la pagina [Modifica vWii](vwii-modding).
 {: .notice--success}
 
 Per informazioni su come disinstallare CFW in tutta sicurezza, visita la pagina [Disinstallare CFW](uninstall-cfw).

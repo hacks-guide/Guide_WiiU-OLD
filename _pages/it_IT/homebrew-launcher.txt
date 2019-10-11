@@ -12,13 +12,13 @@ Lo avviamo utilizzando il browser internet della Wii U, quindi quest'ultima dovr
 
 ### Istruzioni
 
-1. Go to `wiiuexploit.xyz`
+1. Vai su `wiiuexploit.xyz`
   + Sarebbe meglio mettere questo sito nei preferiti in modo tale da non perdere tempo successivamente
-1. Select "Run Homebrew Launcher" for the first exploit attempt
-  + If it freezes, just force the console to power off by holding the power button, then try again
+1. Seleziona "Run Homebrew Launcher" per eseguire il primo tentativo di exploit
+  + Se la console dovesse bloccarsi, forzane lo spegnimento tenendo premuto il pulsante di accensione, quindi riprova
 1. La console dovrebbe ora avviare l'Homebrew Launcher
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### Continua a [creare un backup della NAND](nand-backup)
 {: .notice--primary}

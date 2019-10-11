@@ -6,10 +6,10 @@ title: "Întrebări frecvente"
 **R:** Da
 
 <a name="faq_oldfw" />**Î:** *Am un Wii U pe firmware-ul xxx. Ce pot / trebuie să fac cu el?*    
-**R:** Acest ghid este compatibil numai cu versiunile de la 5.5.0 la 5.5.3. Versiunile mai vechi sunt incompatibile deocamdată.
+**A:** This guide is only compatible with versions 5.5.0 to 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are incompatible for now.
 
 <a name="faq_updates" />**Î:** *Acum că Nintendo termină producţia pentru Wii U, asta înseamnă că nu se vor mai efectua actualizări?*    
-**R:** Nu! Versiunile 5.5.2 și 5.5.3 au fost lansate exact după terminarea producţiei. De aceea trebuie să vă asigurați mereu că aţi setat serverele DNS, care vor bloca actualizările.
+**R:** Nu! The versions 5.5.2, 5.5.3 and 5.5.4 released well after the end of production. De aceea trebuie să vă asigurați mereu că aţi setat serverele DNS, care vor bloca actualizările.
 
 <a name="faq_update" />**Î:** *Este în regulă să actualizez un Wii U cu CFW?*    
 **R:** Nu! De aceea trebuie sa va asigurati mereu că aţi setat serverele DNS, care vor bloca actualizările.
@@ -30,7 +30,7 @@ title: "Întrebări frecvente"
 **R:** Pentru suport, cereți ajutor la [Nintendo Homebrew pe Discord](https://discord.gg/MWxPgEp).
 
 <a name="faq_sdsize" /> **Î:** *Cât de mare trebuie să fie cardul SD?*    
-**A:** Your SD card is recommended to be at least 16GB or 32GB to have enough space to dump and install games. If you want to do a full NAND backup of a white (8GB) Wii U model, your SD card needs to be at least 16GB in size. If you want to do a full NAND backup of a black (32GB) Wii U model, your SD card needs to be at least 64GB in size.
+**R:** Cardul SD este recomandat să fie cel puțin 16GB sau 32GB pentru a avea spaţiu suficient pentru descărcarea și instalarea de jocuri. Dacă doriți să faceți o copie completă la NAND pe o consolă Wii U albă (8GB), cardul SD trebuie să aibă cel puțin 16GB. Dacă doriți să faceți o copie completă la NAND pe o consolă Wii U neagră (32GB), cardul SD trebuie să aibă cel puțin 64GB.
 
 <a name="faq_NNID" />**Î:** *Îmi pot păstra NNID-ul?*    
 **R:** Dacă începeți cu un NNID și urmați fiecare pas, o să vă păstrați NNID-ul la final.

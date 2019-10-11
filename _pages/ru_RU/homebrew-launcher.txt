@@ -20,5 +20,5 @@ Homebrew Launcher - приложение, выводящее в виде спи�
 
 ___
 
-### Continue to [Creating a NAND backup](nand-backup)
+### Следующий шаг: [Резервная копия NAND](nand-backup)
 {: .notice--primary}
