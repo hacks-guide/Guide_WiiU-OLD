@@ -60,6 +60,7 @@ This NAND backup will allow you to restore your vWii to a working state if anyth
 
 1. Launch the Homebrew Channel on vWii
 1. Launch Dump Mii NAND
+1. Select "Load"
   + Be prepared to wait; this can take a while (up to several hours depending on the speed of your SD card)
 1. When it has completed, your Wii U will reboot automatically
 1. Power off your Wii U
