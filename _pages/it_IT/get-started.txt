@@ -8,7 +8,7 @@ title: "Cominciamo!"
 
 Questi passaggi ti aiuteranno a prepare la tua scheda SD per poter installare un custom firmware basato su Coldboot Haxchi.
 
-Before beginning, you should make sure your Wii U is currently on firmware version 5.5.0, 5.5.1, 5.5.2, 5.5.3 or 5.5.4. (Currently, the 5.5.4 update is for European consoles only.) Older versions are not currently supported.
+Prima di iniziare, dovresti assicurarti che la tua Wii U è attualmente nella versione 5.5.0, 5.5.1, 5.5.2, 5.5.3 o 5.5.4. (Attualmente, l'aggiornamento 5.5.4 è solo per le console Europee.) Le versioni più vecchie non sono ancora supportate.
 
 La tua scheda SD dovrebbe avere almeno 16GB o 32GB liberi per poter installare e creare dei backup dei tuoi giochi. Se hai intenzione di creare un backup del sistema della Wii U per poterlo poi ripristinare in futuro, avrai bisogno di una scheda SD con almeno due volte lo spazio della memoria di sistema della tua Wii U (una scheda SD da 16GB per la console bianca da 8GB; una scheda SD da 64GB per la console nera da 32GB).
 
@@ -25,7 +25,7 @@ Prima di iniziare è consigliabile verificare che la tua scheda SD sia priva di 
 
 * [config.txt]({{ "/assets/files/config.txt" | absolute_url }}){:download="config.txt"}
 * [config.ini]({{ "/assets/files/config.ini" | absolute_url }}){:download="config.ini"}
-* The latest release of [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(the wiiu-extracttosd `.zip` file)*
+* L'ultima versione di [Homebrew App Store](https://github.com/vgmoose/hbas/releases/latest) *(il file wiiu-extracttosd `.zip`)*
 * L'ultima versione di [Homebrew Launcher Installer](https://github.com/wiiu-env/homebrew_launcher_installer/releases/latest) *(il file del payload con estensione `.zip`)*
 * L'ultima versione di [WUP Installer GX2](http://wiiubru.com/appstore/zips/wup_installer_gx2.zip)
 * L'ultima versione di [disc2app](https://github.com/koolkdev/disc2app/releases/latest)
@@ -49,7 +49,7 @@ Per ogni passo in questa sezione, sovrascrivi tutti i file esistenti sulla tua s
 1. Inserisci la scheda SD nel tuo computer
 1. Crea una cartella chiamata `wiiu` nella root della tua scheda SD
 1. Crea una cartella chiamata `install` nella root della tua scheda SD
-1. Copy *the contents of* the wiiu-extracttosd `.zip` to the root of your SD card
+1. Copia *il contenuto* dello `.zip` wiiu-extracttosd nella root della tua scheda SD
 1. Copia *il contenuto* dello `.zip` del payload nella cartella wiiu della tua scheda SD
 1. Copia *il contenuto* dello `.zip` di Homebrew Launcher (v1.4) nella root della tua scheda SD
 1. Copia *il contenuto* dello `.zip` di Haxchi nella root della tua scheda SD
