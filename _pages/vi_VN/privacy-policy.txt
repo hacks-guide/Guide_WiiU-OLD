@@ -21,8 +21,6 @@ Trang web này sử dụng Google Analytics để theo dõi và phân tích lưu
 
 Trang web này không thu thập thông tin cá nhân. Nhưng nó có thể sẽ thu thập thông tin sử dụng để phân tích sự quan tâm đến nội dung và cung cấp cho nhà quảng cáo thông tin trên cơ sở tổng hợp. Không có thông tin nhận dạng cá nhân nào được chia sẻ với các công ty quảng cáo bên thứ ba.
 
-Các máy chủ hoặc mạng quảng cáo của bên thứ ba khác cũng có thể sử dụng cookie để theo dõi hoạt động của người dùng trên trang web này để đo lường hiệu quả quảng cáo hoặc vì các lý do khác được cung cấp trong chính sách bảo mật của họ. Trang web này không có quyền truy cập hoặc kiểm soát bất kỳ cookie nào có thể được sử dụng bởi các nhà quảng cáo bên thứ ba.
-
 ### Trang web của bên thứ ba
 
 Trang web này có thể liên kết đến các trang web khác để người dùng sử dụng hoặc tham khảo. Trang không chịu trách nhiệm cho các chính sách bảo mật của các trang web khác. Người dùng nên lưu ý rằng chính sách quyền riêng tư của các trang web khác có thể khác với nơi đây.
