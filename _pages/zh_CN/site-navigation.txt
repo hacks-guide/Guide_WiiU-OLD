@@ -24,6 +24,5 @@ sitemap: false
 + [NAND 备份](nand-backup)
 + [卸载 Mocha 自制系统](uninstall-cfw)
 + [vWii模式破解](vwii-modding)
-+ [为什么有广告?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
