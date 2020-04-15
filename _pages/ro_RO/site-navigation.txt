@@ -24,6 +24,5 @@ sitemap: false
 + [Copie de reezervă NAND](nand-backup)
 + [Dezinstalând Mocha CFW](uninstall-cfw)
 + [Modare vWii](vwii-modding)
-+ [De ce sunt reclame?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
