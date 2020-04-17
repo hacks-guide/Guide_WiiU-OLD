@@ -24,6 +24,5 @@ sitemap: false
 + [NAND Backup](nand-backup)
 + [Avinstallera Mocha CFW](uninstall-cfw)
 + [vWii Modding](vwii-modding)
-+ [Varför reklam?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

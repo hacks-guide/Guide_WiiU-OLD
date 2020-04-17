@@ -21,14 +21,10 @@ Trang web này sử dụng Google Analytics để theo dõi và phân tích lưu
 
 Trang web này không thu thập thông tin cá nhân. Nhưng nó có thể sẽ thu thập thông tin sử dụng để phân tích sự quan tâm đến nội dung và cung cấp cho nhà quảng cáo thông tin trên cơ sở tổng hợp. Không có thông tin nhận dạng cá nhân nào được chia sẻ với các công ty quảng cáo bên thứ ba.
 
-Google (với tư cách là nhà cung cấp quảng cáo bên thứ ba) sử dụng cookie để đăng quảng cáo trên trang web này. Việc Google sử dụng cookie dạng DART cho phép họ cung cấp quảng cáo cho khách truy cập dựa trên lượt truy cập của họ vào trang web này cũng như các trang web khác. Để từ chối cookie DART, hãy xem [Chính sách bảo mật quảng cáo của Google] (http://www.google.com/polaho/technology/ads/).
-
-Các máy chủ hoặc mạng quảng cáo của bên thứ ba khác cũng có thể sử dụng cookie để theo dõi hoạt động của người dùng trên trang web này để đo lường hiệu quả quảng cáo hoặc vì các lý do khác được cung cấp trong chính sách bảo mật của họ. Trang web này không có quyền truy cập hoặc kiểm soát bất kỳ cookie nào có thể được sử dụng bởi các nhà quảng cáo bên thứ ba.
-
 ### Trang web của bên thứ ba
 
 Trang web này có thể liên kết đến các trang web khác để người dùng sử dụng hoặc tham khảo. Trang không chịu trách nhiệm cho các chính sách bảo mật của các trang web khác. Người dùng nên lưu ý rằng chính sách quyền riêng tư của các trang web khác có thể khác với nơi đây.
 
 ### Thay đổi chính sách bảo mật
 
-Nội dung của Chính sách quyền riêng tư này có thể được thay đổi bất cứ lúc nào và vì bất kỳ lý do gì. Đối với các câu hỏi liên quan đến chính sách quyền riêng tư của trang web này, hãy liên hệ với [plailect @ gmail] (mailto: plailect@gmail.com).
+Nội dung của Chính sách quyền riêng tư này có thể được thay đổi bất cứ lúc nào và vì bất kỳ lý do gì.

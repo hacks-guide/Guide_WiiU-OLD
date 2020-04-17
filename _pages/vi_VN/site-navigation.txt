@@ -24,6 +24,5 @@ sitemap: false
 + [NAND Backup](nand-backup)
 + [Gỡ Mocha CFW](uninstall-cfw)
 + [Hack vWii](vwii-modding)
-+ [Sao lại có QC?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>

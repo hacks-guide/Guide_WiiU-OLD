@@ -24,6 +24,5 @@ sitemap: false
 + [Резервная копия NAND](nand-backup)
 + [Удаление кастомной прошивки](uninstall-cfw)
 + [Модификация vWii](vwii-modding)
-+ [Зачем реклама?](why-ads)
 {% endcapture %}
 <div class="notice--primary">{{ notice-2 | markdownify }}</div>
